@@ -436,7 +436,7 @@
         "person_id": "I251",
         "person_name": "Giles Hopkins",
         "event_type": "birth",
-        "date_text": "As reported: baptized 30 Jan 1607/08",
+        "date_text": "baptized 30 JAN 1607/08",
         "year_min": 1607,
         "year_max": 1607,
         "date_is_approximate": false,
@@ -535,6 +535,35 @@
     },
     {
       "type": "Feature",
+      "id": "evt-i256-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.39067,
+          51.02536
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i256-death",
+        "person_id": "I256",
+        "person_name": "Mary Hopkins",
+        "event_type": "death",
+        "date_text": "BEF 9 MAY 1613",
+        "year_min": 1613,
+        "year_max": 1613,
+        "date_is_approximate": true,
+        "place_original": "Hursley, Hampshire, England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "evt-i260-birth",
       "geometry": {
         "type": "Point",
@@ -576,7 +605,7 @@
         "person_id": "I254",
         "person_name": "Catherine Whelden Hopkins",
         "event_type": "birth",
-        "date_text": "As reported: baptized 6 Mar 1616/17",
+        "date_text": "baptized 6 MAR 1616/17",
         "year_min": 1616,
         "year_max": 1616,
         "date_is_approximate": false,
@@ -894,7 +923,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S46"
         ]
       }
     },
@@ -1222,10 +1252,10 @@
         "person_id": "I260",
         "person_name": "Richard Knowles",
         "event_type": "death",
-        "date_text": "between 1670 and 1675",
+        "date_text": "BET 1670 and 1675",
         "year_min": 1670,
         "year_max": 1675,
-        "date_is_approximate": true,
+        "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
         "branch": "Unspecified",
@@ -1418,7 +1448,7 @@
         "person_id": "I245",
         "person_name": "Joshua Cooke",
         "event_type": "birth",
-        "date_text": "As reported: 4 Feb 1682/83",
+        "date_text": "4 FEB 1682/83",
         "year_min": 1682,
         "year_max": 1682,
         "date_is_approximate": false,
@@ -1427,7 +1457,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S46"
         ]
       }
     },
@@ -1455,7 +1486,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S46"
         ]
       }
     },
@@ -1531,7 +1563,7 @@
         "person_id": "I258",
         "person_name": "John Doane",
         "event_type": "death",
-        "date_text": "As reported: 21 Feb 1685/86",
+        "date_text": "21 FEB 1685/86",
         "year_min": 1685,
         "year_max": 1685,
         "date_is_approximate": false,
@@ -1671,10 +1703,10 @@
         "person_id": "I251",
         "person_name": "Giles Hopkins",
         "event_type": "death",
-        "date_text": "As reported: between 5 Mar 1688/89 and 16 Apr 1690",
+        "date_text": "BET 5 MAR 1688/89 and 16 APR 1690",
         "year_min": 1688,
         "year_max": 1690,
-        "date_is_approximate": true,
+        "date_is_approximate": false,
         "place_original": "Eastham, Massachusetts",
         "side": "Paternal",
         "branch": "Unspecified",
@@ -1939,6 +1971,35 @@
     },
     {
       "type": "Feature",
+      "id": "evt-i165-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.468515,
+          37.791578
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i165-birth",
+        "person_id": "I165",
+        "person_name": "Mary Ford",
+        "event_type": "birth",
+        "date_text": "BET 1729 AND 1730",
+        "year_min": 1729,
+        "year_max": 1730,
+        "date_is_approximate": false,
+        "place_original": "Virginia",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "B",
+        "source_refs": [
+          "S8",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "evt-i247-death",
       "geometry": {
         "type": "Point",
@@ -1952,7 +2013,7 @@
         "person_id": "I247",
         "person_name": "Josiah Cooke",
         "event_type": "death",
-        "date_text": "As reported: 31 Jan 1731/32",
+        "date_text": "31 JAN 1731/32",
         "year_min": 1731,
         "year_max": 1731,
         "date_is_approximate": false,
@@ -2642,7 +2703,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -2699,7 +2761,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -2839,7 +2902,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -3065,7 +3129,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -3122,7 +3187,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -3180,7 +3246,8 @@
         "confidence": "B",
         "source_refs": [
           "S2",
-          "S21"
+          "S21",
+          "S48"
         ]
       }
     },
@@ -3579,7 +3646,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -3698,7 +3766,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -3818,6 +3887,35 @@
     },
     {
       "type": "Feature",
+      "id": "evt-i286-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.483508,
+          48.377515
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i286-birth",
+        "person_id": "I286",
+        "person_name": "John C Pullyblank",
+        "event_type": "birth",
+        "date_text": "1872",
+        "year_min": 1872,
+        "year_max": 1872,
+        "date_is_approximate": false,
+        "place_original": "Canada",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "evt-i131-birth",
       "geometry": {
         "type": "Point",
@@ -3871,35 +3969,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "evt-i286-birth",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.483508,
-          48.377515
-        ]
-      },
-      "properties": {
-        "event_id": "evt-i286-birth",
-        "person_id": "I286",
-        "person_name": "John C Pullyblank",
-        "event_type": "birth",
-        "date_text": "As reported: about 1873-1874",
-        "year_min": 1873,
-        "year_max": 1874,
-        "date_is_approximate": true,
-        "place_original": "Canada",
-        "side": "Paternal",
-        "branch": "Unspecified",
-        "confidence": "A",
-        "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -4043,7 +4114,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -4099,7 +4171,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -4232,16 +4305,17 @@
         "person_id": "I275",
         "person_name": "Harry K Gutelius",
         "event_type": "birth",
-        "date_text": "ABT 1890",
-        "year_min": 1890,
-        "year_max": 1890,
-        "date_is_approximate": true,
+        "date_text": "1889",
+        "year_min": 1889,
+        "year_max": 1889,
+        "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S46"
         ]
       }
     },
@@ -4381,7 +4455,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -4410,7 +4485,8 @@
         "confidence": "B",
         "source_refs": [
           "S2",
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -4611,7 +4687,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -4730,31 +4807,31 @@
     },
     {
       "type": "Feature",
-      "id": "evt-i336-birth",
+      "id": "evt-i337-birth",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.981796,
-          46.929956
+          -152.154876,
+          61.453726
         ]
       },
       "properties": {
-        "event_id": "evt-i336-birth",
-        "person_id": "I336",
-        "person_name": "William J Thoren",
+        "event_id": "evt-i337-birth",
+        "person_id": "I337",
+        "person_name": "Alice Gallaher",
         "event_type": "birth",
-        "date_text": "ABT 1902",
+        "date_text": "27 APR 1902",
         "year_min": 1902,
         "year_max": 1902,
-        "date_is_approximate": true,
-        "place_original": "Montana",
+        "date_is_approximate": false,
+        "place_original": "Alaska",
         "side": "Paternal",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
-          "S28",
           "S32",
-          "S33"
+          "S33",
+          "S35"
         ]
       }
     },
@@ -4785,35 +4862,6 @@
           "S1",
           "S8",
           "S27"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "evt-i337-birth",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.154876,
-          61.453726
-        ]
-      },
-      "properties": {
-        "event_id": "evt-i337-birth",
-        "person_id": "I337",
-        "person_name": "Alice Gallaher",
-        "event_type": "birth",
-        "date_text": "ABT 1904",
-        "year_min": 1904,
-        "year_max": 1904,
-        "date_is_approximate": true,
-        "place_original": "Alaska",
-        "side": "Paternal",
-        "branch": "Unspecified",
-        "confidence": "unknown",
-        "source_refs": [
-          "S32",
-          "S33"
         ]
       }
     },
@@ -4870,7 +4918,8 @@
         "confidence": "A",
         "source_refs": [
           "S26",
-          "S30"
+          "S30",
+          "S48"
         ]
       }
     },
@@ -4917,16 +4966,17 @@
         "person_id": "I290",
         "person_name": "Willard R Pullyblank",
         "event_type": "birth",
-        "date_text": "As reported: about 1906-1907",
+        "date_text": "6 SEP 1906",
         "year_min": 1906,
-        "year_max": 1907,
-        "date_is_approximate": true,
+        "year_max": 1906,
+        "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S46"
         ]
       }
     },
@@ -5038,7 +5088,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -5178,7 +5229,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -5206,7 +5258,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -5234,7 +5287,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -5374,7 +5428,8 @@
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -5460,7 +5515,8 @@
         "source_refs": [
           "S2",
           "S5",
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -5572,7 +5628,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -5663,7 +5720,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -5695,6 +5753,65 @@
           "S8",
           "S9",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i177-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.714492,
+          43.251126
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i177-birth",
+        "person_id": "I177",
+        "person_name": "Bruce Eric Muller",
+        "event_type": "birth",
+        "date_text": "15 JUN 1958",
+        "year_min": 1958,
+        "year_max": 1958,
+        "date_is_approximate": false,
+        "place_original": "Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27",
+          "S46",
+          "S47"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i355-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33207,
+          47.60621
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i355-birth",
+        "person_id": "I355",
+        "person_name": "Peter Vollmer",
+        "event_type": "birth",
+        "date_text": "29 JUN 1959",
+        "year_min": 1959,
+        "year_max": 1959,
+        "date_is_approximate": false,
+        "place_original": "Seattle, King, Washington",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S47",
+          "S46"
         ]
       }
     },
@@ -5751,7 +5868,8 @@
         "confidence": "B",
         "source_refs": [
           "S2",
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -5808,7 +5926,8 @@
         "confidence": "A",
         "source_refs": [
           "S26",
-          "S30"
+          "S30",
+          "S48"
         ]
       }
     },
@@ -6009,7 +6128,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S26"
+          "S26",
+          "S48"
         ]
       }
     },
@@ -6037,7 +6157,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -6181,7 +6302,8 @@
         "source_refs": [
           "S2",
           "S5",
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },
@@ -6209,7 +6331,8 @@
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
-          "S27"
+          "S27",
+          "S48"
         ]
       }
     },

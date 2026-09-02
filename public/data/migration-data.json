@@ -10,15 +10,15 @@
     "movement_note": "Routes connect recorded endpoints and are analytical inferences, not documented travel paths.",
     "year_extent": [
       1549,
-      2010
+      2021
     ],
     "counts": {
-      "locations": 108,
-      "resolved_locations": 106,
-      "events": 236,
-      "dated_events": 222,
-      "movements": 172,
-      "people_represented": 160
+      "locations": 129,
+      "resolved_locations": 105,
+      "events": 269,
+      "dated_events": 255,
+      "movements": 173,
+      "people_represented": 180
     }
   },
   "locations": [
@@ -408,6 +408,17 @@
       "geocoder_display_name": "Granville (US-NY)"
     },
     {
+      "location_id": "loc-edb535043b",
+      "label": "Great Falls, Cascade, Montana",
+      "geocode_query": "Great Falls, Cascade, Montana, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-c5ebe598db",
       "label": "Guilford, Connecticut",
       "geocode_query": "Guilford, Connecticut, United States",
@@ -428,6 +439,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Guilford (US-CT)"
+    },
+    {
+      "location_id": "loc-f9a36f4ec1",
+      "label": "Gumlösa, Kristianstad, Sweden",
+      "geocode_query": "Gumlösa, Kristianstad, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-66ccad9b9e",
@@ -452,6 +474,17 @@
       "geocoder_display_name": "Hampton (US-NH)"
     },
     {
+      "location_id": "loc-2034b85e9d",
+      "label": "Hampton, Rockingham, New Hampshire",
+      "geocode_query": "Hampton, Rockingham, New Hampshire, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-9a42887cbf",
       "label": "Harsefeld, Province of Hanover, Germany",
       "geocode_query": "Harsefeld, Germany",
@@ -461,6 +494,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Harsefeld (DE-06)"
+    },
+    {
+      "location_id": "loc-bd181fc9c2",
+      "label": "Hasslöv, Halland, Sweden",
+      "geocode_query": "Hasslöv, Halland, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-e5fc43cf35",
@@ -496,6 +540,28 @@
       "geocoder_display_name": "Highland Park (US-MI)"
     },
     {
+      "location_id": "loc-e72bc582ce",
+      "label": "Hishult, Halland, Sweden",
+      "geocode_query": "Hishult, Halland, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
+      "location_id": "loc-68e8284c80",
+      "label": "Hjärnarp, Kristianstad, Sweden",
+      "geocode_query": "Hjärnarp, Kristianstad, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-7e615359f9",
       "label": "Hursley, Hampshire, England",
       "geocode_query": "Hursley, Hampshire, England",
@@ -505,6 +571,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Hursley (GB-ENG)"
+    },
+    {
+      "location_id": "loc-35e55dee12",
+      "label": "Ignaberga, Kristianstad, Sweden",
+      "geocode_query": "Ignaberga, Kristianstad, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-d6d855b3bf",
@@ -584,6 +661,28 @@
       "geocoder_display_name": "Lintig (DE-06)"
     },
     {
+      "location_id": "loc-9c97341130",
+      "label": "Livingston County, New York",
+      "geocode_query": "Livingston County, New York, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "county",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
+      "location_id": "loc-f2d5a9ac30",
+      "label": "Long Island, New York",
+      "geocode_query": "Long Island, New York, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-ccb040aab2",
       "label": "Los Angeles County, California",
       "geocode_query": "Los Angeles County, California, United States",
@@ -604,6 +703,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Madison Heights (US-MI)"
+    },
+    {
+      "location_id": "loc-decebc391c",
+      "label": "Malden, Middlesex, Massachusetts",
+      "geocode_query": "Malden, Middlesex, Massachusetts, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-04fd7b8bff",
@@ -650,6 +760,17 @@
       "geocoder_display_name": "McAllen (US-TX)"
     },
     {
+      "location_id": "loc-9ec07f167c",
+      "label": "Mellby, Kristianstad, Sweden",
+      "geocode_query": "Mellby, Kristianstad, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-5110b352c6",
       "label": "Michigan",
       "geocode_query": "Michigan, United States",
@@ -681,17 +802,6 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Monroeville (US-AL)"
-    },
-    {
-      "location_id": "loc-8d274fd5e6",
-      "label": "Montana",
-      "geocode_query": "Montana, United States",
-      "latitude": 46.929956,
-      "longitude": -110.981796,
-      "precision": "region",
-      "geocode_status": "resolved",
-      "geocoder": "GeoNames offline gazetteer",
-      "geocoder_display_name": "GeoNames locality centroid for Montana, US"
     },
     {
       "location_id": "loc-f82a41a5a1",
@@ -793,6 +903,28 @@
       "geocoder_display_name": "New York City (US-NY)"
     },
     {
+      "location_id": "loc-7f67273863",
+      "label": "Newport Beach, Orange, California",
+      "geocode_query": "Newport Beach, Orange, California, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
+      "location_id": "loc-37568b9ef4",
+      "label": "Norra Sandby, Kristianstad, Sweden",
+      "geocode_query": "Norra Sandby, Kristianstad, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-4ed181ddc0",
       "label": "North Bend, Coos, Oregon",
       "geocode_query": "North Bend, Coos, Oregon, United States",
@@ -802,6 +934,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "North Bend (US-OR)"
+    },
+    {
+      "location_id": "loc-4b7f2e79b4",
+      "label": "Ocean Park, Pacific, Washington",
+      "geocode_query": "Ocean Park, Pacific, Washington, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-3a3bbc1f1a",
@@ -835,6 +978,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Pavilion (US-NY)"
+    },
+    {
+      "location_id": "loc-dff756efe8",
+      "label": "Pennsylvania",
+      "geocode_query": "Pennsylvania",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-8d7b84e043",
@@ -925,6 +1079,17 @@
       "geocoder_display_name": "Roosevelt (US-NY)"
     },
     {
+      "location_id": "loc-fae9125abd",
+      "label": "Royal Oak, Oakland, Michigan",
+      "geocode_query": "Royal Oak, Oakland, Michigan, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-3e054a85a6",
       "label": "Roydon, Essex, England",
       "geocode_query": "Roydon, Essex, England",
@@ -934,6 +1099,28 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Roydon (GB-ENG)"
+    },
+    {
+      "location_id": "loc-cd459c31f6",
+      "label": "Ränneslöv, Halland, Sweden",
+      "geocode_query": "Ränneslöv, Halland, Sweden",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
+      "location_id": "loc-037882d2f6",
+      "label": "San Diego County, California",
+      "geocode_query": "San Diego County, California, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "county",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-b66984deea",
@@ -1057,6 +1244,17 @@
       "geocoder_display_name": "Surry (US-VA)"
     },
     {
+      "location_id": "loc-c3deeffaf2",
+      "label": "Vancouver, Clark, Washington",
+      "geocode_query": "Vancouver, Clark, Washington, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "locality",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-027fb4bdb2",
       "label": "Virginia",
       "geocode_query": "Virginia, United States",
@@ -1099,6 +1297,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Ware (GB-ENG)"
+    },
+    {
+      "location_id": "loc-a27a664465",
+      "label": "Washington",
+      "geocode_query": "Washington, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "region",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-e17fa17435",
@@ -1167,6 +1376,17 @@
       "geocoder_display_name": "Dedham (GB-ENG)"
     },
     {
+      "location_id": "loc-be77f216b6",
+      "label": "probably Eastham, Barnstable, Massachusetts",
+      "geocode_query": "Eastham, Barnstable, Massachusetts, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "approximate",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
+    },
+    {
       "location_id": "loc-9100fb41f9",
       "label": "probably Fingringhoe, Essex, England",
       "geocode_query": "Fingringhoe, Essex, England",
@@ -1187,6 +1407,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Guilford (US-CT)"
+    },
+    {
+      "location_id": "loc-fa7596a13b",
+      "label": "probably Middlesex County, Connecticut",
+      "geocode_query": "Middlesex County, Connecticut, United States",
+      "latitude": null,
+      "longitude": null,
+      "precision": "approximate",
+      "geocode_status": "unresolved",
+      "geocoder": null,
+      "geocoder_display_name": null
     },
     {
       "location_id": "loc-a321b06062",
@@ -1487,7 +1718,7 @@
       "person_id": "I251",
       "person_name": "Giles Hopkins",
       "event_type": "birth",
-      "date_text": "As reported: baptized 30 Jan 1607/08",
+      "date_text": "baptized 30 JAN 1607/08",
       "year_min": 1607,
       "year_max": 1607,
       "date_is_approximate": false,
@@ -1555,6 +1786,25 @@
       ]
     },
     {
+      "event_id": "evt-i256-death",
+      "person_id": "I256",
+      "person_name": "Mary Hopkins",
+      "event_type": "death",
+      "date_text": "BEF 9 MAY 1613",
+      "year_min": 1613,
+      "year_max": 1613,
+      "date_is_approximate": true,
+      "place_original": "Hursley, Hampshire, England",
+      "location_id": "loc-7e615359f9",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "B",
+      "source_refs": [
+        "S26",
+        "S46"
+      ]
+    },
+    {
       "event_id": "evt-i260-birth",
       "person_id": "I260",
       "person_name": "Richard Knowles",
@@ -1577,7 +1827,7 @@
       "person_id": "I254",
       "person_name": "Catherine Whelden Hopkins",
       "event_type": "birth",
-      "date_text": "As reported: baptized 6 Mar 1616/17",
+      "date_text": "baptized 6 MAR 1616/17",
       "year_min": 1616,
       "year_max": 1616,
       "date_is_approximate": false,
@@ -1786,7 +2036,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S46"
       ]
     },
     {
@@ -1841,6 +2092,25 @@
       "confidence": "B",
       "source_refs": [
         "S7"
+      ]
+    },
+    {
+      "event_id": "evt-i257-death",
+      "person_id": "I257",
+      "person_name": "Gabriel Whelden",
+      "event_type": "death",
+      "date_text": "BET 11 FEB 1653/54 AND 4 APR 1654",
+      "year_min": 1653,
+      "year_max": 1654,
+      "date_is_approximate": false,
+      "place_original": "Malden, Middlesex, Massachusetts",
+      "location_id": "loc-decebc391c",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "B",
+      "source_refs": [
+        "S26",
+        "S46"
       ]
     },
     {
@@ -1993,10 +2263,10 @@
       "person_id": "I260",
       "person_name": "Richard Knowles",
       "event_type": "death",
-      "date_text": "between 1670 and 1675",
+      "date_text": "BET 1670 and 1675",
       "year_min": 1670,
       "year_max": 1675,
-      "date_is_approximate": true,
+      "date_is_approximate": false,
       "place_original": "Eastham, Barnstable, Massachusetts",
       "location_id": "loc-b1c7a79860",
       "side": "Paternal",
@@ -2119,7 +2389,7 @@
       "person_id": "I245",
       "person_name": "Joshua Cooke",
       "event_type": "birth",
-      "date_text": "As reported: 4 Feb 1682/83",
+      "date_text": "4 FEB 1682/83",
       "year_min": 1682,
       "year_max": 1682,
       "date_is_approximate": false,
@@ -2129,7 +2399,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S46"
       ]
     },
     {
@@ -2147,7 +2418,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S46"
       ]
     },
     {
@@ -2192,7 +2464,7 @@
       "person_id": "I258",
       "person_name": "John Doane",
       "event_type": "death",
-      "date_text": "As reported: 21 Feb 1685/86",
+      "date_text": "21 FEB 1685/86",
       "year_min": 1685,
       "year_max": 1685,
       "date_is_approximate": false,
@@ -2282,10 +2554,10 @@
       "person_id": "I251",
       "person_name": "Giles Hopkins",
       "event_type": "death",
-      "date_text": "As reported: between 5 Mar 1688/89 and 16 Apr 1690",
+      "date_text": "BET 5 MAR 1688/89 and 16 APR 1690",
       "year_min": 1688,
       "year_max": 1690,
-      "date_is_approximate": true,
+      "date_is_approximate": false,
       "place_original": "Eastham, Massachusetts",
       "location_id": "loc-ec0c85e376",
       "side": "Paternal",
@@ -2312,6 +2584,25 @@
       "source_refs": [
         "S4",
         "S13"
+      ]
+    },
+    {
+      "event_id": "evt-i230-birth",
+      "person_id": "I230",
+      "person_name": "Bathsheba Robie Lane",
+      "event_type": "birth",
+      "date_text": "2 AUG 1696",
+      "year_min": 1696,
+      "year_max": 1696,
+      "date_is_approximate": false,
+      "place_original": "Hampton, Rockingham, New Hampshire",
+      "location_id": "loc-2034b85e9d",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S26",
+        "S46"
       ]
     },
     {
@@ -2459,11 +2750,49 @@
       ]
     },
     {
+      "event_id": "evt-i248-death",
+      "person_id": "I248",
+      "person_name": "Deborah Hopkins Cooke",
+      "event_type": "death",
+      "date_text": "BEF 7 DEC 1727",
+      "year_min": 1727,
+      "year_max": 1727,
+      "date_is_approximate": true,
+      "place_original": "probably Eastham, Barnstable, Massachusetts",
+      "location_id": "loc-be77f216b6",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S26",
+        "S46"
+      ]
+    },
+    {
+      "event_id": "evt-i165-birth",
+      "person_id": "I165",
+      "person_name": "Mary Ford",
+      "event_type": "birth",
+      "date_text": "BET 1729 AND 1730",
+      "year_min": 1729,
+      "year_max": 1730,
+      "date_is_approximate": false,
+      "place_original": "Virginia",
+      "location_id": "loc-027fb4bdb2",
+      "side": "Maternal",
+      "branch": "Agee / Ford / Bondurant",
+      "confidence": "B",
+      "source_refs": [
+        "S8",
+        "S46"
+      ]
+    },
+    {
       "event_id": "evt-i247-death",
       "person_id": "I247",
       "person_name": "Josiah Cooke",
       "event_type": "death",
-      "date_text": "As reported: 31 Jan 1731/32",
+      "date_text": "31 JAN 1731/32",
       "year_min": 1731,
       "year_max": 1731,
       "date_is_approximate": false,
@@ -2474,6 +2803,25 @@
       "confidence": "A",
       "source_refs": [
         "S26"
+      ]
+    },
+    {
+      "event_id": "evt-i245-death",
+      "person_id": "I245",
+      "person_name": "Joshua Cooke",
+      "event_type": "death",
+      "date_text": "BET 31 JUL 1737 AND 28 SEP 1746",
+      "year_min": 1737,
+      "year_max": 1746,
+      "date_is_approximate": false,
+      "place_original": "probably Eastham, Barnstable, Massachusetts",
+      "location_id": "loc-be77f216b6",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S26",
+        "S46"
       ]
     },
     {
@@ -2512,6 +2860,25 @@
       "confidence": "B",
       "source_refs": [
         "S7"
+      ]
+    },
+    {
+      "event_id": "evt-i246-death",
+      "person_id": "I246",
+      "person_name": "Patience Doane",
+      "event_type": "death",
+      "date_text": "AFT 28 SEP 1746",
+      "year_min": 1746,
+      "year_max": 1746,
+      "date_is_approximate": true,
+      "place_original": "probably Middlesex County, Connecticut",
+      "location_id": "loc-fa7596a13b",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S26",
+        "S46"
       ]
     },
     {
@@ -2622,6 +2989,25 @@
       "source_refs": [
         "S4",
         "S10"
+      ]
+    },
+    {
+      "event_id": "evt-i230-death",
+      "person_id": "I230",
+      "person_name": "Bathsheba Robie Lane",
+      "event_type": "death",
+      "date_text": "13 APR 1765",
+      "year_min": 1765,
+      "year_max": 1765,
+      "date_is_approximate": false,
+      "place_original": "Hampton, Rockingham, New Hampshire",
+      "location_id": "loc-2034b85e9d",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S26",
+        "S46"
       ]
     },
     {
@@ -2770,6 +3156,24 @@
       ]
     },
     {
+      "event_id": "evt-i343-birth",
+      "person_id": "I343",
+      "person_name": "Bortha Nilsdotter",
+      "event_type": "birth",
+      "date_text": "1783",
+      "year_min": 1783,
+      "year_max": 1783,
+      "date_is_approximate": false,
+      "place_original": "Gumlösa, Kristianstad, Sweden",
+      "location_id": "loc-f9a36f4ec1",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S38"
+      ]
+    },
+    {
       "event_id": "evt-i141-death",
       "person_id": "I141",
       "person_name": "William Rives",
@@ -2844,6 +3248,43 @@
       ]
     },
     {
+      "event_id": "evt-i349-birth",
+      "person_id": "I349",
+      "person_name": "Pehr Erlandsson",
+      "event_type": "birth",
+      "date_text": "10 FEB 1790",
+      "year_min": 1790,
+      "year_max": 1790,
+      "date_is_approximate": false,
+      "place_original": "Hishult, Halland, Sweden",
+      "location_id": "loc-e72bc582ce",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S43",
+        "S44"
+      ]
+    },
+    {
+      "event_id": "evt-i342-birth",
+      "person_id": "I342",
+      "person_name": "Trued Andersson",
+      "event_type": "birth",
+      "date_text": "25 APR 1792",
+      "year_min": 1792,
+      "year_max": 1792,
+      "date_is_approximate": false,
+      "place_original": "Norra Sandby, Kristianstad, Sweden",
+      "location_id": "loc-37568b9ef4",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S38"
+      ]
+    },
+    {
       "event_id": "evt-i241-death",
       "person_id": "I241",
       "person_name": "Hezekiah Cook",
@@ -2862,6 +3303,25 @@
       ]
     },
     {
+      "event_id": "evt-i350-birth",
+      "person_id": "I350",
+      "person_name": "Ingier Hansdotter",
+      "event_type": "birth",
+      "date_text": "20 MAR 1794",
+      "year_min": 1794,
+      "year_max": 1794,
+      "date_is_approximate": false,
+      "place_original": "Hasslöv, Halland, Sweden",
+      "location_id": "loc-bd181fc9c2",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S43",
+        "S45"
+      ]
+    },
+    {
       "event_id": "evt-i026-death",
       "person_id": "I026",
       "person_name": "William Lee",
@@ -2877,6 +3337,25 @@
       "confidence": "B",
       "source_refs": [
         "S7"
+      ]
+    },
+    {
+      "event_id": "evt-i346-birth",
+      "person_id": "I346",
+      "person_name": "Gunnilla Nilsdotter",
+      "event_type": "birth",
+      "date_text": "20 SEP 1796",
+      "year_min": 1796,
+      "year_max": 1796,
+      "date_is_approximate": false,
+      "place_original": "Ränneslöv, Halland, Sweden",
+      "location_id": "loc-cd459c31f6",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S40",
+        "S41"
       ]
     },
     {
@@ -2932,7 +3411,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -2969,7 +3449,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3059,7 +3540,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3173,6 +3655,25 @@
       ]
     },
     {
+      "event_id": "evt-i345-birth",
+      "person_id": "I345",
+      "person_name": "Christina Persdotter",
+      "event_type": "birth",
+      "date_text": "24 JAN 1823",
+      "year_min": 1823,
+      "year_max": 1823,
+      "date_is_approximate": false,
+      "place_original": "Hasslöv, Halland, Sweden",
+      "location_id": "loc-bd181fc9c2",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S39",
+        "S42"
+      ]
+    },
+    {
       "event_id": "evt-i161-death",
       "person_id": "I161",
       "person_name": "Noah Agee",
@@ -3191,6 +3692,61 @@
       ]
     },
     {
+      "event_id": "evt-i340-birth",
+      "person_id": "I340",
+      "person_name": "Anders Troedsson",
+      "event_type": "birth",
+      "date_text": "2 MAY 1824",
+      "year_min": 1824,
+      "year_max": 1824,
+      "date_is_approximate": false,
+      "place_original": "Norra Sandby, Kristianstad, Sweden",
+      "location_id": "loc-37568b9ef4",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S38"
+      ]
+    },
+    {
+      "event_id": "evt-i341-birth",
+      "person_id": "I341",
+      "person_name": "Kjersti Månsdotter",
+      "event_type": "birth",
+      "date_text": "31 OCT 1825",
+      "year_min": 1825,
+      "year_max": 1825,
+      "date_is_approximate": false,
+      "place_original": "Mellby, Kristianstad, Sweden",
+      "location_id": "loc-9ec07f167c",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S38"
+      ]
+    },
+    {
+      "event_id": "evt-i344-birth",
+      "person_id": "I344",
+      "person_name": "Nils Svensson",
+      "event_type": "birth",
+      "date_text": "3 MAY 1825",
+      "year_min": 1825,
+      "year_max": 1825,
+      "date_is_approximate": false,
+      "place_original": "Ränneslöv, Halland, Sweden",
+      "location_id": "loc-cd459c31f6",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S39",
+        "S40"
+      ]
+    },
+    {
       "event_id": "evt-i220-birth",
       "person_id": "I220",
       "person_name": "Andrew J Marsh",
@@ -3205,7 +3761,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3242,7 +3799,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3280,7 +3838,8 @@
       "confidence": "B",
       "source_refs": [
         "S2",
-        "S21"
+        "S21",
+        "S48"
       ]
     },
     {
@@ -3525,6 +4084,25 @@
       ]
     },
     {
+      "event_id": "evt-i339-birth",
+      "person_id": "I339",
+      "person_name": "Augusta Nilsdotter",
+      "event_type": "birth",
+      "date_text": "30 NOV 1860",
+      "year_min": 1860,
+      "year_max": 1860,
+      "date_is_approximate": false,
+      "place_original": "Hjärnarp, Kristianstad, Sweden",
+      "location_id": "loc-68e8284c80",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S34",
+        "S37"
+      ]
+    },
+    {
       "event_id": "evt-i212-birth",
       "person_id": "I212",
       "person_name": "George Peper",
@@ -3539,7 +4117,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3558,6 +4137,25 @@
       "confidence": "A",
       "source_refs": [
         "S26"
+      ]
+    },
+    {
+      "event_id": "evt-i338-birth",
+      "person_id": "I338",
+      "person_name": "Christian Andrew Thoren",
+      "event_type": "birth",
+      "date_text": "27 JAN 1861",
+      "year_min": 1861,
+      "year_max": 1861,
+      "date_is_approximate": false,
+      "place_original": "Ignaberga, Kristianstad, Sweden",
+      "location_id": "loc-35e55dee12",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S34",
+        "S36"
       ]
     },
     {
@@ -3622,6 +4220,27 @@
       ]
     },
     {
+      "event_id": "evt-i014-birth",
+      "person_id": "I014",
+      "person_name": "Mary Wilhelmina Ohmer",
+      "event_type": "birth",
+      "date_text": "BET 1864 AND 1865",
+      "year_min": 1864,
+      "year_max": 1865,
+      "date_is_approximate": false,
+      "place_original": "Pennsylvania",
+      "location_id": "loc-dff756efe8",
+      "side": "Maternal",
+      "branch": "Lee / New England",
+      "confidence": "B",
+      "source_refs": [
+        "S2",
+        "S24",
+        "S27",
+        "S46"
+      ]
+    },
+    {
       "event_id": "evt-i219-birth",
       "person_id": "I219",
       "person_name": "Frederick Heath Marsh",
@@ -3636,7 +4255,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3714,6 +4334,25 @@
       ]
     },
     {
+      "event_id": "evt-i286-birth",
+      "person_id": "I286",
+      "person_name": "John C Pullyblank",
+      "event_type": "birth",
+      "date_text": "1872",
+      "year_min": 1872,
+      "year_max": 1872,
+      "date_is_approximate": false,
+      "place_original": "Canada",
+      "location_id": "loc-cd6a7b8768",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S27",
+        "S46"
+      ]
+    },
+    {
       "event_id": "evt-i131-birth",
       "person_id": "I131",
       "person_name": "Lula Arnelia Rives",
@@ -3749,25 +4388,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
-      ]
-    },
-    {
-      "event_id": "evt-i286-birth",
-      "person_id": "I286",
-      "person_name": "John C Pullyblank",
-      "event_type": "birth",
-      "date_text": "As reported: about 1873-1874",
-      "year_min": 1873,
-      "year_max": 1874,
-      "date_is_approximate": true,
-      "place_original": "Canada",
-      "location_id": "loc-cd6a7b8768",
-      "side": "Paternal",
-      "branch": "Unspecified",
-      "confidence": "A",
-      "source_refs": [
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -3861,7 +4483,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3897,7 +4520,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -3979,17 +4603,18 @@
       "person_id": "I275",
       "person_name": "Harry K Gutelius",
       "event_type": "birth",
-      "date_text": "ABT 1890",
-      "year_min": 1890,
-      "year_max": 1890,
-      "date_is_approximate": true,
+      "date_text": "1889",
+      "year_min": 1889,
+      "year_max": 1889,
+      "date_is_approximate": false,
       "place_original": "New York",
       "location_id": "loc-3dddf7feb1",
       "side": "Paternal",
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S46"
       ]
     },
     {
@@ -4079,7 +4704,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -4098,7 +4724,8 @@
       "confidence": "B",
       "source_refs": [
         "S2",
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -4229,7 +4856,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -4308,21 +4936,42 @@
     {
       "event_id": "evt-i336-birth",
       "person_id": "I336",
-      "person_name": "William J Thoren",
+      "person_name": "William John Thoren",
       "event_type": "birth",
-      "date_text": "ABT 1902",
-      "year_min": 1902,
-      "year_max": 1902,
-      "date_is_approximate": true,
-      "place_original": "Montana",
-      "location_id": "loc-8d274fd5e6",
+      "date_text": "19 JUL 1901",
+      "year_min": 1901,
+      "year_max": 1901,
+      "date_is_approximate": false,
+      "place_original": "Great Falls, Cascade, Montana",
+      "location_id": "loc-edb535043b",
       "side": "Paternal",
       "branch": "Unspecified",
       "confidence": "unknown",
       "source_refs": [
         "S28",
         "S32",
-        "S33"
+        "S33",
+        "S34"
+      ]
+    },
+    {
+      "event_id": "evt-i337-birth",
+      "person_id": "I337",
+      "person_name": "Alice Gallaher",
+      "event_type": "birth",
+      "date_text": "27 APR 1902",
+      "year_min": 1902,
+      "year_max": 1902,
+      "date_is_approximate": false,
+      "place_original": "Alaska",
+      "location_id": "loc-7288f7f860",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S32",
+        "S33",
+        "S35"
       ]
     },
     {
@@ -4343,25 +4992,6 @@
         "S1",
         "S8",
         "S27"
-      ]
-    },
-    {
-      "event_id": "evt-i337-birth",
-      "person_id": "I337",
-      "person_name": "Alice Gallaher",
-      "event_type": "birth",
-      "date_text": "ABT 1904",
-      "year_min": 1904,
-      "year_max": 1904,
-      "date_is_approximate": true,
-      "place_original": "Alaska",
-      "location_id": "loc-7288f7f860",
-      "side": "Paternal",
-      "branch": "Unspecified",
-      "confidence": "unknown",
-      "source_refs": [
-        "S32",
-        "S33"
       ]
     },
     {
@@ -4398,7 +5028,8 @@
       "confidence": "A",
       "source_refs": [
         "S26",
-        "S30"
+        "S30",
+        "S48"
       ]
     },
     {
@@ -4424,17 +5055,18 @@
       "person_id": "I290",
       "person_name": "Willard R Pullyblank",
       "event_type": "birth",
-      "date_text": "As reported: about 1906-1907",
+      "date_text": "6 SEP 1906",
       "year_min": 1906,
-      "year_max": 1907,
-      "date_is_approximate": true,
+      "year_max": 1906,
+      "date_is_approximate": false,
       "place_original": "New York",
       "location_id": "loc-3dddf7feb1",
       "side": "Paternal",
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S46"
       ]
     },
     {
@@ -4506,7 +5138,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -4543,6 +5176,25 @@
       "confidence": "A",
       "source_refs": [
         "S27"
+      ]
+    },
+    {
+      "event_id": "evt-i339-death",
+      "person_id": "I339",
+      "person_name": "Augusta Nilsdotter",
+      "event_type": "death",
+      "date_text": "4 DEC 1913",
+      "year_min": 1913,
+      "year_max": 1913,
+      "date_is_approximate": false,
+      "place_original": "Great Falls, Cascade, Montana",
+      "location_id": "loc-edb535043b",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S34",
+        "S37"
       ]
     },
     {
@@ -4596,7 +5248,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -4614,7 +5267,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -4632,7 +5286,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -4722,7 +5377,27 @@
       "branch": "Unspecified",
       "confidence": "unknown",
       "source_refs": [
-        "S27"
+        "S27",
+        "S48"
+      ]
+    },
+    {
+      "event_id": "evt-i338-death",
+      "person_id": "I338",
+      "person_name": "Christian Andrew Thoren",
+      "event_type": "death",
+      "date_text": "9 MAY 1921",
+      "year_min": 1921,
+      "year_max": 1921,
+      "date_is_approximate": false,
+      "place_original": "Great Falls, Cascade, Montana",
+      "location_id": "loc-edb535043b",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S34",
+        "S36"
       ]
     },
     {
@@ -4778,7 +5453,8 @@
       "source_refs": [
         "S2",
         "S5",
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -4818,6 +5494,25 @@
       ]
     },
     {
+      "event_id": "evt-i193-birth",
+      "person_id": "I193",
+      "person_name": "Philip Brooks McCormick",
+      "event_type": "birth",
+      "date_text": "10 APR 1930",
+      "year_min": 1930,
+      "year_max": 1930,
+      "date_is_approximate": false,
+      "place_original": "Royal Oak, Oakland, Michigan",
+      "location_id": "loc-fae9125abd",
+      "side": "Maternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S27",
+        "S46"
+      ]
+    },
+    {
       "event_id": "evt-i183-birth",
       "person_id": "I183",
       "person_name": "Jane Lee Muller Swick",
@@ -4850,7 +5545,48 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
+      ]
+    },
+    {
+      "event_id": "evt-i176-birth",
+      "person_id": "I176",
+      "person_name": "Henry Richard Vollmer",
+      "event_type": "birth",
+      "date_text": "24 SEP 1934",
+      "year_min": 1934,
+      "year_max": 1934,
+      "date_is_approximate": false,
+      "place_original": "Long Island, New York",
+      "location_id": "loc-f2d5a9ac30",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S28",
+        "S46",
+        "S31",
+        "S47"
+      ]
+    },
+    {
+      "event_id": "evt-i286-death",
+      "person_id": "I286",
+      "person_name": "John C Pullyblank",
+      "event_type": "death",
+      "date_text": "1934",
+      "year_min": 1934,
+      "year_max": 1934,
+      "date_is_approximate": false,
+      "place_original": "Livingston County, New York",
+      "location_id": "loc-9c97341130",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S27",
+        "S46"
       ]
     },
     {
@@ -4911,7 +5647,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -4933,6 +5670,45 @@
         "S8",
         "S9",
         "S27"
+      ]
+    },
+    {
+      "event_id": "evt-i177-birth",
+      "person_id": "I177",
+      "person_name": "Bruce Eric Muller",
+      "event_type": "birth",
+      "date_text": "15 JUN 1958",
+      "year_min": 1958,
+      "year_max": 1958,
+      "date_is_approximate": false,
+      "place_original": "Michigan",
+      "location_id": "loc-5110b352c6",
+      "side": "Maternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S27",
+        "S46",
+        "S47"
+      ]
+    },
+    {
+      "event_id": "evt-i355-birth",
+      "person_id": "I355",
+      "person_name": "Peter Vollmer",
+      "event_type": "birth",
+      "date_text": "29 JUN 1959",
+      "year_min": 1959,
+      "year_max": 1959,
+      "date_is_approximate": false,
+      "place_original": "Seattle, King, Washington",
+      "location_id": "loc-b66984deea",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S47",
+        "S46"
       ]
     },
     {
@@ -4969,7 +5745,8 @@
       "confidence": "B",
       "source_refs": [
         "S2",
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -4991,6 +5768,26 @@
       ]
     },
     {
+      "event_id": "evt-i177-death",
+      "person_id": "I177",
+      "person_name": "Bruce Eric Muller",
+      "event_type": "death",
+      "date_text": "4 JUN 1972",
+      "year_min": 1972,
+      "year_max": 1972,
+      "date_is_approximate": false,
+      "place_original": "Vancouver, Clark, Washington",
+      "location_id": "loc-c3deeffaf2",
+      "side": "Maternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S27",
+        "S46",
+        "S47"
+      ]
+    },
+    {
       "event_id": "evt-i207-death",
       "person_id": "I207",
       "person_name": "Charles Frederic Vollmer",
@@ -5006,7 +5803,8 @@
       "confidence": "A",
       "source_refs": [
         "S26",
-        "S30"
+        "S30",
+        "S48"
       ]
     },
     {
@@ -5067,6 +5865,25 @@
       ]
     },
     {
+      "event_id": "evt-i355-death",
+      "person_id": "I355",
+      "person_name": "Peter Vollmer",
+      "event_type": "death",
+      "date_text": "5 AUG 1975",
+      "year_min": 1975,
+      "year_max": 1975,
+      "date_is_approximate": false,
+      "place_original": "Vancouver, Clark, Washington",
+      "location_id": "loc-c3deeffaf2",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S47",
+        "S46"
+      ]
+    },
+    {
       "event_id": "evt-i324-death",
       "person_id": "I324",
       "person_name": "Ruth B McCormick Reese",
@@ -5082,6 +5899,26 @@
       "confidence": "A",
       "source_refs": [
         "S27"
+      ]
+    },
+    {
+      "event_id": "evt-i337-death",
+      "person_id": "I337",
+      "person_name": "Alice Gallaher",
+      "event_type": "death",
+      "date_text": "23 AUG 1978",
+      "year_min": 1978,
+      "year_max": 1978,
+      "date_is_approximate": false,
+      "place_original": "Ocean Park, Pacific, Washington",
+      "location_id": "loc-4b7f2e79b4",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S32",
+        "S33",
+        "S35"
       ]
     },
     {
@@ -5137,7 +5974,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S26"
+        "S26",
+        "S48"
       ]
     },
     {
@@ -5155,7 +5993,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -5192,6 +6031,46 @@
       "confidence": "A",
       "source_refs": [
         "S27"
+      ]
+    },
+    {
+      "event_id": "evt-i290-death",
+      "person_id": "I290",
+      "person_name": "Willard R Pullyblank",
+      "event_type": "death",
+      "date_text": "13 DEC 1986",
+      "year_min": 1986,
+      "year_max": 1986,
+      "date_is_approximate": false,
+      "place_original": "San Diego County, California",
+      "location_id": "loc-037882d2f6",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "A",
+      "source_refs": [
+        "S27",
+        "S46"
+      ]
+    },
+    {
+      "event_id": "evt-i336-death",
+      "person_id": "I336",
+      "person_name": "William John Thoren",
+      "event_type": "death",
+      "date_text": "26 OCT 1991",
+      "year_min": 1991,
+      "year_max": 1991,
+      "date_is_approximate": false,
+      "place_original": "Washington",
+      "location_id": "loc-a27a664465",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S28",
+        "S32",
+        "S33",
+        "S34"
       ]
     },
     {
@@ -5249,7 +6128,8 @@
       "source_refs": [
         "S2",
         "S5",
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -5267,7 +6147,8 @@
       "branch": "Unspecified",
       "confidence": "A",
       "source_refs": [
-        "S27"
+        "S27",
+        "S48"
       ]
     },
     {
@@ -5286,6 +6167,25 @@
       "confidence": "unknown",
       "source_refs": [
         "S27"
+      ]
+    },
+    {
+      "event_id": "evt-i193-death",
+      "person_id": "I193",
+      "person_name": "Philip Brooks McCormick",
+      "event_type": "death",
+      "date_text": "20 FEB 2021",
+      "year_min": 2021,
+      "year_max": 2021,
+      "date_is_approximate": false,
+      "place_original": "Newport Beach, Orange, California",
+      "location_id": "loc-7f67273863",
+      "side": "Maternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S27",
+        "S46"
       ]
     },
     {
@@ -7510,7 +8410,7 @@
       "from_location_id": "loc-cd6a7b8768",
       "to_location_id": "loc-3dddf7feb1",
       "year_min": 1906,
-      "year_max": 1907,
+      "year_max": 1906,
       "branch": "Unspecified",
       "side": "Paternal",
       "confidence": "A",
@@ -8126,6 +9026,23 @@
       "branch": "Rives / Harrison",
       "side": "Maternal",
       "confidence": "A",
+      "interpretation": "inferred endpoint displacement; not a documented travel route"
+    },
+    {
+      "movement_id": "move-a7452b46dc",
+      "movement_type": "intergenerational",
+      "person_id": "I177",
+      "person_name": "Bruce Eric Muller",
+      "relationship": "father",
+      "from_event_id": "evt-i003-birth",
+      "to_event_id": "evt-i177-birth",
+      "from_location_id": "loc-00b0e4f355",
+      "to_location_id": "loc-5110b352c6",
+      "year_min": 1958,
+      "year_max": 1958,
+      "branch": "Unspecified",
+      "side": "Maternal",
+      "confidence": "unknown",
       "interpretation": "inferred endpoint displacement; not a documented travel route"
     },
     {

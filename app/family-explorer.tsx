@@ -43,6 +43,7 @@ type Person = {
   sex: string;
   birth: string;
   death: string;
+  occupations_and_roles: string;
   local_ids: string;
   source_refs: string;
   notes: string;
@@ -555,6 +556,7 @@ function DetailsPane({ person, data, relations, onSelect }: { person: Person; da
     person.birth && { label: 'Birth', value: person.birth },
     person.death && { label: 'Death', value: person.death },
   ].filter(Boolean) as { label: string; value: string }[];
+  const occupations = person.occupations_and_roles.split(' | ').map((value) => value.trim()).filter(Boolean);
 
   return (
     <aside className="detail-panel" aria-label={`${person.name} details`}>
@@ -568,6 +570,11 @@ function DetailsPane({ person, data, relations, onSelect }: { person: Person; da
       </div>
 
       {events.length > 0 && <section className="detail-block"><p className="eyebrow">Life events</p>{events.map((event) => <div className="life-event" key={event.label}><span>{event.label}</span><strong>{event.value}</strong></div>)}</section>}
+
+      <section className="detail-block">
+        <p className="eyebrow">Occupations &amp; service</p>
+        {occupations.length > 0 ? occupations.map((occupation) => <div className="life-event" key={occupation}><span>Role</span><strong>{occupation}</strong></div>) : <p className="empty-copy">No supported occupation or service role is recorded for this person.</p>}
+      </section>
 
       <section className="detail-block">
         <p className="eyebrow">Family</p>
@@ -657,7 +664,7 @@ export default function FamilyExplorer() {
         </div>
         <div className="search-wrap">
           <Search size={16} />
-          <Input value={query} onChange={(event) => { setQuery(event.target.value); setSearchOpen(true); }} onFocus={() => setSearchOpen(true)} aria-label="Search family members" placeholder="Find one of 308 people…" />
+          <Input value={query} onChange={(event) => { setQuery(event.target.value); setSearchOpen(true); }} onFocus={() => setSearchOpen(true)} aria-label="Search family members" placeholder={`Find one of ${data.people.length} people…`} />
           {query && <Button variant="ghost" size="icon" className="clear-search" onClick={() => setQuery('')} aria-label="Clear search"><X /></Button>}
           {searchOpen && query.length >= 2 && <div className="search-results">{results.length ? results.map((person) => <button key={person.individual_id} onClick={() => selectPerson(person.individual_id)}><span className="result-monogram">{initials(person.name)}</span><span><strong>{person.name}</strong><small>{lifeYears(person)}</small></span><ChevronRight /></button>) : <p>No matching family members</p>}</div>}
         </div>

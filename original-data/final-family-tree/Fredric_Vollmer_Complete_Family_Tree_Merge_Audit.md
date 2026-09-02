@@ -4,10 +4,23 @@
 - Recovered canonical GEDCOM families: 108
 - Vollmer-Marsh direct rows considered: 63
 - Extended-family rows considered: 65
-- Consolidated individuals: 327
-- Consolidated families: 154
-- GEDCOM sources: 45
+- Consolidated individuals: 328
+- Consolidated families: 155
+- GEDCOM sources: 48
 - Preserved record files inventoried: 43
+- People with a recorded birth date: 203
+- People with a recorded death date: 189
+- People with both dates recorded: 156
+- Partial vital-date coverage: 80
+- Unresolved vital-date coverage: 63
+- Privacy-limited modern people: 25
+- Living/private people with dates withheld: 4
+- Accepted occupation/role research events: 23
+- People with a recorded occupation or role: 17
+- Unresolved occupation coverage: 274
+- Privacy-limited occupation coverage: 31
+- Living/private occupation coverage: 4
+- Minors without an established occupation: 2
 
 ## Controlling corrections
 
@@ -22,6 +35,9 @@
 - The superseded Chaffee mistranscription is removed.
 - Elmer James Chaffee Jr is Mary Gene's historically documented husband; James remains a family-chart short form.
 - Eloise's official California dates replace the conflicting compiled dates as the primary GEDCOM events.
+
+- Bruce Eric Muller is recorded as 15 Jun 1958-4 Jun 1972, with Vancouver as the owner-confirmed death place and the age-14 recollection retained as a conflict.
+- Duplicate Peter/Pete Vollmer profiles are consolidated as Peter Vollmer, 29 Jun 1959-5 Aug 1975; Henry is the obituary-supported father and Christopher the named sibling, while Peter's mother remains uninferred.
 
 ## Merge policy
 

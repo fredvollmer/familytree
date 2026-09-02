@@ -19,6 +19,8 @@ DIRECT_SOURCES = INPUT_LEDGERS / "Vollmer-Marsh-sources.md"
 EXTENDED_SOURCES = INPUT_LEDGERS / "Extended-family-sources.md"
 THOREN_SOURCES = BASE / "research-log/Mary_Alice_Thoren_Research_Log.md"
 RECORDS = BASE / "records"
+VITAL_RESEARCH = BASE / "Fredric_Vollmer_Complete_Family_Tree_Vital_Dates_Research.csv"
+OCCUPATION_RESEARCH = BASE / "Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv"
 
 PREFIX = "Fredric_Vollmer_Complete_Family_Tree"
 OUT_GED = BASE / f"{PREFIX}.ged"
@@ -27,6 +29,8 @@ OUT_PEOPLE = BASE / f"{PREFIX}_People.csv"
 OUT_FAMILIES = BASE / f"{PREFIX}_Families.csv"
 OUT_SOURCES = BASE / f"{PREFIX}_Sources.md"
 OUT_SOURCE_INVENTORY = BASE / f"{PREFIX}_Source_Inventory.csv"
+OUT_VITAL_COVERAGE = BASE / f"{PREFIX}_Vital_Date_Coverage.csv"
+OUT_OCCUPATION_COVERAGE = BASE / f"{PREFIX}_Occupation_Coverage.csv"
 OUT_AUDIT = BASE / f"{PREFIX}_Merge_Audit.md"
 OUT_VALIDATION = BASE / f"{PREFIX}_VALIDATION.txt"
 OUT_README = BASE / "README.md"
@@ -114,11 +118,11 @@ def parse_date_place(value: str) -> tuple[str, str, str]:
     original = value
     date_text = re.sub(r"\(.*?\)", "", date_text).strip()
     date_text = date_text.replace("-", "–")
-    if not date_text and place:
-        return "", place, ""
     qualifier = ""
     lower = date_text.lower()
-    if lower.startswith("about "):
+    if lower.startswith("between ") and " and " in lower:
+        date_text = "BET " + date_text[8:]
+    elif lower.startswith("about "):
         qualifier = "ABT "
         date_text = date_text[6:]
     elif lower.startswith("before "):
@@ -127,12 +131,12 @@ def parse_date_place(value: str) -> tuple[str, str, str]:
     elif lower.startswith("after "):
         qualifier = "AFT "
         date_text = date_text[6:]
-    if "–" in date_text or "/" in date_text or " in " in lower:
+    if "–" in date_text or " in " in lower:
         return "", "", original
     month_map = {m.title(): m.upper() for m in "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()}
     tokens = date_text.split()
     tokens = [month_map.get(token.title(), token) for token in tokens]
-    if not any(re.fullmatch(r"\d{4}", token) for token in tokens):
+    if not any(re.fullmatch(r"\d{3,4}(?:/\d{2,4})?", token) for token in tokens):
         return "", "", original
     return qualifier + " ".join(tokens), place, ""
 
@@ -170,6 +174,8 @@ source_blocks = blocks(ged_text, "SOUR")
 canonical_families = [parse_family(lines) for lines in blocks(ged_text, "FAM").values()]
 direct_rows = read_csv(DIRECT_CSV)
 extended_rows = read_csv(EXTENDED_CSV)
+vital_rows = read_csv(VITAL_RESEARCH)
+occupation_rows = read_csv(OCCUPATION_RESEARCH)
 canonical_json = json.loads(CANON_JSON.read_text(encoding="utf-8"))
 
 max_individual = max(int(iid.strip("@I")) for iid in individuals)
@@ -492,8 +498,87 @@ maria_hansdotter_iid = add_thoren_person(
     "RECORD-MARIA-HANSDOTTER", "Maria Hansdotter", "F",
     notes=["Named as Ingier Hansdotter's mother in her 1794 baptism; no further identity was proved."], sources=["@S45@"],
 )
+peter_iid = next_iid()
+individuals[peter_iid] = [
+    f"0 {peter_iid} INDI",
+    "1 NAME Peter /Vollmer/",
+    "1 SEX M",
+    "1 NOTE Owner-confirmed brother of Chris Vollmer. The indexed obituary names Henry R Vollmer as Peter's father and Christopher as a sibling.",
+    "1 NOTE Mary Alice appears only as a potential mother on one duplicate Ancestry profile, so Peter's mother is intentionally left blank.",
+    "1 REFN OWNER-PETER-VOLLMER",
+    "1 REFN ANCESTRY-282372364380",
+    "1 REFN ANCESTRY-282618825108",
+    f"1 ASSO {chris_iid}",
+    "2 RELA Brother",
+    "1 SOUR @S47@",
+]
 add_unique(individuals["@I002@"], f"1 ASSO {chris_iid}")
 add_unique(individuals["@I002@"], "2 RELA Stepchild")
+add_unique(individuals[chris_iid], f"1 ASSO {peter_iid}")
+add_unique(individuals[chris_iid], "2 RELA Brother")
+add_unique(individuals[chris_iid], "1 SOUR @S47@")
+
+# Apply only explicitly accepted findings from the vital-date research ledger.
+# Rejected candidates remain documented in that ledger and never alter GEDCOM events.
+accepted_vital_rows = [row for row in vital_rows if row["decision"] == "accepted"]
+for row in accepted_vital_rows:
+    iid = f"@{row['individual_id']}@"
+    if iid not in individuals:
+        raise KeyError(f"Vital-date research row {row['research_id']} references missing {iid}")
+    notes = [
+        f"Vital-date research {row['research_id']} ({row['confidence']} confidence): {row['evidence_note']}",
+    ]
+    if row["conflict_note"]:
+        notes.append(f"Vital-date conflict: {row['conflict_note']}")
+    ensure_person_update(
+        iid,
+        birth=row["birth"] or None,
+        death=row["death"] or None,
+        notes=notes,
+        source="@S46@",
+    )
+ensure_person_update("@I177@", name="Bruce Eric Muller", sex="M", source="@S47@")
+
+
+def add_occupation_event(iid: str, row: dict[str, str]) -> None:
+    lines = individuals[iid]
+    event = [f"1 OCCU {row['occupation_or_role']}"]
+    period = row["occupation_date_or_period"]
+    if re.fullmatch(r"\d{4}-\d{4}", period):
+        start, end = period.split("-", 1)
+        event.append(f"2 DATE FROM {start} TO {end}")
+    elif re.fullmatch(r"(?:\d{1,2} [A-Za-z]{3} )?\d{4}", period):
+        event.append(f"2 DATE {period.upper()}")
+    elif period:
+        event.append(f"2 NOTE Reported period: {period}.")
+    place_or_employer = row["place_or_employer"]
+    if place_or_employer:
+        if row["category"] == "military role":
+            event.append(f"2 NOTE Unit: {place_or_employer}")
+        else:
+            place_parts = [part.strip() for part in place_or_employer.split(";") if part.strip()]
+            if place_parts:
+                event.append(f"2 PLAC {place_parts[0]}")
+            if len(place_parts) > 1:
+                event.append(f"2 NOTE Work context: {'; '.join(place_parts[1:])}")
+    event.append(
+        f"2 NOTE {row['category']}; {row['confidence']} confidence; "
+        f"occupation research {row['research_id']}. {row['evidence_note']}"
+    )
+    if row["conflict_note"]:
+        event.append(f"2 NOTE Conflict/control: {row['conflict_note']}")
+    event.append("2 SOUR @S48@")
+    lines.extend(event)
+    add_unique(lines, "1 SOUR @S48@")
+    individuals[iid] = lines
+
+
+accepted_occupation_rows = [row for row in occupation_rows if row["decision"] == "accepted"]
+for row in accepted_occupation_rows:
+    iid = f"@{row['individual_id']}@"
+    if iid not in individuals:
+        raise KeyError(f"Occupation research row {row['research_id']} references missing {iid}")
+    add_occupation_event(iid, row)
 
 
 def resolved(local_id: str) -> str:
@@ -609,6 +694,10 @@ add_family("@I176@", mary_alice_iid, [],
            "@S31@", "16 SEP 1955", "King County, Washington")
 add_family("@I176@", mary_alice_iid, [], source="@S28@")
 add_unique(individuals["@I176@"], "1 SOUR @S31@")
+add_family("@I176@", "", [peter_iid],
+           "Peter's indexed obituary names Henry R Vollmer as his father. Peter is owner-confirmed as Chris Vollmer's brother; Peter's mother is not inferred.",
+           "@S47@")
+add_unique(individuals["@I176@"], "1 SOUR @S47@")
 
 # Remove duplicate core families that survive under reversed or incomplete old forms.
 deduped: list[dict] = []
@@ -780,6 +869,27 @@ source_blocks["@S45@"] = [
     "1 DATE 23 MAR 1794",
     "1 NOTE Ingier was born 20 Mar and baptized 23 Mar 1794 at Hasslöv, daughter of Hans Månsson and Maria Hansdotter. https://www.ancestry.com/search/collections/60361/records/11677925",
 ]
+source_blocks["@S46@"] = [
+    "0 @S46@ SOUR",
+    "1 TITL Vital-date enrichment research ledger",
+    "1 AUTH Codex research task in the Family Tree project",
+    "1 DATE 2 SEP 2026",
+    "1 NOTE Accepted additions, conservative date ranges, rejected candidates, source quality, and conflicts are itemized in Fredric_Vollmer_Complete_Family_Tree_Vital_Dates_Research.csv.",
+]
+source_blocks["@S47@"] = [
+    "0 @S47@ SOUR",
+    "1 TITL Owner statements and Ancestry review for Bruce Muller and Peter Vollmer",
+    "1 AUTH Fredric Muller Vollmer and Ancestry record review",
+    "1 DATE 2 SEP 2026",
+    "1 NOTE Bruce died in a Vancouver, Washington hospital and was remembered as age 14. Ancestry's existing-tree hint supplies Bruce Eric Muller's 15 Jun 1958-4 Jun 1972 dates. The sourced Pete Vollmer profile supplies 29 Jun 1959-5 Aug 1975 and identifies Henry R Vollmer as father and Christopher as sibling.",
+]
+source_blocks["@S48@"] = [
+    "0 @S48@ SOUR",
+    "1 TITL Occupation and role enrichment research ledger",
+    "1 AUTH Codex research task in the Family Tree project",
+    "1 DATE 2 SEP 2026",
+    "1 NOTE Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.",
+]
 
 header = [
     "0 HEAD",
@@ -840,6 +950,31 @@ def event_text(lines: list[str], tag: str) -> str:
     return ""
 
 
+def occupation_event_texts(lines: list[str]) -> list[str]:
+    events = []
+    for i, line in enumerate(lines):
+        if not line.startswith("1 OCCU "):
+            continue
+        occupation = line[7:]
+        date = ""
+        place = ""
+        work_context = ""
+        for subline in lines[i + 1:]:
+            if subline.startswith("1 ") or subline.startswith("0 "):
+                break
+            if subline.startswith("2 DATE "):
+                date = subline[7:]
+            elif subline.startswith("2 PLAC "):
+                place = subline[7:]
+            elif subline.startswith("2 NOTE Work context: "):
+                work_context = subline[len("2 NOTE Work context: "):]
+            elif subline.startswith("2 NOTE Unit: "):
+                work_context = subline[len("2 NOTE Unit: "):]
+        context = "; ".join(x for x in (date, place, work_context) if x)
+        events.append(f"{occupation} ({context})" if context else occupation)
+    return events
+
+
 reverse_local: dict[str, list[str]] = defaultdict(list)
 for local_id, iid in local_to_ged.items():
     reverse_local[iid].append(local_id)
@@ -847,6 +982,7 @@ reverse_local[mary_alice_iid].append("OWNER-MARY-ALICE")
 reverse_local[chris_iid].append("OWNER-CHRIS-VOLLMER")
 reverse_local[william_thoren_iid].append("OWNER-WILLIAM-J-THOREN")
 reverse_local[alice_gallaher_iid].append("RECORD-ALICE-GALLAHER-THOREN")
+reverse_local[peter_iid].append("OWNER-PETER-VOLLMER")
 for iid, local_id in thoren_people_local_ids.items():
     reverse_local[iid].append(local_id)
 
@@ -859,12 +995,114 @@ for iid in sorted(individuals, key=lambda value: int(value.strip("@I"))):
         "sex": first_value(lines, "SEX") or "U",
         "birth": event_text(lines, "BIRT"),
         "death": event_text(lines, "DEAT"),
+        "occupations_and_roles": " | ".join(occupation_event_texts(lines)),
         "local_ids": ";".join(sorted(set(reverse_local.get(iid, [])))),
         "source_refs": ";".join(line[7:].strip("@") for line in lines if line.startswith("1 SOUR ")),
         "notes": " | ".join(line[7:] for line in lines if line.startswith("1 NOTE ")),
         "family_as_child": ";".join(line[7:].strip("@") for line in lines if line.startswith("1 FAMC ")),
         "families_as_spouse": ";".join(line[7:].strip("@") for line in lines if line.startswith("1 FAMS ")),
     })
+
+
+def has_vital_date(value: str) -> bool:
+    lower = value.lower()
+    if not value or "date unknown" in lower or "date and place unknown" in lower:
+        return False
+    return bool(re.search(r"(?<!\d)\d{3,4}(?:/\d{2,4})?(?!\d)", value))
+
+
+living_by_local = {row["person_id"]: row.get("living_status", "") for row in extended_rows}
+explicit_living_iids = {"I001", "I002", "I334", "I335"}
+privacy_limited_modern_iids = {
+    "I175", "I180", "I181", "I182", "I184", "I185", "I186", "I187", "I188",
+    "I189", "I190", "I191", "I192", "I194", "I195", "I196", "I197", "I198",
+    "I199", "I200", "I201", "I202", "I203", "I204", "I205", "I269", "I272",
+    "I273", "I322", "I323", "I331", "I334", "I335",
+}
+
+
+def missing_status(person: dict[str, str], event: str) -> str:
+    value = person[event]
+    iid = person["individual_id"]
+    local_ids = [local_id for local_id in person["local_ids"].split(";") if local_id]
+    if iid in explicit_living_iids or any(living_by_local.get(local_id) == "living" for local_id in local_ids):
+        return "withheld—living/private"
+    if iid in privacy_limited_modern_iids:
+        return "not researched—privacy limited"
+    if value:
+        return "place or placeholder only—date unresolved"
+    return "unresolved—no supported date found"
+
+
+vital_coverage_rows = []
+for person in people_rows:
+    birth_status = "recorded" if has_vital_date(person["birth"]) else missing_status(person, "birth")
+    death_status = "recorded" if has_vital_date(person["death"]) else missing_status(person, "death")
+    if birth_status == death_status == "recorded":
+        overall = "complete"
+    elif birth_status == "recorded" or death_status == "recorded":
+        overall = "partial"
+    elif "living/private" in birth_status or "living/private" in death_status:
+        overall = "withheld—living/private"
+    elif "privacy limited" in birth_status or "privacy limited" in death_status:
+        overall = "not researched—privacy limited"
+    else:
+        overall = "unresolved"
+    vital_coverage_rows.append({
+        "individual_id": person["individual_id"],
+        "name": person["name"],
+        "birth": person["birth"],
+        "birth_status": birth_status,
+        "death": person["death"],
+        "death_status": death_status,
+        "overall_status": overall,
+        "source_refs": person["source_refs"],
+    })
+
+coverage_counts = defaultdict(int)
+for row in vital_coverage_rows:
+    coverage_counts[row["overall_status"]] += 1
+birth_date_count = sum(has_vital_date(row["birth"]) for row in people_rows)
+death_date_count = sum(has_vital_date(row["death"]) for row in people_rows)
+
+occupation_research_by_iid: dict[str, list[dict[str, str]]] = defaultdict(list)
+for row in accepted_occupation_rows:
+    occupation_research_by_iid[row["individual_id"]].append(row)
+
+
+def occupation_status(person: dict[str, str]) -> tuple[str, str]:
+    iid = person["individual_id"]
+    local_ids = [local_id for local_id in person["local_ids"].split(";") if local_id]
+    if person["occupations_and_roles"]:
+        return "recorded", "One or more cited occupations or roles are present in the GEDCOM."
+    if iid in {"I177", peter_iid.strip("@") }:
+        return "not established—minor", "No occupation is assigned; this person died before adulthood."
+    if iid in explicit_living_iids or any(living_by_local.get(local_id) == "living" for local_id in local_ids):
+        return "withheld—living/private", "No living person's occupation was researched or exposed."
+    if iid in privacy_limited_modern_iids:
+        return "not researched—privacy limited", "Modern collateral occupation research was intentionally limited for privacy."
+    return "unresolved—no supported occupation found", "No occupation is inferred from name, sex, residence, spouse, or family role."
+
+
+occupation_coverage_rows = []
+occupation_coverage_counts = defaultdict(int)
+for person in people_rows:
+    research = occupation_research_by_iid.get(person["individual_id"], [])
+    status, coverage_note = occupation_status(person)
+    occupation_coverage_counts[status] += 1
+    occupation_coverage_rows.append({
+        "individual_id": person["individual_id"],
+        "name": person["name"],
+        "occupations_and_roles": person["occupations_and_roles"],
+        "event_count": len(research),
+        "status": status,
+        "categories": ";".join(sorted({row["category"] for row in research})),
+        "source_refs": person["source_refs"],
+        "research_ids": ";".join(row["research_id"] for row in research),
+        "coverage_note": coverage_note,
+    })
+occupation_people_count = occupation_coverage_counts["recorded"]
+occupation_event_count = len(accepted_occupation_rows)
 
 with OUT_PEOPLE.open("w", newline="", encoding="utf-8") as handle:
     writer = csv.DictWriter(handle, fieldnames=people_rows[0].keys(), lineterminator="\n")
@@ -874,6 +1112,14 @@ with OUT_FAMILIES.open("w", newline="", encoding="utf-8") as handle:
     writer = csv.DictWriter(handle, fieldnames=family_rows[0].keys(), lineterminator="\n")
     writer.writeheader()
     writer.writerows(family_rows)
+with OUT_VITAL_COVERAGE.open("w", newline="", encoding="utf-8") as handle:
+    writer = csv.DictWriter(handle, fieldnames=vital_coverage_rows[0].keys(), lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(vital_coverage_rows)
+with OUT_OCCUPATION_COVERAGE.open("w", newline="", encoding="utf-8") as handle:
+    writer = csv.DictWriter(handle, fieldnames=occupation_coverage_rows[0].keys(), lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(occupation_coverage_rows)
 
 
 source_catalog = []
@@ -906,18 +1152,46 @@ with OUT_SOURCE_INVENTORY.open("w", newline="", encoding="utf-8") as handle:
 
 OUT_SOURCES.write_text(
     "# Consolidated source ledger\n\n"
-    "This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, the Mary Alice Thoren ancestry investigation, and owner corrections. The GEDCOM uses S1-S45; the detailed local ledgers below retain their original identifiers.\n\n"
+    "This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, the Mary Alice Thoren ancestry investigation, owner corrections, the vital-date enrichment pass, and the occupation/role enrichment pass. The GEDCOM uses S1-S48; the detailed local ledgers below retain their original identifiers.\n\n"
     "## Cross-chat provenance\n\n"
     "- **Build Family Tree** — recovered canonical 169-person maternal direct tree, corrected maternal collateral households, GEDCOM, workbook, report, chart, source key, and validation package.\n"
     "- **Continue Vollmer Family Tree** — established the paternal research scope and Charles Frederic Vollmer / Doris Marsh anchors; superseded where later records proved more detail.\n"
     "- **Research Vollmer-Marsh ancestry** and **Continue Vollmer-Marsh research** — records-first paternal direct ancestry, preserved originals, conflicts, and rejected candidates.\n"
     "- **Extend paternal family tree** — three collateral rings on both sides, owner relationship corrections, record audits, and rejected same-name candidates.\n\n"
     "- **Trace Mary Alice Thoren ancestry** — Ancestry.com census, vital, Swedish church, and household-survey records extending the proven Thoren line into eighteenth-century Sweden.\n\n"
+    "- **Vital-date enrichment** — audited every canonical person, restored dropped project facts, added supported dates or conservative ranges, and classified every remaining gap as unresolved or privacy-limited.\n"
+    "- **Occupation and role enrichment** — reviewed Ancestry records in the signed-in browser, reconciled results to canonical people, preserved dated occupational changes, and classified every person without a supported fact.\n\n"
     "## GEDCOM source catalog\n\n" +
     "\n".join(f"### {s['source_id']} — {s['title']}\n\n{s['notes'] or 'See recovered canonical report/source key.'}" for s in source_catalog) +
     "\n\n---\n\n## Vollmer-Marsh direct-ancestor ledger\n\n" + DIRECT_SOURCES.read_text(encoding="utf-8") +
     "\n\n---\n\n## Extended-family ledger\n\n" + EXTENDED_SOURCES.read_text(encoding="utf-8") +
-    "\n\n---\n\n## Mary Alice Thoren ancestry research ledger\n\n" + THOREN_SOURCES.read_text(encoding="utf-8") + "\n",
+    "\n\n---\n\n## Mary Alice Thoren ancestry research ledger\n\n" + THOREN_SOURCES.read_text(encoding="utf-8") +
+    "\n\n---\n\n## Vital-date enrichment ledger\n\n"
+    "The complete, row-level research ledger is `Fredric_Vollmer_Complete_Family_Tree_Vital_Dates_Research.csv`. Accepted rows alter GEDCOM events; rejected rows document tempting but unproved candidates.\n\n" +
+    "\n\n".join(
+        f"### {row['research_id']} — {row['name']} ({row['decision']})\n\n"
+        f"- Birth addition: {row['birth'] or 'none'}\n"
+        f"- Death addition: {row['death'] or 'none'}\n"
+        f"- Confidence: {row['confidence']}\n"
+        f"- Source: {row['source_title']} — <{row['source_url']}>\n"
+        f"- Evidence: {row['evidence_note']}\n"
+        f"- Conflict/control: {row['conflict_note'] or 'none'}"
+        for row in vital_rows
+    ) +
+    "\n\n---\n\n## Occupation and role enrichment ledger\n\n"
+    "The complete, row-level research ledger is `Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv`. Accepted rows create GEDCOM OCCU events; rejected rows remain evidence controls and never alter a person.\n\n" +
+    "\n\n".join(
+        f"### {row['research_id']} — {row['name']} ({row['decision']})\n\n"
+        f"- Occupation or role: {row['occupation_or_role'] or 'none'}\n"
+        f"- Date or period: {row['occupation_date_or_period'] or 'unresolved'}\n"
+        f"- Place or employer: {row['place_or_employer'] or 'unresolved'}\n"
+        f"- Category: {row['category']}\n"
+        f"- Confidence: {row['confidence']}\n"
+        f"- Source: {row['source_title']} — <{row['source_url']}>\n"
+        f"- Evidence: {row['evidence_note']}\n"
+        f"- Conflict/control: {row['conflict_note'] or 'none'}"
+        for row in occupation_rows
+    ) + "\n",
     encoding="utf-8",
 )
 
@@ -929,6 +1203,25 @@ canonical_data = {
         "updated": "2026-09-02",
         "scope": "Recovered maternal direct tree plus later paternal direct and bounded collateral research, including Mary Alice Thoren's documented Thoren ancestry through eighteenth-century Sweden.",
         "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
+        "vital_date_coverage": {
+            "people": len(people_rows),
+            "birth_dates_recorded": birth_date_count,
+            "death_dates_recorded": death_date_count,
+            "complete": coverage_counts["complete"],
+            "partial": coverage_counts["partial"],
+            "unresolved": coverage_counts["unresolved"],
+            "privacy_limited": coverage_counts["not researched—privacy limited"],
+            "living_private": coverage_counts["withheld—living/private"],
+        },
+        "occupation_coverage": {
+            "people": len(people_rows),
+            "people_with_recorded_occupations_or_roles": occupation_people_count,
+            "accepted_occupation_events": occupation_event_count,
+            "unresolved": occupation_coverage_counts["unresolved—no supported occupation found"],
+            "privacy_limited": occupation_coverage_counts["not researched—privacy limited"],
+            "living_private": occupation_coverage_counts["withheld—living/private"],
+            "minor_without_occupation": occupation_coverage_counts["not established—minor"],
+        },
     },
     "people": people_rows,
     "families": family_rows,
@@ -945,6 +1238,10 @@ canonical_data = {
         {"topic": "Mary Gene spouse", "corrected": "Historical records identify Elmer James Chaffee Jr; the family chart's James form is retained as a shorter usage."},
         {"topic": "Eloise vital dates", "corrected": "Official California index supports 25 Aug 1903-10 Feb 1994; earlier compiled dates remain conflicting secondary evidence."},
         {"topic": "Charles Vollmer middle name", "corrected": "Owner-confirmed spelling is Charles Frederic Vollmer; Frederick is retained only as a record/index variant."},
+        {"topic": "Bathsheba Robie Lane death", "corrected": "Town-history and monument evidence support 13 Apr 1765; the copied 1785 member-tree date is rejected."},
+        {"topic": "Gabriel Whelden death", "corrected": "Will and probate evidence establish a death between 11 Feb 1653/54 and 4 Apr 1654; 4 Apr 1655 is rejected."},
+        {"topic": "Bruce Eric Muller vital dates", "corrected": "Ancestry's existing-tree hint supplies 15 Jun 1958-4 Jun 1972; owner testimony places the death at a Vancouver hospital and remembers age 14. The calculated-age discrepancy is retained."},
+        {"topic": "Peter Vollmer identity and dates", "corrected": "Duplicate Peter/Pete profiles were consolidated as Peter Vollmer, 29 Jun 1959-5 Aug 1975. The obituary index names Henry R Vollmer as father and Christopher as sibling; Peter's mother remains unconfirmed."},
     ],
     "provenance": [
         {"thread_title": "Build Family Tree", "role": "canonical maternal baseline and maternal collateral family evidence"},
@@ -953,6 +1250,8 @@ canonical_data = {
         {"thread_title": "Continue Vollmer-Marsh research", "role": "deep paternal continuation and preserved originals"},
         {"thread_title": "Extend paternal family tree", "role": "both-side collateral expansion and owner corrections"},
         {"thread_title": "Trace Mary Alice Thoren ancestry", "role": "owner-confirmed identity and birthplace; U.S. and Swedish records extending the proven Thoren line while preserving Gallaher and same-name uncertainties"},
+        {"thread_title": "Vital-date enrichment", "role": "complete birth/death coverage audit, Ancestry review, and owner-confirmed Bruce/Peter corrections"},
+        {"thread_title": "Occupation enrichment", "role": "Ancestry-centered occupation and role research with one-row-per-person coverage outcomes"},
     ],
 }
 OUT_JSON.write_text(json.dumps(canonical_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -966,7 +1265,20 @@ OUT_AUDIT.write_text(
     f"- Consolidated individuals: {len(people_rows)}\n"
     f"- Consolidated families: {len(family_rows)}\n"
     f"- GEDCOM sources: {len(source_catalog)}\n"
-    f"- Preserved record files inventoried: {len(record_inventory)}\n\n"
+    f"- Preserved record files inventoried: {len(record_inventory)}\n"
+    f"- People with a recorded birth date: {birth_date_count}\n"
+    f"- People with a recorded death date: {death_date_count}\n"
+    f"- People with both dates recorded: {coverage_counts['complete']}\n"
+    f"- Partial vital-date coverage: {coverage_counts['partial']}\n"
+    f"- Unresolved vital-date coverage: {coverage_counts['unresolved']}\n"
+    f"- Privacy-limited modern people: {coverage_counts['not researched—privacy limited']}\n"
+    f"- Living/private people with dates withheld: {coverage_counts['withheld—living/private']}\n"
+    f"- Accepted occupation/role research events: {occupation_event_count}\n"
+    f"- People with a recorded occupation or role: {occupation_people_count}\n"
+    f"- Unresolved occupation coverage: {occupation_coverage_counts['unresolved—no supported occupation found']}\n"
+    f"- Privacy-limited occupation coverage: {occupation_coverage_counts['not researched—privacy limited']}\n"
+    f"- Living/private occupation coverage: {occupation_coverage_counts['withheld—living/private']}\n"
+    f"- Minors without an established occupation: {occupation_coverage_counts['not established—minor']}\n\n"
     "## Controlling corrections\n\n"
     "- Jan Muller Vollmer is Fredric's biological mother.\n"
     "- Henry Richard Vollmer and Mary Alice Thoren are Chris Vollmer's biological parents; Mary Alice was Henry's first wife.\n"
@@ -979,6 +1291,8 @@ OUT_AUDIT.write_text(
     "- The superseded Chaffee mistranscription is removed.\n"
     "- Elmer James Chaffee Jr is Mary Gene's historically documented husband; James remains a family-chart short form.\n"
     "- Eloise's official California dates replace the conflicting compiled dates as the primary GEDCOM events.\n\n"
+    "- Bruce Eric Muller is recorded as 15 Jun 1958-4 Jun 1972, with Vancouver as the owner-confirmed death place and the age-14 recollection retained as a conflict.\n"
+    "- Duplicate Peter/Pete Vollmer profiles are consolidated as Peter Vollmer, 29 Jun 1959-5 Aug 1975; Henry is the obituary-supported father and Christopher the named sibling, while Peter's mother remains uninferred.\n\n"
     "## Merge policy\n\n"
     "The recovered GEDCOM remains the structural base. Stable direct identities were reused. Newer record-based findings supersede earlier drafts when they directly conflict. Parent links require a parent-naming record or independently corroborated household chain; Ancestry member-tree hints and same-name suggestions are not imported without that proof. Family testimony is retained for living collateral relationships with an explicit evidence grade; public people-search sites were not used.\n",
     encoding="utf-8",
@@ -1021,10 +1335,27 @@ validation = {
     "Alice Gallaher parents remain blank": not any(alice_gallaher_iid.strip("@") in row["children_ids"].split(";") for row in family_rows),
     "Chris Vollmer present": "1 NAME Chris /Vollmer/" in out_text,
     "Chris parent link to Henry and Mary present": any(row["husband_id"] == "I176" and row["wife_id"] == mary_alice_iid.strip("@") and chris_iid.strip("@") in row["children_ids"] for row in family_rows),
+    "Bruce Eric Muller dates present": "1 NAME Bruce Eric /Muller/" in out_text and "2 DATE 15 JUN 1958" in individuals["@I177@"] and "2 DATE 4 JUN 1972" in individuals["@I177@"],
+    "Peter Vollmer present": "1 NAME Peter /Vollmer/" in out_text,
+    "Peter and Chris brother association present": f"1 ASSO {chris_iid}" in individuals[peter_iid] and f"1 ASSO {peter_iid}" in individuals[chris_iid],
+    "Peter father link to Henry present": any(row["husband_id"] == "I176" and not row["wife_id"] and peter_iid.strip("@") in row["children_ids"] for row in family_rows),
+    "Peter mother intentionally absent": not any(row["wife_id"] and peter_iid.strip("@") in row["children_ids"] for row in family_rows),
     "Elmer James Chaffee corrected": "Elmer James /Chaffee/ Jr" in out_text,
     "people CSV rows": len(people_rows),
     "families CSV rows": len(family_rows),
     "source inventory rows": len(source_catalog) + len(record_inventory),
+    "vital-date research rows": len(vital_rows),
+    "accepted vital-date research rows": len(accepted_vital_rows),
+    "vital-date coverage rows": len(vital_coverage_rows),
+    "people with recorded birth dates": birth_date_count,
+    "people with recorded death dates": death_date_count,
+    "people with complete vital dates": coverage_counts["complete"],
+    "occupation research rows": len(occupation_rows),
+    "accepted occupation research rows": len(accepted_occupation_rows),
+    "occupation coverage rows": len(occupation_coverage_rows),
+    "people with recorded occupations or roles": occupation_people_count,
+    "GEDCOM occupation events": len(re.findall(r"^1 OCCU ", out_text, re.M)),
+    "rejected Marion teacher absent": not any("1 OCCU Teacher" in line for line in individuals["@I284@"]),
 }
 OUT_VALIDATION.write_text("\n".join(f"{key}: {value}" for key, value in validation.items()) + "\n" +
                           ("Reference errors:\n" + "\n".join(errors) + "\n" if errors else ""), encoding="utf-8")
@@ -1035,15 +1366,19 @@ OUT_README.write_text(
     "## Canonical files\n\n"
     f"- `{OUT_GED.name}` — GEDCOM 5.5.1 source-of-truth tree.\n"
     f"- `{OUT_JSON.name}` — complete machine-readable people, families, sources, corrections, and cross-chat provenance.\n"
-    "- `Fredric_Vollmer_Complete_Family_Tree_Index.xlsx` — synchronized review workbook; its eight recovered tabs are retained for provenance and four consolidated tabs reflect the current tree.\n"
+    "- `Fredric_Vollmer_Complete_Family_Tree_Index.xlsx` — synchronized review workbook; its eight recovered tabs are retained for provenance and six consolidated tabs reflect the current tree.\n"
     f"- `{OUT_PEOPLE.name}` and `{OUT_FAMILIES.name}` — flat audit tables.\n"
     f"- `{OUT_SOURCES.name}` — all recovered and later source ledgers in one file.\n"
     f"- `{OUT_SOURCE_INVENTORY.name}` — source and preserved-record inventory with SHA-256 hashes.\n"
+    f"- `{OUT_VITAL_COVERAGE.name}` — one-row-per-person birth/death coverage and explicit unresolved/privacy outcomes.\n"
+    f"- `{VITAL_RESEARCH.name}` — accepted additions, rejected candidates, source quality, and conflicts from the vital-date pass.\n"
+    f"- `{OUT_OCCUPATION_COVERAGE.name}` — one-row-per-person occupation/role coverage with explicit unresolved and privacy outcomes.\n"
+    f"- `{OCCUPATION_RESEARCH.name}` — accepted occupational facts, rejected candidates, dates, categories, transcription controls, and row-level citations.\n"
     f"- `{OUT_AUDIT.name}` and `{OUT_VALIDATION.name}` — merge and integrity checks.\n"
     "- `records/` — preserved source images and certificates copied from the later records-first tasks.\n"
     "- The recovered records-first maternal package remains alongside these files for provenance.\n\n"
     "## Privacy and relationship controls\n\n"
-    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. The 1950 census identifies William John Thoren and Alice Gallaher Thoren as Mary Alice's parents. U.S. and Swedish records extend William's ancestry through Christian Andrew Thoren and Augusta Nilsdotter into eighteenth-century Sweden. Alice Gallaher's parents remain unresolved and no member-tree hint was imported as fact.\n",
+    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. Peter Vollmer is recorded as Chris's owner-confirmed brother and Henry's obituary-supported son without inferring Peter's mother. The 1950 census identifies William John Thoren and Alice Gallaher Thoren as Mary Alice's parents. U.S. and Swedish records extend William's ancestry through Christian Andrew Thoren and Augusta Nilsdotter into eighteenth-century Sweden. Alice Gallaher's parents remain unresolved and no member-tree hint was imported as fact.\n",
     encoding="utf-8",
 )
 

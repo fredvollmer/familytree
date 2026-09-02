@@ -43,6 +43,13 @@
 1 SOUR @S5@
 1 REFN AJMUL-1925
 1 SOUR @S27@
+1 OCCU U.S. Army soldier
+2 DATE FROM 1943 TO 1945
+2 NOTE Unit: Company B, 134th Infantry, 35th Division
+2 NOTE military role; high confidence; occupation research OCC-011. The existing canonical evidence confirms Army service from 1943 through 1945 and identifies his company, regiment, and division.
+2 NOTE Conflict/control: The 1950 census does not supply a civilian occupation; no civilian occupation is inferred.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F001@
 1 FAMC @F002@
 0 @I004@ INDI
@@ -72,6 +79,14 @@
 1 DEAT
 2 DATE NOV 1966
 2 PLAC Detroit, Wayne, Michigan
+1 OCCU Designing engineer
+2 DATE 1940
+2 PLAC Detroit, Wayne, Michigan
+2 NOTE Work context: General Motors
+2 NOTE civilian occupation; high confidence; occupation research OCC-001. The 1940 census transcription reads "Disiguing Engineer"; the normalized occupation is designing engineer. An attached photograph caption independently calls him a General Motors engineer.
+2 NOTE Conflict/control: The employer is supplied by a member-photo caption rather than the census transcription, so the GM association is corroborative rather than a separate original-record fact.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F002@
 1 FAMC @F004@
 0 @I006@ INDI
@@ -177,6 +192,12 @@
 1 SOUR @S24@
 1 REFN MOL-1865
 1 SOUR @S27@
+1 BIRT
+2 DATE BET 1864 AND 1865
+2 PLAC Pennsylvania
+1 NOTE Vital-date research VD-002 (moderate-high confidence): Childhood census evidence for her children identifies Mary O. and places her birth about 1864-1865 in Pennsylvania.
+1 NOTE Vital-date conflict: Wilhelmina and Ohmer remain preferred-name forms from the earlier canonical package; Oliner and Olmer remain spelling variants.
+1 SOUR @S46@
 1 FAMS @F005@
 0 @I017@ INDI
 1 NAME Lorenz /Muller/
@@ -199,6 +220,13 @@
 1 NOTE Confidence B (Strong). Branch: Muller / Kleitz. Married Elizabeth Wüst in New York in 1860; listed as a builder/carpenter.
 1 SOUR @S2@
 1 SOUR @S21@
+1 OCCU Builder and carpenter
+2 NOTE Reported period: 19th century.
+2 PLAC New York
+2 NOTE civilian occupation; moderate confidence; occupation research OCC-012. The recovered canonical entry identifies Lambert as a builder/carpenter.
+2 NOTE Conflict/control: No dated original occupational record is preserved in the package, so the broad period and moderate confidence are retained.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F007@
 0 @I020@ INDI
 1 NAME Elizabeth /Wüst/
@@ -1652,6 +1680,14 @@
 1 SEX F
 1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant. A will reportedly proves the surname Ford; the family history discusses uncertainty over whether her given name was Mary or Elizabeth.
 1 SOUR @S8@
+1 BIRT
+2 DATE BET 1729 AND 1730
+2 PLAC Virginia
+1 DEAT
+2 DATE 1821
+1 NOTE Vital-date research VD-010 (provisional confidence): The compilation reports Mary (possibly Elizabeth) Ford born in Virginia in 1729-30 and died in 1821.
+1 NOTE Vital-date conflict: The given-name uncertainty and compiled nature of the source are retained; these dates are provisional.
+1 SOUR @S46@
 1 FAMS @F087@
 1 FAMC @F089@
 0 @I166@ INDI
@@ -1731,23 +1767,40 @@
 1 NAME Henry Richard /Vollmer/
 1 NOTE Relationship to Fredric: Father.
 1 NOTE Confidence: A - Confirmed.
-1 DEAT
 1 NOTE Henry is Fredric's father and Jan's spouse in this tree.
 1 NOTE Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer.
 1 NOTE Owner-confirmed: Henry is Chris Vollmer's biological father; Chris is Fredric's paternal half-brother.
 1 SOUR @S28@
+1 BIRT
+2 DATE 24 SEP 1934
+2 PLAC Long Island, New York
+1 DEAT
+2 DATE 4 JUL 2023
+1 NOTE Vital-date research VD-001 (high confidence): The direct-ancestor input row already supplied both dates; they were dropped when the person was reused during consolidation.
+1 SOUR @S46@
 1 SOUR @S31@
+1 SOUR @S47@
 1 FAMS @F095@
 1 FAMC @F105@
 1 FAMS @F144@
+1 FAMS @F155@
 0 @I177@ INDI
-1 NAME Bruce /Muller/
 1 SEX M
+1 NAME Bruce Eric /Muller/
 1 NOTE Relationship to Fredric: Maternal uncle.
 1 NOTE Confidence: A - Confirmed.
-1 DEAT
 1 REFN BRUCE-MULLER
 1 SOUR @S27@
+1 BIRT
+2 DATE 15 JUN 1958
+2 PLAC Michigan
+1 DEAT
+2 DATE 4 JUN 1972
+2 PLAC Vancouver, Clark, Washington
+1 NOTE Vital-date research VD-014 (moderate confidence): Ancestry's hint for the existing Bruce Muller profile identifies Bruce Eric Muller, son of Arthur John Muller, with exact dates; the owner confirms that Bruce died in a Vancouver hospital and was remembered as age 14.
+1 NOTE Vital-date conflict: The two calendar dates calculate to 13 years 354 days, while family testimony remembers age 14. Both are retained explicitly; the calendar dates remain moderate-confidence pending an original record.
+1 SOUR @S46@
+1 SOUR @S47@
 1 FAMC @F001@
 0 @I178@ INDI
 1 SEX F
@@ -1762,6 +1815,12 @@
 1 DEAT
 2 DATE 18 AUG 1995
 1 NOTE Historical marriage and draft records identify her husband as Elmer James Chaffee Jr.
+1 OCCU Stenographer
+2 DATE 1940
+2 PLAC Detroit, Wayne, Michigan
+2 NOTE civilian occupation; high confidence; occupation research OCC-002. The household transcription lists Mary G Muller as a stenographer and identifies her with the established Arthur H and Elma Muller household.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMC @F002@
 1 FAMS @F093@
 0 @I179@ INDI
@@ -1873,9 +1932,17 @@
 1 SEX M
 1 NOTE Relationship to Fredric: Maternal great-uncle.
 1 NOTE Confidence: A - Confirmed.
-1 DEAT
 1 REFN PMCC-1930
 1 SOUR @S27@
+1 BIRT
+2 DATE 10 APR 1930
+2 PLAC Royal Oak, Oakland, Michigan
+1 DEAT
+2 DATE 20 FEB 2021
+2 PLAC Newport Beach, Orange, California
+1 NOTE Vital-date research VD-003 (high confidence): The obituary supplies the full name, exact dates, and places and matches the already-proved Charles Ellsworth McCormick household.
+1 NOTE Vital-date conflict: The 1940 census estimate of about 1929-1930 is superseded by the obituary's exact date.
+1 SOUR @S46@
 1 FAMC @F003@
 1 FAMS @F096@
 0 @I194@ INDI
@@ -1974,6 +2041,20 @@
 1 SOUR @S26@
 1 NOTE Owner-confirmed spelling: Frederic is Charles's middle name; Frederick is retained only as a record/index variant.
 1 SOUR @S30@
+1 OCCU Salesman
+2 DATE 1940
+2 PLAC Van Wert, Van Wert, Ohio
+2 NOTE Work context: private employer
+2 NOTE civilian occupation; high confidence; occupation research OCC-003. The record lists Charles F Volmer as a private wage or salary worker with the occupation transcribed "Salesmone"; salesman is the conservative normalization.
+2 NOTE Conflict/control: The indexed spelling Salesmone is retained in this note and is not treated as a separate occupation.
+2 SOUR @S48@
+1 SOUR @S48@
+1 OCCU Salesman
+2 DATE 1950
+2 PLAC Seattle, King, Washington
+2 NOTE Work context: wholesale glue company
+2 NOTE civilian occupation; high confidence; occupation research OCC-004. The record lists Charles F Volmer as a salesman in a wholesale glue company, working 48 hours for a private employer.
+2 SOUR @S48@
 1 FAMS @F105@
 1 FAMC @F106@
 0 @I208@ INDI
@@ -1989,6 +2070,25 @@
 1 NOTE Direct Vollmer ancestor
 1 REFN HJJ-VOLLMER-1878
 1 SOUR @S26@
+1 OCCU Mason and plasterer
+2 DATE 1910
+2 PLAC Hempstead District 5, Nassau, New York
+2 NOTE Work context: own account
+2 NOTE civilian occupation; high confidence; occupation research OCC-005. The record lists Henry Vollmer as a mason in the plastering industry working on his own account. His 1905 original marriage certificate independently records occupation mason.
+2 SOUR @S48@
+1 SOUR @S48@
+1 OCCU Mason
+2 DATE 1920
+2 PLAC Hempstead, Nassau, New York
+2 NOTE Work context: house industry
+2 NOTE civilian occupation; high confidence; occupation research OCC-006. The record lists Henry as a wage-or-salary mason in the house industry.
+2 SOUR @S48@
+1 OCCU Builder
+2 DATE 1930
+2 PLAC Freeport, Nassau, New York
+2 NOTE Work context: contracting
+2 NOTE civilian occupation; high confidence; occupation research OCC-007. The record lists Henry J Vollmer as a builder in contracting and as a wage or salary worker.
+2 SOUR @S48@
 1 FAMS @F106@
 1 FAMC @F107@
 0 @I209@ INDI
@@ -2032,6 +2132,13 @@
 1 NOTE Direct ancestor; recorded as George on daughter's records and as Themes on his original 1883 marriage; same 501 West 51st Street address and wife establish that the records concern the same couple
 1 REFN GEORGE-PEPER
 1 SOUR @S26@
+1 OCCU Teamster
+2 DATE 14 MAR 1884
+2 PLAC 501 West 51st Street, Manhattan, New York
+2 NOTE civilian occupation; high confidence; occupation research OCC-013. The original birth return for the child identified as Metha records father George Pepper's occupation as teamster.
+2 NOTE Conflict/control: The 1883 marriage calls this man Themes Pepper; the George/Themes variant is retained elsewhere in the canonical evidence.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F108@
 1 FAMC @F109@
 0 @I213@ INDI
@@ -2098,6 +2205,13 @@
 1 NOTE Direct ancestor
 1 REFN DJM-1900
 1 SOUR @S26@
+1 OCCU Keeping house
+2 DATE 1950
+2 PLAC Seattle, King, Washington
+2 NOTE household role; moderate-high confidence; occupation research OCC-008. The wife in Charles F Volmer's established household is classified as keeping house.
+2 NOTE Conflict/control: Ancestry indexes her as Davis M Volmer; the spouse, age, location, and children make this the known Doris Marsh household, but the name-transcription conflict is retained.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F105@
 1 FAMC @F111@
 0 @I219@ INDI
@@ -2113,6 +2227,14 @@
 1 NOTE Direct ancestor
 1 REFN FHM-1867
 1 SOUR @S26@
+1 OCCU Butcher
+2 DATE 1910
+2 PLAC Leicester, Livingston, New York
+2 NOTE Work context: meat market; employer
+2 NOTE civilian occupation; high confidence; occupation research OCC-015. The record lists Frad Marsh as a butcher in a meat market and classifies him as an employer.
+2 NOTE Conflict/control: The indexed given name Frad is reconciled to Frederick through the established household.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F111@
 1 FAMC @F112@
 0 @I220@ INDI
@@ -2128,6 +2250,18 @@
 1 NOTE Direct ancestor; official New York death index supplies exact death date/place
 1 REFN AJM-1829
 1 SOUR @S26@
+1 OCCU Wagon maker
+2 DATE 1870
+2 PLAC Pavilion, Genesee, New York
+2 NOTE civilian occupation; high confidence; occupation research OCC-016. The record lists Andrew Marsh as a wagon maker with real and personal property.
+2 SOUR @S48@
+1 SOUR @S48@
+1 OCCU Sexton
+2 DATE 1910
+2 PLAC Leicester, Livingston, New York
+2 NOTE Work context: cemetery
+2 NOTE civilian occupation; high confidence; occupation research OCC-017. The record lists Andrew Marsh as a cemetery sexton and wage earner.
+2 SOUR @S48@
 1 FAMS @F112@
 1 FAMC @F113@
 0 @I221@ INDI
@@ -2139,6 +2273,12 @@
 1 NOTE Direct ancestor; his parents remain undocumented
 1 REFN MM-1808
 1 SOUR @S26@
+1 OCCU Farmer
+2 DATE 1850
+2 PLAC Franklinville, Cattaraugus, New York
+2 NOTE civilian occupation; high confidence; occupation research OCC-018. The record lists Malachi Marsh as a farmer in agriculture with real estate valued at 6400 dollars.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F113@
 0 @I222@ INDI
 1 NAME Mary Lane /Marsh/
@@ -2258,12 +2398,19 @@
 0 @I230@ INDI
 1 NAME Bathsheba Robie /Lane/
 1 SEX F
-1 BIRT
-2 NOTE As reported: date and place unknown
 1 NOTE Confidence: high for maiden identity and relationship; low for vital details.
 1 NOTE Direct ancestor; Samuel Lane's birth names mother Bathsheba and the original 1717 marriage record identifies Joshua Lane's bride as Bathshabah Robie
 1 REFN BATHSHEBA-ROBIE
 1 SOUR @S26@
+1 BIRT
+2 DATE 2 AUG 1696
+2 PLAC Hampton, Rockingham, New Hampshire
+1 DEAT
+2 DATE 13 APR 1765
+2 PLAC Hampton, Rockingham, New Hampshire
+1 NOTE Vital-date research VD-004 (moderate-high confidence): The birth is transcribed from Hampton vital records; the death is repeated in the Hampton town history and on a later family monument.
+1 NOTE Vital-date conflict: An Ancestry member-tree compilation reports 1785; that date is rejected because the cited town history and monument agree on 1765.
+1 SOUR @S46@
 1 FAMS @F117@
 0 @I231@ INDI
 1 NAME Benjamin /James/
@@ -2332,6 +2479,13 @@
 1 NOTE Direct ancestor; 1880 census says both parents born Connecticut; published Whitney genealogy identifies father James, but no original parent-link record was found
 1 REFN ALW-1804
 1 SOUR @S26@
+1 OCCU Carpenter and joiner
+2 DATE 1850
+2 PLAC Pavilion, Genesee, New York
+2 NOTE Work context: construction
+2 NOTE civilian occupation; high confidence; occupation research OCC-019. The record lists Alvin Whitney as a carpenter and joiner in construction.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F120@
 1 FAMC @F121@
 0 @I237@ INDI
@@ -2439,11 +2593,17 @@
 1 NAME Joshua /Cooke/
 1 SEX M
 1 BIRT
-2 NOTE As reported: 4 Feb 1682/83; Eastham, Barnstable, Massachusetts
+2 DATE 4 FEB 1682/83
+2 PLAC Eastham, Barnstable, Massachusetts
 1 NOTE Confidence: high for birth and parents.
 1 NOTE Direct ancestor; original town birth names Josiah and Deborah; original marriage names Patience Doane
 1 REFN JOSHUA-COOKE-1682
 1 SOUR @S26@
+1 DEAT
+2 DATE BET 31 JUL 1737 AND 28 SEP 1746
+2 PLAC probably Eastham, Barnstable, Massachusetts
+1 NOTE Vital-date research VD-005 (moderate-high confidence): He was still living when his son was called Joshua Jr. on 31 July 1737 and was deceased when Patience was called a widow on 28 September 1746.
+1 SOUR @S46@
 1 FAMS @F125@
 1 FAMC @F126@
 0 @I246@ INDI
@@ -2456,6 +2616,11 @@
 1 NOTE Direct ancestor; original town birth names Ephraim and Mary
 1 REFN PATIENCE-DOANE-1682
 1 SOUR @S26@
+1 DEAT
+2 DATE AFT 28 SEP 1746
+2 PLAC probably Middlesex County, Connecticut
+1 NOTE Vital-date research VD-006 (moderate-high confidence): Patience was admitted to the Haddam Neck congregation as a widow on 28 September 1746 and therefore died after that date.
+1 SOUR @S46@
 1 FAMS @F125@
 1 FAMC @F127@
 0 @I247@ INDI
@@ -2465,7 +2630,8 @@
 2 DATE ABT 1645
 2 PLAC Plymouth or Eastham, Massachusetts (scholarly reconstruction)
 1 DEAT
-2 NOTE As reported: 31 Jan 1731/32; Eastham, Barnstable, Massachusetts
+2 DATE 31 JAN 1731/32
+2 PLAC Eastham, Barnstable, Massachusetts
 1 NOTE Confidence: high for father and married identity; moderate-high for mother; moderate for birth.
 1 NOTE Direct ancestor; original marriage and son Joshua's birth establish his family; elder Josiah's probate and scholarly reconstruction establish the parents
 1 REFN JOSIAH-COOKE
@@ -2482,6 +2648,12 @@
 1 NOTE Direct ancestor; original birth names Giles; GSMD/Pilgrim Hall evidence establishes Catherine Whelden as mother
 1 REFN DEBORAH-HOPKINS-1648
 1 SOUR @S26@
+1 DEAT
+2 DATE BEF 7 DEC 1727
+2 PLAC probably Eastham, Barnstable, Massachusetts
+1 NOTE Vital-date research VD-007 (moderate-high confidence): The lineage summary reports 7 December 1727; the conservative event is recorded as before that date because other Mayflower-derived compilations describe it as a limiting date rather than a proved death day.
+1 NOTE Vital-date conflict: Some derivative sites state exactly 7 December 1727; the canonical tree uses the more conservative before-date.
+1 SOUR @S46@
 1 FAMS @F126@
 1 FAMC @F129@
 0 @I249@ INDI
@@ -2514,9 +2686,11 @@
 1 NAME Giles /Hopkins/
 1 SEX M
 1 BIRT
-2 NOTE As reported: baptized 30 Jan 1607/08; Hursley, Hampshire, England
+2 DATE baptized 30 JAN 1607/08
+2 PLAC Hursley, Hampshire, England
 1 DEAT
-2 NOTE As reported: between 5 Mar 1688/89 and 16 Apr 1690; Eastham, Massachusetts
+2 DATE BET 5 MAR 1688/89 and 16 APR 1690
+2 PLAC Eastham, Massachusetts
 1 NOTE Confidence: high for father; moderate-high for mother and baptism details.
 1 NOTE Direct ancestor and Mayflower passenger; Stephen's original will names son Giles; specialist synthesis gives baptism to Stephen and Mary
 1 REFN GILES-HOPKINS
@@ -2554,9 +2728,10 @@
 1 NAME Catherine Whelden /Hopkins/
 1 SEX F
 1 BIRT
-2 NOTE As reported: baptized 6 Mar 1616/17; Basford, Nottinghamshire, England
+2 DATE baptized 6 MAR 1616/17
+2 PLAC Basford, Nottinghamshire, England
 1 DEAT
-2 NOTE As reported: after 5 Mar 1688/89
+2 DATE AFT 5 MAR 1688/89
 1 NOTE Confidence: high for wife/mother; moderate-high for father and baptism.
 1 NOTE Direct ancestor; original Plymouth Colony marriage to Giles; GSMD family treatment identifies her as Deborah's mother
 1 REFN CATHERINE-WHELDEN
@@ -2586,6 +2761,12 @@
 1 NOTE Direct ancestor named as Giles's mother in the Hursley baptism evidence; proposed Kent surname remains unproved
 1 REFN MARY-HOPKINS
 1 SOUR @S26@
+1 DEAT
+2 DATE BEF 9 MAY 1613
+2 PLAC Hursley, Hampshire, England
+1 NOTE Vital-date research VD-008 (high confidence): Mary, first wife of Stephen Hopkins, was buried at Hursley on 9 May 1613; death is therefore recorded as before the burial date.
+1 NOTE Vital-date conflict: No unsupported maiden surname is adopted.
+1 SOUR @S46@
 1 FAMS @F132@
 0 @I257@ INDI
 1 NAME Gabriel /Whelden/
@@ -2596,6 +2777,12 @@
 1 NOTE Direct ancestor identified as Catherine's father in cited English parish research; original baptism image not yet inspected
 1 REFN GABRIEL-WHELDEN
 1 SOUR @S26@
+1 DEAT
+2 DATE BET 11 FEB 1653/54 AND 4 APR 1654
+2 PLAC Malden, Middlesex, Massachusetts
+1 NOTE Vital-date research VD-009 (high confidence): His will was dated 11 February 1653/54 and proved 4 April 1654, establishing the death interval.
+1 NOTE Vital-date conflict: The frequently copied 4 April 1655 date is rejected; 4 April 1654 was the probate date, not a death date.
+1 SOUR @S46@
 1 FAMS @F133@
 0 @I258@ INDI
 1 NAME John /Doane/
@@ -2604,7 +2791,8 @@
 2 DATE ABT 1590
 2 PLAC England
 1 DEAT
-2 NOTE As reported: 21 Feb 1685/86; Eastham, Barnstable, Massachusetts
+2 DATE 21 FEB 1685/86
+2 PLAC Eastham, Barnstable, Massachusetts
 1 NOTE Confidence: high for relationship; moderate for dates.
 1 NOTE Direct ancestor; original will names son Ephraim
 1 REFN JOHN-DOANE
@@ -2629,7 +2817,7 @@
 2 DATE ABT 1615
 2 PLAC England
 1 DEAT
-2 DATE between 1670 and 1675
+2 DATE BET 1670 and 1675
 2 PLAC Eastham, Barnstable, Massachusetts
 1 NOTE Confidence: moderate-high for relationship; high for 1639 marriage; moderate for dates.
 1 NOTE Direct ancestor; scholarly Knowles reconstruction identifies daughter Mary/Mercy; his own parentage remains unresolved
@@ -2704,6 +2892,23 @@
 1 NOTE Direct ancestor; original military register preferred over cemetery index's 1835 birth year
 1 REFN PWM-1834
 1 SOUR @S26@
+1 OCCU Laborer
+2 DATE 1850
+2 PLAC Caledonia, Livingston, New York
+2 NOTE civilian occupation; high confidence; occupation research OCC-020. The record lists sixteen-year-old Peter McNaughton as a laborer.
+2 SOUR @S48@
+1 SOUR @S48@
+1 OCCU Corporal
+2 DATE 1862
+2 NOTE Unit: 6th Independent Company, New York State Sharpshooters
+2 NOTE military role; high confidence; occupation research OCC-021. The town-clerk register records Peter's 27 August 1862 enlistment and rank as corporal.
+2 SOUR @S48@
+1 OCCU Carpenter
+2 DATE 1870
+2 PLAC Caledonia, Livingston, New York
+2 NOTE civilian occupation; high confidence; occupation research OCC-022. The record lists Peter Mcnaughten as a carpenter in the established Peter and Mary McNaughton household.
+2 NOTE Conflict/control: The Mcnaughten index spelling is treated as a surname variant.
+2 SOUR @S48@
 1 FAMS @F135@
 1 FAMC @F136@
 0 @I266@ INDI
@@ -2718,6 +2923,13 @@
 1 NOTE Direct ancestor; documentary trail stops here
 1 REFN WM-1804
 1 SOUR @S26@
+1 OCCU Wagon maker
+2 DATE 1850
+2 PLAC Caledonia, Livingston, New York
+2 NOTE Work context: transportation equipment
+2 NOTE civilian occupation; high confidence; occupation research OCC-023. The record lists William McNaughton as a wagon maker and classifies the industry as railroad and miscellaneous transportation equipment.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F136@
 0 @I267@ INDI
 1 NAME Relief Gibbs /McNaughton/
@@ -2768,6 +2980,12 @@
 1 NOTE In scope as father's aunt; relationship and dates supported by census and SSA records
 1 REFN MAV-1915
 1 SOUR @S27@
+1 OCCU Keeping house
+2 DATE 1950
+2 PLAC Freeport, Nassau, New York
+2 NOTE household role; high confidence; occupation research OCC-009. The record classifies Marie Seeley as keeping house and identifies husband Lester and their established sons.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMC @F106@
 1 FAMS @F137@
 0 @I271@ INDI
@@ -2784,6 +3002,14 @@
 1 NOTE Supporting spouse only; not independently expanded
 1 REFN LAS-1910
 1 SOUR @S27@
+1 OCCU Punch press operator
+2 DATE 1950
+2 PLAC Freeport, Nassau, New York
+2 NOTE Work context: airplane plant
+2 NOTE civilian occupation; high confidence; occupation research OCC-010. The household record lists Lester Seeley as a punch press operator at an airplane plant, working 40 hours for a private employer.
+2 NOTE Conflict/control: The index misspells airplane as Areoplane; the normalized industry is recorded here.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMS @F137@
 0 @I272@ INDI
 1 NAME James /Seeley/
@@ -2825,14 +3051,19 @@
 0 @I275@ INDI
 1 NAME Harry K /Gutelius/
 1 SEX M
-1 BIRT
-2 DATE ABT 1890
-2 PLAC New York
 1 NOTE spouse of Mildred E Marsh; included to show cousin parentage
 1 NOTE Confidence: high.
 1 NOTE Supporting spouse only; not independently expanded
 1 REFN HKG-1890
 1 SOUR @S27@
+1 BIRT
+2 DATE 1889
+2 PLAC New York
+1 DEAT
+2 DATE 1962
+1 NOTE Vital-date research VD-011 (moderate confidence): The Leicester Cemetery index lists Harry K. Gutelius as 1889-1962 beside Mildred M. Gutelius 1890-1976.
+1 NOTE Vital-date conflict: Census ages previously implied about 1890; the monument year is retained with the discrepancy noted.
+1 SOUR @S46@
 1 FAMS @F138@
 0 @I276@ INDI
 1 NAME Eileen Gutelius /Eaton/
@@ -2934,6 +3165,12 @@
 1 NOTE Original 1897 church marriage and 1917 death certificate independently identify the same birth date and parent pair; wife Margareth/Margaretha Euders noted in report, but no child is yet accepted
 1 REFN FGHV-1873
 1 SOUR @S27@
+1 OCCU Painter
+2 DATE 10 MAR 1917
+2 PLAC Queens, New York
+2 NOTE civilian occupation; high confidence; occupation research OCC-014. The original death certificate records Frederick G Vollmer as a married painter.
+2 SOUR @S48@
+1 SOUR @S48@
 1 FAMC @F107@
 0 @I283@ INDI
 1 NAME Charles /Marsh/
@@ -2979,13 +3216,20 @@
 0 @I286@ INDI
 1 NAME John C /Pullyblank/
 1 SEX M
-1 BIRT
-2 NOTE As reported: about 1873-1874; Canada
 1 NOTE spouse of Elizabeth McNaughton; included to show cousin parentage
 1 NOTE Confidence: high.
 1 NOTE Supporting spouse only; New York marriage index and 1900-1930 census sequence
 1 REFN JCP-1873
 1 SOUR @S27@
+1 BIRT
+2 DATE 1872
+2 PLAC Canada
+1 DEAT
+2 DATE 1934
+2 PLAC Livingston County, New York
+1 NOTE Vital-date research VD-012 (moderate confidence): The county-hosted index lists John C. Pullyblank as 1872-1934 in Mumford Rural Cemetery; the identity matches the established Caledonia/Mumford household.
+1 NOTE Vital-date conflict: Census ages previously implied about 1873-1874; the monument year is retained with the discrepancy noted.
+1 SOUR @S46@
 1 FAMS @F140@
 0 @I287@ INDI
 1 NAME MacNaughton /Pullyblank/
@@ -3026,13 +3270,20 @@
 0 @I290@ INDI
 1 NAME Willard R /Pullyblank/
 1 SEX U
-1 BIRT
-2 NOTE As reported: about 1906-1907; New York
 1 NOTE first cousin of Doris Josephine Marsh; paternal first cousin twice removed of owner
 1 NOTE Confidence: high.
 1 NOTE 1910-1930 census sequence; no spouse or descendants developed
 1 REFN WRP-1906
 1 SOUR @S27@
+1 BIRT
+2 DATE 6 SEP 1906
+2 PLAC New York
+1 DEAT
+2 DATE 13 DEC 1986
+2 PLAC San Diego County, California
+1 NOTE Vital-date research VD-013 (high confidence): The cemetery record supplies exact birth and death dates and military burial; New York birthplace remains supported by the established census sequence.
+1 NOTE Vital-date conflict: The exact date replaces the census estimate of about 1906-1907.
+1 SOUR @S46@
 1 FAMC @F140@
 0 @I291@ INDI
 1 NAME John W /Pullyblank/
@@ -3340,6 +3591,9 @@
 1 ASSO @I002@
 2 RELA Stepmother
 1 SOUR @S28@
+1 ASSO @I355@
+2 RELA Brother
+1 SOUR @S47@
 1 FAMC @F144@
 0 @I336@ INDI
 1 NAME William John /Thoren/
@@ -3547,6 +3801,27 @@
 1 REFN RECORD-MARIA-HANSDOTTER
 1 SOUR @S45@
 1 FAMS @F154@
+0 @I355@ INDI
+1 NAME Peter /Vollmer/
+1 SEX M
+1 NOTE Owner-confirmed brother of Chris Vollmer. The indexed obituary names Henry R Vollmer as Peter's father and Christopher as a sibling.
+1 NOTE Mary Alice appears only as a potential mother on one duplicate Ancestry profile, so Peter's mother is intentionally left blank.
+1 REFN OWNER-PETER-VOLLMER
+1 REFN ANCESTRY-282372364380
+1 REFN ANCESTRY-282618825108
+1 ASSO @I335@
+2 RELA Brother
+1 SOUR @S47@
+1 BIRT
+2 DATE 29 JUN 1959
+2 PLAC Seattle, King, Washington
+1 DEAT
+2 DATE 5 AUG 1975
+2 PLAC Vancouver, Clark, Washington
+1 NOTE Vital-date research VD-015 (high confidence): The indexed obituary supplies exact birth and death details, names Henry R Vollmer as father, and names Christopher as a sibling. The owner independently identifies Peter as Chris Vollmer's brother.
+1 NOTE Vital-date conflict: The current Ancestry tree contains duplicate Peter/Pete profiles. The sourced Pete profile controls the dates; Mary Alice appears only as a potential mother on that profile and is therefore not assigned as Peter's mother.
+1 SOUR @S46@
+1 FAMC @F155@
 0 @F001@ FAM
 1 HUSB @I003@
 1 WIFE @I004@
@@ -4335,6 +4610,11 @@
 1 CHIL @I350@
 1 NOTE Ingier's 1794 Hasslöv baptism names Hans Månsson and Maria Hansdotter as her parents.
 1 SOUR @S45@
+0 @F155@ FAM
+1 HUSB @I176@
+1 CHIL @I355@
+1 NOTE Peter's indexed obituary names Henry R Vollmer as his father. Peter is owner-confirmed as Chris Vollmer's brother; Peter's mother is not inferred.
+1 SOUR @S47@
 0 @S1@ SOUR
 1 TITL Statement supplied by Fredric Muller Vollmer
 1 NOTE Anchors Fredric, Jan Muller Vollmer, Anne Muller/McCormick, Eloise McCormick, and Charles Ellsworth McCormick II.
@@ -4522,4 +4802,19 @@
 1 AUTH FamilySearch; Ancestry.com
 1 DATE 23 MAR 1794
 1 NOTE Ingier was born 20 Mar and baptized 23 Mar 1794 at Hasslöv, daughter of Hans Månsson and Maria Hansdotter. https://www.ancestry.com/search/collections/60361/records/11677925
+0 @S46@ SOUR
+1 TITL Vital-date enrichment research ledger
+1 AUTH Codex research task in the Family Tree project
+1 DATE 2 SEP 2026
+1 NOTE Accepted additions, conservative date ranges, rejected candidates, source quality, and conflicts are itemized in Fredric_Vollmer_Complete_Family_Tree_Vital_Dates_Research.csv.
+0 @S47@ SOUR
+1 TITL Owner statements and Ancestry review for Bruce Muller and Peter Vollmer
+1 AUTH Fredric Muller Vollmer and Ancestry record review
+1 DATE 2 SEP 2026
+1 NOTE Bruce died in a Vancouver, Washington hospital and was remembered as age 14. Ancestry's existing-tree hint supplies Bruce Eric Muller's 15 Jun 1958-4 Jun 1972 dates. The sourced Pete Vollmer profile supplies 29 Jun 1959-5 Aug 1975 and identifies Henry R Vollmer as father and Christopher as sibling.
+0 @S48@ SOUR
+1 TITL Occupation and role enrichment research ledger
+1 AUTH Codex research task in the Family Tree project
+1 DATE 2 SEP 2026
+1 NOTE Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.
 0 TRLR

@@ -1,0 +1,329 @@
+individual_id,name,birth,birth_status,death,death_status,overall_status,source_refs
+I001,Fredric Muller Vollmer,,withheld—living/private,,withheld—living/private,withheld—living/private,S1
+I002,Jan Muller Vollmer,,withheld—living/private,,withheld—living/private,withheld—living/private,S1;S2;S27;S28
+I003,Arthur John Muller,"12 MAY 1925; Detroit, Michigan",recorded,"9 JAN 2005; Bellingham, Washington",recorded,complete,S2;S5;S27;S48
+I004,Anne Rives McCormick Muller,30 MAY 1927,recorded,2016,recorded,complete,S1;S8;S27
+I005,Arthur Herman Muller,"28 NOV 1896; Highland Falls, Orange, New York",recorded,"NOV 1966; Detroit, Wayne, Michigan",recorded,complete,S2;S27;S48
+I006,Elma Anna Lee Muller,14 JAN 1897; Michigan,recorded,"26 DEC 1972; Detroit, Wayne, Michigan",recorded,complete,S2;S3;S24;S27
+I007,Charles Ellsworth McCormick II,12 JUL 1896; Kentucky,recorded,"9 SEP 1978; Asheville, North Carolina",recorded,complete,S1;S25;S27
+I008,Eloise Alcyone Slaughter McCormick,25 AUG 1903; Alabama,recorded,"10 FEB 1994; Los Angeles County, California",recorded,complete,S1;S8;S27
+I009,Christian August Vollrath Muller,ABOUT 1866,recorded,1922,recorded,complete,S2;S27
+I010,Henrietta Kleitz,"1871; New York, New York",recorded,,unresolved—no supported date found,partial,S2;S21;S27
+I013,Elmer Ellsworth Lee,ABOUT 1863; Michigan,recorded,"8 JUL 1941; Detroit, Michigan",recorded,complete,S2;S3;S6;S24;S27
+I014,Mary Wilhelmina Ohmer,BET 1864 AND 1865; Pennsylvania,recorded,,unresolved—no supported date found,partial,S2;S24;S27;S46
+I017,Lorenz Muller,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S2
+I018,Pauline Vollrath,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S2
+I019,Lambert Kleitz,"1840; Alsace, France",recorded,,unresolved—no supported date found,partial,S2;S21;S48
+I020,Elizabeth Wüst,1837; Bavaria,recorded,ABOUT 1907,recorded,complete,S2;S21
+I021,Jacob Wüst,Bavaria,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S21
+I022,Hubbard Stone Lee,6 JUL 1822; Connecticut,recorded,"22 APR 1901; Bloomfield, Oakland County, Michigan",recorded,complete,S6;S7
+I023,Sarah M. Willitts,"1831; Birmingham, Oakland County, Michigan",recorded,1913,recorded,complete,S6;S7
+I024,Elon Lee,"12 MAR 1786; Guilford, New Haven County, Connecticut",recorded,"22 DEC 1856; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I025,Grace Stone,"27 APR 1788; Guilford, New Haven County, Connecticut",recorded,"18 MAY 1847; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I026,William Lee,ABOUT 1741,recorded,"29 APR 1795; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I027,Eunice Hotchkiss,ABOUT 1754,recorded,27 FEB 1827,recorded,complete,S7
+I028,John Evarts Stone,"28 NOV 1760; Guilford, New Haven County, Connecticut",recorded,"29 JAN 1852; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I029,Eunice Goldsmith,28 MAY 1764,recorded,28 APR 1852,recorded,complete,S7
+I030,Ebenezer Lee,25 FEB 1698/99,recorded,24 SEP 1751,recorded,complete,S7
+I031,Sarah Chidsey,,unresolved—no supported date found,7 MAR 1778,recorded,partial,S7
+I032,Mark Hotchkiss,1 JUL 1714,recorded,19 NOV 1775,recorded,complete,S7
+I033,Miriam Lee,,unresolved—no supported date found,31 MAR 1788,recorded,partial,S7
+I034,Asher Stone,"23 JAN 1738/39; Guilford, New Haven County, Connecticut",recorded,"27 SEP 1766; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I035,Carine Ward,31 MAY 1740,recorded,27 OCT 1818,recorded,complete,S7
+I036,Edward Lee,ABOUT 1656,recorded,,unresolved—no supported date found,partial,S7
+I037,Abigail Stevens,,unresolved—no supported date found,AUG 1727,recorded,partial,S7
+I038,Joseph Chidsey,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I039,Joseph Hotchkiss,3 JUN 1678,recorded,31 JAN 1740,recorded,complete,S7
+I040,Hannah Cruttenden,ABOUT 1679,recorded,28 MAR 1756,recorded,complete,S7
+I041,Caleb Stone Jr.,"7 MAY 1714; probably Guilford, Connecticut",recorded,"28 JUL 1788; Guilford, Connecticut",recorded,complete,S7
+I042,Rebecca Evarts,ABOUT 1715,recorded,5 SEP 1795,recorded,complete,S7
+I043,William Ward,"7 JAN 1705; Wallingford, New Haven County, Connecticut",recorded,19 DEC 1761,recorded,complete,S7
+I044,Abigail Crampton,17 OCT 1704,recorded,4 NOV 1757,recorded,complete,S7
+I045,Thomas Stevens,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I046,John Hotchkiss,ABOUT 1643,recorded,BY 23 SEP 1689,recorded,complete,S7
+I047,Elizabeth Peck,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I048,Isaac Cruttenden,ABOUT 1643,recorded,13 JUL 1685,recorded,complete,S7
+I049,Lydia Thompson,"BAPTIZED 24 JUL 1647; New Haven, Connecticut",recorded,DEC 1729,recorded,complete,S7
+I050,Caleb Stone,10 NOV 1685,recorded,25 MAY 1765,recorded,complete,S7
+I051,Sarah Meigs,ABOUT 1691,recorded,4 MAY 1775,recorded,complete,S7
+I052,James Evarts,18 FEB 1672,recorded,6 APR 1751,recorded,complete,S7
+I053,William Ward,"18 OCT 1678; Wallingford, New Haven County, Connecticut",recorded,"19 DEC 1767; Wallingford, New Haven County, Connecticut",recorded,complete,S7
+I054,Lettice Beach,"24 DEC 1679; Wallingford, New Haven County, Connecticut",recorded,,unresolved—no supported date found,partial,S7
+I055,John Crampton,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I056,Hannah Evarts,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I057,Samuel Hotchkiss,,unresolved—no supported date found,"28 DEC 1663; New Haven, Connecticut",recorded,partial,S7
+I058,Elizabeth Cleverly,,unresolved—no supported date found,ABOUT 1681,recorded,partial,S7
+I059,Abraham Cruttenden,,unresolved—no supported date found,JAN 1683,recorded,partial,S7
+I060,Mary,,unresolved—no supported date found,ABOUT 1664,recorded,partial,S7
+I061,Anthony Thompson,ABOUT 1612,recorded,SEP 1648,recorded,complete,S7
+I062,Katherine,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I063,Nathaniel Stone,"2 FEB 1648; Guilford, New Haven County, Connecticut",recorded,11 AUG 1709,recorded,complete,S7
+I064,Mary Bartlett,1 FEB 1655,recorded,5 NOV 1724,recorded,complete,S7
+I065,John Meigs,28 FEB 1641,recorded,9 NOV 1713,recorded,complete,S7
+I066,Sarah Wilcockson,"26 OCT 1648; Stratford, Fairfield County, Connecticut",recorded,24 NOV 1691,recorded,complete,S7
+I067,Daniel Evarts,ABOUT 1645,recorded,5 DEC 1692,recorded,complete,S7
+I068,Rebecca Dowd,,unresolved—no supported date found,16 OCT 1703,recorded,partial,S7
+I069,Andrew Ward Jr.,ABOUT 1644,recorded,ABOUT 1690,recorded,complete,S7
+I070,Trial Meigs,"ABOUT 1646; probably New Haven, Connecticut",recorded,ABOUT 1690,recorded,complete,S7
+I071,John Beach,"19 OCT 1655; Milford, New Haven County, Connecticut",recorded,ABOUT 1709,recorded,complete,S7
+I072,Mary Royce,ABOUT 1658,recorded,,unresolved—no supported date found,partial,S7
+I073,John Stone,ABOUT 1610,recorded,"FEB 1687; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I074,Mary,,unresolved—no supported date found,"FEB 1687; Guilford, New Haven County, Connecticut",recorded,partial,S7
+I075,Vincent Meigs,ABOUT 1583,recorded,"DEC 1658; Killingworth, Middlesex County, Connecticut",recorded,complete,S7
+I076,Tamasin Fry,,unresolved—no supported date found,AFTER 28 AUG 1671,recorded,partial,S7
+I077,William Wilcockson,"ABOUT 1601; St. Albans, Hertfordshire, England",recorded,"1651/52; Cambridge, Massachusetts",recorded,complete,S7
+I078,Margaret Harvey,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I079,John Evarts,ABOUT 1600,recorded,"BURIED 10 MAY 1669; Guilford, New Haven County, Connecticut",recorded,complete,S7
+I080,Elizabeth,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I081,Henry Dowd,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I082,Andrew Ward,ABOUT 1603,recorded,1659,recorded,complete,S7
+I083,Hester Sherman,"BAPTIZED 1 APR 1606; Dedham, Essex, England",recorded,1665/66,recorded,complete,S7
+I084,Thomas Beach,,unresolved—no supported date found,"BY 31 MAY 1662; Milford, New Haven County, Connecticut",recorded,partial,S7
+I085,Sarah Platt,"BAPTIZED 11 SEP 1636; Ware, Hertfordshire, England",recorded,"15 MAY 1670; Milford, New Haven County, Connecticut",recorded,complete,S7
+I086,Jonathan Royce,,unresolved—no supported date found,ABOUT 1690,recorded,partial,S7
+I087,Ann Spinning,,unresolved—no supported date found,ABOUT 1658,recorded,partial,S7
+I088,James Harvey,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I089,Edmund Sherman,"ABOUT 1572; probably Dedham, Essex, England",recorded,"1640/41; New Haven, Connecticut",recorded,complete,S7
+I090,Grace Makin,ABOUT 1578,recorded,AFTER 14 JUN 1643,recorded,complete,S7
+I091,Unknown Beach,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I092,Richard Platt,"BAPTIZED 6 MAY 1604; Ware, Hertfordshire, England",recorded,"BY 13 FEB 1684/85; Milford, New Haven County, Connecticut",recorded,complete,S7
+I093,Mary Wood,"BAPTIZED 10 NOV 1605; Roydon, Essex, England",recorded,"BURIED 24 MAR 1675/76; Milford, New Haven County, Connecticut",recorded,complete,S7
+I094,Robert Royce,,unresolved—no supported date found,"ABOUT 1676; New London, Connecticut",recorded,partial,S7
+I095,Mary,ABOUT 1609,recorded,"ABOUT 1696; Wallingford, Connecticut",recorded,complete,S7
+I096,Humphrey Spinning,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I097,Edmund Sherman,ABOUT 1548,recorded,"BURIED 22 DEC 1600; Dedham, Essex, England",recorded,complete,S7
+I098,Anne Pellett,"ABOUT 1549; probably Steyning, Sussex, England",recorded,"BURIED 8 JUN 1584; Dedham, Essex, England",recorded,complete,S7
+I099,Tobias Makin,,unresolved—no supported date found,"1610; probably Fingringhoe, Essex, England",recorded,partial,S7
+I100,Katherine Westbrome,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I101,George Platt,"BAPTIZED 13 MAY 1582; Ware, Hertfordshire, England",recorded,"BURIED 20 APR 1609; Ware, Hertfordshire, England",recorded,complete,S7
+I102,Mary,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I103,John Wood,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I104,Jane,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I105,Henry Sherman,ABOUT 1512,recorded,1589/90,recorded,complete,S7
+I106,Agnes,,unresolved—no supported date found,"BURIED 14 OCT 1580; Dedham, Essex, England",recorded,partial,S7
+I107,William Pellett,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I108,John Makin,,unresolved—no supported date found,AFTER 16 MAR 1562/63,recorded,partial,S7
+I109,Agnes,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I110,Thomas Westbrome,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I111,Elizabeth,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S7
+I112,Simon Platt,ABOUT 1533,recorded,"BURIED 12 APR 1594; Ware, Hertfordshire, England",recorded,complete,S7
+I113,Elizabeth,,unresolved—no supported date found,"BURIED 21 JUL 1598; Ware, Hertfordshire, England",recorded,partial,S7
+I114,Charles Ellsworth McCormick I,"26 FEB 1862; Shepherdsville, Bullitt County, Kentucky",recorded,1911,recorded,complete,S3;S14;S22;S27
+I115,Mary Moore Brooks,1874,recorded,1964,recorded,complete,S3;S17;S27
+I116,Edward H. McCormick,1838,recorded,1871,recorded,complete,S14;S15;S16
+I117,Martha Ann Annie O’Brien,1841,recorded,1889,recorded,complete,S14;S16
+I118,Charles McCormick,ABOUT 1802; Kentucky or Virginia,recorded,,unresolved—no supported date found,partial,S15
+I119,Elizabeth McCormick,ABOUT 1808; Kentucky,recorded,,unresolved—no supported date found,partial,S15
+I120,Abram Field Brooks,1844,recorded,1892,recorded,complete,S17
+I121,Mary P. Mollie Moore,1852,recorded,1940,recorded,complete,S17
+I122,Solomon Neal Brooks,18 MAR 1818,recorded,1890,recorded,complete,S17;S18
+I123,Elizabeth Field,ABOUT 1827,recorded,1 MAY 1905,recorded,complete,S17
+I124,Christopher O’Brien,ABOUT 1815,recorded,,unresolved—no supported date found,partial,S14
+I125,Sophronia Simmons,ABOUT 1824,recorded,,unresolved—no supported date found,partial,S14
+I126,Joseph Anderson Brooks,,unresolved—no supported date found,1845/46,recorded,partial,S18;S19
+I127,Joseph Brooks,,unresolved—no supported date found,1818,recorded,partial,S19
+I128,Abram Field,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S17
+I129,Elizabeth Simmons,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S17
+I130,Isaac Bush Slaughter Sr.,"28 FEB 1857; Perdue Hill, Monroe County, Alabama",recorded,"30 APR 1937; Edinburg, Texas",recorded,complete,S4;S8;S23;S27
+I131,Lula Arnelia Rives,"30/31 JAN 1872; Benton, Lowndes County, Alabama",recorded,"2 SEP 1957; Sparks, Maryland",recorded,complete,S4;S8;S9;S27
+I132,Nancy Brooks,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S19
+I133,John Wesley Slaughter,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S23
+I134,Sarah C. Bush,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S23
+I135,Robert Calhoun Rives,"9 NOV 1842; Benton, Lowndes County, Alabama",recorded,"16 MAY 1885; Benton, Lowndes County, Alabama",recorded,complete,S4;S9
+I136,Florence Estelle Agee,"7 SEP 1844; Benton, Lowndes County, Alabama",recorded,"10 DEC 1878; Benton, Lowndes County, Alabama",recorded,complete,S4;S8;S9
+I137,Robert Rives,28 MAY/AUG 1801; South Carolina,recorded,"30 SEP 1877; Benton, Lowndes County, Alabama",recorded,complete,S4;S9;S10
+I138,Amelia Harrison,"21 DEC 1804; Fairfield District, South Carolina",recorded,13 MAR 1883; South Carolina,recorded,complete,S4;S20
+I139,Green Rives,10 JAN 1763; Virginia,recorded,"26 OCT 1812; Columbia, South Carolina",recorded,complete,S4;S10
+I140,Mary Ridley Jones,5 MAR 1769; South Carolina,recorded,"27 MAR 1843; Benton, Lowndes County, Alabama",recorded,complete,S4;S10
+I141,William Rives,"ABOUT 1737; Brunswick County, Virginia",recorded,"1783; Camden District, South Carolina",recorded,complete,S4;S10;S11
+I142,Lucy Wyche,"Brunswick County, Virginia",place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S4;S10;S11
+I143,Timothy Rives,ABOUT 1710,recorded,ABOUT 1772,recorded,complete,S4;S11;S12
+I144,Hester Rives,,unresolved—no supported date found,AFTER 23 AUG 1772,recorded,partial,S4;S12
+I145,Darling Jones,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S10
+I146,Susannah Jones,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S10
+I147,William Harrison,,unresolved—no supported date found,1836,recorded,partial,S20
+I148,Ann Perry,,unresolved—no supported date found,FALL 1816,recorded,partial,S20
+I149,Col. William Rives,"ABOUT 1683; Prince George County, Virginia",recorded,BEFORE 1 MAR 1746,recorded,complete,S4;S12
+I150,Elizabeth Rives,,unresolved—no supported date found,"BEFORE 1759; Prince George County, Virginia",recorded,partial,S4;S12
+I151,George Rives,"ABOUT 1660; Prince George County, Virginia",recorded,AFTER 8 SEP 1719,recorded,complete,S4;S13
+I152,Peter Wyche,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S11
+I153,Alice Wyche,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S11
+I154,William Raiford Agee,"13 AUG 1806; Buckingham County, Virginia",recorded,31 AUG 1870; Alabama,recorded,complete,S8
+I155,Elvina Hill,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I157,William Rives,"ABOUT 1636; Oxfordshire, England",recorded,"AFTER 1695; Surry County, Virginia",recorded,complete,S4;S13
+I158,Reuben Harrison,,unresolved—no supported date found,1835,recorded,partial,S20
+I159,Nancy Harrison,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S20
+I160,James Perry,,unresolved—no supported date found,"AFTER 14 APR 1806 / BEFORE 1825; Kershaw District, South Carolina",recorded,partial,S20
+I161,Noah Agee,12 NOV 1750; Virginia,recorded,9 APR 1823; Alabama,recorded,complete,S8
+I162,Martha Mask,27 DEC 1768,recorded,,unresolved—no supported date found,partial,S8
+I163,William Hill,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I164,James Agee,ABOUT 1725; Virginia,recorded,1821,recorded,complete,S8
+I165,Mary Ford,BET 1729 AND 1730; Virginia,recorded,1821,recorded,complete,S8;S46
+I166,Mathieu Agee,"ABOUT 1670; near Nantes, France",recorded,Virginia,place or placeholder only—date unresolved,partial,S8
+I167,Ann Godwin,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I168,James Ford,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I169,Ann Bondurant,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I170,Isaac Godwin,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I171,Ann Godwin,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I172,Anthony Agee,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I173,Judith Chastain,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S8
+I174,Jean Pierre John Peter Bondurant,"near Lyon, France",place or placeholder only—date unresolved,Virginia,place or placeholder only—date unresolved,unresolved,S8
+I175,Arianna Lynn Annie Vollmer,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I176,Henry Richard Vollmer,"24 SEP 1934; Long Island, New York",recorded,4 JUL 2023,recorded,complete,S28;S46;S31;S47
+I177,Bruce Eric Muller,15 JUN 1958; Michigan,recorded,"4 JUN 1972; Vancouver, Clark, Washington",recorded,complete,S27;S46;S47
+I178,Mary Gene Muller Chaffee,"13 APR 1920; Detroit, Wayne, Michigan",recorded,18 AUG 1995,recorded,complete,S27;S48
+I179,Elmer James Chaffee Jr,"1 OCT 1918; Wayne County, Michigan",recorded,,unresolved—no supported date found,partial,S27
+I180,Linda Chaffee,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I181,Lori Chaffee Mettler,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I182,James Chaffee,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,S29
+I183,Jane Lee Muller Swick,"7 NOV 1932; Detroit, Wayne, Michigan",recorded,"7 NOV 2010; North Bend, Coos, Oregon",recorded,complete,S27
+I184,Howard Swick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I185,Kathy Swick Werblo,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I186,Dave Werblo,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I187,John Swick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I188,Celeste,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I189,Susan Sue Swick Galbraith,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I190,Gordon Galbraith,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I191,Patti Swick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I192,Rick Lilly,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I193,Philip Brooks McCormick,"10 APR 1930; Royal Oak, Oakland, Michigan",recorded,"20 FEB 2021; Newport Beach, Orange, California",recorded,complete,S27;S46
+I194,Elizabeth Betsy Ross McCormick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I195,Sandy McCormick Hill,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I196,John Hill,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I197,Ross McCormick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I198,Carrie McCormick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I199,Tina McCormick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I200,Charles McCormick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,S27
+I201,Judy McCormick,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I202,Gwendolyn Gwen McCormick Hull,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,S27
+I203,Jim Hull,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I204,Carey Zaura,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I205,Mark Hull,,not researched—privacy limited,,not researched—privacy limited,not researched—privacy limited,
+I207,Charles Frederic Vollmer,"6 FEB 1906; Freeport, Nassau, New York",recorded,"11 MAR 1972; Seattle, King, Washington",recorded,complete,S26;S30;S48
+I208,Henry John Joseph Vollmer,"10 MAY 1878; Bremen, Germany",recorded,"26 FEB 1934; Hempstead, Nassau, New York",recorded,complete,S26;S48
+I209,Frederick Gottlieb Vollmer,As reported: Germany; date unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I210,Mary Kalwiet,As reported: Germany; date unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I211,Metha Peper Vollmer,"14 MAR 1884; Manhattan, New York (strongly supported identification of an unnamed female birth)",recorded,,unresolved—no supported date found,partial,S26
+I212,George Peper,"As reported: about 1860-1861; Harsefeld, Province of Hanover, Germany",recorded,,unresolved—no supported date found,partial,S26;S48
+I213,Anna Sophie Stelling Peper,"As reported: about 1862-1863; Lintig, Lehe, Province of Hanover, Germany",recorded,,unresolved—no supported date found,partial,S26
+I214,Peter Peper,As reported: Germany; date unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I215,Meta Francke,As reported: Germany; date unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I216,Charles Stelling,As reported: Germany; date unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I217,Catharine Ahrens,As reported: Germany; date unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I218,Doris Josephine Marsh Vollmer,5 MAY 1900; New York,recorded,"2 JAN 1983; Camas, Clark, Washington",recorded,complete,S26;S48
+I219,Frederick Heath Marsh,DEC 1867; New York,recorded,"ABT 22 AUG 1949; Rochester, Monroe, New York",recorded,complete,S26;S48
+I220,Andrew J Marsh,ABT 1829; New York,recorded,"13 JUN 1917; Perry, Wyoming, New York",recorded,complete,S26;S48
+I221,Malachi Marsh,As reported: about 1807-1808; New York,recorded,,unresolved—no supported date found,partial,S26;S48
+I222,Mary Lane Marsh,"3 FEB 1807; Stewartstown, Coos, New Hampshire",recorded,AFT 1860; exact death unproved,recorded,complete,S26
+I223,Stephen Lane,"8 DEC 1771; Stratham, New Hampshire",recorded,"6 DEC 1840; Moscow (now Leicester), Livingston, New York (compiled genealogy)",recorded,complete,S26
+I224,Lois Currier Lane,As reported: date and place unknown,place or placeholder only—date unresolved,21 AUG 1859,recorded,partial,S26
+I225,Joshua Lane,"9 FEB 1748; Stratham, New Hampshire",recorded,"28 OCT 1813; Stratham, New Hampshire (compiled genealogy)",recorded,complete,S26
+I226,Hannah Tilton Lane,28 JAN 1750; New Hampshire (compiled genealogy),recorded,31 DEC 1841; New Hampshire (compiled genealogy),recorded,complete,S26
+I227,Samuel Lane,"6 OCT 1718; Hampton, New Hampshire",recorded,"29 DEC 1806; Stratham, New Hampshire (compiled genealogy)",recorded,complete,S26
+I228,Mary James Lane,"3 MAR 1722; Hampton, New Hampshire",recorded,"30 JAN 1769; Stratham, New Hampshire (compiled genealogy)",recorded,complete,S26
+I229,Joshua Lane,6 JUN 1696; New Hampshire,recorded,1766,recorded,complete,S26
+I230,Bathsheba Robie Lane,"2 AUG 1696; Hampton, Rockingham, New Hampshire",recorded,"13 APR 1765; Hampton, Rockingham, New Hampshire",recorded,complete,S26;S46
+I231,Benjamin James,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I232,Susanna James,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I233,William Lane,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I234,Sarah Lane,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I235,Amelia Whitney Marsh,ABT 1845; New York,recorded,1894,recorded,complete,S26
+I236,Alvin L Whitney,"14 SEP 1803; Granville, Washington, New York (compiled genealogy)",recorded,"5 FEB 1883; Pavilion, Genesee, New York",recorded,complete,S26;S48
+I237,James Whitney,"27 AUG 1779; Killingly, Windham, Connecticut (compiled genealogy)",recorded,MAR 1817,recorded,complete,S26
+I238,Betsey Cook Whitney,29 JUN 1809; New York,recorded,4 SEP 1889,recorded,complete,S26
+I239,Levi Cook,"26 FEB 1774; New Marlborough, Berkshire, Massachusetts",recorded,"1 FEB 1848; Pavilion, Genesee, New York (derivative lineage record)",recorded,complete,S26
+I240,Betsey Brown Cook,"7 JAN 1779; New Marlborough, Berkshire, Massachusetts",recorded,"25 MAR 1843; Pavilion, Genesee, New York (derivative lineage record)",recorded,complete,S26
+I241,Hezekiah Cook,ABT 1728,recorded,"APR 1793; New Marlborough, Berkshire, Massachusetts",recorded,complete,S26
+I242,Lydia Cook,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I243,Perez Brown,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I244,Betty Brown,As reported: date and place unknown,place or placeholder only—date unresolved,,unresolved—no supported date found,unresolved,S26
+I245,Joshua Cooke,"4 FEB 1682/83; Eastham, Barnstable, Massachusetts",recorded,"BET 31 JUL 1737 AND 28 SEP 1746; probably Eastham, Barnstable, Massachusetts",recorded,complete,S26;S46
+I246,Patience Doane,"APR 1682; Eastham, Barnstable, Massachusetts",recorded,"AFT 28 SEP 1746; probably Middlesex County, Connecticut",recorded,complete,S26;S46
+I247,Josiah Cooke,"ABT 1645; Plymouth or Eastham, Massachusetts (scholarly reconstruction)",recorded,"31 JAN 1731/32; Eastham, Barnstable, Massachusetts",recorded,complete,S26
+I248,Deborah Hopkins Cooke,"15 JUN 1648; Eastham, Barnstable, Massachusetts",recorded,"BEF 7 DEC 1727; probably Eastham, Barnstable, Massachusetts",recorded,complete,S26;S46
+I249,Ephraim Doane,As reported: about 1642-1645; Plymouth Colony,recorded,"BEF 19 APR 1700; Eastham, Barnstable, Massachusetts",recorded,complete,S26
+I250,Mary Knowles Doane,ABT 1644; Plymouth Colony,recorded,,unresolved—no supported date found,partial,S26
+I251,Giles Hopkins,"baptized 30 JAN 1607/08; Hursley, Hampshire, England",recorded,"BET 5 MAR 1688/89 and 16 APR 1690; Eastham, Massachusetts",recorded,complete,S26
+I252,Josiah Cooke Sr.,ABT 1610; England,recorded,"17 OCT 1673; Eastham, Barnstable, Massachusetts",recorded,complete,S26
+I253,Elizabeth Ring Cooke,As reported: about 1602-1603; England,recorded,"BEF 3 MAY 1687; Eastham, Barnstable, Massachusetts",recorded,complete,S26
+I254,Catherine Whelden Hopkins,"baptized 6 MAR 1616/17; Basford, Nottinghamshire, England",recorded,AFT 5 MAR 1688/89,recorded,complete,S26
+I255,Stephen Hopkins,"ABT 1581; Hampshire, England",recorded,1644; Plymouth Colony,recorded,complete,S26
+I256,Mary Hopkins,As reported: date and place unknown,place or placeholder only—date unresolved,"BEF 9 MAY 1613; Hursley, Hampshire, England",recorded,partial,S26;S46
+I257,Gabriel Whelden,As reported: date and place unknown,place or placeholder only—date unresolved,"BET 11 FEB 1653/54 AND 4 APR 1654; Malden, Middlesex, Massachusetts",recorded,partial,S26;S46
+I258,John Doane,ABT 1590; England,recorded,"21 FEB 1685/86; Eastham, Barnstable, Massachusetts",recorded,complete,S26
+I259,Ann Doane,As reported: date and place unknown,place or placeholder only—date unresolved,1 JUN 1654,recorded,partial,S26
+I260,Richard Knowles,ABT 1615; England,recorded,"BET 1670 and 1675; Eastham, Barnstable, Massachusetts",recorded,complete,S26
+I261,Ruth Bower Knowles,As reported: England; date unknown,place or placeholder only—date unresolved,ABT 1687; Massachusetts,recorded,partial,S26
+I262,George Bower,As reported: England; date unknown,place or placeholder only—date unresolved,1656; Massachusetts (secondary),recorded,partial,S26
+I263,Barbara Bower,As reported: England; date unknown,place or placeholder only—date unresolved,"25 MAR 1644; Cambridge, Massachusetts (secondary)",recorded,partial,S26
+I264,Carrie E McNaughton Marsh,"APR 1870; Caledonia, Livingston, New York",recorded,"9 JUL 1918; Perry, Wyoming, New York",recorded,complete,S26
+I265,Peter William McNaughton,"14 OCT 1834; Caledonia, Livingston, New York",recorded,"22 JAN 1895; York, Livingston, New York",recorded,complete,S26;S48
+I266,William McNaughton,ABT 1804; New York,recorded,BEF 1855,recorded,complete,S26;S48
+I267,Relief Gibbs McNaughton,As reported: about 1805-1806; New York,recorded,,unresolved—no supported date found,partial,S26
+I268,Mary A McNaughton,As reported: about 1841-1846; New York,recorded,"17 DEC 1919; Caledonia, Livingston, New York",recorded,complete,S26
+I269,Doris Ann Vollmer,ABT 1938; Ohio,recorded,,not researched—privacy limited,partial,S27
+I270,Marie Anna Vollmer Seeley,"3 APR 1915; Roosevelt, Nassau, New York",recorded,"27 NOV 2005; Freeport, Nassau, New York",recorded,complete,S27;S48
+I271,Lester Allan Seeley,"27 JUN 1910; Change Islands, Newfoundland",recorded,"FEB 1983; Freeport, Nassau, New York",recorded,complete,S27;S48
+I272,James Seeley,As reported: about 1937-1938; New York,recorded,,not researched—privacy limited,partial,S27
+I273,John Seeley,As reported: about 1940-1941; New York,recorded,,not researched—privacy limited,partial,S27
+I274,Mildred E Marsh Gutelius,18 DEC 1890; New York,recorded,APR 1976,recorded,complete,S27
+I275,Harry K Gutelius,1889; New York,recorded,1962,recorded,complete,S27;S46
+I276,Eileen Gutelius Eaton,"8 OCT 1914; Perry, Wyoming, New York",recorded,11 MAY 1996,recorded,complete,S27
+I277,Ronald McNaughton Marsh,10 SEP 1894; New York,recorded,"31 MAR 1967; Simsbury, Hartford, Connecticut",recorded,complete,S27
+I278,Eva C St Martin Marsh,ABT 1896; Connecticut,recorded,BEF 1940,recorded,complete,S27
+I279,Dorothy Jane Marsh Kidwell,"30 JAN 1921; Perry, Wyoming, New York",recorded,28 FEB 1998,recorded,complete,S27
+I280,Robert James Marsh,"13 MAY 1923; Perry, Wyoming, New York",recorded,16 OCT 2008,recorded,complete,S27
+I281,Ronald Louis Marsh,"21 OCT 1927; Simsbury, Hartford, Connecticut",recorded,18 MAY 2019,recorded,complete,S27
+I282,Frederick Gottlieb Heinrich Vollmer,"5 OCT 1873; Bremen, Germany",recorded,"10 MAR 1917; Queens, New York",recorded,complete,S27;S48
+I283,Charles Marsh,ABT 1870; New York,recorded,1892,recorded,complete,S27
+I284,Marion McNaughton,As reported: about 1873-1874; New York,recorded,,unresolved—no supported date found,partial,S27
+I285,Elizabeth McNaughton Pullyblank,APR 1876; New York,recorded,18 OCT 1961; New York,recorded,complete,S27
+I286,John C Pullyblank,1872; Canada,recorded,"1934; Livingston County, New York",recorded,complete,S27;S46
+I287,MacNaughton Pullyblank,19 JUL 1897; New York,recorded,7 APR 1902,recorded,complete,S27
+I288,Floyd W Pullyblank,As reported: about Jan-Feb 1900; New York,recorded,,unresolved—no supported date found,partial,S27
+I289,Ola L Pullyblank,As reported: about 1904-1905; New York,recorded,,unresolved—no supported date found,partial,S27
+I290,Willard R Pullyblank,6 SEP 1906; New York,recorded,"13 DEC 1986; San Diego County, California",recorded,complete,S27;S46
+I291,John W Pullyblank,As reported: about 1909-1910; New York,recorded,,unresolved—no supported date found,partial,S27
+I292,Ruby J Pullyblank,As reported: about 1911-1912; New York,recorded,,unresolved—no supported date found,partial,S27
+I293,Helen E Pullyblank,As reported: about 1914-1915; New York,recorded,,unresolved—no supported date found,partial,S27
+I294,Lulu McNaughton,As reported: about 1878-1879; New York,recorded,,unresolved—no supported date found,partial,S27
+I310,C Rudolph Muller,NOV 1894; New York,recorded,,unresolved—no supported date found,partial,S27
+I311,David Paul Muller,"25 SEP 1899; Highland Falls, Orange, New York",recorded,"23 MAY 1927; Detroit, Wayne, Michigan",recorded,complete,S27
+I314,Hazel G Lee,DEC 1888; Michigan,recorded,,unresolved—no supported date found,partial,S27
+I315,Hubbard Stone Lee Sr,23 SEP 1891; Michigan,recorded,10 JUN 1956,recorded,complete,S27
+I316,Irene M Burr Lee,As reported: about 1891-1892,recorded,,unresolved—no supported date found,partial,S27
+I317,Hubbard Stone Lee Jr,"17 DEC 1918; Highland Park, Wayne, Michigan",recorded,"11 MAR 1986; Madison Heights, Oakland, Michigan",recorded,complete,S27
+I320,Martha M McCormick Macdonald,15 JAN 1900; Kentucky,recorded,JUN 1993; New Jersey,recorded,complete,S27
+I321,John R Macdonald,As reported: about 1906-1907,recorded,,unresolved—no supported date found,partial,S27
+I322,James D Macdonald,As reported: about 1940-1941,recorded,,not researched—privacy limited,partial,S27
+I323,Jean Ruth Macdonald,As reported: about 1944-1945,recorded,,not researched—privacy limited,partial,S27
+I324,Ruth B McCormick Reese,"15 OCT 1906; Bullitt County, Kentucky",recorded,"13 OCT 1977; Jefferson County, Kentucky",recorded,complete,S27
+I327,Sarah Slaughter Lazenby,7 JUL 1899; Alabama,recorded,"DEC 1981; Monroeville, Monroe, Alabama",recorded,complete,S27
+I328,Irene Williams Slaughter Cooke,11 APR 1901; Alabama,recorded,"25 JAN 1973; McAllen, Hidalgo, Texas",recorded,complete,S27
+I329,Isaac Bush Slaughter Jr,"3 APR 1907; Monroeville, Monroe, Alabama",recorded,"11 OCT 1973; McAllen, Hidalgo, Texas",recorded,complete,S27
+I330,Mae Belle Watson Slaughter,As reported: about 1912-1913,recorded,,unresolved—no supported date found,partial,S27
+I331,Agnes Slaughter,As reported: about 1932-1933; Texas,recorded,,not researched—privacy limited,partial,S27
+I332,Hundley Agee Slaughter,ABT 1910; Alabama,recorded,,unresolved—no supported date found,partial,S27
+I333,Frank Rives Slaughter,"20 NOV 1912; Monroeville, Monroe, Alabama",recorded,"27 JAN 1986; Baltimore County, Maryland",recorded,complete,S27
+I334,Mary Alice Thoren,"Port Townsend, Jefferson, Washington",withheld—living/private,,withheld—living/private,withheld—living/private,S28;S31;S32
+I335,Chris Vollmer,,withheld—living/private,,withheld—living/private,withheld—living/private,S28;S47
+I336,William John Thoren,"19 JUL 1901; Great Falls, Cascade, Montana",recorded,26 OCT 1991; Washington,recorded,complete,S28;S32;S33;S34
+I337,Alice Gallaher,27 APR 1902; Alaska,recorded,"23 AUG 1978; Ocean Park, Pacific, Washington",recorded,complete,S32;S33;S35
+I338,Christian Andrew Thoren,"27 JAN 1861; Ignaberga, Kristianstad, Sweden",recorded,"9 MAY 1921; Great Falls, Cascade, Montana",recorded,complete,S34;S36
+I339,Augusta Nilsdotter,"30 NOV 1860; Hjärnarp, Kristianstad, Sweden",recorded,"4 DEC 1913; Great Falls, Cascade, Montana",recorded,complete,S34;S37
+I340,Anders Troedsson,"2 MAY 1824; Norra Sandby, Kristianstad, Sweden",recorded,,unresolved—no supported date found,partial,S38
+I341,Kjersti Månsdotter,"31 OCT 1825; Mellby, Kristianstad, Sweden",recorded,,unresolved—no supported date found,partial,S38
+I342,Trued Andersson,"25 APR 1792; Norra Sandby, Kristianstad, Sweden",recorded,,unresolved—no supported date found,partial,S38
+I343,Bortha Nilsdotter,"1783; Gumlösa, Kristianstad, Sweden",recorded,,unresolved—no supported date found,partial,S38
+I344,Nils Svensson,"3 MAY 1825; Ränneslöv, Halland, Sweden",recorded,,unresolved—no supported date found,partial,S39;S40
+I345,Christina Persdotter,"24 JAN 1823; Hasslöv, Halland, Sweden",recorded,,unresolved—no supported date found,partial,S39;S42
+I346,Gunnilla Nilsdotter,"20 SEP 1796; Ränneslöv, Halland, Sweden",recorded,,unresolved—no supported date found,partial,S40;S41
+I347,Nils Johansson,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S41
+I348,Elna Nilsdotter,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S41
+I349,Pehr Erlandsson,"10 FEB 1790; Hishult, Halland, Sweden",recorded,,unresolved—no supported date found,partial,S43;S44
+I350,Ingier Hansdotter,"20 MAR 1794; Hasslöv, Halland, Sweden",recorded,,unresolved—no supported date found,partial,S43;S45
+I351,Erland Pålsson,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S44
+I352,Bengta Pehrsdotter,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S44
+I353,Hans Månsson,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S45
+I354,Maria Hansdotter,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S45
+I355,Peter Vollmer,"29 JUN 1959; Seattle, King, Washington",recorded,"5 AUG 1975; Vancouver, Clark, Washington",recorded,complete,S47;S46

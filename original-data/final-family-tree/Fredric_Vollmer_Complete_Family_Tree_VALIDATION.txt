@@ -1,6 +1,6 @@
-GEDCOM individuals: 327
-GEDCOM families: 154
-GEDCOM sources: 45
+GEDCOM individuals: 328
+GEDCOM families: 155
+GEDCOM sources: 48
 GEDCOM trailers: 1
 broken individual references: 0
 superseded Janet transcription absent: True
@@ -17,13 +17,36 @@ Nils Svensson father remains blank: True
 Alice Gallaher parents remain blank: True
 Chris Vollmer present: True
 Chris parent link to Henry and Mary present: True
+Bruce Eric Muller dates present: True
+Peter Vollmer present: True
+Peter and Chris brother association present: True
+Peter father link to Henry present: True
+Peter mother intentionally absent: True
 Elmer James Chaffee corrected: True
-people CSV rows: 327
-families CSV rows: 154
-source inventory rows: 88
-workbook sheets: 12
+people CSV rows: 328
+families CSV rows: 155
+source inventory rows: 91
+vital-date research rows: 20
+accepted vital-date research rows: 15
+vital-date coverage rows: 328
+people with recorded birth dates: 203
+people with recorded death dates: 189
+people with complete vital dates: 156
+occupation research rows: 24
+accepted occupation research rows: 23
+occupation coverage rows: 328
+people with recorded occupations or roles: 17
+GEDCOM occupation events: 23
+rejected Marion teacher absent: True
+workbook sheets: 14
 workbook formula errors: 0
-workbook consolidated individual count: 327
-workbook consolidated family count: 154
-workbook consolidated GEDCOM source count: 45
-workbook source and record inventory count: 88
+workbook consolidated individual count: 328
+workbook consolidated family count: 155
+workbook consolidated GEDCOM source count: 48
+workbook source and record inventory count: 91
+workbook birth dates recorded: 203
+workbook death dates recorded: 189
+workbook both vital dates recorded: 156
+workbook no dated event unresolved or private: 92
+workbook people with recorded occupations or roles: 17
+workbook accepted occupation or role events: 23

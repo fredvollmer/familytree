@@ -25,13 +25,30 @@ for (const sheet of workbook.worksheets.items) {
 }
 
 const overview = workbook.worksheets.getItem("Consolidated Overview");
-const overviewValues = overview.getRange("A1:F17").values;
-const expected = { individuals: 327, families: 154, sources: 45, inventory: 88 };
+const overviewValues = overview.getRange("A1:F24").values;
+const expected = {
+  individuals: 328,
+  families: 155,
+  sources: 48,
+  inventory: 91,
+  births: 203,
+  deaths: 189,
+  complete: 156,
+  noDateOutcomes: 92,
+  occupationPeople: 17,
+  occupationEvents: 23,
+};
 const actual = {
   individuals: overviewValues[4][1],
   families: overviewValues[5][1],
   sources: overviewValues[6][1],
   inventory: overviewValues[7][1],
+  births: overviewValues[8][1],
+  deaths: overviewValues[9][1],
+  complete: overviewValues[10][1],
+  noDateOutcomes: overviewValues[11][1],
+  occupationPeople: overviewValues[12][1],
+  occupationEvents: overviewValues[13][1],
 };
 for (const key of Object.keys(expected)) {
   if (actual[key] !== expected[key]) errors.push(`Overview ${key}: expected ${expected[key]}, got ${actual[key]}`);
@@ -46,7 +63,9 @@ const williamParentsRow = families.find((row) => row[1] === "I338" && row[2] ===
 const nilsRow = people.find((row) => row[0] === "I344");
 const nilsMotherOnlyRow = families.find((row) => !row[1] && row[2] === "I346" && String(row[3]).split(";").includes("I344"));
 const aliceRow = people.find((row) => row[0] === "I337");
-if (!chrisRow || !String(chrisRow[7]).includes("paternal half-brother")) {
+const peterRow = people.find((row) => row[0] === "I355");
+const peterFamilyRow = families.find((row) => row[1] === "I176" && !row[2] && String(row[3]).split(";").includes("I355"));
+if (!chrisRow || !String(chrisRow[8]).includes("paternal half-brother")) {
   errors.push("Chris person row does not record the owner-confirmed paternal half-brother relationship");
 }
 if (!chrisFamilyRow) {
@@ -55,11 +74,27 @@ if (!chrisFamilyRow) {
 if (!williamRow || williamRow[1] !== "William John Thoren" || !williamParentsRow) {
   errors.push("William John Thoren or the Christian I338–Augusta I339 parent link is missing");
 }
-if (!nilsRow || !nilsMotherOnlyRow || !String(nilsRow[7]).includes("father remains blank")) {
+if (!nilsRow || !nilsMotherOnlyRow || !String(nilsRow[8]).includes("father remains blank")) {
   errors.push("Nils Svensson's mother-only parent record or blank-father safeguard is missing");
 }
-if (!aliceRow || String(aliceRow[8] ?? "")) {
+if (!aliceRow || String(aliceRow[9] ?? "")) {
   errors.push("Alice Gallaher has an imported parent family despite unresolved parentage");
+}
+if (!peterRow || peterRow[1] !== "Peter Vollmer" || !peterFamilyRow) {
+  errors.push("Peter Vollmer or the obituary-supported Henry father link is missing");
+}
+if (sheets.length !== 14) errors.push(`Workbook sheets: expected 14, got ${sheets.length}`);
+const coverageSheet = sheets.find((sheet) => sheet.name === "Vital Date Coverage");
+if (!coverageSheet || coverageSheet.rows !== 329 || coverageSheet.columns !== 8) {
+  errors.push(`Vital Date Coverage dimensions: expected 329x8, got ${coverageSheet?.rows ?? "missing"}x${coverageSheet?.columns ?? "missing"}`);
+}
+const occupationCoverageSheet = sheets.find((sheet) => sheet.name === "Occupation Coverage");
+if (!occupationCoverageSheet || occupationCoverageSheet.rows !== 329 || occupationCoverageSheet.columns !== 9) {
+  errors.push(`Occupation Coverage dimensions: expected 329x9, got ${occupationCoverageSheet?.rows ?? "missing"}x${occupationCoverageSheet?.columns ?? "missing"}`);
+}
+const peopleSheet = sheets.find((sheet) => sheet.name === "Consolidated People");
+if (!peopleSheet || peopleSheet.columns !== 11) {
+  errors.push(`Consolidated People columns: expected 11, got ${peopleSheet?.columns ?? "missing"}`);
 }
 
 console.log(JSON.stringify({
@@ -77,7 +112,12 @@ console.log(JSON.stringify({
     williamMotherId: williamParentsRow?.[2] ?? null,
     nilsNamedFatherId: nilsMotherOnlyRow?.[1] ?? null,
     nilsMotherId: nilsMotherOnlyRow?.[2] ?? null,
-    aliceParentFamilyId: aliceRow?.[8] ?? null,
+    aliceParentFamilyId: aliceRow?.[9] ?? null,
+  },
+  peterRelationship: {
+    person: peterRow?.[1] ?? null,
+    fatherId: peterFamilyRow?.[1] ?? null,
+    motherId: peterFamilyRow?.[2] ?? null,
   },
   formulaErrors: errors,
 }, null, 2));

@@ -10,7 +10,6 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 TEMPLATE = HERE / "migration-map.template.html"
 OUTPUT = HERE / "family-migration-map.html"
-INLINE_OUTPUT = Path("/Users/russell.jowell/.codex/visualizations/2026/09/02/01a062a0-d189-7372-8cf3-483bf89abfed/family-migration-map.html")
 
 
 def compact_json(path: Path) -> str:
@@ -24,10 +23,7 @@ def main() -> None:
     if "__MIGRATION_DATA__" in rendered or "__WORLD_TOPOLOGY__" in rendered:
         raise RuntimeError("Visualization placeholders were not replaced")
     OUTPUT.write_text(rendered, encoding="utf-8")
-    INLINE_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    INLINE_OUTPUT.write_text(rendered, encoding="utf-8")
     print(f"Wrote {OUTPUT} ({OUTPUT.stat().st_size:,} bytes)")
-    print(f"Wrote {INLINE_OUTPUT} ({INLINE_OUTPUT.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":

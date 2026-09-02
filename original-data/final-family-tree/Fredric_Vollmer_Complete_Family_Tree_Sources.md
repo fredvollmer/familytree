@@ -1,6 +1,6 @@
 # Consolidated source ledger
 
-This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, the Mary Alice Thoren ancestry investigation, and owner corrections. The GEDCOM uses S1-S45; the detailed local ledgers below retain their original identifiers.
+This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, the Mary Alice Thoren ancestry investigation, owner corrections, the vital-date enrichment pass, and the occupation/role enrichment pass. The GEDCOM uses S1-S48; the detailed local ledgers below retain their original identifiers.
 
 ## Cross-chat provenance
 
@@ -10,6 +10,9 @@ This ledger aggregates the recovered maternal canonical package, the later Vollm
 - **Extend paternal family tree** — three collateral rings on both sides, owner relationship corrections, record audits, and rejected same-name candidates.
 
 - **Trace Mary Alice Thoren ancestry** — Ancestry.com census, vital, Swedish church, and household-survey records extending the proven Thoren line into eighteenth-century Sweden.
+
+- **Vital-date enrichment** — audited every canonical person, restored dropped project facts, added supported dates or conservative ranges, and classified every remaining gap as unresolved or privacy-limited.
+- **Occupation and role enrichment** — reviewed Ancestry records in the signed-in browser, reconciled results to canonical people, preserved dated occupational changes, and classified every person without a supported fact.
 
 ## GEDCOM source catalog
 
@@ -148,6 +151,15 @@ Pehr was born 10 Feb and baptized 14 Feb 1790 at Hishult, son of Erland Pålsson
 ### S45 — Ingier Hansdotter 1794 Hasslöv baptism
 
 Ingier was born 20 Mar and baptized 23 Mar 1794 at Hasslöv, daughter of Hans Månsson and Maria Hansdotter. https://www.ancestry.com/search/collections/60361/records/11677925
+### S46 — Vital-date enrichment research ledger
+
+Accepted additions, conservative date ranges, rejected candidates, source quality, and conflicts are itemized in Fredric_Vollmer_Complete_Family_Tree_Vital_Dates_Research.csv.
+### S47 — Owner statements and Ancestry review for Bruce Muller and Peter Vollmer
+
+Bruce died in a Vancouver, Washington hospital and was remembered as age 14. Ancestry's existing-tree hint supplies Bruce Eric Muller's 15 Jun 1958-4 Jun 1972 dates. The sourced Pete Vollmer profile supplies 29 Jun 1959-5 Aug 1975 and identifies Henry R Vollmer as father and Christopher as sibling.
+### S48 — Occupation and role enrichment research ledger
+
+Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.
 
 ---
 
@@ -644,3 +656,459 @@ The earliest dated direct ancestor reached is Bortha Nilsdotter, born in 1783. T
 
 - `records/1950_william-alice-mary-thoren_us-census.jpg` is the locally preserved census image. The Ancestry index citations above are recorded in the GEDCOM source catalog and consolidated source ledger; no changes were made to any Ancestry online tree.
 
+
+---
+
+## Vital-date enrichment ledger
+
+The complete, row-level research ledger is `Fredric_Vollmer_Complete_Family_Tree_Vital_Dates_Research.csv`. Accepted rows alter GEDCOM events; rejected rows document tempting but unproved candidates.
+
+### VD-001 — Henry Richard Vollmer (accepted)
+
+- Birth addition: 24 Sep 1934; Long Island, New York
+- Death addition: 4 Jul 2023
+- Confidence: high
+- Source: Vollmer-Marsh people ledger — <original-data/final-family-tree/input-ledgers/Vollmer-Marsh-people.csv>
+- Evidence: The direct-ancestor input row already supplied both dates; they were dropped when the person was reused during consolidation.
+- Conflict/control: none
+
+### VD-002 — Mary Wilhelmina Ohmer (accepted)
+
+- Birth addition: BET 1864 AND 1865; Pennsylvania
+- Death addition: none
+- Confidence: moderate-high
+- Source: Extended-family people ledger — <original-data/final-family-tree/input-ledgers/Extended-family-people.csv>
+- Evidence: Childhood census evidence for her children identifies Mary O. and places her birth about 1864-1865 in Pennsylvania.
+- Conflict/control: Wilhelmina and Ohmer remain preferred-name forms from the earlier canonical package; Oliner and Olmer remain spelling variants.
+
+### VD-003 — Philip Brooks McCormick (accepted)
+
+- Birth addition: 10 Apr 1930; Royal Oak, Oakland, Michigan
+- Death addition: 20 Feb 2021; Newport Beach, Orange, California
+- Confidence: high
+- Source: Philip McCormick obituary — <https://www.legacy.com/obituaries/name/philip-mccormick-obituary?pid=198128174>
+- Evidence: The obituary supplies the full name, exact dates, and places and matches the already-proved Charles Ellsworth McCormick household.
+- Conflict/control: The 1940 census estimate of about 1929-1930 is superseded by the obituary's exact date.
+
+### VD-004 — Bathsheba Robie Lane (accepted)
+
+- Birth addition: 2 Aug 1696; Hampton, Rockingham, New Hampshire
+- Death addition: 13 Apr 1765; Hampton, Rockingham, New Hampshire
+- Confidence: moderate-high
+- Source: Bathsheba Robie profile with cited Hampton vital records and town history — <https://www.werelate.org/wiki/Person%3ABathsheba_Robey_%281%29>
+- Evidence: The birth is transcribed from Hampton vital records; the death is repeated in the Hampton town history and on a later family monument.
+- Conflict/control: An Ancestry member-tree compilation reports 1785; that date is rejected because the cited town history and monument agree on 1765.
+
+### VD-005 — Joshua Cooke (accepted)
+
+- Birth addition: none
+- Death addition: BET 31 Jul 1737 AND 28 Sep 1746; probably Eastham, Barnstable, Massachusetts
+- Confidence: moderate-high
+- Source: Joshua Cook research profile citing NEHGR 126 — <https://sibertancestry.org/Alphabet/Harding/C/Cook/JoshuaCook.html>
+- Evidence: He was still living when his son was called Joshua Jr. on 31 July 1737 and was deceased when Patience was called a widow on 28 September 1746.
+- Conflict/control: none
+
+### VD-006 — Patience Doane (accepted)
+
+- Birth addition: none
+- Death addition: AFT 28 Sep 1746; probably Middlesex County, Connecticut
+- Confidence: moderate-high
+- Source: Joshua Cook research profile citing NEHGR 126 and church abstracts — <https://sibertancestry.org/Alphabet/Harding/C/Cook/JoshuaCook.html>
+- Evidence: Patience was admitted to the Haddam Neck congregation as a widow on 28 September 1746 and therefore died after that date.
+- Conflict/control: none
+
+### VD-007 — Deborah Hopkins Cooke (accepted)
+
+- Birth addition: none
+- Death addition: BEF 7 Dec 1727; probably Eastham, Barnstable, Massachusetts
+- Confidence: moderate-high
+- Source: Pilgrim Hopkins lineage summary — <https://pilgrimhopkins.com/heritage-lineage-descendants-third-generation-continued/>
+- Evidence: The lineage summary reports 7 December 1727; the conservative event is recorded as before that date because other Mayflower-derived compilations describe it as a limiting date rather than a proved death day.
+- Conflict/control: Some derivative sites state exactly 7 December 1727; the canonical tree uses the more conservative before-date.
+
+### VD-008 — Mary Hopkins (accepted)
+
+- Birth addition: none
+- Death addition: BEF 9 May 1613; Hursley, Hampshire, England
+- Confidence: high
+- Source: Stephen Hopkins biography — <https://mayflowerhistory.com/hopkins-stephen>
+- Evidence: Mary, first wife of Stephen Hopkins, was buried at Hursley on 9 May 1613; death is therefore recorded as before the burial date.
+- Conflict/control: No unsupported maiden surname is adopted.
+
+### VD-009 — Gabriel Whelden (accepted)
+
+- Birth addition: none
+- Death addition: BET 11 Feb 1653/54 AND 4 Apr 1654; Malden, Middlesex, Massachusetts
+- Confidence: high
+- Source: The Origin of Gabriel Whelden of Yarmouth and Malden Massachusetts — <https://minerdescent.com/wp-content/uploads/2013/01/gabriel-whelden.pdf>
+- Evidence: His will was dated 11 February 1653/54 and proved 4 April 1654, establishing the death interval.
+- Conflict/control: The frequently copied 4 April 1655 date is rejected; 4 April 1654 was the probate date, not a death date.
+
+### VD-010 — Mary Ford (accepted)
+
+- Birth addition: BET 1729 AND 1730; Virginia
+- Death addition: 1821
+- Confidence: provisional
+- Source: A Record of the Agee Family — <https://archive.org/stream/recordofageefami00agee_0/recordofageefami00agee_0_djvu.txt>
+- Evidence: The compilation reports Mary (possibly Elizabeth) Ford born in Virginia in 1729-30 and died in 1821.
+- Conflict/control: The given-name uncertainty and compiled nature of the source are retained; these dates are provisional.
+
+### VD-011 — Harry K Gutelius (accepted)
+
+- Birth addition: 1889; New York
+- Death addition: 1962
+- Confidence: moderate
+- Source: Livingston County cemetery photograph index — <https://www.livingstoncountyny.gov/DocumentCenter/View/7051>
+- Evidence: The Leicester Cemetery index lists Harry K. Gutelius as 1889-1962 beside Mildred M. Gutelius 1890-1976.
+- Conflict/control: Census ages previously implied about 1890; the monument year is retained with the discrepancy noted.
+
+### VD-012 — John C Pullyblank (accepted)
+
+- Birth addition: 1872; Canada
+- Death addition: 1934; Livingston County, New York
+- Confidence: moderate
+- Source: Livingston County cemetery photograph index — <https://www.livingstoncountyny.gov/DocumentCenter/View/7051>
+- Evidence: The county-hosted index lists John C. Pullyblank as 1872-1934 in Mumford Rural Cemetery; the identity matches the established Caledonia/Mumford household.
+- Conflict/control: Census ages previously implied about 1873-1874; the monument year is retained with the discrepancy noted.
+
+### VD-013 — Willard R Pullyblank (accepted)
+
+- Birth addition: 6 Sep 1906; New York
+- Death addition: 13 Dec 1986; San Diego County, California
+- Confidence: high
+- Source: Fort Rosecrans National Cemetery index — <https://www.interment.net/data/us/ca/sandiego/rosecrans/p/rosecrans_p09.htm>
+- Evidence: The cemetery record supplies exact birth and death dates and military burial; New York birthplace remains supported by the established census sequence.
+- Conflict/control: The exact date replaces the census estimate of about 1906-1907.
+
+### VD-014 — Bruce Eric Muller (accepted)
+
+- Birth addition: 15 Jun 1958; Michigan
+- Death addition: 4 Jun 1972; Vancouver, Clark, Washington
+- Confidence: moderate
+- Source: Ancestry public-tree hint corroborated by owner statement — <https://www.ancestry.com/family-tree/person/tree/18528836/person/962743313/facts>
+- Evidence: Ancestry's hint for the existing Bruce Muller profile identifies Bruce Eric Muller, son of Arthur John Muller, with exact dates; the owner confirms that Bruce died in a Vancouver hospital and was remembered as age 14.
+- Conflict/control: The two calendar dates calculate to 13 years 354 days, while family testimony remembers age 14. Both are retained explicitly; the calendar dates remain moderate-confidence pending an original record.
+
+### VD-015 — Peter Vollmer (accepted)
+
+- Birth addition: 29 Jun 1959; Seattle, King, Washington
+- Death addition: 5 Aug 1975; Vancouver, Clark, Washington
+- Confidence: high
+- Source: U.S., Newspapers.com Obituary Index, 1800s-current — <https://www.ancestry.com/search/collections/61843/records/668386200>
+- Evidence: The indexed obituary supplies exact birth and death details, names Henry R Vollmer as father, and names Christopher as a sibling. The owner independently identifies Peter as Chris Vollmer's brother.
+- Conflict/control: The current Ancestry tree contains duplicate Peter/Pete profiles. The sourced Pete profile controls the dates; Mary Alice appears only as a potential mother on that profile and is therefore not assigned as Peter's mother.
+
+### VD-R01 — Metha Peper Vollmer (rejected)
+
+- Birth addition: none
+- Death addition: none
+- Confidence: high
+- Source: 1919 Madie Vollmer death certificate — <original-data/final-family-tree/records/1919-01-03_madie-vollmer_death-certificate.pdf>
+- Evidence: The certificate belongs to Henry Vollmer's later wife Martha/Madie Desselberg, not to Metha Peper.
+- Conflict/control: Do not assign the 3 January 1919 death to Metha.
+
+### VD-R02 — William Lane (rejected)
+
+- Birth addition: none
+- Death addition: none
+- Confidence: moderate
+- Source: Later Lane genealogies and family monument — <https://www.seekingmyroots.com/members/files/G004026.pdf>
+- Evidence: The candidate born in 1659 appears in later Lane genealogies, but the project has not independently proved that he is the father named in Joshua Lane's birth transcript.
+- Conflict/control: Keep William Lane's vital dates unresolved.
+
+### VD-R03 — Sarah Lane (rejected)
+
+- Birth addition: none
+- Death addition: none
+- Confidence: moderate
+- Source: Later Lane genealogies and family monument — <https://www.seekingmyroots.com/members/files/G004026.pdf>
+- Evidence: The surname Webster and associated dates travel with the unproved William Lane candidate.
+- Conflict/control: Keep Sarah's maiden name and vital dates unresolved.
+
+### VD-R04 — Benjamin James (rejected)
+
+- Birth addition: none
+- Death addition: none
+- Confidence: moderate
+- Source: James family compiled genealogy — <https://www.grotonvthistory.com/wp-content/uploads/2017/06/JAMES-FAMILY.pdf>
+- Evidence: The compiled Benjamin and Susanna Smith couple has dates, but the certified birth transcript names only Benjamin and Susanna and does not prove that this is the same pair.
+- Conflict/control: Do not add the compiled dates or extend the parentage without original corroboration.
+
+### VD-R05 — Susanna James (rejected)
+
+- Birth addition: none
+- Death addition: none
+- Confidence: moderate
+- Source: James family compiled genealogy — <https://www.grotonvthistory.com/wp-content/uploads/2017/06/JAMES-FAMILY.pdf>
+- Evidence: The certified birth transcript names only Susanna; the Smith maiden name and compiled vital dates are not independently proved.
+- Conflict/control: Keep Susanna's maiden identity and vital dates unresolved.
+
+---
+
+## Occupation and role enrichment ledger
+
+The complete, row-level research ledger is `Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv`. Accepted rows create GEDCOM OCCU events; rejected rows remain evidence controls and never alter a person.
+
+### OCC-001 — Arthur Herman Muller (accepted)
+
+- Occupation or role: Designing engineer
+- Date or period: 1940
+- Place or employer: Detroit, Wayne, Michigan; General Motors
+- Category: civilian occupation
+- Confidence: high
+- Source: 1940 United States Federal Census and Ancestry member photo caption — <https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-01890-00597?pid=79840169>
+- Evidence: The 1940 census transcription reads "Disiguing Engineer"; the normalized occupation is designing engineer. An attached photograph caption independently calls him a General Motors engineer.
+- Conflict/control: The employer is supplied by a member-photo caption rather than the census transcription, so the GM association is corroborative rather than a separate original-record fact.
+
+### OCC-002 — Mary Gene Muller Chaffee (accepted)
+
+- Occupation or role: Stenographer
+- Date or period: 1940
+- Place or employer: Detroit, Wayne, Michigan
+- Category: civilian occupation
+- Confidence: high
+- Source: 1940 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-01890-00597?pid=79840171>
+- Evidence: The household transcription lists Mary G Muller as a stenographer and identifies her with the established Arthur H and Elma Muller household.
+- Conflict/control: none
+
+### OCC-003 — Charles Frederic Vollmer (accepted)
+
+- Occupation or role: Salesman
+- Date or period: 1940
+- Place or employer: Van Wert, Van Wert, Ohio; private employer
+- Category: civilian occupation
+- Confidence: high
+- Source: 1940 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/2442/images/m-t0627-03163-00281?pid=31471642>
+- Evidence: The record lists Charles F Volmer as a private wage or salary worker with the occupation transcribed "Salesmone"; salesman is the conservative normalization.
+- Conflict/control: The indexed spelling Salesmone is retained in this note and is not treated as a separate occupation.
+
+### OCC-004 — Charles Frederic Vollmer (accepted)
+
+- Occupation or role: Salesman
+- Date or period: 1950
+- Place or employer: Seattle, King, Washington; wholesale glue company
+- Category: civilian occupation
+- Confidence: high
+- Source: 1950 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/62308/images/43290879-Washington-031384-0004?pid=67737749>
+- Evidence: The record lists Charles F Volmer as a salesman in a wholesale glue company, working 48 hours for a private employer.
+- Conflict/control: none
+
+### OCC-005 — Henry John Joseph Vollmer (accepted)
+
+- Occupation or role: Mason and plasterer
+- Date or period: 1910
+- Place or employer: Hempstead District 5, Nassau, New York; own account
+- Category: civilian occupation
+- Confidence: high
+- Source: 1910 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/7884/images/4449900_00896?pid=18320059>
+- Evidence: The record lists Henry Vollmer as a mason in the plastering industry working on his own account. His 1905 original marriage certificate independently records occupation mason.
+- Conflict/control: none
+
+### OCC-006 — Henry John Joseph Vollmer (accepted)
+
+- Occupation or role: Mason
+- Date or period: 1920
+- Place or employer: Hempstead, Nassau, New York; house industry
+- Category: civilian occupation
+- Confidence: high
+- Source: 1920 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/6061/images/4313460-00514?pid=90997605>
+- Evidence: The record lists Henry as a wage-or-salary mason in the house industry.
+- Conflict/control: none
+
+### OCC-007 — Henry John Joseph Vollmer (accepted)
+
+- Occupation or role: Builder
+- Date or period: 1930
+- Place or employer: Freeport, Nassau, New York; contracting
+- Category: civilian occupation
+- Confidence: high
+- Source: 1930 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/6224/images/4661128_00153?pid=122715466>
+- Evidence: The record lists Henry J Vollmer as a builder in contracting and as a wage or salary worker.
+- Conflict/control: none
+
+### OCC-008 — Doris Josephine Marsh Vollmer (accepted)
+
+- Occupation or role: Keeping house
+- Date or period: 1950
+- Place or employer: Seattle, King, Washington
+- Category: household role
+- Confidence: moderate-high
+- Source: 1950 United States Federal Census — <https://www.ancestry.com/search/collections/62308/records/67737750>
+- Evidence: The wife in Charles F Volmer's established household is classified as keeping house.
+- Conflict/control: Ancestry indexes her as Davis M Volmer; the spouse, age, location, and children make this the known Doris Marsh household, but the name-transcription conflict is retained.
+
+### OCC-009 — Marie Anna Vollmer Seeley (accepted)
+
+- Occupation or role: Keeping house
+- Date or period: 1950
+- Place or employer: Freeport, Nassau, New York
+- Category: household role
+- Confidence: high
+- Source: 1950 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/62308/images/43290879-New_York-092725-0012?pid=278559518>
+- Evidence: The record classifies Marie Seeley as keeping house and identifies husband Lester and their established sons.
+- Conflict/control: none
+
+### OCC-010 — Lester Allan Seeley (accepted)
+
+- Occupation or role: Punch press operator
+- Date or period: 1950
+- Place or employer: Freeport, Nassau, New York; airplane plant
+- Category: civilian occupation
+- Confidence: high
+- Source: 1950 United States Federal Census — <https://www.ancestry.com/imageviewer/collections/62308/images/43290879-New_York-092725-0012?pid=278559518>
+- Evidence: The household record lists Lester Seeley as a punch press operator at an airplane plant, working 40 hours for a private employer.
+- Conflict/control: The index misspells airplane as Areoplane; the normalized industry is recorded here.
+
+### OCC-011 — Arthur John Muller (accepted)
+
+- Occupation or role: U.S. Army soldier
+- Date or period: 1943-1945
+- Place or employer: Company B, 134th Infantry, 35th Division
+- Category: military role
+- Confidence: high
+- Source: Arthur John Muller Collection Veterans History Project — <original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Sources.md>
+- Evidence: The existing canonical evidence confirms Army service from 1943 through 1945 and identifies his company, regiment, and division.
+- Conflict/control: The 1950 census does not supply a civilian occupation; no civilian occupation is inferred.
+
+### OCC-012 — Lambert Kleitz (accepted)
+
+- Occupation or role: Builder and carpenter
+- Date or period: 19th century
+- Place or employer: New York
+- Category: civilian occupation
+- Confidence: moderate
+- Source: Kastler Families database: Lambert Kleitz and Elizabeth Wüst family — <original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Sources.md>
+- Evidence: The recovered canonical entry identifies Lambert as a builder/carpenter.
+- Conflict/control: No dated original occupational record is preserved in the package, so the broad period and moderate confidence are retained.
+
+### OCC-013 — George Peper (accepted)
+
+- Occupation or role: Teamster
+- Date or period: 14 Mar 1884
+- Place or employer: 501 West 51st Street, Manhattan, New York
+- Category: civilian occupation
+- Confidence: high
+- Source: Unnamed female Pepper birth certificate — <https://www.ancestry.com/search/collections/61779/records/15958341>
+- Evidence: The original birth return for the child identified as Metha records father George Pepper's occupation as teamster.
+- Conflict/control: The 1883 marriage calls this man Themes Pepper; the George/Themes variant is retained elsewhere in the canonical evidence.
+
+### OCC-014 — Frederick Gottlieb Heinrich Vollmer (accepted)
+
+- Occupation or role: Painter
+- Date or period: 10 Mar 1917
+- Place or employer: Queens, New York
+- Category: civilian occupation
+- Confidence: high
+- Source: Frederick G. Vollmer death certificate — <https://www.ancestry.com/search/collections/61778/records/2330476>
+- Evidence: The original death certificate records Frederick G Vollmer as a married painter.
+- Conflict/control: none
+
+### OCC-015 — Frederick Heath Marsh (accepted)
+
+- Occupation or role: Butcher
+- Date or period: 1910
+- Place or employer: Leicester, Livingston, New York; meat market; employer
+- Category: civilian occupation
+- Confidence: high
+- Source: 1910 United States Federal Census — <https://www.ancestry.com/search/collections/7884/records/18165363>
+- Evidence: The record lists Frad Marsh as a butcher in a meat market and classifies him as an employer.
+- Conflict/control: The indexed given name Frad is reconciled to Frederick through the established household.
+
+### OCC-016 — Andrew J Marsh (accepted)
+
+- Occupation or role: Wagon maker
+- Date or period: 1870
+- Place or employer: Pavilion, Genesee, New York
+- Category: civilian occupation
+- Confidence: high
+- Source: 1870 United States Federal Census — <https://www.ancestry.com/search/collections/7163/records/28139851>
+- Evidence: The record lists Andrew Marsh as a wagon maker with real and personal property.
+- Conflict/control: none
+
+### OCC-017 — Andrew J Marsh (accepted)
+
+- Occupation or role: Sexton
+- Date or period: 1910
+- Place or employer: Leicester, Livingston, New York; cemetery
+- Category: civilian occupation
+- Confidence: high
+- Source: 1910 United States Federal Census — <https://www.ancestry.com/search/collections/7884/records/103032985>
+- Evidence: The record lists Andrew Marsh as a cemetery sexton and wage earner.
+- Conflict/control: none
+
+### OCC-018 — Malachi Marsh (accepted)
+
+- Occupation or role: Farmer
+- Date or period: 1850
+- Place or employer: Franklinville, Cattaraugus, New York
+- Category: civilian occupation
+- Confidence: high
+- Source: 1850 United States Federal Census — <https://www.ancestry.com/search/collections/8054/records/11331521>
+- Evidence: The record lists Malachi Marsh as a farmer in agriculture with real estate valued at 6400 dollars.
+- Conflict/control: none
+
+### OCC-019 — Alvin L Whitney (accepted)
+
+- Occupation or role: Carpenter and joiner
+- Date or period: 1850
+- Place or employer: Pavilion, Genesee, New York; construction
+- Category: civilian occupation
+- Confidence: high
+- Source: 1850 United States Federal Census — <https://www.ancestry.com/search/collections/8054/records/11911322>
+- Evidence: The record lists Alvin Whitney as a carpenter and joiner in construction.
+- Conflict/control: none
+
+### OCC-020 — Peter William McNaughton (accepted)
+
+- Occupation or role: Laborer
+- Date or period: 1850
+- Place or employer: Caledonia, Livingston, New York
+- Category: civilian occupation
+- Confidence: high
+- Source: 1850 United States Federal Census — <https://www.ancestry.com/search/collections/8054/records/7025238>
+- Evidence: The record lists sixteen-year-old Peter McNaughton as a laborer.
+- Conflict/control: none
+
+### OCC-021 — Peter William McNaughton (accepted)
+
+- Occupation or role: Corporal
+- Date or period: 1862
+- Place or employer: 6th Independent Company, New York State Sharpshooters
+- Category: military role
+- Confidence: high
+- Source: New York Civil War town-clerk register — <https://www.ancestry.com/search/collections/1964/records/101002>
+- Evidence: The town-clerk register records Peter's 27 August 1862 enlistment and rank as corporal.
+- Conflict/control: none
+
+### OCC-022 — Peter William McNaughton (accepted)
+
+- Occupation or role: Carpenter
+- Date or period: 1870
+- Place or employer: Caledonia, Livingston, New York
+- Category: civilian occupation
+- Confidence: high
+- Source: 1870 United States Federal Census — <https://www.ancestry.com/search/collections/7163/records/23900754>
+- Evidence: The record lists Peter Mcnaughten as a carpenter in the established Peter and Mary McNaughton household.
+- Conflict/control: The Mcnaughten index spelling is treated as a surname variant.
+
+### OCC-023 — William McNaughton (accepted)
+
+- Occupation or role: Wagon maker
+- Date or period: 1850
+- Place or employer: Caledonia, Livingston, New York; transportation equipment
+- Category: civilian occupation
+- Confidence: high
+- Source: 1850 United States Federal Census — <https://www.ancestry.com/search/collections/8054/records/7025234>
+- Evidence: The record lists William McNaughton as a wagon maker and classifies the industry as railroad and miscellaneous transportation equipment.
+- Conflict/control: none
+
+### OCC-R01 — Marion McNaughton (rejected)
+
+- Occupation or role: Teacher
+- Date or period: unresolved
+- Place or employer: unresolved
+- Category: civilian occupation
+- Confidence: low
+- Source: Local-history teacher list — <original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Sources.md>
+- Evidence: A local-history list mentions teacher Marion E Croft, but no record connects that married identity to Carrie McNaughton's sister.
+- Conflict/control: Do not assign this occupation unless the identity is proved.

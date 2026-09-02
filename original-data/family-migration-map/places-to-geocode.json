@@ -175,6 +175,11 @@
     "precision": "approximate"
   },
   {
+    "place": "Great Falls, Cascade, Montana",
+    "query": "Great Falls, Cascade, Montana, United States",
+    "precision": "locality"
+  },
+  {
     "place": "Guilford, Connecticut",
     "query": "Guilford, Connecticut, United States",
     "precision": "locality"
@@ -183,6 +188,11 @@
     "place": "Guilford, New Haven County, Connecticut",
     "query": "Guilford, New Haven County, Connecticut, United States",
     "precision": "county"
+  },
+  {
+    "place": "Gumlösa, Kristianstad, Sweden",
+    "query": "Gumlösa, Kristianstad, Sweden",
+    "precision": "locality"
   },
   {
     "place": "Hampshire, England",
@@ -195,8 +205,18 @@
     "precision": "locality"
   },
   {
+    "place": "Hampton, Rockingham, New Hampshire",
+    "query": "Hampton, Rockingham, New Hampshire, United States",
+    "precision": "locality"
+  },
+  {
     "place": "Harsefeld, Province of Hanover, Germany",
     "query": "Harsefeld, Germany",
+    "precision": "locality"
+  },
+  {
+    "place": "Hasslöv, Halland, Sweden",
+    "query": "Hasslöv, Halland, Sweden",
     "precision": "locality"
   },
   {
@@ -215,8 +235,23 @@
     "precision": "locality"
   },
   {
+    "place": "Hishult, Halland, Sweden",
+    "query": "Hishult, Halland, Sweden",
+    "precision": "locality"
+  },
+  {
+    "place": "Hjärnarp, Kristianstad, Sweden",
+    "query": "Hjärnarp, Kristianstad, Sweden",
+    "precision": "locality"
+  },
+  {
     "place": "Hursley, Hampshire, England",
     "query": "Hursley, Hampshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Ignaberga, Kristianstad, Sweden",
+    "query": "Ignaberga, Kristianstad, Sweden",
     "precision": "locality"
   },
   {
@@ -250,6 +285,16 @@
     "precision": "locality"
   },
   {
+    "place": "Livingston County, New York",
+    "query": "Livingston County, New York, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Long Island, New York",
+    "query": "Long Island, New York, United States",
+    "precision": "locality"
+  },
+  {
     "place": "Los Angeles County, California",
     "query": "Los Angeles County, California, United States",
     "precision": "county"
@@ -257,6 +302,11 @@
   {
     "place": "Madison Heights, Oakland, Michigan",
     "query": "Madison Heights, Oakland, Michigan, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Malden, Middlesex, Massachusetts",
+    "query": "Malden, Middlesex, Massachusetts, United States",
     "precision": "locality"
   },
   {
@@ -280,6 +330,11 @@
     "precision": "locality"
   },
   {
+    "place": "Mellby, Kristianstad, Sweden",
+    "query": "Mellby, Kristianstad, Sweden",
+    "precision": "locality"
+  },
+  {
     "place": "Michigan",
     "query": "Michigan, United States",
     "precision": "region"
@@ -293,11 +348,6 @@
     "place": "Monroeville, Monroe, Alabama",
     "query": "Monroeville, Monroe, Alabama, United States",
     "precision": "locality"
-  },
-  {
-    "place": "Montana",
-    "query": "Montana, United States",
-    "precision": "region"
   },
   {
     "place": "Moscow (now Leicester), Livingston, New York (compiled genealogy)",
@@ -345,8 +395,23 @@
     "precision": "locality"
   },
   {
+    "place": "Newport Beach, Orange, California",
+    "query": "Newport Beach, Orange, California, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Norra Sandby, Kristianstad, Sweden",
+    "query": "Norra Sandby, Kristianstad, Sweden",
+    "precision": "locality"
+  },
+  {
     "place": "North Bend, Coos, Oregon",
     "query": "North Bend, Coos, Oregon, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Ocean Park, Pacific, Washington",
+    "query": "Ocean Park, Pacific, Washington, United States",
     "precision": "locality"
   },
   {
@@ -362,6 +427,11 @@
   {
     "place": "Pavilion, Genesee, New York (derivative lineage record)",
     "query": "Pavilion, Genesee, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Pennsylvania",
+    "query": "Pennsylvania",
     "precision": "locality"
   },
   {
@@ -405,9 +475,24 @@
     "precision": "locality"
   },
   {
+    "place": "Royal Oak, Oakland, Michigan",
+    "query": "Royal Oak, Oakland, Michigan, United States",
+    "precision": "locality"
+  },
+  {
     "place": "Roydon, Essex, England",
     "query": "Roydon, Essex, England",
     "precision": "locality"
+  },
+  {
+    "place": "Ränneslöv, Halland, Sweden",
+    "query": "Ränneslöv, Halland, Sweden",
+    "precision": "locality"
+  },
+  {
+    "place": "San Diego County, California",
+    "query": "San Diego County, California, United States",
+    "precision": "county"
   },
   {
     "place": "Seattle, King, Washington",
@@ -465,6 +550,11 @@
     "precision": "county"
   },
   {
+    "place": "Vancouver, Clark, Washington",
+    "query": "Vancouver, Clark, Washington, United States",
+    "precision": "locality"
+  },
+  {
     "place": "Virginia",
     "query": "Virginia, United States",
     "precision": "region"
@@ -483,6 +573,11 @@
     "place": "Ware, Hertfordshire, England",
     "query": "Ware, Hertfordshire, England",
     "precision": "locality"
+  },
+  {
+    "place": "Washington",
+    "query": "Washington, United States",
+    "precision": "region"
   },
   {
     "place": "Wayne County, Michigan",
@@ -510,6 +605,11 @@
     "precision": "approximate"
   },
   {
+    "place": "probably Eastham, Barnstable, Massachusetts",
+    "query": "Eastham, Barnstable, Massachusetts, United States",
+    "precision": "approximate"
+  },
+  {
     "place": "probably Fingringhoe, Essex, England",
     "query": "Fingringhoe, Essex, England",
     "precision": "approximate"
@@ -517,6 +617,11 @@
   {
     "place": "probably Guilford, Connecticut",
     "query": "Guilford, Connecticut, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "probably Middlesex County, Connecticut",
+    "query": "Middlesex County, Connecticut, United States",
     "precision": "approximate"
   },
   {

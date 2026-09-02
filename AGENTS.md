@@ -14,6 +14,9 @@ If any derived file conflicts with the canonical GEDCOM, use the GEDCOM and repa
 
 ## Change discipline
 
+- Perform all approved project edits in this GitHub repository, not in an outer ChatGPT-project mirror. Treat outer `research/` copies as historical/import staging only.
+- Keep `original-data/` canonical artifacts, `public/` deployment copies, the application, validation outputs, and the packaged archive synchronized in the same commit.
+- When publication is requested, commit the validated repository state and push it to `origin/main`, then verify the GitHub Pages deployment.
 - Treat preserved source records as read-only evidence.
 - Never infer an unknown relationship.
 - Preserve citations, confidence, conflicts, provenance, and living-person privacy.
