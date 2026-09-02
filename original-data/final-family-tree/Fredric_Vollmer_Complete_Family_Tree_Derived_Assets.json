@@ -32,13 +32,17 @@
       },
       "privacy": {
         "rule": "Exclude people explicitly marked living and people with no death record whose latest parsed birth year is within 100 years of generation.",
-        "excluded_people": 9
+        "excluded_people": 8
+      },
+      "scope": {
+        "rule": "The migration view covers Fredric's maternal and paternal components only; spouse-connected ancestry remains in the canonical tree.",
+        "excluded_people": 37
       },
       "interpretation": "Movement records connect birth/death or parent/child birth endpoints as analytical inferences. They are not documented travel routes and are not independent genealogical evidence.",
       "update_policy": "Rebuild and validate after any canonical change affecting people, families, dates, places, privacy status, or source references.",
       "sha256": {
-        "family-migration-map.html": "d86a25ea6bbd48647062162a51f8218dd2c5f005476d47ed7a5285b3b581b0e3",
-        "migration-data.json": "e93e89ee9fa44d04e636e1b1ed7b2ab65ad2f933bce99b863d35df2230439bed",
+        "family-migration-map.html": "10629cb5b8a1ffc3ccd061f58b01e8c2bfa61d8a65aad42554296b5d37792f9b",
+        "migration-data.json": "dd6b31c6175e7ff22230db3cd4cd72d0d756b07d3069270fcdffc3d3a8577229",
         "migration-events.geojson": "949b30cf7e4b883c4ee2e86bb603b8ab6c948621f4aee503248d45a51690e717",
         "geocoded-locations.json": "e45253878597435a4138fda48482b378d59cf8e7a9eb4e6273649f3c926a9cb8",
         "README.md": "e72efb46f7737d3f1c706711ba9a06869c63afad9c948f4f9cfba005cd40cd03",
@@ -56,13 +60,13 @@
       "generated": "2026-09-02",
       "counts": {
         "audited": "2026-09-02",
-        "people_audited": 328,
+        "people_audited": 363,
         "portraits_archived": 0,
         "external_photo_pages": 2,
-        "privacy_withheld": 2,
-        "no_verified_photo_archived": 324,
-        "evidence_files": 43,
-        "evidence_images": 34,
+        "privacy_withheld": 7,
+        "no_verified_photo_archived": 354,
+        "evidence_files": 57,
+        "evidence_images": 48,
         "evidence_pdfs": 9,
         "pdf_preview_images": 18,
         "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."

@@ -1,13 +1,13 @@
 {
   "metadata": {
     "audited": "2026-09-02",
-    "people_audited": 328,
+    "people_audited": 363,
     "portraits_archived": 0,
     "external_photo_pages": 2,
-    "privacy_withheld": 2,
-    "no_verified_photo_archived": 324,
-    "evidence_files": 43,
-    "evidence_images": 34,
+    "privacy_withheld": 7,
+    "no_verified_photo_archived": 354,
+    "evidence_files": 57,
+    "evidence_images": 48,
     "evidence_pdfs": 9,
     "pdf_preview_images": 18,
     "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
@@ -3850,13 +3850,13 @@
     {
       "individual_id": "I334",
       "name": "Mary Alice Thoren",
-      "portrait_status": "no_verified_photo_archived",
+      "portrait_status": "privacy_withheld",
       "portrait_path": "",
       "portrait_source_name": "",
       "portrait_source_url": "",
       "portrait_source_refs": [],
-      "portrait_rights": "",
-      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
       "evidence_ids": [
         "E040"
       ]
@@ -4116,6 +4116,494 @@
       "portrait_rights": "",
       "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
       "evidence_ids": []
+    },
+    {
+      "individual_id": "I356",
+      "name": "Arianna Lynn Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I357",
+      "name": "Wallace Ray Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I358",
+      "name": "Sally Lynn Vanhoose Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I359",
+      "name": "Keith Douglas Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I360",
+      "name": "Barbara Lynn Boltenhouse",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": [
+        "E056"
+      ]
+    },
+    {
+      "individual_id": "I361",
+      "name": "Douglas T Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E054"
+      ]
+    },
+    {
+      "individual_id": "I362",
+      "name": "Mildred I Tackett Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E053"
+      ]
+    },
+    {
+      "individual_id": "I363",
+      "name": "Charles Emerald Boltenhouse Jr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E056"
+      ]
+    },
+    {
+      "individual_id": "I364",
+      "name": "Alice Marie Hickey Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E055",
+        "E056"
+      ]
+    },
+    {
+      "individual_id": "I365",
+      "name": "John B Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E045",
+        "E052"
+      ]
+    },
+    {
+      "individual_id": "I366",
+      "name": "Talliehassie Tallie Estep Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E052",
+        "E054",
+        "E057"
+      ]
+    },
+    {
+      "individual_id": "I367",
+      "name": "Sidney Tackett",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E053"
+      ]
+    },
+    {
+      "individual_id": "I368",
+      "name": "Ida Missouri",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E053"
+      ]
+    },
+    {
+      "individual_id": "I369",
+      "name": "Moses Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E044",
+        "E045"
+      ]
+    },
+    {
+      "individual_id": "I370",
+      "name": "Mahala Dixon Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E044",
+        "E045"
+      ]
+    },
+    {
+      "individual_id": "I371",
+      "name": "Ira W Estep",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E057"
+      ]
+    },
+    {
+      "individual_id": "I372",
+      "name": "Isora Morton Estep",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E057"
+      ]
+    },
+    {
+      "individual_id": "I373",
+      "name": "Charles Emerald Boltenhouse Sr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E050"
+      ]
+    },
+    {
+      "individual_id": "I374",
+      "name": "Leona Florence Tomlinson Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E051"
+      ]
+    },
+    {
+      "individual_id": "I375",
+      "name": "Alonzo Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E047",
+        "E050"
+      ]
+    },
+    {
+      "individual_id": "I376",
+      "name": "Malinda E Speakman Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E050"
+      ]
+    },
+    {
+      "individual_id": "I377",
+      "name": "George P Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E051"
+      ]
+    },
+    {
+      "individual_id": "I378",
+      "name": "Malinda Linda Jackson Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E051"
+      ]
+    },
+    {
+      "individual_id": "I379",
+      "name": "Augustus Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E047"
+      ]
+    },
+    {
+      "individual_id": "I380",
+      "name": "Elizabeth Cotter Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E047"
+      ]
+    },
+    {
+      "individual_id": "I381",
+      "name": "Alo Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I382",
+      "name": "Rebecca Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I383",
+      "name": "William Andrew Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E048",
+        "E055"
+      ]
+    },
+    {
+      "individual_id": "I384",
+      "name": "Daisy Marie Imler Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E049",
+        "E055"
+      ]
+    },
+    {
+      "individual_id": "I385",
+      "name": "John Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E048"
+      ]
+    },
+    {
+      "individual_id": "I386",
+      "name": "Mary Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E048"
+      ]
+    },
+    {
+      "individual_id": "I387",
+      "name": "William Imler",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E049"
+      ]
+    },
+    {
+      "individual_id": "I388",
+      "name": "Annie Westbury Imler",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E046",
+        "E049"
+      ]
+    },
+    {
+      "individual_id": "I389",
+      "name": "Robert Westbury",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E046"
+      ]
+    },
+    {
+      "individual_id": "I390",
+      "name": "Hester Stonerock Westbury",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E046"
+      ]
     }
   ],
   "evidence": [
@@ -5324,6 +5812,409 @@
         "records/relief-mcnaughton_mother-pension-index.jpg"
       ],
       "sha256": "4c481d5447084325803d01ea3fb19e1485b4d96fd24cc06c3c83ed32580e90f7"
+    },
+    {
+      "evidence_id": "E044",
+      "media_type": "image",
+      "file_path": "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+      "filename": "1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+      "title": "Moses Vanhoose and Mahala Dixon marriage record",
+      "ledger_refs": [
+        "S63"
+      ],
+      "person_ids": [
+        "I369",
+        "I370"
+      ],
+      "canonical_source_refs": [
+        "S63"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "Johnson County records"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg"
+      ],
+      "sha256": "4b43d38830f05745935ff09efa16d73316ad9a564f13e1419d15dd0f53e39953"
+    },
+    {
+      "evidence_id": "E045",
+      "media_type": "image",
+      "file_path": "records/1880_moses-mahala-john-vanhoose_us-census.jpg",
+      "filename": "1880_moses-mahala-john-vanhoose_us-census.jpg",
+      "title": "1880 Moses, Mahala, and John Vanhoose household census",
+      "ledger_refs": [
+        "S63"
+      ],
+      "person_ids": [
+        "I369",
+        "I370",
+        "I365"
+      ],
+      "canonical_source_refs": [
+        "S63"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1880_moses-mahala-john-vanhoose_us-census.jpg"
+      ],
+      "sha256": "12e7a826f60af0250d06978216776c4d01d29bc0c85277365119b2a924c4b744"
+    },
+    {
+      "evidence_id": "E046",
+      "media_type": "image",
+      "file_path": "records/1880_robert-hester-annie-westbury_us-census.jpg",
+      "filename": "1880_robert-hester-annie-westbury_us-census.jpg",
+      "title": "1880 Robert, Hester, and Annie Westbury household census",
+      "ledger_refs": [
+        "S60"
+      ],
+      "person_ids": [
+        "I389",
+        "I390",
+        "I388"
+      ],
+      "canonical_source_refs": [
+        "S60"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1880_robert-hester-annie-westbury_us-census.jpg"
+      ],
+      "sha256": "55f4336bacc66bf90b09eda13d8d8e4ba8b97a23502eb9a2519212f7213b4fde"
+    },
+    {
+      "evidence_id": "E047",
+      "media_type": "image",
+      "file_path": "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+      "filename": "1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+      "title": "1900 Augustus, Elizabeth, and Alonzo Boltenhouse household census",
+      "ledger_refs": [
+        "S67"
+      ],
+      "person_ids": [
+        "I379",
+        "I380",
+        "I375"
+      ],
+      "canonical_source_refs": [
+        "S67"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg"
+      ],
+      "sha256": "f0f0d16ea0a2188d2a26af6deec71b183d567c824449c8a76578a7e0aab85635"
+    },
+    {
+      "evidence_id": "E048",
+      "media_type": "image",
+      "file_path": "records/1900_john-mary-william-hickey_us-census.jpg",
+      "filename": "1900_john-mary-william-hickey_us-census.jpg",
+      "title": "1900 John, Mary, and William Hickey household census",
+      "ledger_refs": [
+        "S57"
+      ],
+      "person_ids": [
+        "I385",
+        "I386",
+        "I383"
+      ],
+      "canonical_source_refs": [
+        "S57"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1900_john-mary-william-hickey_us-census.jpg"
+      ],
+      "sha256": "3f09977017d341c179f7296476cf3f05238edc18706741185f0889ab4a462a0e"
+    },
+    {
+      "evidence_id": "E049",
+      "media_type": "image",
+      "file_path": "records/1900_william-annie-daisy-imler_us-census.jpg",
+      "filename": "1900_william-annie-daisy-imler_us-census.jpg",
+      "title": "1900 William, Annie, and Daisy Imler household census",
+      "ledger_refs": [
+        "S58"
+      ],
+      "person_ids": [
+        "I387",
+        "I388",
+        "I384"
+      ],
+      "canonical_source_refs": [
+        "S58"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1900_william-annie-daisy-imler_us-census.jpg"
+      ],
+      "sha256": "f1efe3ffd6bd843ebdee892bdf6eb2cdbdca443f846d2440a66fb86d7f6b4f76"
+    },
+    {
+      "evidence_id": "E050",
+      "media_type": "image",
+      "file_path": "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+      "filename": "1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+      "title": "1910 Alonzo, Malinda, and Charles Boltenhouse household census",
+      "ledger_refs": [
+        "S67"
+      ],
+      "person_ids": [
+        "I375",
+        "I376",
+        "I373"
+      ],
+      "canonical_source_refs": [
+        "S67"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg"
+      ],
+      "sha256": "de55365447a9a7a1f1da71cbd0ea2334fad10c1c2a0d50d861fca0e8bfb2096c"
+    },
+    {
+      "evidence_id": "E051",
+      "media_type": "image",
+      "file_path": "records/1910_george-linda-leona-tomlinson_us-census.jpg",
+      "filename": "1910_george-linda-leona-tomlinson_us-census.jpg",
+      "title": "1910 George, Linda, and Leona Tomlinson household census",
+      "ledger_refs": [
+        "S68"
+      ],
+      "person_ids": [
+        "I377",
+        "I378",
+        "I374"
+      ],
+      "canonical_source_refs": [
+        "S68"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1910_george-linda-leona-tomlinson_us-census.jpg"
+      ],
+      "sha256": "136ffac97bbb990721d27662cd7b79f7c0512ecad9d79aec3f6bbb21897a5552"
+    },
+    {
+      "evidence_id": "E052",
+      "media_type": "image",
+      "file_path": "records/1920_john-tallie-vanhoose_us-census.jpg",
+      "filename": "1920_john-tallie-vanhoose_us-census.jpg",
+      "title": "1920 John and Tallie Vanhoose household census",
+      "ledger_refs": [
+        "S62"
+      ],
+      "person_ids": [
+        "I365",
+        "I366"
+      ],
+      "canonical_source_refs": [
+        "S62"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1920_john-tallie-vanhoose_us-census.jpg"
+      ],
+      "sha256": "fafc8e35d22d30a643b082d8a90e9e4bcf79755776e8e359865ef92037507ec7"
+    },
+    {
+      "evidence_id": "E053",
+      "media_type": "image",
+      "file_path": "records/1930_sidney-ida-mildred-tackett_us-census.jpg",
+      "filename": "1930_sidney-ida-mildred-tackett_us-census.jpg",
+      "title": "1930 Sidney, Ida, and Mildred Tackett household census",
+      "ledger_refs": [
+        "S65"
+      ],
+      "person_ids": [
+        "I367",
+        "I368",
+        "I362"
+      ],
+      "canonical_source_refs": [
+        "S65"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1930_sidney-ida-mildred-tackett_us-census.jpg"
+      ],
+      "sha256": "450820469775477ec1a3304d33ce88032ae0de4624e0431230af3e25cd2b4d22"
+    },
+    {
+      "evidence_id": "E054",
+      "media_type": "image",
+      "file_path": "records/1930_tallie-douglas-vanhoose_us-census.jpg",
+      "filename": "1930_tallie-douglas-vanhoose_us-census.jpg",
+      "title": "1930 Tallie and Douglas Vanhoose household census",
+      "ledger_refs": [
+        "S61"
+      ],
+      "person_ids": [
+        "I366",
+        "I361"
+      ],
+      "canonical_source_refs": [
+        "S61"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1930_tallie-douglas-vanhoose_us-census.jpg"
+      ],
+      "sha256": "b72825dcb67040ab1e58177e31b1a0dd71f8d6979b1cc1c5ff54ff86219c99b3"
+    },
+    {
+      "evidence_id": "E055",
+      "media_type": "image",
+      "file_path": "records/1940_william-daisy-alice-hickey_us-census.jpg",
+      "filename": "1940_william-daisy-alice-hickey_us-census.jpg",
+      "title": "1940 William, Daisy, and Alice Hickey household census",
+      "ledger_refs": [
+        "S56"
+      ],
+      "person_ids": [
+        "I383",
+        "I384",
+        "I364"
+      ],
+      "canonical_source_refs": [
+        "S56"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1940_william-daisy-alice-hickey_us-census.jpg"
+      ],
+      "sha256": "9be42fdd0e88e0a6814c131f58e6e0a64374eaf112a8946de26113ba261d2193"
+    },
+    {
+      "evidence_id": "E056",
+      "media_type": "image",
+      "file_path": "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+      "filename": "1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+      "title": "1950 Charles, Alice, and Barbara Boltenhouse household census",
+      "ledger_refs": [
+        "S54"
+      ],
+      "person_ids": [
+        "I363",
+        "I364",
+        "I360"
+      ],
+      "canonical_source_refs": [
+        "S54"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg"
+      ],
+      "sha256": "60ba9440c8fd580e15203d7599bca858a02153692e6be62ce197ff10d544a08c"
+    },
+    {
+      "evidence_id": "E057",
+      "media_type": "image",
+      "file_path": "records/1967-05-17_tallie-vanhoose_death-certificate.jpg",
+      "filename": "1967-05-17_tallie-vanhoose_death-certificate.jpg",
+      "title": "Tallie Vanhoose death certificate",
+      "ledger_refs": [
+        "S64"
+      ],
+      "person_ids": [
+        "I366",
+        "I371",
+        "I372"
+      ],
+      "canonical_source_refs": [
+        "S64"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "Kentucky vital records"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1967-05-17_tallie-vanhoose_death-certificate.jpg"
+      ],
+      "sha256": "a5fdaad1e00eab617eb9b52fbbfacd3c565c8a8939d5fb536c45b296c2619e80"
     }
   ],
   "external_evidence_checks": [

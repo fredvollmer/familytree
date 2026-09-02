@@ -1134,3 +1134,121 @@ The machine-readable audit is `Fredric_Vollmer_Complete_Family_Tree_Media_Audit.
 ### Preserved evidence attachments
 
 All 43 preserved source files are now attached to GEDCOM source records and cataloged with exact canonical person IDs: 34 images and nine PDFs. The PDFs retain their originals and add 18 relevant page-image previews in `record-previews/`. Two files remain visibly marked as identity controls rather than supporting evidence: the excluded 1892 Henry Vollmer household and the 1919 Madie Vollmer death certificate that does not belong to Metha Peper Vollmer. The passenger manifest’s unresolved adjacency and the unnamed Pepper child’s identification uncertainty also remain explicit.
+## Arianna Lynn Fischer direct-ancestry expansion (2 September 2026)
+
+Owner anchor: Arianna Lynn Fischer (born 1990), wife of Fredric Muller Vollmer; parents Sally Fischer and Ray W. Fischer. The public tree withholds living exact dates, addresses, and contact information. No collateral relatives were added.
+
+### S49 — Owner statement identifying Arianna Lynn Fischer and her parents
+
+The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.
+
+### S50 — Arianna Lynn Fischer Ohio birth and parent index cluster
+
+Ohio birth index entries name Arianna and identify Wallace Ray Fischer and Sally Lynn Vanhoose Fischer as parents; a Franklin County marriage index records Wallace R. Fischer and Sally L. on 3 Mar 1990. Records: https://www.ancestry.com/search/collections/3146/records/11206028 ; https://www.ancestry.com/search/collections/3146/records/26206028 ; https://www.ancestry.com/search/collections/3146/records/41206028 ; https://www.ancestry.com/search/collections/2025/records/1910252
+
+### S51 — Wallace Ray Fischer identity record cluster
+
+Records consistently identify Wallace Ray Fischer, including North Caroline High School yearbook entries. Living birth details and addresses are intentionally omitted. Records: https://www.ancestry.com/search/collections/62740/records/4543428 ; https://www.ancestry.com/search/collections/62209/records/299213236 ; https://www.ancestry.com/search/collections/1265/records/621855255
+
+### S52 — Sally Lynn Vanhoose Fischer Ohio birth and parent index cluster
+
+Ohio birth-index entries identify Sally Lynn Vanhoose/Fischer and name Keith Douglas Vanhoose and Barbara Lynn Boltenhouse as parents. Living exact dates and addresses are omitted. Records: https://www.ancestry.com/search/collections/3146/records/7991760 ; https://www.ancestry.com/search/collections/3146/records/11694596 ; https://www.ancestry.com/search/collections/3146/records/26694596 ; https://www.ancestry.com/search/collections/3146/records/41694596
+
+### S53 — Keith Douglas Vanhoose SSA and burial index cluster
+
+SSA application and burial indexes establish Keith's dates and name Douglas T. Vanhoose and Mildred Tackett as parents. Records: https://www.ancestry.com/search/collections/60901/records/39551452 ; https://www.ancestry.com/search/collections/60525/records/95267098
+
+### S54 — 1950 United States census household of Charles, Alice, and Barbara Boltenhouse
+
+Circleville, Pickaway County, Ohio household records Charles E. Boltenhouse, wife Alice M., and daughter Barbara. Records: https://www.ancestry.com/search/collections/62308/records/204443745 ; https://www.ancestry.com/search/collections/62308/records/204443746 ; https://www.ancestry.com/search/collections/62308/records/204443747
+
+Preserved image: `records/1950_charles-alice-barbara-boltenhouse_us-census.jpg`.
+
+### S55 — Charles Emerald Boltenhouse Jr burial and obituary records
+
+The obituary identifies parents Charles and Leona Tomlinson Boltenhouse, wife Alice Hickey, and daughter Barbara. Records: https://www.ancestry.com/search/collections/60525/records/297099223 ; https://www.ancestry.com/search/collections/2190/records/21600019 ; https://www.wellmanfuneralhomes.com/obituaries/charles-boltenhouse-jr
+
+### S56 — Alice Marie Hickey Boltenhouse SSA and census record cluster
+
+SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain. Records: https://www.ancestry.com/search/collections/60901/records/41344689 ; https://www.ancestry.com/search/collections/2442/records/31756365 ; https://www.ancestry.com/search/collections/62308/records/204443746
+
+Preserved image: `records/1940_william-daisy-alice-hickey_us-census.jpg`.
+
+### S57 — William Andrew Hickey vital, draft, and census record cluster
+
+The 1900 census identifies William as son of John and Mary; draft, death, burial, and SSA indexes corroborate identity. Records: https://www.ancestry.com/search/collections/7602/records/41345114 ; https://www.ancestry.com/search/collections/5763/records/408395 ; https://www.ancestry.com/search/collections/60525/records/103465820 ; https://www.ancestry.com/search/collections/6482/records/19464076 ; https://www.ancestry.com/search/collections/1002/records/6996448 ; https://www.ancestry.com/search/collections/60901/records/641344689
+
+Preserved image: `records/1900_john-mary-william-hickey_us-census.jpg`.
+
+### S58 — Daisy Marie Imler Hickey census, SSA, and marriage record cluster
+
+The 1900 census identifies William Imler and Annie as Daisy's parents; SSA and later census records link husband William Hickey and daughter Alice. Records: https://www.ancestry.com/search/collections/7602/records/41347856 ; https://www.ancestry.com/search/collections/2442/records/31756357 ; https://www.ancestry.com/search/collections/6061/records/27418446 ; https://www.ancestry.com/search/collections/60901/records/791344689 ; https://www.ancestry.com/search/collections/61378/records/1204214340
+
+Preserved image: `records/1900_william-annie-daisy-imler_us-census.jpg`.
+
+### S59 — William Imler and Annie Westbury census and marriage records
+
+The 4 Jul 1889 marriage record names Annie Westbury; the 1900 census records the couple with daughter Daisy. Records: https://www.ancestry.com/search/collections/61378/records/893547 ; https://www.ancestry.com/search/collections/7602/records/41347854 ; https://www.ancestry.com/search/collections/7602/records/41347855
+
+### S60 — Westbury-Stonerock 1880 census and 1861 marriage records
+
+The 1880 census identifies Annie as daughter of Robert Westbury and Hester; the 17 Dec 1861 marriage record supplies Hester Stonerock. Records: https://www.ancestry.com/search/collections/6742/records/18379300 ; https://www.ancestry.com/search/collections/6742/records/24757281 ; https://www.ancestry.com/search/collections/6742/records/18379404 ; https://www.ancestry.com/search/collections/61378/records/416305
+
+Preserved image: `records/1880_robert-hester-annie-westbury_us-census.jpg`.
+
+### S61 — Douglas T. Vanhoose birth, census, military, and death record cluster
+
+The Kentucky birth index, 1930 census, military index, and death index establish Douglas's identity and link him to Tallie. Records: https://www.ancestry.com/search/collections/8788/records/3688158 ; https://www.ancestry.com/search/collections/6224/records/81187869 ; https://www.ancestry.com/search/collections/2441/records/10171281 ; https://www.ancestry.com/search/collections/3077/records/2504865 ; https://www.ancestry.com/search/collections/60901/records/639551452
+
+Preserved image: `records/1930_tallie-douglas-vanhoose_us-census.jpg`.
+
+### S62 — John B. and Tallie Vanhoose 1880 and 1920 census chain
+
+The 1880 census records John as son of Moses and Mahala; the 1920 census records John with wife Tallie. Records: https://www.ancestry.com/search/collections/6742/records/41518791 ; https://www.ancestry.com/search/collections/6061/records/59825157
+
+Preserved image: `records/1920_john-tallie-vanhoose_us-census.jpg`.
+
+### S63 — Moses Vanhoose and Mahala Dixon census and marriage records
+
+The 1880 census records John as their son; the 22 Apr 1868 marriage record names Mahala Dixon. Records: https://www.ancestry.com/search/collections/6742/records/9277240 ; https://www.ancestry.com/search/collections/6742/records/10191909 ; https://www.ancestry.com/search/collections/61372/records/1506164
+
+Preserved image: `records/1880_moses-mahala-john-vanhoose_us-census.jpg`.
+
+Preserved image: `records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg`.
+
+### S64 — Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster
+
+Tallie's death certificate names Ira Estep and Isora Morton. The 1880 census and 28 Aug 1868 marriage record identify the matching couple. Records: https://www.ancestry.com/search/collections/1222/records/2144978 ; https://www.ancestry.com/search/collections/7602/records/5598207 ; https://www.ancestry.com/search/collections/6742/records/17600141 ; https://www.ancestry.com/search/collections/6742/records/17600401 ; https://www.ancestry.com/search/collections/61372/records/1551052
+
+Preserved image: `records/1967-05-17_tallie-vanhoose_death-certificate.jpg`.
+
+### S65 — Mildred I. Tackett Vanhoose obituary and 1930 census
+
+The obituary names parents Sidney Tackett and Ida Missouri and husband Douglas VanHoose; the 1930 census corroborates Sid, Ida, and Mildred. Records: https://www.ancestry.com/search/collections/7545/records/500515930 ; https://www.ancestry.com/search/collections/6224/records/81187850 ; http://www.circlevilleherald.com/obituaries/mildred-i-vanhoose/article_9d73b9f0-f575-5f2a-b23d-b65a593e7879.html
+
+Preserved image: `records/1930_sidney-ida-mildred-tackett_us-census.jpg`.
+
+### S66 — Charles Emerald Boltenhouse Sr and Leona Tomlinson vital, census, draft, and marriage cluster
+
+Draft, marriage, census, and death records establish the couple and their son Charles. Records: https://www.ancestry.com/search/collections/2238/records/199550522 ; https://www.ancestry.com/search/collections/61378/records/1050733026 ; https://www.ancestry.com/search/collections/6224/records/69946949 ; https://www.ancestry.com/search/collections/6224/records/69946957 ; https://www.ancestry.com/search/collections/5763/records/1910198
+
+### S67 — Boltenhouse direct-line census and marriage record chain
+
+The 1910 census names Alonzo and Malinda as Charles's parents; their 1902 marriage supplies Speakman. The 1900 census names Augustus and Elizabeth as Alonzo's parents; their 1869 marriage supplies Cotter. Records: https://www.ancestry.com/search/collections/7884/records/142595859 ; https://www.ancestry.com/search/collections/7884/records/22453970 ; https://www.ancestry.com/search/collections/61378/records/266107 ; https://www.ancestry.com/search/collections/7602/records/51092013 ; https://www.ancestry.com/search/collections/7602/records/51092011 ; https://www.ancestry.com/search/collections/61378/records/1411597
+
+Preserved image: `records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg`.
+
+Preserved image: `records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg`.
+
+### S68 — Tomlinson-Jackson direct-line census and parent-name record chain
+
+The 1910 census records Leona as daughter of George P. and Linda. The 1900 census records George with wife Malinda and explicitly names his parents Alo and Rebecca; a later child marriage index supplies Linda Jackson. Records: https://www.ancestry.com/search/collections/7884/records/142595257 ; https://www.ancestry.com/search/collections/7602/records/51098669 ; https://www.ancestry.com/search/collections/61378/records/1350876129
+
+Preserved image: `records/1910_george-linda-leona-tomlinson_us-census.jpg`.
+
+### Research controls
+
+- Wallace Ray Fischer's parents remain blank because no parent-naming record was located.
+- Mahala Dixon's possible 1860 household was not used to add parents because that census does not state relationships.
+- Private Ancestry member trees and suggested same-name records were treated only as search clues.
+- Daisy Imler's 20 Apr 1942 death date is retained; a secondary 22 Apr form remains a documented conflict rather than a second event.

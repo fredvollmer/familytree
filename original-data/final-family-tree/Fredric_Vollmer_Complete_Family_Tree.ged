@@ -14,6 +14,13 @@
 1 NOTE Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted.
 1 SOUR @S1@
 1 FAMC @F095@
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 SOUR @S49@
+1 FAMS @F156@
 0 @I002@ INDI
 1 SEX F
 1 NAME Jan Muller /Vollmer/
@@ -5032,4 +5039,692 @@
 1 AUTH Codex research task in the Family Tree project
 1 DATE 2 SEP 2026
 1 NOTE Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.
+0 @I356@ INDI
+1 NAME Arianna Lynn /Fischer/
+1 SEX F
+1 BIRT
+2 DATE 1990
+1 NOTE Owner-confirmed wife of Fredric Muller Vollmer. Living person; only the owner-supplied birth year is retained.
+1 REFN FISCHER-DIRECT-I356
+1 SOUR @S49@
+1 SOUR @S50@
+1 FAMC @F157@
+1 FAMS @F156@
+0 @I357@ INDI
+1 NAME Wallace Ray /Fischer/
+1 SEX M
+1 NOTE Owner supplied the form Ray W. Fischer; Ohio records repeatedly use Wallace Ray Fischer. Living dates and addresses are withheld.
+1 REFN FISCHER-DIRECT-I357
+1 SOUR @S49@
+1 SOUR @S50@
+1 SOUR @S51@
+1 FAMS @F157@
+0 @I358@ INDI
+1 NAME Sally Lynn /Vanhoose/
+1 SEX F
+1 NOTE Ohio records supply maiden surname Vanhoose and married surname Fischer. Living dates and addresses are withheld.
+1 REFN FISCHER-DIRECT-I358
+1 SOUR @S49@
+1 SOUR @S50@
+1 SOUR @S52@
+1 FAMC @F158@
+1 FAMS @F157@
+0 @I359@ INDI
+1 NAME Keith Douglas /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE 5 DEC 1944
+2 PLAC Ashland, Kentucky
+1 DEAT
+2 DATE 8 APR 2004
+1 NOTE SSA and burial indexes name Douglas T. Vanhoose and Mildred Tackett as parents.
+1 REFN FISCHER-DIRECT-I359
+1 SOUR @S52@
+1 SOUR @S53@
+1 FAMC @F159@
+1 FAMS @F158@
+0 @I360@ INDI
+1 NAME Barbara Lynn /Boltenhouse/
+1 SEX F
+1 NOTE The 1950 census identifies Barbara as daughter of Charles and Alice. Potentially living; dates are withheld.
+1 REFN FISCHER-DIRECT-I360
+1 SOUR @S52@
+1 SOUR @S54@
+1 FAMC @F164@
+1 FAMS @F158@
+0 @I361@ INDI
+1 NAME Douglas T /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE 1 APR 1921
+2 PLAC Lawrence County, Kentucky
+1 DEAT
+2 DATE 5 FEB 1983
+2 PLAC Pulaski County, Kentucky
+1 NOTE Kentucky birth index, 1930 census, military index, and death index form a consistent record cluster.
+1 REFN FISCHER-DIRECT-I361
+1 SOUR @S53@
+1 SOUR @S61@
+1 FAMC @F160@
+1 FAMS @F159@
+0 @I362@ INDI
+1 NAME Mildred I /Tackett/
+1 SEX F
+1 BIRT
+2 DATE 6 NOV 1924
+2 PLAC Esco, Pike County, Kentucky
+1 DEAT
+2 DATE 22 AUG 2015
+2 PLAC Bexley, Franklin County, Ohio
+1 NOTE Obituary and 1930 census identify Sidney Tackett and Ida Missouri as parents.
+1 REFN FISCHER-DIRECT-I362
+1 SOUR @S53@
+1 SOUR @S65@
+1 FAMC @F163@
+1 FAMS @F159@
+0 @I363@ INDI
+1 NAME Charles Emerald /Boltenhouse/ Jr.
+1 SEX M
+1 BIRT
+2 DATE 19 DEC 1926
+2 PLAC Circleville, Pickaway County, Ohio
+1 DEAT
+2 DATE 1 MAR 2026
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE The 1950 census and 2026 obituary identify wife Alice Hickey and daughter Barbara.
+1 REFN FISCHER-DIRECT-I363
+1 SOUR @S54@
+1 SOUR @S55@
+1 FAMC @F165@
+1 FAMS @F164@
+0 @I364@ INDI
+1 NAME Alice Marie /Hickey/
+1 SEX F
+1 BIRT
+2 DATE 30 AUG 1929
+2 PLAC Circleville, Pickaway County, Ohio
+1 DEAT
+2 DATE 25 JUL 2003
+1 NOTE SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain.
+1 REFN FISCHER-DIRECT-I364
+1 SOUR @S54@
+1 SOUR @S56@
+1 FAMC @F170@
+1 FAMS @F164@
+0 @I365@ INDI
+1 NAME John B /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE ABT 1877
+2 PLAC West Virginia
+1 NOTE The 1880 census records John as son of Moses and Mahala; the 1920 census records him with wife Tallie.
+1 REFN FISCHER-DIRECT-I365
+1 SOUR @S62@
+1 FAMC @F161@
+1 FAMS @F160@
+0 @I366@ INDI
+1 NAME Talliehassie Tallie /Estep/
+1 SEX F
+1 BIRT
+2 DATE 22 NOV 1881
+2 PLAC Johnson County, Kentucky
+1 DEAT
+2 DATE 17 MAY 1967
+2 PLAC Ashland, Boyd County, Kentucky
+1 NOTE The death certificate names father Ira Estep and mother Isora Morton. Tallie and Talliehassie are retained name forms.
+1 REFN FISCHER-DIRECT-I366
+1 SOUR @S61@
+1 SOUR @S62@
+1 SOUR @S64@
+1 FAMC @F162@
+1 FAMS @F160@
+0 @I367@ INDI
+1 NAME Sidney /Tackett/
+1 SEX M
+1 BIRT
+2 DATE ABT 1894
+2 PLAC Kentucky
+1 NOTE Recorded as Sid Tackett in the 1930 household and Sidney Tackett in Mildred's obituary.
+1 REFN FISCHER-DIRECT-I367
+1 SOUR @S65@
+1 FAMS @F163@
+0 @I368@ INDI
+1 NAME Ida Missouri /Unknown/
+1 SEX F
+1 BIRT
+2 DATE ABT 1898
+2 PLAC North Carolina
+1 NOTE Mildred's mother is named Ida Missouri Tackett; her birth surname remains unproved.
+1 REFN FISCHER-DIRECT-I368
+1 SOUR @S65@
+1 FAMS @F163@
+0 @I369@ INDI
+1 NAME Moses /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE ABT 1837
+2 PLAC Kentucky
+1 NOTE The 1880 census and 1868 marriage record support the household with Mahala Dixon.
+1 REFN FISCHER-DIRECT-I369
+1 SOUR @S63@
+1 FAMS @F161@
+0 @I370@ INDI
+1 NAME Mahala /Dixon/
+1 SEX F
+1 BIRT
+2 DATE ABT 1848
+2 PLAC Kentucky
+1 NOTE The 1868 marriage record supplies Dixon. A tempting 1860 household inference was not used to add parents.
+1 REFN FISCHER-DIRECT-I370
+1 SOUR @S63@
+1 FAMS @F161@
+0 @I371@ INDI
+1 NAME Ira W /Estep/
+1 SEX M
+1 BIRT
+2 DATE ABT 1848
+2 PLAC Kentucky
+1 NOTE Tallie's death certificate names Ira Estep; the 1880 census and 1868 marriage record identify the matching Ira and Isora household.
+1 REFN FISCHER-DIRECT-I371
+1 SOUR @S64@
+1 FAMS @F162@
+0 @I372@ INDI
+1 NAME Isora /Morton/
+1 SEX F
+1 BIRT
+2 DATE ABT 1849
+2 PLAC Kentucky
+1 NOTE Name forms include Isora and a difficult marriage-index transcription; Morton is retained from the marriage record.
+1 REFN FISCHER-DIRECT-I372
+1 SOUR @S64@
+1 FAMS @F162@
+0 @I373@ INDI
+1 NAME Charles Emerald /Boltenhouse/ Sr.
+1 SEX M
+1 BIRT
+2 DATE 27 MAY 1907
+2 PLAC Ross County, Ohio
+1 DEAT
+2 DATE 29 MAR 1979
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE World War II draft, census, marriage, and death indexes identify this Charles Emerald Boltenhouse.
+1 REFN FISCHER-DIRECT-I373
+1 SOUR @S55@
+1 SOUR @S66@
+1 SOUR @S67@
+1 FAMC @F166@
+1 FAMS @F165@
+0 @I374@ INDI
+1 NAME Leona Florence /Tomlinson/
+1 SEX F
+1 BIRT
+2 DATE 29 JUL 1907
+2 PLAC Franklin, Warren County, Ohio
+1 DEAT
+2 DATE 16 FEB 1994
+2 PLAC Kingston, Ross County, Ohio
+1 NOTE The 1910 census identifies George P. and Linda Tomlinson as parents.
+1 REFN FISCHER-DIRECT-I374
+1 SOUR @S66@
+1 SOUR @S68@
+1 FAMC @F168@
+1 FAMS @F165@
+0 @I375@ INDI
+1 NAME Alonzo /Boltenhouse/
+1 SEX M
+1 BIRT
+2 DATE JUN 1884
+2 PLAC Ohio
+1 NOTE The 1900 census names Augustus and Elizabeth as parents; 1910 census and 1902 marriage record identify wife Malinda E. Speakman.
+1 REFN FISCHER-DIRECT-I375
+1 SOUR @S67@
+1 FAMC @F167@
+1 FAMS @F166@
+0 @I376@ INDI
+1 NAME Malinda E /Speakman/
+1 SEX F
+1 BIRT
+2 DATE ABT 1885
+2 PLAC Ohio
+1 NOTE The 24 Apr 1902 Ross County marriage record supplies the birth surname Speakman.
+1 REFN FISCHER-DIRECT-I376
+1 SOUR @S67@
+1 FAMS @F166@
+0 @I377@ INDI
+1 NAME George P /Tomlinson/
+1 SEX M
+1 BIRT
+2 DATE APR 1875
+2 PLAC Ohio
+1 NOTE The 1900 and 1910 censuses link George, wife Malinda/Linda, son William, and daughter Leona.
+1 REFN FISCHER-DIRECT-I377
+1 SOUR @S68@
+1 FAMC @F169@
+1 FAMS @F168@
+0 @I378@ INDI
+1 NAME Malinda Linda /Jackson/
+1 SEX F
+1 BIRT
+2 DATE ABT 1878
+2 PLAC Ohio
+1 NOTE 1900 records Malinda; 1910 records Linda. A later child marriage index names the parents George P. Tomlinson and Linda Jackson.
+1 REFN FISCHER-DIRECT-I378
+1 SOUR @S68@
+1 FAMS @F168@
+0 @I379@ INDI
+1 NAME Augustus /Boltenhouse/
+1 SEX M
+1 BIRT
+2 DATE JUL 1839
+2 PLAC Ohio
+1 NOTE 1900 census and 1869 Ross County marriage record support the relationship and spouse.
+1 REFN FISCHER-DIRECT-I379
+1 SOUR @S67@
+1 FAMS @F167@
+0 @I380@ INDI
+1 NAME Elizabeth /Cotter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1842
+2 PLAC Ohio
+1 NOTE The 19 Jul 1869 Ross County marriage record supplies Cotter; later index variants include Cottrell and Cotterill.
+1 REFN FISCHER-DIRECT-I380
+1 SOUR @S67@
+1 FAMS @F167@
+0 @I381@ INDI
+1 NAME Alo /Tomlinson/
+1 SEX M
+1 BIRT
+2 DATE ABT 1836
+2 PLAC Ohio
+1 NOTE The 1900 census explicitly records George as son of Alo and Rebecca.
+1 REFN FISCHER-DIRECT-I381
+1 SOUR @S68@
+1 FAMS @F169@
+0 @I382@ INDI
+1 NAME Rebecca /Unknown/
+1 SEX F
+1 BIRT
+2 DATE ABT 1846
+2 PLAC Ohio
+1 NOTE The 1900 census explicitly records George as son of Rebecca; her birth surname remains unproved.
+1 REFN FISCHER-DIRECT-I382
+1 SOUR @S68@
+1 FAMS @F169@
+0 @I383@ INDI
+1 NAME William Andrew /Hickey/
+1 SEX M
+1 BIRT
+2 DATE 13 JUN 1888
+2 PLAC Circleville, Pickaway County, Ohio
+1 DEAT
+2 DATE 6 APR 1971
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE The 1900 census names John and Mary as parents; draft, death, burial, and SSA indexes corroborate identity.
+1 REFN FISCHER-DIRECT-I383
+1 SOUR @S56@
+1 SOUR @S57@
+1 FAMC @F171@
+1 FAMS @F170@
+0 @I384@ INDI
+1 NAME Daisy Marie /Imler/
+1 SEX F
+1 BIRT
+2 DATE 3 APR 1890
+2 PLAC Pickaway County, Ohio
+1 DEAT
+2 DATE 20 APR 1942
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE Census and SSA records link Daisy to William Imler, Annie Westbury, husband William Hickey, and daughter Alice. A secondary 22 Apr death date is retained as a rejected conflict in the research log.
+1 REFN FISCHER-DIRECT-I384
+1 SOUR @S56@
+1 SOUR @S58@
+1 FAMC @F172@
+1 FAMS @F170@
+0 @I385@ INDI
+1 NAME John /Hickey/
+1 SEX M
+1 BIRT
+2 DATE JUN 1849
+2 PLAC Ohio
+1 NOTE The 1900 census records John and Mary with son William; John's parents were born in Ireland but are unnamed.
+1 REFN FISCHER-DIRECT-I385
+1 SOUR @S57@
+1 FAMS @F171@
+0 @I386@ INDI
+1 NAME Mary /Unknown/
+1 SEX F
+1 BIRT
+2 DATE MAR 1859
+2 PLAC Ohio
+1 NOTE The 1900 census records Mary with husband John and son William; her birth surname and parents remain unproved.
+1 REFN FISCHER-DIRECT-I386
+1 SOUR @S57@
+1 FAMS @F171@
+0 @I387@ INDI
+1 NAME William /Imler/
+1 SEX M
+1 BIRT
+2 DATE APR 1860
+2 PLAC Ohio
+1 NOTE The 1900 census and 1889 marriage record identify wife Annie Westbury and daughter Daisy.
+1 REFN FISCHER-DIRECT-I387
+1 SOUR @S58@
+1 SOUR @S59@
+1 FAMS @F172@
+0 @I388@ INDI
+1 NAME Annie /Westbury/
+1 SEX F
+1 BIRT
+2 DATE FEB 1871
+2 PLAC Ohio
+1 NOTE The 1880 census identifies Annie as daughter of Robert and Hester; the 1889 marriage record supplies the Imler link.
+1 REFN FISCHER-DIRECT-I388
+1 SOUR @S59@
+1 SOUR @S60@
+1 FAMC @F173@
+1 FAMS @F172@
+0 @I389@ INDI
+1 NAME Robert /Westbury/
+1 SEX M
+1 BIRT
+2 DATE ABT 1832
+2 PLAC England
+1 NOTE The 1880 census records Robert and Hester with daughter Annie; the 1861 marriage record corroborates the couple.
+1 REFN FISCHER-DIRECT-I389
+1 SOUR @S60@
+1 FAMS @F173@
+0 @I390@ INDI
+1 NAME Hester /Stonerock/
+1 SEX F
+1 BIRT
+2 DATE ABT 1842
+2 PLAC Ohio
+1 NOTE The 1880 census and 1861 Pickaway County marriage record support the name and relationship.
+1 REFN FISCHER-DIRECT-I390
+1 SOUR @S60@
+1 FAMS @F173@
+0 @F156@ FAM
+1 HUSB @I001@
+1 WIFE @I356@
+1 NOTE Owner-confirmed spouse relationship; no children or marriage details were added.
+1 SOUR @S49@
+0 @F157@ FAM
+1 HUSB @I357@
+1 WIFE @I358@
+1 CHIL @I356@
+1 MARR
+2 DATE 3 MAR 1990
+2 PLAC Franklin County, Ohio
+1 NOTE Ohio birth and marriage indexes corroborate the owner-supplied parents.
+1 SOUR @S49@
+1 SOUR @S50@
+0 @F158@ FAM
+1 HUSB @I359@
+1 WIFE @I360@
+1 CHIL @I358@
+1 NOTE Sally's Ohio birth index names Keith Douglas Vanhoose and Barbara Lynn Boltenhouse.
+1 SOUR @S52@
+1 SOUR @S53@
+0 @F159@ FAM
+1 HUSB @I361@
+1 WIFE @I362@
+1 CHIL @I359@
+1 NOTE Keith's SSA application and Mildred's obituary identify the couple as his parents.
+1 SOUR @S53@
+1 SOUR @S61@
+1 SOUR @S65@
+0 @F160@ FAM
+1 HUSB @I365@
+1 WIFE @I366@
+1 CHIL @I361@
+1 NOTE Douglas's birth index and the 1920/1930 census chain support this parent link.
+1 SOUR @S61@
+1 SOUR @S62@
+0 @F161@ FAM
+1 HUSB @I369@
+1 WIFE @I370@
+1 CHIL @I365@
+1 MARR
+2 DATE 22 APR 1868
+2 PLAC Johnson County, Kentucky
+1 NOTE John is recorded as their son in the 1880 census.
+1 SOUR @S63@
+0 @F162@ FAM
+1 HUSB @I371@
+1 WIFE @I372@
+1 CHIL @I366@
+1 MARR
+2 DATE 28 AUG 1868
+2 PLAC Johnson County, Kentucky
+1 NOTE Tallie's death certificate names both parents; census and marriage records identify the couple.
+1 SOUR @S64@
+0 @F163@ FAM
+1 HUSB @I367@
+1 WIFE @I368@
+1 CHIL @I362@
+1 NOTE Mildred's obituary names both parents and the 1930 census corroborates the household.
+1 SOUR @S65@
+0 @F164@ FAM
+1 HUSB @I363@
+1 WIFE @I364@
+1 CHIL @I360@
+1 NOTE The 1950 census and Charles's obituary identify Barbara as their daughter.
+1 SOUR @S54@
+1 SOUR @S55@
+1 SOUR @S56@
+0 @F165@ FAM
+1 HUSB @I373@
+1 WIFE @I374@
+1 CHIL @I363@
+1 NOTE Charles Jr's obituary and the 1930 census identify Charles Sr and Leona.
+1 SOUR @S55@
+1 SOUR @S66@
+0 @F166@ FAM
+1 HUSB @I375@
+1 WIFE @I376@
+1 CHIL @I373@
+1 MARR
+2 DATE 24 APR 1902
+2 PLAC Ross County, Ohio
+1 NOTE The 1910 census records Charles as their son; the marriage record supplies Malinda's surname.
+1 SOUR @S67@
+0 @F167@ FAM
+1 HUSB @I379@
+1 WIFE @I380@
+1 CHIL @I375@
+1 MARR
+2 DATE 19 JUL 1869
+2 PLAC Ross County, Ohio
+1 NOTE The 1900 census records Alonzo as their son; the marriage record supplies Elizabeth's surname.
+1 SOUR @S67@
+0 @F168@ FAM
+1 HUSB @I377@
+1 WIFE @I378@
+1 CHIL @I374@
+1 NOTE The 1910 census records Leona as their daughter; the 1900 household links the couple and son William.
+1 SOUR @S66@
+1 SOUR @S68@
+0 @F169@ FAM
+1 HUSB @I381@
+1 WIFE @I382@
+1 CHIL @I377@
+1 NOTE The 1900 census explicitly records George as son of Alo and Rebecca.
+1 SOUR @S68@
+0 @F170@ FAM
+1 HUSB @I383@
+1 WIFE @I384@
+1 CHIL @I364@
+1 NOTE Alice's SSA application and the 1940 census identify William and Daisy as her parents.
+1 SOUR @S56@
+1 SOUR @S57@
+1 SOUR @S58@
+0 @F171@ FAM
+1 HUSB @I385@
+1 WIFE @I386@
+1 CHIL @I383@
+1 MARR
+2 DATE ABT 1879
+1 NOTE The 1900 census records William as their son and reports the couple married for 21 years; Mary's birth surname remains unknown.
+1 SOUR @S57@
+0 @F172@ FAM
+1 HUSB @I387@
+1 WIFE @I388@
+1 CHIL @I384@
+1 MARR
+2 DATE 4 JUL 1889
+2 PLAC Pickaway County, Ohio
+1 NOTE The 1900 census records Daisy as their daughter.
+1 SOUR @S58@
+1 SOUR @S59@
+0 @F173@ FAM
+1 HUSB @I389@
+1 WIFE @I390@
+1 CHIL @I388@
+1 MARR
+2 DATE 17 DEC 1861
+2 PLAC Pickaway County, Ohio
+1 NOTE The 1880 census records Annie as their daughter.
+1 SOUR @S60@
+0 @S49@ SOUR
+1 TITL Owner statement identifying Arianna Lynn Fischer and her parents
+1 AUTH Fredric Muller Vollmer
+1 DATE 2 SEP 2026
+1 NOTE The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.
+0 @S50@ SOUR
+1 TITL Arianna Lynn Fischer Ohio birth and parent index cluster
+1 AUTH Ohio Department of Health; Ancestry.com
+1 DATE 1990
+1 NOTE Ohio birth index entries name Arianna and identify Wallace Ray Fischer and Sally Lynn Vanhoose Fischer as parents; a Franklin County marriage index records Wallace R. Fischer and Sally L. on 3 Mar 1990. Records: https://www.ancestry.com/search/collections/3146/records/11206028 ; https://www.ancestry.com/search/collections/3146/records/26206028 ; https://www.ancestry.com/search/collections/3146/records/41206028 ; https://www.ancestry.com/search/collections/2025/records/1910252
+0 @S51@ SOUR
+1 TITL Wallace Ray Fischer identity record cluster
+1 AUTH Ohio voter and public-record indexes; North Caroline High School yearbook; Ancestry.com
+1 NOTE Records consistently identify Wallace Ray Fischer, including North Caroline High School yearbook entries. Living birth details and addresses are intentionally omitted. Records: https://www.ancestry.com/search/collections/62740/records/4543428 ; https://www.ancestry.com/search/collections/62209/records/299213236 ; https://www.ancestry.com/search/collections/1265/records/621855255
+0 @S52@ SOUR
+1 TITL Sally Lynn Vanhoose Fischer Ohio birth and parent index cluster
+1 AUTH Ohio Department of Health; Ancestry.com
+1 NOTE Ohio birth-index entries identify Sally Lynn Vanhoose/Fischer and name Keith Douglas Vanhoose and Barbara Lynn Boltenhouse as parents. Living exact dates and addresses are omitted. Records: https://www.ancestry.com/search/collections/3146/records/7991760 ; https://www.ancestry.com/search/collections/3146/records/11694596 ; https://www.ancestry.com/search/collections/3146/records/26694596 ; https://www.ancestry.com/search/collections/3146/records/41694596
+0 @S53@ SOUR
+1 TITL Keith Douglas Vanhoose SSA and burial index cluster
+1 AUTH Social Security Administration; Find a Grave; Ancestry.com
+1 NOTE SSA application and burial indexes establish Keith's dates and name Douglas T. Vanhoose and Mildred Tackett as parents. Records: https://www.ancestry.com/search/collections/60901/records/39551452 ; https://www.ancestry.com/search/collections/60525/records/95267098
+0 @S54@ SOUR
+1 TITL 1950 United States census household of Charles, Alice, and Barbara Boltenhouse
+1 AUTH U.S. Census Bureau; National Archives and Records Administration; Ancestry.com
+1 DATE 1950
+1 NOTE Circleville, Pickaway County, Ohio household records Charles E. Boltenhouse, wife Alice M., and daughter Barbara. Records: https://www.ancestry.com/search/collections/62308/records/204443745 ; https://www.ancestry.com/search/collections/62308/records/204443746 ; https://www.ancestry.com/search/collections/62308/records/204443747
+1 OBJE
+2 FILE records/1950_charles-alice-barbara-boltenhouse_us-census.jpg
+3 FORM jpg
+3 TITL 1950 United States census household of Charles, Alice, and Barbara Boltenhouse
+0 @S55@ SOUR
+1 TITL Charles Emerald Boltenhouse Jr burial and obituary records
+1 AUTH Find a Grave; Wellman Funeral Home; Ancestry.com
+1 DATE 1 MAR 2026
+1 NOTE The obituary identifies parents Charles and Leona Tomlinson Boltenhouse, wife Alice Hickey, and daughter Barbara. Records: https://www.ancestry.com/search/collections/60525/records/297099223 ; https://www.ancestry.com/search/collections/2190/records/21600019 ; https://www.wellmanfuneralhomes.com/obituaries/charles-boltenhouse-jr
+0 @S56@ SOUR
+1 TITL Alice Marie Hickey Boltenhouse SSA and census record cluster
+1 AUTH Social Security Administration; U.S. Census Bureau; Ancestry.com
+1 NOTE SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain. Records: https://www.ancestry.com/search/collections/60901/records/41344689 ; https://www.ancestry.com/search/collections/2442/records/31756365 ; https://www.ancestry.com/search/collections/62308/records/204443746
+1 OBJE
+2 FILE records/1940_william-daisy-alice-hickey_us-census.jpg
+3 FORM jpg
+3 TITL Alice Marie Hickey Boltenhouse SSA and census record cluster
+0 @S57@ SOUR
+1 TITL William Andrew Hickey vital, draft, and census record cluster
+1 AUTH U.S. Census Bureau; Selective Service System; Ohio vital records; Ancestry.com
+1 NOTE The 1900 census identifies William as son of John and Mary; draft, death, burial, and SSA indexes corroborate identity. Records: https://www.ancestry.com/search/collections/7602/records/41345114 ; https://www.ancestry.com/search/collections/5763/records/408395 ; https://www.ancestry.com/search/collections/60525/records/103465820 ; https://www.ancestry.com/search/collections/6482/records/19464076 ; https://www.ancestry.com/search/collections/1002/records/6996448 ; https://www.ancestry.com/search/collections/60901/records/641344689
+1 OBJE
+2 FILE records/1900_john-mary-william-hickey_us-census.jpg
+3 FORM jpg
+3 TITL William Andrew Hickey vital, draft, and census record cluster
+0 @S58@ SOUR
+1 TITL Daisy Marie Imler Hickey census, SSA, and marriage record cluster
+1 AUTH U.S. Census Bureau; Social Security Administration; Ohio county records; Ancestry.com
+1 NOTE The 1900 census identifies William Imler and Annie as Daisy's parents; SSA and later census records link husband William Hickey and daughter Alice. Records: https://www.ancestry.com/search/collections/7602/records/41347856 ; https://www.ancestry.com/search/collections/2442/records/31756357 ; https://www.ancestry.com/search/collections/6061/records/27418446 ; https://www.ancestry.com/search/collections/60901/records/791344689 ; https://www.ancestry.com/search/collections/61378/records/1204214340
+1 OBJE
+2 FILE records/1900_william-annie-daisy-imler_us-census.jpg
+3 FORM jpg
+3 TITL Daisy Marie Imler Hickey census, SSA, and marriage record cluster
+0 @S59@ SOUR
+1 TITL William Imler and Annie Westbury census and marriage records
+1 AUTH U.S. Census Bureau; Pickaway County records; Ancestry.com
+1 NOTE The 4 Jul 1889 marriage record names Annie Westbury; the 1900 census records the couple with daughter Daisy. Records: https://www.ancestry.com/search/collections/61378/records/893547 ; https://www.ancestry.com/search/collections/7602/records/41347854 ; https://www.ancestry.com/search/collections/7602/records/41347855
+0 @S60@ SOUR
+1 TITL Westbury-Stonerock 1880 census and 1861 marriage records
+1 AUTH U.S. Census Bureau; Pickaway County records; Ancestry.com
+1 NOTE The 1880 census identifies Annie as daughter of Robert Westbury and Hester; the 17 Dec 1861 marriage record supplies Hester Stonerock. Records: https://www.ancestry.com/search/collections/6742/records/18379300 ; https://www.ancestry.com/search/collections/6742/records/24757281 ; https://www.ancestry.com/search/collections/6742/records/18379404 ; https://www.ancestry.com/search/collections/61378/records/416305
+1 OBJE
+2 FILE records/1880_robert-hester-annie-westbury_us-census.jpg
+3 FORM jpg
+3 TITL Westbury-Stonerock 1880 census and 1861 marriage records
+0 @S61@ SOUR
+1 TITL Douglas T. Vanhoose birth, census, military, and death record cluster
+1 AUTH Kentucky vital records; U.S. Census Bureau; U.S. Department of Veterans Affairs; Ancestry.com
+1 NOTE The Kentucky birth index, 1930 census, military index, and death index establish Douglas's identity and link him to Tallie. Records: https://www.ancestry.com/search/collections/8788/records/3688158 ; https://www.ancestry.com/search/collections/6224/records/81187869 ; https://www.ancestry.com/search/collections/2441/records/10171281 ; https://www.ancestry.com/search/collections/3077/records/2504865 ; https://www.ancestry.com/search/collections/60901/records/639551452
+1 OBJE
+2 FILE records/1930_tallie-douglas-vanhoose_us-census.jpg
+3 FORM jpg
+3 TITL Douglas T. Vanhoose birth, census, military, and death record cluster
+0 @S62@ SOUR
+1 TITL John B. and Tallie Vanhoose 1880 and 1920 census chain
+1 AUTH U.S. Census Bureau; Ancestry.com
+1 NOTE The 1880 census records John as son of Moses and Mahala; the 1920 census records John with wife Tallie. Records: https://www.ancestry.com/search/collections/6742/records/41518791 ; https://www.ancestry.com/search/collections/6061/records/59825157
+1 OBJE
+2 FILE records/1920_john-tallie-vanhoose_us-census.jpg
+3 FORM jpg
+3 TITL John B. and Tallie Vanhoose 1880 and 1920 census chain
+0 @S63@ SOUR
+1 TITL Moses Vanhoose and Mahala Dixon census and marriage records
+1 AUTH U.S. Census Bureau; Johnson County records; Ancestry.com
+1 NOTE The 1880 census records John as their son; the 22 Apr 1868 marriage record names Mahala Dixon. Records: https://www.ancestry.com/search/collections/6742/records/9277240 ; https://www.ancestry.com/search/collections/6742/records/10191909 ; https://www.ancestry.com/search/collections/61372/records/1506164
+1 OBJE
+2 FILE records/1880_moses-mahala-john-vanhoose_us-census.jpg
+3 FORM jpg
+3 TITL Moses Vanhoose and Mahala Dixon census and marriage records
+1 OBJE
+2 FILE records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg
+3 FORM jpg
+3 TITL Moses Vanhoose and Mahala Dixon census and marriage records
+0 @S64@ SOUR
+1 TITL Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster
+1 AUTH Kentucky vital records; U.S. Census Bureau; Johnson County records; Ancestry.com
+1 NOTE Tallie's death certificate names Ira Estep and Isora Morton. The 1880 census and 28 Aug 1868 marriage record identify the matching couple. Records: https://www.ancestry.com/search/collections/1222/records/2144978 ; https://www.ancestry.com/search/collections/7602/records/5598207 ; https://www.ancestry.com/search/collections/6742/records/17600141 ; https://www.ancestry.com/search/collections/6742/records/17600401 ; https://www.ancestry.com/search/collections/61372/records/1551052
+1 OBJE
+2 FILE records/1967-05-17_tallie-vanhoose_death-certificate.jpg
+3 FORM jpg
+3 TITL Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster
+0 @S65@ SOUR
+1 TITL Mildred I. Tackett Vanhoose obituary and 1930 census
+1 AUTH Circleville Herald; U.S. Census Bureau; Ancestry.com
+1 DATE 22 AUG 2015
+1 NOTE The obituary names parents Sidney Tackett and Ida Missouri and husband Douglas VanHoose; the 1930 census corroborates Sid, Ida, and Mildred. Records: https://www.ancestry.com/search/collections/7545/records/500515930 ; https://www.ancestry.com/search/collections/6224/records/81187850 ; http://www.circlevilleherald.com/obituaries/mildred-i-vanhoose/article_9d73b9f0-f575-5f2a-b23d-b65a593e7879.html
+1 OBJE
+2 FILE records/1930_sidney-ida-mildred-tackett_us-census.jpg
+3 FORM jpg
+3 TITL Mildred I. Tackett Vanhoose obituary and 1930 census
+0 @S66@ SOUR
+1 TITL Charles Emerald Boltenhouse Sr and Leona Tomlinson vital, census, draft, and marriage cluster
+1 AUTH U.S. Census Bureau; Selective Service System; Ohio vital and county records; Ancestry.com
+1 NOTE Draft, marriage, census, and death records establish the couple and their son Charles. Records: https://www.ancestry.com/search/collections/2238/records/199550522 ; https://www.ancestry.com/search/collections/61378/records/1050733026 ; https://www.ancestry.com/search/collections/6224/records/69946949 ; https://www.ancestry.com/search/collections/6224/records/69946957 ; https://www.ancestry.com/search/collections/5763/records/1910198
+0 @S67@ SOUR
+1 TITL Boltenhouse direct-line census and marriage record chain
+1 AUTH U.S. Census Bureau; Ross County records; Ancestry.com
+1 NOTE The 1910 census names Alonzo and Malinda as Charles's parents; their 1902 marriage supplies Speakman. The 1900 census names Augustus and Elizabeth as Alonzo's parents; their 1869 marriage supplies Cotter. Records: https://www.ancestry.com/search/collections/7884/records/142595859 ; https://www.ancestry.com/search/collections/7884/records/22453970 ; https://www.ancestry.com/search/collections/61378/records/266107 ; https://www.ancestry.com/search/collections/7602/records/51092013 ; https://www.ancestry.com/search/collections/7602/records/51092011 ; https://www.ancestry.com/search/collections/61378/records/1411597
+1 OBJE
+2 FILE records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg
+3 FORM jpg
+3 TITL Boltenhouse direct-line census and marriage record chain
+1 OBJE
+2 FILE records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg
+3 FORM jpg
+3 TITL Boltenhouse direct-line census and marriage record chain
+0 @S68@ SOUR
+1 TITL Tomlinson-Jackson direct-line census and parent-name record chain
+1 AUTH U.S. Census Bureau; Ohio county records; Ancestry.com
+1 NOTE The 1910 census records Leona as daughter of George P. and Linda. The 1900 census records George with wife Malinda and explicitly names his parents Alo and Rebecca; a later child marriage index supplies Linda Jackson. Records: https://www.ancestry.com/search/collections/7884/records/142595257 ; https://www.ancestry.com/search/collections/7602/records/51098669 ; https://www.ancestry.com/search/collections/61378/records/1350876129
+1 OBJE
+2 FILE records/1910_george-linda-leona-tomlinson_us-census.jpg
+3 FORM jpg
+3 TITL Tomlinson-Jackson direct-line census and parent-name record chain
 0 TRLR

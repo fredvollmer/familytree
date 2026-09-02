@@ -70,7 +70,8 @@ for (const item of evidence) {
 
 const people = data.people.map((person) => {
   const portrait = externalPortraits[person.individual_id];
-  const privateLiving = /Living person/i.test(person.notes);
+  const privateLiving =
+    /\b(?:Living person|Potentially living|Living dates)\b/i.test(person.notes);
   return {
     individual_id: person.individual_id,
     name: person.name,

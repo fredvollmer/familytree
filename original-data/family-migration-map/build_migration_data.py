@@ -168,8 +168,16 @@ def main() -> None:
     events: list[dict] = []
     person_events: dict[str, dict[str, dict]] = {}
     privacy_excluded_people = 0
+    scope_excluded_people = 0
 
     for person in canonical["people"]:
+        person_side = side_for_person(person["individual_id"])
+        if person_side == "Other":
+            # This visualization is intentionally limited to Fredric's own
+            # maternal and paternal components. Spouse-connected ancestry is
+            # retained in the canonical tree but must not be mislabeled here.
+            scope_excluded_people += 1
+            continue
         birth_year_min, birth_year_max, _ = parse_years(person.get("birth", ""))
         possibly_living = (
             not person.get("death")
@@ -212,7 +220,7 @@ def main() -> None:
                 "date_is_approximate": approximate_date,
                 "place_original": place,
                 "location_id": place_id,
-                "side": side_for_person(person["individual_id"]),
+                "side": person_side,
                 "branch": branch_from_notes(person.get("notes", "")),
                 "confidence": confidence_from_notes(person.get("notes", "")),
                 "source_refs": [s for s in person.get("source_refs", "").split(";") if s],
@@ -274,8 +282,9 @@ def main() -> None:
             "canonical_source": str(CANONICAL.relative_to(HERE.parent.parent)),
             "canonical_updated": canonical.get("metadata", {}).get("updated"),
             "privacy": canonical.get("metadata", {}).get("privacy"),
-            "scope_note": "Derived from recorded birth and death places. People explicitly marked living or potentially living under a 100-year rule are excluded.",
+            "scope_note": "Derived from recorded birth and death places for Fredric's maternal and paternal components. Spouse-connected ancestry remains in the canonical tree but is excluded from this side-specific view. People explicitly marked living or potentially living under a 100-year rule are also excluded.",
             "privacy_excluded_people": privacy_excluded_people,
+            "scope_excluded_people": scope_excluded_people,
             "movement_note": "Routes connect recorded endpoints and are analytical inferences, not documented travel paths.",
             "year_extent": [min(dated_years), max(dated_years)] if dated_years else [None, None],
             "counts": {

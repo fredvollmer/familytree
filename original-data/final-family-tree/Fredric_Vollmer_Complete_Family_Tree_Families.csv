@@ -154,3 +154,21 @@ F152,I349,I350,I345,,Christina's 1823 baptism and the Hasslöv household survey 
 F153,I351,I352,I349,,Pehr's 1790 Hishult baptism names Erland Pålsson and Bengta Pehrsdotter as his parents.,S44
 F154,I353,I354,I350,,Ingier's 1794 Hasslöv baptism names Hans Månsson and Maria Hansdotter as her parents.,S45
 F155,I176,,I355,,Peter's indexed obituary names Henry R Vollmer as his father. Peter is owner-confirmed as Chris Vollmer's brother; Peter's mother is not inferred.,S47
+F156,I001,I356,,,Owner-confirmed spouse relationship; no children or marriage details were added.,S49
+F157,I357,I358,I356,"3 MAR 1990; Franklin County, Ohio",Ohio birth and marriage indexes corroborate the owner-supplied parents.,S49;S50
+F158,I359,I360,I358,,Sally's Ohio birth index names Keith Douglas Vanhoose and Barbara Lynn Boltenhouse.,S52;S53
+F159,I361,I362,I359,,Keith's SSA application and Mildred's obituary identify the couple as his parents.,S53;S61;S65
+F160,I365,I366,I361,,Douglas's birth index and the 1920/1930 census chain support this parent link.,S61;S62
+F161,I369,I370,I365,"22 APR 1868; Johnson County, Kentucky",John is recorded as their son in the 1880 census.,S63
+F162,I371,I372,I366,"28 AUG 1868; Johnson County, Kentucky",Tallie's death certificate names both parents; census and marriage records identify the couple.,S64
+F163,I367,I368,I362,,Mildred's obituary names both parents and the 1930 census corroborates the household.,S65
+F164,I363,I364,I360,,The 1950 census and Charles's obituary identify Barbara as their daughter.,S54;S55;S56
+F165,I373,I374,I363,,Charles Jr's obituary and the 1930 census identify Charles Sr and Leona.,S55;S66
+F166,I375,I376,I373,"24 APR 1902; Ross County, Ohio",The 1910 census records Charles as their son; the marriage record supplies Malinda's surname.,S67
+F167,I379,I380,I375,"19 JUL 1869; Ross County, Ohio",The 1900 census records Alonzo as their son; the marriage record supplies Elizabeth's surname.,S67
+F168,I377,I378,I374,,The 1910 census records Leona as their daughter; the 1900 household links the couple and son William.,S66;S68
+F169,I381,I382,I377,,The 1900 census explicitly records George as son of Alo and Rebecca.,S68
+F170,I383,I384,I364,,Alice's SSA application and the 1940 census identify William and Daisy as her parents.,S56;S57;S58
+F171,I385,I386,I383,ABT 1879,The 1900 census records William as their son and reports the couple married for 21 years; Mary's birth surname remains unknown.,S57
+F172,I387,I388,I384,"4 JUL 1889; Pickaway County, Ohio",The 1900 census records Daisy as their daughter.,S58;S59
+F173,I389,I390,I388,"17 DEC 1861; Pickaway County, Ohio",The 1880 census records Annie as their daughter.,S60

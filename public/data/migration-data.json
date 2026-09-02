@@ -4,9 +4,10 @@
     "generated": "2026-09-02",
     "canonical_source": "original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json",
     "canonical_updated": "2026-09-02",
-    "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
-    "scope_note": "Derived from recorded birth and death places. People explicitly marked living or potentially living under a 100-year rule are excluded.",
-    "privacy_excluded_people": 9,
+    "privacy": "Living addresses and contact information are omitted. Living exact dates are withheld except Arianna's owner-supplied birth year.",
+    "scope_note": "Derived from recorded birth and death places for Fredric's maternal and paternal components. Spouse-connected ancestry remains in the canonical tree but is excluded from this side-specific view. People explicitly marked living or potentially living under a 100-year rule are also excluded.",
+    "privacy_excluded_people": 8,
+    "scope_excluded_people": 37,
     "movement_note": "Routes connect recorded endpoints and are analytical inferences, not documented travel paths.",
     "year_extent": [
       1549,

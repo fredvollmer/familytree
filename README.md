@@ -6,7 +6,7 @@ An interactive, searchable family-history app built from the canonical Vollmer/M
 
 ## What the site includes
 
-- A pannable and zoomable 328-person family tree
+- A pannable and zoomable 363-person family tree
 - Person details, relationships, occupations and service roles, research notes, confidence ratings, and citations
 - Highlighted direct ancestors and descendants for the selected person
 - Preserved source-record images and PDFs

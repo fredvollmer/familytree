@@ -63,55 +63,55 @@ overview.getRange('A5:A17').values = [
   ['Preserved evidence files'],
 ];
 overview.getRange('B5').formulas = [
-  ["=COUNTA('Consolidated People'!$A$2:$A$329)"],
+  ["=COUNTA('Consolidated People'!$A$2:$A$364)"],
 ];
 overview.getRange('B6').formulas = [
-  ["=COUNTA('Consolidated Families'!$A$2:$A$156)"],
+  ["=COUNTA('Consolidated Families'!$A$2:$A$174)"],
 ];
 overview.getRange('B7').formulas = [
   [
-    "=COUNTA('Consolidated Sources'!$A$2:$A$92)-COUNTIF('Consolidated Sources'!$F$2:$F$92,\"preserved original or derivative record\")",
+    "=COUNTA('Consolidated Sources'!$A$2:$A$126)-COUNTIF('Consolidated Sources'!$F$2:$F$126,\"preserved original or derivative record\")",
   ],
 ];
 overview.getRange('B8').formulas = [
-  ["=COUNTA('Consolidated Sources'!$A$2:$A$92)"],
+  ["=COUNTA('Consolidated Sources'!$A$2:$A$126)"],
 ];
 overview.getRange('B9').formulas = [
-  ['=COUNTIF(\'Vital Date Coverage\'!$D$2:$D$329,"recorded")'],
+  ['=COUNTIF(\'Vital Date Coverage\'!$D$2:$D$364,"recorded")'],
 ];
 overview.getRange('B10').formulas = [
-  ['=COUNTIF(\'Vital Date Coverage\'!$F$2:$F$329,"recorded")'],
+  ['=COUNTIF(\'Vital Date Coverage\'!$F$2:$F$364,"recorded")'],
 ];
 overview.getRange('B11').formulas = [
-  ['=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$329,"complete")'],
+  ['=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"complete")'],
 ];
 overview.getRange('B12').formulas = [
   [
-    '=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$329,"unresolved")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$329,"not researched—privacy limited")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$329,"withheld—living/private")',
+    '=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"unresolved")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"not researched—privacy limited")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"withheld—living/private")',
   ],
 ];
 overview.getRange('B13').formulas = [
-  ['=COUNTIF(\'Occupation Coverage\'!$E$2:$E$329,"recorded")'],
+  ['=COUNTIF(\'Occupation Coverage\'!$E$2:$E$364,"recorded")'],
 ];
 overview.getRange('B14').formulas = [
   [
-    '=COUNTIF(\'Occupation Coverage\'!$D$2:$D$329,"1")+2*COUNTIF(\'Occupation Coverage\'!$D$2:$D$329,"2")+3*COUNTIF(\'Occupation Coverage\'!$D$2:$D$329,"3")',
+    '=COUNTIF(\'Occupation Coverage\'!$D$2:$D$364,"1")+2*COUNTIF(\'Occupation Coverage\'!$D$2:$D$364,"2")+3*COUNTIF(\'Occupation Coverage\'!$D$2:$D$364,"3")',
   ],
 ];
 overview.getRange('B15').formulas = [
-  ['=COUNTIF(\'Media Audit\'!$A$2:$A$375,"person")'],
+  ['=COUNTIF(\'Media Audit\'!$A$2:$A$424,"person")'],
 ];
 overview.getRange('B16').formulas = [
-  ['=COUNTIF(\'Media Audit\'!$D$2:$D$375,"external_photo_page")'],
+  ['=COUNTIF(\'Media Audit\'!$D$2:$D$424,"external_photo_page")'],
 ];
 overview.getRange('B17').formulas = [
-  ['=COUNTIF(\'Media Audit\'!$A$2:$A$375,"evidence")'],
+  ['=COUNTIF(\'Media Audit\'!$A$2:$A$424,"evidence")'],
 ];
 
 overview.getRange('D4:F4').values = [
   ['Controlling correction', 'Status', 'Treatment'],
 ];
-overview.getRange('D5:D11').values = [
+overview.getRange('D5:D12').values = [
   ["Jan is Fredric's biological mother"],
   ['Mary Alice Thoren identity and parents'],
   ["Jan is Chris Vollmer's stepmother"],
@@ -119,25 +119,27 @@ overview.getRange('D5:D11').values = [
   ['Janet Chaffee transcription'],
   ['Bruce Eric Muller vital dates'],
   ['Peter Vollmer identity and dates'],
+  ['Arianna Fischer branch'],
 ];
 overview.getRange('E5').formulas = [
   [
-    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$329,"Jan Muller Vollmer")=1,"Confirmed","Review")',
+    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$364,"Jan Muller Vollmer")=1,"Confirmed","Review")',
   ],
 ];
 overview.getRange('E6').formulas = [
   [
-    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$329,"Mary Alice Thoren")=1,"Confirmed","Review")',
+    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$364,"Mary Alice Thoren")=1,"Confirmed","Review")',
   ],
 ];
-overview.getRange('E7:E11').values = [
+overview.getRange('E7:E12').values = [
   ['Confirmed'],
   ['Confirmed'],
   ['Removed'],
   ['Recorded with conflict'],
   ['Consolidated'],
+  ['Added'],
 ];
-overview.getRange('F5:F11').values = [
+overview.getRange('F5:F12').values = [
   ['Biological parent link in GEDCOM family F095'],
   [
     "Port Townsend birthplace; William and Alice parent links; William's proven Swedish ancestry added; Alice's parents remain unresolved",
@@ -152,6 +154,9 @@ overview.getRange('F5:F11').values = [
   ],
   [
     '29 Jun 1959–5 Aug 1975; Henry named as father; Christopher named as sibling; mother unresolved',
+  ],
+  [
+    "Wife and direct ancestors only; Wallace Ray Fischer's parents remain blank; source links and selected record images preserved",
   ],
 ];
 
@@ -169,7 +174,7 @@ overview.getRange('A20:F28').values = [
   [
     'GEDCOM',
     'Canonical tree structure',
-    328,
+    363,
     'Fredric_Vollmer_Complete_Family_Tree.ged',
     'Current',
     'Import this file into genealogy software',
@@ -177,7 +182,7 @@ overview.getRange('A20:F28').values = [
   [
     'Canonical JSON',
     'Structured mirror',
-    328,
+    363,
     'Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json',
     'Current',
     'Machine-readable people, families, and sources',
@@ -185,7 +190,7 @@ overview.getRange('A20:F28').values = [
   [
     'People ledger',
     'Person-level audit',
-    328,
+    363,
     'Fredric_Vollmer_Complete_Family_Tree_People.csv',
     'Current',
     'One row per GEDCOM individual',
@@ -193,7 +198,7 @@ overview.getRange('A20:F28').values = [
   [
     'Families ledger',
     'Family-level audit',
-    155,
+    173,
     'Fredric_Vollmer_Complete_Family_Tree_Families.csv',
     'Current',
     'Parent, spouse, child, and marriage links',
@@ -201,15 +206,15 @@ overview.getRange('A20:F28').values = [
   [
     'Sources ledger',
     'Citation and record index',
-    91,
+    125,
     'Fredric_Vollmer_Complete_Family_Tree_Source_Inventory.csv',
     'Current',
-    'Includes 48 GEDCOM sources and 43 preserved record files',
+    'Includes 68 GEDCOM sources and 57 preserved record files',
   ],
   [
     'Vital-date coverage',
     'Birth/death status for every person',
-    328,
+    363,
     'Fredric_Vollmer_Complete_Family_Tree_Vital_Date_Coverage.csv',
     'Current',
     'Recorded, unresolved, or privacy-limited outcome for every person',
@@ -217,7 +222,7 @@ overview.getRange('A20:F28').values = [
   [
     'Occupation coverage',
     'Occupation/role status for every person',
-    328,
+    363,
     'Fredric_Vollmer_Complete_Family_Tree_Occupation_Coverage.csv',
     'Current',
     '17 people with 23 cited events; every other person has an explicit coverage outcome',
@@ -225,10 +230,10 @@ overview.getRange('A20:F28').values = [
   [
     'Media audit',
     'Photo coverage and evidence attachments',
-    374,
+    423,
     'Fredric_Vollmer_Complete_Family_Tree_Media_Inventory.csv',
     'Current',
-    '328 people audited; 43 preserved evidence files; external and restricted photos remain linked rather than copied',
+    '363 people audited; 57 preserved evidence files; external and restricted photos remain linked rather than copied',
   ],
   [
     'Recovered workbook tabs',
@@ -268,7 +273,7 @@ overview.getRange('B5:B17').format = {
   horizontalAlignment: 'right',
   numberFormat: '0',
 };
-overview.getRange('D5:F11').format = {
+overview.getRange('D5:F12').format = {
   fill: pale,
   wrapText: true,
   verticalAlignment: 'top',
@@ -374,13 +379,13 @@ for (const config of configs) {
 
 const coverage = workbook.worksheets.getItem('Vital Date Coverage');
 coverage
-  .getRange('G2:G329')
+  .getRange('G2:G364')
   .conditionalFormats.addCustom('=$G2="complete"', { fill: green });
 coverage
-  .getRange('G2:G329')
+  .getRange('G2:G364')
   .conditionalFormats.addCustom('=$G2="partial"', { fill: '#FFF2CC' });
 coverage
-  .getRange('G2:G329')
+  .getRange('G2:G364')
   .conditionalFormats.addCustom(
     '=OR($G2="unresolved",$G2="not researched—privacy limited",$G2="withheld—living/private")',
     { fill: '#FCE4D6' },
@@ -388,10 +393,10 @@ coverage
 
 const occupationCoverage = workbook.worksheets.getItem('Occupation Coverage');
 occupationCoverage
-  .getRange('E2:E329')
+  .getRange('E2:E364')
   .conditionalFormats.addCustom('=$E2="recorded"', { fill: green });
 occupationCoverage
-  .getRange('E2:E329')
+  .getRange('E2:E364')
   .conditionalFormats.addCustom(
     '=OR($E2="unresolved—no supported occupation found",$E2="not researched—privacy limited",$E2="withheld—living/private",$E2="not established—minor")',
     { fill: '#FCE4D6' },
@@ -399,13 +404,13 @@ occupationCoverage
 
 const mediaAudit = workbook.worksheets.getItem('Media Audit');
 mediaAudit
-  .getRange('D2:D375')
+  .getRange('D2:D424')
   .conditionalFormats.addCustom('=$D2="external_photo_page"', { fill: green });
 mediaAudit
-  .getRange('D2:D375')
+  .getRange('D2:D424')
   .conditionalFormats.addCustom('=$D2="privacy_withheld"', { fill: '#FFF2CC' });
 mediaAudit
-  .getRange('D2:D375')
+  .getRange('D2:D424')
   .conditionalFormats.addCustom('=$D2="excluded_identity_control"', {
     fill: '#FCE4D6',
   });

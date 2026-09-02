@@ -4,36 +4,36 @@
     "format": "consolidated canonical genealogy dataset",
     "gedcom_version": "5.5.1",
     "updated": "2026-09-02",
-    "scope": "Recovered maternal direct tree plus later paternal direct and bounded collateral research, including Mary Alice Thoren's documented Thoren ancestry through eighteenth-century Sweden.",
-    "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
+    "scope": "Canonical Vollmer tree plus Arianna Lynn Fischer and her documented direct paternal and maternal ancestry; no Fischer collateral relatives were added.",
+    "privacy": "Living addresses and contact information are omitted. Living exact dates are withheld except Arianna's owner-supplied birth year.",
     "vital_date_coverage": {
-      "people": 328,
-      "birth_dates_recorded": 203,
-      "death_dates_recorded": 189,
-      "complete": 156,
-      "partial": 80,
+      "people": 363,
+      "birth_dates_recorded": 235,
+      "death_dates_recorded": 199,
+      "complete": 166,
+      "partial": 102,
       "unresolved": 63,
       "privacy_limited": 25,
-      "living_private": 4
+      "living_private": 7
     },
     "occupation_coverage": {
-      "people": 328,
+      "people": 363,
       "people_with_recorded_occupations_or_roles": 17,
       "accepted_occupation_events": 23,
-      "unresolved": 274,
+      "unresolved": 305,
       "privacy_limited": 31,
-      "living_private": 4,
+      "living_private": 8,
       "minor_without_occupation": 2
     },
     "media_audit": {
       "audited": "2026-09-02",
-      "people_audited": 328,
+      "people_audited": 363,
       "portraits_archived": 0,
       "external_photo_pages": 2,
-      "privacy_withheld": 2,
-      "no_verified_photo_archived": 324,
-      "evidence_files": 43,
-      "evidence_images": 34,
+      "privacy_withheld": 7,
+      "no_verified_photo_archived": 354,
+      "evidence_files": 57,
+      "evidence_images": 48,
       "evidence_pdfs": 9,
       "pdf_preview_images": 18,
       "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
@@ -48,10 +48,10 @@
       "death": "",
       "occupations_and_roles": "",
       "local_ids": "EXISTING-FREDRIC-MULLER-VOLLMER",
-      "source_refs": "S1",
-      "notes": "Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted.",
+      "source_refs": "S1;S49",
+      "notes": "Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted. | Owner-confirmed spouse: Arianna Lynn Fischer.",
       "family_as_child": "F095",
-      "families_as_spouse": ""
+      "families_as_spouse": "F156"
     },
     {
       "individual_id": "I002",
@@ -4303,6 +4303,461 @@
       "notes": "Owner-confirmed brother of Chris Vollmer. The indexed obituary names Henry R Vollmer as Peter's father and Christopher as a sibling. | Mary Alice appears only as a potential mother on one duplicate Ancestry profile, so Peter's mother is intentionally left blank. | Vital-date research VD-015 (high confidence): The indexed obituary supplies exact birth and death details, names Henry R Vollmer as father, and names Christopher as a sibling. The owner independently identifies Peter as Chris Vollmer's brother. | Vital-date conflict: The current Ancestry tree contains duplicate Peter/Pete profiles. The sourced Pete profile controls the dates; Mary Alice appears only as a potential mother on that profile and is therefore not assigned as Peter's mother.",
       "family_as_child": "F155",
       "families_as_spouse": ""
+    },
+    {
+      "individual_id": "I356",
+      "name": "Arianna Lynn Fischer",
+      "sex": "F",
+      "birth": "1990",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I356",
+      "source_refs": "S49;S50",
+      "notes": "Owner-confirmed wife of Fredric Muller Vollmer. Living person; only the owner-supplied birth year is retained.",
+      "family_as_child": "F157",
+      "families_as_spouse": "F156"
+    },
+    {
+      "individual_id": "I357",
+      "name": "Wallace Ray Fischer",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I357",
+      "source_refs": "S49;S50;S51",
+      "notes": "Owner supplied the form Ray W. Fischer; Ohio records repeatedly use Wallace Ray Fischer. Living dates and addresses are withheld.",
+      "family_as_child": "",
+      "families_as_spouse": "F157"
+    },
+    {
+      "individual_id": "I358",
+      "name": "Sally Lynn Vanhoose Fischer",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I358",
+      "source_refs": "S49;S50;S52",
+      "notes": "Ohio records supply maiden surname Vanhoose and married surname Fischer. Living dates and addresses are withheld.",
+      "family_as_child": "F158",
+      "families_as_spouse": "F157"
+    },
+    {
+      "individual_id": "I359",
+      "name": "Keith Douglas Vanhoose",
+      "sex": "M",
+      "birth": "5 DEC 1944; Ashland, Kentucky",
+      "death": "8 APR 2004",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I359",
+      "source_refs": "S52;S53",
+      "notes": "SSA and burial indexes name Douglas T. Vanhoose and Mildred Tackett as parents.",
+      "family_as_child": "F159",
+      "families_as_spouse": "F158"
+    },
+    {
+      "individual_id": "I360",
+      "name": "Barbara Lynn Boltenhouse",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I360",
+      "source_refs": "S52;S54",
+      "notes": "The 1950 census identifies Barbara as daughter of Charles and Alice. Potentially living; dates are withheld.",
+      "family_as_child": "F164",
+      "families_as_spouse": "F158"
+    },
+    {
+      "individual_id": "I361",
+      "name": "Douglas T Vanhoose",
+      "sex": "M",
+      "birth": "1 APR 1921; Lawrence County, Kentucky",
+      "death": "5 FEB 1983; Pulaski County, Kentucky",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I361",
+      "source_refs": "S53;S61",
+      "notes": "Kentucky birth index, 1930 census, military index, and death index form a consistent record cluster.",
+      "family_as_child": "F160",
+      "families_as_spouse": "F159"
+    },
+    {
+      "individual_id": "I362",
+      "name": "Mildred I Tackett Vanhoose",
+      "sex": "F",
+      "birth": "6 NOV 1924; Esco, Pike County, Kentucky",
+      "death": "22 AUG 2015; Bexley, Franklin County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I362",
+      "source_refs": "S53;S65",
+      "notes": "Obituary and 1930 census identify Sidney Tackett and Ida Missouri as parents.",
+      "family_as_child": "F163",
+      "families_as_spouse": "F159"
+    },
+    {
+      "individual_id": "I363",
+      "name": "Charles Emerald Boltenhouse Jr",
+      "sex": "M",
+      "birth": "19 DEC 1926; Circleville, Pickaway County, Ohio",
+      "death": "1 MAR 2026; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I363",
+      "source_refs": "S54;S55",
+      "notes": "The 1950 census and 2026 obituary identify wife Alice Hickey and daughter Barbara.",
+      "family_as_child": "F165",
+      "families_as_spouse": "F164"
+    },
+    {
+      "individual_id": "I364",
+      "name": "Alice Marie Hickey Boltenhouse",
+      "sex": "F",
+      "birth": "30 AUG 1929; Circleville, Pickaway County, Ohio",
+      "death": "25 JUL 2003",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I364",
+      "source_refs": "S54;S56",
+      "notes": "SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain.",
+      "family_as_child": "F170",
+      "families_as_spouse": "F164"
+    },
+    {
+      "individual_id": "I365",
+      "name": "John B Vanhoose",
+      "sex": "M",
+      "birth": "ABT 1877; West Virginia",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I365",
+      "source_refs": "S62",
+      "notes": "The 1880 census records John as son of Moses and Mahala; the 1920 census records him with wife Tallie.",
+      "family_as_child": "F161",
+      "families_as_spouse": "F160"
+    },
+    {
+      "individual_id": "I366",
+      "name": "Talliehassie Tallie Estep Vanhoose",
+      "sex": "F",
+      "birth": "22 NOV 1881; Johnson County, Kentucky",
+      "death": "17 MAY 1967; Ashland, Boyd County, Kentucky",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I366",
+      "source_refs": "S61;S62;S64",
+      "notes": "The death certificate names father Ira Estep and mother Isora Morton. Tallie and Talliehassie are retained name forms.",
+      "family_as_child": "F162",
+      "families_as_spouse": "F160"
+    },
+    {
+      "individual_id": "I367",
+      "name": "Sidney Tackett",
+      "sex": "M",
+      "birth": "ABT 1894; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I367",
+      "source_refs": "S65",
+      "notes": "Recorded as Sid Tackett in the 1930 household and Sidney Tackett in Mildred's obituary.",
+      "family_as_child": "",
+      "families_as_spouse": "F163"
+    },
+    {
+      "individual_id": "I368",
+      "name": "Ida Missouri",
+      "sex": "F",
+      "birth": "ABT 1898; North Carolina",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I368",
+      "source_refs": "S65",
+      "notes": "Mildred's mother is named Ida Missouri Tackett; her birth surname remains unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F163"
+    },
+    {
+      "individual_id": "I369",
+      "name": "Moses Vanhoose",
+      "sex": "M",
+      "birth": "ABT 1837; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I369",
+      "source_refs": "S63",
+      "notes": "The 1880 census and 1868 marriage record support the household with Mahala Dixon.",
+      "family_as_child": "",
+      "families_as_spouse": "F161"
+    },
+    {
+      "individual_id": "I370",
+      "name": "Mahala Dixon Vanhoose",
+      "sex": "F",
+      "birth": "ABT 1848; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I370",
+      "source_refs": "S63",
+      "notes": "The 1868 marriage record supplies Dixon. A tempting 1860 household inference was not used to add parents.",
+      "family_as_child": "",
+      "families_as_spouse": "F161"
+    },
+    {
+      "individual_id": "I371",
+      "name": "Ira W Estep",
+      "sex": "M",
+      "birth": "ABT 1848; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I371",
+      "source_refs": "S64",
+      "notes": "Tallie's death certificate names Ira Estep; the 1880 census and 1868 marriage record identify the matching Ira and Isora household.",
+      "family_as_child": "",
+      "families_as_spouse": "F162"
+    },
+    {
+      "individual_id": "I372",
+      "name": "Isora Morton Estep",
+      "sex": "F",
+      "birth": "ABT 1849; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I372",
+      "source_refs": "S64",
+      "notes": "Name forms include Isora and a difficult marriage-index transcription; Morton is retained from the marriage record.",
+      "family_as_child": "",
+      "families_as_spouse": "F162"
+    },
+    {
+      "individual_id": "I373",
+      "name": "Charles Emerald Boltenhouse Sr",
+      "sex": "M",
+      "birth": "27 MAY 1907; Ross County, Ohio",
+      "death": "29 MAR 1979; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I373",
+      "source_refs": "S55;S66;S67",
+      "notes": "World War II draft, census, marriage, and death indexes identify this Charles Emerald Boltenhouse.",
+      "family_as_child": "F166",
+      "families_as_spouse": "F165"
+    },
+    {
+      "individual_id": "I374",
+      "name": "Leona Florence Tomlinson Boltenhouse",
+      "sex": "F",
+      "birth": "29 JUL 1907; Franklin, Warren County, Ohio",
+      "death": "16 FEB 1994; Kingston, Ross County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I374",
+      "source_refs": "S66;S68",
+      "notes": "The 1910 census identifies George P. and Linda Tomlinson as parents.",
+      "family_as_child": "F168",
+      "families_as_spouse": "F165"
+    },
+    {
+      "individual_id": "I375",
+      "name": "Alonzo Boltenhouse",
+      "sex": "M",
+      "birth": "JUN 1884; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I375",
+      "source_refs": "S67",
+      "notes": "The 1900 census names Augustus and Elizabeth as parents; 1910 census and 1902 marriage record identify wife Malinda E. Speakman.",
+      "family_as_child": "F167",
+      "families_as_spouse": "F166"
+    },
+    {
+      "individual_id": "I376",
+      "name": "Malinda E Speakman Boltenhouse",
+      "sex": "F",
+      "birth": "ABT 1885; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I376",
+      "source_refs": "S67",
+      "notes": "The 24 Apr 1902 Ross County marriage record supplies the birth surname Speakman.",
+      "family_as_child": "",
+      "families_as_spouse": "F166"
+    },
+    {
+      "individual_id": "I377",
+      "name": "George P Tomlinson",
+      "sex": "M",
+      "birth": "APR 1875; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I377",
+      "source_refs": "S68",
+      "notes": "The 1900 and 1910 censuses link George, wife Malinda/Linda, son William, and daughter Leona.",
+      "family_as_child": "F169",
+      "families_as_spouse": "F168"
+    },
+    {
+      "individual_id": "I378",
+      "name": "Malinda Linda Jackson Tomlinson",
+      "sex": "F",
+      "birth": "ABT 1878; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I378",
+      "source_refs": "S68",
+      "notes": "1900 records Malinda; 1910 records Linda. A later child marriage index names the parents George P. Tomlinson and Linda Jackson.",
+      "family_as_child": "",
+      "families_as_spouse": "F168"
+    },
+    {
+      "individual_id": "I379",
+      "name": "Augustus Boltenhouse",
+      "sex": "M",
+      "birth": "JUL 1839; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I379",
+      "source_refs": "S67",
+      "notes": "1900 census and 1869 Ross County marriage record support the relationship and spouse.",
+      "family_as_child": "",
+      "families_as_spouse": "F167"
+    },
+    {
+      "individual_id": "I380",
+      "name": "Elizabeth Cotter Boltenhouse",
+      "sex": "F",
+      "birth": "ABT 1842; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I380",
+      "source_refs": "S67",
+      "notes": "The 19 Jul 1869 Ross County marriage record supplies Cotter; later index variants include Cottrell and Cotterill.",
+      "family_as_child": "",
+      "families_as_spouse": "F167"
+    },
+    {
+      "individual_id": "I381",
+      "name": "Alo Tomlinson",
+      "sex": "M",
+      "birth": "ABT 1836; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I381",
+      "source_refs": "S68",
+      "notes": "The 1900 census explicitly records George as son of Alo and Rebecca.",
+      "family_as_child": "",
+      "families_as_spouse": "F169"
+    },
+    {
+      "individual_id": "I382",
+      "name": "Rebecca Tomlinson",
+      "sex": "F",
+      "birth": "ABT 1846; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I382",
+      "source_refs": "S68",
+      "notes": "The 1900 census explicitly records George as son of Rebecca; her birth surname remains unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F169"
+    },
+    {
+      "individual_id": "I383",
+      "name": "William Andrew Hickey",
+      "sex": "M",
+      "birth": "13 JUN 1888; Circleville, Pickaway County, Ohio",
+      "death": "6 APR 1971; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I383",
+      "source_refs": "S56;S57",
+      "notes": "The 1900 census names John and Mary as parents; draft, death, burial, and SSA indexes corroborate identity.",
+      "family_as_child": "F171",
+      "families_as_spouse": "F170"
+    },
+    {
+      "individual_id": "I384",
+      "name": "Daisy Marie Imler Hickey",
+      "sex": "F",
+      "birth": "3 APR 1890; Pickaway County, Ohio",
+      "death": "20 APR 1942; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I384",
+      "source_refs": "S56;S58",
+      "notes": "Census and SSA records link Daisy to William Imler, Annie Westbury, husband William Hickey, and daughter Alice. A secondary 22 Apr death date is retained as a rejected conflict in the research log.",
+      "family_as_child": "F172",
+      "families_as_spouse": "F170"
+    },
+    {
+      "individual_id": "I385",
+      "name": "John Hickey",
+      "sex": "M",
+      "birth": "JUN 1849; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I385",
+      "source_refs": "S57",
+      "notes": "The 1900 census records John and Mary with son William; John's parents were born in Ireland but are unnamed.",
+      "family_as_child": "",
+      "families_as_spouse": "F171"
+    },
+    {
+      "individual_id": "I386",
+      "name": "Mary Hickey",
+      "sex": "F",
+      "birth": "MAR 1859; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I386",
+      "source_refs": "S57",
+      "notes": "The 1900 census records Mary with husband John and son William; her birth surname and parents remain unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F171"
+    },
+    {
+      "individual_id": "I387",
+      "name": "William Imler",
+      "sex": "M",
+      "birth": "APR 1860; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I387",
+      "source_refs": "S58;S59",
+      "notes": "The 1900 census and 1889 marriage record identify wife Annie Westbury and daughter Daisy.",
+      "family_as_child": "",
+      "families_as_spouse": "F172"
+    },
+    {
+      "individual_id": "I388",
+      "name": "Annie Westbury Imler",
+      "sex": "F",
+      "birth": "FEB 1871; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I388",
+      "source_refs": "S59;S60",
+      "notes": "The 1880 census identifies Annie as daughter of Robert and Hester; the 1889 marriage record supplies the Imler link.",
+      "family_as_child": "F173",
+      "families_as_spouse": "F172"
+    },
+    {
+      "individual_id": "I389",
+      "name": "Robert Westbury",
+      "sex": "M",
+      "birth": "ABT 1832; England",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I389",
+      "source_refs": "S60",
+      "notes": "The 1880 census records Robert and Hester with daughter Annie; the 1861 marriage record corroborates the couple.",
+      "family_as_child": "",
+      "families_as_spouse": "F173"
+    },
+    {
+      "individual_id": "I390",
+      "name": "Hester Stonerock Westbury",
+      "sex": "F",
+      "birth": "ABT 1842; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I390",
+      "source_refs": "S60",
+      "notes": "The 1880 census and 1861 Pickaway County marriage record support the name and relationship.",
+      "family_as_child": "",
+      "families_as_spouse": "F173"
     }
   ],
   "families": [
@@ -5700,6 +6155,168 @@
       "marriage": "",
       "notes": "Peter's indexed obituary names Henry R Vollmer as his father. Peter is owner-confirmed as Chris Vollmer's brother; Peter's mother is not inferred.",
       "source_refs": "S47"
+    },
+    {
+      "family_id": "F156",
+      "husband_id": "I001",
+      "wife_id": "I356",
+      "children_ids": "",
+      "marriage": "",
+      "notes": "Owner-confirmed spouse relationship; no children or marriage details were added.",
+      "source_refs": "S49"
+    },
+    {
+      "family_id": "F157",
+      "husband_id": "I357",
+      "wife_id": "I358",
+      "children_ids": "I356",
+      "marriage": "3 MAR 1990; Franklin County, Ohio",
+      "notes": "Ohio birth and marriage indexes corroborate the owner-supplied parents.",
+      "source_refs": "S49;S50"
+    },
+    {
+      "family_id": "F158",
+      "husband_id": "I359",
+      "wife_id": "I360",
+      "children_ids": "I358",
+      "marriage": "",
+      "notes": "Sally's Ohio birth index names Keith Douglas Vanhoose and Barbara Lynn Boltenhouse.",
+      "source_refs": "S52;S53"
+    },
+    {
+      "family_id": "F159",
+      "husband_id": "I361",
+      "wife_id": "I362",
+      "children_ids": "I359",
+      "marriage": "",
+      "notes": "Keith's SSA application and Mildred's obituary identify the couple as his parents.",
+      "source_refs": "S53;S61;S65"
+    },
+    {
+      "family_id": "F160",
+      "husband_id": "I365",
+      "wife_id": "I366",
+      "children_ids": "I361",
+      "marriage": "",
+      "notes": "Douglas's birth index and the 1920/1930 census chain support this parent link.",
+      "source_refs": "S61;S62"
+    },
+    {
+      "family_id": "F161",
+      "husband_id": "I369",
+      "wife_id": "I370",
+      "children_ids": "I365",
+      "marriage": "22 APR 1868; Johnson County, Kentucky",
+      "notes": "John is recorded as their son in the 1880 census.",
+      "source_refs": "S63"
+    },
+    {
+      "family_id": "F162",
+      "husband_id": "I371",
+      "wife_id": "I372",
+      "children_ids": "I366",
+      "marriage": "28 AUG 1868; Johnson County, Kentucky",
+      "notes": "Tallie's death certificate names both parents; census and marriage records identify the couple.",
+      "source_refs": "S64"
+    },
+    {
+      "family_id": "F163",
+      "husband_id": "I367",
+      "wife_id": "I368",
+      "children_ids": "I362",
+      "marriage": "",
+      "notes": "Mildred's obituary names both parents and the 1930 census corroborates the household.",
+      "source_refs": "S65"
+    },
+    {
+      "family_id": "F164",
+      "husband_id": "I363",
+      "wife_id": "I364",
+      "children_ids": "I360",
+      "marriage": "",
+      "notes": "The 1950 census and Charles's obituary identify Barbara as their daughter.",
+      "source_refs": "S54;S55;S56"
+    },
+    {
+      "family_id": "F165",
+      "husband_id": "I373",
+      "wife_id": "I374",
+      "children_ids": "I363",
+      "marriage": "",
+      "notes": "Charles Jr's obituary and the 1930 census identify Charles Sr and Leona.",
+      "source_refs": "S55;S66"
+    },
+    {
+      "family_id": "F166",
+      "husband_id": "I375",
+      "wife_id": "I376",
+      "children_ids": "I373",
+      "marriage": "24 APR 1902; Ross County, Ohio",
+      "notes": "The 1910 census records Charles as their son; the marriage record supplies Malinda's surname.",
+      "source_refs": "S67"
+    },
+    {
+      "family_id": "F167",
+      "husband_id": "I379",
+      "wife_id": "I380",
+      "children_ids": "I375",
+      "marriage": "19 JUL 1869; Ross County, Ohio",
+      "notes": "The 1900 census records Alonzo as their son; the marriage record supplies Elizabeth's surname.",
+      "source_refs": "S67"
+    },
+    {
+      "family_id": "F168",
+      "husband_id": "I377",
+      "wife_id": "I378",
+      "children_ids": "I374",
+      "marriage": "",
+      "notes": "The 1910 census records Leona as their daughter; the 1900 household links the couple and son William.",
+      "source_refs": "S66;S68"
+    },
+    {
+      "family_id": "F169",
+      "husband_id": "I381",
+      "wife_id": "I382",
+      "children_ids": "I377",
+      "marriage": "",
+      "notes": "The 1900 census explicitly records George as son of Alo and Rebecca.",
+      "source_refs": "S68"
+    },
+    {
+      "family_id": "F170",
+      "husband_id": "I383",
+      "wife_id": "I384",
+      "children_ids": "I364",
+      "marriage": "",
+      "notes": "Alice's SSA application and the 1940 census identify William and Daisy as her parents.",
+      "source_refs": "S56;S57;S58"
+    },
+    {
+      "family_id": "F171",
+      "husband_id": "I385",
+      "wife_id": "I386",
+      "children_ids": "I383",
+      "marriage": "ABT 1879",
+      "notes": "The 1900 census records William as their son and reports the couple married for 21 years; Mary's birth surname remains unknown.",
+      "source_refs": "S57"
+    },
+    {
+      "family_id": "F172",
+      "husband_id": "I387",
+      "wife_id": "I388",
+      "children_ids": "I384",
+      "marriage": "4 JUL 1889; Pickaway County, Ohio",
+      "notes": "The 1900 census records Daisy as their daughter.",
+      "source_refs": "S58;S59"
+    },
+    {
+      "family_id": "F173",
+      "husband_id": "I389",
+      "wife_id": "I390",
+      "children_ids": "I388",
+      "marriage": "17 DEC 1861; Pickaway County, Ohio",
+      "notes": "The 1880 census records Annie as their daughter.",
+      "source_refs": "S60"
     }
   ],
   "sources": [
@@ -6086,6 +6703,166 @@
       "date": "2 SEP 2026",
       "notes": "Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.",
       "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S49",
+      "title": "Owner statement identifying Arianna Lynn Fischer and her parents",
+      "author": "Fredric Muller Vollmer",
+      "date": "2 SEP 2026",
+      "notes": "The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S50",
+      "title": "Arianna Lynn Fischer Ohio birth and parent index cluster",
+      "author": "Ohio Department of Health; Ancestry.com",
+      "date": "1990",
+      "notes": "Ohio birth index entries name Arianna and identify Wallace Ray Fischer and Sally Lynn Vanhoose Fischer as parents; a Franklin County marriage index records Wallace R. Fischer and Sally L. on 3 Mar 1990. Records: https://www.ancestry.com/search/collections/3146/records/11206028 ; https://www.ancestry.com/search/collections/3146/records/26206028 ; https://www.ancestry.com/search/collections/3146/records/41206028 ; https://www.ancestry.com/search/collections/2025/records/1910252",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S51",
+      "title": "Wallace Ray Fischer identity record cluster",
+      "author": "Ohio voter and public-record indexes; North Caroline High School yearbook; Ancestry.com",
+      "date": "",
+      "notes": "Records consistently identify Wallace Ray Fischer, including North Caroline High School yearbook entries. Living birth details and addresses are intentionally omitted. Records: https://www.ancestry.com/search/collections/62740/records/4543428 ; https://www.ancestry.com/search/collections/62209/records/299213236 ; https://www.ancestry.com/search/collections/1265/records/621855255",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S52",
+      "title": "Sally Lynn Vanhoose Fischer Ohio birth and parent index cluster",
+      "author": "Ohio Department of Health; Ancestry.com",
+      "date": "",
+      "notes": "Ohio birth-index entries identify Sally Lynn Vanhoose/Fischer and name Keith Douglas Vanhoose and Barbara Lynn Boltenhouse as parents. Living exact dates and addresses are omitted. Records: https://www.ancestry.com/search/collections/3146/records/7991760 ; https://www.ancestry.com/search/collections/3146/records/11694596 ; https://www.ancestry.com/search/collections/3146/records/26694596 ; https://www.ancestry.com/search/collections/3146/records/41694596",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S53",
+      "title": "Keith Douglas Vanhoose SSA and burial index cluster",
+      "author": "Social Security Administration; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "SSA application and burial indexes establish Keith's dates and name Douglas T. Vanhoose and Mildred Tackett as parents. Records: https://www.ancestry.com/search/collections/60901/records/39551452 ; https://www.ancestry.com/search/collections/60525/records/95267098",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S54",
+      "title": "1950 United States census household of Charles, Alice, and Barbara Boltenhouse",
+      "author": "U.S. Census Bureau; National Archives and Records Administration; Ancestry.com",
+      "date": "1950",
+      "notes": "Circleville, Pickaway County, Ohio household records Charles E. Boltenhouse, wife Alice M., and daughter Barbara. Records: https://www.ancestry.com/search/collections/62308/records/204443745 ; https://www.ancestry.com/search/collections/62308/records/204443746 ; https://www.ancestry.com/search/collections/62308/records/204443747 Preserved image: records/1950_charles-alice-barbara-boltenhouse_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S55",
+      "title": "Charles Emerald Boltenhouse Jr burial and obituary records",
+      "author": "Find a Grave; Wellman Funeral Home; Ancestry.com",
+      "date": "1 MAR 2026",
+      "notes": "The obituary identifies parents Charles and Leona Tomlinson Boltenhouse, wife Alice Hickey, and daughter Barbara. Records: https://www.ancestry.com/search/collections/60525/records/297099223 ; https://www.ancestry.com/search/collections/2190/records/21600019 ; https://www.wellmanfuneralhomes.com/obituaries/charles-boltenhouse-jr",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S56",
+      "title": "Alice Marie Hickey Boltenhouse SSA and census record cluster",
+      "author": "Social Security Administration; U.S. Census Bureau; Ancestry.com",
+      "date": "",
+      "notes": "SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain. Records: https://www.ancestry.com/search/collections/60901/records/41344689 ; https://www.ancestry.com/search/collections/2442/records/31756365 ; https://www.ancestry.com/search/collections/62308/records/204443746 Preserved image: records/1940_william-daisy-alice-hickey_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S57",
+      "title": "William Andrew Hickey vital, draft, and census record cluster",
+      "author": "U.S. Census Bureau; Selective Service System; Ohio vital records; Ancestry.com",
+      "date": "",
+      "notes": "The 1900 census identifies William as son of John and Mary; draft, death, burial, and SSA indexes corroborate identity. Records: https://www.ancestry.com/search/collections/7602/records/41345114 ; https://www.ancestry.com/search/collections/5763/records/408395 ; https://www.ancestry.com/search/collections/60525/records/103465820 ; https://www.ancestry.com/search/collections/6482/records/19464076 ; https://www.ancestry.com/search/collections/1002/records/6996448 ; https://www.ancestry.com/search/collections/60901/records/641344689 Preserved image: records/1900_john-mary-william-hickey_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S58",
+      "title": "Daisy Marie Imler Hickey census, SSA, and marriage record cluster",
+      "author": "U.S. Census Bureau; Social Security Administration; Ohio county records; Ancestry.com",
+      "date": "",
+      "notes": "The 1900 census identifies William Imler and Annie as Daisy's parents; SSA and later census records link husband William Hickey and daughter Alice. Records: https://www.ancestry.com/search/collections/7602/records/41347856 ; https://www.ancestry.com/search/collections/2442/records/31756357 ; https://www.ancestry.com/search/collections/6061/records/27418446 ; https://www.ancestry.com/search/collections/60901/records/791344689 ; https://www.ancestry.com/search/collections/61378/records/1204214340 Preserved image: records/1900_william-annie-daisy-imler_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S59",
+      "title": "William Imler and Annie Westbury census and marriage records",
+      "author": "U.S. Census Bureau; Pickaway County records; Ancestry.com",
+      "date": "",
+      "notes": "The 4 Jul 1889 marriage record names Annie Westbury; the 1900 census records the couple with daughter Daisy. Records: https://www.ancestry.com/search/collections/61378/records/893547 ; https://www.ancestry.com/search/collections/7602/records/41347854 ; https://www.ancestry.com/search/collections/7602/records/41347855",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S60",
+      "title": "Westbury-Stonerock 1880 census and 1861 marriage records",
+      "author": "U.S. Census Bureau; Pickaway County records; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census identifies Annie as daughter of Robert Westbury and Hester; the 17 Dec 1861 marriage record supplies Hester Stonerock. Records: https://www.ancestry.com/search/collections/6742/records/18379300 ; https://www.ancestry.com/search/collections/6742/records/24757281 ; https://www.ancestry.com/search/collections/6742/records/18379404 ; https://www.ancestry.com/search/collections/61378/records/416305 Preserved image: records/1880_robert-hester-annie-westbury_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S61",
+      "title": "Douglas T. Vanhoose birth, census, military, and death record cluster",
+      "author": "Kentucky vital records; U.S. Census Bureau; U.S. Department of Veterans Affairs; Ancestry.com",
+      "date": "",
+      "notes": "The Kentucky birth index, 1930 census, military index, and death index establish Douglas's identity and link him to Tallie. Records: https://www.ancestry.com/search/collections/8788/records/3688158 ; https://www.ancestry.com/search/collections/6224/records/81187869 ; https://www.ancestry.com/search/collections/2441/records/10171281 ; https://www.ancestry.com/search/collections/3077/records/2504865 ; https://www.ancestry.com/search/collections/60901/records/639551452 Preserved image: records/1930_tallie-douglas-vanhoose_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S62",
+      "title": "John B. and Tallie Vanhoose 1880 and 1920 census chain",
+      "author": "U.S. Census Bureau; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census records John as son of Moses and Mahala; the 1920 census records John with wife Tallie. Records: https://www.ancestry.com/search/collections/6742/records/41518791 ; https://www.ancestry.com/search/collections/6061/records/59825157 Preserved image: records/1920_john-tallie-vanhoose_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S63",
+      "title": "Moses Vanhoose and Mahala Dixon census and marriage records",
+      "author": "U.S. Census Bureau; Johnson County records; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census records John as their son; the 22 Apr 1868 marriage record names Mahala Dixon. Records: https://www.ancestry.com/search/collections/6742/records/9277240 ; https://www.ancestry.com/search/collections/6742/records/10191909 ; https://www.ancestry.com/search/collections/61372/records/1506164 Preserved image: records/1880_moses-mahala-john-vanhoose_us-census.jpg. Preserved image: records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S64",
+      "title": "Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster",
+      "author": "Kentucky vital records; U.S. Census Bureau; Johnson County records; Ancestry.com",
+      "date": "",
+      "notes": "Tallie's death certificate names Ira Estep and Isora Morton. The 1880 census and 28 Aug 1868 marriage record identify the matching couple. Records: https://www.ancestry.com/search/collections/1222/records/2144978 ; https://www.ancestry.com/search/collections/7602/records/5598207 ; https://www.ancestry.com/search/collections/6742/records/17600141 ; https://www.ancestry.com/search/collections/6742/records/17600401 ; https://www.ancestry.com/search/collections/61372/records/1551052 Preserved image: records/1967-05-17_tallie-vanhoose_death-certificate.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S65",
+      "title": "Mildred I. Tackett Vanhoose obituary and 1930 census",
+      "author": "Circleville Herald; U.S. Census Bureau; Ancestry.com",
+      "date": "22 AUG 2015",
+      "notes": "The obituary names parents Sidney Tackett and Ida Missouri and husband Douglas VanHoose; the 1930 census corroborates Sid, Ida, and Mildred. Records: https://www.ancestry.com/search/collections/7545/records/500515930 ; https://www.ancestry.com/search/collections/6224/records/81187850 ; http://www.circlevilleherald.com/obituaries/mildred-i-vanhoose/article_9d73b9f0-f575-5f2a-b23d-b65a593e7879.html Preserved image: records/1930_sidney-ida-mildred-tackett_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S66",
+      "title": "Charles Emerald Boltenhouse Sr and Leona Tomlinson vital, census, draft, and marriage cluster",
+      "author": "U.S. Census Bureau; Selective Service System; Ohio vital and county records; Ancestry.com",
+      "date": "",
+      "notes": "Draft, marriage, census, and death records establish the couple and their son Charles. Records: https://www.ancestry.com/search/collections/2238/records/199550522 ; https://www.ancestry.com/search/collections/61378/records/1050733026 ; https://www.ancestry.com/search/collections/6224/records/69946949 ; https://www.ancestry.com/search/collections/6224/records/69946957 ; https://www.ancestry.com/search/collections/5763/records/1910198",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S67",
+      "title": "Boltenhouse direct-line census and marriage record chain",
+      "author": "U.S. Census Bureau; Ross County records; Ancestry.com",
+      "date": "",
+      "notes": "The 1910 census names Alonzo and Malinda as Charles's parents; their 1902 marriage supplies Speakman. The 1900 census names Augustus and Elizabeth as Alonzo's parents; their 1869 marriage supplies Cotter. Records: https://www.ancestry.com/search/collections/7884/records/142595859 ; https://www.ancestry.com/search/collections/7884/records/22453970 ; https://www.ancestry.com/search/collections/61378/records/266107 ; https://www.ancestry.com/search/collections/7602/records/51092013 ; https://www.ancestry.com/search/collections/7602/records/51092011 ; https://www.ancestry.com/search/collections/61378/records/1411597 Preserved image: records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg. Preserved image: records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S68",
+      "title": "Tomlinson-Jackson direct-line census and parent-name record chain",
+      "author": "U.S. Census Bureau; Ohio county records; Ancestry.com",
+      "date": "",
+      "notes": "The 1910 census records Leona as daughter of George P. and Linda. The 1900 census records George with wife Malinda and explicitly names his parents Alo and Rebecca; a later child marriage index supplies Linda Jackson. Records: https://www.ancestry.com/search/collections/7884/records/142595257 ; https://www.ancestry.com/search/collections/7602/records/51098669 ; https://www.ancestry.com/search/collections/61378/records/1350876129 Preserved image: records/1910_george-linda-leona-tomlinson_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
     }
   ],
   "corrections": [
@@ -6190,6 +6967,14 @@
     {
       "topic": "Peter Vollmer identity and dates",
       "corrected": "Duplicate Peter/Pete profiles were consolidated as Peter Vollmer, 29 Jun 1959-5 Aug 1975. The obituary index names Henry R Vollmer as father and Christopher as sibling; Peter's mother remains unconfirmed."
+    },
+    {
+      "topic": "Wallace Ray Fischer name",
+      "corrected": "Owner supplied Ray W. Fischer; Ohio records repeatedly identify him as Wallace Ray Fischer. The record form is used with the owner's form retained as an alias note."
+    },
+    {
+      "topic": "Fischer paternal stopping point",
+      "corrected": "No parent-naming record for Wallace Ray Fischer was found. His parents remain blank; private member trees and same-name suggestions were not imported."
     }
   ],
   "provenance": [
@@ -6228,18 +7013,22 @@
     {
       "thread_title": "Photo and evidence media audit",
       "role": "repository-wide person-photo availability audit, exact person-to-record mappings, preserved evidence attachment catalog, PDF page previews, and Ancestry/Newspapers.com access controls"
+    },
+    {
+      "thread_title": "Add Arianna Fischer direct ancestry",
+      "role": "owner-supplied spouse/parent anchors plus Ancestry-indexed direct-line research with preserved source images; no collateral expansion"
     }
   ],
   "media": {
     "metadata": {
       "audited": "2026-09-02",
-      "people_audited": 328,
+      "people_audited": 363,
       "portraits_archived": 0,
       "external_photo_pages": 2,
-      "privacy_withheld": 2,
-      "no_verified_photo_archived": 324,
-      "evidence_files": 43,
-      "evidence_images": 34,
+      "privacy_withheld": 7,
+      "no_verified_photo_archived": 354,
+      "evidence_files": 57,
+      "evidence_images": 48,
       "evidence_pdfs": 9,
       "pdf_preview_images": 18,
       "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
@@ -10082,13 +10871,13 @@
       {
         "individual_id": "I334",
         "name": "Mary Alice Thoren",
-        "portrait_status": "no_verified_photo_archived",
+        "portrait_status": "privacy_withheld",
         "portrait_path": "",
         "portrait_source_name": "",
         "portrait_source_url": "",
         "portrait_source_refs": [],
-        "portrait_rights": "",
-        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
         "evidence_ids": [
           "E040"
         ]
@@ -10348,6 +11137,494 @@
         "portrait_rights": "",
         "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
         "evidence_ids": []
+      },
+      {
+        "individual_id": "I356",
+        "name": "Arianna Lynn Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I357",
+        "name": "Wallace Ray Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I358",
+        "name": "Sally Lynn Vanhoose Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I359",
+        "name": "Keith Douglas Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I360",
+        "name": "Barbara Lynn Boltenhouse",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": [
+          "E056"
+        ]
+      },
+      {
+        "individual_id": "I361",
+        "name": "Douglas T Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E054"
+        ]
+      },
+      {
+        "individual_id": "I362",
+        "name": "Mildred I Tackett Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E053"
+        ]
+      },
+      {
+        "individual_id": "I363",
+        "name": "Charles Emerald Boltenhouse Jr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E056"
+        ]
+      },
+      {
+        "individual_id": "I364",
+        "name": "Alice Marie Hickey Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E055",
+          "E056"
+        ]
+      },
+      {
+        "individual_id": "I365",
+        "name": "John B Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E045",
+          "E052"
+        ]
+      },
+      {
+        "individual_id": "I366",
+        "name": "Talliehassie Tallie Estep Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E052",
+          "E054",
+          "E057"
+        ]
+      },
+      {
+        "individual_id": "I367",
+        "name": "Sidney Tackett",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E053"
+        ]
+      },
+      {
+        "individual_id": "I368",
+        "name": "Ida Missouri",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E053"
+        ]
+      },
+      {
+        "individual_id": "I369",
+        "name": "Moses Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E044",
+          "E045"
+        ]
+      },
+      {
+        "individual_id": "I370",
+        "name": "Mahala Dixon Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E044",
+          "E045"
+        ]
+      },
+      {
+        "individual_id": "I371",
+        "name": "Ira W Estep",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E057"
+        ]
+      },
+      {
+        "individual_id": "I372",
+        "name": "Isora Morton Estep",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E057"
+        ]
+      },
+      {
+        "individual_id": "I373",
+        "name": "Charles Emerald Boltenhouse Sr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E050"
+        ]
+      },
+      {
+        "individual_id": "I374",
+        "name": "Leona Florence Tomlinson Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E051"
+        ]
+      },
+      {
+        "individual_id": "I375",
+        "name": "Alonzo Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E047",
+          "E050"
+        ]
+      },
+      {
+        "individual_id": "I376",
+        "name": "Malinda E Speakman Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E050"
+        ]
+      },
+      {
+        "individual_id": "I377",
+        "name": "George P Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E051"
+        ]
+      },
+      {
+        "individual_id": "I378",
+        "name": "Malinda Linda Jackson Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E051"
+        ]
+      },
+      {
+        "individual_id": "I379",
+        "name": "Augustus Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E047"
+        ]
+      },
+      {
+        "individual_id": "I380",
+        "name": "Elizabeth Cotter Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E047"
+        ]
+      },
+      {
+        "individual_id": "I381",
+        "name": "Alo Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I382",
+        "name": "Rebecca Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I383",
+        "name": "William Andrew Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E048",
+          "E055"
+        ]
+      },
+      {
+        "individual_id": "I384",
+        "name": "Daisy Marie Imler Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E049",
+          "E055"
+        ]
+      },
+      {
+        "individual_id": "I385",
+        "name": "John Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E048"
+        ]
+      },
+      {
+        "individual_id": "I386",
+        "name": "Mary Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E048"
+        ]
+      },
+      {
+        "individual_id": "I387",
+        "name": "William Imler",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E049"
+        ]
+      },
+      {
+        "individual_id": "I388",
+        "name": "Annie Westbury Imler",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E046",
+          "E049"
+        ]
+      },
+      {
+        "individual_id": "I389",
+        "name": "Robert Westbury",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E046"
+        ]
+      },
+      {
+        "individual_id": "I390",
+        "name": "Hester Stonerock Westbury",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E046"
+        ]
       }
     ],
     "evidence": [
@@ -11556,6 +12833,409 @@
           "records/relief-mcnaughton_mother-pension-index.jpg"
         ],
         "sha256": "4c481d5447084325803d01ea3fb19e1485b4d96fd24cc06c3c83ed32580e90f7"
+      },
+      {
+        "evidence_id": "E044",
+        "media_type": "image",
+        "file_path": "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+        "filename": "1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+        "title": "Moses Vanhoose and Mahala Dixon marriage record",
+        "ledger_refs": [
+          "S63"
+        ],
+        "person_ids": [
+          "I369",
+          "I370"
+        ],
+        "canonical_source_refs": [
+          "S63"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "Johnson County records"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg"
+        ],
+        "sha256": "4b43d38830f05745935ff09efa16d73316ad9a564f13e1419d15dd0f53e39953"
+      },
+      {
+        "evidence_id": "E045",
+        "media_type": "image",
+        "file_path": "records/1880_moses-mahala-john-vanhoose_us-census.jpg",
+        "filename": "1880_moses-mahala-john-vanhoose_us-census.jpg",
+        "title": "1880 Moses, Mahala, and John Vanhoose household census",
+        "ledger_refs": [
+          "S63"
+        ],
+        "person_ids": [
+          "I369",
+          "I370",
+          "I365"
+        ],
+        "canonical_source_refs": [
+          "S63"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1880_moses-mahala-john-vanhoose_us-census.jpg"
+        ],
+        "sha256": "12e7a826f60af0250d06978216776c4d01d29bc0c85277365119b2a924c4b744"
+      },
+      {
+        "evidence_id": "E046",
+        "media_type": "image",
+        "file_path": "records/1880_robert-hester-annie-westbury_us-census.jpg",
+        "filename": "1880_robert-hester-annie-westbury_us-census.jpg",
+        "title": "1880 Robert, Hester, and Annie Westbury household census",
+        "ledger_refs": [
+          "S60"
+        ],
+        "person_ids": [
+          "I389",
+          "I390",
+          "I388"
+        ],
+        "canonical_source_refs": [
+          "S60"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1880_robert-hester-annie-westbury_us-census.jpg"
+        ],
+        "sha256": "55f4336bacc66bf90b09eda13d8d8e4ba8b97a23502eb9a2519212f7213b4fde"
+      },
+      {
+        "evidence_id": "E047",
+        "media_type": "image",
+        "file_path": "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+        "filename": "1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+        "title": "1900 Augustus, Elizabeth, and Alonzo Boltenhouse household census",
+        "ledger_refs": [
+          "S67"
+        ],
+        "person_ids": [
+          "I379",
+          "I380",
+          "I375"
+        ],
+        "canonical_source_refs": [
+          "S67"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg"
+        ],
+        "sha256": "f0f0d16ea0a2188d2a26af6deec71b183d567c824449c8a76578a7e0aab85635"
+      },
+      {
+        "evidence_id": "E048",
+        "media_type": "image",
+        "file_path": "records/1900_john-mary-william-hickey_us-census.jpg",
+        "filename": "1900_john-mary-william-hickey_us-census.jpg",
+        "title": "1900 John, Mary, and William Hickey household census",
+        "ledger_refs": [
+          "S57"
+        ],
+        "person_ids": [
+          "I385",
+          "I386",
+          "I383"
+        ],
+        "canonical_source_refs": [
+          "S57"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1900_john-mary-william-hickey_us-census.jpg"
+        ],
+        "sha256": "3f09977017d341c179f7296476cf3f05238edc18706741185f0889ab4a462a0e"
+      },
+      {
+        "evidence_id": "E049",
+        "media_type": "image",
+        "file_path": "records/1900_william-annie-daisy-imler_us-census.jpg",
+        "filename": "1900_william-annie-daisy-imler_us-census.jpg",
+        "title": "1900 William, Annie, and Daisy Imler household census",
+        "ledger_refs": [
+          "S58"
+        ],
+        "person_ids": [
+          "I387",
+          "I388",
+          "I384"
+        ],
+        "canonical_source_refs": [
+          "S58"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1900_william-annie-daisy-imler_us-census.jpg"
+        ],
+        "sha256": "f1efe3ffd6bd843ebdee892bdf6eb2cdbdca443f846d2440a66fb86d7f6b4f76"
+      },
+      {
+        "evidence_id": "E050",
+        "media_type": "image",
+        "file_path": "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+        "filename": "1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+        "title": "1910 Alonzo, Malinda, and Charles Boltenhouse household census",
+        "ledger_refs": [
+          "S67"
+        ],
+        "person_ids": [
+          "I375",
+          "I376",
+          "I373"
+        ],
+        "canonical_source_refs": [
+          "S67"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg"
+        ],
+        "sha256": "de55365447a9a7a1f1da71cbd0ea2334fad10c1c2a0d50d861fca0e8bfb2096c"
+      },
+      {
+        "evidence_id": "E051",
+        "media_type": "image",
+        "file_path": "records/1910_george-linda-leona-tomlinson_us-census.jpg",
+        "filename": "1910_george-linda-leona-tomlinson_us-census.jpg",
+        "title": "1910 George, Linda, and Leona Tomlinson household census",
+        "ledger_refs": [
+          "S68"
+        ],
+        "person_ids": [
+          "I377",
+          "I378",
+          "I374"
+        ],
+        "canonical_source_refs": [
+          "S68"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1910_george-linda-leona-tomlinson_us-census.jpg"
+        ],
+        "sha256": "136ffac97bbb990721d27662cd7b79f7c0512ecad9d79aec3f6bbb21897a5552"
+      },
+      {
+        "evidence_id": "E052",
+        "media_type": "image",
+        "file_path": "records/1920_john-tallie-vanhoose_us-census.jpg",
+        "filename": "1920_john-tallie-vanhoose_us-census.jpg",
+        "title": "1920 John and Tallie Vanhoose household census",
+        "ledger_refs": [
+          "S62"
+        ],
+        "person_ids": [
+          "I365",
+          "I366"
+        ],
+        "canonical_source_refs": [
+          "S62"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1920_john-tallie-vanhoose_us-census.jpg"
+        ],
+        "sha256": "fafc8e35d22d30a643b082d8a90e9e4bcf79755776e8e359865ef92037507ec7"
+      },
+      {
+        "evidence_id": "E053",
+        "media_type": "image",
+        "file_path": "records/1930_sidney-ida-mildred-tackett_us-census.jpg",
+        "filename": "1930_sidney-ida-mildred-tackett_us-census.jpg",
+        "title": "1930 Sidney, Ida, and Mildred Tackett household census",
+        "ledger_refs": [
+          "S65"
+        ],
+        "person_ids": [
+          "I367",
+          "I368",
+          "I362"
+        ],
+        "canonical_source_refs": [
+          "S65"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1930_sidney-ida-mildred-tackett_us-census.jpg"
+        ],
+        "sha256": "450820469775477ec1a3304d33ce88032ae0de4624e0431230af3e25cd2b4d22"
+      },
+      {
+        "evidence_id": "E054",
+        "media_type": "image",
+        "file_path": "records/1930_tallie-douglas-vanhoose_us-census.jpg",
+        "filename": "1930_tallie-douglas-vanhoose_us-census.jpg",
+        "title": "1930 Tallie and Douglas Vanhoose household census",
+        "ledger_refs": [
+          "S61"
+        ],
+        "person_ids": [
+          "I366",
+          "I361"
+        ],
+        "canonical_source_refs": [
+          "S61"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1930_tallie-douglas-vanhoose_us-census.jpg"
+        ],
+        "sha256": "b72825dcb67040ab1e58177e31b1a0dd71f8d6979b1cc1c5ff54ff86219c99b3"
+      },
+      {
+        "evidence_id": "E055",
+        "media_type": "image",
+        "file_path": "records/1940_william-daisy-alice-hickey_us-census.jpg",
+        "filename": "1940_william-daisy-alice-hickey_us-census.jpg",
+        "title": "1940 William, Daisy, and Alice Hickey household census",
+        "ledger_refs": [
+          "S56"
+        ],
+        "person_ids": [
+          "I383",
+          "I384",
+          "I364"
+        ],
+        "canonical_source_refs": [
+          "S56"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1940_william-daisy-alice-hickey_us-census.jpg"
+        ],
+        "sha256": "9be42fdd0e88e0a6814c131f58e6e0a64374eaf112a8946de26113ba261d2193"
+      },
+      {
+        "evidence_id": "E056",
+        "media_type": "image",
+        "file_path": "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+        "filename": "1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+        "title": "1950 Charles, Alice, and Barbara Boltenhouse household census",
+        "ledger_refs": [
+          "S54"
+        ],
+        "person_ids": [
+          "I363",
+          "I364",
+          "I360"
+        ],
+        "canonical_source_refs": [
+          "S54"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg"
+        ],
+        "sha256": "60ba9440c8fd580e15203d7599bca858a02153692e6be62ce197ff10d544a08c"
+      },
+      {
+        "evidence_id": "E057",
+        "media_type": "image",
+        "file_path": "records/1967-05-17_tallie-vanhoose_death-certificate.jpg",
+        "filename": "1967-05-17_tallie-vanhoose_death-certificate.jpg",
+        "title": "Tallie Vanhoose death certificate",
+        "ledger_refs": [
+          "S64"
+        ],
+        "person_ids": [
+          "I366",
+          "I371",
+          "I372"
+        ],
+        "canonical_source_refs": [
+          "S64"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "Kentucky vital records"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1967-05-17_tallie-vanhoose_death-certificate.jpg"
+        ],
+        "sha256": "a5fdaad1e00eab617eb9b52fbbfacd3c565c8a8939d5fb536c45b296c2619e80"
       }
     ],
     "external_evidence_checks": [

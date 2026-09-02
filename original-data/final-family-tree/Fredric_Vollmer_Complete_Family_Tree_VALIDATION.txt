@@ -1,6 +1,6 @@
-GEDCOM individuals: 328
-GEDCOM families: 155
-GEDCOM sources: 48
+GEDCOM individuals: 363
+GEDCOM families: 173
+GEDCOM sources: 68
 GEDCOM trailers: 1
 broken individual references: 0
 superseded Janet transcription absent: True
@@ -23,39 +23,39 @@ Peter and Chris brother association present: True
 Peter father link to Henry present: True
 Peter mother intentionally absent: True
 Elmer James Chaffee corrected: True
-people CSV rows: 328
-families CSV rows: 155
-source inventory rows: 91
+people CSV rows: 363
+families CSV rows: 173
+source inventory rows: 125
 vital-date research rows: 20
 accepted vital-date research rows: 15
-vital-date coverage rows: 328
-people with recorded birth dates: 203
-people with recorded death dates: 189
-people with complete vital dates: 156
+vital-date coverage rows: 363
+people with recorded birth dates: 235
+people with recorded death dates: 199
+people with complete vital dates: 166
 occupation research rows: 24
 accepted occupation research rows: 23
-occupation coverage rows: 328
+occupation coverage rows: 363
 people with recorded occupations or roles: 17
 GEDCOM occupation events: 23
 rejected Marion teacher absent: True
 workbook sheets: 15
 workbook formula errors: 0
-workbook consolidated individual count: 328
-workbook consolidated family count: 155
-workbook consolidated GEDCOM source count: 48
-workbook source and record inventory count: 91
-workbook birth dates recorded: 203
-workbook death dates recorded: 189
-workbook both vital dates recorded: 156
-workbook no dated event unresolved or private: 92
+workbook consolidated individual count: 363
+workbook consolidated family count: 173
+workbook consolidated GEDCOM source count: 68
+workbook source and record inventory count: 125
+workbook birth dates recorded: 235
+workbook death dates recorded: 199
+workbook both vital dates recorded: 166
+workbook no dated event unresolved or private: 95
 workbook people with recorded occupations or roles: 17
 workbook accepted occupation or role events: 23
-workbook media audit rows: 374
-media audit people: 328
+workbook media audit rows: 423
+media audit people: 363
 external photo pages located: 2
 locally archived portraits: 0
-preserved evidence files: 43
-preserved evidence images: 34
+preserved evidence files: 57
+preserved evidence images: 48
 preserved evidence PDFs: 9
 PDF evidence preview images: 18
-GEDCOM multimedia attachments: 43
+GEDCOM multimedia attachments: 57

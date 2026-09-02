@@ -305,7 +305,7 @@ person,I330,Mae Belle Watson Slaughter,no_verified_photo_archived,,,I330,,,,,No 
 person,I331,Agnes Slaughter,no_verified_photo_archived,,,I331,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 person,I332,Hundley Agee Slaughter,no_verified_photo_archived,,,I332,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 person,I333,Frank Rives Slaughter,no_verified_photo_archived,,,I333,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
-person,I334,Mary Alice Thoren,no_verified_photo_archived,,,I334,E040,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I334,Mary Alice Thoren,privacy_withheld,,,I334,E040,,,,Living-person privacy applies. No portrait is displayed because the person is living.
 person,I335,Chris Vollmer,no_verified_photo_archived,,,I335,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 person,I336,William John Thoren,no_verified_photo_archived,,,I336,E040,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 person,I337,Alice Gallaher,no_verified_photo_archived,,,I337,E040,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
@@ -327,6 +327,41 @@ person,I352,Bengta Pehrsdotter,no_verified_photo_archived,,,I352,,,,,No verified
 person,I353,Hans Månsson,no_verified_photo_archived,,,I353,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 person,I354,Maria Hansdotter,no_verified_photo_archived,,,I354,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 person,I355,Peter Vollmer,no_verified_photo_archived,,,I355,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I356,Arianna Lynn Fischer,privacy_withheld,,,I356,,,,,Living-person privacy applies. No portrait is displayed because the person is living.
+person,I357,Wallace Ray Fischer,privacy_withheld,,,I357,,,,,Living-person privacy applies. No portrait is displayed because the person is living.
+person,I358,Sally Lynn Vanhoose Fischer,privacy_withheld,,,I358,,,,,Living-person privacy applies. No portrait is displayed because the person is living.
+person,I359,Keith Douglas Vanhoose,no_verified_photo_archived,,,I359,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I360,Barbara Lynn Boltenhouse,privacy_withheld,,,I360,E056,,,,Living-person privacy applies. No portrait is displayed because the person is living.
+person,I361,Douglas T Vanhoose,no_verified_photo_archived,,,I361,E054,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I362,Mildred I Tackett Vanhoose,no_verified_photo_archived,,,I362,E053,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I363,Charles Emerald Boltenhouse Jr,no_verified_photo_archived,,,I363,E056,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I364,Alice Marie Hickey Boltenhouse,no_verified_photo_archived,,,I364,E055;E056,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I365,John B Vanhoose,no_verified_photo_archived,,,I365,E045;E052,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I366,Talliehassie Tallie Estep Vanhoose,no_verified_photo_archived,,,I366,E052;E054;E057,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I367,Sidney Tackett,no_verified_photo_archived,,,I367,E053,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I368,Ida Missouri,no_verified_photo_archived,,,I368,E053,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I369,Moses Vanhoose,no_verified_photo_archived,,,I369,E044;E045,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I370,Mahala Dixon Vanhoose,no_verified_photo_archived,,,I370,E044;E045,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I371,Ira W Estep,no_verified_photo_archived,,,I371,E057,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I372,Isora Morton Estep,no_verified_photo_archived,,,I372,E057,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I373,Charles Emerald Boltenhouse Sr,no_verified_photo_archived,,,I373,E050,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I374,Leona Florence Tomlinson Boltenhouse,no_verified_photo_archived,,,I374,E051,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I375,Alonzo Boltenhouse,no_verified_photo_archived,,,I375,E047;E050,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I376,Malinda E Speakman Boltenhouse,no_verified_photo_archived,,,I376,E050,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I377,George P Tomlinson,no_verified_photo_archived,,,I377,E051,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I378,Malinda Linda Jackson Tomlinson,no_verified_photo_archived,,,I378,E051,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I379,Augustus Boltenhouse,no_verified_photo_archived,,,I379,E047,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I380,Elizabeth Cotter Boltenhouse,no_verified_photo_archived,,,I380,E047,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I381,Alo Tomlinson,no_verified_photo_archived,,,I381,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I382,Rebecca Tomlinson,no_verified_photo_archived,,,I382,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I383,William Andrew Hickey,no_verified_photo_archived,,,I383,E048;E055,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I384,Daisy Marie Imler Hickey,no_verified_photo_archived,,,I384,E049;E055,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I385,John Hickey,no_verified_photo_archived,,,I385,E048,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I386,Mary Hickey,no_verified_photo_archived,,,I386,E048,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I387,William Imler,no_verified_photo_archived,,,I387,E049,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I388,Annie Westbury Imler,no_verified_photo_archived,,,I388,E046;E049,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I389,Robert Westbury,no_verified_photo_archived,,,I389,E046,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I390,Hester Stonerock Westbury,no_verified_photo_archived,,,I390,E046,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
 evidence,E001,Deborah Hopkins birth register,supporting,records/1648-06-15_deborah-hopkins_birth-register.jpg,,I248;I251,,S26,S57,records/1648-06-15_deborah-hopkins_birth-register.jpg,
 evidence,E002,Ephraim Doane and Mary Knowles marriage register,supporting,records/1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg,,I249;I250,,S26,S54;S60,records/1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg,
 evidence,E003,Joshua Cooke birth register,supporting,records/1682-02-04_joshua-cook_birth-register.jpg,,I245;I247;I248,,S26,S51,records/1682-02-04_joshua-cook_birth-register.jpg,
@@ -370,6 +405,20 @@ evidence,E040,"1950 William, Alice, and Mary Alice Thoren household census",supp
 evidence,E041,Giles Hopkins: seventeenth-century records,supporting,records/giles-hopkins_17th-century-records_pilgrim-hall.pdf,,I251;I254;I255;I248,,S26,S67,record-previews/giles-hopkins_17th-century-records_pilgrim-hall-1.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-2.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-3.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-4.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-5.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-6.jpg,
 evidence,E042,Plymouth Colony record: Richard Knowles and Ruth Bower marriage,supporting,records/plymouth-colony-records-vol1_1639-marriage.pdf,,I260;I261,,S26,S63,record-previews/plymouth-colony-records-vol1_1639-marriage-151.jpg,"The attached preview is PDF page 151, printed page 129, containing the marriage entry."
 evidence,E043,Relief McNaughton dependent-mother pension index,supporting,records/relief-mcnaughton_mother-pension-index.jpg,,I267,,S26,S79,records/relief-mcnaughton_mother-pension-index.jpg,
+evidence,E044,Moses Vanhoose and Mahala Dixon marriage record,supporting,records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg,,I369;I370,,S63,S63,records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg,
+evidence,E045,"1880 Moses, Mahala, and John Vanhoose household census",supporting,records/1880_moses-mahala-john-vanhoose_us-census.jpg,,I369;I370;I365,,S63,S63,records/1880_moses-mahala-john-vanhoose_us-census.jpg,
+evidence,E046,"1880 Robert, Hester, and Annie Westbury household census",supporting,records/1880_robert-hester-annie-westbury_us-census.jpg,,I389;I390;I388,,S60,S60,records/1880_robert-hester-annie-westbury_us-census.jpg,
+evidence,E047,"1900 Augustus, Elizabeth, and Alonzo Boltenhouse household census",supporting,records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg,,I379;I380;I375,,S67,S67,records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg,
+evidence,E048,"1900 John, Mary, and William Hickey household census",supporting,records/1900_john-mary-william-hickey_us-census.jpg,,I385;I386;I383,,S57,S57,records/1900_john-mary-william-hickey_us-census.jpg,
+evidence,E049,"1900 William, Annie, and Daisy Imler household census",supporting,records/1900_william-annie-daisy-imler_us-census.jpg,,I387;I388;I384,,S58,S58,records/1900_william-annie-daisy-imler_us-census.jpg,
+evidence,E050,"1910 Alonzo, Malinda, and Charles Boltenhouse household census",supporting,records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg,,I375;I376;I373,,S67,S67,records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg,
+evidence,E051,"1910 George, Linda, and Leona Tomlinson household census",supporting,records/1910_george-linda-leona-tomlinson_us-census.jpg,,I377;I378;I374,,S68,S68,records/1910_george-linda-leona-tomlinson_us-census.jpg,
+evidence,E052,1920 John and Tallie Vanhoose household census,supporting,records/1920_john-tallie-vanhoose_us-census.jpg,,I365;I366,,S62,S62,records/1920_john-tallie-vanhoose_us-census.jpg,
+evidence,E053,"1930 Sidney, Ida, and Mildred Tackett household census",supporting,records/1930_sidney-ida-mildred-tackett_us-census.jpg,,I367;I368;I362,,S65,S65,records/1930_sidney-ida-mildred-tackett_us-census.jpg,
+evidence,E054,1930 Tallie and Douglas Vanhoose household census,supporting,records/1930_tallie-douglas-vanhoose_us-census.jpg,,I366;I361,,S61,S61,records/1930_tallie-douglas-vanhoose_us-census.jpg,
+evidence,E055,"1940 William, Daisy, and Alice Hickey household census",supporting,records/1940_william-daisy-alice-hickey_us-census.jpg,,I383;I384;I364,,S56,S56,records/1940_william-daisy-alice-hickey_us-census.jpg,
+evidence,E056,"1950 Charles, Alice, and Barbara Boltenhouse household census",supporting,records/1950_charles-alice-barbara-boltenhouse_us-census.jpg,,I363;I364;I360,,S54,S54,records/1950_charles-alice-barbara-boltenhouse_us-census.jpg,
+evidence,E057,Tallie Vanhoose death certificate,supporting,records/1967-05-17_tallie-vanhoose_death-certificate.jpg,,I366;I371;I372,,S64,S64,records/1967-05-17_tallie-vanhoose_death-certificate.jpg,
 external_check,XWEB01,Newspapers.com via Ancestry,index_verified_image_not_archived,,https://www.ancestry.com/search/collections/61843/records/668386200,I355,,,,,The obituary index supplies Peter Vollmer’s exact dates and family links; no licensed clipping image was available to preserve.
 external_check,XWEB02,Newspapers.com via Ancestry,index_verified_image_access_blocked,,https://www.ancestry.com/search/collections/61843/records/4961110,I219,,,,,The Frederick Heath Marsh obituary index was retained as a moderate lead; the publisher verification page blocked the original newspaper image.
 external_check,XWEB03,Newspapers.com via Ancestry,no_exact_match,,,I268,,,,,Exact and relaxed searches found no Caledonia or Livingston County obituary for Mary A McNaughton.

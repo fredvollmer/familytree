@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Lineage — The Vollmer Family Archive',
     description:
-      'Explore 328 people, preserved records, and generations of family movement.',
+      'Explore 363 people, preserved records, and generations of family movement.',
     images: [{ url: '/og.png', width: 1731, height: 909, alt: 'Lineage — The Vollmer Family Archive' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Lineage — The Vollmer Family Archive',
     description:
-      'Explore 328 people, preserved records, and generations of family movement.',
+      'Explore 363 people, preserved records, and generations of family movement.',
     images: ['/og.png'],
   },
 };
