@@ -1,0 +1,5352 @@
+{
+  "metadata": {
+    "audited": "2026-09-02",
+    "people_audited": 328,
+    "portraits_archived": 0,
+    "external_photo_pages": 2,
+    "privacy_withheld": 2,
+    "no_verified_photo_archived": 324,
+    "evidence_files": 43,
+    "evidence_images": 34,
+    "evidence_pdfs": 9,
+    "pdf_preview_images": 18,
+    "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
+  },
+  "people": [
+    {
+      "individual_id": "I001",
+      "name": "Fredric Muller Vollmer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I002",
+      "name": "Jan Muller Vollmer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I003",
+      "name": "Arthur John Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I004",
+      "name": "Anne Rives McCormick Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I005",
+      "name": "Arthur Herman Muller",
+      "portrait_status": "external_photo_page",
+      "portrait_path": "",
+      "portrait_source_name": "Ancestry member photo",
+      "portrait_source_url": "https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-01890-00597?pid=79840169",
+      "portrait_source_refs": [
+        "S48"
+      ],
+      "portrait_rights": "External, account-gated image; not copied into the repository.",
+      "portrait_note": "The canonical occupation ledger records an attached member photograph whose caption identifies Arthur Herman Muller as a General Motors engineer.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I006",
+      "name": "Elma Anna Lee Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I007",
+      "name": "Charles Ellsworth McCormick II",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I008",
+      "name": "Eloise Alcyone Slaughter McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I009",
+      "name": "Christian August Vollrath Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I010",
+      "name": "Henrietta Kleitz",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I013",
+      "name": "Elmer Ellsworth Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I014",
+      "name": "Mary Wilhelmina Ohmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I017",
+      "name": "Lorenz Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I018",
+      "name": "Pauline Vollrath",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I019",
+      "name": "Lambert Kleitz",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I020",
+      "name": "Elizabeth Wüst",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I021",
+      "name": "Jacob Wüst",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I022",
+      "name": "Hubbard Stone Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I023",
+      "name": "Sarah M. Willitts",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I024",
+      "name": "Elon Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I025",
+      "name": "Grace Stone",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I026",
+      "name": "William Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I027",
+      "name": "Eunice Hotchkiss",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I028",
+      "name": "John Evarts Stone",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I029",
+      "name": "Eunice Goldsmith",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I030",
+      "name": "Ebenezer Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I031",
+      "name": "Sarah Chidsey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I032",
+      "name": "Mark Hotchkiss",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I033",
+      "name": "Miriam Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I034",
+      "name": "Asher Stone",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I035",
+      "name": "Carine Ward",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I036",
+      "name": "Edward Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I037",
+      "name": "Abigail Stevens",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I038",
+      "name": "Joseph Chidsey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I039",
+      "name": "Joseph Hotchkiss",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I040",
+      "name": "Hannah Cruttenden",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I041",
+      "name": "Caleb Stone Jr.",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I042",
+      "name": "Rebecca Evarts",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I043",
+      "name": "William Ward",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I044",
+      "name": "Abigail Crampton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I045",
+      "name": "Thomas Stevens",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I046",
+      "name": "John Hotchkiss",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I047",
+      "name": "Elizabeth Peck",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I048",
+      "name": "Isaac Cruttenden",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I049",
+      "name": "Lydia Thompson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I050",
+      "name": "Caleb Stone",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I051",
+      "name": "Sarah Meigs",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I052",
+      "name": "James Evarts",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I053",
+      "name": "William Ward",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I054",
+      "name": "Lettice Beach",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I055",
+      "name": "John Crampton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I056",
+      "name": "Hannah Evarts",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I057",
+      "name": "Samuel Hotchkiss",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I058",
+      "name": "Elizabeth Cleverly",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I059",
+      "name": "Abraham Cruttenden",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I060",
+      "name": "Mary",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I061",
+      "name": "Anthony Thompson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I062",
+      "name": "Katherine",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I063",
+      "name": "Nathaniel Stone",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I064",
+      "name": "Mary Bartlett",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I065",
+      "name": "John Meigs",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I066",
+      "name": "Sarah Wilcockson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I067",
+      "name": "Daniel Evarts",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I068",
+      "name": "Rebecca Dowd",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I069",
+      "name": "Andrew Ward Jr.",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I070",
+      "name": "Trial Meigs",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I071",
+      "name": "John Beach",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I072",
+      "name": "Mary Royce",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I073",
+      "name": "John Stone",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I074",
+      "name": "Mary",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I075",
+      "name": "Vincent Meigs",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I076",
+      "name": "Tamasin Fry",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I077",
+      "name": "William Wilcockson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I078",
+      "name": "Margaret Harvey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I079",
+      "name": "John Evarts",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I080",
+      "name": "Elizabeth",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I081",
+      "name": "Henry Dowd",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I082",
+      "name": "Andrew Ward",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I083",
+      "name": "Hester Sherman",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I084",
+      "name": "Thomas Beach",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I085",
+      "name": "Sarah Platt",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I086",
+      "name": "Jonathan Royce",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I087",
+      "name": "Ann Spinning",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I088",
+      "name": "James Harvey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I089",
+      "name": "Edmund Sherman",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I090",
+      "name": "Grace Makin",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I091",
+      "name": "Unknown Beach",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I092",
+      "name": "Richard Platt",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I093",
+      "name": "Mary Wood",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I094",
+      "name": "Robert Royce",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I095",
+      "name": "Mary",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I096",
+      "name": "Humphrey Spinning",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I097",
+      "name": "Edmund Sherman",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I098",
+      "name": "Anne Pellett",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I099",
+      "name": "Tobias Makin",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I100",
+      "name": "Katherine Westbrome",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I101",
+      "name": "George Platt",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I102",
+      "name": "Mary",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I103",
+      "name": "John Wood",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I104",
+      "name": "Jane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I105",
+      "name": "Henry Sherman",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I106",
+      "name": "Agnes",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I107",
+      "name": "William Pellett",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I108",
+      "name": "John Makin",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I109",
+      "name": "Agnes",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I110",
+      "name": "Thomas Westbrome",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I111",
+      "name": "Elizabeth",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I112",
+      "name": "Simon Platt",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I113",
+      "name": "Elizabeth",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I114",
+      "name": "Charles Ellsworth McCormick I",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I115",
+      "name": "Mary Moore Brooks",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I116",
+      "name": "Edward H. McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I117",
+      "name": "Martha Ann Annie O’Brien",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I118",
+      "name": "Charles McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I119",
+      "name": "Elizabeth McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I120",
+      "name": "Abram Field Brooks",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I121",
+      "name": "Mary P. Mollie Moore",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I122",
+      "name": "Solomon Neal Brooks",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I123",
+      "name": "Elizabeth Field",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I124",
+      "name": "Christopher O’Brien",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I125",
+      "name": "Sophronia Simmons",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I126",
+      "name": "Joseph Anderson Brooks",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I127",
+      "name": "Joseph Brooks",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I128",
+      "name": "Abram Field",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I129",
+      "name": "Elizabeth Simmons",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I130",
+      "name": "Isaac Bush Slaughter Sr.",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I131",
+      "name": "Lula Arnelia Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I132",
+      "name": "Nancy Brooks",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I133",
+      "name": "John Wesley Slaughter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I134",
+      "name": "Sarah C. Bush",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I135",
+      "name": "Robert Calhoun Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I136",
+      "name": "Florence Estelle Agee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I137",
+      "name": "Robert Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I138",
+      "name": "Amelia Harrison",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I139",
+      "name": "Green Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I140",
+      "name": "Mary Ridley Jones",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I141",
+      "name": "William Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I142",
+      "name": "Lucy Wyche",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I143",
+      "name": "Timothy Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I144",
+      "name": "Hester Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I145",
+      "name": "Darling Jones",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I146",
+      "name": "Susannah Jones",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I147",
+      "name": "William Harrison",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I148",
+      "name": "Ann Perry",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I149",
+      "name": "Col. William Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I150",
+      "name": "Elizabeth Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I151",
+      "name": "George Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I152",
+      "name": "Peter Wyche",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I153",
+      "name": "Alice Wyche",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I154",
+      "name": "William Raiford Agee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I155",
+      "name": "Elvina Hill",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I157",
+      "name": "William Rives",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I158",
+      "name": "Reuben Harrison",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I159",
+      "name": "Nancy Harrison",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I160",
+      "name": "James Perry",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I161",
+      "name": "Noah Agee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I162",
+      "name": "Martha Mask",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I163",
+      "name": "William Hill",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I164",
+      "name": "James Agee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I165",
+      "name": "Mary Ford",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I166",
+      "name": "Mathieu Agee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I167",
+      "name": "Ann Godwin",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I168",
+      "name": "James Ford",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I169",
+      "name": "Ann Bondurant",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I170",
+      "name": "Isaac Godwin",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I171",
+      "name": "Ann Godwin",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I172",
+      "name": "Anthony Agee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I173",
+      "name": "Judith Chastain",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I174",
+      "name": "Jean Pierre John Peter Bondurant",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I175",
+      "name": "Arianna Lynn Annie Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I176",
+      "name": "Henry Richard Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E039"
+      ]
+    },
+    {
+      "individual_id": "I177",
+      "name": "Bruce Eric Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I178",
+      "name": "Mary Gene Muller Chaffee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I179",
+      "name": "Elmer James Chaffee Jr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I180",
+      "name": "Linda Chaffee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I181",
+      "name": "Lori Chaffee Mettler",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I182",
+      "name": "James Chaffee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I183",
+      "name": "Jane Lee Muller Swick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I184",
+      "name": "Howard Swick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I185",
+      "name": "Kathy Swick Werblo",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I186",
+      "name": "Dave Werblo",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I187",
+      "name": "John Swick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I188",
+      "name": "Celeste",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I189",
+      "name": "Susan Sue Swick Galbraith",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I190",
+      "name": "Gordon Galbraith",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I191",
+      "name": "Patti Swick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I192",
+      "name": "Rick Lilly",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I193",
+      "name": "Philip Brooks McCormick",
+      "portrait_status": "external_photo_page",
+      "portrait_path": "",
+      "portrait_source_name": "Philip Brooks McCormick obituary",
+      "portrait_source_url": "https://www.legacy.com/obituaries/name/philip-mccormick-obituary?pid=198128174",
+      "portrait_source_refs": [
+        "S27",
+        "S46"
+      ],
+      "portrait_rights": "External obituary image; not copied into the repository.",
+      "portrait_note": "The exact-name obituary page is the verified external page associated with Philip Brooks McCormick and includes a portrait area.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I194",
+      "name": "Elizabeth Betsy Ross McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I195",
+      "name": "Sandy McCormick Hill",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I196",
+      "name": "John Hill",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I197",
+      "name": "Ross McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I198",
+      "name": "Carrie McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I199",
+      "name": "Tina McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I200",
+      "name": "Charles McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I201",
+      "name": "Judy McCormick",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I202",
+      "name": "Gwendolyn Gwen McCormick Hull",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I203",
+      "name": "Jim Hull",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I204",
+      "name": "Carey Zaura",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I205",
+      "name": "Mark Hull",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I207",
+      "name": "Charles Frederic Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E033",
+        "E038",
+        "E039"
+      ]
+    },
+    {
+      "individual_id": "I208",
+      "name": "Henry John Joseph Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E023",
+        "E024",
+        "E031",
+        "E033",
+        "E035",
+        "E036"
+      ]
+    },
+    {
+      "individual_id": "I209",
+      "name": "Frederick Gottlieb Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E031",
+        "E034"
+      ]
+    },
+    {
+      "individual_id": "I210",
+      "name": "Mary Kalwiet",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E031",
+        "E034"
+      ]
+    },
+    {
+      "individual_id": "I211",
+      "name": "Metha Peper Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E026",
+        "E031",
+        "E033",
+        "E036"
+      ]
+    },
+    {
+      "individual_id": "I212",
+      "name": "George Peper",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E025",
+        "E026",
+        "E031"
+      ]
+    },
+    {
+      "individual_id": "I213",
+      "name": "Anna Sophie Stelling Peper",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E025",
+        "E026",
+        "E031"
+      ]
+    },
+    {
+      "individual_id": "I214",
+      "name": "Peter Peper",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E025"
+      ]
+    },
+    {
+      "individual_id": "I215",
+      "name": "Meta Francke",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E025"
+      ]
+    },
+    {
+      "individual_id": "I216",
+      "name": "Charles Stelling",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E025"
+      ]
+    },
+    {
+      "individual_id": "I217",
+      "name": "Catharine Ahrens",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E025"
+      ]
+    },
+    {
+      "individual_id": "I218",
+      "name": "Doris Josephine Marsh Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E032",
+        "E039"
+      ]
+    },
+    {
+      "individual_id": "I219",
+      "name": "Frederick Heath Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E032"
+      ]
+    },
+    {
+      "individual_id": "I220",
+      "name": "Andrew J Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E032"
+      ]
+    },
+    {
+      "individual_id": "I221",
+      "name": "Malachi Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I222",
+      "name": "Mary Lane Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E017"
+      ]
+    },
+    {
+      "individual_id": "I223",
+      "name": "Stephen Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E012",
+        "E016",
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "individual_id": "I224",
+      "name": "Lois Currier Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E016",
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "individual_id": "I225",
+      "name": "Joshua Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E010",
+        "E011",
+        "E012"
+      ]
+    },
+    {
+      "individual_id": "I226",
+      "name": "Hannah Tilton Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E011",
+        "E012"
+      ]
+    },
+    {
+      "individual_id": "I227",
+      "name": "Samuel Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E007",
+        "E009",
+        "E010"
+      ]
+    },
+    {
+      "individual_id": "I228",
+      "name": "Mary James Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E008",
+        "E009",
+        "E010"
+      ]
+    },
+    {
+      "individual_id": "I229",
+      "name": "Joshua Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E005",
+        "E006",
+        "E007"
+      ]
+    },
+    {
+      "individual_id": "I230",
+      "name": "Bathsheba Robie Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E006",
+        "E007"
+      ]
+    },
+    {
+      "individual_id": "I231",
+      "name": "Benjamin James",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E008"
+      ]
+    },
+    {
+      "individual_id": "I232",
+      "name": "Susanna James",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E008"
+      ]
+    },
+    {
+      "individual_id": "I233",
+      "name": "William Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E005"
+      ]
+    },
+    {
+      "individual_id": "I234",
+      "name": "Sarah Lane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E005"
+      ]
+    },
+    {
+      "individual_id": "I235",
+      "name": "Amelia Whitney Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I236",
+      "name": "Alvin L Whitney",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I237",
+      "name": "James Whitney",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I238",
+      "name": "Betsey Cook Whitney",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E020"
+      ]
+    },
+    {
+      "individual_id": "I239",
+      "name": "Levi Cook",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E013",
+        "E015",
+        "E020"
+      ]
+    },
+    {
+      "individual_id": "I240",
+      "name": "Betsey Brown Cook",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E014",
+        "E015"
+      ]
+    },
+    {
+      "individual_id": "I241",
+      "name": "Hezekiah Cook",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E013"
+      ]
+    },
+    {
+      "individual_id": "I242",
+      "name": "Lydia Cook",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E013"
+      ]
+    },
+    {
+      "individual_id": "I243",
+      "name": "Perez Brown",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E014"
+      ]
+    },
+    {
+      "individual_id": "I244",
+      "name": "Betty Brown",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E014"
+      ]
+    },
+    {
+      "individual_id": "I245",
+      "name": "Joshua Cooke",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    {
+      "individual_id": "I246",
+      "name": "Patience Doane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E004",
+        "E030"
+      ]
+    },
+    {
+      "individual_id": "I247",
+      "name": "Josiah Cooke",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E003"
+      ]
+    },
+    {
+      "individual_id": "I248",
+      "name": "Deborah Hopkins Cooke",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E001",
+        "E003",
+        "E041"
+      ]
+    },
+    {
+      "individual_id": "I249",
+      "name": "Ephraim Doane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E002",
+        "E004",
+        "E029",
+        "E030"
+      ]
+    },
+    {
+      "individual_id": "I250",
+      "name": "Mary Knowles Doane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E002",
+        "E004",
+        "E030"
+      ]
+    },
+    {
+      "individual_id": "I251",
+      "name": "Giles Hopkins",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E001",
+        "E041"
+      ]
+    },
+    {
+      "individual_id": "I252",
+      "name": "Josiah Cooke Sr.",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I253",
+      "name": "Elizabeth Ring Cooke",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I254",
+      "name": "Catherine Whelden Hopkins",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E041"
+      ]
+    },
+    {
+      "individual_id": "I255",
+      "name": "Stephen Hopkins",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E041"
+      ]
+    },
+    {
+      "individual_id": "I256",
+      "name": "Mary Hopkins",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I257",
+      "name": "Gabriel Whelden",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I258",
+      "name": "John Doane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E029"
+      ]
+    },
+    {
+      "individual_id": "I259",
+      "name": "Ann Doane",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I260",
+      "name": "Richard Knowles",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E042"
+      ]
+    },
+    {
+      "individual_id": "I261",
+      "name": "Ruth Bower Knowles",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E042"
+      ]
+    },
+    {
+      "individual_id": "I262",
+      "name": "George Bower",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I263",
+      "name": "Barbara Bower",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I264",
+      "name": "Carrie E McNaughton Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E032"
+      ]
+    },
+    {
+      "individual_id": "I265",
+      "name": "Peter William McNaughton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E021",
+        "E028"
+      ]
+    },
+    {
+      "individual_id": "I266",
+      "name": "William McNaughton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I267",
+      "name": "Relief Gibbs McNaughton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E022",
+        "E043"
+      ]
+    },
+    {
+      "individual_id": "I268",
+      "name": "Mary A McNaughton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E028",
+        "E037"
+      ]
+    },
+    {
+      "individual_id": "I269",
+      "name": "Doris Ann Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E039"
+      ]
+    },
+    {
+      "individual_id": "I270",
+      "name": "Marie Anna Vollmer Seeley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I271",
+      "name": "Lester Allan Seeley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I272",
+      "name": "James Seeley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I273",
+      "name": "John Seeley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I274",
+      "name": "Mildred E Marsh Gutelius",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E032"
+      ]
+    },
+    {
+      "individual_id": "I275",
+      "name": "Harry K Gutelius",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I276",
+      "name": "Eileen Gutelius Eaton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I277",
+      "name": "Ronald McNaughton Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E032"
+      ]
+    },
+    {
+      "individual_id": "I278",
+      "name": "Eva C St Martin Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I279",
+      "name": "Dorothy Jane Marsh Kidwell",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I280",
+      "name": "Robert James Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I281",
+      "name": "Ronald Louis Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I282",
+      "name": "Frederick Gottlieb Heinrich Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E034"
+      ]
+    },
+    {
+      "individual_id": "I283",
+      "name": "Charles Marsh",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I284",
+      "name": "Marion McNaughton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I285",
+      "name": "Elizabeth McNaughton Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I286",
+      "name": "John C Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I287",
+      "name": "MacNaughton Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I288",
+      "name": "Floyd W Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I289",
+      "name": "Ola L Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I290",
+      "name": "Willard R Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I291",
+      "name": "John W Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I292",
+      "name": "Ruby J Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I293",
+      "name": "Helen E Pullyblank",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I294",
+      "name": "Lulu McNaughton",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I310",
+      "name": "C Rudolph Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I311",
+      "name": "David Paul Muller",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I314",
+      "name": "Hazel G Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I315",
+      "name": "Hubbard Stone Lee Sr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I316",
+      "name": "Irene M Burr Lee",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I317",
+      "name": "Hubbard Stone Lee Jr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I320",
+      "name": "Martha M McCormick Macdonald",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I321",
+      "name": "John R Macdonald",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I322",
+      "name": "James D Macdonald",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I323",
+      "name": "Jean Ruth Macdonald",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I324",
+      "name": "Ruth B McCormick Reese",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I327",
+      "name": "Sarah Slaughter Lazenby",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I328",
+      "name": "Irene Williams Slaughter Cooke",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I329",
+      "name": "Isaac Bush Slaughter Jr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I330",
+      "name": "Mae Belle Watson Slaughter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I331",
+      "name": "Agnes Slaughter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I332",
+      "name": "Hundley Agee Slaughter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I333",
+      "name": "Frank Rives Slaughter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I334",
+      "name": "Mary Alice Thoren",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E040"
+      ]
+    },
+    {
+      "individual_id": "I335",
+      "name": "Chris Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I336",
+      "name": "William John Thoren",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E040"
+      ]
+    },
+    {
+      "individual_id": "I337",
+      "name": "Alice Gallaher",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E040"
+      ]
+    },
+    {
+      "individual_id": "I338",
+      "name": "Christian Andrew Thoren",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I339",
+      "name": "Augusta Nilsdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I340",
+      "name": "Anders Troedsson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I341",
+      "name": "Kjersti Månsdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I342",
+      "name": "Trued Andersson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I343",
+      "name": "Bortha Nilsdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I344",
+      "name": "Nils Svensson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I345",
+      "name": "Christina Persdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I346",
+      "name": "Gunnilla Nilsdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I347",
+      "name": "Nils Johansson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I348",
+      "name": "Elna Nilsdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I349",
+      "name": "Pehr Erlandsson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I350",
+      "name": "Ingier Hansdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I351",
+      "name": "Erland Pålsson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I352",
+      "name": "Bengta Pehrsdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I353",
+      "name": "Hans Månsson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I354",
+      "name": "Maria Hansdotter",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I355",
+      "name": "Peter Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E001",
+      "media_type": "image",
+      "file_path": "records/1648-06-15_deborah-hopkins_birth-register.jpg",
+      "filename": "1648-06-15_deborah-hopkins_birth-register.jpg",
+      "title": "Deborah Hopkins birth register",
+      "ledger_refs": [
+        "S57"
+      ],
+      "person_ids": [
+        "I248",
+        "I251"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1648-06-15_deborah-hopkins_birth-register.jpg"
+      ],
+      "sha256": "4e6dd607655f9c2b251e3974596d63276178e76761116b370a8b16e0219f3f98"
+    },
+    {
+      "evidence_id": "E002",
+      "media_type": "image",
+      "file_path": "records/1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg",
+      "filename": "1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg",
+      "title": "Ephraim Doane and Mary Knowles marriage register",
+      "ledger_refs": [
+        "S54",
+        "S60"
+      ],
+      "person_ids": [
+        "I249",
+        "I250"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg"
+      ],
+      "sha256": "89ae0910e197b39bd902ca52685d144ab55193a340c5e6d3dbeb15a811487faa"
+    },
+    {
+      "evidence_id": "E003",
+      "media_type": "image",
+      "file_path": "records/1682-02-04_joshua-cook_birth-register.jpg",
+      "filename": "1682-02-04_joshua-cook_birth-register.jpg",
+      "title": "Joshua Cooke birth register",
+      "ledger_refs": [
+        "S51"
+      ],
+      "person_ids": [
+        "I245",
+        "I247",
+        "I248"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1682-02-04_joshua-cook_birth-register.jpg"
+      ],
+      "sha256": "726be1a255bf2abe13e2cdc2d149bcddf7dfb1702c466ab4e215d38133e9ea46"
+    },
+    {
+      "evidence_id": "E004",
+      "media_type": "image",
+      "file_path": "records/1682-04_patience-doane_birth-register.jpg",
+      "filename": "1682-04_patience-doane_birth-register.jpg",
+      "title": "Patience Doane birth register",
+      "ledger_refs": [
+        "S53"
+      ],
+      "person_ids": [
+        "I246",
+        "I249",
+        "I250"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1682-04_patience-doane_birth-register.jpg"
+      ],
+      "sha256": "c754af467f7252cd6952af7bc5948ce2ca5f77fdb7c7e60a6941088448c32e4a"
+    },
+    {
+      "evidence_id": "E005",
+      "media_type": "image",
+      "file_path": "records/1696_joshua-lane_birth-record.jpg",
+      "filename": "1696_joshua-lane_birth-record.jpg",
+      "title": "Joshua Lane birth record",
+      "ledger_refs": [
+        "S84"
+      ],
+      "person_ids": [
+        "I229",
+        "I233",
+        "I234"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1696_joshua-lane_birth-record.jpg"
+      ],
+      "sha256": "23c17bccf0b93d5ca970ddc6458dc14f264e129c5650c13a9e613dc57e94371e"
+    },
+    {
+      "evidence_id": "E006",
+      "media_type": "image",
+      "file_path": "records/1717_joshua-lane_bathsheba-robie_marriage-record.jpg",
+      "filename": "1717_joshua-lane_bathsheba-robie_marriage-record.jpg",
+      "title": "Joshua Lane and Bathsheba Robie marriage record",
+      "ledger_refs": [
+        "S82"
+      ],
+      "person_ids": [
+        "I229",
+        "I230"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1717_joshua-lane_bathsheba-robie_marriage-record.jpg"
+      ],
+      "sha256": "15e63b00090b98e21bb4ae4d28cc0d2a620bbe75946c63efe681f5b512fb6b9c"
+    },
+    {
+      "evidence_id": "E007",
+      "media_type": "image",
+      "file_path": "records/1718_samuel-lane_birth-record.jpg",
+      "filename": "1718_samuel-lane_birth-record.jpg",
+      "title": "Samuel Lane birth record",
+      "ledger_refs": [
+        "S81"
+      ],
+      "person_ids": [
+        "I227",
+        "I229",
+        "I230"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1718_samuel-lane_birth-record.jpg"
+      ],
+      "sha256": "0200f2252b3392cf2fa2ecb3d58b9ddef31b998ce5d76ef552bfab2ee7eda016"
+    },
+    {
+      "evidence_id": "E008",
+      "media_type": "image",
+      "file_path": "records/1722_mary-james_birth-record.jpg",
+      "filename": "1722_mary-james_birth-record.jpg",
+      "title": "Mary James birth record",
+      "ledger_refs": [
+        "S83"
+      ],
+      "person_ids": [
+        "I228",
+        "I231",
+        "I232"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "The record supplies Susanna only by given name; no maiden surname is inferred.",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1722_mary-james_birth-record.jpg"
+      ],
+      "sha256": "189899f04cbc5dc801896487041938515771118dabdb1af87ed6662a4f6ffcd9"
+    },
+    {
+      "evidence_id": "E009",
+      "media_type": "image",
+      "file_path": "records/1741-12-24_samuel-lane_mary-james_marriage.jpg",
+      "filename": "1741-12-24_samuel-lane_mary-james_marriage.jpg",
+      "title": "Samuel Lane and Mary James marriage record",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I227",
+        "I228"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1741-12-24_samuel-lane_mary-james_marriage.jpg"
+      ],
+      "sha256": "fd6d017aaaa9f3c51bd77b7c6a0a007e08a6b28b3eacd4323314c75ced5f61b4"
+    },
+    {
+      "evidence_id": "E010",
+      "media_type": "image",
+      "file_path": "records/1748-02-09_joshua-lane_nh-birth.jpg",
+      "filename": "1748-02-09_joshua-lane_nh-birth.jpg",
+      "title": "Joshua Lane New Hampshire birth record",
+      "ledger_refs": [
+        "S75"
+      ],
+      "person_ids": [
+        "I225",
+        "I227",
+        "I228"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1748-02-09_joshua-lane_nh-birth.jpg"
+      ],
+      "sha256": "8b75cc1094090d59c00e82213eddedaf9393a4953d2ae2703bcc6fafbe5fa72b"
+    },
+    {
+      "evidence_id": "E011",
+      "media_type": "image",
+      "file_path": "records/1769-11-15_joshua-lane_hannah-tilton_marriage.jpg",
+      "filename": "1769-11-15_joshua-lane_hannah-tilton_marriage.jpg",
+      "title": "Joshua Lane and Hannah Tilton marriage record",
+      "ledger_refs": [
+        "S76"
+      ],
+      "person_ids": [
+        "I225",
+        "I226"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1769-11-15_joshua-lane_hannah-tilton_marriage.jpg"
+      ],
+      "sha256": "9d1f204134ed96a42e5c7ddfe10e1265e03ae8c7af976cc6723f3836c6037d3e"
+    },
+    {
+      "evidence_id": "E012",
+      "media_type": "image",
+      "file_path": "records/1771-12-08_stephen-lane_nh-birth.jpg",
+      "filename": "1771-12-08_stephen-lane_nh-birth.jpg",
+      "title": "Stephen Lane New Hampshire birth record",
+      "ledger_refs": [
+        "S73"
+      ],
+      "person_ids": [
+        "I223",
+        "I225",
+        "I226"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1771-12-08_stephen-lane_nh-birth.jpg"
+      ],
+      "sha256": "4e983a0346e7c1b3d08b50d78c339d06a10d4ba9e23b8d7a2c932aa69343fd72"
+    },
+    {
+      "evidence_id": "E013",
+      "media_type": "image",
+      "file_path": "records/1774-02-26_levi-cook_birth-register.jpg",
+      "filename": "1774-02-26_levi-cook_birth-register.jpg",
+      "title": "Levi Cook birth register",
+      "ledger_refs": [
+        "S49"
+      ],
+      "person_ids": [
+        "I239",
+        "I241",
+        "I242"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1774-02-26_levi-cook_birth-register.jpg"
+      ],
+      "sha256": "da32fa229e920c36321196b78361e9ea6df2ae57d08d34cf81279f9f727c5e26"
+    },
+    {
+      "evidence_id": "E014",
+      "media_type": "image",
+      "file_path": "records/1779-01-07_betsey-brown_birth-register.jpg",
+      "filename": "1779-01-07_betsey-brown_birth-register.jpg",
+      "title": "Betsey Brown birth register",
+      "ledger_refs": [
+        "S50"
+      ],
+      "person_ids": [
+        "I240",
+        "I243",
+        "I244"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1779-01-07_betsey-brown_birth-register.jpg"
+      ],
+      "sha256": "c43c3675e73e795d5d4ef90d64e64e746f1f9da1cf41ea0f2bbcddd01b50bfba"
+    },
+    {
+      "evidence_id": "E015",
+      "media_type": "image",
+      "file_path": "records/1794-07-24_levi-cook_betsey-brown_marriage-register.jpg",
+      "filename": "1794-07-24_levi-cook_betsey-brown_marriage-register.jpg",
+      "title": "Levi Cook and Betsey Brown marriage register",
+      "ledger_refs": [
+        "S48"
+      ],
+      "person_ids": [
+        "I239",
+        "I240"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1794-07-24_levi-cook_betsey-brown_marriage-register.jpg"
+      ],
+      "sha256": "f3faf328a3ca886129787a18975b1c4892c5a5ed6bac9bebe5d6d4eb867f379f"
+    },
+    {
+      "evidence_id": "E016",
+      "media_type": "image",
+      "file_path": "records/1797-06-05_stephen-lane_lois-currier_marriage.jpg",
+      "filename": "1797-06-05_stephen-lane_lois-currier_marriage.jpg",
+      "title": "Stephen Lane and Lois Currier marriage record",
+      "ledger_refs": [
+        "S74"
+      ],
+      "person_ids": [
+        "I223",
+        "I224"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1797-06-05_stephen-lane_lois-currier_marriage.jpg"
+      ],
+      "sha256": "6dd9495e06654018e796489a805f91471bd33329204c0b5171ee5425a898b280"
+    },
+    {
+      "evidence_id": "E017",
+      "media_type": "image",
+      "file_path": "records/1807-02-03_mary-lane_nh-birth-card.jpg",
+      "filename": "1807-02-03_mary-lane_nh-birth-card.jpg",
+      "title": "Mary Lane New Hampshire birth card",
+      "ledger_refs": [
+        "S44"
+      ],
+      "person_ids": [
+        "I222"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "The card supports the event but leaves locality and parents blank.",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1807-02-03_mary-lane_nh-birth-card.jpg"
+      ],
+      "sha256": "54e52adccc86fbb08e9fd36c8ad80efbb130eb34178bf7f4cae9bfe9fae15351"
+    },
+    {
+      "evidence_id": "E018",
+      "media_type": "image",
+      "file_path": "records/1840-09-16_stephen-lane_will.jpg",
+      "filename": "1840-09-16_stephen-lane_will.jpg",
+      "title": "Stephen Lane will",
+      "ledger_refs": [
+        "S72"
+      ],
+      "person_ids": [
+        "I223",
+        "I224"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1840-09-16_stephen-lane_will.jpg"
+      ],
+      "sha256": "773c3a78efbeac6efc48f53d6d01f7556aade77197bb59cb85265cb67c5b4f99"
+    },
+    {
+      "evidence_id": "E019",
+      "media_type": "image",
+      "file_path": "records/1841-05-05_stephen-lane_probate-letters.jpg",
+      "filename": "1841-05-05_stephen-lane_probate-letters.jpg",
+      "title": "Stephen Lane probate letters",
+      "ledger_refs": [
+        "S72"
+      ],
+      "person_ids": [
+        "I223",
+        "I224"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1841-05-05_stephen-lane_probate-letters.jpg"
+      ],
+      "sha256": "dca2ab0c7608fe5ca72e5d18e3bb9d920173d4535609fca51f115c9de62c2c04"
+    },
+    {
+      "evidence_id": "E020",
+      "media_type": "image",
+      "file_path": "records/1846-10-30_levi-cook_will_genesee.jpg",
+      "filename": "1846-10-30_levi-cook_will_genesee.jpg",
+      "title": "Levi Cook will and probate",
+      "ledger_refs": [
+        "S47"
+      ],
+      "person_ids": [
+        "I239",
+        "I238"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1846-10-30_levi-cook_will_genesee.jpg"
+      ],
+      "sha256": "ca99721390ba6f33558e3a0ce805f614dabed6ee6aab6dce762506bf16f00235"
+    },
+    {
+      "evidence_id": "E021",
+      "media_type": "image",
+      "file_path": "records/1862_peter-william-mcnaughton_civil-war-town-register.jpg",
+      "filename": "1862_peter-william-mcnaughton_civil-war-town-register.jpg",
+      "title": "Peter William McNaughton Civil War town register",
+      "ledger_refs": [
+        "S28"
+      ],
+      "person_ids": [
+        "I265"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1862_peter-william-mcnaughton_civil-war-town-register.jpg"
+      ],
+      "sha256": "7e767cf4e9ce3792ea381e5dcea992eade9ac9d7e361eae2e6927ed41b52a9b4"
+    },
+    {
+      "evidence_id": "E022",
+      "media_type": "image",
+      "file_path": "records/1868_relief-mcnaughton_dependent-pension-numerical-index.jpg",
+      "filename": "1868_relief-mcnaughton_dependent-pension-numerical-index.jpg",
+      "title": "Relief McNaughton dependent-pension numerical index",
+      "ledger_refs": [
+        "S80"
+      ],
+      "person_ids": [
+        "I267"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "The numerical index names evidence-only soldier William W McNaughton and corroborates Relief McNaughton’s dependent-mother pension card.",
+      "source_platforms": [
+        "Fold3",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1868_relief-mcnaughton_dependent-pension-numerical-index.jpg"
+      ],
+      "sha256": "122349eb44bcbf808eaa9d841bec77cb9b433ff01d7b88dd9f862441a237ed6e"
+    },
+    {
+      "evidence_id": "E023",
+      "media_type": "image",
+      "file_path": "records/1882-08-21_henry-vollmer_arrival-main.jpg",
+      "filename": "1882-08-21_henry-vollmer_arrival-main.jpg",
+      "title": "Henry Vollmer arrival on the Main",
+      "ledger_refs": [
+        "S12"
+      ],
+      "person_ids": [
+        "I208"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting_with_uncertainty",
+      "note": "The manifest supports Henry’s arrival; adjacency does not prove the relationships of Mary and Louise.",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1882-08-21_henry-vollmer_arrival-main.jpg"
+      ],
+      "sha256": "319186b29241957f4be18e4f2c4d350679c5b0c36f6ee3330ba90a62dbca0b24"
+    },
+    {
+      "evidence_id": "E024",
+      "media_type": "image",
+      "file_path": "records/1882-08-21_vollmer-family_arrival-main_page-0289.jpg",
+      "filename": "1882-08-21_vollmer-family_arrival-main_page-0289.jpg",
+      "title": "Vollmer entries on the Main passenger manifest",
+      "ledger_refs": [
+        "S12"
+      ],
+      "person_ids": [
+        "I208"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting_with_uncertainty",
+      "note": "The adjacent entries are preserved without inferring a relationship.",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1882-08-21_vollmer-family_arrival-main_page-0289.jpg"
+      ],
+      "sha256": "747649d753285ae52234547090101c60660612500bc3132a35f57b13a0ce9e11"
+    },
+    {
+      "evidence_id": "E025",
+      "media_type": "pdf",
+      "file_path": "records/1883-08-12_themes-pepper_anna-stelling_marriage-certificate.pdf",
+      "filename": "1883-08-12_themes-pepper_anna-stelling_marriage-certificate.pdf",
+      "title": "Themes Peper and Anna Sophie Stelling marriage certificate",
+      "ledger_refs": [
+        "S34"
+      ],
+      "person_ids": [
+        "I212",
+        "I213",
+        "I214",
+        "I215",
+        "I216",
+        "I217"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "New York City Municipal Archives",
+        "Ancestry"
+      ],
+      "page_count": 2,
+      "preview_paths": [
+        "record-previews/1883-08-12_themes-pepper_anna-stelling_marriage-certificate-1.jpg",
+        "record-previews/1883-08-12_themes-pepper_anna-stelling_marriage-certificate-2.jpg"
+      ],
+      "sha256": "2a89c49df0051c74dbc241741e7b75dbabeff093782428e3a3b82cd002de44bd"
+    },
+    {
+      "evidence_id": "E026",
+      "media_type": "pdf",
+      "file_path": "records/1884-03-14_female-pepper_birth-certificate.pdf",
+      "filename": "1884-03-14_female-pepper_birth-certificate.pdf",
+      "title": "Unnamed female Pepper birth certificate (identified as Metha)",
+      "ledger_refs": [
+        "S33"
+      ],
+      "person_ids": [
+        "I211",
+        "I212",
+        "I213"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting_with_uncertainty",
+      "note": "The original certificate is very high quality for the recorded facts; identifying the unnamed child as Metha is moderate-high confidence.",
+      "source_platforms": [
+        "New York City Municipal Archives",
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "record-previews/1884-03-14_female-pepper_birth-certificate-1.jpg"
+      ],
+      "sha256": "d457e8478154d51688ddd777101aee2501f89ef8f4515eab0a8cf431076d7180"
+    },
+    {
+      "evidence_id": "E027",
+      "media_type": "image",
+      "file_path": "records/1892_henry-vollmer_ny-state-census.jpg",
+      "filename": "1892_henry-vollmer_ny-state-census.jpg",
+      "title": "Excluded 1892 Henry Vollmer household",
+      "ledger_refs": [
+        "X01"
+      ],
+      "person_ids": [],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "excluded_identity_control",
+      "note": "This household conflicts with Henry John Joseph Vollmer’s original marriage certificate and is not attached to a canonical person.",
+      "source_platforms": [
+        "Ancestry"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1892_henry-vollmer_ny-state-census.jpg"
+      ],
+      "sha256": "480f9a9c4d79a918392467e6ebf758452a8d200ad3692cb7f436a4654d688421"
+    },
+    {
+      "evidence_id": "E028",
+      "media_type": "image",
+      "file_path": "records/1896_mary-a-mcnaughton_widow-pension-index.jpg",
+      "filename": "1896_mary-a-mcnaughton_widow-pension-index.jpg",
+      "title": "Mary A McNaughton widow-pension index",
+      "ledger_refs": [
+        "S78"
+      ],
+      "person_ids": [
+        "I268",
+        "I265"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1896_mary-a-mcnaughton_widow-pension-index.jpg"
+      ],
+      "sha256": "14d064d694dc478f36bb570e78e29368a0259693dfb7217c05975c508bd01db8"
+    },
+    {
+      "evidence_id": "E029",
+      "media_type": "pdf",
+      "file_path": "records/1901_mayflower-descendant-vol3_john-doane-will.pdf",
+      "filename": "1901_mayflower-descendant-vol3_john-doane-will.pdf",
+      "title": "John Doane will naming son Ephraim",
+      "ledger_refs": [
+        "S64"
+      ],
+      "person_ids": [
+        "I258",
+        "I249"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "The attached preview is PDF page 385, printed page 178, containing the relevant will transcription.",
+      "source_platforms": [
+        "Massachusetts Society of Mayflower Descendants"
+      ],
+      "page_count": 614,
+      "preview_paths": [
+        "record-previews/1901_mayflower-descendant-vol3_john-doane-will-385.jpg"
+      ],
+      "sha256": "4d7d359130d69d3db9e5ebdec3f22833c097c0e9dad4e5602047f370bd057518"
+    },
+    {
+      "evidence_id": "E030",
+      "media_type": "pdf",
+      "file_path": "records/1904_mayflower-descendant-vol6_eastham-vital-records.pdf",
+      "filename": "1904_mayflower-descendant-vol6_eastham-vital-records.pdf",
+      "title": "Eastham vital records: Doane–Knowles family",
+      "ledger_refs": [
+        "S61"
+      ],
+      "person_ids": [
+        "I249",
+        "I250",
+        "I246"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "The attached preview is PDF page 47, printed page 13, containing the marriage and children’s births.",
+      "source_platforms": [
+        "Massachusetts Society of Mayflower Descendants"
+      ],
+      "page_count": 608,
+      "preview_paths": [
+        "record-previews/1904_mayflower-descendant-vol6_eastham-vital-records-047.jpg"
+      ],
+      "sha256": "105a13412229bb5489c9e245faa82209405ec7199e5fe371dc17a09d1351ba3a"
+    },
+    {
+      "evidence_id": "E031",
+      "media_type": "pdf",
+      "file_path": "records/1905-08-05_henry-jj-vollmer_marriage-certificate.pdf",
+      "filename": "1905-08-05_henry-jj-vollmer_marriage-certificate.pdf",
+      "title": "Henry John Joseph Vollmer and Metha Peper marriage certificate",
+      "ledger_refs": [
+        "S09"
+      ],
+      "person_ids": [
+        "I208",
+        "I211",
+        "I209",
+        "I210",
+        "I212",
+        "I213"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "New York City Municipal Archives"
+      ],
+      "page_count": 2,
+      "preview_paths": [
+        "record-previews/1905-08-05_henry-jj-vollmer_marriage-certificate-1.jpg",
+        "record-previews/1905-08-05_henry-jj-vollmer_marriage-certificate-2.jpg"
+      ],
+      "sha256": "59b537c81462fcba56c9827e5a015dacefafd451442735b8db6a37fcccabe2a9"
+    },
+    {
+      "evidence_id": "E032",
+      "media_type": "image",
+      "file_path": "records/1910_frederick-carrie-doris-andrew-marsh_us-census.jpg",
+      "filename": "1910_frederick-carrie-doris-andrew-marsh_us-census.jpg",
+      "title": "1910 Frederick and Carrie Marsh household census",
+      "ledger_refs": [
+        "S14"
+      ],
+      "person_ids": [
+        "I219",
+        "I264",
+        "I218",
+        "I220",
+        "I274",
+        "I277"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1910_frederick-carrie-doris-andrew-marsh_us-census.jpg"
+      ],
+      "sha256": "88afa43f7bb90fc8248f9158ccae50b081e820e9e690022c2ec446434ce47bf4"
+    },
+    {
+      "evidence_id": "E033",
+      "media_type": "image",
+      "file_path": "records/1910_henry-madie-charles-vollmer_us-census.jpg",
+      "filename": "1910_henry-madie-charles-vollmer_us-census.jpg",
+      "title": "1910 Henry, Metha, and Charles Vollmer household census",
+      "ledger_refs": [
+        "S05",
+        "S11"
+      ],
+      "person_ids": [
+        "I208",
+        "I211",
+        "I207"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1910_henry-madie-charles-vollmer_us-census.jpg"
+      ],
+      "sha256": "5506a666f811c403bc06da8594751a45791c6f2f60ec7d61bf02be7d70f5bade"
+    },
+    {
+      "evidence_id": "E034",
+      "media_type": "pdf",
+      "file_path": "records/1917-03-10_frederick-g-vollmer_death-certificate.pdf",
+      "filename": "1917-03-10_frederick-g-vollmer_death-certificate.pdf",
+      "title": "Frederick Gottlieb Heinrich Vollmer death certificate",
+      "ledger_refs": [
+        "S35"
+      ],
+      "person_ids": [
+        "I282",
+        "I209",
+        "I210"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "New York City Municipal Archives",
+        "Ancestry"
+      ],
+      "page_count": 2,
+      "preview_paths": [
+        "record-previews/1917-03-10_frederick-g-vollmer_death-certificate-1.jpg",
+        "record-previews/1917-03-10_frederick-g-vollmer_death-certificate-2.jpg"
+      ],
+      "sha256": "eb970b4f9f3954c566fe8b3cd5d245162172d247dfc39f93aec396307c88bfc1"
+    },
+    {
+      "evidence_id": "E035",
+      "media_type": "image",
+      "file_path": "records/1918_henry-john-joseph-volmer_wwi-draft-card.jpg",
+      "filename": "1918_henry-john-joseph-volmer_wwi-draft-card.jpg",
+      "title": "Henry John Joseph Vollmer First World War draft card",
+      "ledger_refs": [
+        "S10"
+      ],
+      "person_ids": [
+        "I208"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1918_henry-john-joseph-volmer_wwi-draft-card.jpg"
+      ],
+      "sha256": "6a929ffb761b504b27bc2cdf2f905fc2ea0b7351cd0554fdd8f38256494367f6"
+    },
+    {
+      "evidence_id": "E036",
+      "media_type": "pdf",
+      "file_path": "records/1919-01-03_madie-vollmer_death-certificate.pdf",
+      "filename": "1919-01-03_madie-vollmer_death-certificate.pdf",
+      "title": "Identity control: Madie Vollmer death certificate (not Metha)",
+      "ledger_refs": [
+        "S13",
+        "VD-R01"
+      ],
+      "person_ids": [
+        "I208",
+        "I211"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "excluded_identity_control",
+      "note": "The certificate belongs to Henry’s later wife Martha/Madie Desselberg and must not be used as Metha Peper Vollmer’s death record.",
+      "source_platforms": [
+        "New York City Municipal Archives"
+      ],
+      "page_count": 2,
+      "preview_paths": [
+        "record-previews/1919-01-03_madie-vollmer_death-certificate-1.jpg",
+        "record-previews/1919-01-03_madie-vollmer_death-certificate-2.jpg"
+      ],
+      "sha256": "8f8be8c3cb340d5032a2d61e4ed5b578e782c0176054592aee8e48abe1174734"
+    },
+    {
+      "evidence_id": "E037",
+      "media_type": "image",
+      "file_path": "records/1919-12-17_mary-mcnaughton_ny-death-index.jpg",
+      "filename": "1919-12-17_mary-mcnaughton_ny-death-index.jpg",
+      "title": "Mary A McNaughton New York death index",
+      "ledger_refs": [
+        "S40"
+      ],
+      "person_ids": [
+        "I268"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "New York State"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1919-12-17_mary-mcnaughton_ny-death-index.jpg"
+      ],
+      "sha256": "2ccad7fd75e95b52575500ee7ff48c3285db4b0d6680654727bf58c704044b3d"
+    },
+    {
+      "evidence_id": "E038",
+      "media_type": "image",
+      "file_path": "records/1940-10-16_charles-frederick-vollmer_wwii-draft-card.jpg",
+      "filename": "1940-10-16_charles-frederick-vollmer_wwii-draft-card.jpg",
+      "title": "Charles Frederic Vollmer Second World War draft card",
+      "ledger_refs": [
+        "S02"
+      ],
+      "person_ids": [
+        "I207"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1940-10-16_charles-frederick-vollmer_wwii-draft-card.jpg"
+      ],
+      "sha256": "e755e1f176b897bc6ea96a2ad3bf6697b9634d65f315c438ebefa97638897160"
+    },
+    {
+      "evidence_id": "E039",
+      "media_type": "image",
+      "file_path": "records/1940_charles-doris-henry-vollmer_us-census.jpg",
+      "filename": "1940_charles-doris-henry-vollmer_us-census.jpg",
+      "title": "1940 Charles and Doris Vollmer household census",
+      "ledger_refs": [
+        "S01",
+        "EF-S01"
+      ],
+      "person_ids": [
+        "I207",
+        "I218",
+        "I176",
+        "I269"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1940_charles-doris-henry-vollmer_us-census.jpg"
+      ],
+      "sha256": "408d8f6dd3a769e32af16d8cc59f762113000942a482dafa1b9ea01431c71ebb"
+    },
+    {
+      "evidence_id": "E040",
+      "media_type": "image",
+      "file_path": "records/1950_william-alice-mary-thoren_us-census.jpg",
+      "filename": "1950_william-alice-mary-thoren_us-census.jpg",
+      "title": "1950 William, Alice, and Mary Alice Thoren household census",
+      "ledger_refs": [
+        "S32"
+      ],
+      "person_ids": [
+        "I336",
+        "I337",
+        "I334"
+      ],
+      "canonical_source_refs": [
+        "S32"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "NARA",
+        "1950 Census"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1950_william-alice-mary-thoren_us-census.jpg"
+      ],
+      "sha256": "f7e7dde0bcc80447fef0ed66c9699bf2477115f8ea97a2d464724c28c4bb7db5"
+    },
+    {
+      "evidence_id": "E041",
+      "media_type": "pdf",
+      "file_path": "records/giles-hopkins_17th-century-records_pilgrim-hall.pdf",
+      "filename": "giles-hopkins_17th-century-records_pilgrim-hall.pdf",
+      "title": "Giles Hopkins: seventeenth-century records",
+      "ledger_refs": [
+        "S67"
+      ],
+      "person_ids": [
+        "I251",
+        "I254",
+        "I255",
+        "I248"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Pilgrim Hall Museum"
+      ],
+      "page_count": 6,
+      "preview_paths": [
+        "record-previews/giles-hopkins_17th-century-records_pilgrim-hall-1.jpg",
+        "record-previews/giles-hopkins_17th-century-records_pilgrim-hall-2.jpg",
+        "record-previews/giles-hopkins_17th-century-records_pilgrim-hall-3.jpg",
+        "record-previews/giles-hopkins_17th-century-records_pilgrim-hall-4.jpg",
+        "record-previews/giles-hopkins_17th-century-records_pilgrim-hall-5.jpg",
+        "record-previews/giles-hopkins_17th-century-records_pilgrim-hall-6.jpg"
+      ],
+      "sha256": "1dbca70bd43b7dd62a3e12bc3b9ee230d8baa0dd37b80cc53ab48ec757763e01"
+    },
+    {
+      "evidence_id": "E042",
+      "media_type": "pdf",
+      "file_path": "records/plymouth-colony-records-vol1_1639-marriage.pdf",
+      "filename": "plymouth-colony-records-vol1_1639-marriage.pdf",
+      "title": "Plymouth Colony record: Richard Knowles and Ruth Bower marriage",
+      "ledger_refs": [
+        "S63"
+      ],
+      "person_ids": [
+        "I260",
+        "I261"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "The attached preview is PDF page 151, printed page 129, containing the marriage entry.",
+      "source_platforms": [
+        "Wikimedia Commons",
+        "Plymouth Colony Records"
+      ],
+      "page_count": 434,
+      "preview_paths": [
+        "record-previews/plymouth-colony-records-vol1_1639-marriage-151.jpg"
+      ],
+      "sha256": "243bba40de735bf7deedf4046c40f190526cb1c5cc891ef97a348248067d6cbd"
+    },
+    {
+      "evidence_id": "E043",
+      "media_type": "image",
+      "file_path": "records/relief-mcnaughton_mother-pension-index.jpg",
+      "filename": "relief-mcnaughton_mother-pension-index.jpg",
+      "title": "Relief McNaughton dependent-mother pension index",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I267"
+      ],
+      "canonical_source_refs": [
+        "S26"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/relief-mcnaughton_mother-pension-index.jpg"
+      ],
+      "sha256": "4c481d5447084325803d01ea3fb19e1485b4d96fd24cc06c3c83ed32580e90f7"
+    }
+  ],
+  "external_evidence_checks": [
+    {
+      "person_id": "I355",
+      "platform": "Newspapers.com via Ancestry",
+      "url": "https://www.ancestry.com/search/collections/61843/records/668386200",
+      "status": "index_verified_image_not_archived",
+      "note": "The obituary index supplies Peter Vollmer’s exact dates and family links; no licensed clipping image was available to preserve."
+    },
+    {
+      "person_id": "I219",
+      "platform": "Newspapers.com via Ancestry",
+      "url": "https://www.ancestry.com/search/collections/61843/records/4961110",
+      "status": "index_verified_image_access_blocked",
+      "note": "The Frederick Heath Marsh obituary index was retained as a moderate lead; the publisher verification page blocked the original newspaper image."
+    },
+    {
+      "person_id": "I268",
+      "platform": "Newspapers.com via Ancestry",
+      "url": "",
+      "status": "no_exact_match",
+      "note": "Exact and relaxed searches found no Caledonia or Livingston County obituary for Mary A McNaughton."
+    }
+  ]
+}

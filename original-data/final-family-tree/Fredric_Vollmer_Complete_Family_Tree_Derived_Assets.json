@@ -18,7 +18,10 @@
       "documentation": "original-data/family-migration-map/README.md",
       "validation": "original-data/family-migration-map/validate_migration_data.py",
       "generated": "2026-09-02",
-      "year_extent": [1549, 2021],
+      "year_extent": [
+        1549,
+        2021
+      ],
       "counts": {
         "locations": 129,
         "resolved_locations": 105,
@@ -41,6 +44,30 @@
         "README.md": "e72efb46f7737d3f1c706711ba9a06869c63afad9c948f4f9cfba005cd40cd03",
         "validate_migration_data.py": "700e8396a1ac59434889c04ea4c544ca98f0535f4ddc5ed3b2a0440ecfbedffe"
       }
+    },
+    {
+      "asset_id": "family-media-audit",
+      "title": "Person-photo coverage and preserved evidence-media catalog",
+      "status": "approved",
+      "primary_data": "original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Media_Audit.json",
+      "inventory": "original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Media_Inventory.csv",
+      "evidence_directory": "original-data/final-family-tree/records",
+      "preview_directory": "original-data/final-family-tree/record-previews",
+      "generated": "2026-09-02",
+      "counts": {
+        "audited": "2026-09-02",
+        "people_audited": 328,
+        "portraits_archived": 0,
+        "external_photo_pages": 2,
+        "privacy_withheld": 2,
+        "no_verified_photo_archived": 324,
+        "evidence_files": 43,
+        "evidence_images": 34,
+        "evidence_pdfs": 9,
+        "pdf_preview_images": 18,
+        "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
+      },
+      "interpretation": "Portrait status records verified availability, not likeness inference. Evidence mappings are explicit; excluded identity controls remain visibly marked and do not alter relationships."
     }
   ]
 }

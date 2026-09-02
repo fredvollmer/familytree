@@ -13,6 +13,7 @@ This ledger aggregates the recovered maternal canonical package, the later Vollm
 
 - **Vital-date enrichment** — audited every canonical person, restored dropped project facts, added supported dates or conservative ranges, and classified every remaining gap as unresolved or privacy-limited.
 - **Occupation and role enrichment** — reviewed Ancestry records in the signed-in browser, reconciled results to canonical people, preserved dated occupational changes, and classified every person without a supported fact.
+- **Photo and evidence media audit** — audited all 328 canonical people for verified portrait availability, linked external photo pages without copying restricted files, explicitly mapped all preserved record media to people, rendered relevant PDF pages, and retained identity exclusions.
 
 ## GEDCOM source catalog
 
@@ -1112,3 +1113,24 @@ The complete, row-level research ledger is `Fredric_Vollmer_Complete_Family_Tree
 - Source: Local-history teacher list — <original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Sources.md>
 - Evidence: A local-history list mentions teacher Marion E Croft, but no record connects that married identity to Carrie McNaughton's sister.
 - Conflict/control: Do not assign this occupation unless the identity is proved.
+
+---
+
+## Photo and evidence media audit — 2 September 2026
+
+The machine-readable audit is `Fredric_Vollmer_Complete_Family_Tree_Media_Audit.json`; its flat review table is `Fredric_Vollmer_Complete_Family_Tree_Media_Inventory.csv` and the synchronized workbook tab is **Media Audit**. Every one of the 328 canonical people has a portrait outcome. No portrait file was already archived in the repository. Two external photo pages were located and retained as links, two explicitly living people are privacy-withheld, and 324 people have no verified portrait archived. This is an availability finding, not evidence that no photograph exists.
+
+### Verified external photo pages
+
+- **Arthur Herman Muller (I005):** the accepted OCC-001 ledger already records an Ancestry member photograph whose caption identifies him as a General Motors engineer. The account-gated image page is <https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-01890-00597?pid=79840169>. The file was not copied because reuse rights were not established.
+- **Philip Brooks McCormick (I193):** the exact-identity obituary page is <https://www.legacy.com/obituaries/name/philip-mccormick-obituary?pid=198128174> and includes a portrait area. The external obituary image was not copied into the repository.
+
+### Newspapers.com controls
+
+- **Peter Vollmer (I355):** the U.S., Newspapers.com Obituary Index record at <https://www.ancestry.com/search/collections/61843/records/668386200> supplies exact dates and family links. No licensed clipping image was available to preserve.
+- **Frederick Heath Marsh (I219):** the obituary index at <https://www.ancestry.com/search/collections/61843/records/4961110> remains a moderate derivative lead. The publisher verification page blocked the original newspaper image, so no clipping was copied.
+- **Mary A McNaughton (I268):** exact and relaxed Newspapers.com index searches found no matching Caledonia or Livingston County obituary. This negative result does not prove that no notice was published.
+
+### Preserved evidence attachments
+
+All 43 preserved source files are now attached to GEDCOM source records and cataloged with exact canonical person IDs: 34 images and nine PDFs. The PDFs retain their originals and add 18 relevant page-image previews in `record-previews/`. Two files remain visibly marked as identity controls rather than supporting evidence: the excluded 1892 Henry Vollmer household and the 1919 Madie Vollmer death certificate that does not belong to Metha Peper Vollmer. The passenger manifest’s unresolved adjacency and the unnamed Pepper child’s identification uncertainty also remain explicit.

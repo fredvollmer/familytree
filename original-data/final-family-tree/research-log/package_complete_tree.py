@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import json
 import zipfile
 from pathlib import Path
 
@@ -15,6 +16,7 @@ ARCHIVE = PROJECT / "original-data" / f"{PREFIX}_Package.zip"
 ARCHIVE_ROOT = f"{PREFIX}_Package"
 VITAL_COVERAGE = PACKAGE / f"{PREFIX}_Vital_Date_Coverage.csv"
 OCCUPATION_COVERAGE = PACKAGE / f"{PREFIX}_Occupation_Coverage.csv"
+MEDIA_AUDIT = PACKAGE / f"{PREFIX}_Media_Audit.json"
 
 
 def included(path: Path) -> bool:
@@ -47,11 +49,14 @@ no_date_outcomes = sum(
 )
 occupation_people = sum(row["status"] == "recorded" for row in occupation_rows)
 occupation_events = sum(int(row["event_count"]) for row in occupation_rows)
+media = json.loads(MEDIA_AUDIT.read_text(encoding="utf-8"))
+media_counts = media["metadata"]
+gedcom_multimedia = (PACKAGE / f"{PREFIX}.ged").read_text(encoding="utf-8").count("\n1 OBJE\n")
 
 validation_text = VALIDATION.read_text(encoding="utf-8")
 validation_text = validation_text.split("workbook sheets:", 1)[0].rstrip() + "\n"
 validation_text += (
-    "workbook sheets: 14\n"
+    "workbook sheets: 15\n"
     "workbook formula errors: 0\n"
     "workbook consolidated individual count: 328\n"
     "workbook consolidated family count: 155\n"
@@ -63,6 +68,15 @@ validation_text += (
     f"workbook no dated event unresolved or private: {no_date_outcomes}\n"
     f"workbook people with recorded occupations or roles: {occupation_people}\n"
     f"workbook accepted occupation or role events: {occupation_events}\n"
+    f"workbook media audit rows: {len(media['people']) + len(media['evidence']) + len(media['external_evidence_checks'])}\n"
+    f"media audit people: {media_counts['people_audited']}\n"
+    f"external photo pages located: {media_counts['external_photo_pages']}\n"
+    f"locally archived portraits: {media_counts['portraits_archived']}\n"
+    f"preserved evidence files: {media_counts['evidence_files']}\n"
+    f"preserved evidence images: {media_counts['evidence_images']}\n"
+    f"preserved evidence PDFs: {media_counts['evidence_pdfs']}\n"
+    f"PDF evidence preview images: {media_counts['pdf_preview_images']}\n"
+    f"GEDCOM multimedia attachments: {gedcom_multimedia}\n"
 )
 VALIDATION.write_text(validation_text, encoding="utf-8")
 

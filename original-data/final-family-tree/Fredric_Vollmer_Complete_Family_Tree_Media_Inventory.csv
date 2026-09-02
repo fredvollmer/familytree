@@ -1,0 +1,375 @@
+row_type,id,name_or_title,portrait_status_or_evidence_status,portrait_or_file_path,external_url,person_ids,evidence_ids,source_refs,ledger_refs,preview_paths,rights_or_note
+person,I001,Fredric Muller Vollmer,privacy_withheld,,,I001,,,,,Living-person privacy applies. No portrait is displayed because the person is living.
+person,I002,Jan Muller Vollmer,privacy_withheld,,,I002,,,,,Living-person privacy applies. No portrait is displayed because the person is living.
+person,I003,Arthur John Muller,no_verified_photo_archived,,,I003,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I004,Anne Rives McCormick Muller,no_verified_photo_archived,,,I004,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I005,Arthur Herman Muller,external_photo_page,,https://www.ancestry.com/imageviewer/collections/2442/images/M-T0627-01890-00597?pid=79840169,I005,,S48,,,"External, account-gated image; not copied into the repository. The canonical occupation ledger records an attached member photograph whose caption identifies Arthur Herman Muller as a General Motors engineer."
+person,I006,Elma Anna Lee Muller,no_verified_photo_archived,,,I006,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I007,Charles Ellsworth McCormick II,no_verified_photo_archived,,,I007,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I008,Eloise Alcyone Slaughter McCormick,no_verified_photo_archived,,,I008,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I009,Christian August Vollrath Muller,no_verified_photo_archived,,,I009,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I010,Henrietta Kleitz,no_verified_photo_archived,,,I010,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I013,Elmer Ellsworth Lee,no_verified_photo_archived,,,I013,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I014,Mary Wilhelmina Ohmer,no_verified_photo_archived,,,I014,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I017,Lorenz Muller,no_verified_photo_archived,,,I017,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I018,Pauline Vollrath,no_verified_photo_archived,,,I018,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I019,Lambert Kleitz,no_verified_photo_archived,,,I019,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I020,Elizabeth Wüst,no_verified_photo_archived,,,I020,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I021,Jacob Wüst,no_verified_photo_archived,,,I021,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I022,Hubbard Stone Lee,no_verified_photo_archived,,,I022,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I023,Sarah M. Willitts,no_verified_photo_archived,,,I023,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I024,Elon Lee,no_verified_photo_archived,,,I024,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I025,Grace Stone,no_verified_photo_archived,,,I025,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I026,William Lee,no_verified_photo_archived,,,I026,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I027,Eunice Hotchkiss,no_verified_photo_archived,,,I027,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I028,John Evarts Stone,no_verified_photo_archived,,,I028,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I029,Eunice Goldsmith,no_verified_photo_archived,,,I029,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I030,Ebenezer Lee,no_verified_photo_archived,,,I030,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I031,Sarah Chidsey,no_verified_photo_archived,,,I031,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I032,Mark Hotchkiss,no_verified_photo_archived,,,I032,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I033,Miriam Lee,no_verified_photo_archived,,,I033,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I034,Asher Stone,no_verified_photo_archived,,,I034,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I035,Carine Ward,no_verified_photo_archived,,,I035,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I036,Edward Lee,no_verified_photo_archived,,,I036,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I037,Abigail Stevens,no_verified_photo_archived,,,I037,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I038,Joseph Chidsey,no_verified_photo_archived,,,I038,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I039,Joseph Hotchkiss,no_verified_photo_archived,,,I039,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I040,Hannah Cruttenden,no_verified_photo_archived,,,I040,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I041,Caleb Stone Jr.,no_verified_photo_archived,,,I041,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I042,Rebecca Evarts,no_verified_photo_archived,,,I042,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I043,William Ward,no_verified_photo_archived,,,I043,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I044,Abigail Crampton,no_verified_photo_archived,,,I044,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I045,Thomas Stevens,no_verified_photo_archived,,,I045,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I046,John Hotchkiss,no_verified_photo_archived,,,I046,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I047,Elizabeth Peck,no_verified_photo_archived,,,I047,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I048,Isaac Cruttenden,no_verified_photo_archived,,,I048,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I049,Lydia Thompson,no_verified_photo_archived,,,I049,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I050,Caleb Stone,no_verified_photo_archived,,,I050,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I051,Sarah Meigs,no_verified_photo_archived,,,I051,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I052,James Evarts,no_verified_photo_archived,,,I052,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I053,William Ward,no_verified_photo_archived,,,I053,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I054,Lettice Beach,no_verified_photo_archived,,,I054,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I055,John Crampton,no_verified_photo_archived,,,I055,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I056,Hannah Evarts,no_verified_photo_archived,,,I056,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I057,Samuel Hotchkiss,no_verified_photo_archived,,,I057,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I058,Elizabeth Cleverly,no_verified_photo_archived,,,I058,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I059,Abraham Cruttenden,no_verified_photo_archived,,,I059,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I060,Mary,no_verified_photo_archived,,,I060,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I061,Anthony Thompson,no_verified_photo_archived,,,I061,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I062,Katherine,no_verified_photo_archived,,,I062,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I063,Nathaniel Stone,no_verified_photo_archived,,,I063,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I064,Mary Bartlett,no_verified_photo_archived,,,I064,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I065,John Meigs,no_verified_photo_archived,,,I065,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I066,Sarah Wilcockson,no_verified_photo_archived,,,I066,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I067,Daniel Evarts,no_verified_photo_archived,,,I067,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I068,Rebecca Dowd,no_verified_photo_archived,,,I068,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I069,Andrew Ward Jr.,no_verified_photo_archived,,,I069,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I070,Trial Meigs,no_verified_photo_archived,,,I070,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I071,John Beach,no_verified_photo_archived,,,I071,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I072,Mary Royce,no_verified_photo_archived,,,I072,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I073,John Stone,no_verified_photo_archived,,,I073,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I074,Mary,no_verified_photo_archived,,,I074,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I075,Vincent Meigs,no_verified_photo_archived,,,I075,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I076,Tamasin Fry,no_verified_photo_archived,,,I076,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I077,William Wilcockson,no_verified_photo_archived,,,I077,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I078,Margaret Harvey,no_verified_photo_archived,,,I078,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I079,John Evarts,no_verified_photo_archived,,,I079,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I080,Elizabeth,no_verified_photo_archived,,,I080,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I081,Henry Dowd,no_verified_photo_archived,,,I081,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I082,Andrew Ward,no_verified_photo_archived,,,I082,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I083,Hester Sherman,no_verified_photo_archived,,,I083,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I084,Thomas Beach,no_verified_photo_archived,,,I084,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I085,Sarah Platt,no_verified_photo_archived,,,I085,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I086,Jonathan Royce,no_verified_photo_archived,,,I086,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I087,Ann Spinning,no_verified_photo_archived,,,I087,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I088,James Harvey,no_verified_photo_archived,,,I088,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I089,Edmund Sherman,no_verified_photo_archived,,,I089,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I090,Grace Makin,no_verified_photo_archived,,,I090,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I091,Unknown Beach,no_verified_photo_archived,,,I091,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I092,Richard Platt,no_verified_photo_archived,,,I092,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I093,Mary Wood,no_verified_photo_archived,,,I093,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I094,Robert Royce,no_verified_photo_archived,,,I094,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I095,Mary,no_verified_photo_archived,,,I095,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I096,Humphrey Spinning,no_verified_photo_archived,,,I096,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I097,Edmund Sherman,no_verified_photo_archived,,,I097,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I098,Anne Pellett,no_verified_photo_archived,,,I098,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I099,Tobias Makin,no_verified_photo_archived,,,I099,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I100,Katherine Westbrome,no_verified_photo_archived,,,I100,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I101,George Platt,no_verified_photo_archived,,,I101,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I102,Mary,no_verified_photo_archived,,,I102,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I103,John Wood,no_verified_photo_archived,,,I103,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I104,Jane,no_verified_photo_archived,,,I104,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I105,Henry Sherman,no_verified_photo_archived,,,I105,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I106,Agnes,no_verified_photo_archived,,,I106,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I107,William Pellett,no_verified_photo_archived,,,I107,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I108,John Makin,no_verified_photo_archived,,,I108,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I109,Agnes,no_verified_photo_archived,,,I109,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I110,Thomas Westbrome,no_verified_photo_archived,,,I110,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I111,Elizabeth,no_verified_photo_archived,,,I111,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I112,Simon Platt,no_verified_photo_archived,,,I112,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I113,Elizabeth,no_verified_photo_archived,,,I113,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I114,Charles Ellsworth McCormick I,no_verified_photo_archived,,,I114,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I115,Mary Moore Brooks,no_verified_photo_archived,,,I115,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I116,Edward H. McCormick,no_verified_photo_archived,,,I116,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I117,Martha Ann Annie O’Brien,no_verified_photo_archived,,,I117,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I118,Charles McCormick,no_verified_photo_archived,,,I118,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I119,Elizabeth McCormick,no_verified_photo_archived,,,I119,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I120,Abram Field Brooks,no_verified_photo_archived,,,I120,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I121,Mary P. Mollie Moore,no_verified_photo_archived,,,I121,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I122,Solomon Neal Brooks,no_verified_photo_archived,,,I122,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I123,Elizabeth Field,no_verified_photo_archived,,,I123,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I124,Christopher O’Brien,no_verified_photo_archived,,,I124,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I125,Sophronia Simmons,no_verified_photo_archived,,,I125,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I126,Joseph Anderson Brooks,no_verified_photo_archived,,,I126,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I127,Joseph Brooks,no_verified_photo_archived,,,I127,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I128,Abram Field,no_verified_photo_archived,,,I128,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I129,Elizabeth Simmons,no_verified_photo_archived,,,I129,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I130,Isaac Bush Slaughter Sr.,no_verified_photo_archived,,,I130,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I131,Lula Arnelia Rives,no_verified_photo_archived,,,I131,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I132,Nancy Brooks,no_verified_photo_archived,,,I132,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I133,John Wesley Slaughter,no_verified_photo_archived,,,I133,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I134,Sarah C. Bush,no_verified_photo_archived,,,I134,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I135,Robert Calhoun Rives,no_verified_photo_archived,,,I135,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I136,Florence Estelle Agee,no_verified_photo_archived,,,I136,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I137,Robert Rives,no_verified_photo_archived,,,I137,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I138,Amelia Harrison,no_verified_photo_archived,,,I138,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I139,Green Rives,no_verified_photo_archived,,,I139,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I140,Mary Ridley Jones,no_verified_photo_archived,,,I140,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I141,William Rives,no_verified_photo_archived,,,I141,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I142,Lucy Wyche,no_verified_photo_archived,,,I142,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I143,Timothy Rives,no_verified_photo_archived,,,I143,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I144,Hester Rives,no_verified_photo_archived,,,I144,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I145,Darling Jones,no_verified_photo_archived,,,I145,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I146,Susannah Jones,no_verified_photo_archived,,,I146,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I147,William Harrison,no_verified_photo_archived,,,I147,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I148,Ann Perry,no_verified_photo_archived,,,I148,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I149,Col. William Rives,no_verified_photo_archived,,,I149,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I150,Elizabeth Rives,no_verified_photo_archived,,,I150,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I151,George Rives,no_verified_photo_archived,,,I151,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I152,Peter Wyche,no_verified_photo_archived,,,I152,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I153,Alice Wyche,no_verified_photo_archived,,,I153,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I154,William Raiford Agee,no_verified_photo_archived,,,I154,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I155,Elvina Hill,no_verified_photo_archived,,,I155,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I157,William Rives,no_verified_photo_archived,,,I157,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I158,Reuben Harrison,no_verified_photo_archived,,,I158,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I159,Nancy Harrison,no_verified_photo_archived,,,I159,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I160,James Perry,no_verified_photo_archived,,,I160,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I161,Noah Agee,no_verified_photo_archived,,,I161,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I162,Martha Mask,no_verified_photo_archived,,,I162,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I163,William Hill,no_verified_photo_archived,,,I163,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I164,James Agee,no_verified_photo_archived,,,I164,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I165,Mary Ford,no_verified_photo_archived,,,I165,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I166,Mathieu Agee,no_verified_photo_archived,,,I166,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I167,Ann Godwin,no_verified_photo_archived,,,I167,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I168,James Ford,no_verified_photo_archived,,,I168,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I169,Ann Bondurant,no_verified_photo_archived,,,I169,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I170,Isaac Godwin,no_verified_photo_archived,,,I170,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I171,Ann Godwin,no_verified_photo_archived,,,I171,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I172,Anthony Agee,no_verified_photo_archived,,,I172,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I173,Judith Chastain,no_verified_photo_archived,,,I173,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I174,Jean Pierre John Peter Bondurant,no_verified_photo_archived,,,I174,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I175,Arianna Lynn Annie Vollmer,no_verified_photo_archived,,,I175,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I176,Henry Richard Vollmer,no_verified_photo_archived,,,I176,E039,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I177,Bruce Eric Muller,no_verified_photo_archived,,,I177,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I178,Mary Gene Muller Chaffee,no_verified_photo_archived,,,I178,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I179,Elmer James Chaffee Jr,no_verified_photo_archived,,,I179,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I180,Linda Chaffee,no_verified_photo_archived,,,I180,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I181,Lori Chaffee Mettler,no_verified_photo_archived,,,I181,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I182,James Chaffee,no_verified_photo_archived,,,I182,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I183,Jane Lee Muller Swick,no_verified_photo_archived,,,I183,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I184,Howard Swick,no_verified_photo_archived,,,I184,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I185,Kathy Swick Werblo,no_verified_photo_archived,,,I185,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I186,Dave Werblo,no_verified_photo_archived,,,I186,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I187,John Swick,no_verified_photo_archived,,,I187,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I188,Celeste,no_verified_photo_archived,,,I188,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I189,Susan Sue Swick Galbraith,no_verified_photo_archived,,,I189,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I190,Gordon Galbraith,no_verified_photo_archived,,,I190,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I191,Patti Swick,no_verified_photo_archived,,,I191,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I192,Rick Lilly,no_verified_photo_archived,,,I192,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I193,Philip Brooks McCormick,external_photo_page,,https://www.legacy.com/obituaries/name/philip-mccormick-obituary?pid=198128174,I193,,S27;S46,,,External obituary image; not copied into the repository. The exact-name obituary page is the verified external page associated with Philip Brooks McCormick and includes a portrait area.
+person,I194,Elizabeth Betsy Ross McCormick,no_verified_photo_archived,,,I194,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I195,Sandy McCormick Hill,no_verified_photo_archived,,,I195,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I196,John Hill,no_verified_photo_archived,,,I196,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I197,Ross McCormick,no_verified_photo_archived,,,I197,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I198,Carrie McCormick,no_verified_photo_archived,,,I198,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I199,Tina McCormick,no_verified_photo_archived,,,I199,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I200,Charles McCormick,no_verified_photo_archived,,,I200,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I201,Judy McCormick,no_verified_photo_archived,,,I201,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I202,Gwendolyn Gwen McCormick Hull,no_verified_photo_archived,,,I202,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I203,Jim Hull,no_verified_photo_archived,,,I203,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I204,Carey Zaura,no_verified_photo_archived,,,I204,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I205,Mark Hull,no_verified_photo_archived,,,I205,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I207,Charles Frederic Vollmer,no_verified_photo_archived,,,I207,E033;E038;E039,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I208,Henry John Joseph Vollmer,no_verified_photo_archived,,,I208,E023;E024;E031;E033;E035;E036,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I209,Frederick Gottlieb Vollmer,no_verified_photo_archived,,,I209,E031;E034,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I210,Mary Kalwiet,no_verified_photo_archived,,,I210,E031;E034,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I211,Metha Peper Vollmer,no_verified_photo_archived,,,I211,E026;E031;E033;E036,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I212,George Peper,no_verified_photo_archived,,,I212,E025;E026;E031,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I213,Anna Sophie Stelling Peper,no_verified_photo_archived,,,I213,E025;E026;E031,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I214,Peter Peper,no_verified_photo_archived,,,I214,E025,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I215,Meta Francke,no_verified_photo_archived,,,I215,E025,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I216,Charles Stelling,no_verified_photo_archived,,,I216,E025,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I217,Catharine Ahrens,no_verified_photo_archived,,,I217,E025,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I218,Doris Josephine Marsh Vollmer,no_verified_photo_archived,,,I218,E032;E039,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I219,Frederick Heath Marsh,no_verified_photo_archived,,,I219,E032,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I220,Andrew J Marsh,no_verified_photo_archived,,,I220,E032,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I221,Malachi Marsh,no_verified_photo_archived,,,I221,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I222,Mary Lane Marsh,no_verified_photo_archived,,,I222,E017,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I223,Stephen Lane,no_verified_photo_archived,,,I223,E012;E016;E018;E019,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I224,Lois Currier Lane,no_verified_photo_archived,,,I224,E016;E018;E019,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I225,Joshua Lane,no_verified_photo_archived,,,I225,E010;E011;E012,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I226,Hannah Tilton Lane,no_verified_photo_archived,,,I226,E011;E012,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I227,Samuel Lane,no_verified_photo_archived,,,I227,E007;E009;E010,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I228,Mary James Lane,no_verified_photo_archived,,,I228,E008;E009;E010,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I229,Joshua Lane,no_verified_photo_archived,,,I229,E005;E006;E007,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I230,Bathsheba Robie Lane,no_verified_photo_archived,,,I230,E006;E007,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I231,Benjamin James,no_verified_photo_archived,,,I231,E008,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I232,Susanna James,no_verified_photo_archived,,,I232,E008,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I233,William Lane,no_verified_photo_archived,,,I233,E005,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I234,Sarah Lane,no_verified_photo_archived,,,I234,E005,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I235,Amelia Whitney Marsh,no_verified_photo_archived,,,I235,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I236,Alvin L Whitney,no_verified_photo_archived,,,I236,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I237,James Whitney,no_verified_photo_archived,,,I237,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I238,Betsey Cook Whitney,no_verified_photo_archived,,,I238,E020,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I239,Levi Cook,no_verified_photo_archived,,,I239,E013;E015;E020,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I240,Betsey Brown Cook,no_verified_photo_archived,,,I240,E014;E015,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I241,Hezekiah Cook,no_verified_photo_archived,,,I241,E013,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I242,Lydia Cook,no_verified_photo_archived,,,I242,E013,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I243,Perez Brown,no_verified_photo_archived,,,I243,E014,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I244,Betty Brown,no_verified_photo_archived,,,I244,E014,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I245,Joshua Cooke,no_verified_photo_archived,,,I245,E003,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I246,Patience Doane,no_verified_photo_archived,,,I246,E004;E030,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I247,Josiah Cooke,no_verified_photo_archived,,,I247,E003,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I248,Deborah Hopkins Cooke,no_verified_photo_archived,,,I248,E001;E003;E041,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I249,Ephraim Doane,no_verified_photo_archived,,,I249,E002;E004;E029;E030,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I250,Mary Knowles Doane,no_verified_photo_archived,,,I250,E002;E004;E030,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I251,Giles Hopkins,no_verified_photo_archived,,,I251,E001;E041,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I252,Josiah Cooke Sr.,no_verified_photo_archived,,,I252,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I253,Elizabeth Ring Cooke,no_verified_photo_archived,,,I253,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I254,Catherine Whelden Hopkins,no_verified_photo_archived,,,I254,E041,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I255,Stephen Hopkins,no_verified_photo_archived,,,I255,E041,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I256,Mary Hopkins,no_verified_photo_archived,,,I256,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I257,Gabriel Whelden,no_verified_photo_archived,,,I257,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I258,John Doane,no_verified_photo_archived,,,I258,E029,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I259,Ann Doane,no_verified_photo_archived,,,I259,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I260,Richard Knowles,no_verified_photo_archived,,,I260,E042,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I261,Ruth Bower Knowles,no_verified_photo_archived,,,I261,E042,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I262,George Bower,no_verified_photo_archived,,,I262,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I263,Barbara Bower,no_verified_photo_archived,,,I263,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I264,Carrie E McNaughton Marsh,no_verified_photo_archived,,,I264,E032,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I265,Peter William McNaughton,no_verified_photo_archived,,,I265,E021;E028,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I266,William McNaughton,no_verified_photo_archived,,,I266,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I267,Relief Gibbs McNaughton,no_verified_photo_archived,,,I267,E022;E043,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I268,Mary A McNaughton,no_verified_photo_archived,,,I268,E028;E037,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I269,Doris Ann Vollmer,no_verified_photo_archived,,,I269,E039,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I270,Marie Anna Vollmer Seeley,no_verified_photo_archived,,,I270,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I271,Lester Allan Seeley,no_verified_photo_archived,,,I271,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I272,James Seeley,no_verified_photo_archived,,,I272,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I273,John Seeley,no_verified_photo_archived,,,I273,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I274,Mildred E Marsh Gutelius,no_verified_photo_archived,,,I274,E032,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I275,Harry K Gutelius,no_verified_photo_archived,,,I275,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I276,Eileen Gutelius Eaton,no_verified_photo_archived,,,I276,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I277,Ronald McNaughton Marsh,no_verified_photo_archived,,,I277,E032,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I278,Eva C St Martin Marsh,no_verified_photo_archived,,,I278,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I279,Dorothy Jane Marsh Kidwell,no_verified_photo_archived,,,I279,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I280,Robert James Marsh,no_verified_photo_archived,,,I280,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I281,Ronald Louis Marsh,no_verified_photo_archived,,,I281,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I282,Frederick Gottlieb Heinrich Vollmer,no_verified_photo_archived,,,I282,E034,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I283,Charles Marsh,no_verified_photo_archived,,,I283,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I284,Marion McNaughton,no_verified_photo_archived,,,I284,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I285,Elizabeth McNaughton Pullyblank,no_verified_photo_archived,,,I285,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I286,John C Pullyblank,no_verified_photo_archived,,,I286,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I287,MacNaughton Pullyblank,no_verified_photo_archived,,,I287,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I288,Floyd W Pullyblank,no_verified_photo_archived,,,I288,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I289,Ola L Pullyblank,no_verified_photo_archived,,,I289,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I290,Willard R Pullyblank,no_verified_photo_archived,,,I290,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I291,John W Pullyblank,no_verified_photo_archived,,,I291,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I292,Ruby J Pullyblank,no_verified_photo_archived,,,I292,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I293,Helen E Pullyblank,no_verified_photo_archived,,,I293,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I294,Lulu McNaughton,no_verified_photo_archived,,,I294,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I310,C Rudolph Muller,no_verified_photo_archived,,,I310,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I311,David Paul Muller,no_verified_photo_archived,,,I311,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I314,Hazel G Lee,no_verified_photo_archived,,,I314,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I315,Hubbard Stone Lee Sr,no_verified_photo_archived,,,I315,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I316,Irene M Burr Lee,no_verified_photo_archived,,,I316,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I317,Hubbard Stone Lee Jr,no_verified_photo_archived,,,I317,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I320,Martha M McCormick Macdonald,no_verified_photo_archived,,,I320,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I321,John R Macdonald,no_verified_photo_archived,,,I321,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I322,James D Macdonald,no_verified_photo_archived,,,I322,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I323,Jean Ruth Macdonald,no_verified_photo_archived,,,I323,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I324,Ruth B McCormick Reese,no_verified_photo_archived,,,I324,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I327,Sarah Slaughter Lazenby,no_verified_photo_archived,,,I327,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I328,Irene Williams Slaughter Cooke,no_verified_photo_archived,,,I328,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I329,Isaac Bush Slaughter Jr,no_verified_photo_archived,,,I329,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I330,Mae Belle Watson Slaughter,no_verified_photo_archived,,,I330,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I331,Agnes Slaughter,no_verified_photo_archived,,,I331,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I332,Hundley Agee Slaughter,no_verified_photo_archived,,,I332,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I333,Frank Rives Slaughter,no_verified_photo_archived,,,I333,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I334,Mary Alice Thoren,no_verified_photo_archived,,,I334,E040,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I335,Chris Vollmer,no_verified_photo_archived,,,I335,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I336,William John Thoren,no_verified_photo_archived,,,I336,E040,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I337,Alice Gallaher,no_verified_photo_archived,,,I337,E040,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I338,Christian Andrew Thoren,no_verified_photo_archived,,,I338,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I339,Augusta Nilsdotter,no_verified_photo_archived,,,I339,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I340,Anders Troedsson,no_verified_photo_archived,,,I340,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I341,Kjersti Månsdotter,no_verified_photo_archived,,,I341,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I342,Trued Andersson,no_verified_photo_archived,,,I342,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I343,Bortha Nilsdotter,no_verified_photo_archived,,,I343,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I344,Nils Svensson,no_verified_photo_archived,,,I344,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I345,Christina Persdotter,no_verified_photo_archived,,,I345,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I346,Gunnilla Nilsdotter,no_verified_photo_archived,,,I346,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I347,Nils Johansson,no_verified_photo_archived,,,I347,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I348,Elna Nilsdotter,no_verified_photo_archived,,,I348,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I349,Pehr Erlandsson,no_verified_photo_archived,,,I349,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I350,Ingier Hansdotter,no_verified_photo_archived,,,I350,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I351,Erland Pålsson,no_verified_photo_archived,,,I351,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I352,Bengta Pehrsdotter,no_verified_photo_archived,,,I352,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I353,Hans Månsson,no_verified_photo_archived,,,I353,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I354,Maria Hansdotter,no_verified_photo_archived,,,I354,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+person,I355,Peter Vollmer,no_verified_photo_archived,,,I355,,,,,No verified portrait was present in the repository or canonical evidence ledger at audit time.
+evidence,E001,Deborah Hopkins birth register,supporting,records/1648-06-15_deborah-hopkins_birth-register.jpg,,I248;I251,,S26,S57,records/1648-06-15_deborah-hopkins_birth-register.jpg,
+evidence,E002,Ephraim Doane and Mary Knowles marriage register,supporting,records/1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg,,I249;I250,,S26,S54;S60,records/1667-02-05_ephraim-doane_mary-knowles_marriage-register.jpg,
+evidence,E003,Joshua Cooke birth register,supporting,records/1682-02-04_joshua-cook_birth-register.jpg,,I245;I247;I248,,S26,S51,records/1682-02-04_joshua-cook_birth-register.jpg,
+evidence,E004,Patience Doane birth register,supporting,records/1682-04_patience-doane_birth-register.jpg,,I246;I249;I250,,S26,S53,records/1682-04_patience-doane_birth-register.jpg,
+evidence,E005,Joshua Lane birth record,supporting,records/1696_joshua-lane_birth-record.jpg,,I229;I233;I234,,S26,S84,records/1696_joshua-lane_birth-record.jpg,
+evidence,E006,Joshua Lane and Bathsheba Robie marriage record,supporting,records/1717_joshua-lane_bathsheba-robie_marriage-record.jpg,,I229;I230,,S26,S82,records/1717_joshua-lane_bathsheba-robie_marriage-record.jpg,
+evidence,E007,Samuel Lane birth record,supporting,records/1718_samuel-lane_birth-record.jpg,,I227;I229;I230,,S26,S81,records/1718_samuel-lane_birth-record.jpg,
+evidence,E008,Mary James birth record,supporting,records/1722_mary-james_birth-record.jpg,,I228;I231;I232,,S26,S83,records/1722_mary-james_birth-record.jpg,The record supplies Susanna only by given name; no maiden surname is inferred.
+evidence,E009,Samuel Lane and Mary James marriage record,supporting,records/1741-12-24_samuel-lane_mary-james_marriage.jpg,,I227;I228,,S26,S77,records/1741-12-24_samuel-lane_mary-james_marriage.jpg,
+evidence,E010,Joshua Lane New Hampshire birth record,supporting,records/1748-02-09_joshua-lane_nh-birth.jpg,,I225;I227;I228,,S26,S75,records/1748-02-09_joshua-lane_nh-birth.jpg,
+evidence,E011,Joshua Lane and Hannah Tilton marriage record,supporting,records/1769-11-15_joshua-lane_hannah-tilton_marriage.jpg,,I225;I226,,S26,S76,records/1769-11-15_joshua-lane_hannah-tilton_marriage.jpg,
+evidence,E012,Stephen Lane New Hampshire birth record,supporting,records/1771-12-08_stephen-lane_nh-birth.jpg,,I223;I225;I226,,S26,S73,records/1771-12-08_stephen-lane_nh-birth.jpg,
+evidence,E013,Levi Cook birth register,supporting,records/1774-02-26_levi-cook_birth-register.jpg,,I239;I241;I242,,S26,S49,records/1774-02-26_levi-cook_birth-register.jpg,
+evidence,E014,Betsey Brown birth register,supporting,records/1779-01-07_betsey-brown_birth-register.jpg,,I240;I243;I244,,S26,S50,records/1779-01-07_betsey-brown_birth-register.jpg,
+evidence,E015,Levi Cook and Betsey Brown marriage register,supporting,records/1794-07-24_levi-cook_betsey-brown_marriage-register.jpg,,I239;I240,,S26,S48,records/1794-07-24_levi-cook_betsey-brown_marriage-register.jpg,
+evidence,E016,Stephen Lane and Lois Currier marriage record,supporting,records/1797-06-05_stephen-lane_lois-currier_marriage.jpg,,I223;I224,,S26,S74,records/1797-06-05_stephen-lane_lois-currier_marriage.jpg,
+evidence,E017,Mary Lane New Hampshire birth card,supporting,records/1807-02-03_mary-lane_nh-birth-card.jpg,,I222,,S26,S44,records/1807-02-03_mary-lane_nh-birth-card.jpg,The card supports the event but leaves locality and parents blank.
+evidence,E018,Stephen Lane will,supporting,records/1840-09-16_stephen-lane_will.jpg,,I223;I224,,S26,S72,records/1840-09-16_stephen-lane_will.jpg,
+evidence,E019,Stephen Lane probate letters,supporting,records/1841-05-05_stephen-lane_probate-letters.jpg,,I223;I224,,S26,S72,records/1841-05-05_stephen-lane_probate-letters.jpg,
+evidence,E020,Levi Cook will and probate,supporting,records/1846-10-30_levi-cook_will_genesee.jpg,,I239;I238,,S26,S47,records/1846-10-30_levi-cook_will_genesee.jpg,
+evidence,E021,Peter William McNaughton Civil War town register,supporting,records/1862_peter-william-mcnaughton_civil-war-town-register.jpg,,I265,,S26,S28,records/1862_peter-william-mcnaughton_civil-war-town-register.jpg,
+evidence,E022,Relief McNaughton dependent-pension numerical index,supporting,records/1868_relief-mcnaughton_dependent-pension-numerical-index.jpg,,I267,,S26,S80,records/1868_relief-mcnaughton_dependent-pension-numerical-index.jpg,The numerical index names evidence-only soldier William W McNaughton and corroborates Relief McNaughton’s dependent-mother pension card.
+evidence,E023,Henry Vollmer arrival on the Main,supporting_with_uncertainty,records/1882-08-21_henry-vollmer_arrival-main.jpg,,I208,,S26,S12,records/1882-08-21_henry-vollmer_arrival-main.jpg,The manifest supports Henry’s arrival; adjacency does not prove the relationships of Mary and Louise.
+evidence,E024,Vollmer entries on the Main passenger manifest,supporting_with_uncertainty,records/1882-08-21_vollmer-family_arrival-main_page-0289.jpg,,I208,,S26,S12,records/1882-08-21_vollmer-family_arrival-main_page-0289.jpg,The adjacent entries are preserved without inferring a relationship.
+evidence,E025,Themes Peper and Anna Sophie Stelling marriage certificate,supporting,records/1883-08-12_themes-pepper_anna-stelling_marriage-certificate.pdf,,I212;I213;I214;I215;I216;I217,,S26,S34,record-previews/1883-08-12_themes-pepper_anna-stelling_marriage-certificate-1.jpg;record-previews/1883-08-12_themes-pepper_anna-stelling_marriage-certificate-2.jpg,
+evidence,E026,Unnamed female Pepper birth certificate (identified as Metha),supporting_with_uncertainty,records/1884-03-14_female-pepper_birth-certificate.pdf,,I211;I212;I213,,S26,S33,record-previews/1884-03-14_female-pepper_birth-certificate-1.jpg,The original certificate is very high quality for the recorded facts; identifying the unnamed child as Metha is moderate-high confidence.
+evidence,E027,Excluded 1892 Henry Vollmer household,excluded_identity_control,records/1892_henry-vollmer_ny-state-census.jpg,,,,S26,X01,records/1892_henry-vollmer_ny-state-census.jpg,This household conflicts with Henry John Joseph Vollmer’s original marriage certificate and is not attached to a canonical person.
+evidence,E028,Mary A McNaughton widow-pension index,supporting,records/1896_mary-a-mcnaughton_widow-pension-index.jpg,,I268;I265,,S26,S78,records/1896_mary-a-mcnaughton_widow-pension-index.jpg,
+evidence,E029,John Doane will naming son Ephraim,supporting,records/1901_mayflower-descendant-vol3_john-doane-will.pdf,,I258;I249,,S26,S64,record-previews/1901_mayflower-descendant-vol3_john-doane-will-385.jpg,"The attached preview is PDF page 385, printed page 178, containing the relevant will transcription."
+evidence,E030,Eastham vital records: Doane–Knowles family,supporting,records/1904_mayflower-descendant-vol6_eastham-vital-records.pdf,,I249;I250;I246,,S26,S61,record-previews/1904_mayflower-descendant-vol6_eastham-vital-records-047.jpg,"The attached preview is PDF page 47, printed page 13, containing the marriage and children’s births."
+evidence,E031,Henry John Joseph Vollmer and Metha Peper marriage certificate,supporting,records/1905-08-05_henry-jj-vollmer_marriage-certificate.pdf,,I208;I211;I209;I210;I212;I213,,S26,S09,record-previews/1905-08-05_henry-jj-vollmer_marriage-certificate-1.jpg;record-previews/1905-08-05_henry-jj-vollmer_marriage-certificate-2.jpg,
+evidence,E032,1910 Frederick and Carrie Marsh household census,supporting,records/1910_frederick-carrie-doris-andrew-marsh_us-census.jpg,,I219;I264;I218;I220;I274;I277,,S26,S14,records/1910_frederick-carrie-doris-andrew-marsh_us-census.jpg,
+evidence,E033,"1910 Henry, Metha, and Charles Vollmer household census",supporting,records/1910_henry-madie-charles-vollmer_us-census.jpg,,I208;I211;I207,,S26,S05;S11,records/1910_henry-madie-charles-vollmer_us-census.jpg,
+evidence,E034,Frederick Gottlieb Heinrich Vollmer death certificate,supporting,records/1917-03-10_frederick-g-vollmer_death-certificate.pdf,,I282;I209;I210,,S26,S35,record-previews/1917-03-10_frederick-g-vollmer_death-certificate-1.jpg;record-previews/1917-03-10_frederick-g-vollmer_death-certificate-2.jpg,
+evidence,E035,Henry John Joseph Vollmer First World War draft card,supporting,records/1918_henry-john-joseph-volmer_wwi-draft-card.jpg,,I208,,S26,S10,records/1918_henry-john-joseph-volmer_wwi-draft-card.jpg,
+evidence,E036,Identity control: Madie Vollmer death certificate (not Metha),excluded_identity_control,records/1919-01-03_madie-vollmer_death-certificate.pdf,,I208;I211,,S26,S13;VD-R01,record-previews/1919-01-03_madie-vollmer_death-certificate-1.jpg;record-previews/1919-01-03_madie-vollmer_death-certificate-2.jpg,The certificate belongs to Henry’s later wife Martha/Madie Desselberg and must not be used as Metha Peper Vollmer’s death record.
+evidence,E037,Mary A McNaughton New York death index,supporting,records/1919-12-17_mary-mcnaughton_ny-death-index.jpg,,I268,,S26,S40,records/1919-12-17_mary-mcnaughton_ny-death-index.jpg,
+evidence,E038,Charles Frederic Vollmer Second World War draft card,supporting,records/1940-10-16_charles-frederick-vollmer_wwii-draft-card.jpg,,I207,,S26,S02,records/1940-10-16_charles-frederick-vollmer_wwii-draft-card.jpg,
+evidence,E039,1940 Charles and Doris Vollmer household census,supporting,records/1940_charles-doris-henry-vollmer_us-census.jpg,,I207;I218;I176;I269,,S26,S01;EF-S01,records/1940_charles-doris-henry-vollmer_us-census.jpg,
+evidence,E040,"1950 William, Alice, and Mary Alice Thoren household census",supporting,records/1950_william-alice-mary-thoren_us-census.jpg,,I336;I337;I334,,S32,S32,records/1950_william-alice-mary-thoren_us-census.jpg,
+evidence,E041,Giles Hopkins: seventeenth-century records,supporting,records/giles-hopkins_17th-century-records_pilgrim-hall.pdf,,I251;I254;I255;I248,,S26,S67,record-previews/giles-hopkins_17th-century-records_pilgrim-hall-1.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-2.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-3.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-4.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-5.jpg;record-previews/giles-hopkins_17th-century-records_pilgrim-hall-6.jpg,
+evidence,E042,Plymouth Colony record: Richard Knowles and Ruth Bower marriage,supporting,records/plymouth-colony-records-vol1_1639-marriage.pdf,,I260;I261,,S26,S63,record-previews/plymouth-colony-records-vol1_1639-marriage-151.jpg,"The attached preview is PDF page 151, printed page 129, containing the marriage entry."
+evidence,E043,Relief McNaughton dependent-mother pension index,supporting,records/relief-mcnaughton_mother-pension-index.jpg,,I267,,S26,S79,records/relief-mcnaughton_mother-pension-index.jpg,
+external_check,XWEB01,Newspapers.com via Ancestry,index_verified_image_not_archived,,https://www.ancestry.com/search/collections/61843/records/668386200,I355,,,,,The obituary index supplies Peter Vollmer’s exact dates and family links; no licensed clipping image was available to preserve.
+external_check,XWEB02,Newspapers.com via Ancestry,index_verified_image_access_blocked,,https://www.ancestry.com/search/collections/61843/records/4961110,I219,,,,,The Frederick Heath Marsh obituary index was retained as a moderate lead; the publisher verification page blocked the original newspaper image.
+external_check,XWEB03,Newspapers.com via Ancestry,no_exact_match,,,I268,,,,,Exact and relaxed searches found no Caledonia or Livingston County obituary for Mary A McNaughton.

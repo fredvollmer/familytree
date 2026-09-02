@@ -38,7 +38,7 @@ occupation coverage rows: 328
 people with recorded occupations or roles: 17
 GEDCOM occupation events: 23
 rejected Marion teacher absent: True
-workbook sheets: 14
+workbook sheets: 15
 workbook formula errors: 0
 workbook consolidated individual count: 328
 workbook consolidated family count: 155
@@ -50,3 +50,12 @@ workbook both vital dates recorded: 156
 workbook no dated event unresolved or private: 92
 workbook people with recorded occupations or roles: 17
 workbook accepted occupation or role events: 23
+workbook media audit rows: 374
+media audit people: 328
+external photo pages located: 2
+locally archived portraits: 0
+preserved evidence files: 43
+preserved evidence images: 34
+preserved evidence PDFs: 9
+PDF evidence preview images: 18
+GEDCOM multimedia attachments: 43
