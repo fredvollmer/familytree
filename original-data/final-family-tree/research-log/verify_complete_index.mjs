@@ -26,7 +26,7 @@ for (const sheet of workbook.worksheets.items) {
 
 const overview = workbook.worksheets.getItem("Consolidated Overview");
 const overviewValues = overview.getRange("A1:F17").values;
-const expected = { individuals: 308, families: 144, sources: 30, inventory: 72 };
+const expected = { individuals: 310, families: 146, sources: 33, inventory: 76 };
 const actual = {
   individuals: overviewValues[4][1],
   families: overviewValues[5][1],

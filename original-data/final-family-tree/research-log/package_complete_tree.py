@@ -6,11 +6,11 @@ from pathlib import Path
 
 
 PROJECT = Path(__file__).resolve().parents[3]
-PACKAGE = PROJECT / "research/final-family-tree"
+PACKAGE = PROJECT / "original-data/final-family-tree"
 PREFIX = "Fredric_Vollmer_Complete_Family_Tree"
 MANIFEST = PACKAGE / f"{PREFIX}_SHA256.txt"
 VALIDATION = PACKAGE / f"{PREFIX}_VALIDATION.txt"
-ARCHIVE = PROJECT / "research" / f"{PREFIX}_Package.zip"
+ARCHIVE = PROJECT / "original-data" / f"{PREFIX}_Package.zip"
 ARCHIVE_ROOT = f"{PREFIX}_Package"
 
 
@@ -32,10 +32,10 @@ validation_text = validation_text.split("workbook sheets:", 1)[0].rstrip() + "\n
 validation_text += (
     "workbook sheets: 12\n"
     "workbook formula errors: 0\n"
-    "workbook consolidated individual count: 308\n"
-    "workbook consolidated family count: 144\n"
-    "workbook consolidated GEDCOM source count: 30\n"
-    "workbook source and record inventory count: 72\n"
+    "workbook consolidated individual count: 310\n"
+    "workbook consolidated family count: 146\n"
+    "workbook consolidated GEDCOM source count: 33\n"
+    "workbook source and record inventory count: 76\n"
 )
 VALIDATION.write_text(validation_text, encoding="utf-8")
 

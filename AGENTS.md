@@ -24,7 +24,8 @@ If any derived file conflicts with the canonical GEDCOM, use the GEDCOM and repa
 ## Controlling corrections
 
 - Jan Muller Vollmer is Fredric's biological mother.
-- Mary Alice is Chris Vollmer's biological mother.
+- Mary Alice Thoren is Chris Vollmer's biological mother and Henry Richard Vollmer's first wife, before Jan.
+- William J. “Bill” Thoren and Alice Gallaher Thoren are Mary Alice's parents, documented in the 1950 census.
 - Jan is Chris's stepmother.
 - Chris's father is unconfirmed and must remain blank.
 - Charles Vollmer's middle name is Frederic.

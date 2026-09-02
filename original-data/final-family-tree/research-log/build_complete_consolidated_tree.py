@@ -9,14 +9,15 @@ from pathlib import Path
 
 
 PROJECT = Path(__file__).resolve().parents[3]
-BASE = PROJECT / "research/final-family-tree"
+BASE = PROJECT / "original-data/final-family-tree"
+INPUT_LEDGERS = BASE / "input-ledgers"
 CANON_GED = BASE / "Fredric_Vollmer_Maternal_Family_Tree_Records_First.ged"
 CANON_JSON = BASE / "Fredric_Vollmer_Maternal_Family_Tree_Records_First_Canonical_Data.json"
-DIRECT_CSV = PROJECT / "research/Vollmer-Marsh-people.csv"
-EXTENDED_CSV = PROJECT / "research/Extended-family-people.csv"
-DIRECT_SOURCES = PROJECT / "research/Vollmer-Marsh-sources.md"
-EXTENDED_SOURCES = PROJECT / "research/Extended-family-sources.md"
-RECORDS = PROJECT / "research/records"
+DIRECT_CSV = INPUT_LEDGERS / "Vollmer-Marsh-people.csv"
+EXTENDED_CSV = INPUT_LEDGERS / "Extended-family-people.csv"
+DIRECT_SOURCES = INPUT_LEDGERS / "Vollmer-Marsh-sources.md"
+EXTENDED_SOURCES = INPUT_LEDGERS / "Extended-family-sources.md"
+RECORDS = BASE / "records"
 
 PREFIX = "Fredric_Vollmer_Complete_Family_Tree"
 OUT_GED = BASE / f"{PREFIX}.ged"
@@ -112,6 +113,8 @@ def parse_date_place(value: str) -> tuple[str, str, str]:
     original = value
     date_text = re.sub(r"\(.*?\)", "", date_text).strip()
     date_text = date_text.replace("-", "–")
+    if not date_text and place:
+        return "", place, ""
     qualifier = ""
     lower = date_text.lower()
     if lower.startswith("about "):
@@ -155,6 +158,8 @@ def parse_family(lines: list[str]) -> dict:
         "wife": first_value(lines, "WIFE"),
         "children": [line.split(maxsplit=2)[2] for line in lines if line.startswith("1 CHIL ")],
         "notes": [line[7:] for line in lines if line.startswith("1 NOTE ")],
+        "marriage_date": "",
+        "marriage_place": "",
     }
 
 
@@ -290,7 +295,9 @@ def ensure_person_update(iid: str, *, name: str | None = None, sex: str | None =
 
 
 ensure_person_update("@I176@", name="Henry Richard Vollmer", sex="M",
-                     notes=["Henry is Fredric's father and Jan's spouse in this tree."], source="@S28@")
+                     notes=["Henry is Fredric's father and Jan's spouse in this tree.",
+                            "Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer."],
+                     source="@S28@")
 ensure_person_update("@I002@", name="Jan Muller Vollmer", sex="F",
                      notes=["Owner-confirmed: Jan is Fredric's biological mother, not his stepmother.",
                             "Owner-confirmed: Jan is Chris Vollmer's stepmother, not his biological mother."],
@@ -329,13 +336,22 @@ for iid, lines in list(individuals.items()):
 # Owner-confirmed recent-family correction. Chris's father is intentionally absent.
 mary_alice_iid = next_iid()
 chris_iid = next_iid()
+william_thoren_iid = next_iid()
+alice_gallaher_iid = next_iid()
 individuals[mary_alice_iid] = [
     f"0 {mary_alice_iid} INDI",
-    "1 NAME Mary Alice",
+    "1 NAME Mary Alice /Thoren/",
     "1 SEX F",
-    "1 NOTE Owner-confirmed biological mother of Chris Vollmer. No surname or other living details inferred.",
+    "1 BIRT",
+    "2 PLAC Port Townsend, Jefferson, Washington",
+    "1 NOTE Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer.",
+    "1 NOTE Owner-confirmed birthplace: Port Townsend, Washington. Exact birth date omitted for privacy.",
+    "1 NOTE The 1950 census identifies her as the daughter of William J. Thoren and Alice Gallaher Thoren.",
+    "1 NOTE Potentially living; details are minimized.",
     "1 REFN OWNER-MARY-ALICE",
     "1 SOUR @S28@",
+    "1 SOUR @S31@",
+    "1 SOUR @S32@",
 ]
 individuals[chris_iid] = [
     f"0 {chris_iid} INDI",
@@ -346,6 +362,31 @@ individuals[chris_iid] = [
     "1 ASSO @I002@",
     "2 RELA Stepmother",
     "1 SOUR @S28@",
+]
+individuals[william_thoren_iid] = [
+    f"0 {william_thoren_iid} INDI",
+    "1 NAME William J /Thoren/",
+    "1 SEX M",
+    "1 BIRT",
+    "2 DATE ABT 1902",
+    "2 PLAC Montana",
+    "1 NOTE Called Bill in family memory. The 1950 census records him as age 48, born in Montana, and Mary Alice's father.",
+    "1 REFN OWNER-WILLIAM-J-THOREN",
+    "1 SOUR @S28@",
+    "1 SOUR @S32@",
+    "1 SOUR @S33@",
+]
+individuals[alice_gallaher_iid] = [
+    f"0 {alice_gallaher_iid} INDI",
+    "1 NAME Alice /Gallaher/",
+    "1 SEX F",
+    "1 BIRT",
+    "2 DATE ABT 1904",
+    "2 PLAC Alaska",
+    "1 NOTE The 1950 census records her as age 46, born in Alaska, and Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher.",
+    "1 REFN RECORD-ALICE-GALLAHER-THOREN",
+    "1 SOUR @S32@",
+    "1 SOUR @S33@",
 ]
 add_unique(individuals["@I002@"], f"1 ASSO {chris_iid}")
 add_unique(individuals["@I002@"], "2 RELA Stepchild")
@@ -361,10 +402,12 @@ for fam in canonical_families:
     # facts but collapse them below.
     families.append({"husb": fam["husb"], "wife": fam["wife"],
                      "children": set(fam["children"]), "notes": set(fam["notes"]),
-                     "sources": set()})
+                     "sources": set(), "marriage_date": fam["marriage_date"],
+                     "marriage_place": fam["marriage_place"]})
 
 
-def add_family(husb: str, wife: str, children: list[str], note: str = "", source: str = "") -> None:
+def add_family(husb: str, wife: str, children: list[str], note: str = "", source: str = "",
+               marriage_date: str = "", marriage_place: str = "") -> None:
     husb = husb or ""
     wife = wife or ""
     children = [child for child in children if child]
@@ -375,10 +418,15 @@ def add_family(husb: str, wife: str, children: list[str], note: str = "", source
                 fam["notes"].add(note)
             if source:
                 fam["sources"].add(source)
+            if marriage_date:
+                fam["marriage_date"] = marriage_date
+            if marriage_place:
+                fam["marriage_place"] = marriage_place
             return
     families.append({"husb": husb, "wife": wife, "children": set(children),
                      "notes": {note} if note else set(),
-                     "sources": {source} if source else set()})
+                     "sources": {source} if source else set(),
+                     "marriage_date": marriage_date, "marriage_place": marriage_place})
 
 
 # Merge duplicate canonical families by identical parent pair.
@@ -388,6 +436,9 @@ for fam in families:
     if existing:
         existing["children"].update(fam["children"])
         existing["notes"].update(fam["notes"])
+        existing["sources"].update(fam["sources"])
+        existing["marriage_date"] = existing["marriage_date"] or fam["marriage_date"]
+        existing["marriage_place"] = existing["marriage_place"] or fam["marriage_place"]
     else:
         collapsed.append(fam)
 families = collapsed
@@ -402,6 +453,7 @@ for partial in list(families):
         if len(full_parents) == 2 and parents.issubset(full_parents) and partial["children"] & full["children"]:
             full["children"].update(partial["children"])
             full["notes"].update(partial["notes"])
+            full["sources"].update(partial["sources"])
             families.remove(partial)
             break
 
@@ -423,6 +475,15 @@ add_family("@I176@", "@I002@", ["@I001@", "@I175@"],
            "Jan is Fredric and Arianna's biological mother; Henry is recorded as their father in the recovered canonical package.", "@S28@")
 add_family("", mary_alice_iid, [chris_iid],
            "Chris's father was not confirmed and is intentionally omitted.", "@S28@")
+add_family(william_thoren_iid, alice_gallaher_iid, [mary_alice_iid],
+           "The 1950 census identifies Mary Alice as William and Alice's daughter.", "@S32@",
+           "16 NOV 1929", "Pierce County, Washington")
+add_family(william_thoren_iid, alice_gallaher_iid, [], source="@S33@")
+add_family("@I176@", mary_alice_iid, [],
+           "Owner-confirmed first marriage of Henry, before his marriage to Jan. This spouse link does not establish Chris's father.",
+           "@S31@", "16 SEP 1955", "King County, Washington")
+add_family("@I176@", mary_alice_iid, [], source="@S28@")
+add_unique(individuals["@I176@"], "1 SOUR @S31@")
 
 # Remove duplicate core families that survive under reversed or incomplete old forms.
 deduped: list[dict] = []
@@ -433,6 +494,8 @@ for fam in families:
         match["children"].update(fam["children"])
         match["notes"].update(fam["notes"])
         match["sources"].update(fam["sources"])
+        match["marriage_date"] = match["marriage_date"] or fam["marriage_date"]
+        match["marriage_place"] = match["marriage_place"] or fam["marriage_place"]
     else:
         deduped.append(fam)
 families = deduped
@@ -455,6 +518,7 @@ for index, fam in enumerate(families, 1):
         "husband_id": fam["husb"].strip("@"),
         "wife_id": fam["wife"].strip("@"),
         "children_ids": ";".join(child.strip("@") for child in sorted(fam["children"])),
+        "marriage": "; ".join(value for value in (fam["marriage_date"], fam["marriage_place"]) if value),
         "notes": " | ".join(sorted(fam["notes"])),
         "source_refs": ";".join(sorted(source.strip("@") for source in fam["sources"])),
     })
@@ -474,10 +538,10 @@ source_blocks["@S27@"] = [
 ]
 source_blocks["@S28@"] = [
     "0 @S28@ SOUR",
-    "1 TITL Owner statements on Jan Muller Vollmer, Mary Alice, and Chris Vollmer",
+    "1 TITL Owner statements on Jan Muller Vollmer, Mary Alice Thoren, William Thoren, and Chris Vollmer",
     "1 AUTH Fredric Muller Vollmer",
-    "1 DATE 1 SEP 2026",
-    "1 NOTE Jan is Fredric's biological mother; Mary Alice is Chris Vollmer's mother; Jan is Chris's stepmother. Chris's father was not stated.",
+    "1 DATE 2 SEP 2026",
+    "1 NOTE Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. Chris's father was not stated.",
 ]
 source_blocks["@S29@"] = [
     "0 @S29@ SOUR",
@@ -493,18 +557,39 @@ source_blocks["@S30@"] = [
     "1 DATE 30 AUG 2026",
     "1 NOTE Frederic was Charles Vollmer's middle name. Later record indexes may spell it Frederick.",
 ]
+source_blocks["@S31@"] = [
+    "0 @S31@ SOUR",
+    "1 TITL Henry R Vollmer and Mary A Thoren marriage record",
+    "1 AUTH Washington State Archives; King County Auditor",
+    "1 DATE 16 SEP 1955",
+    "1 NOTE King County Marriage Records, 1855-2017; reference kingcoarchmc207309; https://digitalarchives.wa.gov/Record/View/437A4FBD9EF3DA4BD90C60795808BC69",
+]
+source_blocks["@S32@"] = [
+    "0 @S32@ SOUR",
+    "1 TITL 1950 United States census household of William J Thoren",
+    "1 AUTH U.S. Census Bureau; National Archives and Records Administration",
+    "1 DATE 5 APR 1950",
+    "1 NOTE Seattle, King County, Washington, enumeration district 40-124, sheet 74, lines 23-25. William J Thoren, wife Alice, and daughter Mary Alice; NARA image 43290879-Washington-031283-0021; https://1950census.archives.gov/search/?ed=40-124&state=WA&page=1",
+]
+source_blocks["@S33@"] = [
+    "0 @S33@ SOUR",
+    "1 TITL William J Thoren and Alice Gallaher marriage record",
+    "1 AUTH Washington State Archives; Pierce County Auditor",
+    "1 DATE 16 NOV 1929",
+    "1 NOTE Pierce County Auditor Marriage Records, reference prcmc-v23-00709; https://digitalarchives.wa.gov/Record/View/33AF9C076D80A9452C66FD351D17CD73",
+]
 
 header = [
     "0 HEAD",
     "1 SOUR OpenAI Codex consolidated genealogy research",
     "2 NAME Complete Family Tree of Fredric Muller Vollmer",
-    "1 DATE 1 SEP 2026",
+    "1 DATE 2 SEP 2026",
     "1 GEDC",
     "2 VERS 5.5.1",
     "2 FORM LINEAGE-LINKED",
     "1 CHAR UTF-8",
     "1 LANG English",
-    "1 NOTE Aggregates all Family Tree project chats through 1 Sep 2026. Living details are minimized.",
+    "1 NOTE Aggregates all Family Tree project chats through 2 Sep 2026. Living details are minimized.",
 ]
 ged_lines = header[:]
 for iid in sorted(individuals, key=lambda value: int(value.strip("@I"))):
@@ -518,6 +603,12 @@ for row, fam in zip(family_rows, families):
         ged_lines.append(f"1 WIFE {fam['wife']}")
     for child in sorted(fam["children"]):
         ged_lines.append(f"1 CHIL {child}")
+    if fam["marriage_date"] or fam["marriage_place"]:
+        ged_lines.append("1 MARR")
+        if fam["marriage_date"]:
+            ged_lines.append(f"2 DATE {fam['marriage_date']}")
+        if fam["marriage_place"]:
+            ged_lines.append(f"2 PLAC {fam['marriage_place']}")
     for note in sorted(fam["notes"]):
         if note:
             ged_lines.append(f"1 NOTE {note}")
@@ -552,6 +643,8 @@ for local_id, iid in local_to_ged.items():
     reverse_local[iid].append(local_id)
 reverse_local[mary_alice_iid].append("OWNER-MARY-ALICE")
 reverse_local[chris_iid].append("OWNER-CHRIS-VOLLMER")
+reverse_local[william_thoren_iid].append("OWNER-WILLIAM-J-THOREN")
+reverse_local[alice_gallaher_iid].append("RECORD-ALICE-GALLAHER-THOREN")
 
 people_rows = []
 for iid in sorted(individuals, key=lambda value: int(value.strip("@I"))):
@@ -570,11 +663,11 @@ for iid in sorted(individuals, key=lambda value: int(value.strip("@I"))):
     })
 
 with OUT_PEOPLE.open("w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=people_rows[0].keys())
+    writer = csv.DictWriter(handle, fieldnames=people_rows[0].keys(), lineterminator="\n")
     writer.writeheader()
     writer.writerows(people_rows)
 with OUT_FAMILIES.open("w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=family_rows[0].keys())
+    writer = csv.DictWriter(handle, fieldnames=family_rows[0].keys(), lineterminator="\n")
     writer.writeheader()
     writer.writerows(family_rows)
 
@@ -603,13 +696,13 @@ for path in sorted(RECORDS.glob("*")):
         })
 
 with OUT_SOURCE_INVENTORY.open("w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=source_catalog[0].keys())
+    writer = csv.DictWriter(handle, fieldnames=source_catalog[0].keys(), lineterminator="\n")
     writer.writeheader()
     writer.writerows(source_catalog + record_inventory)
 
 OUT_SOURCES.write_text(
     "# Consolidated source ledger\n\n"
-    "This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, and owner corrections. The GEDCOM uses S1-S30; the detailed local ledgers below retain their original identifiers.\n\n"
+    "This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, and owner corrections. The GEDCOM uses S1-S33; the detailed local ledgers below retain their original identifiers.\n\n"
     "## Cross-chat provenance\n\n"
     "- **Build Family Tree** — recovered canonical 169-person maternal direct tree, corrected maternal collateral households, GEDCOM, workbook, report, chart, source key, and validation package.\n"
     "- **Continue Vollmer Family Tree** — established the paternal research scope and Charles Frederic Vollmer / Doris Marsh anchors; superseded where later records proved more detail.\n"
@@ -627,8 +720,8 @@ canonical_data = {
         "title": "Complete Family Tree of Fredric Muller Vollmer",
         "format": "consolidated canonical genealogy dataset",
         "gedcom_version": "5.5.1",
-        "updated": "2026-09-01",
-        "scope": "Recovered maternal direct tree plus all later paternal direct and three-ring collateral research from every Family Tree project chat.",
+        "updated": "2026-09-02",
+        "scope": "Recovered maternal direct tree plus all later paternal direct and three-ring collateral research, including the documented Thoren-Gallaher parents of Mary Alice Thoren.",
         "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
     },
     "people": people_rows,
@@ -637,6 +730,9 @@ canonical_data = {
     "corrections": canonical_json.get("corrections", []) + [
         {"topic": "Jan relationship", "corrected": "Jan is Fredric's biological mother and Chris Vollmer's stepmother."},
         {"topic": "Chris parentage", "corrected": "Mary Alice is Chris Vollmer's mother; Chris's father remains unconfirmed."},
+        {"topic": "Mary Alice identity and birthplace", "corrected": "Owner-confirmed as Mary Alice Thoren, born in Port Townsend, Washington."},
+        {"topic": "Mary Alice parents", "corrected": "The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents."},
+        {"topic": "Henry first marriage", "corrected": "Henry R. Vollmer married Mary A. Thoren in King County on 16 Sep 1955, before Jan Muller Vollmer."},
         {"topic": "Mary Gene spouse", "corrected": "Historical records identify Elmer James Chaffee Jr; the family chart's James form is retained as a shorter usage."},
         {"topic": "Eloise vital dates", "corrected": "Official California index supports 25 Aug 1903-10 Feb 1994; earlier compiled dates remain conflicting secondary evidence."},
         {"topic": "Charles Vollmer middle name", "corrected": "Owner-confirmed spelling is Charles Frederic Vollmer; Frederick is retained only as a record/index variant."},
@@ -647,6 +743,7 @@ canonical_data = {
         {"thread_title": "Research Vollmer-Marsh ancestry", "role": "records-first paternal direct research"},
         {"thread_title": "Continue Vollmer-Marsh research", "role": "deep paternal continuation and preserved originals"},
         {"thread_title": "Extend paternal family tree", "role": "both-side collateral expansion and owner corrections"},
+        {"thread_title": "Trace Mary Alice Thoren ancestry", "role": "owner-confirmed identity and birthplace; official marriage and 1950 census evidence for her parents"},
     ],
 }
 OUT_JSON.write_text(json.dumps(canonical_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -663,7 +760,8 @@ OUT_AUDIT.write_text(
     f"- Preserved record files inventoried: {len(record_inventory)}\n\n"
     "## Controlling corrections\n\n"
     "- Jan Muller Vollmer is Fredric's biological mother.\n"
-    "- Mary Alice is Chris Vollmer's biological mother.\n"
+    "- Mary Alice Thoren is Chris Vollmer's biological mother and Henry's first wife.\n"
+    "- William J. Thoren and Alice Gallaher Thoren are Mary Alice's census-documented parents.\n"
     "- Jan is Chris Vollmer's stepmother.\n"
     "- Chris's father is not inferred.\n"
     "- The superseded Chaffee mistranscription is removed.\n"
@@ -699,7 +797,12 @@ validation = {
     "broken individual references": len(errors),
     "superseded Janet transcription absent": "Janet Chaffee" not in out_text,
     "Jan biological-mother correction present": "Jan is Fredric's biological mother" in out_text,
-    "Mary Alice present": "1 NAME Mary Alice" in out_text,
+    "Mary Alice Thoren present": "1 NAME Mary Alice /Thoren/" in out_text,
+    "Mary Alice Port Townsend birthplace present": "2 PLAC Port Townsend, Jefferson, Washington" in out_text,
+    "William J Thoren present": "1 NAME William J /Thoren/" in out_text,
+    "Alice Gallaher present": "1 NAME Alice /Gallaher/" in out_text,
+    "Henry and Mary 1955 marriage present": "2 DATE 16 SEP 1955" in out_text,
+    "William and Alice 1929 marriage present": "2 DATE 16 NOV 1929" in out_text,
     "Chris Vollmer present": "1 NAME Chris /Vollmer/" in out_text,
     "Chris father intentionally absent": any(not row["husband_id"] and row["wife_id"] == mary_alice_iid.strip("@") and chris_iid.strip("@") in row["children_ids"] for row in family_rows),
     "Elmer James Chaffee corrected": "Elmer James /Chaffee/ Jr" in out_text,
@@ -712,7 +815,7 @@ OUT_VALIDATION.write_text("\n".join(f"{key}: {value}" for key, value in validati
 
 OUT_README.write_text(
     "# Complete Family Tree of Fredric Muller Vollmer\n\n"
-    "This is the canonical local package aggregating every Family Tree project chat through 1 September 2026. The GEDCOM is the standardized tree source of truth; the JSON and workbook are synchronized review formats.\n\n"
+    "This is the canonical local package aggregating every Family Tree project chat through 2 September 2026. The GEDCOM is the standardized tree source of truth; the JSON and workbook are synchronized review formats.\n\n"
     "## Canonical files\n\n"
     f"- `{OUT_GED.name}` — GEDCOM 5.5.1 source-of-truth tree.\n"
     f"- `{OUT_JSON.name}` — complete machine-readable people, families, sources, corrections, and cross-chat provenance.\n"
@@ -724,7 +827,7 @@ OUT_README.write_text(
     "- `records/` — preserved source images and certificates copied from the later records-first tasks.\n"
     "- The recovered records-first maternal package remains alongside these files for provenance.\n\n"
     "## Privacy and relationship controls\n\n"
-    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Mary Alice is Chris's mother. Chris's father is left blank because the owner did not confirm him.\n",
+    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Mary Alice Thoren is Chris's mother and Henry's first wife. The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents. Chris's father is left blank because the owner did not confirm him.\n",
     encoding="utf-8",
 )
 

@@ -4,15 +4,16 @@
 - Recovered canonical GEDCOM families: 108
 - Vollmer-Marsh direct rows considered: 63
 - Extended-family rows considered: 65
-- Consolidated individuals: 308
-- Consolidated families: 144
-- GEDCOM sources: 30
-- Preserved record files inventoried: 42
+- Consolidated individuals: 310
+- Consolidated families: 146
+- GEDCOM sources: 33
+- Preserved record files inventoried: 43
 
 ## Controlling corrections
 
 - Jan Muller Vollmer is Fredric's biological mother.
-- Mary Alice is Chris Vollmer's biological mother.
+- Mary Alice Thoren is Chris Vollmer's biological mother and Henry's first wife.
+- William J. Thoren and Alice Gallaher Thoren are Mary Alice's census-documented parents.
 - Jan is Chris Vollmer's stepmother.
 - Chris's father is not inferred.
 - The superseded Chaffee mistranscription is removed.

@@ -18,9 +18,9 @@ The paternal anchor identities, conflicts, citations, and preserved records rema
 
 ## Extended-family sources
 
-### Owner statement, 1 September 2026
+### Owner statements, 1–2 September 2026
 
-The owner identified Jan as Fredric's biological mother; Mary Alice as Chris Vollmer's mother; and Jan as Chris Vollmer's stepmother. This is the controlling source for those living/recent family relationships. Chris's father was not explicitly stated and is therefore not yet recorded as confirmed.
+The owner identified Jan as Fredric's biological mother; Mary Alice Thoren as Henry Richard Vollmer's first wife and Chris Vollmer's mother; Jan as Chris Vollmer's stepmother; Port Townsend, Washington, as Mary Alice's birthplace; and William “Bill” Thoren as Mary Alice's father. The surname and father identification are independently corroborated by Henry and Mary's 1955 marriage record and the 1950 William J. Thoren household. Chris's father was not explicitly stated and therefore remains blank.
 
 ### Existing-tree audit, 1 September 2026
 

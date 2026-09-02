@@ -10,7 +10,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 TEMPLATE = HERE / "migration-map.template.html"
 OUTPUT = HERE / "family-migration-map.html"
-INLINE_OUTPUT = Path("/Users/russell.jowell/.codex/visualizations/2026/09/01/01a05e3c-401f-7fe2-a178-702caea2a955/family-migration-map.html")
+INLINE_OUTPUT = Path("/Users/russell.jowell/.codex/visualizations/2026/09/02/01a062a0-d189-7372-8cf3-483bf89abfed/family-migration-map.html")
 
 
 def compact_json(path: Path) -> str:

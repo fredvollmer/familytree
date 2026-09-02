@@ -26,9 +26,9 @@ The GeoJSON contains the same resolved event points and their event properties. 
 
 ## Privacy and interpretation
 
-- People explicitly marked living, or potentially living because they have no death record and a birth within the last 100 years, are excluded. The current build excludes eight people.
+- People explicitly marked living, or potentially living because they have no death record and a birth within the last 100 years, are excluded. The current build excludes nine people.
 - Living dates omitted by the canonical tree are not reconstructed.
-- The current data contains 234 place-bearing events, including 220 dated events. Fourteen undated events remain available in the JSON but are not placed on the timeline.
+- The current data contains 236 place-bearing events, including 222 dated events. Fourteen undated events remain available in the JSON but are not placed on the timeline.
 - `Kentucky or Virginia` and `exact death unproved` remain unresolved and unplotted.
 - Route lines connect recorded endpoints; they do not assert a path, travel date, residence sequence, or causation.
 

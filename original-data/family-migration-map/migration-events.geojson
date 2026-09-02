@@ -4730,6 +4730,36 @@
     },
     {
       "type": "Feature",
+      "id": "evt-i336-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.981796,
+          46.929956
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i336-birth",
+        "person_id": "I336",
+        "person_name": "William J Thoren",
+        "event_type": "birth",
+        "date_text": "ABT 1902",
+        "year_min": 1902,
+        "year_max": 1902,
+        "date_is_approximate": true,
+        "place_original": "Montana",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S28",
+          "S32",
+          "S33"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "evt-i008-birth",
       "geometry": {
         "type": "Point",
@@ -4755,6 +4785,35 @@
           "S1",
           "S8",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i337-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.154876,
+          61.453726
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i337-birth",
+        "person_id": "I337",
+        "person_name": "Alice Gallaher",
+        "event_type": "birth",
+        "date_text": "ABT 1904",
+        "year_min": 1904,
+        "year_max": 1904,
+        "date_is_approximate": true,
+        "place_original": "Alaska",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S32",
+          "S33"
         ]
       }
     },

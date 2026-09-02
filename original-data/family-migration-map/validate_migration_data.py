@@ -37,7 +37,7 @@ def main() -> None:
     assert all(feature["geometry"]["type"] == "Point" for feature in geojson["features"])
 
     # Current living/potentially living records must never leak into the bundle.
-    excluded_ids = {"I001", "I002", "I269", "I272", "I273", "I322", "I323", "I331"}
+    excluded_ids = {"I001", "I002", "I269", "I272", "I273", "I322", "I323", "I331", "I334"}
     assert not excluded_ids.intersection(event["person_id"] for event in events.values())
 
     html = (HERE / "family-migration-map.html").read_text(encoding="utf-8")

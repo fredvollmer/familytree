@@ -1,24 +1,24 @@
 {
   "metadata": {
     "title": "Vollmer family migration data",
-    "generated": "2026-09-01",
-    "canonical_source": "research/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json",
-    "canonical_updated": "2026-09-01",
+    "generated": "2026-09-02",
+    "canonical_source": "original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json",
+    "canonical_updated": "2026-09-02",
     "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
     "scope_note": "Derived from recorded birth and death places. People explicitly marked living or potentially living under a 100-year rule are excluded.",
-    "privacy_excluded_people": 8,
+    "privacy_excluded_people": 9,
     "movement_note": "Routes connect recorded endpoints and are analytical inferences, not documented travel paths.",
     "year_extent": [
       1549,
       2010
     ],
     "counts": {
-      "locations": 106,
-      "resolved_locations": 104,
-      "events": 234,
-      "dated_events": 220,
+      "locations": 108,
+      "resolved_locations": 106,
+      "events": 236,
+      "dated_events": 222,
       "movements": 172,
-      "people_represented": 158
+      "people_represented": 160
     }
   },
   "locations": [
@@ -32,6 +32,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "GeoNames locality centroid for Alabama, US"
+    },
+    {
+      "location_id": "loc-7288f7f860",
+      "label": "Alaska",
+      "geocode_query": "Alaska, United States",
+      "latitude": 61.453726,
+      "longitude": -152.154876,
+      "precision": "region",
+      "geocode_status": "resolved",
+      "geocoder": "GeoNames offline gazetteer",
+      "geocoder_display_name": "GeoNames locality centroid for Alaska, US"
     },
     {
       "location_id": "loc-bff303b26d",
@@ -670,6 +681,17 @@
       "geocode_status": "resolved",
       "geocoder": "GeoNames offline gazetteer",
       "geocoder_display_name": "Monroeville (US-AL)"
+    },
+    {
+      "location_id": "loc-8d274fd5e6",
+      "label": "Montana",
+      "geocode_query": "Montana, United States",
+      "latitude": 46.929956,
+      "longitude": -110.981796,
+      "precision": "region",
+      "geocode_status": "resolved",
+      "geocoder": "GeoNames offline gazetteer",
+      "geocoder_display_name": "GeoNames locality centroid for Montana, US"
     },
     {
       "location_id": "loc-f82a41a5a1",
@@ -4284,6 +4306,26 @@
       ]
     },
     {
+      "event_id": "evt-i336-birth",
+      "person_id": "I336",
+      "person_name": "William J Thoren",
+      "event_type": "birth",
+      "date_text": "ABT 1902",
+      "year_min": 1902,
+      "year_max": 1902,
+      "date_is_approximate": true,
+      "place_original": "Montana",
+      "location_id": "loc-8d274fd5e6",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S28",
+        "S32",
+        "S33"
+      ]
+    },
+    {
       "event_id": "evt-i008-birth",
       "person_id": "I008",
       "person_name": "Eloise Alcyone Slaughter McCormick",
@@ -4301,6 +4343,25 @@
         "S1",
         "S8",
         "S27"
+      ]
+    },
+    {
+      "event_id": "evt-i337-birth",
+      "person_id": "I337",
+      "person_name": "Alice Gallaher",
+      "event_type": "birth",
+      "date_text": "ABT 1904",
+      "year_min": 1904,
+      "year_max": 1904,
+      "date_is_approximate": true,
+      "place_original": "Alaska",
+      "location_id": "loc-7288f7f860",
+      "side": "Paternal",
+      "branch": "Unspecified",
+      "confidence": "unknown",
+      "source_refs": [
+        "S32",
+        "S33"
       ]
     },
     {

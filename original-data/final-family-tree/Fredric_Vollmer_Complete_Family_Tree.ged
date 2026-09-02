@@ -1,13 +1,13 @@
 0 HEAD
 1 SOUR OpenAI Codex consolidated genealogy research
 2 NAME Complete Family Tree of Fredric Muller Vollmer
-1 DATE 1 SEP 2026
+1 DATE 2 SEP 2026
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
 1 LANG English
-1 NOTE Aggregates all Family Tree project chats through 1 Sep 2026. Living details are minimized.
+1 NOTE Aggregates all Family Tree project chats through 2 Sep 2026. Living details are minimized.
 0 @I001@ INDI
 1 NAME Fredric Muller /Vollmer/
 1 SEX M
@@ -1733,9 +1733,12 @@
 1 NOTE Confidence: A - Confirmed.
 1 DEAT
 1 NOTE Henry is Fredric's father and Jan's spouse in this tree.
+1 NOTE Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer.
 1 SOUR @S28@
+1 SOUR @S31@
 1 FAMS @F095@
 1 FAMC @F105@
+1 FAMS @F146@
 0 @I177@ INDI
 1 NAME Bruce /Muller/
 1 SEX M
@@ -3314,12 +3317,21 @@
 1 SOUR @S27@
 1 FAMC @F069@
 0 @I334@ INDI
-1 NAME Mary Alice
+1 NAME Mary Alice /Thoren/
 1 SEX F
-1 NOTE Owner-confirmed biological mother of Chris Vollmer. No surname or other living details inferred.
+1 BIRT
+2 PLAC Port Townsend, Jefferson, Washington
+1 NOTE Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer.
+1 NOTE Owner-confirmed birthplace: Port Townsend, Washington. Exact birth date omitted for privacy.
+1 NOTE The 1950 census identifies her as the daughter of William J. Thoren and Alice Gallaher Thoren.
+1 NOTE Potentially living; details are minimized.
 1 REFN OWNER-MARY-ALICE
 1 SOUR @S28@
+1 SOUR @S31@
+1 SOUR @S32@
 1 FAMS @F144@
+1 FAMC @F145@
+1 FAMS @F146@
 0 @I335@ INDI
 1 NAME Chris /Vollmer/
 1 SEX U
@@ -3329,6 +3341,29 @@
 2 RELA Stepmother
 1 SOUR @S28@
 1 FAMC @F144@
+0 @I336@ INDI
+1 NAME William J /Thoren/
+1 SEX M
+1 BIRT
+2 DATE ABT 1902
+2 PLAC Montana
+1 NOTE Called Bill in family memory. The 1950 census records him as age 48, born in Montana, and Mary Alice's father.
+1 REFN OWNER-WILLIAM-J-THOREN
+1 SOUR @S28@
+1 SOUR @S32@
+1 SOUR @S33@
+1 FAMS @F145@
+0 @I337@ INDI
+1 NAME Alice /Gallaher/
+1 SEX F
+1 BIRT
+2 DATE ABT 1904
+2 PLAC Alaska
+1 NOTE The 1950 census records her as age 46, born in Alaska, and Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher.
+1 REFN RECORD-ALICE-GALLAHER-THOREN
+1 SOUR @S32@
+1 SOUR @S33@
+1 FAMS @F145@
 0 @F001@ FAM
 1 HUSB @I003@
 1 WIFE @I004@
@@ -4044,6 +4079,25 @@
 1 CHIL @I335@
 1 NOTE Chris's father was not confirmed and is intentionally omitted.
 1 SOUR @S28@
+0 @F145@ FAM
+1 HUSB @I336@
+1 WIFE @I337@
+1 CHIL @I334@
+1 MARR
+2 DATE 16 NOV 1929
+2 PLAC Pierce County, Washington
+1 NOTE The 1950 census identifies Mary Alice as William and Alice's daughter.
+1 SOUR @S32@
+1 SOUR @S33@
+0 @F146@ FAM
+1 HUSB @I176@
+1 WIFE @I334@
+1 MARR
+2 DATE 16 SEP 1955
+2 PLAC King County, Washington
+1 NOTE Owner-confirmed first marriage of Henry, before his marriage to Jan. This spouse link does not establish Chris's father.
+1 SOUR @S28@
+1 SOUR @S31@
 0 @S1@ SOUR
 1 TITL Statement supplied by Fredric Muller Vollmer
 1 NOTE Anchors Fredric, Jan Muller Vollmer, Anne Muller/McCormick, Eloise McCormick, and Charles Ellsworth McCormick II.
@@ -4149,10 +4203,10 @@
 1 AUTH Codex extended-family task in the Family Tree project
 1 NOTE Full citations, rejected candidates, and source quality are in Fredric_Vollmer_Complete_Family_Tree_Sources.md.
 0 @S28@ SOUR
-1 TITL Owner statements on Jan Muller Vollmer, Mary Alice, and Chris Vollmer
+1 TITL Owner statements on Jan Muller Vollmer, Mary Alice Thoren, William Thoren, and Chris Vollmer
 1 AUTH Fredric Muller Vollmer
-1 DATE 1 SEP 2026
-1 NOTE Jan is Fredric's biological mother; Mary Alice is Chris Vollmer's mother; Jan is Chris's stepmother. Chris's father was not stated.
+1 DATE 2 SEP 2026
+1 NOTE Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. Chris's father was not stated.
 0 @S29@ SOUR
 1 TITL Recovered records-first corrected maternal family-tree package
 1 AUTH Build Family Tree chat in the Family Tree project
@@ -4163,4 +4217,19 @@
 1 AUTH Fredric Muller Vollmer
 1 DATE 30 AUG 2026
 1 NOTE Frederic was Charles Vollmer's middle name. Later record indexes may spell it Frederick.
+0 @S31@ SOUR
+1 TITL Henry R Vollmer and Mary A Thoren marriage record
+1 AUTH Washington State Archives; King County Auditor
+1 DATE 16 SEP 1955
+1 NOTE King County Marriage Records, 1855-2017; reference kingcoarchmc207309; https://digitalarchives.wa.gov/Record/View/437A4FBD9EF3DA4BD90C60795808BC69
+0 @S32@ SOUR
+1 TITL 1950 United States census household of William J Thoren
+1 AUTH U.S. Census Bureau; National Archives and Records Administration
+1 DATE 5 APR 1950
+1 NOTE Seattle, King County, Washington, enumeration district 40-124, sheet 74, lines 23-25. William J Thoren, wife Alice, and daughter Mary Alice; NARA image 43290879-Washington-031283-0021; https://1950census.archives.gov/search/?ed=40-124&state=WA&page=1
+0 @S33@ SOUR
+1 TITL William J Thoren and Alice Gallaher marriage record
+1 AUTH Washington State Archives; Pierce County Auditor
+1 DATE 16 NOV 1929
+1 NOTE Pierce County Auditor Marriage Records, reference prcmc-v23-00709; https://digitalarchives.wa.gov/Record/View/33AF9C076D80A9452C66FD351D17CD73
 0 TRLR

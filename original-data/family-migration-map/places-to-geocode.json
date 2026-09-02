@@ -5,6 +5,11 @@
     "precision": "region"
   },
   {
+    "place": "Alaska",
+    "query": "Alaska, United States",
+    "precision": "region"
+  },
+  {
     "place": "Alsace, France",
     "query": "Alsace, France",
     "precision": "region"
@@ -288,6 +293,11 @@
     "place": "Monroeville, Monroe, Alabama",
     "query": "Monroeville, Monroe, Alabama, United States",
     "precision": "locality"
+  },
+  {
+    "place": "Montana",
+    "query": "Montana, United States",
+    "precision": "region"
   },
   {
     "place": "Moscow (now Leicester), Livingston, New York (compiled genealogy)",

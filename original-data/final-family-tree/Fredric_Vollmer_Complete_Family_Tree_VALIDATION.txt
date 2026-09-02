@@ -1,20 +1,25 @@
-GEDCOM individuals: 308
-GEDCOM families: 144
-GEDCOM sources: 30
+GEDCOM individuals: 310
+GEDCOM families: 146
+GEDCOM sources: 33
 GEDCOM trailers: 1
 broken individual references: 0
 superseded Janet transcription absent: True
 Jan biological-mother correction present: True
-Mary Alice present: True
+Mary Alice Thoren present: True
+Mary Alice Port Townsend birthplace present: True
+William J Thoren present: True
+Alice Gallaher present: True
+Henry and Mary 1955 marriage present: True
+William and Alice 1929 marriage present: True
 Chris Vollmer present: True
 Chris father intentionally absent: True
 Elmer James Chaffee corrected: True
-people CSV rows: 308
-families CSV rows: 144
-source inventory rows: 72
+people CSV rows: 310
+families CSV rows: 146
+source inventory rows: 76
 workbook sheets: 12
 workbook formula errors: 0
-workbook consolidated individual count: 308
-workbook consolidated family count: 144
-workbook consolidated GEDCOM source count: 30
-workbook source and record inventory count: 72
+workbook consolidated individual count: 310
+workbook consolidated family count: 146
+workbook consolidated GEDCOM source count: 33
+workbook source and record inventory count: 76

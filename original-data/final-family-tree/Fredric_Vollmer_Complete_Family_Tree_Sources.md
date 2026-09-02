@@ -1,6 +1,6 @@
 # Consolidated source ledger
 
-This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, and owner corrections. The GEDCOM uses S1-S30; the detailed local ledgers below retain their original identifiers.
+This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, and owner corrections. The GEDCOM uses S1-S33; the detailed local ledgers below retain their original identifiers.
 
 ## Cross-chat provenance
 
@@ -92,15 +92,24 @@ Full citations and preserved records are in Fredric_Vollmer_Complete_Family_Tree
 ### S27 — Extended-family records-first research package
 
 Full citations, rejected candidates, and source quality are in Fredric_Vollmer_Complete_Family_Tree_Sources.md.
-### S28 — Owner statements on Jan Muller Vollmer, Mary Alice, and Chris Vollmer
+### S28 — Owner statements on Jan Muller Vollmer, Mary Alice Thoren, William Thoren, and Chris Vollmer
 
-Jan is Fredric's biological mother; Mary Alice is Chris Vollmer's mother; Jan is Chris's stepmother. Chris's father was not stated.
+Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. Chris's father was not stated.
 ### S29 — Recovered records-first corrected maternal family-tree package
 
 Canonical GEDCOM, workbook, report, chart, source key, and validation package recovered from the original project chat.
 ### S30 — Owner statement on Charles Frederic Vollmer's name
 
 Frederic was Charles Vollmer's middle name. Later record indexes may spell it Frederick.
+### S31 — Henry R Vollmer and Mary A Thoren marriage record
+
+King County Marriage Records, 1855-2017; reference kingcoarchmc207309; https://digitalarchives.wa.gov/Record/View/437A4FBD9EF3DA4BD90C60795808BC69
+### S32 — 1950 United States census household of William J Thoren
+
+Seattle, King County, Washington, enumeration district 40-124, sheet 74, lines 23-25. William J Thoren, wife Alice, and daughter Mary Alice; NARA image 43290879-Washington-031283-0021; https://1950census.archives.gov/search/?ed=40-124&state=WA&page=1
+### S33 — William J Thoren and Alice Gallaher marriage record
+
+Pierce County Auditor Marriage Records, reference prcmc-v23-00709; https://digitalarchives.wa.gov/Record/View/33AF9C076D80A9452C66FD351D17CD73
 
 ---
 
@@ -341,9 +350,9 @@ The paternal anchor identities, conflicts, citations, and preserved records rema
 
 ## Extended-family sources
 
-### Owner statement, 1 September 2026
+### Owner statements, 1–2 September 2026
 
-The owner identified Jan as Fredric's biological mother; Mary Alice as Chris Vollmer's mother; and Jan as Chris Vollmer's stepmother. This is the controlling source for those living/recent family relationships. Chris's father was not explicitly stated and is therefore not yet recorded as confirmed.
+The owner identified Jan as Fredric's biological mother; Mary Alice Thoren as Henry Richard Vollmer's first wife and Chris Vollmer's mother; Jan as Chris Vollmer's stepmother; Port Townsend, Washington, as Mary Alice's birthplace; and William “Bill” Thoren as Mary Alice's father. The surname and father identification are independently corroborated by Henry and Mary's 1955 marriage record and the 1950 William J. Thoren household. Chris's father was not explicitly stated and therefore remains blank.
 
 ### Existing-tree audit, 1 September 2026
 

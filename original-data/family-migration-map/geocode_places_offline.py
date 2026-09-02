@@ -25,9 +25,9 @@ INPUT = HERE / "places-to-geocode.json"
 OUTPUT = HERE / "geocoded-locations.json"
 
 US_STATES = {
-    "Alabama": "AL", "California": "CA", "Connecticut": "CT", "Kentucky": "KY",
+    "Alabama": "AL", "Alaska": "AK", "California": "CA", "Connecticut": "CT", "Kentucky": "KY",
     "Maryland": "MD", "Massachusetts": "MA", "Michigan": "MI", "New Hampshire": "NH",
-    "New Jersey": "NJ", "New York": "NY", "North Carolina": "NC", "Ohio": "OH",
+    "Montana": "MT", "New Jersey": "NJ", "New York": "NY", "North Carolina": "NC", "Ohio": "OH",
     "Oregon": "OR", "South Carolina": "SC", "Texas": "TX", "Virginia": "VA",
     "Washington": "WA",
 }

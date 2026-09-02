@@ -21,9 +21,9 @@ CANONICAL = HERE.parent / "final-family-tree" / "Fredric_Vollmer_Complete_Family
 GEOCODE_CACHE = HERE / "geocoded-locations.json"
 
 US_STATES = {
-    "Alabama", "California", "Connecticut", "Kentucky", "Maryland",
+    "Alabama", "Alaska", "California", "Connecticut", "Kentucky", "Maryland",
     "Massachusetts", "Michigan", "New Hampshire", "New Jersey", "New York",
-    "North Carolina", "Ohio", "Oregon", "South Carolina", "Texas", "Virginia",
+    "Montana", "North Carolina", "Ohio", "Oregon", "South Carolina", "Texas", "Virginia",
     "Washington",
 }
 
@@ -176,7 +176,7 @@ def main() -> None:
             and birth_year_max is not None
             and birth_year_max >= date.today().year - 100
         )
-        explicitly_living = "Living person" in (person.get("notes") or "")
+        explicitly_living = bool(re.search(r"\b(?:Living person|Potentially living)\b", person.get("notes") or "", re.I))
         if possibly_living or explicitly_living:
             privacy_excluded_people += 1
             continue

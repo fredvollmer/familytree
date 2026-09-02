@@ -9,6 +9,16 @@
     "query": "Alabama, United States",
     "status": "resolved"
   },
+  "Alaska": {
+    "centroid_locality_count": 121,
+    "display_name": "GeoNames locality centroid for Alaska, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 61.453726,
+    "longitude": -152.154876,
+    "match_method": "derived-region-centroid",
+    "query": "Alaska, United States",
+    "status": "resolved"
+  },
   "Alsace, France": {
     "display_name": "Strasbourg (FR-44)",
     "geocoder": "GeoNames offline gazetteer",
@@ -726,6 +736,16 @@
     "query": "Monroeville, Monroe, Alabama, United States",
     "status": "resolved"
   },
+  "Montana": {
+    "centroid_locality_count": 156,
+    "display_name": "GeoNames locality centroid for Montana, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 46.929956,
+    "longitude": -110.981796,
+    "match_method": "derived-region-centroid",
+    "query": "Montana, United States",
+    "status": "resolved"
+  },
   "Moscow (now Leicester), Livingston, New York (compiled genealogy)": {
     "display_name": "Leicester (US-NY)",
     "geocoder": "GeoNames offline gazetteer",
@@ -842,16 +862,6 @@
     "matched_country": "US",
     "matched_name": "North Bend",
     "query": "North Bend, Coos, Oregon, United States",
-    "status": "resolved"
-  },
-  "Ohio": {
-    "centroid_locality_count": 866,
-    "display_name": "GeoNames locality centroid for Ohio, US",
-    "geocoder": "GeoNames offline gazetteer",
-    "latitude": 40.38603,
-    "longitude": -82.785341,
-    "match_method": "derived-region-centroid",
-    "query": "Ohio, United States",
     "status": "resolved"
   },
   "Oxfordshire, England": {
@@ -1148,16 +1158,6 @@
     "matched_country": "US",
     "matched_name": "Surry",
     "query": "Surry County, Virginia, United States",
-    "status": "resolved"
-  },
-  "Texas": {
-    "centroid_locality_count": 1282,
-    "display_name": "GeoNames locality centroid for Texas, US",
-    "geocoder": "GeoNames offline gazetteer",
-    "latitude": 30.951176,
-    "longitude": -97.630719,
-    "match_method": "derived-region-centroid",
-    "query": "Texas, United States",
     "status": "resolved"
   },
   "Virginia": {

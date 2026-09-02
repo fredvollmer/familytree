@@ -3,8 +3,8 @@
     "title": "Complete Family Tree of Fredric Muller Vollmer",
     "format": "consolidated canonical genealogy dataset",
     "gedcom_version": "5.5.1",
-    "updated": "2026-09-01",
-    "scope": "Recovered maternal direct tree plus all later paternal direct and three-ring collateral research from every Family Tree project chat.",
+    "updated": "2026-09-02",
+    "scope": "Recovered maternal direct tree plus all later paternal direct and three-ring collateral research, including the documented Thoren-Gallaher parents of Mary Alice Thoren.",
     "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted."
   },
   "people": [
@@ -2055,10 +2055,10 @@
       "birth": "",
       "death": "",
       "local_ids": "EXISTING-HENRY-RICHARD-VOLLMER",
-      "source_refs": "S28",
-      "notes": "Relationship to Fredric: Father. | Confidence: A - Confirmed. | Henry is Fredric's father and Jan's spouse in this tree.",
+      "source_refs": "S28;S31",
+      "notes": "Relationship to Fredric: Father. | Confidence: A - Confirmed. | Henry is Fredric's father and Jan's spouse in this tree. | Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer.",
       "family_as_child": "F105",
-      "families_as_spouse": "F095"
+      "families_as_spouse": "F095;F146"
     },
     {
       "individual_id": "I177",
@@ -3682,15 +3682,15 @@
     },
     {
       "individual_id": "I334",
-      "name": "Mary Alice",
+      "name": "Mary Alice Thoren",
       "sex": "F",
-      "birth": "",
+      "birth": "Port Townsend, Jefferson, Washington",
       "death": "",
       "local_ids": "OWNER-MARY-ALICE",
-      "source_refs": "S28",
-      "notes": "Owner-confirmed biological mother of Chris Vollmer. No surname or other living details inferred.",
-      "family_as_child": "",
-      "families_as_spouse": "F144"
+      "source_refs": "S28;S31;S32",
+      "notes": "Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer. | Owner-confirmed birthplace: Port Townsend, Washington. Exact birth date omitted for privacy. | The 1950 census identifies her as the daughter of William J. Thoren and Alice Gallaher Thoren. | Potentially living; details are minimized.",
+      "family_as_child": "F145",
+      "families_as_spouse": "F144;F146"
     },
     {
       "individual_id": "I335",
@@ -3703,6 +3703,30 @@
       "notes": "Owner-confirmed child of Mary Alice and stepchild of Jan Muller Vollmer. Father not confirmed and intentionally left blank.",
       "family_as_child": "F144",
       "families_as_spouse": ""
+    },
+    {
+      "individual_id": "I336",
+      "name": "William J Thoren",
+      "sex": "M",
+      "birth": "ABT 1902; Montana",
+      "death": "",
+      "local_ids": "OWNER-WILLIAM-J-THOREN",
+      "source_refs": "S28;S32;S33",
+      "notes": "Called Bill in family memory. The 1950 census records him as age 48, born in Montana, and Mary Alice's father.",
+      "family_as_child": "",
+      "families_as_spouse": "F145"
+    },
+    {
+      "individual_id": "I337",
+      "name": "Alice Gallaher",
+      "sex": "F",
+      "birth": "ABT 1904; Alaska",
+      "death": "",
+      "local_ids": "RECORD-ALICE-GALLAHER-THOREN",
+      "source_refs": "S32;S33",
+      "notes": "The 1950 census records her as age 46, born in Alaska, and Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher.",
+      "family_as_child": "",
+      "families_as_spouse": "F145"
     }
   ],
   "families": [
@@ -3711,6 +3735,7 @@
       "husband_id": "I003",
       "wife_id": "I004",
       "children_ids": "I002;I177",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -3719,6 +3744,7 @@
       "husband_id": "I005",
       "wife_id": "I006",
       "children_ids": "I003;I178;I183",
+      "marriage": "",
       "notes": "Children reconstructed from the 1998 Art Muller family chart. | Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -3727,6 +3753,7 @@
       "husband_id": "I007",
       "wife_id": "I008",
       "children_ids": "I004;I193;I200;I202",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Four-child McCormick sibling set; Gwen is a core sibling.",
       "source_refs": "S27"
     },
@@ -3735,6 +3762,7 @@
       "husband_id": "I009",
       "wife_id": "I010",
       "children_ids": "I005;I310;I311",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -3743,6 +3771,7 @@
       "husband_id": "I013",
       "wife_id": "I014",
       "children_ids": "I006;I314;I315",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -3751,6 +3780,7 @@
       "husband_id": "I017",
       "wife_id": "I018",
       "children_ids": "I009",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3759,6 +3789,7 @@
       "husband_id": "I019",
       "wife_id": "I020",
       "children_ids": "I010",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3767,6 +3798,7 @@
       "husband_id": "I021",
       "wife_id": "",
       "children_ids": "I020",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3775,6 +3807,7 @@
       "husband_id": "I022",
       "wife_id": "I023",
       "children_ids": "I013",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3783,6 +3816,7 @@
       "husband_id": "I024",
       "wife_id": "I025",
       "children_ids": "I022",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3791,6 +3825,7 @@
       "husband_id": "I026",
       "wife_id": "I027",
       "children_ids": "I024",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3799,6 +3834,7 @@
       "husband_id": "I028",
       "wife_id": "I029",
       "children_ids": "I025",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3807,6 +3843,7 @@
       "husband_id": "I030",
       "wife_id": "I031",
       "children_ids": "I026",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3815,6 +3852,7 @@
       "husband_id": "I032",
       "wife_id": "I033",
       "children_ids": "I027",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3823,6 +3861,7 @@
       "husband_id": "I034",
       "wife_id": "I035",
       "children_ids": "I028",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3831,6 +3870,7 @@
       "husband_id": "I036",
       "wife_id": "I037",
       "children_ids": "I030",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3839,6 +3879,7 @@
       "husband_id": "I038",
       "wife_id": "",
       "children_ids": "I031",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3847,6 +3888,7 @@
       "husband_id": "I039",
       "wife_id": "I040",
       "children_ids": "I032",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3855,6 +3897,7 @@
       "husband_id": "I041",
       "wife_id": "I042",
       "children_ids": "I034",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3863,6 +3906,7 @@
       "husband_id": "I043",
       "wife_id": "I044",
       "children_ids": "I035",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3871,6 +3915,7 @@
       "husband_id": "I045",
       "wife_id": "",
       "children_ids": "I037",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3879,6 +3924,7 @@
       "husband_id": "I046",
       "wife_id": "I047",
       "children_ids": "I039",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3887,6 +3933,7 @@
       "husband_id": "I048",
       "wife_id": "I049",
       "children_ids": "I040",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3895,6 +3942,7 @@
       "husband_id": "I050",
       "wife_id": "I051",
       "children_ids": "I041",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3903,6 +3951,7 @@
       "husband_id": "I052",
       "wife_id": "",
       "children_ids": "I042",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3911,6 +3960,7 @@
       "husband_id": "I053",
       "wife_id": "I054",
       "children_ids": "I043",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3919,6 +3969,7 @@
       "husband_id": "I055",
       "wife_id": "I056",
       "children_ids": "I044",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3927,6 +3978,7 @@
       "husband_id": "I057",
       "wife_id": "I058",
       "children_ids": "I046",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3935,6 +3987,7 @@
       "husband_id": "I059",
       "wife_id": "I060",
       "children_ids": "I048",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3943,6 +3996,7 @@
       "husband_id": "I061",
       "wife_id": "I062",
       "children_ids": "I049",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3951,6 +4005,7 @@
       "husband_id": "I063",
       "wife_id": "I064",
       "children_ids": "I050",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3959,6 +4014,7 @@
       "husband_id": "I065",
       "wife_id": "I066",
       "children_ids": "I051",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3967,6 +4023,7 @@
       "husband_id": "I065",
       "wife_id": "I076",
       "children_ids": "I070",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3975,6 +4032,7 @@
       "husband_id": "I067",
       "wife_id": "I068",
       "children_ids": "I052",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3983,6 +4041,7 @@
       "husband_id": "I069",
       "wife_id": "I070",
       "children_ids": "I053",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3991,6 +4050,7 @@
       "husband_id": "I071",
       "wife_id": "I072",
       "children_ids": "I054",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -3999,6 +4059,7 @@
       "husband_id": "I073",
       "wife_id": "I074",
       "children_ids": "I063",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4007,6 +4068,7 @@
       "husband_id": "I075",
       "wife_id": "I076",
       "children_ids": "I065",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4015,6 +4077,7 @@
       "husband_id": "I077",
       "wife_id": "I078",
       "children_ids": "I066",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4023,6 +4086,7 @@
       "husband_id": "I079",
       "wife_id": "I080",
       "children_ids": "I067",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4031,6 +4095,7 @@
       "husband_id": "I081",
       "wife_id": "",
       "children_ids": "I068",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4039,6 +4104,7 @@
       "husband_id": "I082",
       "wife_id": "I083",
       "children_ids": "I069",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4047,6 +4113,7 @@
       "husband_id": "I084",
       "wife_id": "I085",
       "children_ids": "I071",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4055,6 +4122,7 @@
       "husband_id": "I086",
       "wife_id": "I087",
       "children_ids": "I072",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4063,6 +4131,7 @@
       "husband_id": "I088",
       "wife_id": "",
       "children_ids": "I078",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4071,6 +4140,7 @@
       "husband_id": "I089",
       "wife_id": "I090",
       "children_ids": "I083",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4079,6 +4149,7 @@
       "husband_id": "I091",
       "wife_id": "",
       "children_ids": "I084",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4087,6 +4158,7 @@
       "husband_id": "I092",
       "wife_id": "I093",
       "children_ids": "I085",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4095,6 +4167,7 @@
       "husband_id": "I094",
       "wife_id": "I095",
       "children_ids": "I086",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4103,6 +4176,7 @@
       "husband_id": "I096",
       "wife_id": "",
       "children_ids": "I087",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4111,6 +4185,7 @@
       "husband_id": "I097",
       "wife_id": "I098",
       "children_ids": "I089",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4119,6 +4194,7 @@
       "husband_id": "I099",
       "wife_id": "I100",
       "children_ids": "I090",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4127,6 +4203,7 @@
       "husband_id": "I101",
       "wife_id": "I102",
       "children_ids": "I092",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4135,6 +4212,7 @@
       "husband_id": "I103",
       "wife_id": "I104",
       "children_ids": "I093",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4143,6 +4221,7 @@
       "husband_id": "I105",
       "wife_id": "I106",
       "children_ids": "I097",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4151,6 +4230,7 @@
       "husband_id": "I107",
       "wife_id": "",
       "children_ids": "I098",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4159,6 +4239,7 @@
       "husband_id": "I108",
       "wife_id": "I109",
       "children_ids": "I099",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4167,6 +4248,7 @@
       "husband_id": "I110",
       "wife_id": "I111",
       "children_ids": "I100",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4175,6 +4257,7 @@
       "husband_id": "I112",
       "wife_id": "I113",
       "children_ids": "I101",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4183,6 +4266,7 @@
       "husband_id": "I114",
       "wife_id": "I115",
       "children_ids": "I007;I320;I324",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4191,6 +4275,7 @@
       "husband_id": "I116",
       "wife_id": "I117",
       "children_ids": "I114",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4199,6 +4284,7 @@
       "husband_id": "I118",
       "wife_id": "I119",
       "children_ids": "I116",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4207,6 +4293,7 @@
       "husband_id": "I120",
       "wife_id": "I121",
       "children_ids": "I115",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4215,6 +4302,7 @@
       "husband_id": "I122",
       "wife_id": "I123",
       "children_ids": "I120",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4223,6 +4311,7 @@
       "husband_id": "I124",
       "wife_id": "I125",
       "children_ids": "I117",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4231,6 +4320,7 @@
       "husband_id": "I126",
       "wife_id": "",
       "children_ids": "I122",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4239,6 +4329,7 @@
       "husband_id": "I127",
       "wife_id": "I132",
       "children_ids": "I126",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4247,6 +4338,7 @@
       "husband_id": "I128",
       "wife_id": "I129",
       "children_ids": "I123",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4255,6 +4347,7 @@
       "husband_id": "I130",
       "wife_id": "I131",
       "children_ids": "I008;I327;I328;I329;I332;I333",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4263,6 +4356,7 @@
       "husband_id": "I133",
       "wife_id": "I134",
       "children_ids": "I130",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4271,6 +4365,7 @@
       "husband_id": "I135",
       "wife_id": "I136",
       "children_ids": "I131",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4279,6 +4374,7 @@
       "husband_id": "I137",
       "wife_id": "I138",
       "children_ids": "I135",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4287,6 +4383,7 @@
       "husband_id": "I139",
       "wife_id": "I140",
       "children_ids": "I137",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4295,6 +4392,7 @@
       "husband_id": "I141",
       "wife_id": "I142",
       "children_ids": "I139",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4303,6 +4401,7 @@
       "husband_id": "I143",
       "wife_id": "I144",
       "children_ids": "I141",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4311,6 +4410,7 @@
       "husband_id": "I145",
       "wife_id": "I146",
       "children_ids": "I140",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4319,6 +4419,7 @@
       "husband_id": "I147",
       "wife_id": "I148",
       "children_ids": "I138",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4327,6 +4428,7 @@
       "husband_id": "I149",
       "wife_id": "I150",
       "children_ids": "I143",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4335,6 +4437,7 @@
       "husband_id": "I151",
       "wife_id": "",
       "children_ids": "I149",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4343,6 +4446,7 @@
       "husband_id": "I152",
       "wife_id": "I153",
       "children_ids": "I142",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4351,6 +4455,7 @@
       "husband_id": "I154",
       "wife_id": "I155",
       "children_ids": "I136",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4359,6 +4464,7 @@
       "husband_id": "I157",
       "wife_id": "",
       "children_ids": "I151",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4367,6 +4473,7 @@
       "husband_id": "I158",
       "wife_id": "I159",
       "children_ids": "I147",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4375,6 +4482,7 @@
       "husband_id": "I160",
       "wife_id": "",
       "children_ids": "I148",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4383,6 +4491,7 @@
       "husband_id": "I161",
       "wife_id": "I162",
       "children_ids": "I154",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4391,6 +4500,7 @@
       "husband_id": "I163",
       "wife_id": "",
       "children_ids": "I155",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4399,6 +4509,7 @@
       "husband_id": "I164",
       "wife_id": "I165",
       "children_ids": "I161",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4407,6 +4518,7 @@
       "husband_id": "I166",
       "wife_id": "I167",
       "children_ids": "I164",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4415,6 +4527,7 @@
       "husband_id": "I168",
       "wife_id": "I169",
       "children_ids": "I165",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4423,6 +4536,7 @@
       "husband_id": "I170",
       "wife_id": "I171",
       "children_ids": "I167",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4431,6 +4545,7 @@
       "husband_id": "I172",
       "wife_id": "I173",
       "children_ids": "I166",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4439,6 +4554,7 @@
       "husband_id": "I174",
       "wife_id": "",
       "children_ids": "I169",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4447,6 +4563,7 @@
       "husband_id": "I179",
       "wife_id": "I178",
       "children_ids": "I180;I181;I182",
+      "marriage": "",
       "notes": "James is the corrected third child name; earlier draft said Janet.",
       "source_refs": ""
     },
@@ -4455,6 +4572,7 @@
       "husband_id": "I184",
       "wife_id": "I183",
       "children_ids": "I185;I187;I189;I191",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4463,6 +4581,7 @@
       "husband_id": "I176",
       "wife_id": "I002",
       "children_ids": "I001;I175",
+      "marriage": "",
       "notes": "Jan is Fredric and Arianna's biological mother; Henry is recorded as their father in the recovered canonical package.",
       "source_refs": "S28"
     },
@@ -4471,6 +4590,7 @@
       "husband_id": "I193",
       "wife_id": "I194",
       "children_ids": "I195;I197;I199",
+      "marriage": "",
       "notes": "",
       "source_refs": ""
     },
@@ -4479,6 +4599,7 @@
       "husband_id": "I203",
       "wife_id": "I202",
       "children_ids": "I204;I205",
+      "marriage": "",
       "notes": "Carey is the one and only daughter; Mark is the other child.",
       "source_refs": ""
     },
@@ -4487,6 +4608,7 @@
       "husband_id": "I186",
       "wife_id": "I185",
       "children_ids": "",
+      "marriage": "",
       "notes": "Dave and Kathy Werblo",
       "source_refs": ""
     },
@@ -4495,6 +4617,7 @@
       "husband_id": "I187",
       "wife_id": "I188",
       "children_ids": "",
+      "marriage": "",
       "notes": "John and Celeste",
       "source_refs": ""
     },
@@ -4503,6 +4626,7 @@
       "husband_id": "I190",
       "wife_id": "I189",
       "children_ids": "",
+      "marriage": "",
       "notes": "Gordon and Susan Galbraith",
       "source_refs": ""
     },
@@ -4511,6 +4635,7 @@
       "husband_id": "I192",
       "wife_id": "I191",
       "children_ids": "",
+      "marriage": "",
       "notes": "Historical spouse shown in 1998 chart",
       "source_refs": ""
     },
@@ -4519,6 +4644,7 @@
       "husband_id": "I196",
       "wife_id": "I195",
       "children_ids": "",
+      "marriage": "",
       "notes": "John and Sandy Hill",
       "source_refs": ""
     },
@@ -4527,6 +4653,7 @@
       "husband_id": "I197",
       "wife_id": "I198",
       "children_ids": "",
+      "marriage": "",
       "notes": "Ross and Carrie McCormick",
       "source_refs": ""
     },
@@ -4535,6 +4662,7 @@
       "husband_id": "I200",
       "wife_id": "I201",
       "children_ids": "",
+      "marriage": "",
       "notes": "Charles and Judy McCormick",
       "source_refs": ""
     },
@@ -4543,6 +4671,7 @@
       "husband_id": "I207",
       "wife_id": "I218",
       "children_ids": "I176;I269",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26;S27"
     },
@@ -4551,6 +4680,7 @@
       "husband_id": "I208",
       "wife_id": "I211",
       "children_ids": "I207;I270",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26;S27"
     },
@@ -4559,6 +4689,7 @@
       "husband_id": "I209",
       "wife_id": "I210",
       "children_ids": "I208;I282",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26;S27"
     },
@@ -4567,6 +4698,7 @@
       "husband_id": "I212",
       "wife_id": "I213",
       "children_ids": "I211",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4575,6 +4707,7 @@
       "husband_id": "I214",
       "wife_id": "I215",
       "children_ids": "I212",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4583,6 +4716,7 @@
       "husband_id": "I216",
       "wife_id": "I217",
       "children_ids": "I213",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4591,6 +4725,7 @@
       "husband_id": "I219",
       "wife_id": "I264",
       "children_ids": "I218;I274;I277",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26;S27"
     },
@@ -4599,6 +4734,7 @@
       "husband_id": "I220",
       "wife_id": "I235",
       "children_ids": "I219;I283",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26;S27"
     },
@@ -4607,6 +4743,7 @@
       "husband_id": "I221",
       "wife_id": "I222",
       "children_ids": "I220",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4615,6 +4752,7 @@
       "husband_id": "I223",
       "wife_id": "I224",
       "children_ids": "I222",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4623,6 +4761,7 @@
       "husband_id": "I225",
       "wife_id": "I226",
       "children_ids": "I223",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4631,6 +4770,7 @@
       "husband_id": "I227",
       "wife_id": "I228",
       "children_ids": "I225",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4639,6 +4779,7 @@
       "husband_id": "I229",
       "wife_id": "I230",
       "children_ids": "I227",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4647,6 +4788,7 @@
       "husband_id": "I231",
       "wife_id": "I232",
       "children_ids": "I228",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4655,6 +4797,7 @@
       "husband_id": "I233",
       "wife_id": "I234",
       "children_ids": "I229",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4663,6 +4806,7 @@
       "husband_id": "I236",
       "wife_id": "I238",
       "children_ids": "I235",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4671,6 +4815,7 @@
       "husband_id": "I237",
       "wife_id": "",
       "children_ids": "I236",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4679,6 +4824,7 @@
       "husband_id": "I239",
       "wife_id": "I240",
       "children_ids": "I238",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4687,6 +4833,7 @@
       "husband_id": "I241",
       "wife_id": "I242",
       "children_ids": "I239",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4695,6 +4842,7 @@
       "husband_id": "I243",
       "wife_id": "I244",
       "children_ids": "I240",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4703,6 +4851,7 @@
       "husband_id": "I245",
       "wife_id": "I246",
       "children_ids": "I241",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4711,6 +4860,7 @@
       "husband_id": "I247",
       "wife_id": "I248",
       "children_ids": "I245",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4719,6 +4869,7 @@
       "husband_id": "I249",
       "wife_id": "I250",
       "children_ids": "I246",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4727,6 +4878,7 @@
       "husband_id": "I252",
       "wife_id": "I253",
       "children_ids": "I247",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4735,6 +4887,7 @@
       "husband_id": "I251",
       "wife_id": "I254",
       "children_ids": "I248",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4743,6 +4896,7 @@
       "husband_id": "I258",
       "wife_id": "I259",
       "children_ids": "I249",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4751,6 +4905,7 @@
       "husband_id": "I260",
       "wife_id": "I261",
       "children_ids": "I250",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4759,6 +4914,7 @@
       "husband_id": "I255",
       "wife_id": "I256",
       "children_ids": "I251",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4767,6 +4923,7 @@
       "husband_id": "I257",
       "wife_id": "",
       "children_ids": "I254",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4775,6 +4932,7 @@
       "husband_id": "I262",
       "wife_id": "I263",
       "children_ids": "I261",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4783,6 +4941,7 @@
       "husband_id": "I265",
       "wife_id": "I268",
       "children_ids": "I264;I284;I285;I294",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26;S27"
     },
@@ -4791,6 +4950,7 @@
       "husband_id": "I266",
       "wife_id": "I267",
       "children_ids": "I265",
+      "marriage": "",
       "notes": "Relationship merged from the records-first Vollmer-Marsh research package.",
       "source_refs": "S26"
     },
@@ -4799,6 +4959,7 @@
       "husband_id": "I271",
       "wife_id": "I270",
       "children_ids": "I272;I273",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4807,6 +4968,7 @@
       "husband_id": "I275",
       "wife_id": "I274",
       "children_ids": "I276",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4815,6 +4977,7 @@
       "husband_id": "I277",
       "wife_id": "I278",
       "children_ids": "I279;I280;I281",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4823,6 +4986,7 @@
       "husband_id": "I286",
       "wife_id": "I285",
       "children_ids": "I287;I288;I289;I290;I291;I292;I293",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4831,6 +4995,7 @@
       "husband_id": "I315",
       "wife_id": "I316",
       "children_ids": "I317",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4839,6 +5004,7 @@
       "husband_id": "I321",
       "wife_id": "I320",
       "children_ids": "I322;I323",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4847,6 +5013,7 @@
       "husband_id": "I329",
       "wife_id": "I330",
       "children_ids": "I331",
+      "marriage": "",
       "notes": "Collateral relationship merged from the extended-family research package.",
       "source_refs": "S27"
     },
@@ -4855,8 +5022,27 @@
       "husband_id": "",
       "wife_id": "I334",
       "children_ids": "I335",
+      "marriage": "",
       "notes": "Chris's father was not confirmed and is intentionally omitted.",
       "source_refs": "S28"
+    },
+    {
+      "family_id": "F145",
+      "husband_id": "I336",
+      "wife_id": "I337",
+      "children_ids": "I334",
+      "marriage": "16 NOV 1929; Pierce County, Washington",
+      "notes": "The 1950 census identifies Mary Alice as William and Alice's daughter.",
+      "source_refs": "S32;S33"
+    },
+    {
+      "family_id": "F146",
+      "husband_id": "I176",
+      "wife_id": "I334",
+      "children_ids": "",
+      "marriage": "16 SEP 1955; King County, Washington",
+      "notes": "Owner-confirmed first marriage of Henry, before his marriage to Jan. This spouse link does not establish Chris's father.",
+      "source_refs": "S28;S31"
     }
   ],
   "sources": [
@@ -5078,10 +5264,10 @@
     },
     {
       "source_id": "S28",
-      "title": "Owner statements on Jan Muller Vollmer, Mary Alice, and Chris Vollmer",
+      "title": "Owner statements on Jan Muller Vollmer, Mary Alice Thoren, William Thoren, and Chris Vollmer",
       "author": "Fredric Muller Vollmer",
-      "date": "1 SEP 2026",
-      "notes": "Jan is Fredric's biological mother; Mary Alice is Chris Vollmer's mother; Jan is Chris's stepmother. Chris's father was not stated.",
+      "date": "2 SEP 2026",
+      "notes": "Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. Chris's father was not stated.",
       "origin": "cross-chat consolidation"
     },
     {
@@ -5098,6 +5284,30 @@
       "author": "Fredric Muller Vollmer",
       "date": "30 AUG 2026",
       "notes": "Frederic was Charles Vollmer's middle name. Later record indexes may spell it Frederick.",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S31",
+      "title": "Henry R Vollmer and Mary A Thoren marriage record",
+      "author": "Washington State Archives; King County Auditor",
+      "date": "16 SEP 1955",
+      "notes": "King County Marriage Records, 1855-2017; reference kingcoarchmc207309; https://digitalarchives.wa.gov/Record/View/437A4FBD9EF3DA4BD90C60795808BC69",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S32",
+      "title": "1950 United States census household of William J Thoren",
+      "author": "U.S. Census Bureau; National Archives and Records Administration",
+      "date": "5 APR 1950",
+      "notes": "Seattle, King County, Washington, enumeration district 40-124, sheet 74, lines 23-25. William J Thoren, wife Alice, and daughter Mary Alice; NARA image 43290879-Washington-031283-0021; https://1950census.archives.gov/search/?ed=40-124&state=WA&page=1",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S33",
+      "title": "William J Thoren and Alice Gallaher marriage record",
+      "author": "Washington State Archives; Pierce County Auditor",
+      "date": "16 NOV 1929",
+      "notes": "Pierce County Auditor Marriage Records, reference prcmc-v23-00709; https://digitalarchives.wa.gov/Record/View/33AF9C076D80A9452C66FD351D17CD73",
       "origin": "cross-chat consolidation"
     }
   ],
@@ -5153,6 +5363,18 @@
       "corrected": "Mary Alice is Chris Vollmer's mother; Chris's father remains unconfirmed."
     },
     {
+      "topic": "Mary Alice identity and birthplace",
+      "corrected": "Owner-confirmed as Mary Alice Thoren, born in Port Townsend, Washington."
+    },
+    {
+      "topic": "Mary Alice parents",
+      "corrected": "The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents."
+    },
+    {
+      "topic": "Henry first marriage",
+      "corrected": "Henry R. Vollmer married Mary A. Thoren in King County on 16 Sep 1955, before Jan Muller Vollmer."
+    },
+    {
       "topic": "Mary Gene spouse",
       "corrected": "Historical records identify Elmer James Chaffee Jr; the family chart's James form is retained as a shorter usage."
     },
@@ -5185,6 +5407,10 @@
     {
       "thread_title": "Extend paternal family tree",
       "role": "both-side collateral expansion and owner corrections"
+    },
+    {
+      "thread_title": "Trace Mary Alice Thoren ancestry",
+      "role": "owner-confirmed identity and birthplace; official marriage and 1950 census evidence for her parents"
     }
   ]
 }
