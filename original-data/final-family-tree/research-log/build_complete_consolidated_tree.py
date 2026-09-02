@@ -296,7 +296,8 @@ def ensure_person_update(iid: str, *, name: str | None = None, sex: str | None =
 
 ensure_person_update("@I176@", name="Henry Richard Vollmer", sex="M",
                      notes=["Henry is Fredric's father and Jan's spouse in this tree.",
-                            "Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer."],
+                            "Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer.",
+                            "Owner-confirmed: Henry is Chris Vollmer's biological father; Chris is Fredric's paternal half-brother."],
                      source="@S28@")
 ensure_person_update("@I002@", name="Jan Muller Vollmer", sex="F",
                      notes=["Owner-confirmed: Jan is Fredric's biological mother, not his stepmother.",
@@ -333,7 +334,7 @@ ensure_person_update(local_to_ged["CFV-1906"], name="Charles Frederic Vollmer", 
 for iid, lines in list(individuals.items()):
     individuals[iid] = [line.replace("Janet Chaffee", "superseded Chaffee transcription") for line in lines]
 
-# Owner-confirmed recent-family correction. Chris's father is intentionally absent.
+# Owner-confirmed recent-family relationships.
 mary_alice_iid = next_iid()
 chris_iid = next_iid()
 william_thoren_iid = next_iid()
@@ -344,7 +345,7 @@ individuals[mary_alice_iid] = [
     "1 SEX F",
     "1 BIRT",
     "2 PLAC Port Townsend, Jefferson, Washington",
-    "1 NOTE Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer.",
+    "1 NOTE Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer. Henry and Mary Alice are Chris's biological parents.",
     "1 NOTE Owner-confirmed birthplace: Port Townsend, Washington. Exact birth date omitted for privacy.",
     "1 NOTE The 1950 census identifies her as the daughter of William J. Thoren and Alice Gallaher Thoren.",
     "1 NOTE Potentially living; details are minimized.",
@@ -357,7 +358,7 @@ individuals[chris_iid] = [
     f"0 {chris_iid} INDI",
     "1 NAME Chris /Vollmer/",
     "1 SEX U",
-    "1 NOTE Owner-confirmed child of Mary Alice and stepchild of Jan Muller Vollmer. Father not confirmed and intentionally left blank.",
+    "1 NOTE Owner-confirmed son of Henry Richard Vollmer and Mary Alice Thoren, stepchild of Jan Muller Vollmer, and paternal half-brother of Fredric Muller Vollmer.",
     "1 REFN OWNER-CHRIS-VOLLMER",
     "1 ASSO @I002@",
     "2 RELA Stepmother",
@@ -473,14 +474,15 @@ for row in extended_rows:
 
 add_family("@I176@", "@I002@", ["@I001@", "@I175@"],
            "Jan is Fredric and Arianna's biological mother; Henry is recorded as their father in the recovered canonical package.", "@S28@")
-add_family("", mary_alice_iid, [chris_iid],
-           "Chris's father was not confirmed and is intentionally omitted.", "@S28@")
+add_family("@I176@", mary_alice_iid, [chris_iid],
+           "Owner-confirmed biological parents of Chris Vollmer. Chris is Fredric Muller Vollmer's paternal half-brother. The earlier unconfirmed-father status is superseded by the owner's 2 September 2026 clarification.",
+           "@S28@", "16 SEP 1955", "King County, Washington")
 add_family(william_thoren_iid, alice_gallaher_iid, [mary_alice_iid],
            "The 1950 census identifies Mary Alice as William and Alice's daughter.", "@S32@",
            "16 NOV 1929", "Pierce County, Washington")
 add_family(william_thoren_iid, alice_gallaher_iid, [], source="@S33@")
 add_family("@I176@", mary_alice_iid, [],
-           "Owner-confirmed first marriage of Henry, before his marriage to Jan. This spouse link does not establish Chris's father.",
+           "Washington State Archives documents Henry and Mary Alice's marriage; owner testimony separately confirms both as Chris's biological parents.",
            "@S31@", "16 SEP 1955", "King County, Washington")
 add_family("@I176@", mary_alice_iid, [], source="@S28@")
 add_unique(individuals["@I176@"], "1 SOUR @S31@")
@@ -541,7 +543,7 @@ source_blocks["@S28@"] = [
     "1 TITL Owner statements on Jan Muller Vollmer, Mary Alice Thoren, William Thoren, and Chris Vollmer",
     "1 AUTH Fredric Muller Vollmer",
     "1 DATE 2 SEP 2026",
-    "1 NOTE Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. Chris's father was not stated.",
+    "1 NOTE Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. A later 2 Sep statement explicitly identifies Henry as Chris's biological father and Chris as Fredric's paternal half-brother, superseding the earlier unconfirmed status.",
 ]
 source_blocks["@S29@"] = [
     "0 @S29@ SOUR",
@@ -729,7 +731,7 @@ canonical_data = {
     "sources": source_catalog,
     "corrections": canonical_json.get("corrections", []) + [
         {"topic": "Jan relationship", "corrected": "Jan is Fredric's biological mother and Chris Vollmer's stepmother."},
-        {"topic": "Chris parentage", "corrected": "Mary Alice is Chris Vollmer's mother; Chris's father remains unconfirmed."},
+        {"topic": "Chris parentage", "corrected": "Owner-confirmed: Henry Richard Vollmer and Mary Alice Thoren are Chris Vollmer's biological parents; Chris is Fredric's paternal half-brother. This supersedes the earlier unconfirmed-father status."},
         {"topic": "Mary Alice identity and birthplace", "corrected": "Owner-confirmed as Mary Alice Thoren, born in Port Townsend, Washington."},
         {"topic": "Mary Alice parents", "corrected": "The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents."},
         {"topic": "Henry first marriage", "corrected": "Henry R. Vollmer married Mary A. Thoren in King County on 16 Sep 1955, before Jan Muller Vollmer."},
@@ -760,10 +762,10 @@ OUT_AUDIT.write_text(
     f"- Preserved record files inventoried: {len(record_inventory)}\n\n"
     "## Controlling corrections\n\n"
     "- Jan Muller Vollmer is Fredric's biological mother.\n"
-    "- Mary Alice Thoren is Chris Vollmer's biological mother and Henry's first wife.\n"
+    "- Henry Richard Vollmer and Mary Alice Thoren are Chris Vollmer's biological parents; Mary Alice was Henry's first wife.\n"
     "- William J. Thoren and Alice Gallaher Thoren are Mary Alice's census-documented parents.\n"
     "- Jan is Chris Vollmer's stepmother.\n"
-    "- Chris's father is not inferred.\n"
+    "- Chris is Fredric's paternal half-brother.\n"
     "- The superseded Chaffee mistranscription is removed.\n"
     "- Elmer James Chaffee Jr is Mary Gene's historically documented husband; James remains a family-chart short form.\n"
     "- Eloise's official California dates replace the conflicting compiled dates as the primary GEDCOM events.\n\n"
@@ -804,7 +806,7 @@ validation = {
     "Henry and Mary 1955 marriage present": "2 DATE 16 SEP 1955" in out_text,
     "William and Alice 1929 marriage present": "2 DATE 16 NOV 1929" in out_text,
     "Chris Vollmer present": "1 NAME Chris /Vollmer/" in out_text,
-    "Chris father intentionally absent": any(not row["husband_id"] and row["wife_id"] == mary_alice_iid.strip("@") and chris_iid.strip("@") in row["children_ids"] for row in family_rows),
+    "Chris parent link to Henry and Mary present": any(row["husband_id"] == "I176" and row["wife_id"] == mary_alice_iid.strip("@") and chris_iid.strip("@") in row["children_ids"] for row in family_rows),
     "Elmer James Chaffee corrected": "Elmer James /Chaffee/ Jr" in out_text,
     "people CSV rows": len(people_rows),
     "families CSV rows": len(family_rows),
@@ -827,7 +829,7 @@ OUT_README.write_text(
     "- `records/` — preserved source images and certificates copied from the later records-first tasks.\n"
     "- The recovered records-first maternal package remains alongside these files for provenance.\n\n"
     "## Privacy and relationship controls\n\n"
-    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Mary Alice Thoren is Chris's mother and Henry's first wife. The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents. Chris's father is left blank because the owner did not confirm him.\n",
+    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents.\n",
     encoding="utf-8",
 )
 

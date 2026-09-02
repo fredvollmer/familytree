@@ -41,8 +41,9 @@ The owner confirmed on 1 September 2026 that:
 - Jan is Fredric's biological mother, not his stepmother.
 - Mary Alice is Chris Vollmer's mother.
 - Jan is Chris Vollmer's stepmother.
+- Henry Richard Vollmer is Chris Vollmer's biological father, making Chris Fredric's paternal half-brother (confirmed 2 September 2026).
 
-These statements govern the recent-family crosswalk. They do not by themselves establish every unspoken relationship—for example, Chris's father remains to be explicitly confirmed before it is entered locally. The current tree's duplicate Jan and Henry profiles must not be allowed to convert Jan's relationship to Fredric into a step relationship.
+These statements govern the recent-family crosswalk. Chris's father was initially left unconfirmed because the earlier statement named only his mother; the owner's 2 September clarification now explicitly establishes Henry as his biological father. The current tree's duplicate Jan and Henry profiles must not be allowed to convert Jan's relationship to Fredric into a step relationship.
 
 ## Paternal tree audit crosswalk
 

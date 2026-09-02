@@ -1734,11 +1734,12 @@
 1 DEAT
 1 NOTE Henry is Fredric's father and Jan's spouse in this tree.
 1 NOTE Owner-confirmed: Mary Alice Thoren was Henry's first wife, before Jan Muller Vollmer.
+1 NOTE Owner-confirmed: Henry is Chris Vollmer's biological father; Chris is Fredric's paternal half-brother.
 1 SOUR @S28@
 1 SOUR @S31@
 1 FAMS @F095@
 1 FAMC @F105@
-1 FAMS @F146@
+1 FAMS @F144@
 0 @I177@ INDI
 1 NAME Bruce /Muller/
 1 SEX M
@@ -3321,7 +3322,7 @@
 1 SEX F
 1 BIRT
 2 PLAC Port Townsend, Jefferson, Washington
-1 NOTE Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer.
+1 NOTE Owner-confirmed biological mother of Chris Vollmer and first wife of Henry Richard Vollmer, before Jan Muller Vollmer. Henry and Mary Alice are Chris's biological parents.
 1 NOTE Owner-confirmed birthplace: Port Townsend, Washington. Exact birth date omitted for privacy.
 1 NOTE The 1950 census identifies her as the daughter of William J. Thoren and Alice Gallaher Thoren.
 1 NOTE Potentially living; details are minimized.
@@ -3331,11 +3332,10 @@
 1 SOUR @S32@
 1 FAMS @F144@
 1 FAMC @F145@
-1 FAMS @F146@
 0 @I335@ INDI
 1 NAME Chris /Vollmer/
 1 SEX U
-1 NOTE Owner-confirmed child of Mary Alice and stepchild of Jan Muller Vollmer. Father not confirmed and intentionally left blank.
+1 NOTE Owner-confirmed son of Henry Richard Vollmer and Mary Alice Thoren, stepchild of Jan Muller Vollmer, and paternal half-brother of Fredric Muller Vollmer.
 1 REFN OWNER-CHRIS-VOLLMER
 1 ASSO @I002@
 2 RELA Stepmother
@@ -4075,10 +4075,16 @@
 1 NOTE Collateral relationship merged from the extended-family research package.
 1 SOUR @S27@
 0 @F144@ FAM
+1 HUSB @I176@
 1 WIFE @I334@
 1 CHIL @I335@
-1 NOTE Chris's father was not confirmed and is intentionally omitted.
+1 MARR
+2 DATE 16 SEP 1955
+2 PLAC King County, Washington
+1 NOTE Owner-confirmed biological parents of Chris Vollmer. Chris is Fredric Muller Vollmer's paternal half-brother. The earlier unconfirmed-father status is superseded by the owner's 2 September 2026 clarification.
+1 NOTE Washington State Archives documents Henry and Mary Alice's marriage; owner testimony separately confirms both as Chris's biological parents.
 1 SOUR @S28@
+1 SOUR @S31@
 0 @F145@ FAM
 1 HUSB @I336@
 1 WIFE @I337@
@@ -4089,15 +4095,6 @@
 1 NOTE The 1950 census identifies Mary Alice as William and Alice's daughter.
 1 SOUR @S32@
 1 SOUR @S33@
-0 @F146@ FAM
-1 HUSB @I176@
-1 WIFE @I334@
-1 MARR
-2 DATE 16 SEP 1955
-2 PLAC King County, Washington
-1 NOTE Owner-confirmed first marriage of Henry, before his marriage to Jan. This spouse link does not establish Chris's father.
-1 SOUR @S28@
-1 SOUR @S31@
 0 @S1@ SOUR
 1 TITL Statement supplied by Fredric Muller Vollmer
 1 NOTE Anchors Fredric, Jan Muller Vollmer, Anne Muller/McCormick, Eloise McCormick, and Charles Ellsworth McCormick II.
@@ -4206,7 +4203,7 @@
 1 TITL Owner statements on Jan Muller Vollmer, Mary Alice Thoren, William Thoren, and Chris Vollmer
 1 AUTH Fredric Muller Vollmer
 1 DATE 2 SEP 2026
-1 NOTE Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. Chris's father was not stated.
+1 NOTE Jan is Fredric's biological mother; Mary Alice Thoren was born in Port Townsend, was Henry's first wife, and is Chris Vollmer's mother; Jan is Chris's stepmother. William 'Bill' Thoren was remembered as Mary Alice's father. A later 2 Sep statement explicitly identifies Henry as Chris's biological father and Chris as Fredric's paternal half-brother, superseding the earlier unconfirmed status.
 0 @S29@ SOUR
 1 TITL Recovered records-first corrected maternal family-tree package
 1 AUTH Build Family Tree chat in the Family Tree project

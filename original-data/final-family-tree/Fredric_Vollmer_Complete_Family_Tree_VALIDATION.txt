@@ -1,5 +1,5 @@
 GEDCOM individuals: 310
-GEDCOM families: 146
+GEDCOM families: 145
 GEDCOM sources: 33
 GEDCOM trailers: 1
 broken individual references: 0
@@ -12,14 +12,14 @@ Alice Gallaher present: True
 Henry and Mary 1955 marriage present: True
 William and Alice 1929 marriage present: True
 Chris Vollmer present: True
-Chris father intentionally absent: True
+Chris parent link to Henry and Mary present: True
 Elmer James Chaffee corrected: True
 people CSV rows: 310
-families CSV rows: 146
+families CSV rows: 145
 source inventory rows: 76
 workbook sheets: 12
 workbook formula errors: 0
 workbook consolidated individual count: 310
-workbook consolidated family count: 146
+workbook consolidated family count: 145
 workbook consolidated GEDCOM source count: 33
 workbook source and record inventory count: 76

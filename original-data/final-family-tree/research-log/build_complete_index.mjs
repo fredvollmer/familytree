@@ -28,7 +28,7 @@ overview.getRange("A2").values = [["One source-of-truth package assembled from t
 overview.getRange("A4:B4").values = [["Tree metric", "Current value"]];
 overview.getRange("A5:A8").values = [["Individuals"], ["Families"], ["GEDCOM source records"], ["Source and record inventory items"]];
 overview.getRange("B5").formulas = [["=COUNTA('Consolidated People'!$A$2:$A$311)"]];
-overview.getRange("B6").formulas = [["=COUNTA('Consolidated Families'!$A$2:$A$147)"]];
+overview.getRange("B6").formulas = [["=COUNTA('Consolidated Families'!$A$2:$A$146)"]];
 overview.getRange("B7").formulas = [["=COUNTA('Consolidated Sources'!$A$2:$A$34)"]];
 overview.getRange("B8").formulas = [["=COUNTA('Consolidated Sources'!$A$2:$A$77)"]];
 
@@ -42,12 +42,12 @@ overview.getRange("D5:D9").values = [
 ];
 overview.getRange("E5").formulas = [["=IF(COUNTIF('Consolidated People'!$B$2:$B$311,\"Jan Muller Vollmer\")=1,\"Confirmed\",\"Review\")"]];
 overview.getRange("E6").formulas = [["=IF(COUNTIF('Consolidated People'!$B$2:$B$311,\"Mary Alice Thoren\")=1,\"Confirmed\",\"Review\")"]];
-overview.getRange("E7:E9").values = [["Confirmed"], ["Intentionally blank"], ["Removed"]];
+overview.getRange("E7:E9").values = [["Confirmed"], ["Confirmed"], ["Removed"]];
 overview.getRange("F5:F9").values = [
   ["Biological parent link in GEDCOM family F095"],
   ["Port Townsend birthplace; William J. Thoren and Alice Gallaher parent links; first marriage to Henry recorded"],
   ["Step relationship recorded; not a biological parent link"],
-  ["Not inferred from available evidence"],
+  ["Henry and Mary Alice are the biological parents; Chris is Fredric's paternal half-brother"],
   ["Corrected to James Chaffee throughout the consolidated tree"],
 ];
 
@@ -56,7 +56,7 @@ overview.getRange("A12:F17").values = [
   ["GEDCOM", "Canonical tree structure", 310, "Fredric_Vollmer_Complete_Family_Tree.ged", "Current", "Import this file into genealogy software"],
   ["Canonical JSON", "Structured mirror", 310, "Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json", "Current", "Machine-readable people, families, and sources"],
   ["People ledger", "Person-level audit", 310, "Fredric_Vollmer_Complete_Family_Tree_People.csv", "Current", "One row per GEDCOM individual"],
-  ["Families ledger", "Family-level audit", 146, "Fredric_Vollmer_Complete_Family_Tree_Families.csv", "Current", "Parent, spouse, child, and marriage links"],
+  ["Families ledger", "Family-level audit", 145, "Fredric_Vollmer_Complete_Family_Tree_Families.csv", "Current", "Parent, spouse, child, and marriage links"],
   ["Sources ledger", "Citation and record index", 76, "Fredric_Vollmer_Complete_Family_Tree_Source_Inventory.csv", "Current", "Includes 33 GEDCOM sources and 43 preserved record files"],
   ["Recovered workbook tabs", "Historical reference", 8, "Original tabs in this workbook", "Preserved", "Retained unchanged for provenance"],
 ];
@@ -86,7 +86,7 @@ for (const address of ["A4:B4", "D4:F4", "A11:F11"]) {
 overview.getRange("A5:B8").format.fill = pale;
 overview.getRange("B5:B8").format = { font: { bold: true, color: navy }, horizontalAlignment: "right", numberFormat: "0" };
 overview.getRange("D5:F9").format = { fill: pale, wrapText: true, verticalAlignment: "top" };
-overview.getRange("E5:E7").format.fill = green;
+overview.getRange("E5:E8").format.fill = green;
 overview.getRange("A12:F17").format = { wrapText: true, verticalAlignment: "top" };
 overview.getRange("A12:F17").conditionalFormats.addCustom("=MOD(ROW(),2)=0", { fill: "#EAF3F8" });
 overview.getRange("A1:F1").format.font = { name: "Aptos Display", size: 16, bold: true, color: "#FFFFFF" };

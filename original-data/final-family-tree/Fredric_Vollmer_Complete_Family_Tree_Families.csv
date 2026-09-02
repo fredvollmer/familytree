@@ -142,6 +142,5 @@ F140,I286,I285,I287;I288;I289;I290;I291;I292;I293,,Collateral relationship merge
 F141,I315,I316,I317,,Collateral relationship merged from the extended-family research package.,S27
 F142,I321,I320,I322;I323,,Collateral relationship merged from the extended-family research package.,S27
 F143,I329,I330,I331,,Collateral relationship merged from the extended-family research package.,S27
-F144,,I334,I335,,Chris's father was not confirmed and is intentionally omitted.,S28
+F144,I176,I334,I335,"16 SEP 1955; King County, Washington",Owner-confirmed biological parents of Chris Vollmer. Chris is Fredric Muller Vollmer's paternal half-brother. The earlier unconfirmed-father status is superseded by the owner's 2 September 2026 clarification. | Washington State Archives documents Henry and Mary Alice's marriage; owner testimony separately confirms both as Chris's biological parents.,S28;S31
 F145,I336,I337,I334,"16 NOV 1929; Pierce County, Washington",The 1950 census identifies Mary Alice as William and Alice's daughter.,S32;S33
-F146,I176,I334,,"16 SEP 1955; King County, Washington","Owner-confirmed first marriage of Henry, before his marriage to Jan. This spouse link does not establish Chris's father.",S28;S31

@@ -9,7 +9,11 @@ Updated: 2 September 2026
 - The 1950 U.S. census records **William J. Thoren**, age 48 and born in Montana; his wife **Alice**, age 46 and born in Alaska; and their daughter **Mary Alice**, age 14 and born in Washington, in one Seattle household. Citation: Seattle, King County, Washington, enumeration district 40-124, sheet 74, lines 23-25; NARA image `43290879-Washington-031283-0021`.
 - The Washington State Archives records the marriage of **William J. Thoren** and **Alice Gallaher** on **16 November 1929** in Pierce County. This establishes Alice's maiden surname. Reference: `prcmc-v23-00709`.
 
-Together, the census household and the William–Alice marriage record establish William J. “Bill” Thoren and Alice Gallaher Thoren as Mary Alice's parents. Chris's father remains unconfirmed and is intentionally not inferred from Henry and Mary's marriage.
+Together, the census household and the William–Alice marriage record establish William J. “Bill” Thoren and Alice Gallaher Thoren as Mary Alice's parents.
+
+## Relationship clarification
+
+On 2 September 2026, the family owner explicitly confirmed that Henry Richard Vollmer was Chris Vollmer's biological father and that Chris is Fredric Muller Vollmer's half-brother. This later statement supersedes the earlier unconfirmed-father status. Because Mary Alice—not Jan—was Chris's biological mother, the sibling relationship is paternal.
 
 ## Sources
 

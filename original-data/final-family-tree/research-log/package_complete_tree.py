@@ -33,7 +33,7 @@ validation_text += (
     "workbook sheets: 12\n"
     "workbook formula errors: 0\n"
     "workbook consolidated individual count: 310\n"
-    "workbook consolidated family count: 146\n"
+    "workbook consolidated family count: 145\n"
     "workbook consolidated GEDCOM source count: 33\n"
     "workbook source and record inventory count: 76\n"
 )
