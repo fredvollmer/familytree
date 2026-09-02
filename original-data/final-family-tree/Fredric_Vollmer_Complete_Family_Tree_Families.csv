@@ -144,3 +144,12 @@ F142,I321,I320,I322;I323,,Collateral relationship merged from the extended-famil
 F143,I329,I330,I331,,Collateral relationship merged from the extended-family research package.,S27
 F144,I176,I334,I335,"16 SEP 1955; King County, Washington",Owner-confirmed biological parents of Chris Vollmer. Chris is Fredric Muller Vollmer's paternal half-brother. The earlier unconfirmed-father status is superseded by the owner's 2 September 2026 clarification. | Washington State Archives documents Henry and Mary Alice's marriage; owner testimony separately confirms both as Chris's biological parents.,S28;S31
 F145,I336,I337,I334,"16 NOV 1929; Pierce County, Washington",The 1950 census identifies Mary Alice as William and Alice's daughter.,S32;S33
+F146,I338,I339,I336,,The 1910 Great Falls census records William as the son of Christian and Augusta Thoren; Swedish records identify both parents' earlier generations.,S34
+F147,I340,I341,I338,,Christian's Swedish indexed birth and the linked household surveys identify Anders and Kjersti as his parents.,S36
+F148,I342,I343,I340,,The Norra Sandby household survey records Anders as the son of Trued Andersson and Bortha Nilsdotter.,S38
+F149,I344,I345,I339,"26 OCT 1850; Ränneslöv, Halland, Sweden","Augusta's Hjärnarp birth, baptism, and household records identify Nils and Christina as her parents.",S37;S39
+F150,,I346,I344,,Nils's 1825 baptism names Gunnilla Nilsdotter as his mother and names no father; the father remains blank.,S40
+F151,I347,I348,I346,,Gunnilla's 1796 baptism names Nils Johansson and Elna Nilsdotter as her parents.,S41
+F152,I349,I350,I345,,Christina's 1823 baptism and the Hasslöv household survey identify Pehr and Ingier as her parents.,S42
+F153,I351,I352,I349,,Pehr's 1790 Hishult baptism names Erland Pålsson and Bengta Pehrsdotter as his parents.,S44
+F154,I353,I354,I350,,Ingier's 1794 Hasslöv baptism names Hans Månsson and Maria Hansdotter as her parents.,S45

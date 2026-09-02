@@ -17,6 +17,7 @@ DIRECT_CSV = INPUT_LEDGERS / "Vollmer-Marsh-people.csv"
 EXTENDED_CSV = INPUT_LEDGERS / "Extended-family-people.csv"
 DIRECT_SOURCES = INPUT_LEDGERS / "Vollmer-Marsh-sources.md"
 EXTENDED_SOURCES = INPUT_LEDGERS / "Extended-family-sources.md"
+THOREN_SOURCES = BASE / "research-log/Mary_Alice_Thoren_Research_Log.md"
 RECORDS = BASE / "records"
 
 PREFIX = "Fredric_Vollmer_Complete_Family_Tree"
@@ -366,29 +367,131 @@ individuals[chris_iid] = [
 ]
 individuals[william_thoren_iid] = [
     f"0 {william_thoren_iid} INDI",
-    "1 NAME William J /Thoren/",
+    "1 NAME William John /Thoren/",
     "1 SEX M",
     "1 BIRT",
-    "2 DATE ABT 1902",
-    "2 PLAC Montana",
-    "1 NOTE Called Bill in family memory. The 1950 census records him as age 48, born in Montana, and Mary Alice's father.",
+    "2 DATE 19 JUL 1901",
+    "2 PLAC Great Falls, Cascade, Montana",
+    "1 DEAT",
+    "2 DATE 26 OCT 1991",
+    "2 PLAC Washington",
+    "1 NOTE Called Bill in family memory. The 1910 census places him in Christian and Augusta Thoren's household; later records use William J. or William John.",
     "1 REFN OWNER-WILLIAM-J-THOREN",
     "1 SOUR @S28@",
     "1 SOUR @S32@",
     "1 SOUR @S33@",
+    "1 SOUR @S34@",
 ]
 individuals[alice_gallaher_iid] = [
     f"0 {alice_gallaher_iid} INDI",
     "1 NAME Alice /Gallaher/",
     "1 SEX F",
     "1 BIRT",
-    "2 DATE ABT 1904",
+    "2 DATE 27 APR 1902",
     "2 PLAC Alaska",
-    "1 NOTE The 1950 census records her as age 46, born in Alaska, and Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher.",
+    "1 DEAT",
+    "2 DATE 23 AUG 1978",
+    "2 PLAC Ocean Park, Pacific, Washington",
+    "1 NOTE The 1950 census identifies her as Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher. Her parents remain unproved.",
     "1 REFN RECORD-ALICE-GALLAHER-THOREN",
     "1 SOUR @S32@",
     "1 SOUR @S33@",
+    "1 SOUR @S35@",
 ]
+
+
+def add_thoren_person(local_id: str, name: str, sex: str, birth: str = "", death: str = "",
+                      notes: list[str] | None = None, sources: list[str] | None = None) -> str:
+    iid = next_iid()
+    lines = [f"0 {iid} INDI", f"1 NAME {ged_name(name)}", f"1 SEX {sex}"]
+    lines = set_event(lines, "BIRT", birth)
+    lines = set_event(lines, "DEAT", death)
+    for note in notes or []:
+        lines.append(f"1 NOTE {note}")
+    lines.append(f"1 REFN {local_id}")
+    for source in sources or []:
+        lines.append(f"1 SOUR {source}")
+    individuals[iid] = lines
+    thoren_people_local_ids[iid] = local_id
+    return iid
+
+
+thoren_people_local_ids: dict[str, str] = {}
+christian_thoren_iid = add_thoren_person(
+    "RECORD-CHRISTIAN-ANDREW-THOREN", "Christian Andrew Thoren", "M",
+    "27 Jan 1861; Ignaberga, Kristianstad, Sweden", "9 May 1921; Great Falls, Cascade, Montana",
+    ["Swedish records use Christian Andersson and Christian Anders Thorén; U.S. records also use Andrew, Christia, and Christison.",
+     "A 1900 census estimate of January 1862 conflicts with the 27 January 1861 indexed Swedish birth and is retained only as a record variation.",
+     "The Montana death index misassigns his wife Augusta Nelson as his mother; the Swedish birth record identifies Anders Troedsson and Kjersti Månsdotter as his parents."],
+    ["@S34@", "@S36@"],
+)
+augusta_nilsdotter_iid = add_thoren_person(
+    "RECORD-AUGUSTA-NILSDOTTER-THOREN", "Augusta Nilsdotter", "F",
+    "30 Nov 1860; Hjärnarp, Kristianstad, Sweden", "4 Dec 1913; Great Falls, Cascade, Montana",
+    ["The Swedish household record uses the patronymic Nilsdotter; an indexed baptism uses Svensson, and U.S. records use Nilson, Nelson, and Thoren.",
+     "A 1900 census estimate of November 1861 conflicts with the 30 November 1860 Swedish birth and baptism records."],
+    ["@S34@", "@S37@"],
+)
+anders_troedsson_iid = add_thoren_person(
+    "RECORD-ANDERS-TROEDSSON", "Anders Troedsson", "M",
+    "2 May 1824; Norra Sandby, Kristianstad, Sweden", notes=["Household surveys link him first to parents Trued Andersson and Bortha Nilsdotter and later to wife Kjersti Månsdotter and son Christian."], sources=["@S38@"],
+)
+kjersti_mansdotter_iid = add_thoren_person(
+    "RECORD-KJERSTI-MANSDOTTER", "Kjersti Månsdotter", "F",
+    "31 Oct 1825; Mellby, Kristianstad, Sweden", notes=["The reviewed household survey establishes her as Christian's mother; no parent-naming birth or baptism record was located."], sources=["@S38@"],
+)
+trued_andersson_iid = add_thoren_person(
+    "RECORD-TRUED-ANDERSSON", "Trued Andersson", "M",
+    "25 Apr 1792; Norra Sandby, Kristianstad, Sweden", sources=["@S38@"],
+)
+bortha_nilsdotter_iid = add_thoren_person(
+    "RECORD-BORTHA-NILSDOTTER", "Bortha Nilsdotter", "F",
+    "1783; Gumlösa, Kristianstad, Sweden", notes=["No parent-naming baptism record was located; same-name baptism hints from other parishes were rejected."], sources=["@S38@"],
+)
+nils_svensson_iid = add_thoren_person(
+    "RECORD-NILS-SVENSSON", "Nils Svensson", "M",
+    "3 May 1825; Ränneslöv, Halland, Sweden", notes=["His baptism names Gunnilla Nilsdotter as mother but does not name a father; the unknown father remains blank despite the patronymic Svensson."], sources=["@S39@", "@S40@"],
+)
+christina_persdotter_iid = add_thoren_person(
+    "RECORD-CHRISTINA-PERSDOTTER", "Christina Persdotter", "F",
+    "24 Jan 1823; Hasslöv, Halland, Sweden", notes=["Indexed records also use Kristina Persdotter and Stina Parsdotter."], sources=["@S39@", "@S42@"],
+)
+gunnilla_nilsdotter_iid = add_thoren_person(
+    "RECORD-GUNNILLA-NILSDOTTER", "Gunnilla Nilsdotter", "F",
+    "20 Sep 1796; Ränneslöv, Halland, Sweden", notes=["Indexed records also use Gunla Nilsdotter. She is the only parent named in Nils Svensson's baptism."], sources=["@S40@", "@S41@"],
+)
+nils_johansson_iid = add_thoren_person(
+    "RECORD-NILS-JOHANSSON", "Nils Johansson", "M",
+    notes=["Named as Gunnilla Nilsdotter's father in her 1796 baptism; no further identity was proved."], sources=["@S41@"],
+)
+elna_nilsdotter_iid = add_thoren_person(
+    "RECORD-ELNA-NILSDOTTER", "Elna Nilsdotter", "F",
+    notes=["Named as Gunnilla Nilsdotter's mother in her 1796 baptism; no further identity was proved."], sources=["@S41@"],
+)
+pehr_erlandsson_iid = add_thoren_person(
+    "RECORD-PEHR-ERLANDSSON", "Pehr Erlandsson", "M",
+    "10 Feb 1790; Hishult, Halland, Sweden", notes=["A household survey reports 10 February 1791; the 1790 baptism is nearer to the event and controls the canonical birth date."], sources=["@S43@", "@S44@"],
+)
+ingier_hansdotter_iid = add_thoren_person(
+    "RECORD-INGIER-HANSDOTTER", "Ingier Hansdotter", "F",
+    "20 Mar 1794; Hasslöv, Halland, Sweden", sources=["@S43@", "@S45@"],
+)
+erland_palsson_iid = add_thoren_person(
+    "RECORD-ERLAND-PALSSON", "Erland Pålsson", "M",
+    notes=["Named as Pehr Erlandsson's father in the 1790 baptism. A possible 1756 Knäred baptism was not linked closely enough to import its parents."], sources=["@S44@"],
+)
+bengta_pehrsdotter_iid = add_thoren_person(
+    "RECORD-BENGTA-PEHRSDOTTER", "Bengta Pehrsdotter", "F",
+    notes=["Named as Pehr Erlandsson's mother in the 1790 baptism. A similar Bengta Persdotter baptism and marriage belonged to another woman and was rejected."], sources=["@S44@"],
+)
+hans_mansson_iid = add_thoren_person(
+    "RECORD-HANS-MANSSON", "Hans Månsson", "M",
+    notes=["Named as Ingier Hansdotter's father in her 1794 baptism; no further identity was proved."], sources=["@S45@"],
+)
+maria_hansdotter_iid = add_thoren_person(
+    "RECORD-MARIA-HANSDOTTER", "Maria Hansdotter", "F",
+    notes=["Named as Ingier Hansdotter's mother in her 1794 baptism; no further identity was proved."], sources=["@S45@"],
+)
 add_unique(individuals["@I002@"], f"1 ASSO {chris_iid}")
 add_unique(individuals["@I002@"], "2 RELA Stepchild")
 
@@ -481,6 +584,26 @@ add_family(william_thoren_iid, alice_gallaher_iid, [mary_alice_iid],
            "The 1950 census identifies Mary Alice as William and Alice's daughter.", "@S32@",
            "16 NOV 1929", "Pierce County, Washington")
 add_family(william_thoren_iid, alice_gallaher_iid, [], source="@S33@")
+add_family(christian_thoren_iid, augusta_nilsdotter_iid, [william_thoren_iid],
+           "The 1910 Great Falls census records William as the son of Christian and Augusta Thoren; Swedish records identify both parents' earlier generations.", "@S34@")
+add_family(anders_troedsson_iid, kjersti_mansdotter_iid, [christian_thoren_iid],
+           "Christian's Swedish indexed birth and the linked household surveys identify Anders and Kjersti as his parents.", "@S36@")
+add_family(trued_andersson_iid, bortha_nilsdotter_iid, [anders_troedsson_iid],
+           "The Norra Sandby household survey records Anders as the son of Trued Andersson and Bortha Nilsdotter.", "@S38@")
+add_family(nils_svensson_iid, christina_persdotter_iid, [augusta_nilsdotter_iid],
+           "Augusta's Hjärnarp birth, baptism, and household records identify Nils and Christina as her parents.", "@S37@",
+           "26 OCT 1850", "Ränneslöv, Halland, Sweden")
+add_family(nils_svensson_iid, christina_persdotter_iid, [], source="@S39@")
+add_family("", gunnilla_nilsdotter_iid, [nils_svensson_iid],
+           "Nils's 1825 baptism names Gunnilla Nilsdotter as his mother and names no father; the father remains blank.", "@S40@")
+add_family(nils_johansson_iid, elna_nilsdotter_iid, [gunnilla_nilsdotter_iid],
+           "Gunnilla's 1796 baptism names Nils Johansson and Elna Nilsdotter as her parents.", "@S41@")
+add_family(pehr_erlandsson_iid, ingier_hansdotter_iid, [christina_persdotter_iid],
+           "Christina's 1823 baptism and the Hasslöv household survey identify Pehr and Ingier as her parents.", "@S42@")
+add_family(erland_palsson_iid, bengta_pehrsdotter_iid, [pehr_erlandsson_iid],
+           "Pehr's 1790 Hishult baptism names Erland Pålsson and Bengta Pehrsdotter as his parents.", "@S44@")
+add_family(hans_mansson_iid, maria_hansdotter_iid, [ingier_hansdotter_iid],
+           "Ingier's 1794 Hasslöv baptism names Hans Månsson and Maria Hansdotter as her parents.", "@S45@")
 add_family("@I176@", mary_alice_iid, [],
            "Washington State Archives documents Henry and Mary Alice's marriage; owner testimony separately confirms both as Chris's biological parents.",
            "@S31@", "16 SEP 1955", "King County, Washington")
@@ -580,6 +703,83 @@ source_blocks["@S33@"] = [
     "1 DATE 16 NOV 1929",
     "1 NOTE Pierce County Auditor Marriage Records, reference prcmc-v23-00709; https://digitalarchives.wa.gov/Record/View/33AF9C076D80A9452C66FD351D17CD73",
 ]
+source_blocks["@S34@"] = [
+    "0 @S34@ SOUR",
+    "1 TITL William John Thoren U.S. census, draft, and death-record cluster",
+    "1 AUTH U.S. Census Bureau; Selective Service System; state and federal vital-record indexes; Ancestry.com",
+    "1 NOTE The 1910 Great Falls census places William, born about 1902 in Montana, as son of Christian and Augusta Thoren; later records establish birth 19 Jul 1901 at Great Falls and death 26 Oct 1991. Records: https://www.ancestry.com/search/collections/7884/records/191842032 ; https://www.ancestry.com/search/collections/6061/records/45709575 ; https://www.ancestry.com/search/collections/6224/records/111918347 ; https://www.ancestry.com/search/collections/2238/records/37117805 ; https://www.ancestry.com/search/collections/5254/records/1097942 ; https://www.ancestry.com/search/collections/3693/records/62441333",
+]
+source_blocks["@S35@"] = [
+    "0 @S35@ SOUR",
+    "1 TITL Alice Gallaher Thoren U.S. census, Social Security, death, and burial-record cluster",
+    "1 AUTH U.S. Census Bureau; Social Security Administration; Washington State; Find a Grave; Ancestry.com",
+    "1 NOTE Records establish birth 27 Apr 1902 in Alaska and death 23 Aug 1978 at Ocean Park, Washington, while the 1929 marriage supplies Gallaher. No parent-naming primary record was found. Records: https://www.ancestry.com/search/collections/6224/records/111918337 ; https://www.ancestry.com/search/collections/3693/records/62440948 ; https://www.ancestry.com/search/collections/6716/records/895426 ; https://www.ancestry.com/search/collections/60541/records/182552983 ; https://www.ancestry.com/search/collections/60901/records/778054457",
+]
+source_blocks["@S36@"] = [
+    "0 @S36@ SOUR",
+    "1 TITL Christian Andrew Thoren Swedish birth and household records, U.S. census, and Montana death index",
+    "1 AUTH ArkivDigital; U.S. Census Bureau; Montana Department of Public Health and Human Services; Ancestry.com",
+    "1 NOTE Swedish records identify Christian Andersson/Thorén, born 27 Jan 1861 at Ignaberga, as son of Anders Troedsson and Kjersti Månsdotter. The Montana death index records 9 May 1921 but incorrectly places wife Augusta Nelson in the mother field. Records: https://www.ancestry.com/search/collections/2262/records/40805501 ; https://www.ancestry.com/search/collections/9731/records/42221130 ; https://www.ancestry.com/search/collections/7602/records/76515976 ; https://www.ancestry.com/search/collections/6061/records/45709573 ; https://www.ancestry.com/search/collections/5437/records/820390",
+]
+source_blocks["@S37@"] = [
+    "0 @S37@ SOUR",
+    "1 TITL Augusta Nilsdotter Thoren Swedish birth, baptism, household, U.S. census, and burial records",
+    "1 AUTH ArkivDigital; FamilySearch; U.S. Census Bureau; Find a Grave; Ancestry.com",
+    "1 NOTE Records identify Augusta, born 30 Nov 1860 at Hjärnarp, as daughter of Nils Svensson and Christina Persdotter; she died 4 Dec 1913 at Great Falls. Name forms include Nilsdotter, Svensson, Nilson, Nelson, and Thoren. Records: https://www.ancestry.com/search/collections/2262/records/41710407 ; https://www.ancestry.com/search/collections/60361/records/255112 ; https://www.ancestry.com/search/collections/9731/records/29521690 ; https://www.ancestry.com/search/collections/7602/records/76515977 ; https://www.ancestry.com/search/collections/60525/records/24177921",
+]
+source_blocks["@S38@"] = [
+    "0 @S38@ SOUR",
+    "1 TITL Anders Troedsson and Kjersti Månsdotter Swedish household-survey chain",
+    "1 AUTH ArkivDigital; Ancestry.com",
+    "1 NOTE The Ignaberga household links Anders (born 2 May 1824) and Kjersti (born 31 Oct 1825) to son Christian; the earlier Norra Sandby household links Anders to parents Trued Andersson (born 25 Apr 1792) and Bortha Nilsdotter (born 1783). Records: https://www.ancestry.com/search/collections/9731/records/8673393 ; https://www.ancestry.com/search/collections/9731/records/8673394 ; https://www.ancestry.com/search/collections/9731/records/73561674 ; https://www.ancestry.com/search/collections/9731/records/73561672 ; https://www.ancestry.com/search/collections/9731/records/73561673",
+]
+source_blocks["@S39@"] = [
+    "0 @S39@ SOUR",
+    "1 TITL Nils Svensson and Christina Persdotter household and marriage records",
+    "1 AUTH ArkivDigital; FamilySearch; Ancestry.com",
+    "1 NOTE The Hjärnarp household records the couple with daughter Augusta and their birthplaces/dates; the marriage index records 26 Oct 1850 at Ränneslöv. Records: https://www.ancestry.com/search/collections/9731/records/29521684 ; https://www.ancestry.com/search/collections/9731/records/29521685 ; https://www.ancestry.com/search/collections/60363/records/338059 ; https://www.ancestry.com/search/collections/60363/records/338058",
+]
+source_blocks["@S40@"] = [
+    "0 @S40@ SOUR",
+    "1 TITL Nils Svensson 1825 Ränneslöv baptism",
+    "1 AUTH FamilySearch; Ancestry.com",
+    "1 DATE 5 MAY 1825",
+    "1 NOTE Nils was born 3 May and baptized 5 May 1825 at Ränneslöv. The record names Gunnilla Nilsdotter as mother and names no father, so the paternal link remains blank. https://www.ancestry.com/search/collections/60361/records/13922815",
+]
+source_blocks["@S41@"] = [
+    "0 @S41@ SOUR",
+    "1 TITL Gunnilla Nilsdotter 1796 Ränneslöv baptism",
+    "1 AUTH FamilySearch; Ancestry.com",
+    "1 DATE 25 SEP 1796",
+    "1 NOTE Gunla/Gunnilla was born 20 Sep and baptized 25 Sep 1796 at Ränneslöv, daughter of Nils Johansson and Elna Nilsdotter. https://www.ancestry.com/search/collections/60361/records/22162419",
+]
+source_blocks["@S42@"] = [
+    "0 @S42@ SOUR",
+    "1 TITL Christina Persdotter 1823 Hasslöv baptism",
+    "1 AUTH FamilySearch; Ancestry.com",
+    "1 DATE 25 JAN 1823",
+    "1 NOTE Stina/Christina was born 24 Jan and baptized 25 Jan 1823 at Hasslöv, daughter of Pehr Erlandsson and Ingier Hansdotter. https://www.ancestry.com/search/collections/60361/records/23764021",
+]
+source_blocks["@S43@"] = [
+    "0 @S43@ SOUR",
+    "1 TITL Pehr Erlandsson and Ingier Hansdotter Hasslöv household survey",
+    "1 AUTH ArkivDigital; Ancestry.com",
+    "1 NOTE The 1814-1823 household records Pehr as head and Ingier as wife. It reports Pehr born 10 Feb 1791 and Ingier 20 Mar 1794; Pehr's baptism supplies the nearer 1790 birth year. Records: https://www.ancestry.com/search/collections/9731/records/91496907 ; https://www.ancestry.com/search/collections/9731/records/91496908",
+]
+source_blocks["@S44@"] = [
+    "0 @S44@ SOUR",
+    "1 TITL Pehr Erlandsson 1790 Hishult baptism",
+    "1 AUTH FamilySearch; Ancestry.com",
+    "1 DATE 14 FEB 1790",
+    "1 NOTE Pehr was born 10 Feb and baptized 14 Feb 1790 at Hishult, son of Erland Pålsson and Bengta Pehrsdotter. https://www.ancestry.com/search/collections/60361/records/15528153",
+]
+source_blocks["@S45@"] = [
+    "0 @S45@ SOUR",
+    "1 TITL Ingier Hansdotter 1794 Hasslöv baptism",
+    "1 AUTH FamilySearch; Ancestry.com",
+    "1 DATE 23 MAR 1794",
+    "1 NOTE Ingier was born 20 Mar and baptized 23 Mar 1794 at Hasslöv, daughter of Hans Månsson and Maria Hansdotter. https://www.ancestry.com/search/collections/60361/records/11677925",
+]
 
 header = [
     "0 HEAD",
@@ -647,6 +847,8 @@ reverse_local[mary_alice_iid].append("OWNER-MARY-ALICE")
 reverse_local[chris_iid].append("OWNER-CHRIS-VOLLMER")
 reverse_local[william_thoren_iid].append("OWNER-WILLIAM-J-THOREN")
 reverse_local[alice_gallaher_iid].append("RECORD-ALICE-GALLAHER-THOREN")
+for iid, local_id in thoren_people_local_ids.items():
+    reverse_local[iid].append(local_id)
 
 people_rows = []
 for iid in sorted(individuals, key=lambda value: int(value.strip("@I"))):
@@ -704,16 +906,18 @@ with OUT_SOURCE_INVENTORY.open("w", newline="", encoding="utf-8") as handle:
 
 OUT_SOURCES.write_text(
     "# Consolidated source ledger\n\n"
-    "This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, and owner corrections. The GEDCOM uses S1-S33; the detailed local ledgers below retain their original identifiers.\n\n"
+    "This ledger aggregates the recovered maternal canonical package, the later Vollmer-Marsh direct-ancestor research, the extended-family research, the Mary Alice Thoren ancestry investigation, and owner corrections. The GEDCOM uses S1-S45; the detailed local ledgers below retain their original identifiers.\n\n"
     "## Cross-chat provenance\n\n"
     "- **Build Family Tree** — recovered canonical 169-person maternal direct tree, corrected maternal collateral households, GEDCOM, workbook, report, chart, source key, and validation package.\n"
     "- **Continue Vollmer Family Tree** — established the paternal research scope and Charles Frederic Vollmer / Doris Marsh anchors; superseded where later records proved more detail.\n"
     "- **Research Vollmer-Marsh ancestry** and **Continue Vollmer-Marsh research** — records-first paternal direct ancestry, preserved originals, conflicts, and rejected candidates.\n"
     "- **Extend paternal family tree** — three collateral rings on both sides, owner relationship corrections, record audits, and rejected same-name candidates.\n\n"
+    "- **Trace Mary Alice Thoren ancestry** — Ancestry.com census, vital, Swedish church, and household-survey records extending the proven Thoren line into eighteenth-century Sweden.\n\n"
     "## GEDCOM source catalog\n\n" +
     "\n".join(f"### {s['source_id']} — {s['title']}\n\n{s['notes'] or 'See recovered canonical report/source key.'}" for s in source_catalog) +
     "\n\n---\n\n## Vollmer-Marsh direct-ancestor ledger\n\n" + DIRECT_SOURCES.read_text(encoding="utf-8") +
-    "\n\n---\n\n## Extended-family ledger\n\n" + EXTENDED_SOURCES.read_text(encoding="utf-8") + "\n",
+    "\n\n---\n\n## Extended-family ledger\n\n" + EXTENDED_SOURCES.read_text(encoding="utf-8") +
+    "\n\n---\n\n## Mary Alice Thoren ancestry research ledger\n\n" + THOREN_SOURCES.read_text(encoding="utf-8") + "\n",
     encoding="utf-8",
 )
 
@@ -723,7 +927,7 @@ canonical_data = {
         "format": "consolidated canonical genealogy dataset",
         "gedcom_version": "5.5.1",
         "updated": "2026-09-02",
-        "scope": "Recovered maternal direct tree plus all later paternal direct and three-ring collateral research, including the documented Thoren-Gallaher parents of Mary Alice Thoren.",
+        "scope": "Recovered maternal direct tree plus later paternal direct and bounded collateral research, including Mary Alice Thoren's documented Thoren ancestry through eighteenth-century Sweden.",
         "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
     },
     "people": people_rows,
@@ -734,6 +938,9 @@ canonical_data = {
         {"topic": "Chris parentage", "corrected": "Owner-confirmed: Henry Richard Vollmer and Mary Alice Thoren are Chris Vollmer's biological parents; Chris is Fredric's paternal half-brother. This supersedes the earlier unconfirmed-father status."},
         {"topic": "Mary Alice identity and birthplace", "corrected": "Owner-confirmed as Mary Alice Thoren, born in Port Townsend, Washington."},
         {"topic": "Mary Alice parents", "corrected": "The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents."},
+        {"topic": "William Thoren ancestry", "corrected": "A record chain identifies William John Thoren's parents as Christian Andrew Thoren and Augusta Nilsdotter, then extends their Swedish direct ancestry through named eighteenth-century ancestors."},
+        {"topic": "Alice Gallaher ancestry", "corrected": "Alice Gallaher's parents remain unproved. The unsourced James M. Gallaher and Agnes Cope member-tree hint is retained only as a rejected/unverified lead."},
+        {"topic": "Nils Svensson father", "corrected": "Nils's 1825 baptism names only his mother, Gunnilla Nilsdotter; no father is inferred from the Svensson patronymic."},
         {"topic": "Henry first marriage", "corrected": "Henry R. Vollmer married Mary A. Thoren in King County on 16 Sep 1955, before Jan Muller Vollmer."},
         {"topic": "Mary Gene spouse", "corrected": "Historical records identify Elmer James Chaffee Jr; the family chart's James form is retained as a shorter usage."},
         {"topic": "Eloise vital dates", "corrected": "Official California index supports 25 Aug 1903-10 Feb 1994; earlier compiled dates remain conflicting secondary evidence."},
@@ -745,7 +952,7 @@ canonical_data = {
         {"thread_title": "Research Vollmer-Marsh ancestry", "role": "records-first paternal direct research"},
         {"thread_title": "Continue Vollmer-Marsh research", "role": "deep paternal continuation and preserved originals"},
         {"thread_title": "Extend paternal family tree", "role": "both-side collateral expansion and owner corrections"},
-        {"thread_title": "Trace Mary Alice Thoren ancestry", "role": "owner-confirmed identity and birthplace; official marriage and 1950 census evidence for her parents"},
+        {"thread_title": "Trace Mary Alice Thoren ancestry", "role": "owner-confirmed identity and birthplace; U.S. and Swedish records extending the proven Thoren line while preserving Gallaher and same-name uncertainties"},
     ],
 }
 OUT_JSON.write_text(json.dumps(canonical_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -764,13 +971,16 @@ OUT_AUDIT.write_text(
     "- Jan Muller Vollmer is Fredric's biological mother.\n"
     "- Henry Richard Vollmer and Mary Alice Thoren are Chris Vollmer's biological parents; Mary Alice was Henry's first wife.\n"
     "- William J. Thoren and Alice Gallaher Thoren are Mary Alice's census-documented parents.\n"
+    "- William John Thoren's parents are Christian Andrew Thoren and Augusta Nilsdotter; their proven direct Swedish lines are added through the earliest parent-naming records located.\n"
+    "- Alice Gallaher's parents remain unresolved; the unsourced James M. Gallaher and Agnes Cope hint is not imported.\n"
+    "- Nils Svensson's father remains blank because his baptism names only his mother, Gunnilla Nilsdotter.\n"
     "- Jan is Chris Vollmer's stepmother.\n"
     "- Chris is Fredric's paternal half-brother.\n"
     "- The superseded Chaffee mistranscription is removed.\n"
     "- Elmer James Chaffee Jr is Mary Gene's historically documented husband; James remains a family-chart short form.\n"
     "- Eloise's official California dates replace the conflicting compiled dates as the primary GEDCOM events.\n\n"
     "## Merge policy\n\n"
-    "The recovered GEDCOM remains the structural base. Stable direct identities were reused. Newer record-based findings supersede earlier drafts when they directly conflict. Family testimony is retained for living collateral relationships with an explicit evidence grade; public people-search sites were not used.\n",
+    "The recovered GEDCOM remains the structural base. Stable direct identities were reused. Newer record-based findings supersede earlier drafts when they directly conflict. Parent links require a parent-naming record or independently corroborated household chain; Ancestry member-tree hints and same-name suggestions are not imported without that proof. Family testimony is retained for living collateral relationships with an explicit evidence grade; public people-search sites were not used.\n",
     encoding="utf-8",
 )
 
@@ -801,10 +1011,14 @@ validation = {
     "Jan biological-mother correction present": "Jan is Fredric's biological mother" in out_text,
     "Mary Alice Thoren present": "1 NAME Mary Alice /Thoren/" in out_text,
     "Mary Alice Port Townsend birthplace present": "2 PLAC Port Townsend, Jefferson, Washington" in out_text,
-    "William J Thoren present": "1 NAME William J /Thoren/" in out_text,
+    "William John Thoren present": "1 NAME William John /Thoren/" in out_text,
     "Alice Gallaher present": "1 NAME Alice /Gallaher/" in out_text,
     "Henry and Mary 1955 marriage present": "2 DATE 16 SEP 1955" in out_text,
     "William and Alice 1929 marriage present": "2 DATE 16 NOV 1929" in out_text,
+    "Christian and Augusta parent link to William present": any(row["husband_id"] == christian_thoren_iid.strip("@") and row["wife_id"] == augusta_nilsdotter_iid.strip("@") and william_thoren_iid.strip("@") in row["children_ids"] for row in family_rows),
+    "Swedish Thoren grandparents link present": any(row["husband_id"] == anders_troedsson_iid.strip("@") and row["wife_id"] == kjersti_mansdotter_iid.strip("@") and christian_thoren_iid.strip("@") in row["children_ids"] for row in family_rows),
+    "Nils Svensson father remains blank": any(not row["husband_id"] and row["wife_id"] == gunnilla_nilsdotter_iid.strip("@") and nils_svensson_iid.strip("@") in row["children_ids"] for row in family_rows),
+    "Alice Gallaher parents remain blank": not any(alice_gallaher_iid.strip("@") in row["children_ids"].split(";") for row in family_rows),
     "Chris Vollmer present": "1 NAME Chris /Vollmer/" in out_text,
     "Chris parent link to Henry and Mary present": any(row["husband_id"] == "I176" and row["wife_id"] == mary_alice_iid.strip("@") and chris_iid.strip("@") in row["children_ids"] for row in family_rows),
     "Elmer James Chaffee corrected": "Elmer James /Chaffee/ Jr" in out_text,
@@ -829,7 +1043,7 @@ OUT_README.write_text(
     "- `records/` — preserved source images and certificates copied from the later records-first tasks.\n"
     "- The recovered records-first maternal package remains alongside these files for provenance.\n\n"
     "## Privacy and relationship controls\n\n"
-    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents.\n",
+    "Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. The 1950 census identifies William John Thoren and Alice Gallaher Thoren as Mary Alice's parents. U.S. and Swedish records extend William's ancestry through Christian Andrew Thoren and Augusta Nilsdotter into eighteenth-century Sweden. Alice Gallaher's parents remain unresolved and no member-tree hint was imported as fact.\n",
     encoding="utf-8",
 )
 

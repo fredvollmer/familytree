@@ -4,7 +4,7 @@
     "format": "consolidated canonical genealogy dataset",
     "gedcom_version": "5.5.1",
     "updated": "2026-09-02",
-    "scope": "Recovered maternal direct tree plus all later paternal direct and three-ring collateral research, including the documented Thoren-Gallaher parents of Mary Alice Thoren.",
+    "scope": "Recovered maternal direct tree plus later paternal direct and bounded collateral research, including Mary Alice Thoren's documented Thoren ancestry through eighteenth-century Sweden.",
     "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted."
   },
   "people": [
@@ -3706,27 +3706,231 @@
     },
     {
       "individual_id": "I336",
-      "name": "William J Thoren",
+      "name": "William John Thoren",
       "sex": "M",
-      "birth": "ABT 1902; Montana",
-      "death": "",
+      "birth": "19 JUL 1901; Great Falls, Cascade, Montana",
+      "death": "26 OCT 1991; Washington",
       "local_ids": "OWNER-WILLIAM-J-THOREN",
-      "source_refs": "S28;S32;S33",
-      "notes": "Called Bill in family memory. The 1950 census records him as age 48, born in Montana, and Mary Alice's father.",
-      "family_as_child": "",
+      "source_refs": "S28;S32;S33;S34",
+      "notes": "Called Bill in family memory. The 1910 census places him in Christian and Augusta Thoren's household; later records use William J. or William John.",
+      "family_as_child": "F146",
       "families_as_spouse": "F145"
     },
     {
       "individual_id": "I337",
       "name": "Alice Gallaher",
       "sex": "F",
-      "birth": "ABT 1904; Alaska",
-      "death": "",
+      "birth": "27 APR 1902; Alaska",
+      "death": "23 AUG 1978; Ocean Park, Pacific, Washington",
       "local_ids": "RECORD-ALICE-GALLAHER-THOREN",
-      "source_refs": "S32;S33",
-      "notes": "The 1950 census records her as age 46, born in Alaska, and Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher.",
+      "source_refs": "S32;S33;S35",
+      "notes": "The 1950 census identifies her as Mary Alice's mother; her 1929 marriage record supplies the maiden surname Gallaher. Her parents remain unproved.",
       "family_as_child": "",
       "families_as_spouse": "F145"
+    },
+    {
+      "individual_id": "I338",
+      "name": "Christian Andrew Thoren",
+      "sex": "M",
+      "birth": "27 JAN 1861; Ignaberga, Kristianstad, Sweden",
+      "death": "9 MAY 1921; Great Falls, Cascade, Montana",
+      "local_ids": "RECORD-CHRISTIAN-ANDREW-THOREN",
+      "source_refs": "S34;S36",
+      "notes": "Swedish records use Christian Andersson and Christian Anders Thorén; U.S. records also use Andrew, Christia, and Christison. | A 1900 census estimate of January 1862 conflicts with the 27 January 1861 indexed Swedish birth and is retained only as a record variation. | The Montana death index misassigns his wife Augusta Nelson as his mother; the Swedish birth record identifies Anders Troedsson and Kjersti Månsdotter as his parents.",
+      "family_as_child": "F147",
+      "families_as_spouse": "F146"
+    },
+    {
+      "individual_id": "I339",
+      "name": "Augusta Nilsdotter",
+      "sex": "F",
+      "birth": "30 NOV 1860; Hjärnarp, Kristianstad, Sweden",
+      "death": "4 DEC 1913; Great Falls, Cascade, Montana",
+      "local_ids": "RECORD-AUGUSTA-NILSDOTTER-THOREN",
+      "source_refs": "S34;S37",
+      "notes": "The Swedish household record uses the patronymic Nilsdotter; an indexed baptism uses Svensson, and U.S. records use Nilson, Nelson, and Thoren. | A 1900 census estimate of November 1861 conflicts with the 30 November 1860 Swedish birth and baptism records.",
+      "family_as_child": "F149",
+      "families_as_spouse": "F146"
+    },
+    {
+      "individual_id": "I340",
+      "name": "Anders Troedsson",
+      "sex": "M",
+      "birth": "2 MAY 1824; Norra Sandby, Kristianstad, Sweden",
+      "death": "",
+      "local_ids": "RECORD-ANDERS-TROEDSSON",
+      "source_refs": "S38",
+      "notes": "Household surveys link him first to parents Trued Andersson and Bortha Nilsdotter and later to wife Kjersti Månsdotter and son Christian.",
+      "family_as_child": "F148",
+      "families_as_spouse": "F147"
+    },
+    {
+      "individual_id": "I341",
+      "name": "Kjersti Månsdotter",
+      "sex": "F",
+      "birth": "31 OCT 1825; Mellby, Kristianstad, Sweden",
+      "death": "",
+      "local_ids": "RECORD-KJERSTI-MANSDOTTER",
+      "source_refs": "S38",
+      "notes": "The reviewed household survey establishes her as Christian's mother; no parent-naming birth or baptism record was located.",
+      "family_as_child": "",
+      "families_as_spouse": "F147"
+    },
+    {
+      "individual_id": "I342",
+      "name": "Trued Andersson",
+      "sex": "M",
+      "birth": "25 APR 1792; Norra Sandby, Kristianstad, Sweden",
+      "death": "",
+      "local_ids": "RECORD-TRUED-ANDERSSON",
+      "source_refs": "S38",
+      "notes": "",
+      "family_as_child": "",
+      "families_as_spouse": "F148"
+    },
+    {
+      "individual_id": "I343",
+      "name": "Bortha Nilsdotter",
+      "sex": "F",
+      "birth": "1783; Gumlösa, Kristianstad, Sweden",
+      "death": "",
+      "local_ids": "RECORD-BORTHA-NILSDOTTER",
+      "source_refs": "S38",
+      "notes": "No parent-naming baptism record was located; same-name baptism hints from other parishes were rejected.",
+      "family_as_child": "",
+      "families_as_spouse": "F148"
+    },
+    {
+      "individual_id": "I344",
+      "name": "Nils Svensson",
+      "sex": "M",
+      "birth": "3 MAY 1825; Ränneslöv, Halland, Sweden",
+      "death": "",
+      "local_ids": "RECORD-NILS-SVENSSON",
+      "source_refs": "S39;S40",
+      "notes": "His baptism names Gunnilla Nilsdotter as mother but does not name a father; the unknown father remains blank despite the patronymic Svensson.",
+      "family_as_child": "F150",
+      "families_as_spouse": "F149"
+    },
+    {
+      "individual_id": "I345",
+      "name": "Christina Persdotter",
+      "sex": "F",
+      "birth": "24 JAN 1823; Hasslöv, Halland, Sweden",
+      "death": "",
+      "local_ids": "RECORD-CHRISTINA-PERSDOTTER",
+      "source_refs": "S39;S42",
+      "notes": "Indexed records also use Kristina Persdotter and Stina Parsdotter.",
+      "family_as_child": "F152",
+      "families_as_spouse": "F149"
+    },
+    {
+      "individual_id": "I346",
+      "name": "Gunnilla Nilsdotter",
+      "sex": "F",
+      "birth": "20 SEP 1796; Ränneslöv, Halland, Sweden",
+      "death": "",
+      "local_ids": "RECORD-GUNNILLA-NILSDOTTER",
+      "source_refs": "S40;S41",
+      "notes": "Indexed records also use Gunla Nilsdotter. She is the only parent named in Nils Svensson's baptism.",
+      "family_as_child": "F151",
+      "families_as_spouse": "F150"
+    },
+    {
+      "individual_id": "I347",
+      "name": "Nils Johansson",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "local_ids": "RECORD-NILS-JOHANSSON",
+      "source_refs": "S41",
+      "notes": "Named as Gunnilla Nilsdotter's father in her 1796 baptism; no further identity was proved.",
+      "family_as_child": "",
+      "families_as_spouse": "F151"
+    },
+    {
+      "individual_id": "I348",
+      "name": "Elna Nilsdotter",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "local_ids": "RECORD-ELNA-NILSDOTTER",
+      "source_refs": "S41",
+      "notes": "Named as Gunnilla Nilsdotter's mother in her 1796 baptism; no further identity was proved.",
+      "family_as_child": "",
+      "families_as_spouse": "F151"
+    },
+    {
+      "individual_id": "I349",
+      "name": "Pehr Erlandsson",
+      "sex": "M",
+      "birth": "10 FEB 1790; Hishult, Halland, Sweden",
+      "death": "",
+      "local_ids": "RECORD-PEHR-ERLANDSSON",
+      "source_refs": "S43;S44",
+      "notes": "A household survey reports 10 February 1791; the 1790 baptism is nearer to the event and controls the canonical birth date.",
+      "family_as_child": "F153",
+      "families_as_spouse": "F152"
+    },
+    {
+      "individual_id": "I350",
+      "name": "Ingier Hansdotter",
+      "sex": "F",
+      "birth": "20 MAR 1794; Hasslöv, Halland, Sweden",
+      "death": "",
+      "local_ids": "RECORD-INGIER-HANSDOTTER",
+      "source_refs": "S43;S45",
+      "notes": "",
+      "family_as_child": "F154",
+      "families_as_spouse": "F152"
+    },
+    {
+      "individual_id": "I351",
+      "name": "Erland Pålsson",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "local_ids": "RECORD-ERLAND-PALSSON",
+      "source_refs": "S44",
+      "notes": "Named as Pehr Erlandsson's father in the 1790 baptism. A possible 1756 Knäred baptism was not linked closely enough to import its parents.",
+      "family_as_child": "",
+      "families_as_spouse": "F153"
+    },
+    {
+      "individual_id": "I352",
+      "name": "Bengta Pehrsdotter",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "local_ids": "RECORD-BENGTA-PEHRSDOTTER",
+      "source_refs": "S44",
+      "notes": "Named as Pehr Erlandsson's mother in the 1790 baptism. A similar Bengta Persdotter baptism and marriage belonged to another woman and was rejected.",
+      "family_as_child": "",
+      "families_as_spouse": "F153"
+    },
+    {
+      "individual_id": "I353",
+      "name": "Hans Månsson",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "local_ids": "RECORD-HANS-MANSSON",
+      "source_refs": "S45",
+      "notes": "Named as Ingier Hansdotter's father in her 1794 baptism; no further identity was proved.",
+      "family_as_child": "",
+      "families_as_spouse": "F154"
+    },
+    {
+      "individual_id": "I354",
+      "name": "Maria Hansdotter",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "local_ids": "RECORD-MARIA-HANSDOTTER",
+      "source_refs": "S45",
+      "notes": "Named as Ingier Hansdotter's mother in her 1794 baptism; no further identity was proved.",
+      "family_as_child": "",
+      "families_as_spouse": "F154"
     }
   ],
   "families": [
@@ -5034,6 +5238,87 @@
       "marriage": "16 NOV 1929; Pierce County, Washington",
       "notes": "The 1950 census identifies Mary Alice as William and Alice's daughter.",
       "source_refs": "S32;S33"
+    },
+    {
+      "family_id": "F146",
+      "husband_id": "I338",
+      "wife_id": "I339",
+      "children_ids": "I336",
+      "marriage": "",
+      "notes": "The 1910 Great Falls census records William as the son of Christian and Augusta Thoren; Swedish records identify both parents' earlier generations.",
+      "source_refs": "S34"
+    },
+    {
+      "family_id": "F147",
+      "husband_id": "I340",
+      "wife_id": "I341",
+      "children_ids": "I338",
+      "marriage": "",
+      "notes": "Christian's Swedish indexed birth and the linked household surveys identify Anders and Kjersti as his parents.",
+      "source_refs": "S36"
+    },
+    {
+      "family_id": "F148",
+      "husband_id": "I342",
+      "wife_id": "I343",
+      "children_ids": "I340",
+      "marriage": "",
+      "notes": "The Norra Sandby household survey records Anders as the son of Trued Andersson and Bortha Nilsdotter.",
+      "source_refs": "S38"
+    },
+    {
+      "family_id": "F149",
+      "husband_id": "I344",
+      "wife_id": "I345",
+      "children_ids": "I339",
+      "marriage": "26 OCT 1850; Ränneslöv, Halland, Sweden",
+      "notes": "Augusta's Hjärnarp birth, baptism, and household records identify Nils and Christina as her parents.",
+      "source_refs": "S37;S39"
+    },
+    {
+      "family_id": "F150",
+      "husband_id": "",
+      "wife_id": "I346",
+      "children_ids": "I344",
+      "marriage": "",
+      "notes": "Nils's 1825 baptism names Gunnilla Nilsdotter as his mother and names no father; the father remains blank.",
+      "source_refs": "S40"
+    },
+    {
+      "family_id": "F151",
+      "husband_id": "I347",
+      "wife_id": "I348",
+      "children_ids": "I346",
+      "marriage": "",
+      "notes": "Gunnilla's 1796 baptism names Nils Johansson and Elna Nilsdotter as her parents.",
+      "source_refs": "S41"
+    },
+    {
+      "family_id": "F152",
+      "husband_id": "I349",
+      "wife_id": "I350",
+      "children_ids": "I345",
+      "marriage": "",
+      "notes": "Christina's 1823 baptism and the Hasslöv household survey identify Pehr and Ingier as her parents.",
+      "source_refs": "S42"
+    },
+    {
+      "family_id": "F153",
+      "husband_id": "I351",
+      "wife_id": "I352",
+      "children_ids": "I349",
+      "marriage": "",
+      "notes": "Pehr's 1790 Hishult baptism names Erland Pålsson and Bengta Pehrsdotter as his parents.",
+      "source_refs": "S44"
+    },
+    {
+      "family_id": "F154",
+      "husband_id": "I353",
+      "wife_id": "I354",
+      "children_ids": "I350",
+      "marriage": "",
+      "notes": "Ingier's 1794 Hasslöv baptism names Hans Månsson and Maria Hansdotter as her parents.",
+      "source_refs": "S45"
     }
   ],
   "sources": [
@@ -5300,6 +5585,102 @@
       "date": "16 NOV 1929",
       "notes": "Pierce County Auditor Marriage Records, reference prcmc-v23-00709; https://digitalarchives.wa.gov/Record/View/33AF9C076D80A9452C66FD351D17CD73",
       "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S34",
+      "title": "William John Thoren U.S. census, draft, and death-record cluster",
+      "author": "U.S. Census Bureau; Selective Service System; state and federal vital-record indexes; Ancestry.com",
+      "date": "",
+      "notes": "The 1910 Great Falls census places William, born about 1902 in Montana, as son of Christian and Augusta Thoren; later records establish birth 19 Jul 1901 at Great Falls and death 26 Oct 1991. Records: https://www.ancestry.com/search/collections/7884/records/191842032 ; https://www.ancestry.com/search/collections/6061/records/45709575 ; https://www.ancestry.com/search/collections/6224/records/111918347 ; https://www.ancestry.com/search/collections/2238/records/37117805 ; https://www.ancestry.com/search/collections/5254/records/1097942 ; https://www.ancestry.com/search/collections/3693/records/62441333",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S35",
+      "title": "Alice Gallaher Thoren U.S. census, Social Security, death, and burial-record cluster",
+      "author": "U.S. Census Bureau; Social Security Administration; Washington State; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "Records establish birth 27 Apr 1902 in Alaska and death 23 Aug 1978 at Ocean Park, Washington, while the 1929 marriage supplies Gallaher. No parent-naming primary record was found. Records: https://www.ancestry.com/search/collections/6224/records/111918337 ; https://www.ancestry.com/search/collections/3693/records/62440948 ; https://www.ancestry.com/search/collections/6716/records/895426 ; https://www.ancestry.com/search/collections/60541/records/182552983 ; https://www.ancestry.com/search/collections/60901/records/778054457",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S36",
+      "title": "Christian Andrew Thoren Swedish birth and household records, U.S. census, and Montana death index",
+      "author": "ArkivDigital; U.S. Census Bureau; Montana Department of Public Health and Human Services; Ancestry.com",
+      "date": "",
+      "notes": "Swedish records identify Christian Andersson/Thorén, born 27 Jan 1861 at Ignaberga, as son of Anders Troedsson and Kjersti Månsdotter. The Montana death index records 9 May 1921 but incorrectly places wife Augusta Nelson in the mother field. Records: https://www.ancestry.com/search/collections/2262/records/40805501 ; https://www.ancestry.com/search/collections/9731/records/42221130 ; https://www.ancestry.com/search/collections/7602/records/76515976 ; https://www.ancestry.com/search/collections/6061/records/45709573 ; https://www.ancestry.com/search/collections/5437/records/820390",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S37",
+      "title": "Augusta Nilsdotter Thoren Swedish birth, baptism, household, U.S. census, and burial records",
+      "author": "ArkivDigital; FamilySearch; U.S. Census Bureau; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "Records identify Augusta, born 30 Nov 1860 at Hjärnarp, as daughter of Nils Svensson and Christina Persdotter; she died 4 Dec 1913 at Great Falls. Name forms include Nilsdotter, Svensson, Nilson, Nelson, and Thoren. Records: https://www.ancestry.com/search/collections/2262/records/41710407 ; https://www.ancestry.com/search/collections/60361/records/255112 ; https://www.ancestry.com/search/collections/9731/records/29521690 ; https://www.ancestry.com/search/collections/7602/records/76515977 ; https://www.ancestry.com/search/collections/60525/records/24177921",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S38",
+      "title": "Anders Troedsson and Kjersti Månsdotter Swedish household-survey chain",
+      "author": "ArkivDigital; Ancestry.com",
+      "date": "",
+      "notes": "The Ignaberga household links Anders (born 2 May 1824) and Kjersti (born 31 Oct 1825) to son Christian; the earlier Norra Sandby household links Anders to parents Trued Andersson (born 25 Apr 1792) and Bortha Nilsdotter (born 1783). Records: https://www.ancestry.com/search/collections/9731/records/8673393 ; https://www.ancestry.com/search/collections/9731/records/8673394 ; https://www.ancestry.com/search/collections/9731/records/73561674 ; https://www.ancestry.com/search/collections/9731/records/73561672 ; https://www.ancestry.com/search/collections/9731/records/73561673",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S39",
+      "title": "Nils Svensson and Christina Persdotter household and marriage records",
+      "author": "ArkivDigital; FamilySearch; Ancestry.com",
+      "date": "",
+      "notes": "The Hjärnarp household records the couple with daughter Augusta and their birthplaces/dates; the marriage index records 26 Oct 1850 at Ränneslöv. Records: https://www.ancestry.com/search/collections/9731/records/29521684 ; https://www.ancestry.com/search/collections/9731/records/29521685 ; https://www.ancestry.com/search/collections/60363/records/338059 ; https://www.ancestry.com/search/collections/60363/records/338058",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S40",
+      "title": "Nils Svensson 1825 Ränneslöv baptism",
+      "author": "FamilySearch; Ancestry.com",
+      "date": "5 MAY 1825",
+      "notes": "Nils was born 3 May and baptized 5 May 1825 at Ränneslöv. The record names Gunnilla Nilsdotter as mother and names no father, so the paternal link remains blank. https://www.ancestry.com/search/collections/60361/records/13922815",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S41",
+      "title": "Gunnilla Nilsdotter 1796 Ränneslöv baptism",
+      "author": "FamilySearch; Ancestry.com",
+      "date": "25 SEP 1796",
+      "notes": "Gunla/Gunnilla was born 20 Sep and baptized 25 Sep 1796 at Ränneslöv, daughter of Nils Johansson and Elna Nilsdotter. https://www.ancestry.com/search/collections/60361/records/22162419",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S42",
+      "title": "Christina Persdotter 1823 Hasslöv baptism",
+      "author": "FamilySearch; Ancestry.com",
+      "date": "25 JAN 1823",
+      "notes": "Stina/Christina was born 24 Jan and baptized 25 Jan 1823 at Hasslöv, daughter of Pehr Erlandsson and Ingier Hansdotter. https://www.ancestry.com/search/collections/60361/records/23764021",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S43",
+      "title": "Pehr Erlandsson and Ingier Hansdotter Hasslöv household survey",
+      "author": "ArkivDigital; Ancestry.com",
+      "date": "",
+      "notes": "The 1814-1823 household records Pehr as head and Ingier as wife. It reports Pehr born 10 Feb 1791 and Ingier 20 Mar 1794; Pehr's baptism supplies the nearer 1790 birth year. Records: https://www.ancestry.com/search/collections/9731/records/91496907 ; https://www.ancestry.com/search/collections/9731/records/91496908",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S44",
+      "title": "Pehr Erlandsson 1790 Hishult baptism",
+      "author": "FamilySearch; Ancestry.com",
+      "date": "14 FEB 1790",
+      "notes": "Pehr was born 10 Feb and baptized 14 Feb 1790 at Hishult, son of Erland Pålsson and Bengta Pehrsdotter. https://www.ancestry.com/search/collections/60361/records/15528153",
+      "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S45",
+      "title": "Ingier Hansdotter 1794 Hasslöv baptism",
+      "author": "FamilySearch; Ancestry.com",
+      "date": "23 MAR 1794",
+      "notes": "Ingier was born 20 Mar and baptized 23 Mar 1794 at Hasslöv, daughter of Hans Månsson and Maria Hansdotter. https://www.ancestry.com/search/collections/60361/records/11677925",
+      "origin": "cross-chat consolidation"
     }
   ],
   "corrections": [
@@ -5362,6 +5743,18 @@
       "corrected": "The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents."
     },
     {
+      "topic": "William Thoren ancestry",
+      "corrected": "A record chain identifies William John Thoren's parents as Christian Andrew Thoren and Augusta Nilsdotter, then extends their Swedish direct ancestry through named eighteenth-century ancestors."
+    },
+    {
+      "topic": "Alice Gallaher ancestry",
+      "corrected": "Alice Gallaher's parents remain unproved. The unsourced James M. Gallaher and Agnes Cope member-tree hint is retained only as a rejected/unverified lead."
+    },
+    {
+      "topic": "Nils Svensson father",
+      "corrected": "Nils's 1825 baptism names only his mother, Gunnilla Nilsdotter; no father is inferred from the Svensson patronymic."
+    },
+    {
       "topic": "Henry first marriage",
       "corrected": "Henry R. Vollmer married Mary A. Thoren in King County on 16 Sep 1955, before Jan Muller Vollmer."
     },
@@ -5401,7 +5794,7 @@
     },
     {
       "thread_title": "Trace Mary Alice Thoren ancestry",
-      "role": "owner-confirmed identity and birthplace; official marriage and 1950 census evidence for her parents"
+      "role": "owner-confirmed identity and birthplace; U.S. and Swedish records extending the proven Thoren line while preserving Gallaher and same-name uncertainties"
     }
   ]
 }

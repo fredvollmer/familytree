@@ -3,7 +3,7 @@ import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
 const packageDir = new URL("../", import.meta.url).pathname;
 const projectDir = new URL("../../../../", import.meta.url).pathname;
-const outputDir = `${projectDir}outputs/01a062a0-d189-7372-8cf3-483bf89abfed`;
+const outputDir = `${projectDir}outputs/01a062d4-f2da-7773-8314-870803324d29`;
 const inputPath = `${packageDir}Fredric_Vollmer_Maternal_Family_Tree_Records_First_Index.xlsx`;
 const outputName = "Fredric_Vollmer_Complete_Family_Tree_Index.xlsx";
 
@@ -27,10 +27,10 @@ overview.getRange("A2:F2").merge();
 overview.getRange("A2").values = [["One source-of-truth package assembled from the standardized maternal tree and all completed project-chat research"]];
 overview.getRange("A4:B4").values = [["Tree metric", "Current value"]];
 overview.getRange("A5:A8").values = [["Individuals"], ["Families"], ["GEDCOM source records"], ["Source and record inventory items"]];
-overview.getRange("B5").formulas = [["=COUNTA('Consolidated People'!$A$2:$A$311)"]];
-overview.getRange("B6").formulas = [["=COUNTA('Consolidated Families'!$A$2:$A$146)"]];
-overview.getRange("B7").formulas = [["=COUNTA('Consolidated Sources'!$A$2:$A$34)"]];
-overview.getRange("B8").formulas = [["=COUNTA('Consolidated Sources'!$A$2:$A$77)"]];
+overview.getRange("B5").formulas = [["=COUNTA('Consolidated People'!$A$2:$A$328)"]];
+overview.getRange("B6").formulas = [["=COUNTA('Consolidated Families'!$A$2:$A$155)"]];
+overview.getRange("B7").formulas = [["=COUNTA('Consolidated Sources'!$A$2:$A$46)"]];
+overview.getRange("B8").formulas = [["=COUNTA('Consolidated Sources'!$A$2:$A$89)"]];
 
 overview.getRange("D4:F4").values = [["Controlling correction", "Status", "Treatment"]];
 overview.getRange("D5:D9").values = [
@@ -40,12 +40,12 @@ overview.getRange("D5:D9").values = [
   ["Chris's father"],
   ["Janet Chaffee transcription"],
 ];
-overview.getRange("E5").formulas = [["=IF(COUNTIF('Consolidated People'!$B$2:$B$311,\"Jan Muller Vollmer\")=1,\"Confirmed\",\"Review\")"]];
-overview.getRange("E6").formulas = [["=IF(COUNTIF('Consolidated People'!$B$2:$B$311,\"Mary Alice Thoren\")=1,\"Confirmed\",\"Review\")"]];
+overview.getRange("E5").formulas = [["=IF(COUNTIF('Consolidated People'!$B$2:$B$328,\"Jan Muller Vollmer\")=1,\"Confirmed\",\"Review\")"]];
+overview.getRange("E6").formulas = [["=IF(COUNTIF('Consolidated People'!$B$2:$B$328,\"Mary Alice Thoren\")=1,\"Confirmed\",\"Review\")"]];
 overview.getRange("E7:E9").values = [["Confirmed"], ["Confirmed"], ["Removed"]];
 overview.getRange("F5:F9").values = [
   ["Biological parent link in GEDCOM family F095"],
-  ["Port Townsend birthplace; William J. Thoren and Alice Gallaher parent links; first marriage to Henry recorded"],
+  ["Port Townsend birthplace; William and Alice parent links; William's proven Swedish ancestry added; Alice's parents remain unresolved"],
   ["Step relationship recorded; not a biological parent link"],
   ["Henry and Mary Alice are the biological parents; Chris is Fredric's paternal half-brother"],
   ["Corrected to James Chaffee throughout the consolidated tree"],
@@ -53,11 +53,11 @@ overview.getRange("F5:F9").values = [
 
 overview.getRange("A11:F11").values = [["Package component", "Role", "Rows / items", "Primary file", "Status", "Notes"]];
 overview.getRange("A12:F17").values = [
-  ["GEDCOM", "Canonical tree structure", 310, "Fredric_Vollmer_Complete_Family_Tree.ged", "Current", "Import this file into genealogy software"],
-  ["Canonical JSON", "Structured mirror", 310, "Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json", "Current", "Machine-readable people, families, and sources"],
-  ["People ledger", "Person-level audit", 310, "Fredric_Vollmer_Complete_Family_Tree_People.csv", "Current", "One row per GEDCOM individual"],
-  ["Families ledger", "Family-level audit", 145, "Fredric_Vollmer_Complete_Family_Tree_Families.csv", "Current", "Parent, spouse, child, and marriage links"],
-  ["Sources ledger", "Citation and record index", 76, "Fredric_Vollmer_Complete_Family_Tree_Source_Inventory.csv", "Current", "Includes 33 GEDCOM sources and 43 preserved record files"],
+  ["GEDCOM", "Canonical tree structure", 327, "Fredric_Vollmer_Complete_Family_Tree.ged", "Current", "Import this file into genealogy software"],
+  ["Canonical JSON", "Structured mirror", 327, "Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json", "Current", "Machine-readable people, families, and sources"],
+  ["People ledger", "Person-level audit", 327, "Fredric_Vollmer_Complete_Family_Tree_People.csv", "Current", "One row per GEDCOM individual"],
+  ["Families ledger", "Family-level audit", 154, "Fredric_Vollmer_Complete_Family_Tree_Families.csv", "Current", "Parent, spouse, child, and marriage links"],
+  ["Sources ledger", "Citation and record index", 88, "Fredric_Vollmer_Complete_Family_Tree_Source_Inventory.csv", "Current", "Includes 45 GEDCOM sources and 43 preserved record files"],
   ["Recovered workbook tabs", "Historical reference", 8, "Original tabs in this workbook", "Preserved", "Retained unchanged for provenance"],
 ];
 

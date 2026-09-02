@@ -16,4 +16,4 @@ This is the canonical local package aggregating every Family Tree project chat t
 
 ## Privacy and relationship controls
 
-Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. The 1950 census identifies William J. Thoren and Alice Gallaher Thoren as Mary Alice's parents.
+Living details are minimized. Jan is recorded as Fredric's biological mother and Chris Vollmer's stepmother. Henry Richard Vollmer and Mary Alice Thoren are Chris's biological parents; Chris is Fredric's paternal half-brother. The 1950 census identifies William John Thoren and Alice Gallaher Thoren as Mary Alice's parents. U.S. and Swedish records extend William's ancestry through Christian Andrew Thoren and Augusta Nilsdotter into eighteenth-century Sweden. Alice Gallaher's parents remain unresolved and no member-tree hint was imported as fact.
