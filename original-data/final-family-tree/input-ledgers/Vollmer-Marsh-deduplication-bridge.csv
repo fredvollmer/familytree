@@ -1,0 +1,4 @@
+display_name,action,working_reference,matching_basis,notes
+Fredric Muller Vollmer,REUSE_EXISTING,EXISTING-FREDRIC-MULLER-VOLLMER,Owner-supplied identity,"Do not create a new record; attach this project's paternal findings through his existing father Henry Richard Vollmer."
+Jan,REUSE_EXISTING,EXISTING-JAN,Owner-supplied identity,"Do not create a new record. The local project mirror contained no synced tree file from which to recover Jan's dates or relationship, so no facts were invented."
+Henry Richard Vollmer,REUSE_EXISTING,EXISTING-HENRY-RICHARD-VOLLMER,"Born 24 Sep 1934, Long Island, New York; son of Charles F. and Doris J. in the 1940 census; died 4 Jul 2023","Do not create a new record. Add parents CFV-1906 and DJM-1900 to the existing Henry record."

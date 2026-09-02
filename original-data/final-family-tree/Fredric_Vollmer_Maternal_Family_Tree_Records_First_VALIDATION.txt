@@ -1,0 +1,34 @@
+Workbook sheets: Read Me, Ancestor Index, Relationships, Extended Family, Household Audit, Correction Log, Research Gaps, Source Key
+Extended Family rows: 39
+Household Audit rows: 8
+PDF pages: 38
+Forbidden text 'Janet Chaffee': True
+Required text 'Gwendolyn “Gwen” McCormick Hull': True
+Required text 'James Chaffee': True
+Required text 'one and only daughter': True
+GEDCOM individuals: 0
+GEDCOM families: 0
+GEDCOM trailer count: 1
+Package entries: 11
+Public record search queries: 8
+Public record candidates meeting automated review threshold: 0
+
+PDF nonblank text pages: 38/38
+PDF minimum front-section text chars (pages 1-12): 284
+PDF first page size points: 612.0 x 792.0
+Chart PNG dimensions: 3543 x 1055
+Chart SVG valid marker: True
+Workbook contains Janet Chaffee: True
+Workbook contains Gwen core branch: True
+Workbook contains corrected James son label: True
+GEDCOM NAME lines containing 'Fredric': 1
+GEDCOM NAME lines containing 'Jan': 3
+GEDCOM NAME lines containing 'Arthur John': 1
+GEDCOM NAME lines containing 'Anne Rives': 1
+GEDCOM NAME lines containing 'Gwendolyn': 1
+GEDCOM NAME lines containing 'Carey': 1
+GEDCOM NAME lines containing 'Mark Hull': 0
+GEDCOM NAME lines containing 'James Chaffee': 0
+GEDCOM contains Janet: True
+ZIP integrity first bad entry: None
+ZIP total entries: 16

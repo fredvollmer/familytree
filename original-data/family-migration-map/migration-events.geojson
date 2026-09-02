@@ -1,0 +1,6580 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "evt-i098-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.32787,
+          50.88744
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i098-birth",
+        "person_id": "I098",
+        "person_name": "Anne Pellett",
+        "event_type": "birth",
+        "date_text": "ABOUT 1549",
+        "year_min": 1549,
+        "year_max": 1549,
+        "date_is_approximate": true,
+        "place_original": "probably Steyning, Sussex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i089-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.99336,
+          51.95892
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i089-birth",
+        "person_id": "I089",
+        "person_name": "Edmund Sherman",
+        "event_type": "birth",
+        "date_text": "ABOUT 1572",
+        "year_min": 1572,
+        "year_max": 1572,
+        "date_is_approximate": true,
+        "place_original": "probably Dedham, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i106-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.99336,
+          51.95892
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i106-death",
+        "person_id": "I106",
+        "person_name": "Agnes",
+        "event_type": "death",
+        "date_text": "BURIED 14 OCT 1580",
+        "year_min": 1580,
+        "year_max": 1580,
+        "date_is_approximate": false,
+        "place_original": "Dedham, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i255-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3187,
+          51.06513
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i255-birth",
+        "person_id": "I255",
+        "person_name": "Stephen Hopkins",
+        "event_type": "birth",
+        "date_text": "ABT 1581",
+        "year_min": 1581,
+        "year_max": 1581,
+        "date_is_approximate": true,
+        "place_original": "Hampshire, England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i101-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02875,
+          51.81058
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i101-birth",
+        "person_id": "I101",
+        "person_name": "George Platt",
+        "event_type": "birth",
+        "date_text": "BAPTIZED 13 MAY 1582",
+        "year_min": 1582,
+        "year_max": 1582,
+        "date_is_approximate": false,
+        "place_original": "Ware, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i098-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.99336,
+          51.95892
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i098-death",
+        "person_id": "I098",
+        "person_name": "Anne Pellett",
+        "event_type": "death",
+        "date_text": "BURIED 8 JUN 1584",
+        "year_min": 1584,
+        "year_max": 1584,
+        "date_is_approximate": false,
+        "place_original": "Dedham, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i258-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i258-birth",
+        "person_id": "I258",
+        "person_name": "John Doane",
+        "event_type": "birth",
+        "date_text": "ABT 1590",
+        "year_min": 1590,
+        "year_max": 1590,
+        "date_is_approximate": true,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i112-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02875,
+          51.81058
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i112-death",
+        "person_id": "I112",
+        "person_name": "Simon Platt",
+        "event_type": "death",
+        "date_text": "BURIED 12 APR 1594",
+        "year_min": 1594,
+        "year_max": 1594,
+        "date_is_approximate": false,
+        "place_original": "Ware, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i113-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02875,
+          51.81058
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i113-death",
+        "person_id": "I113",
+        "person_name": "Elizabeth",
+        "event_type": "death",
+        "date_text": "BURIED 21 JUL 1598",
+        "year_min": 1598,
+        "year_max": 1598,
+        "date_is_approximate": false,
+        "place_original": "Ware, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i097-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.99336,
+          51.95892
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i097-death",
+        "person_id": "I097",
+        "person_name": "Edmund Sherman",
+        "event_type": "death",
+        "date_text": "BURIED 22 DEC 1600",
+        "year_min": 1600,
+        "year_max": 1600,
+        "date_is_approximate": false,
+        "place_original": "Dedham, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i077-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33333,
+          51.75
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i077-birth",
+        "person_id": "I077",
+        "person_name": "William Wilcockson",
+        "event_type": "birth",
+        "date_text": "ABOUT 1601",
+        "year_min": 1601,
+        "year_max": 1601,
+        "date_is_approximate": true,
+        "place_original": "St. Albans, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i253-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i253-birth",
+        "person_id": "I253",
+        "person_name": "Elizabeth Ring Cooke",
+        "event_type": "birth",
+        "date_text": "As reported: about 1602-1603",
+        "year_min": 1602,
+        "year_max": 1603,
+        "date_is_approximate": true,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i092-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02875,
+          51.81058
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i092-birth",
+        "person_id": "I092",
+        "person_name": "Richard Platt",
+        "event_type": "birth",
+        "date_text": "BAPTIZED 6 MAY 1604",
+        "year_min": 1604,
+        "year_max": 1604,
+        "date_is_approximate": false,
+        "place_original": "Ware, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i093-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0403,
+          51.7718
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i093-birth",
+        "person_id": "I093",
+        "person_name": "Mary Wood",
+        "event_type": "birth",
+        "date_text": "BAPTIZED 10 NOV 1605",
+        "year_min": 1605,
+        "year_max": 1605,
+        "date_is_approximate": false,
+        "place_original": "Roydon, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i083-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.99336,
+          51.95892
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i083-birth",
+        "person_id": "I083",
+        "person_name": "Hester Sherman",
+        "event_type": "birth",
+        "date_text": "BAPTIZED 1 APR 1606",
+        "year_min": 1606,
+        "year_max": 1606,
+        "date_is_approximate": false,
+        "place_original": "Dedham, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i251-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.39067,
+          51.02536
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i251-birth",
+        "person_id": "I251",
+        "person_name": "Giles Hopkins",
+        "event_type": "birth",
+        "date_text": "As reported: baptized 30 Jan 1607/08",
+        "year_min": 1607,
+        "year_max": 1607,
+        "date_is_approximate": false,
+        "place_original": "Hursley, Hampshire, England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i101-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02875,
+          51.81058
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i101-death",
+        "person_id": "I101",
+        "person_name": "George Platt",
+        "event_type": "death",
+        "date_text": "BURIED 20 APR 1609",
+        "year_min": 1609,
+        "year_max": 1609,
+        "date_is_approximate": false,
+        "place_original": "Ware, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i252-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i252-birth",
+        "person_id": "I252",
+        "person_name": "Josiah Cooke Sr.",
+        "event_type": "birth",
+        "date_text": "ABT 1610",
+        "year_min": 1610,
+        "year_max": 1610,
+        "date_is_approximate": true,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i099-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.94422,
+          51.84469
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i099-death",
+        "person_id": "I099",
+        "person_name": "Tobias Makin",
+        "event_type": "death",
+        "date_text": "1610",
+        "year_min": 1610,
+        "year_max": 1610,
+        "date_is_approximate": false,
+        "place_original": "probably Fingringhoe, Essex, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i260-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i260-birth",
+        "person_id": "I260",
+        "person_name": "Richard Knowles",
+        "event_type": "birth",
+        "date_text": "ABT 1615",
+        "year_min": 1615,
+        "year_max": 1615,
+        "date_is_approximate": true,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i254-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.18333,
+          52.96667
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i254-birth",
+        "person_id": "I254",
+        "person_name": "Catherine Whelden Hopkins",
+        "event_type": "birth",
+        "date_text": "As reported: baptized 6 Mar 1616/17",
+        "year_min": 1616,
+        "year_max": 1616,
+        "date_is_approximate": false,
+        "place_original": "Basford, Nottinghamshire, England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i085-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02875,
+          51.81058
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i085-birth",
+        "person_id": "I085",
+        "person_name": "Sarah Platt",
+        "event_type": "birth",
+        "date_text": "BAPTIZED 11 SEP 1636",
+        "year_min": 1636,
+        "year_max": 1636,
+        "date_is_approximate": false,
+        "place_original": "Ware, Hertfordshire, England",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i157-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.25596,
+          51.75222
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i157-birth",
+        "person_id": "I157",
+        "person_name": "William Rives",
+        "event_type": "birth",
+        "date_text": "ABOUT 1636",
+        "year_min": 1636,
+        "year_max": 1636,
+        "date_is_approximate": true,
+        "place_original": "Oxfordshire, England",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "unknown",
+        "source_refs": [
+          "S4",
+          "S13"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i089-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.92816,
+          41.30815
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i089-death",
+        "person_id": "I089",
+        "person_name": "Edmund Sherman",
+        "event_type": "death",
+        "date_text": "1640/41",
+        "year_min": 1640,
+        "year_max": 1640,
+        "date_is_approximate": false,
+        "place_original": "New Haven, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i249-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.66726,
+          41.95844
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i249-birth",
+        "person_id": "I249",
+        "person_name": "Ephraim Doane",
+        "event_type": "birth",
+        "date_text": "As reported: about 1642-1645",
+        "year_min": 1642,
+        "year_max": 1645,
+        "date_is_approximate": true,
+        "place_original": "Plymouth Colony",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i263-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10561,
+          42.3751
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i263-death",
+        "person_id": "I263",
+        "person_name": "Barbara Bower",
+        "event_type": "death",
+        "date_text": "25 MAR 1644",
+        "year_min": 1644,
+        "year_max": 1644,
+        "date_is_approximate": false,
+        "place_original": "Cambridge, Massachusetts (secondary)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i250-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.66726,
+          41.95844
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i250-birth",
+        "person_id": "I250",
+        "person_name": "Mary Knowles Doane",
+        "event_type": "birth",
+        "date_text": "ABT 1644",
+        "year_min": 1644,
+        "year_max": 1644,
+        "date_is_approximate": true,
+        "place_original": "Plymouth Colony",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i255-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.66726,
+          41.95844
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i255-death",
+        "person_id": "I255",
+        "person_name": "Stephen Hopkins",
+        "event_type": "death",
+        "date_text": "1644",
+        "year_min": 1644,
+        "year_max": 1644,
+        "date_is_approximate": false,
+        "place_original": "Plymouth Colony",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i247-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i247-birth",
+        "person_id": "I247",
+        "person_name": "Josiah Cooke",
+        "event_type": "birth",
+        "date_text": "ABT 1645",
+        "year_min": 1645,
+        "year_max": 1645,
+        "date_is_approximate": true,
+        "place_original": "Plymouth or Eastham, Massachusetts (scholarly reconstruction)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i070-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.92816,
+          41.30815
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i070-birth",
+        "person_id": "I070",
+        "person_name": "Trial Meigs",
+        "event_type": "birth",
+        "date_text": "ABOUT 1646",
+        "year_min": 1646,
+        "year_max": 1646,
+        "date_is_approximate": true,
+        "place_original": "probably New Haven, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i049-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.92816,
+          41.30815
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i049-birth",
+        "person_id": "I049",
+        "person_name": "Lydia Thompson",
+        "event_type": "birth",
+        "date_text": "BAPTIZED 24 JUL 1647",
+        "year_min": 1647,
+        "year_max": 1647,
+        "date_is_approximate": false,
+        "place_original": "New Haven, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i248-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i248-birth",
+        "person_id": "I248",
+        "person_name": "Deborah Hopkins Cooke",
+        "event_type": "birth",
+        "date_text": "15 JUN 1648",
+        "year_min": 1648,
+        "year_max": 1648,
+        "date_is_approximate": false,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i063-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i063-birth",
+        "person_id": "I063",
+        "person_name": "Nathaniel Stone",
+        "event_type": "birth",
+        "date_text": "2 FEB 1648",
+        "year_min": 1648,
+        "year_max": 1648,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i066-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13317,
+          41.18454
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i066-birth",
+        "person_id": "I066",
+        "person_name": "Sarah Wilcockson",
+        "event_type": "birth",
+        "date_text": "26 OCT 1648",
+        "year_min": 1648,
+        "year_max": 1648,
+        "date_is_approximate": false,
+        "place_original": "Stratford, Fairfield County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i077-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10561,
+          42.3751
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i077-death",
+        "person_id": "I077",
+        "person_name": "William Wilcockson",
+        "event_type": "death",
+        "date_text": "1651/52",
+        "year_min": 1651,
+        "year_max": 1651,
+        "date_is_approximate": false,
+        "place_original": "Cambridge, Massachusetts",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i071-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0565,
+          41.22232
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i071-birth",
+        "person_id": "I071",
+        "person_name": "John Beach",
+        "event_type": "birth",
+        "date_text": "19 OCT 1655",
+        "year_min": 1655,
+        "year_max": 1655,
+        "date_is_approximate": false,
+        "place_original": "Milford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i262-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.461782,
+          42.231334
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i262-death",
+        "person_id": "I262",
+        "person_name": "George Bower",
+        "event_type": "death",
+        "date_text": "1656",
+        "year_min": 1656,
+        "year_max": 1656,
+        "date_is_approximate": false,
+        "place_original": "Massachusetts (secondary)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i075-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5637,
+          41.35815
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i075-death",
+        "person_id": "I075",
+        "person_name": "Vincent Meigs",
+        "event_type": "death",
+        "date_text": "DEC 1658",
+        "year_min": 1658,
+        "year_max": 1658,
+        "date_is_approximate": false,
+        "place_original": "Killingworth, Middlesex County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "C",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i151-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.28803,
+          37.22043
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i151-birth",
+        "person_id": "I151",
+        "person_name": "George Rives",
+        "event_type": "birth",
+        "date_text": "ABOUT 1660",
+        "year_min": 1660,
+        "year_max": 1660,
+        "date_is_approximate": true,
+        "place_original": "Prince George County, Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "unknown",
+        "source_refs": [
+          "S4",
+          "S13"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i084-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0565,
+          41.22232
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i084-death",
+        "person_id": "I084",
+        "person_name": "Thomas Beach",
+        "event_type": "death",
+        "date_text": "BY 31 MAY 1662",
+        "year_min": 1662,
+        "year_max": 1662,
+        "date_is_approximate": true,
+        "place_original": "Milford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i057-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.92816,
+          41.30815
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i057-death",
+        "person_id": "I057",
+        "person_name": "Samuel Hotchkiss",
+        "event_type": "death",
+        "date_text": "28 DEC 1663",
+        "year_min": 1663,
+        "year_max": 1663,
+        "date_is_approximate": false,
+        "place_original": "New Haven, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i079-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i079-death",
+        "person_id": "I079",
+        "person_name": "John Evarts",
+        "event_type": "death",
+        "date_text": "BURIED 10 MAY 1669",
+        "year_min": 1669,
+        "year_max": 1669,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i166-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55336,
+          47.21725
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i166-birth",
+        "person_id": "I166",
+        "person_name": "Mathieu Agee",
+        "event_type": "birth",
+        "date_text": "ABOUT 1670",
+        "year_min": 1670,
+        "year_max": 1670,
+        "date_is_approximate": true,
+        "place_original": "near Nantes, France",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "C",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i260-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i260-death",
+        "person_id": "I260",
+        "person_name": "Richard Knowles",
+        "event_type": "death",
+        "date_text": "between 1670 and 1675",
+        "year_min": 1670,
+        "year_max": 1675,
+        "date_is_approximate": true,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i085-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0565,
+          41.22232
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i085-death",
+        "person_id": "I085",
+        "person_name": "Sarah Platt",
+        "event_type": "death",
+        "date_text": "15 MAY 1670",
+        "year_min": 1670,
+        "year_max": 1670,
+        "date_is_approximate": false,
+        "place_original": "Milford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i252-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i252-death",
+        "person_id": "I252",
+        "person_name": "Josiah Cooke Sr.",
+        "event_type": "death",
+        "date_text": "17 OCT 1673",
+        "year_min": 1673,
+        "year_max": 1673,
+        "date_is_approximate": false,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i093-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0565,
+          41.22232
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i093-death",
+        "person_id": "I093",
+        "person_name": "Mary Wood",
+        "event_type": "death",
+        "date_text": "BURIED 24 MAR 1675/76",
+        "year_min": 1675,
+        "year_max": 1675,
+        "date_is_approximate": false,
+        "place_original": "Milford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i094-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.09952,
+          41.35565
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i094-death",
+        "person_id": "I094",
+        "person_name": "Robert Royce",
+        "event_type": "death",
+        "date_text": "ABOUT 1676",
+        "year_min": 1676,
+        "year_max": 1676,
+        "date_is_approximate": true,
+        "place_original": "New London, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i053-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.82316,
+          41.45704
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i053-birth",
+        "person_id": "I053",
+        "person_name": "William Ward",
+        "event_type": "birth",
+        "date_text": "18 OCT 1678",
+        "year_min": 1678,
+        "year_max": 1678,
+        "date_is_approximate": false,
+        "place_original": "Wallingford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i054-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.82316,
+          41.45704
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i054-birth",
+        "person_id": "I054",
+        "person_name": "Lettice Beach",
+        "event_type": "birth",
+        "date_text": "24 DEC 1679",
+        "year_min": 1679,
+        "year_max": 1679,
+        "date_is_approximate": false,
+        "place_original": "Wallingford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i245-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i245-birth",
+        "person_id": "I245",
+        "person_name": "Joshua Cooke",
+        "event_type": "birth",
+        "date_text": "As reported: 4 Feb 1682/83",
+        "year_min": 1682,
+        "year_max": 1682,
+        "date_is_approximate": false,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i246-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i246-birth",
+        "person_id": "I246",
+        "person_name": "Patience Doane",
+        "event_type": "birth",
+        "date_text": "APR 1682",
+        "year_min": 1682,
+        "year_max": 1682,
+        "date_is_approximate": false,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i149-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.28803,
+          37.22043
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i149-birth",
+        "person_id": "I149",
+        "person_name": "Col. William Rives",
+        "event_type": "birth",
+        "date_text": "ABOUT 1683",
+        "year_min": 1683,
+        "year_max": 1683,
+        "date_is_approximate": true,
+        "place_original": "Prince George County, Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "C",
+        "source_refs": [
+          "S4",
+          "S12"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i092-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0565,
+          41.22232
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i092-death",
+        "person_id": "I092",
+        "person_name": "Richard Platt",
+        "event_type": "death",
+        "date_text": "BY 13 FEB 1684/85",
+        "year_min": 1684,
+        "year_max": 1684,
+        "date_is_approximate": true,
+        "place_original": "Milford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i258-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i258-death",
+        "person_id": "I258",
+        "person_name": "John Doane",
+        "event_type": "death",
+        "date_text": "As reported: 21 Feb 1685/86",
+        "year_min": 1685,
+        "year_max": 1685,
+        "date_is_approximate": false,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i253-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i253-death",
+        "person_id": "I253",
+        "person_name": "Elizabeth Ring Cooke",
+        "event_type": "death",
+        "date_text": "BEF 3 MAY 1687",
+        "year_min": 1687,
+        "year_max": 1687,
+        "date_is_approximate": true,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i073-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i073-death",
+        "person_id": "I073",
+        "person_name": "John Stone",
+        "event_type": "death",
+        "date_text": "FEB 1687",
+        "year_min": 1687,
+        "year_max": 1687,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i074-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i074-death",
+        "person_id": "I074",
+        "person_name": "Mary",
+        "event_type": "death",
+        "date_text": "FEB 1687",
+        "year_min": 1687,
+        "year_max": 1687,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i261-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.461782,
+          42.231334
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i261-death",
+        "person_id": "I261",
+        "person_name": "Ruth Bower Knowles",
+        "event_type": "death",
+        "date_text": "ABT 1687",
+        "year_min": 1687,
+        "year_max": 1687,
+        "date_is_approximate": true,
+        "place_original": "Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i251-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i251-death",
+        "person_id": "I251",
+        "person_name": "Giles Hopkins",
+        "event_type": "death",
+        "date_text": "As reported: between 5 Mar 1688/89 and 16 Apr 1690",
+        "year_min": 1688,
+        "year_max": 1690,
+        "date_is_approximate": true,
+        "place_original": "Eastham, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i157-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.83524,
+          37.13793
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i157-death",
+        "person_id": "I157",
+        "person_name": "William Rives",
+        "event_type": "death",
+        "date_text": "AFTER 1695",
+        "year_min": 1695,
+        "year_max": 1695,
+        "date_is_approximate": true,
+        "place_original": "Surry County, Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "unknown",
+        "source_refs": [
+          "S4",
+          "S13"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i229-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.58322,
+          43.383043
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i229-birth",
+        "person_id": "I229",
+        "person_name": "Joshua Lane",
+        "event_type": "birth",
+        "date_text": "6 JUN 1696",
+        "year_min": 1696,
+        "year_max": 1696,
+        "date_is_approximate": false,
+        "place_original": "New Hampshire",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i095-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.82316,
+          41.45704
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i095-death",
+        "person_id": "I095",
+        "person_name": "Mary",
+        "event_type": "death",
+        "date_text": "ABOUT 1696",
+        "year_min": 1696,
+        "year_max": 1696,
+        "date_is_approximate": true,
+        "place_original": "Wallingford, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i249-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i249-death",
+        "person_id": "I249",
+        "person_name": "Ephraim Doane",
+        "event_type": "death",
+        "date_text": "BEF 19 APR 1700",
+        "year_min": 1700,
+        "year_max": 1700,
+        "date_is_approximate": true,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i043-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.82316,
+          41.45704
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i043-birth",
+        "person_id": "I043",
+        "person_name": "William Ward",
+        "event_type": "birth",
+        "date_text": "7 JAN 1705",
+        "year_min": 1705,
+        "year_max": 1705,
+        "date_is_approximate": false,
+        "place_original": "Wallingford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i041-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i041-birth",
+        "person_id": "I041",
+        "person_name": "Caleb Stone Jr.",
+        "event_type": "birth",
+        "date_text": "7 MAY 1714",
+        "year_min": 1714,
+        "year_max": 1714,
+        "date_is_approximate": false,
+        "place_original": "probably Guilford, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i227-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.83894,
+          42.93759
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i227-birth",
+        "person_id": "I227",
+        "person_name": "Samuel Lane",
+        "event_type": "birth",
+        "date_text": "6 OCT 1718",
+        "year_min": 1718,
+        "year_max": 1718,
+        "date_is_approximate": false,
+        "place_original": "Hampton, New Hampshire",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i228-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.83894,
+          42.93759
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i228-birth",
+        "person_id": "I228",
+        "person_name": "Mary James Lane",
+        "event_type": "birth",
+        "date_text": "3 MAR 1722",
+        "year_min": 1722,
+        "year_max": 1722,
+        "date_is_approximate": false,
+        "place_original": "Hampton, New Hampshire",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i164-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.468515,
+          37.791578
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i164-birth",
+        "person_id": "I164",
+        "person_name": "James Agee",
+        "event_type": "birth",
+        "date_text": "ABOUT 1725",
+        "year_min": 1725,
+        "year_max": 1725,
+        "date_is_approximate": true,
+        "place_original": "Virginia",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "B",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i247-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i247-death",
+        "person_id": "I247",
+        "person_name": "Josiah Cooke",
+        "event_type": "death",
+        "date_text": "As reported: 31 Jan 1731/32",
+        "year_min": 1731,
+        "year_max": 1731,
+        "date_is_approximate": false,
+        "place_original": "Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i141-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.84694,
+          36.75765
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i141-birth",
+        "person_id": "I141",
+        "person_name": "William Rives",
+        "event_type": "birth",
+        "date_text": "ABOUT 1737",
+        "year_min": 1737,
+        "year_max": 1737,
+        "date_is_approximate": true,
+        "place_original": "Brunswick County, Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "B",
+        "source_refs": [
+          "S4",
+          "S10",
+          "S11"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i034-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i034-birth",
+        "person_id": "I034",
+        "person_name": "Asher Stone",
+        "event_type": "birth",
+        "date_text": "23 JAN 1738/39",
+        "year_min": 1738,
+        "year_max": 1738,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i225-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.91367,
+          43.02398
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i225-birth",
+        "person_id": "I225",
+        "person_name": "Joshua Lane",
+        "event_type": "birth",
+        "date_text": "9 FEB 1748",
+        "year_min": 1748,
+        "year_max": 1748,
+        "date_is_approximate": false,
+        "place_original": "Stratham, New Hampshire",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i226-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.58322,
+          43.383043
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i226-birth",
+        "person_id": "I226",
+        "person_name": "Hannah Tilton Lane",
+        "event_type": "birth",
+        "date_text": "28 JAN 1750",
+        "year_min": 1750,
+        "year_max": 1750,
+        "date_is_approximate": false,
+        "place_original": "New Hampshire (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i161-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.468515,
+          37.791578
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i161-birth",
+        "person_id": "I161",
+        "person_name": "Noah Agee",
+        "event_type": "birth",
+        "date_text": "12 NOV 1750",
+        "year_min": 1750,
+        "year_max": 1750,
+        "date_is_approximate": false,
+        "place_original": "Virginia",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "B",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i150-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.28803,
+          37.22043
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i150-death",
+        "person_id": "I150",
+        "person_name": "Elizabeth Rives",
+        "event_type": "death",
+        "date_text": "BEFORE 1759",
+        "year_min": 1759,
+        "year_max": 1759,
+        "date_is_approximate": true,
+        "place_original": "Prince George County, Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "C",
+        "source_refs": [
+          "S4",
+          "S12"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i028-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i028-birth",
+        "person_id": "I028",
+        "person_name": "John Evarts Stone",
+        "event_type": "birth",
+        "date_text": "28 NOV 1760",
+        "year_min": 1760,
+        "year_max": 1760,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i139-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.468515,
+          37.791578
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i139-birth",
+        "person_id": "I139",
+        "person_name": "Green Rives",
+        "event_type": "birth",
+        "date_text": "10 JAN 1763",
+        "year_min": 1763,
+        "year_max": 1763,
+        "date_is_approximate": false,
+        "place_original": "Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i034-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i034-death",
+        "person_id": "I034",
+        "person_name": "Asher Stone",
+        "event_type": "death",
+        "date_text": "27 SEP 1766",
+        "year_min": 1766,
+        "year_max": 1766,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i053-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.82316,
+          41.45704
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i053-death",
+        "person_id": "I053",
+        "person_name": "William Ward",
+        "event_type": "death",
+        "date_text": "19 DEC 1767",
+        "year_min": 1767,
+        "year_max": 1767,
+        "date_is_approximate": false,
+        "place_original": "Wallingford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i228-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.91367,
+          43.02398
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i228-death",
+        "person_id": "I228",
+        "person_name": "Mary James Lane",
+        "event_type": "death",
+        "date_text": "30 JAN 1769",
+        "year_min": 1769,
+        "year_max": 1769,
+        "date_is_approximate": false,
+        "place_original": "Stratham, New Hampshire (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i140-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.069056,
+          34.0551
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i140-birth",
+        "person_id": "I140",
+        "person_name": "Mary Ridley Jones",
+        "event_type": "birth",
+        "date_text": "5 MAR 1769",
+        "year_min": 1769,
+        "year_max": 1769,
+        "date_is_approximate": false,
+        "place_original": "South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "B",
+        "source_refs": [
+          "S4",
+          "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i223-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.91367,
+          43.02398
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i223-birth",
+        "person_id": "I223",
+        "person_name": "Stephen Lane",
+        "event_type": "birth",
+        "date_text": "8 DEC 1771",
+        "year_min": 1771,
+        "year_max": 1771,
+        "date_is_approximate": false,
+        "place_original": "Stratham, New Hampshire",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i239-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.22872,
+          42.12287
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i239-birth",
+        "person_id": "I239",
+        "person_name": "Levi Cook",
+        "event_type": "birth",
+        "date_text": "26 FEB 1774",
+        "year_min": 1774,
+        "year_max": 1774,
+        "date_is_approximate": false,
+        "place_original": "New Marlborough, Berkshire, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i240-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.22872,
+          42.12287
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i240-birth",
+        "person_id": "I240",
+        "person_name": "Betsey Brown Cook",
+        "event_type": "birth",
+        "date_text": "7 JAN 1779",
+        "year_min": 1779,
+        "year_max": 1779,
+        "date_is_approximate": false,
+        "place_original": "New Marlborough, Berkshire, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i237-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.86924,
+          41.83871
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i237-birth",
+        "person_id": "I237",
+        "person_name": "James Whitney",
+        "event_type": "birth",
+        "date_text": "27 AUG 1779",
+        "year_min": 1779,
+        "year_max": 1779,
+        "date_is_approximate": false,
+        "place_original": "Killingly, Windham, Connecticut (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i141-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.60702,
+          34.24654
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i141-death",
+        "person_id": "I141",
+        "person_name": "William Rives",
+        "event_type": "death",
+        "date_text": "1783",
+        "year_min": 1783,
+        "year_max": 1783,
+        "date_is_approximate": false,
+        "place_original": "Camden District, South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "B",
+        "source_refs": [
+          "S4",
+          "S10",
+          "S11"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i024-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i024-birth",
+        "person_id": "I024",
+        "person_name": "Elon Lee",
+        "event_type": "birth",
+        "date_text": "12 MAR 1786",
+        "year_min": 1786,
+        "year_max": 1786,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i041-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i041-death",
+        "person_id": "I041",
+        "person_name": "Caleb Stone Jr.",
+        "event_type": "death",
+        "date_text": "28 JUL 1788",
+        "year_min": 1788,
+        "year_max": 1788,
+        "date_is_approximate": false,
+        "place_original": "Guilford, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i025-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i025-birth",
+        "person_id": "I025",
+        "person_name": "Grace Stone",
+        "event_type": "birth",
+        "date_text": "27 APR 1788",
+        "year_min": 1788,
+        "year_max": 1788,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i241-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.22872,
+          42.12287
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i241-death",
+        "person_id": "I241",
+        "person_name": "Hezekiah Cook",
+        "event_type": "death",
+        "date_text": "APR 1793",
+        "year_min": 1793,
+        "year_max": 1793,
+        "date_is_approximate": false,
+        "place_original": "New Marlborough, Berkshire, Massachusetts",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i026-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i026-death",
+        "person_id": "I026",
+        "person_name": "William Lee",
+        "event_type": "death",
+        "date_text": "29 APR 1795",
+        "year_min": 1795,
+        "year_max": 1795,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i137-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.069056,
+          34.0551
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i137-birth",
+        "person_id": "I137",
+        "person_name": "Robert Rives",
+        "event_type": "birth",
+        "date_text": "28 MAY/AUG 1801",
+        "year_min": 1801,
+        "year_max": 1801,
+        "date_is_approximate": false,
+        "place_original": "South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S9",
+          "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i236-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.25955,
+          43.40785
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i236-birth",
+        "person_id": "I236",
+        "person_name": "Alvin L Whitney",
+        "event_type": "birth",
+        "date_text": "14 SEP 1803",
+        "year_min": 1803,
+        "year_max": 1803,
+        "date_is_approximate": false,
+        "place_original": "Granville, Washington, New York (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i138-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.08648,
+          34.3807
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i138-birth",
+        "person_id": "I138",
+        "person_name": "Amelia Harrison",
+        "event_type": "birth",
+        "date_text": "21 DEC 1804",
+        "year_min": 1804,
+        "year_max": 1804,
+        "date_is_approximate": false,
+        "place_original": "Fairfield District, South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S20"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i266-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i266-birth",
+        "person_id": "I266",
+        "person_name": "William McNaughton",
+        "event_type": "birth",
+        "date_text": "ABT 1804",
+        "year_min": 1804,
+        "year_max": 1804,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i267-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i267-birth",
+        "person_id": "I267",
+        "person_name": "Relief Gibbs McNaughton",
+        "event_type": "birth",
+        "date_text": "As reported: about 1805-1806",
+        "year_min": 1805,
+        "year_max": 1806,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i160-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.60702,
+          34.24654
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i160-death",
+        "person_id": "I160",
+        "person_name": "James Perry",
+        "event_type": "death",
+        "date_text": "AFTER 14 APR 1806 / BEFORE 1825",
+        "year_min": 1806,
+        "year_max": 1825,
+        "date_is_approximate": true,
+        "place_original": "Kershaw District, South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S20"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i227-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.91367,
+          43.02398
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i227-death",
+        "person_id": "I227",
+        "person_name": "Samuel Lane",
+        "event_type": "death",
+        "date_text": "29 DEC 1806",
+        "year_min": 1806,
+        "year_max": 1806,
+        "date_is_approximate": false,
+        "place_original": "Stratham, New Hampshire (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i154-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.55556,
+          37.55015
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i154-birth",
+        "person_id": "I154",
+        "person_name": "William Raiford Agee",
+        "event_type": "birth",
+        "date_text": "13 AUG 1806",
+        "year_min": 1806,
+        "year_max": 1806,
+        "date_is_approximate": false,
+        "place_original": "Buckingham County, Virginia",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "B",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i221-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i221-birth",
+        "person_id": "I221",
+        "person_name": "Malachi Marsh",
+        "event_type": "birth",
+        "date_text": "As reported: about 1807-1808",
+        "year_min": 1807,
+        "year_max": 1808,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i222-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.50786,
+          45.00616
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i222-birth",
+        "person_id": "I222",
+        "person_name": "Mary Lane Marsh",
+        "event_type": "birth",
+        "date_text": "3 FEB 1807",
+        "year_min": 1807,
+        "year_max": 1807,
+        "date_is_approximate": false,
+        "place_original": "Stewartstown, Coos, New Hampshire",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i119-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i119-birth",
+        "person_id": "I119",
+        "person_name": "Elizabeth McCormick",
+        "event_type": "birth",
+        "date_text": "ABOUT 1808",
+        "year_min": 1808,
+        "year_max": 1808,
+        "date_is_approximate": true,
+        "place_original": "Kentucky",
+        "side": "Maternal",
+        "branch": "McCormick / O’Brien",
+        "confidence": "B",
+        "source_refs": [
+          "S15"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i238-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i238-birth",
+        "person_id": "I238",
+        "person_name": "Betsey Cook Whitney",
+        "event_type": "birth",
+        "date_text": "29 JUN 1809",
+        "year_min": 1809,
+        "year_max": 1809,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i139-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.03481,
+          34.00071
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i139-death",
+        "person_id": "I139",
+        "person_name": "Green Rives",
+        "event_type": "death",
+        "date_text": "26 OCT 1812",
+        "year_min": 1812,
+        "year_max": 1812,
+        "date_is_approximate": false,
+        "place_original": "Columbia, South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i225-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.91367,
+          43.02398
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i225-death",
+        "person_id": "I225",
+        "person_name": "Joshua Lane",
+        "event_type": "death",
+        "date_text": "28 OCT 1813",
+        "year_min": 1813,
+        "year_max": 1813,
+        "date_is_approximate": false,
+        "place_original": "Stratham, New Hampshire (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i022-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.726151,
+          41.561211
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i022-birth",
+        "person_id": "I022",
+        "person_name": "Hubbard Stone Lee",
+        "event_type": "birth",
+        "date_text": "6 JUL 1822",
+        "year_min": 1822,
+        "year_max": 1822,
+        "date_is_approximate": false,
+        "place_original": "Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S6",
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i161-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.671913,
+          33.032887
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i161-death",
+        "person_id": "I161",
+        "person_name": "Noah Agee",
+        "event_type": "death",
+        "date_text": "9 APR 1823",
+        "year_min": 1823,
+        "year_max": 1823,
+        "date_is_approximate": false,
+        "place_original": "Alabama",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "B",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i220-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i220-birth",
+        "person_id": "I220",
+        "person_name": "Andrew J Marsh",
+        "event_type": "birth",
+        "date_text": "ABT 1829",
+        "year_min": 1829,
+        "year_max": 1829,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i023-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.21132,
+          42.5467
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i023-birth",
+        "person_id": "I023",
+        "person_name": "Sarah M. Willitts",
+        "event_type": "birth",
+        "date_text": "1831",
+        "year_min": 1831,
+        "year_max": 1831,
+        "date_is_approximate": false,
+        "place_original": "Birmingham, Oakland County, Michigan",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S6",
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i265-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.85278,
+          42.97312
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i265-birth",
+        "person_id": "I265",
+        "person_name": "Peter William McNaughton",
+        "event_type": "birth",
+        "date_text": "14 OCT 1834",
+        "year_min": 1834,
+        "year_max": 1834,
+        "date_is_approximate": false,
+        "place_original": "Caledonia, Livingston, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i020-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57549,
+          48.13743
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i020-birth",
+        "person_id": "I020",
+        "person_name": "Elizabeth Wüst",
+        "event_type": "birth",
+        "date_text": "1837",
+        "year_min": 1837,
+        "year_max": 1837,
+        "date_is_approximate": false,
+        "place_original": "Bavaria",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S21"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i019-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.74553,
+          48.58392
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i019-birth",
+        "person_id": "I019",
+        "person_name": "Lambert Kleitz",
+        "event_type": "birth",
+        "date_text": "1840",
+        "year_min": 1840,
+        "year_max": 1840,
+        "date_is_approximate": false,
+        "place_original": "Alsace, France",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S21"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i223-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.89667,
+          42.77201
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i223-death",
+        "person_id": "I223",
+        "person_name": "Stephen Lane",
+        "event_type": "death",
+        "date_text": "6 DEC 1840",
+        "year_min": 1840,
+        "year_max": 1840,
+        "date_is_approximate": false,
+        "place_original": "Moscow (now Leicester), Livingston, New York (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i226-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.58322,
+          43.383043
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i226-death",
+        "person_id": "I226",
+        "person_name": "Hannah Tilton Lane",
+        "event_type": "death",
+        "date_text": "31 DEC 1841",
+        "year_min": 1841,
+        "year_max": 1841,
+        "date_is_approximate": false,
+        "place_original": "New Hampshire (compiled genealogy)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i268-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i268-birth",
+        "person_id": "I268",
+        "person_name": "Mary A McNaughton",
+        "event_type": "birth",
+        "date_text": "As reported: about 1841-1846",
+        "year_min": 1841,
+        "year_max": 1846,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i135-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i135-birth",
+        "person_id": "I135",
+        "person_name": "Robert Calhoun Rives",
+        "event_type": "birth",
+        "date_text": "9 NOV 1842",
+        "year_min": 1842,
+        "year_max": 1842,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S9"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i240-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.02279,
+          42.87617
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i240-death",
+        "person_id": "I240",
+        "person_name": "Betsey Brown Cook",
+        "event_type": "death",
+        "date_text": "25 MAR 1843",
+        "year_min": 1843,
+        "year_max": 1843,
+        "date_is_approximate": false,
+        "place_original": "Pavilion, Genesee, New York (derivative lineage record)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i140-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i140-death",
+        "person_id": "I140",
+        "person_name": "Mary Ridley Jones",
+        "event_type": "death",
+        "date_text": "27 MAR 1843",
+        "year_min": 1843,
+        "year_max": 1843,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "B",
+        "source_refs": [
+          "S4",
+          "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i136-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i136-birth",
+        "person_id": "I136",
+        "person_name": "Florence Estelle Agee",
+        "event_type": "birth",
+        "date_text": "7 SEP 1844",
+        "year_min": 1844,
+        "year_max": 1844,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S8",
+          "S9"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i235-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i235-birth",
+        "person_id": "I235",
+        "person_name": "Amelia Whitney Marsh",
+        "event_type": "birth",
+        "date_text": "ABT 1845",
+        "year_min": 1845,
+        "year_max": 1845,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i025-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i025-death",
+        "person_id": "I025",
+        "person_name": "Grace Stone",
+        "event_type": "death",
+        "date_text": "18 MAY 1847",
+        "year_min": 1847,
+        "year_max": 1847,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i239-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.02279,
+          42.87617
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i239-death",
+        "person_id": "I239",
+        "person_name": "Levi Cook",
+        "event_type": "death",
+        "date_text": "1 FEB 1848",
+        "year_min": 1848,
+        "year_max": 1848,
+        "date_is_approximate": false,
+        "place_original": "Pavilion, Genesee, New York (derivative lineage record)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i028-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i028-death",
+        "person_id": "I028",
+        "person_name": "John Evarts Stone",
+        "event_type": "death",
+        "date_text": "29 JAN 1852",
+        "year_min": 1852,
+        "year_max": 1852,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i024-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68176,
+          41.28899
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i024-death",
+        "person_id": "I024",
+        "person_name": "Elon Lee",
+        "event_type": "death",
+        "date_text": "22 DEC 1856",
+        "year_min": 1856,
+        "year_max": 1856,
+        "date_is_approximate": false,
+        "place_original": "Guilford, New Haven County, Connecticut",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i130-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.49332,
+          31.51405
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i130-birth",
+        "person_id": "I130",
+        "person_name": "Isaac Bush Slaughter Sr.",
+        "event_type": "birth",
+        "date_text": "28 FEB 1857",
+        "year_min": 1857,
+        "year_max": 1857,
+        "date_is_approximate": false,
+        "place_original": "Perdue Hill, Monroe County, Alabama",
+        "side": "Maternal",
+        "branch": "Slaughter / Bush",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S8",
+          "S23",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i212-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.50437,
+          53.4536
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i212-birth",
+        "person_id": "I212",
+        "person_name": "George Peper",
+        "event_type": "birth",
+        "date_text": "As reported: about 1860-1861",
+        "year_min": 1860,
+        "year_max": 1861,
+        "date_is_approximate": true,
+        "place_original": "Harsefeld, Province of Hanover, Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i213-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.87876,
+          53.60341
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i213-birth",
+        "person_id": "I213",
+        "person_name": "Anna Sophie Stelling Peper",
+        "event_type": "birth",
+        "date_text": "As reported: about 1862-1863",
+        "year_min": 1862,
+        "year_max": 1863,
+        "date_is_approximate": true,
+        "place_original": "Lintig, Lehe, Province of Hanover, Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i114-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.71579,
+          37.9884
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i114-birth",
+        "person_id": "I114",
+        "person_name": "Charles Ellsworth McCormick I",
+        "event_type": "birth",
+        "date_text": "26 FEB 1862",
+        "year_min": 1862,
+        "year_max": 1862,
+        "date_is_approximate": false,
+        "place_original": "Shepherdsville, Bullitt County, Kentucky",
+        "side": "Maternal",
+        "branch": "McCormick / O’Brien",
+        "confidence": "A",
+        "source_refs": [
+          "S3",
+          "S14",
+          "S22",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i013-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.714492,
+          43.251126
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i013-birth",
+        "person_id": "I013",
+        "person_name": "Elmer Ellsworth Lee",
+        "event_type": "birth",
+        "date_text": "ABOUT 1863",
+        "year_min": 1863,
+        "year_max": 1863,
+        "date_is_approximate": true,
+        "place_original": "Michigan",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S3",
+          "S6",
+          "S24",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i219-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i219-birth",
+        "person_id": "I219",
+        "person_name": "Frederick Heath Marsh",
+        "event_type": "birth",
+        "date_text": "DEC 1867",
+        "year_min": 1867,
+        "year_max": 1867,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i264-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.85278,
+          42.97312
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i264-birth",
+        "person_id": "I264",
+        "person_name": "Carrie E McNaughton Marsh",
+        "event_type": "birth",
+        "date_text": "APR 1870",
+        "year_min": 1870,
+        "year_max": 1870,
+        "date_is_approximate": false,
+        "place_original": "Caledonia, Livingston, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i283-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i283-birth",
+        "person_id": "I283",
+        "person_name": "Charles Marsh",
+        "event_type": "birth",
+        "date_text": "ABT 1870",
+        "year_min": 1870,
+        "year_max": 1870,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i154-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.671913,
+          33.032887
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i154-death",
+        "person_id": "I154",
+        "person_name": "William Raiford Agee",
+        "event_type": "death",
+        "date_text": "31 AUG 1870",
+        "year_min": 1870,
+        "year_max": 1870,
+        "date_is_approximate": false,
+        "place_original": "Alabama",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "B",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i010-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00597,
+          40.71427
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i010-birth",
+        "person_id": "I010",
+        "person_name": "Henrietta Kleitz",
+        "event_type": "birth",
+        "date_text": "1871",
+        "year_min": 1871,
+        "year_max": 1871,
+        "date_is_approximate": false,
+        "place_original": "New York, New York",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S21",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i131-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i131-birth",
+        "person_id": "I131",
+        "person_name": "Lula Arnelia Rives",
+        "event_type": "birth",
+        "date_text": "30/31 JAN 1872",
+        "year_min": 1872,
+        "year_max": 1872,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S8",
+          "S9",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i282-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.80717,
+          53.07582
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i282-birth",
+        "person_id": "I282",
+        "person_name": "Frederick Gottlieb Heinrich Vollmer",
+        "event_type": "birth",
+        "date_text": "5 OCT 1873",
+        "year_min": 1873,
+        "year_max": 1873,
+        "date_is_approximate": false,
+        "place_original": "Bremen, Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i286-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.483508,
+          48.377515
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i286-birth",
+        "person_id": "I286",
+        "person_name": "John C Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about 1873-1874",
+        "year_min": 1873,
+        "year_max": 1874,
+        "date_is_approximate": true,
+        "place_original": "Canada",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i284-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i284-birth",
+        "person_id": "I284",
+        "person_name": "Marion McNaughton",
+        "event_type": "birth",
+        "date_text": "As reported: about 1873-1874",
+        "year_min": 1873,
+        "year_max": 1874,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i285-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i285-birth",
+        "person_id": "I285",
+        "person_name": "Elizabeth McNaughton Pullyblank",
+        "event_type": "birth",
+        "date_text": "APR 1876",
+        "year_min": 1876,
+        "year_max": 1876,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i137-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i137-death",
+        "person_id": "I137",
+        "person_name": "Robert Rives",
+        "event_type": "death",
+        "date_text": "30 SEP 1877",
+        "year_min": 1877,
+        "year_max": 1877,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S9",
+          "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i136-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i136-death",
+        "person_id": "I136",
+        "person_name": "Florence Estelle Agee",
+        "event_type": "death",
+        "date_text": "10 DEC 1878",
+        "year_min": 1878,
+        "year_max": 1878,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S8",
+          "S9"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i208-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.80717,
+          53.07582
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i208-birth",
+        "person_id": "I208",
+        "person_name": "Henry John Joseph Vollmer",
+        "event_type": "birth",
+        "date_text": "10 MAY 1878",
+        "year_min": 1878,
+        "year_max": 1878,
+        "date_is_approximate": false,
+        "place_original": "Bremen, Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i294-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i294-birth",
+        "person_id": "I294",
+        "person_name": "Lulu McNaughton",
+        "event_type": "birth",
+        "date_text": "As reported: about 1878-1879",
+        "year_min": 1878,
+        "year_max": 1879,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i236-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.02279,
+          42.87617
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i236-death",
+        "person_id": "I236",
+        "person_name": "Alvin L Whitney",
+        "event_type": "death",
+        "date_text": "5 FEB 1883",
+        "year_min": 1883,
+        "year_max": 1883,
+        "date_is_approximate": false,
+        "place_original": "Pavilion, Genesee, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i138-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.069056,
+          34.0551
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i138-death",
+        "person_id": "I138",
+        "person_name": "Amelia Harrison",
+        "event_type": "death",
+        "date_text": "13 MAR 1883",
+        "year_min": 1883,
+        "year_max": 1883,
+        "date_is_approximate": false,
+        "place_original": "South Carolina",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S20"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i211-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00597,
+          40.71427
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i211-birth",
+        "person_id": "I211",
+        "person_name": "Metha Peper Vollmer",
+        "event_type": "birth",
+        "date_text": "14 MAR 1884",
+        "year_min": 1884,
+        "year_max": 1884,
+        "date_is_approximate": false,
+        "place_original": "Manhattan, New York (strongly supported identification of an unnamed female birth)",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i135-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.81776,
+          32.30681
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i135-death",
+        "person_id": "I135",
+        "person_name": "Robert Calhoun Rives",
+        "event_type": "death",
+        "date_text": "16 MAY 1885",
+        "year_min": 1885,
+        "year_max": 1885,
+        "date_is_approximate": false,
+        "place_original": "Benton, Lowndes County, Alabama",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S9"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i314-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.714492,
+          43.251126
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i314-birth",
+        "person_id": "I314",
+        "person_name": "Hazel G Lee",
+        "event_type": "birth",
+        "date_text": "DEC 1888",
+        "year_min": 1888,
+        "year_max": 1888,
+        "date_is_approximate": false,
+        "place_original": "Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i275-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i275-birth",
+        "person_id": "I275",
+        "person_name": "Harry K Gutelius",
+        "event_type": "birth",
+        "date_text": "ABT 1890",
+        "year_min": 1890,
+        "year_max": 1890,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i274-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i274-birth",
+        "person_id": "I274",
+        "person_name": "Mildred E Marsh Gutelius",
+        "event_type": "birth",
+        "date_text": "18 DEC 1890",
+        "year_min": 1890,
+        "year_max": 1890,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i315-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.714492,
+          43.251126
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i315-birth",
+        "person_id": "I315",
+        "person_name": "Hubbard Stone Lee Sr",
+        "event_type": "birth",
+        "date_text": "23 SEP 1891",
+        "year_min": 1891,
+        "year_max": 1891,
+        "date_is_approximate": false,
+        "place_original": "Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i310-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i310-birth",
+        "person_id": "I310",
+        "person_name": "C Rudolph Muller",
+        "event_type": "birth",
+        "date_text": "NOV 1894",
+        "year_min": 1894,
+        "year_max": 1894,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i277-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i277-birth",
+        "person_id": "I277",
+        "person_name": "Ronald McNaughton Marsh",
+        "event_type": "birth",
+        "date_text": "10 SEP 1894",
+        "year_min": 1894,
+        "year_max": 1894,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i265-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.88723,
+          42.86956
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i265-death",
+        "person_id": "I265",
+        "person_name": "Peter William McNaughton",
+        "event_type": "death",
+        "date_text": "22 JAN 1895",
+        "year_min": 1895,
+        "year_max": 1895,
+        "date_is_approximate": false,
+        "place_original": "York, Livingston, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i005-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96625,
+          41.36926
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i005-birth",
+        "person_id": "I005",
+        "person_name": "Arthur Herman Muller",
+        "event_type": "birth",
+        "date_text": "28 NOV 1896",
+        "year_min": 1896,
+        "year_max": 1896,
+        "date_is_approximate": false,
+        "place_original": "Highland Falls, Orange, New York",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i007-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i007-birth",
+        "person_id": "I007",
+        "person_name": "Charles Ellsworth McCormick II",
+        "event_type": "birth",
+        "date_text": "12 JUL 1896",
+        "year_min": 1896,
+        "year_max": 1896,
+        "date_is_approximate": false,
+        "place_original": "Kentucky",
+        "side": "Maternal",
+        "branch": "McCormick / O’Brien",
+        "confidence": "A",
+        "source_refs": [
+          "S1",
+          "S25",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i278-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.726151,
+          41.561211
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i278-birth",
+        "person_id": "I278",
+        "person_name": "Eva C St Martin Marsh",
+        "event_type": "birth",
+        "date_text": "ABT 1896",
+        "year_min": 1896,
+        "year_max": 1896,
+        "date_is_approximate": true,
+        "place_original": "Connecticut",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i006-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.714492,
+          43.251126
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i006-birth",
+        "person_id": "I006",
+        "person_name": "Elma Anna Lee Muller",
+        "event_type": "birth",
+        "date_text": "14 JAN 1897",
+        "year_min": 1897,
+        "year_max": 1897,
+        "date_is_approximate": false,
+        "place_original": "Michigan",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "A",
+        "source_refs": [
+          "S2",
+          "S3",
+          "S24",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i287-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i287-birth",
+        "person_id": "I287",
+        "person_name": "MacNaughton Pullyblank",
+        "event_type": "birth",
+        "date_text": "19 JUL 1897",
+        "year_min": 1897,
+        "year_max": 1897,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i311-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96625,
+          41.36926
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i311-birth",
+        "person_id": "I311",
+        "person_name": "David Paul Muller",
+        "event_type": "birth",
+        "date_text": "25 SEP 1899",
+        "year_min": 1899,
+        "year_max": 1899,
+        "date_is_approximate": false,
+        "place_original": "Highland Falls, Orange, New York",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i327-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.671913,
+          33.032887
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i327-birth",
+        "person_id": "I327",
+        "person_name": "Sarah Slaughter Lazenby",
+        "event_type": "birth",
+        "date_text": "7 JUL 1899",
+        "year_min": 1899,
+        "year_max": 1899,
+        "date_is_approximate": false,
+        "place_original": "Alabama",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i218-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i218-birth",
+        "person_id": "I218",
+        "person_name": "Doris Josephine Marsh Vollmer",
+        "event_type": "birth",
+        "date_text": "5 MAY 1900",
+        "year_min": 1900,
+        "year_max": 1900,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i288-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i288-birth",
+        "person_id": "I288",
+        "person_name": "Floyd W Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about Jan-Feb 1900",
+        "year_min": 1900,
+        "year_max": 1900,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i320-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i320-birth",
+        "person_id": "I320",
+        "person_name": "Martha M McCormick Macdonald",
+        "event_type": "birth",
+        "date_text": "15 JAN 1900",
+        "year_min": 1900,
+        "year_max": 1900,
+        "date_is_approximate": false,
+        "place_original": "Kentucky",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i022-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.23299,
+          42.53781
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i022-death",
+        "person_id": "I022",
+        "person_name": "Hubbard Stone Lee",
+        "event_type": "death",
+        "date_text": "22 APR 1901",
+        "year_min": 1901,
+        "year_max": 1901,
+        "date_is_approximate": false,
+        "place_original": "Bloomfield, Oakland County, Michigan",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S6",
+          "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i328-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.671913,
+          33.032887
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i328-birth",
+        "person_id": "I328",
+        "person_name": "Irene Williams Slaughter Cooke",
+        "event_type": "birth",
+        "date_text": "11 APR 1901",
+        "year_min": 1901,
+        "year_max": 1901,
+        "date_is_approximate": false,
+        "place_original": "Alabama",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i008-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.671913,
+          33.032887
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i008-birth",
+        "person_id": "I008",
+        "person_name": "Eloise Alcyone Slaughter McCormick",
+        "event_type": "birth",
+        "date_text": "25 AUG 1903",
+        "year_min": 1903,
+        "year_max": 1903,
+        "date_is_approximate": false,
+        "place_original": "Alabama",
+        "side": "Maternal",
+        "branch": "Slaughter / Bush",
+        "confidence": "A",
+        "source_refs": [
+          "S1",
+          "S8",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i289-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i289-birth",
+        "person_id": "I289",
+        "person_name": "Ola L Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about 1904-1905",
+        "year_min": 1904,
+        "year_max": 1905,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i207-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58318,
+          40.6576
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i207-birth",
+        "person_id": "I207",
+        "person_name": "Charles Frederic Vollmer",
+        "event_type": "birth",
+        "date_text": "6 FEB 1906",
+        "year_min": 1906,
+        "year_max": 1906,
+        "date_is_approximate": false,
+        "place_original": "Freeport, Nassau, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26",
+          "S30"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i324-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.71579,
+          37.9884
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i324-birth",
+        "person_id": "I324",
+        "person_name": "Ruth B McCormick Reese",
+        "event_type": "birth",
+        "date_text": "15 OCT 1906",
+        "year_min": 1906,
+        "year_max": 1906,
+        "date_is_approximate": false,
+        "place_original": "Bullitt County, Kentucky",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i290-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i290-birth",
+        "person_id": "I290",
+        "person_name": "Willard R Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about 1906-1907",
+        "year_min": 1906,
+        "year_max": 1907,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i329-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.32471,
+          31.52794
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i329-birth",
+        "person_id": "I329",
+        "person_name": "Isaac Bush Slaughter Jr",
+        "event_type": "birth",
+        "date_text": "3 APR 1907",
+        "year_min": 1907,
+        "year_max": 1907,
+        "date_is_approximate": false,
+        "place_original": "Monroeville, Monroe, Alabama",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i291-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i291-birth",
+        "person_id": "I291",
+        "person_name": "John W Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about 1909-1910",
+        "year_min": 1909,
+        "year_max": 1910,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i332-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.671913,
+          33.032887
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i332-birth",
+        "person_id": "I332",
+        "person_name": "Hundley Agee Slaughter",
+        "event_type": "birth",
+        "date_text": "ABT 1910",
+        "year_min": 1910,
+        "year_max": 1910,
+        "date_is_approximate": true,
+        "place_original": "Alabama",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i271-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.41483,
+          49.66662
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i271-birth",
+        "person_id": "I271",
+        "person_name": "Lester Allan Seeley",
+        "event_type": "birth",
+        "date_text": "27 JUN 1910",
+        "year_min": 1910,
+        "year_max": 1910,
+        "date_is_approximate": false,
+        "place_original": "Change Islands, Newfoundland",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i292-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i292-birth",
+        "person_id": "I292",
+        "person_name": "Ruby J Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about 1911-1912",
+        "year_min": 1911,
+        "year_max": 1912,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i333-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.32471,
+          31.52794
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i333-birth",
+        "person_id": "I333",
+        "person_name": "Frank Rives Slaughter",
+        "event_type": "birth",
+        "date_text": "20 NOV 1912",
+        "year_min": 1912,
+        "year_max": 1912,
+        "date_is_approximate": false,
+        "place_original": "Monroeville, Monroe, Alabama",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i276-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.00556,
+          42.71562
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i276-birth",
+        "person_id": "I276",
+        "person_name": "Eileen Gutelius Eaton",
+        "event_type": "birth",
+        "date_text": "8 OCT 1914",
+        "year_min": 1914,
+        "year_max": 1914,
+        "date_is_approximate": false,
+        "place_original": "Perry, Wyoming, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i293-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i293-birth",
+        "person_id": "I293",
+        "person_name": "Helen E Pullyblank",
+        "event_type": "birth",
+        "date_text": "As reported: about 1914-1915",
+        "year_min": 1914,
+        "year_max": 1915,
+        "date_is_approximate": true,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i270-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58902,
+          40.67871
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i270-birth",
+        "person_id": "I270",
+        "person_name": "Marie Anna Vollmer Seeley",
+        "event_type": "birth",
+        "date_text": "3 APR 1915",
+        "year_min": 1915,
+        "year_max": 1915,
+        "date_is_approximate": false,
+        "place_original": "Roosevelt, Nassau, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i220-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.00556,
+          42.71562
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i220-death",
+        "person_id": "I220",
+        "person_name": "Andrew J Marsh",
+        "event_type": "death",
+        "date_text": "13 JUN 1917",
+        "year_min": 1917,
+        "year_max": 1917,
+        "date_is_approximate": false,
+        "place_original": "Perry, Wyoming, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i282-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83652,
+          40.68149
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i282-death",
+        "person_id": "I282",
+        "person_name": "Frederick Gottlieb Heinrich Vollmer",
+        "event_type": "death",
+        "date_text": "10 MAR 1917",
+        "year_min": 1917,
+        "year_max": 1917,
+        "date_is_approximate": false,
+        "place_original": "Queens, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i264-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.00556,
+          42.71562
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i264-death",
+        "person_id": "I264",
+        "person_name": "Carrie E McNaughton Marsh",
+        "event_type": "death",
+        "date_text": "9 JUL 1918",
+        "year_min": 1918,
+        "year_max": 1918,
+        "date_is_approximate": false,
+        "place_original": "Perry, Wyoming, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i179-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i179-birth",
+        "person_id": "I179",
+        "person_name": "Elmer James Chaffee Jr",
+        "event_type": "birth",
+        "date_text": "1 OCT 1918",
+        "year_min": 1918,
+        "year_max": 1918,
+        "date_is_approximate": false,
+        "place_original": "Wayne County, Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i317-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.09687,
+          42.40559
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i317-birth",
+        "person_id": "I317",
+        "person_name": "Hubbard Stone Lee Jr",
+        "event_type": "birth",
+        "date_text": "17 DEC 1918",
+        "year_min": 1918,
+        "year_max": 1918,
+        "date_is_approximate": false,
+        "place_original": "Highland Park, Wayne, Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i268-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.85278,
+          42.97312
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i268-death",
+        "person_id": "I268",
+        "person_name": "Mary A McNaughton",
+        "event_type": "death",
+        "date_text": "17 DEC 1919",
+        "year_min": 1919,
+        "year_max": 1919,
+        "date_is_approximate": false,
+        "place_original": "Caledonia, Livingston, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i178-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i178-birth",
+        "person_id": "I178",
+        "person_name": "Mary Gene Muller Chaffee",
+        "event_type": "birth",
+        "date_text": "13 APR 1920",
+        "year_min": 1920,
+        "year_max": 1920,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Wayne, Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i279-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.00556,
+          42.71562
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i279-birth",
+        "person_id": "I279",
+        "person_name": "Dorothy Jane Marsh Kidwell",
+        "event_type": "birth",
+        "date_text": "30 JAN 1921",
+        "year_min": 1921,
+        "year_max": 1921,
+        "date_is_approximate": false,
+        "place_original": "Perry, Wyoming, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i280-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.00556,
+          42.71562
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i280-birth",
+        "person_id": "I280",
+        "person_name": "Robert James Marsh",
+        "event_type": "birth",
+        "date_text": "13 MAY 1923",
+        "year_min": 1923,
+        "year_max": 1923,
+        "date_is_approximate": false,
+        "place_original": "Perry, Wyoming, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i003-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i003-birth",
+        "person_id": "I003",
+        "person_name": "Arthur John Muller",
+        "event_type": "birth",
+        "date_text": "12 MAY 1925",
+        "year_min": 1925,
+        "year_max": 1925,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Michigan",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "A",
+        "source_refs": [
+          "S2",
+          "S5",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i311-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i311-death",
+        "person_id": "I311",
+        "person_name": "David Paul Muller",
+        "event_type": "death",
+        "date_text": "23 MAY 1927",
+        "year_min": 1927,
+        "year_max": 1927,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Wayne, Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i281-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.81116,
+          41.88088
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i281-birth",
+        "person_id": "I281",
+        "person_name": "Ronald Louis Marsh",
+        "event_type": "birth",
+        "date_text": "21 OCT 1927",
+        "year_min": 1927,
+        "year_max": 1927,
+        "date_is_approximate": false,
+        "place_original": "Simsbury, Hartford, Connecticut",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i183-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i183-birth",
+        "person_id": "I183",
+        "person_name": "Jane Lee Muller Swick",
+        "event_type": "birth",
+        "date_text": "7 NOV 1932",
+        "year_min": 1932,
+        "year_max": 1932,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Wayne, Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i208-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61874,
+          40.70621
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i208-death",
+        "person_id": "I208",
+        "person_name": "Henry John Joseph Vollmer",
+        "event_type": "death",
+        "date_text": "26 FEB 1934",
+        "year_min": 1934,
+        "year_max": 1934,
+        "date_is_approximate": false,
+        "place_original": "Hempstead, Nassau, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i130-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.16334,
+          26.30174
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i130-death",
+        "person_id": "I130",
+        "person_name": "Isaac Bush Slaughter Sr.",
+        "event_type": "death",
+        "date_text": "30 APR 1937",
+        "year_min": 1937,
+        "year_max": 1937,
+        "date_is_approximate": false,
+        "place_original": "Edinburg, Texas",
+        "side": "Maternal",
+        "branch": "Slaughter / Bush",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S8",
+          "S23",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i013-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i013-death",
+        "person_id": "I013",
+        "person_name": "Elmer Ellsworth Lee",
+        "event_type": "death",
+        "date_text": "8 JUL 1941",
+        "year_min": 1941,
+        "year_max": 1941,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Michigan",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S3",
+          "S6",
+          "S24",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i219-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.61556,
+          43.15478
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i219-death",
+        "person_id": "I219",
+        "person_name": "Frederick Heath Marsh",
+        "event_type": "death",
+        "date_text": "ABT 22 AUG 1949",
+        "year_min": 1949,
+        "year_max": 1949,
+        "date_is_approximate": true,
+        "place_original": "Rochester, Monroe, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i131-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6458,
+          39.53094
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i131-death",
+        "person_id": "I131",
+        "person_name": "Lula Arnelia Rives",
+        "event_type": "death",
+        "date_text": "2 SEP 1957",
+        "year_min": 1957,
+        "year_max": 1957,
+        "date_is_approximate": false,
+        "place_original": "Sparks, Maryland",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "A",
+        "source_refs": [
+          "S4",
+          "S8",
+          "S9",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i285-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.881018,
+          41.948276
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i285-death",
+        "person_id": "I285",
+        "person_name": "Elizabeth McNaughton Pullyblank",
+        "event_type": "death",
+        "date_text": "18 OCT 1961",
+        "year_min": 1961,
+        "year_max": 1961,
+        "date_is_approximate": false,
+        "place_original": "New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i005-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i005-death",
+        "person_id": "I005",
+        "person_name": "Arthur Herman Muller",
+        "event_type": "death",
+        "date_text": "NOV 1966",
+        "year_min": 1966,
+        "year_max": 1966,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Wayne, Michigan",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i277-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.81116,
+          41.88088
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i277-death",
+        "person_id": "I277",
+        "person_name": "Ronald McNaughton Marsh",
+        "event_type": "death",
+        "date_text": "31 MAR 1967",
+        "year_min": 1967,
+        "year_max": 1967,
+        "date_is_approximate": false,
+        "place_original": "Simsbury, Hartford, Connecticut",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i207-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33207,
+          47.60621
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i207-death",
+        "person_id": "I207",
+        "person_name": "Charles Frederic Vollmer",
+        "event_type": "death",
+        "date_text": "11 MAR 1972",
+        "year_min": 1972,
+        "year_max": 1972,
+        "date_is_approximate": false,
+        "place_original": "Seattle, King, Washington",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26",
+          "S30"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i006-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i006-death",
+        "person_id": "I006",
+        "person_name": "Elma Anna Lee Muller",
+        "event_type": "death",
+        "date_text": "26 DEC 1972",
+        "year_min": 1972,
+        "year_max": 1972,
+        "date_is_approximate": false,
+        "place_original": "Detroit, Wayne, Michigan",
+        "side": "Maternal",
+        "branch": "Lee / New England",
+        "confidence": "A",
+        "source_refs": [
+          "S2",
+          "S3",
+          "S24",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i328-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.23001,
+          26.20341
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i328-death",
+        "person_id": "I328",
+        "person_name": "Irene Williams Slaughter Cooke",
+        "event_type": "death",
+        "date_text": "25 JAN 1973",
+        "year_min": 1973,
+        "year_max": 1973,
+        "date_is_approximate": false,
+        "place_original": "McAllen, Hidalgo, Texas",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i329-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.23001,
+          26.20341
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i329-death",
+        "person_id": "I329",
+        "person_name": "Isaac Bush Slaughter Jr",
+        "event_type": "death",
+        "date_text": "11 OCT 1973",
+        "year_min": 1973,
+        "year_max": 1973,
+        "date_is_approximate": false,
+        "place_original": "McAllen, Hidalgo, Texas",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i324-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.75941,
+          38.25424
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i324-death",
+        "person_id": "I324",
+        "person_name": "Ruth B McCormick Reese",
+        "event_type": "death",
+        "date_text": "13 OCT 1977",
+        "year_min": 1977,
+        "year_max": 1977,
+        "date_is_approximate": false,
+        "place_original": "Jefferson County, Kentucky",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i007-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55402,
+          35.60095
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i007-death",
+        "person_id": "I007",
+        "person_name": "Charles Ellsworth McCormick II",
+        "event_type": "death",
+        "date_text": "9 SEP 1978",
+        "year_min": 1978,
+        "year_max": 1978,
+        "date_is_approximate": false,
+        "place_original": "Asheville, North Carolina",
+        "side": "Maternal",
+        "branch": "McCormick / O’Brien",
+        "confidence": "A",
+        "source_refs": [
+          "S1",
+          "S25",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i327-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.32471,
+          31.52794
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i327-death",
+        "person_id": "I327",
+        "person_name": "Sarah Slaughter Lazenby",
+        "event_type": "death",
+        "date_text": "DEC 1981",
+        "year_min": 1981,
+        "year_max": 1981,
+        "date_is_approximate": false,
+        "place_original": "Monroeville, Monroe, Alabama",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i218-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39954,
+          45.58706
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i218-death",
+        "person_id": "I218",
+        "person_name": "Doris Josephine Marsh Vollmer",
+        "event_type": "death",
+        "date_text": "2 JAN 1983",
+        "year_min": 1983,
+        "year_max": 1983,
+        "date_is_approximate": false,
+        "place_original": "Camas, Clark, Washington",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i271-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58318,
+          40.6576
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i271-death",
+        "person_id": "I271",
+        "person_name": "Lester Allan Seeley",
+        "event_type": "death",
+        "date_text": "FEB 1983",
+        "year_min": 1983,
+        "year_max": 1983,
+        "date_is_approximate": false,
+        "place_original": "Freeport, Nassau, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i333-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.61219,
+          39.29038
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i333-death",
+        "person_id": "I333",
+        "person_name": "Frank Rives Slaughter",
+        "event_type": "death",
+        "date_text": "27 JAN 1986",
+        "year_min": 1986,
+        "year_max": 1986,
+        "date_is_approximate": false,
+        "place_original": "Baltimore County, Maryland",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i317-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1052,
+          42.48587
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i317-death",
+        "person_id": "I317",
+        "person_name": "Hubbard Stone Lee Jr",
+        "event_type": "death",
+        "date_text": "11 MAR 1986",
+        "year_min": 1986,
+        "year_max": 1986,
+        "date_is_approximate": false,
+        "place_original": "Madison Heights, Oakland, Michigan",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i320-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.499072,
+          40.339766
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i320-death",
+        "person_id": "I320",
+        "person_name": "Martha M McCormick Macdonald",
+        "event_type": "death",
+        "date_text": "JUN 1993",
+        "year_min": 1993,
+        "year_max": 1993,
+        "date_is_approximate": false,
+        "place_original": "New Jersey",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i008-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24368,
+          34.05223
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i008-death",
+        "person_id": "I008",
+        "person_name": "Eloise Alcyone Slaughter McCormick",
+        "event_type": "death",
+        "date_text": "10 FEB 1994",
+        "year_min": 1994,
+        "year_max": 1994,
+        "date_is_approximate": false,
+        "place_original": "Los Angeles County, California",
+        "side": "Maternal",
+        "branch": "Slaughter / Bush",
+        "confidence": "A",
+        "source_refs": [
+          "S1",
+          "S8",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i003-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48822,
+          48.75955
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i003-death",
+        "person_id": "I003",
+        "person_name": "Arthur John Muller",
+        "event_type": "death",
+        "date_text": "9 JAN 2005",
+        "year_min": 2005,
+        "year_max": 2005,
+        "date_is_approximate": false,
+        "place_original": "Bellingham, Washington",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "A",
+        "source_refs": [
+          "S2",
+          "S5",
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i270-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58318,
+          40.6576
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i270-death",
+        "person_id": "I270",
+        "person_name": "Marie Anna Vollmer Seeley",
+        "event_type": "death",
+        "date_text": "27 NOV 2005",
+        "year_min": 2005,
+        "year_max": 2005,
+        "date_is_approximate": false,
+        "place_original": "Freeport, Nassau, New York",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i183-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.22428,
+          43.4065
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i183-death",
+        "person_id": "I183",
+        "person_name": "Jane Lee Muller Swick",
+        "event_type": "death",
+        "date_text": "7 NOV 2010",
+        "year_min": 2010,
+        "year_max": 2010,
+        "date_is_approximate": false,
+        "place_original": "North Bend, Coos, Oregon",
+        "side": "Maternal",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i263-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i263-birth",
+        "person_id": "I263",
+        "person_name": "Barbara Bower",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i217-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944804,
+          50.911786
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i217-birth",
+        "person_id": "I217",
+        "person_name": "Catharine Ahrens",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i216-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944804,
+          50.911786
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i216-birth",
+        "person_id": "I216",
+        "person_name": "Charles Stelling",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i209-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944804,
+          50.911786
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i209-birth",
+        "person_id": "I209",
+        "person_name": "Frederick Gottlieb Vollmer",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i262-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i262-birth",
+        "person_id": "I262",
+        "person_name": "George Bower",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i021-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57549,
+          48.13743
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i021-birth",
+        "person_id": "I021",
+        "person_name": "Jacob Wüst",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Bavaria",
+        "side": "Maternal",
+        "branch": "Muller / Kleitz",
+        "confidence": "C",
+        "source_refs": [
+          "S21"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i174-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.84789,
+          45.74906
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i174-birth",
+        "person_id": "I174",
+        "person_name": "Jean Pierre John Peter Bondurant",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "near Lyon, France",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "C",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i174-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.468515,
+          37.791578
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i174-death",
+        "person_id": "I174",
+        "person_name": "Jean Pierre John Peter Bondurant",
+        "event_type": "death",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Virginia",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "C",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i142-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.84694,
+          36.75765
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i142-birth",
+        "person_id": "I142",
+        "person_name": "Lucy Wyche",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Brunswick County, Virginia",
+        "side": "Maternal",
+        "branch": "Rives / Harrison",
+        "confidence": "B",
+        "source_refs": [
+          "S4",
+          "S10",
+          "S11"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i210-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944804,
+          50.911786
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i210-birth",
+        "person_id": "I210",
+        "person_name": "Mary Kalwiet",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i166-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.468515,
+          37.791578
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i166-death",
+        "person_id": "I166",
+        "person_name": "Mathieu Agee",
+        "event_type": "death",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Virginia",
+        "side": "Maternal",
+        "branch": "Agee / Ford / Bondurant",
+        "confidence": "C",
+        "source_refs": [
+          "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i215-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944804,
+          50.911786
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i215-birth",
+        "person_id": "I215",
+        "person_name": "Meta Francke",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i214-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944804,
+          50.911786
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i214-birth",
+        "person_id": "I214",
+        "person_name": "Peter Peper",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "Germany",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i261-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i261-birth",
+        "person_id": "I261",
+        "person_name": "Ruth Bower Knowles",
+        "event_type": "birth",
+        "date_text": "date unknown",
+        "year_min": null,
+        "year_max": null,
+        "date_is_approximate": false,
+        "place_original": "England",
+        "side": "Paternal",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26"
+        ]
+      }
+    }
+  ]
+}

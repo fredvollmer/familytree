@@ -1,0 +1,38 @@
+
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.30", ranksep="0.50", splines=ortho, fontname="DejaVu Sans"];
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=13, margin="0.13,0.09", color="#2F4F4F", penwidth=1.3];
+  edge [color="#566573", penwidth=1.1, arrowsize=0.6];
+
+  legend [label="Solid outline: confirmed/strong  |  Dashed outline: unresolved detail\nLiving dates omitted  |  Children of Jan's cousins excluded", fillcolor="#F7F9F9", fontsize=11];
+
+  ah [label="Arthur Herman Muller\n& Elma Anna Lee", fillcolor="#D9EAF7"];
+  ce [label="Charles Ellsworth McCormick II\n& Eloise A. Slaughter", fillcolor="#FCE4D6"];
+  mg [label="Mary Gene Muller\n& James Chaffee", fillcolor="#EAF2F8"];
+  js [label="Jane Muller\n& Howard Swick", fillcolor="#EAF2F8"];
+  aa [label="Arthur John 'Art' Muller\n& Anne Rives McCormick", fillcolor="#E2F0D9", penwidth=2.0];
+  pm [label="Philip Brooks McCormick\n& Elizabeth 'Betsy' Ross", fillcolor="#FDE9D9"];
+  cm [label="Charles McCormick\n& Judy McCormick", fillcolor="#FDE9D9", style="rounded,filled,dashed"];
+  gh [label="Gwendolyn 'Gwen' McCormick\n& Jim Hull", fillcolor="#FDE9D9", penwidth=2.0];
+
+  ah -> mg; ah -> js; ah -> aa;
+  ce -> aa; ce -> pm; ce -> cm; ce -> gh;
+
+  mgc [label="Linda Chaffee\nLori Chaffee Mettler\nJames Chaffee", fillcolor="#F8FBFD"];
+  jsc [label="Kathy Swick Werblo\nJohn Swick\nSusan 'Sue' Swick Galbraith\nPatti Swick", fillcolor="#F8FBFD"];
+  aac [label="Bruce Muller\nJan Muller Vollmer", fillcolor="#F2F8ED"];
+  pmc [label="Sandy McCormick Hill\nRoss McCormick\nTina McCormick", fillcolor="#FFF8F2"];
+  cmc [label="No children identified\n(record question remains open)", fillcolor="#FFF8F2", style="rounded,filled,dashed", fontsize=11];
+  ghc [label="Carey Zaura\nMark Hull", fillcolor="#FFF8F2", penwidth=2.0];
+
+  mg -> mgc; js -> jsc; aa -> aac; pm -> pmc; cm -> cmc; gh -> ghc;
+
+  jv [label="Jan Muller Vollmer\n& Henry Richard 'Dick' Vollmer", fillcolor="#DDEBF7", penwidth=2.0];
+  roots [label="Fredric Muller Vollmer\nArianna Lynn 'Annie' Vollmer", fillcolor="#E2F0D9", penwidth=2.0];
+  aac -> jv [label=" Jan ", fontsize=10];
+  jv -> roots;
+
+  {rank=same; ah; ce}
+  {rank=same; mg; js; aa; pm; cm; gh}
+  {rank=same; mgc; jsc; aac; pmc; cmc; ghc}
+}

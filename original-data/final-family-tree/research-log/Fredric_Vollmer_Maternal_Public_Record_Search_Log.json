@@ -1,0 +1,53 @@
+{
+  "queries": [
+    {
+      "id": "Q1",
+      "query": "\"Anne Rives Muller\" obituary",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Anne%20Rives%20Muller%22%20obituary (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q2",
+      "query": "\"Philip Brooks McCormick\" obituary",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Philip%20Brooks%20McCormick%22%20obituary (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q3",
+      "query": "\"Gwendolyn McCormick Hull\"",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Gwendolyn%20McCormick%20Hull%22 (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q4",
+      "query": "\"Mary Gene Muller Chaffee\" obituary",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Mary%20Gene%20Muller%20Chaffee%22%20obituary (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q5",
+      "query": "\"Jane Muller Swick\" obituary",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Jane%20Muller%20Swick%22%20obituary (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q6",
+      "query": "\"Bruce Muller\" \"Jan Vollmer\"",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Bruce%20Muller%22%20%22Jan%20Vollmer%22 (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q7",
+      "query": "\"Arthur Herman Muller\" \"Elma Lee\"",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Arthur%20Herman%20Muller%22%20%22Elma%20Lee%22 (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    },
+    {
+      "id": "Q8",
+      "query": "\"Charles McCormick\" \"Judy McCormick\" obituary California",
+      "results": [],
+      "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'www.bing.com\\', port=443): Max retries exceeded with url: /search?q=%22Charles%20McCormick%22%20%22Judy%20McCormick%22%20obituary%20California (Caused by NameResolutionError(\"HTTPSConnection(host=\\'www.bing.com\\', port=443): Failed to resolve \\'www.bing.com\\' ([Errno -3] Temporary failure in name resolution)\"))'))"
+    }
+  ],
+  "verified_candidates": []
+}

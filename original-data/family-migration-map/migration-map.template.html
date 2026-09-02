@@ -1,0 +1,232 @@
+<div id="vollmer-family-migration">
+  <h2>Family migration through time</h2>
+
+  <div class="viz-controls" aria-label="Map controls">
+    <label class="form-label" for="migration-side">Family side
+      <select class="form-select" id="migration-side">
+        <option value="All">Both sides</option>
+        <option value="Maternal">Maternal</option>
+        <option value="Paternal">Paternal</option>
+      </select>
+    </label>
+    <label class="form-label" for="migration-route-type">Route view
+      <select class="form-select" id="migration-route-type">
+        <option value="intergenerational">Between generations</option>
+        <option value="lifetime">Within lifetimes</option>
+      </select>
+    </label>
+    <label class="form-label" for="migration-year">Through <output id="migration-year-output" class="tabular-nums">2010</output>
+      <input class="form-range" id="migration-year" type="range" min="1549" max="2010" step="1" value="2010">
+    </label>
+    <button type="button" class="btn btn-block" id="migration-play">Play timeline</button>
+  </div>
+
+  <div class="viz-row text-small" aria-label="Map legend">
+    <span class="migration-legend"><span class="migration-swatch migration-maternal"></span>Maternal</span>
+    <span class="migration-legend"><span class="migration-swatch migration-paternal"></span>Paternal</span>
+    <span>Point size = recorded events</span>
+  </div>
+
+  <div class="migration-map-stage">
+    <svg id="migration-map-svg" role="img" aria-labelledby="migration-map-title migration-map-desc">
+      <title id="migration-map-title">Family migration map</title>
+      <desc id="migration-map-desc">Recorded birth and death locations with inferred endpoint connections over time.</desc>
+    </svg>
+    <div class="tooltip migration-tooltip" id="migration-tooltip" role="tooltip" hidden></div>
+  </div>
+
+  <div class="viz-row text-small text-muted" id="migration-status" aria-live="polite"></div>
+  <div class="card migration-detail" id="migration-detail" aria-live="polite"></div>
+</div>
+
+<style>
+  #vollmer-family-migration { width: 100%; position: relative; }
+  #vollmer-family-migration .migration-map-stage { position: relative; width: 100%; }
+  #vollmer-family-migration #migration-map-svg { display: block; width: 100%; }
+  #vollmer-family-migration .migration-sphere { fill: color-mix(in srgb, var(--muted) 28%, transparent); }
+  #vollmer-family-migration .migration-graticule { fill: none; stroke: var(--border); stroke-width: .5; vector-effect: non-scaling-stroke; }
+  #vollmer-family-migration .migration-country { fill: color-mix(in srgb, var(--muted) 62%, transparent); stroke: var(--border); stroke-width: .6; vector-effect: non-scaling-stroke; }
+  #vollmer-family-migration .migration-route { fill: none; stroke-width: 1.35; stroke-opacity: .42; vector-effect: non-scaling-stroke; }
+  #vollmer-family-migration .migration-route.migration-maternal { stroke: var(--viz-series-1); }
+  #vollmer-family-migration .migration-route.migration-paternal { stroke: var(--viz-series-2); }
+  #vollmer-family-migration .migration-route.migration-lifetime { stroke-dasharray: 4 3; }
+  #vollmer-family-migration .migration-point { stroke: var(--background); stroke-width: 1.25; vector-effect: non-scaling-stroke; }
+  #vollmer-family-migration .migration-point.migration-maternal { fill: var(--viz-series-1); }
+  #vollmer-family-migration .migration-point.migration-paternal { fill: var(--viz-series-2); }
+  #vollmer-family-migration .migration-point-link:hover .migration-point { stroke: var(--foreground); }
+  #vollmer-family-migration .migration-legend { display: inline-flex; align-items: center; gap: .35rem; }
+  #vollmer-family-migration .migration-swatch { width: .7rem; height: .7rem; border-radius: 50%; display: inline-block; }
+  #vollmer-family-migration .migration-swatch.migration-maternal { background: var(--viz-series-1); }
+  #vollmer-family-migration .migration-swatch.migration-paternal { background: var(--viz-series-2); }
+  #vollmer-family-migration .migration-tooltip { position: absolute; pointer-events: none; max-width: 18rem; z-index: 2; }
+  #vollmer-family-migration .migration-detail { margin-top: .75rem; }
+  #vollmer-family-migration .migration-detail h3 { margin-top: 0; }
+  #vollmer-family-migration .migration-detail-list { margin-bottom: 0; padding-left: 1.25rem; }
+  @media (max-width: 520px) {
+    #vollmer-family-migration .migration-detail-list { padding-left: 1rem; }
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+(() => {
+  const DATA = __MIGRATION_DATA__;
+  const WORLD = __WORLD_TOPOLOGY__;
+  const root = document.getElementById("vollmer-family-migration");
+  const svg = d3.select(root.querySelector("#migration-map-svg"));
+  const stage = root.querySelector(".migration-map-stage");
+  const yearInput = root.querySelector("#migration-year");
+  const yearOutput = root.querySelector("#migration-year-output");
+  const sideInput = root.querySelector("#migration-side");
+  const routeInput = root.querySelector("#migration-route-type");
+  const playButton = root.querySelector("#migration-play");
+  const status = root.querySelector("#migration-status");
+  const detail = root.querySelector("#migration-detail");
+  const tooltip = root.querySelector("#migration-tooltip");
+  const locations = new Map(DATA.locations.map(location => [location.location_id, location]));
+  const countries = topojson.feature(WORLD, WORLD.objects.countries).features;
+  const graticule = d3.geoGraticule10();
+  let timer = null;
+  let selectedLocationId = null;
+  let lastVisiblePoints = [];
+
+  const sideClass = side => side === "Maternal" ? "migration-maternal" : "migration-paternal";
+  const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+
+  function showTooltip(event, point) {
+    const years = point.events.map(item => item.year_min).filter(Number.isFinite);
+    tooltip.innerHTML = `<strong>${escapeHtml(point.location.label)}</strong><br>${point.events.length} event${point.events.length === 1 ? "" : "s"}, ${d3.min(years)}–${d3.max(years)}`;
+    tooltip.hidden = false;
+    const bounds = stage.getBoundingClientRect();
+    const x = event.clientX ? event.clientX - bounds.left : point.x;
+    const y = event.clientY ? event.clientY - bounds.top : point.y;
+    tooltip.style.left = `${Math.min(x + 12, Math.max(8, bounds.width - 250))}px`;
+    tooltip.style.top = `${Math.max(8, y - 54)}px`;
+  }
+
+  function hideTooltip() {
+    tooltip.hidden = true;
+  }
+
+  function updateDetail(point) {
+    if (!point) {
+      detail.innerHTML = `<h3>No mapped events in this view</h3>`;
+      return;
+    }
+    const sorted = point.events.slice().sort((a, b) => a.year_min - b.year_min || a.person_name.localeCompare(b.person_name));
+    const rows = sorted.slice(0, 6).map(event =>
+      `<li><span class="tabular-nums">${event.year_min}${event.year_max && event.year_max !== event.year_min ? `–${event.year_max}` : ""}</span> · ${escapeHtml(event.person_name)} · ${event.event_type}</li>`
+    ).join("");
+    const more = sorted.length > 6 ? `<p class="text-small text-muted">${sorted.length - 6} more events at this location</p>` : "";
+    detail.innerHTML = `<h3>${escapeHtml(point.location.label)}</h3><ul class="migration-detail-list">${rows}</ul>${more}`;
+  }
+
+  function draw() {
+    const width = Math.max(320, Math.floor(stage.getBoundingClientRect().width));
+    const height = Math.max(260, Math.min(460, Math.round(width * .58)));
+    const year = Number(yearInput.value);
+    const side = sideInput.value;
+    const movementType = routeInput.value;
+    yearOutput.value = year;
+    yearOutput.textContent = year;
+    svg.attr("viewBox", `0 0 ${width} ${height}`).attr("height", height);
+
+    const projection = d3.geoNaturalEarth1().fitExtent([[8, 8], [width - 8, height - 8]], {type: "Sphere"});
+    const path = d3.geoPath(projection);
+    const visibleEvents = DATA.events.filter(event =>
+      event.year_min !== null && event.year_min <= year && (side === "All" || event.side === side) && locations.get(event.location_id)?.latitude !== null
+    );
+    const visibleMovements = DATA.movements.filter(movement =>
+      movement.movement_type === movementType && movement.year_min !== null && movement.year_min <= year && (side === "All" || movement.side === side)
+    );
+
+    const points = Array.from(d3.group(visibleEvents, event => event.location_id), ([locationId, events]) => {
+      const location = locations.get(locationId);
+      const sideCounts = d3.rollup(events, values => values.length, event => event.side);
+      const pointSide = (sideCounts.get("Maternal") || 0) >= (sideCounts.get("Paternal") || 0) ? "Maternal" : "Paternal";
+      const [x, y] = projection([location.longitude, location.latitude]);
+      return {locationId, location, events, side: pointSide, x, y};
+    });
+    lastVisiblePoints = points;
+
+    svg.selectAll("*").remove();
+    svg.append("path").attr("class", "migration-sphere").attr("d", path({type: "Sphere"}));
+    svg.append("path").attr("class", "migration-graticule").attr("d", path(graticule));
+    svg.append("g").selectAll("path")
+      .data(countries)
+      .join("path")
+      .attr("class", "migration-country")
+      .attr("d", path);
+
+    svg.append("g").selectAll("path")
+      .data(visibleMovements)
+      .join("path")
+      .attr("class", movement => `migration-route ${sideClass(movement.side)} ${movement.movement_type === "lifetime" ? "migration-lifetime" : ""}`)
+      .attr("d", movement => {
+        const from = locations.get(movement.from_location_id);
+        const to = locations.get(movement.to_location_id);
+        return path({type: "LineString", coordinates: [[from.longitude, from.latitude], [to.longitude, to.latitude]]});
+      });
+
+    const pointLinks = svg.append("g").selectAll("a")
+      .data(points, point => point.locationId)
+      .join("a")
+      .attr("class", "migration-point-link")
+      .attr("href", "#migration-detail")
+      .attr("aria-label", point => `${point.location.label}: ${point.events.length} recorded events`)
+      .on("click", (event, point) => {
+        event.preventDefault();
+        selectedLocationId = point.locationId;
+        updateDetail(point);
+      })
+      .on("pointerenter focus", showTooltip)
+      .on("pointermove", showTooltip)
+      .on("pointerleave blur", hideTooltip);
+
+    pointLinks.append("circle")
+      .attr("class", point => `migration-point ${sideClass(point.side)}`)
+      .attr("cx", point => point.x)
+      .attr("cy", point => point.y)
+      .attr("r", point => 2.8 + Math.min(8, Math.sqrt(point.events.length) * 1.25));
+    pointLinks.append("title").text(point => `${point.location.label}: ${point.events.length} recorded events`);
+
+    let selected = points.find(point => point.locationId === selectedLocationId);
+    if (!selected) {
+      selected = points.slice().sort((a, b) => b.events.length - a.events.length)[0] || null;
+      selectedLocationId = selected?.locationId || null;
+    }
+    updateDetail(selected);
+    const routeLabel = movementType === "intergenerational" ? "intergenerational shifts" : "lifetime endpoint shifts";
+    status.textContent = `${visibleEvents.length} dated events through ${year} · ${visibleMovements.length} ${routeLabel} · 14 undated events and 2 unresolved labels retained in the data. Lines connect recorded endpoints, not documented travel routes.`;
+  }
+
+  function stopPlaying() {
+    if (timer) window.clearInterval(timer);
+    timer = null;
+    playButton.textContent = "Play timeline";
+  }
+
+  function togglePlay() {
+    if (timer) {
+      stopPlaying();
+      return;
+    }
+    if (Number(yearInput.value) >= Number(yearInput.max)) yearInput.value = yearInput.min;
+    playButton.textContent = "Pause timeline";
+    timer = window.setInterval(() => {
+      const next = Math.min(Number(yearInput.max), Number(yearInput.value) + 4);
+      yearInput.value = next;
+      draw();
+      if (next >= Number(yearInput.max)) stopPlaying();
+    }, 110);
+  }
+
+  yearInput.addEventListener("input", () => { stopPlaying(); draw(); });
+  sideInput.addEventListener("change", draw);
+  routeInput.addEventListener("change", draw);
+  playButton.addEventListener("click", togglePlay);
+  new ResizeObserver(draw).observe(stage);
+  draw();
+})();
+</script>

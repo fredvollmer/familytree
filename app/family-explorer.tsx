@@ -176,6 +176,8 @@ const RECORD_FILES = [
 const ROOT_ID = 'I001';
 const CARD_W = 174;
 const CARD_H = 52;
+const ASSET_BASE = import.meta.env.BASE_URL || '/';
+const assetUrl = (path: string) => `${ASSET_BASE}${path.replace(/^\//, '')}`;
 
 const splitRefs = (value = '') => value.split(/[;,]/).map((part) => part.trim()).filter(Boolean);
 const normalize = (value: string) => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -597,8 +599,8 @@ function DetailsPane({ person, data, relations, onSelect }: { person: Person; da
         <div className="section-title"><p className="eyebrow">Preserved records · {records.length}</p><FileText size={15} /></div>
         {records.length > 0 ? <div className="record-gallery">{records.map((record) => {
           const isPdf = record.endsWith('.pdf');
-          return <a href={`/records/${record}`} target="_blank" rel="noreferrer" className="record-card" key={record}>
-            <div className="record-preview">{isPdf ? <div className="pdf-preview"><FileText /><span>PDF</span></div> : <img src={`/records/${record}`} alt={`Source record: ${cleanTitle(record)}`} loading="lazy" />}</div>
+          return <a href={assetUrl(`records/${record}`)} target="_blank" rel="noreferrer" className="record-card" key={record}>
+            <div className="record-preview">{isPdf ? <div className="pdf-preview"><FileText /><span>PDF</span></div> : <img src={assetUrl(`records/${record}`)} alt={`Source record: ${cleanTitle(record)}`} loading="lazy" />}</div>
             <div><strong>{cleanTitle(record)}</strong><span>Open full record <ExternalLink /></span></div>
           </a>;
         })}</div> : <p className="empty-copy">No preserved record image is directly matched to this person. Their citations are still listed above.</p>}
@@ -618,9 +620,9 @@ export default function FamilyExplorer() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/data/family-tree.json').then((response) => response.json()),
-      fetch('/data/migration-data.json').then((response) => response.json()),
-      fetch('/data/world-countries-110m.topojson').then((response) => response.json()),
+      fetch(assetUrl('data/family-tree.json')).then((response) => response.json()),
+      fetch(assetUrl('data/migration-data.json')).then((response) => response.json()),
+      fetch(assetUrl('data/world-countries-110m.topojson')).then((response) => response.json()),
     ]).then(([treeData, migrationData, worldData]) => {
       setData(treeData as TreeData);
       setMigration(migrationData as MigrationData);

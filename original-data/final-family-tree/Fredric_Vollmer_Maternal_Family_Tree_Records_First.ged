@@ -1,0 +1,2474 @@
+0 HEAD
+1 SOUR OpenAI Genealogy Research Draft
+2 NAME Maternal Family Tree of Fredric Muller Vollmer
+1 DATE 30 AUG 2026
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG English
+0 @I001@ INDI
+1 NAME Fredric Muller /Vollmer/
+1 SEX M
+1 FAMC @F001@
+1 NOTE Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted.
+1 SOUR @S1@
+0 @I002@ INDI
+1 NAME Jan Muller /Vollmer/
+1 SEX F
+1 FAMC @F002@
+1 FAMS @F001@
+1 NOTE Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted.
+1 SOUR @S1@
+1 SOUR @S2@
+0 @I003@ INDI
+1 NAME Arthur John /Muller/
+1 SEX M
+1 BIRT
+2 DATE 12 MAY 1925
+2 PLAC Detroit, Michigan
+1 DEAT
+2 DATE 9 JAN 2005
+2 PLAC Bellingham, Washington
+1 FAMC @F003@
+1 FAMS @F002@
+1 NOTE Confidence A (Confirmed). Branch: Muller / Kleitz. U.S. Army, 1943-1945; Company B, 134th Infantry, 35th Division. Family members called him Art or Opa.
+1 SOUR @S2@
+1 SOUR @S5@
+0 @I004@ INDI
+1 NAME Anne Rives McCormick /Muller/
+1 SEX F
+1 BIRT
+2 DATE 30 MAY 1927
+1 DEAT
+2 DATE 2016
+1 FAMC @F004@
+1 FAMS @F002@
+1 NOTE Confidence A (Confirmed). Branch: Root. The 1937 Agee history spells her given name Ann; family usage is Anne.
+1 SOUR @S1@
+1 SOUR @S8@
+0 @I005@ INDI
+1 NAME Arthur Herman /Muller/
+1 SEX M
+1 BIRT
+2 DATE 28 NOV 1896
+2 PLAC Highland Falls, New York
+1 DEAT
+2 DATE 1966
+1 FAMC @F005@
+1 FAMS @F003@
+1 NOTE Confidence B (Strong). Branch: Muller / Kleitz.
+1 SOUR @S2@
+0 @I006@ INDI
+1 NAME Elma Anna /Lee/
+1 SEX F
+1 BIRT
+2 DATE 14 JAN 1897
+2 PLAC Caro, Michigan
+1 DEAT
+2 DATE 26 DEC 1972
+2 PLAC Detroit, Michigan
+1 FAMC @F006@
+1 FAMS @F003@
+1 NOTE Confidence A (Confirmed). Branch: Lee / New England. Called Gramma Muller in family correspondence.
+1 SOUR @S2@
+1 SOUR @S3@
+1 SOUR @S24@
+0 @I007@ INDI
+1 NAME Charles Ellsworth /McCormick/ II
+1 SEX M
+1 BIRT
+2 DATE 12 JUL 1896
+2 PLAC Kentucky
+1 DEAT
+2 DATE 9 SEP 1978
+2 PLAC Asheville, North Carolina
+1 FAMC @F061@
+1 FAMS @F004@
+1 NOTE Confidence A (Confirmed). Branch: McCormick / O’Brien. Known in family correspondence as Daddy Mac.
+1 SOUR @S1@
+1 SOUR @S25@
+0 @I008@ INDI
+1 NAME Eloise A. Elvie-Elvia Slaughter /McCormick/
+1 SEX F
+1 BIRT
+2 DATE 25 DEC 1903
+1 DEAT
+2 DATE 1993
+1 FAMC @F070@
+1 FAMS @F004@
+1 NOTE Confidence A (Confirmed). Branch: Slaughter / Bush. Family usage is Eloise; the 1937 Agee history prints Elvie A. and other family material uses Elvia.
+1 SOUR @S1@
+1 SOUR @S8@
+0 @I009@ INDI
+1 NAME Christian August Vollrath /Muller/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1866
+1 DEAT
+2 DATE 1922
+1 FAMC @F007@
+1 FAMS @F005@
+1 NOTE Confidence C (Provisional). Branch: Muller / Kleitz. Name and parentage are from the 1998 family chart; exact dates need original civil/church records.
+1 SOUR @S2@
+0 @I010@ INDI
+1 NAME Henrietta /Kleitz/
+1 SEX F
+1 BIRT
+2 DATE 1871
+2 PLAC New York, New York
+1 FAMC @F008@
+1 FAMS @F005@
+1 NOTE Confidence B (Strong). Branch: Muller / Kleitz.
+1 SOUR @S2@
+1 SOUR @S21@
+0 @I013@ INDI
+1 NAME Elmer Ellsworth /Lee/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1863
+2 PLAC Michigan
+1 DEAT
+2 DATE 8 JUL 1941
+2 PLAC Detroit, Michigan
+1 FAMC @F010@
+1 FAMS @F006@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. A same-name Michigan man causes index confusion; the Hubbard Stone Lee family group cites Elmer’s death certificate and names him as Hubbard’s son.
+1 SOUR @S2@
+1 SOUR @S3@
+1 SOUR @S6@
+1 SOUR @S24@
+0 @I014@ INDI
+1 NAME Mary Wilhelmina /Ohmer/
+1 SEX F
+1 FAMS @F006@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Identified as Elma Anna Lee’s mother. Her own parentage remains unresolved.
+1 SOUR @S2@
+1 SOUR @S24@
+0 @I017@ INDI
+1 NAME Lorenz /Muller/
+1 SEX M
+1 FAMS @F007@
+1 NOTE Confidence C (Provisional). Branch: Muller / Kleitz. Named on the 1998 family chart; no independent record located in this research pass.
+1 SOUR @S2@
+0 @I018@ INDI
+1 NAME Pauline /Vollrath/
+1 SEX F
+1 FAMS @F007@
+1 NOTE Confidence C (Provisional). Branch: Muller / Kleitz. Named on the 1998 family chart; no independent record located in this research pass.
+1 SOUR @S2@
+0 @I019@ INDI
+1 NAME Lambert /Kleitz/
+1 SEX M
+1 BIRT
+2 DATE 1840
+2 PLAC Alsace, France
+1 FAMS @F008@
+1 NOTE Confidence B (Strong). Branch: Muller / Kleitz. Married Elizabeth Wüst in New York in 1860; listed as a builder/carpenter.
+1 SOUR @S2@
+1 SOUR @S21@
+0 @I020@ INDI
+1 NAME Elizabeth /Wüst/
+1 SEX F
+1 BIRT
+2 DATE 1837
+2 PLAC Bavaria
+1 DEAT
+2 DATE ABOUT 1907
+1 FAMC @F009@
+1 FAMS @F008@
+1 NOTE Confidence B (Strong). Branch: Muller / Kleitz. Surname also rendered Wust/Wuest in indexes.
+1 SOUR @S2@
+1 SOUR @S21@
+0 @I021@ INDI
+1 NAME Jacob /Wüst/
+1 SEX M
+1 BIRT
+2 PLAC Bavaria
+1 FAMS @F009@
+1 NOTE Confidence C (Provisional). Branch: Muller / Kleitz. Named as Elizabeth Wüst’s father in the Kastler family database; mother remains unknown.
+1 SOUR @S21@
+0 @I022@ INDI
+1 NAME Hubbard Stone /Lee/
+1 SEX M
+1 BIRT
+2 DATE 6 JUL 1822
+2 PLAC Connecticut
+1 DEAT
+2 DATE 22 APR 1901
+2 PLAC Bloomfield, Oakland County, Michigan
+1 FAMC @F011@
+1 FAMS @F010@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S6@
+1 SOUR @S7@
+0 @I023@ INDI
+1 NAME Sarah M. /Willitts/
+1 SEX F
+1 BIRT
+2 DATE 1831
+2 PLAC Birmingham, Oakland County, Michigan
+1 DEAT
+2 DATE 1913
+1 FAMS @F010@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Her parents remain unresolved in this research pass.
+1 SOUR @S6@
+1 SOUR @S7@
+0 @I024@ INDI
+1 NAME Elon /Lee/
+1 SEX M
+1 BIRT
+2 DATE 12 MAR 1786
+2 PLAC Guilford, New Haven County, Connecticut
+1 DEAT
+2 DATE 22 DEC 1856
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMC @F012@
+1 FAMS @F011@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I025@ INDI
+1 NAME Grace /Stone/
+1 SEX F
+1 BIRT
+2 DATE 27 APR 1788
+2 PLAC Guilford, New Haven County, Connecticut
+1 DEAT
+2 DATE 18 MAY 1847
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMC @F013@
+1 FAMS @F011@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I026@ INDI
+1 NAME William /Lee/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1741
+1 DEAT
+2 DATE 29 APR 1795
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMC @F014@
+1 FAMS @F012@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I027@ INDI
+1 NAME Eunice /Hotchkiss/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1754
+1 DEAT
+2 DATE 27 FEB 1827
+1 FAMC @F015@
+1 FAMS @F012@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I028@ INDI
+1 NAME John Evarts /Stone/
+1 SEX M
+1 BIRT
+2 DATE 28 NOV 1760
+2 PLAC Guilford, New Haven County, Connecticut
+1 DEAT
+2 DATE 29 JAN 1852
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMC @F016@
+1 FAMS @F013@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I029@ INDI
+1 NAME Eunice /Goldsmith/
+1 SEX F
+1 BIRT
+2 DATE 28 MAY 1764
+1 DEAT
+2 DATE 28 APR 1852
+1 FAMS @F013@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Parents were not supplied on the consulted Ahnentafel page.
+1 SOUR @S7@
+0 @I030@ INDI
+1 NAME Ebenezer /Lee/
+1 SEX M
+1 BIRT
+2 DATE 25 FEB 1698/99
+1 DEAT
+2 DATE 24 SEP 1751
+1 FAMC @F017@
+1 FAMS @F014@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I031@ INDI
+1 NAME Sarah /Chidsey/
+1 SEX F
+1 DEAT
+2 DATE 7 MAR 1778
+1 FAMC @F018@
+1 FAMS @F014@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I032@ INDI
+1 NAME Mark /Hotchkiss/
+1 SEX M
+1 BIRT
+2 DATE 1 JUL 1714
+1 DEAT
+2 DATE 19 NOV 1775
+1 FAMC @F019@
+1 FAMS @F015@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I033@ INDI
+1 NAME Miriam /Lee/
+1 SEX F
+1 DEAT
+2 DATE 31 MAR 1788
+1 FAMS @F015@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Parents not shown in the consulted Ahnentafel.
+1 SOUR @S7@
+0 @I034@ INDI
+1 NAME Asher /Stone/
+1 SEX M
+1 BIRT
+2 DATE 23 JAN 1738/39
+2 PLAC Guilford, New Haven County, Connecticut
+1 DEAT
+2 DATE 27 SEP 1766
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMC @F020@
+1 FAMS @F016@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I035@ INDI
+1 NAME Carine /Ward/
+1 SEX F
+1 BIRT
+2 DATE 31 MAY 1740
+1 DEAT
+2 DATE 27 OCT 1818
+1 FAMC @F021@
+1 FAMS @F016@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I036@ INDI
+1 NAME Edward /Lee/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1656
+1 FAMS @F017@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Earlier parentage not supplied in the consulted Ahnentafel.
+1 SOUR @S7@
+0 @I037@ INDI
+1 NAME Abigail /Stevens/
+1 SEX F
+1 DEAT
+2 DATE AUG 1727
+1 FAMC @F022@
+1 FAMS @F017@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I038@ INDI
+1 NAME Joseph /Chidsey/
+1 SEX M
+1 FAMS @F018@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Earlier parentage not supplied in the consulted Ahnentafel.
+1 SOUR @S7@
+0 @I039@ INDI
+1 NAME Joseph /Hotchkiss/
+1 SEX M
+1 BIRT
+2 DATE 3 JUN 1678
+1 DEAT
+2 DATE 31 JAN 1740
+1 FAMC @F023@
+1 FAMS @F019@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I040@ INDI
+1 NAME Hannah /Cruttenden/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1679
+1 DEAT
+2 DATE 28 MAR 1756
+1 FAMC @F024@
+1 FAMS @F019@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I041@ INDI
+1 NAME Caleb /Stone/ Jr.
+1 SEX M
+1 BIRT
+2 DATE 7 MAY 1714
+2 PLAC probably Guilford, Connecticut
+1 DEAT
+2 DATE 28 JUL 1788
+2 PLAC Guilford, Connecticut
+1 FAMC @F025@
+1 FAMS @F020@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I042@ INDI
+1 NAME Rebecca /Evarts/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1715
+1 DEAT
+2 DATE 5 SEP 1795
+1 FAMC @F026@
+1 FAMS @F020@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I043@ INDI
+1 NAME William /Ward/
+1 SEX M
+1 BIRT
+2 DATE 7 JAN 1705
+2 PLAC Wallingford, New Haven County, Connecticut
+1 DEAT
+2 DATE 19 DEC 1761
+1 FAMC @F027@
+1 FAMS @F021@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I044@ INDI
+1 NAME Abigail /Crampton/
+1 SEX F
+1 BIRT
+2 DATE 17 OCT 1704
+1 DEAT
+2 DATE 4 NOV 1757
+1 FAMC @F028@
+1 FAMS @F021@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I045@ INDI
+1 NAME Thomas /Stevens/
+1 SEX M
+1 FAMS @F022@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I046@ INDI
+1 NAME John /Hotchkiss/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1643
+1 DEAT
+2 DATE BY 23 SEP 1689
+1 FAMC @F029@
+1 FAMS @F023@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I047@ INDI
+1 NAME Elizabeth /Peck/
+1 SEX F
+1 FAMS @F023@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Earlier parentage not supplied in the consulted Ahnentafel.
+1 SOUR @S7@
+0 @I048@ INDI
+1 NAME Isaac /Cruttenden/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1643
+1 DEAT
+2 DATE 13 JUL 1685
+1 FAMC @F030@
+1 FAMS @F024@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I049@ INDI
+1 NAME Lydia /Thompson/
+1 SEX F
+1 BIRT
+2 DATE BAPTIZED 24 JUL 1647
+2 PLAC New Haven, Connecticut
+1 DEAT
+2 DATE DEC 1729
+1 FAMC @F031@
+1 FAMS @F024@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I050@ INDI
+1 NAME Caleb /Stone/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1685
+1 DEAT
+2 DATE 25 MAY 1765
+1 FAMC @F032@
+1 FAMS @F025@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I051@ INDI
+1 NAME Sarah /Meigs/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1691
+1 DEAT
+2 DATE 4 MAY 1775
+1 FAMC @F033@
+1 FAMS @F025@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I052@ INDI
+1 NAME James /Evarts/
+1 SEX M
+1 BIRT
+2 DATE 18 FEB 1672
+1 DEAT
+2 DATE 6 APR 1751
+1 FAMC @F035@
+1 FAMS @F026@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I053@ INDI
+1 NAME William /Ward/
+1 SEX M
+1 BIRT
+2 DATE 18 OCT 1678
+2 PLAC Wallingford, New Haven County, Connecticut
+1 DEAT
+2 DATE 19 DEC 1767
+2 PLAC Wallingford, New Haven County, Connecticut
+1 FAMC @F036@
+1 FAMS @F027@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I054@ INDI
+1 NAME Lettice /Beach/
+1 SEX F
+1 BIRT
+2 DATE 24 DEC 1679
+2 PLAC Wallingford, New Haven County, Connecticut
+1 FAMC @F037@
+1 FAMS @F027@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I055@ INDI
+1 NAME John /Crampton/
+1 SEX M
+1 FAMS @F028@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I056@ INDI
+1 NAME Hannah /Evarts/
+1 SEX F
+1 FAMS @F028@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I057@ INDI
+1 NAME Samuel /Hotchkiss/
+1 SEX M
+1 DEAT
+2 DATE 28 DEC 1663
+2 PLAC New Haven, Connecticut
+1 FAMS @F029@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I058@ INDI
+1 NAME Elizabeth /Cleverly/
+1 SEX F
+1 DEAT
+2 DATE ABOUT 1681
+1 FAMS @F029@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I059@ INDI
+1 NAME Abraham /Cruttenden/
+1 SEX M
+1 DEAT
+2 DATE JAN 1683
+1 FAMS @F030@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I060@ INDI
+1 NAME Mary //
+1 SEX F
+1 DEAT
+2 DATE ABOUT 1664
+1 FAMS @F030@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I061@ INDI
+1 NAME Anthony /Thompson/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1612
+1 DEAT
+2 DATE SEP 1648
+1 FAMS @F031@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I062@ INDI
+1 NAME Katherine //
+1 SEX F
+1 FAMS @F031@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I063@ INDI
+1 NAME Nathaniel /Stone/
+1 SEX M
+1 BIRT
+2 DATE 2 FEB 1648
+2 PLAC Guilford, New Haven County, Connecticut
+1 DEAT
+2 DATE 11 AUG 1709
+1 FAMC @F038@
+1 FAMS @F032@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I064@ INDI
+1 NAME Mary /Bartlett/
+1 SEX F
+1 BIRT
+2 DATE 1 FEB 1655
+1 DEAT
+2 DATE 5 NOV 1724
+1 FAMS @F032@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Her parents were not supplied on the consulted Ahnentafel page.
+1 SOUR @S7@
+0 @I065@ INDI
+1 NAME John /Meigs/
+1 SEX M
+1 BIRT
+2 DATE 28 FEB 1641
+1 DEAT
+2 DATE 9 NOV 1713
+1 FAMC @F039@
+1 FAMS @F033@
+1 FAMS @F034@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I066@ INDI
+1 NAME Sarah /Wilcockson/
+1 SEX F
+1 BIRT
+2 DATE 26 OCT 1648
+2 PLAC Stratford, Fairfield County, Connecticut
+1 DEAT
+2 DATE 24 NOV 1691
+1 FAMC @F040@
+1 FAMS @F033@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I067@ INDI
+1 NAME Daniel /Evarts/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1645
+1 DEAT
+2 DATE 5 DEC 1692
+1 FAMC @F041@
+1 FAMS @F035@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I068@ INDI
+1 NAME Rebecca /Dowd/
+1 SEX F
+1 DEAT
+2 DATE 16 OCT 1703
+1 FAMC @F042@
+1 FAMS @F035@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I069@ INDI
+1 NAME Andrew /Ward/ Jr.
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1644
+1 DEAT
+2 DATE ABOUT 1690
+1 FAMC @F043@
+1 FAMS @F036@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I070@ INDI
+1 NAME Trial /Meigs/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1646
+2 PLAC probably New Haven, Connecticut
+1 DEAT
+2 DATE ABOUT 1690
+1 FAMC @F034@
+1 FAMS @F036@
+1 NOTE Confidence B (Strong). Branch: Lee / New England. Pedigree collapse: the same John Meigs and Tamasin Fry are also ancestors through Sarah Meigs.
+1 SOUR @S7@
+0 @I071@ INDI
+1 NAME John /Beach/
+1 SEX M
+1 BIRT
+2 DATE 19 OCT 1655
+2 PLAC Milford, New Haven County, Connecticut
+1 DEAT
+2 DATE ABOUT 1709
+1 FAMC @F044@
+1 FAMS @F037@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I072@ INDI
+1 NAME Mary /Royce/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1658
+1 FAMC @F045@
+1 FAMS @F037@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I073@ INDI
+1 NAME John /Stone/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1610
+1 DEAT
+2 DATE FEB 1687
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMS @F038@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I074@ INDI
+1 NAME Mary //
+1 SEX F
+1 DEAT
+2 DATE FEB 1687
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMS @F038@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I075@ INDI
+1 NAME Vincent /Meigs/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1583
+1 DEAT
+2 DATE DEC 1658
+2 PLAC Killingworth, Middlesex County, Connecticut
+1 FAMS @F039@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I076@ INDI
+1 NAME Tamasin /Fry/
+1 SEX F
+1 DEAT
+2 DATE AFTER 28 AUG 1671
+1 FAMS @F039@
+1 FAMS @F034@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I077@ INDI
+1 NAME William /Wilcockson/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1601
+2 PLAC St. Albans, Hertfordshire, England
+1 DEAT
+2 DATE 1651/52
+2 PLAC Cambridge, Massachusetts
+1 FAMS @F040@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I078@ INDI
+1 NAME Margaret /Harvey/
+1 SEX F
+1 FAMC @F046@
+1 FAMS @F040@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I079@ INDI
+1 NAME John /Evarts/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1600
+1 DEAT
+2 DATE BURIED 10 MAY 1669
+2 PLAC Guilford, New Haven County, Connecticut
+1 FAMS @F041@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I080@ INDI
+1 NAME Elizabeth //
+1 SEX F
+1 FAMS @F041@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I081@ INDI
+1 NAME Henry /Dowd/
+1 SEX M
+1 FAMS @F042@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I082@ INDI
+1 NAME Andrew /Ward/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1603
+1 DEAT
+2 DATE 1659
+1 FAMS @F043@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I083@ INDI
+1 NAME Hester /Sherman/
+1 SEX F
+1 BIRT
+2 DATE BAPTIZED 1 APR 1606
+2 PLAC Dedham, Essex, England
+1 DEAT
+2 DATE 1665/66
+1 FAMC @F047@
+1 FAMS @F043@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I084@ INDI
+1 NAME Thomas /Beach/
+1 SEX M
+1 DEAT
+2 DATE BY 31 MAY 1662
+2 PLAC Milford, New Haven County, Connecticut
+1 FAMC @F048@
+1 FAMS @F044@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I085@ INDI
+1 NAME Sarah /Platt/
+1 SEX F
+1 BIRT
+2 DATE BAPTIZED 11 SEP 1636
+2 PLAC Ware, Hertfordshire, England
+1 DEAT
+2 DATE 15 MAY 1670
+2 PLAC Milford, New Haven County, Connecticut
+1 FAMC @F049@
+1 FAMS @F044@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I086@ INDI
+1 NAME Jonathan /Royce/
+1 SEX M
+1 DEAT
+2 DATE ABOUT 1690
+1 FAMC @F050@
+1 FAMS @F045@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I087@ INDI
+1 NAME Ann /Spinning/
+1 SEX F
+1 DEAT
+2 DATE ABOUT 1658
+1 FAMC @F051@
+1 FAMS @F045@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I088@ INDI
+1 NAME James /Harvey/
+1 SEX M
+1 FAMS @F046@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I089@ INDI
+1 NAME Edmund /Sherman/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1572
+2 PLAC probably Dedham, Essex, England
+1 DEAT
+2 DATE 1640/41
+2 PLAC New Haven, Connecticut
+1 FAMC @F052@
+1 FAMS @F047@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I090@ INDI
+1 NAME Grace /Makin/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1578
+1 DEAT
+2 DATE AFTER 14 JUN 1643
+1 FAMC @F053@
+1 FAMS @F047@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I091@ INDI
+1 NAME Unknown /Beach/
+1 SEX M
+1 FAMS @F048@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England. Only the surname is supplied in the consulted Ahnentafel.
+1 SOUR @S7@
+0 @I092@ INDI
+1 NAME Richard /Platt/
+1 SEX M
+1 BIRT
+2 DATE BAPTIZED 6 MAY 1604
+2 PLAC Ware, Hertfordshire, England
+1 DEAT
+2 DATE BY 13 FEB 1684/85
+2 PLAC Milford, New Haven County, Connecticut
+1 FAMC @F054@
+1 FAMS @F049@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I093@ INDI
+1 NAME Mary /Wood/
+1 SEX F
+1 BIRT
+2 DATE BAPTIZED 10 NOV 1605
+2 PLAC Roydon, Essex, England
+1 DEAT
+2 DATE BURIED 24 MAR 1675/76
+2 PLAC Milford, New Haven County, Connecticut
+1 FAMC @F055@
+1 FAMS @F049@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I094@ INDI
+1 NAME Robert /Royce/
+1 SEX M
+1 DEAT
+2 DATE ABOUT 1676
+2 PLAC New London, Connecticut
+1 FAMS @F050@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I095@ INDI
+1 NAME Mary //
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1609
+1 DEAT
+2 DATE ABOUT 1696
+2 PLAC Wallingford, Connecticut
+1 FAMS @F050@
+1 NOTE Confidence B (Strong). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I096@ INDI
+1 NAME Humphrey /Spinning/
+1 SEX M
+1 FAMS @F051@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I097@ INDI
+1 NAME Edmund /Sherman/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1548
+1 DEAT
+2 DATE BURIED 22 DEC 1600
+2 PLAC Dedham, Essex, England
+1 FAMC @F056@
+1 FAMS @F052@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I098@ INDI
+1 NAME Anne /Pellett/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1549
+2 PLAC probably Steyning, Sussex, England
+1 DEAT
+2 DATE BURIED 8 JUN 1584
+2 PLAC Dedham, Essex, England
+1 FAMC @F057@
+1 FAMS @F052@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I099@ INDI
+1 NAME Tobias /Makin/
+1 SEX M
+1 DEAT
+2 DATE 1610
+2 PLAC probably Fingringhoe, Essex, England
+1 FAMC @F058@
+1 FAMS @F053@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I100@ INDI
+1 NAME Katherine /Westbrome/
+1 SEX F
+1 FAMC @F059@
+1 FAMS @F053@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I101@ INDI
+1 NAME George /Platt/
+1 SEX M
+1 BIRT
+2 DATE BAPTIZED 13 MAY 1582
+2 PLAC Ware, Hertfordshire, England
+1 DEAT
+2 DATE BURIED 20 APR 1609
+2 PLAC Ware, Hertfordshire, England
+1 FAMC @F060@
+1 FAMS @F054@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I102@ INDI
+1 NAME Mary //
+1 SEX F
+1 FAMS @F054@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I103@ INDI
+1 NAME John /Wood/
+1 SEX M
+1 FAMS @F055@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I104@ INDI
+1 NAME Jane //
+1 SEX F
+1 FAMS @F055@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I105@ INDI
+1 NAME Henry /Sherman/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1512
+1 DEAT
+2 DATE 1589/90
+1 FAMS @F056@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England. Oldest dated ancestor in the compiled Lee branch used here.
+1 SOUR @S7@
+0 @I106@ INDI
+1 NAME Agnes //
+1 SEX F
+1 DEAT
+2 DATE BURIED 14 OCT 1580
+2 PLAC Dedham, Essex, England
+1 FAMS @F056@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I107@ INDI
+1 NAME William /Pellett/
+1 SEX M
+1 FAMS @F057@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I108@ INDI
+1 NAME John /Makin/
+1 SEX M
+1 DEAT
+2 DATE AFTER 16 MAR 1562/63
+1 FAMS @F058@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I109@ INDI
+1 NAME Agnes //
+1 SEX F
+1 FAMS @F058@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I110@ INDI
+1 NAME Thomas /Westbrome/
+1 SEX M
+1 FAMS @F059@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I111@ INDI
+1 NAME Elizabeth //
+1 SEX F
+1 FAMS @F059@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I112@ INDI
+1 NAME Simon /Platt/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1533
+1 DEAT
+2 DATE BURIED 12 APR 1594
+2 PLAC Ware, Hertfordshire, England
+1 FAMS @F060@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I113@ INDI
+1 NAME Elizabeth //
+1 SEX F
+1 DEAT
+2 DATE BURIED 21 JUL 1598
+2 PLAC Ware, Hertfordshire, England
+1 FAMS @F060@
+1 NOTE Confidence C (Provisional). Branch: Lee / New England.
+1 SOUR @S7@
+0 @I114@ INDI
+1 NAME Charles Ellsworth McCormick /I/
+1 SEX M
+1 BIRT
+2 DATE 26 FEB 1862
+2 PLAC Shepherdsville, Bullitt County, Kentucky
+1 DEAT
+2 DATE 1911
+1 FAMC @F062@
+1 FAMS @F061@
+1 NOTE Confidence A (Confirmed). Branch: McCormick / O’Brien.
+1 SOUR @S3@
+1 SOUR @S14@
+1 SOUR @S22@
+0 @I115@ INDI
+1 NAME Mary Moore /Brooks/
+1 SEX F
+1 BIRT
+2 DATE 1874
+1 DEAT
+2 DATE 1964
+1 FAMC @F064@
+1 FAMS @F061@
+1 NOTE Confidence A (Confirmed). Branch: Brooks / Field. Known in family correspondence as Mama Mac; associated with Brookland in Bullitt County.
+1 SOUR @S3@
+1 SOUR @S17@
+0 @I116@ INDI
+1 NAME Edward H. /McCormick/
+1 SEX M
+1 BIRT
+2 DATE 1838
+1 DEAT
+2 DATE 1871
+1 FAMC @F063@
+1 FAMS @F062@
+1 NOTE Confidence A (Confirmed). Branch: McCormick / O’Brien.
+1 SOUR @S14@
+1 SOUR @S15@
+1 SOUR @S16@
+0 @I117@ INDI
+1 NAME Martha Ann Annie /O’Brien/
+1 SEX F
+1 BIRT
+2 DATE 1841
+1 DEAT
+2 DATE 1889
+1 FAMC @F066@
+1 FAMS @F062@
+1 NOTE Confidence A (Confirmed). Branch: McCormick / O’Brien. Also recorded as Anna O’Brian/O’Brien.
+1 SOUR @S14@
+1 SOUR @S16@
+0 @I118@ INDI
+1 NAME Charles /McCormick/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1802
+2 PLAC Kentucky or Virginia
+1 FAMS @F063@
+1 NOTE Confidence B (Strong). Branch: McCormick / O’Brien. Age 48 and a forgeman in the 1850 Bullitt County census.
+1 SOUR @S15@
+0 @I119@ INDI
+1 NAME Elizabeth /McCormick/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1808
+2 PLAC Kentucky
+1 FAMS @F063@
+1 NOTE Confidence B (Strong). Branch: McCormick / O’Brien. Age 42 in the 1850 Bullitt County census; maiden name remains unknown.
+1 SOUR @S15@
+0 @I120@ INDI
+1 NAME Abram Field /Brooks/
+1 SEX M
+1 BIRT
+2 DATE 1844
+1 DEAT
+2 DATE 1892
+1 FAMC @F065@
+1 FAMS @F064@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field.
+1 SOUR @S17@
+0 @I121@ INDI
+1 NAME Mary P. Mollie /Moore/
+1 SEX F
+1 BIRT
+2 DATE 1852
+1 DEAT
+2 DATE 1940
+1 FAMS @F064@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field. Raised at Mound Grove near Arkansas Post. Her parents remain unresolved.
+1 SOUR @S17@
+0 @I122@ INDI
+1 NAME Solomon Neal /Brooks/
+1 SEX M
+1 BIRT
+2 DATE 18 MAR 1818
+1 DEAT
+2 DATE 1890
+1 FAMC @F067@
+1 FAMS @F065@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field. A county biography calls his mother “Miss Miles”; his father’s will names wife Rebecca, and other compiled material suggests Cordelia Standiford. Mother not assigned because
+2 CONT the evidence conflicts.
+1 SOUR @S17@
+1 SOUR @S18@
+0 @I123@ INDI
+1 NAME Elizabeth /Field/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1827
+1 DEAT
+2 DATE 1 MAY 1905
+1 FAMC @F069@
+1 FAMS @F065@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field.
+1 SOUR @S17@
+0 @I124@ INDI
+1 NAME Christopher /O’Brien/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1815
+1 FAMS @F066@
+1 NOTE Confidence B (Strong). Branch: McCormick / O’Brien.
+1 SOUR @S14@
+0 @I125@ INDI
+1 NAME Sophronia /Simmons/
+1 SEX F
+1 BIRT
+2 DATE ABOUT 1824
+1 FAMS @F066@
+1 NOTE Confidence B (Strong). Branch: McCormick / O’Brien. Adjacent Simmons households suggest possible parents, but the relationship was not proved and is omitted here.
+1 SOUR @S14@
+0 @I126@ INDI
+1 NAME Joseph Anderson /Brooks/
+1 SEX M
+1 DEAT
+2 DATE 1845/46
+1 FAMC @F068@
+1 FAMS @F067@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field. His 1845 will names wife Rebecca and son Solomon N. Brooks; whether Rebecca was Solomon’s mother is unresolved.
+1 SOUR @S18@
+1 SOUR @S19@
+0 @I127@ INDI
+1 NAME Joseph /Brooks/
+1 SEX M
+1 DEAT
+2 DATE 1818
+1 FAMS @F068@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field. His 1818 will names wife Nancy and son Joseph Anderson Brooks.
+1 SOUR @S19@
+0 @I128@ INDI
+1 NAME Abram /Field/
+1 SEX M
+1 FAMS @F069@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field. Named as Elizabeth Field’s father in the county biography.
+1 SOUR @S17@
+0 @I129@ INDI
+1 NAME Elizabeth /Simmons/
+1 SEX F
+1 FAMS @F069@
+1 NOTE Confidence C (Provisional). Branch: Brooks / Field. Often identified as Elizabeth Field’s mother in cemetery/compiled material; original proof was not located in this pass.
+1 SOUR @S17@
+0 @I130@ INDI
+1 NAME Isaac Bush /Slaughter/ Sr.
+1 SEX M
+1 BIRT
+2 DATE 28 FEB 1857
+2 PLAC Perdue Hill, Monroe County, Alabama
+1 DEAT
+2 DATE 30 APR 1937
+2 PLAC Edinburg, Texas
+1 FAMC @F071@
+1 FAMS @F070@
+1 NOTE Confidence A (Confirmed). Branch: Slaughter / Bush.
+1 SOUR @S4@
+1 SOUR @S8@
+1 SOUR @S23@
+0 @I131@ INDI
+1 NAME Lula Arnelia /Rives/
+1 SEX F
+1 BIRT
+2 DATE 30/31 JAN 1872
+2 PLAC Benton, Lowndes County, Alabama
+1 DEAT
+2 DATE 2 SEP 1957
+2 PLAC Sparks, Maryland
+1 FAMC @F072@
+1 FAMS @F070@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S8@
+1 SOUR @S9@
+0 @I132@ INDI
+1 NAME Nancy /Brooks/
+1 SEX F
+1 FAMS @F068@
+1 NOTE Confidence B (Strong). Branch: Brooks / Field. Named as wife in pioneer Joseph Brooks’s 1818 will.
+1 SOUR @S19@
+0 @I133@ INDI
+1 NAME John Wesley /Slaughter/
+1 SEX M
+1 FAMS @F071@
+1 NOTE Confidence B (Strong). Branch: Slaughter / Bush.
+1 SOUR @S23@
+0 @I134@ INDI
+1 NAME Sarah C. /Bush/
+1 SEX F
+1 FAMS @F071@
+1 NOTE Confidence B (Strong). Branch: Slaughter / Bush.
+1 SOUR @S23@
+0 @I135@ INDI
+1 NAME Robert Calhoun /Rives/
+1 SEX M
+1 BIRT
+2 DATE 9 NOV 1842
+2 PLAC Benton, Lowndes County, Alabama
+1 DEAT
+2 DATE 16 MAY 1885
+2 PLAC Benton, Lowndes County, Alabama
+1 FAMC @F073@
+1 FAMS @F072@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison. The DAR worksheet appears to type March; pension-derived research supports 16 May 1885.
+1 SOUR @S4@
+1 SOUR @S9@
+0 @I136@ INDI
+1 NAME Florence Estelle /Agee/
+1 SEX F
+1 BIRT
+2 DATE 7 SEP 1844
+2 PLAC Benton, Lowndes County, Alabama
+1 DEAT
+2 DATE 10 DEC 1878
+2 PLAC Benton, Lowndes County, Alabama
+1 FAMC @F082@
+1 FAMS @F072@
+1 NOTE Confidence A (Confirmed). Branch: Agee / Ford / Bondurant.
+1 SOUR @S4@
+1 SOUR @S8@
+1 SOUR @S9@
+0 @I137@ INDI
+1 NAME Robert /Rives/
+1 SEX M
+1 BIRT
+2 DATE 28 MAY/AUG 1801
+2 PLAC South Carolina
+1 DEAT
+2 DATE 30 SEP 1877
+2 PLAC Benton, Lowndes County, Alabama
+1 FAMC @F074@
+1 FAMS @F073@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison. Sources disagree whether the birth month/day is 28 May or 28 August.
+1 SOUR @S4@
+1 SOUR @S9@
+1 SOUR @S10@
+0 @I138@ INDI
+1 NAME Amelia /Harrison/
+1 SEX F
+1 BIRT
+2 DATE 21 DEC 1804
+2 PLAC Fairfield District, South Carolina
+1 DEAT
+2 DATE 13 MAR 1883
+2 PLAC South Carolina
+1 FAMC @F078@
+1 FAMS @F073@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S20@
+0 @I139@ INDI
+1 NAME Green /Rives/
+1 SEX M
+1 BIRT
+2 DATE 10 JAN 1763
+2 PLAC Virginia
+1 DEAT
+2 DATE 26 OCT 1812
+2 PLAC Columbia, South Carolina
+1 FAMC @F075@
+1 FAMS @F074@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison. Revolutionary-era resident of Richland County, South Carolina.
+1 SOUR @S4@
+1 SOUR @S10@
+0 @I140@ INDI
+1 NAME Mary Ridley /Jones/
+1 SEX F
+1 BIRT
+2 DATE 5 MAR 1769
+2 PLAC South Carolina
+1 DEAT
+2 DATE 27 MAR 1843
+2 PLAC Benton, Lowndes County, Alabama
+1 FAMC @F077@
+1 FAMS @F074@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S10@
+0 @I141@ INDI
+1 NAME William /Rives/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1737
+2 PLAC Brunswick County, Virginia
+1 DEAT
+2 DATE 1783
+2 PLAC Camden District, South Carolina
+1 FAMC @F076@
+1 FAMS @F075@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S10@
+1 SOUR @S11@
+0 @I142@ INDI
+1 NAME Lucy /Wyche/
+1 SEX F
+1 BIRT
+2 PLAC Brunswick County, Virginia
+1 FAMC @F081@
+1 FAMS @F075@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S10@
+1 SOUR @S11@
+0 @I143@ INDI
+1 NAME Timothy /Rives/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1710
+1 DEAT
+2 DATE ABOUT 1772
+1 FAMC @F079@
+1 FAMS @F076@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S11@
+1 SOUR @S12@
+0 @I144@ INDI
+1 NAME Hester /Rives/
+1 SEX F
+1 DEAT
+2 DATE AFTER 23 AUG 1772
+1 FAMS @F076@
+1 NOTE Confidence C (Provisional). Branch: Rives / Harrison. Given name is supported; Turner as surname remains uncertain.
+1 SOUR @S4@
+1 SOUR @S12@
+0 @I145@ INDI
+1 NAME Darling /Jones/
+1 SEX M
+1 FAMS @F077@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S10@
+0 @I146@ INDI
+1 NAME Susannah /Jones/
+1 SEX F
+1 FAMS @F077@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S10@
+0 @I147@ INDI
+1 NAME William /Harrison/
+1 SEX M
+1 DEAT
+2 DATE 1836
+1 FAMC @F084@
+1 FAMS @F078@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S20@
+0 @I148@ INDI
+1 NAME Ann /Perry/
+1 SEX F
+1 DEAT
+2 DATE FALL 1816
+1 FAMC @F085@
+1 FAMS @F078@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison.
+1 SOUR @S20@
+0 @I149@ INDI
+1 NAME Col. William /Rives/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1683
+2 PLAC Prince George County, Virginia
+1 DEAT
+2 DATE BEFORE 1 MAR 1746
+1 FAMC @F080@
+1 FAMS @F079@
+1 NOTE Confidence C (Provisional). Branch: Rives / Harrison.
+1 SOUR @S4@
+1 SOUR @S12@
+0 @I150@ INDI
+1 NAME Elizabeth /Rives/
+1 SEX F
+1 DEAT
+2 DATE BEFORE 1759
+2 PLAC Prince George County, Virginia
+1 FAMS @F079@
+1 NOTE Confidence C (Provisional). Branch: Rives / Harrison. Foster is a possibility rather than a proved maiden surname.
+1 SOUR @S4@
+1 SOUR @S12@
+0 @I151@ INDI
+1 NAME George /Rives/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1660
+2 PLAC Prince George County, Virginia
+1 DEAT
+2 DATE AFTER 8 SEP 1719
+1 FAMC @F083@
+1 FAMS @F080@
+1 NOTE Confidence D (Traditional / disputed). Branch: Rives / Harrison. The link to immigrant William is inherited/traditional and should not be treated as proved.
+1 SOUR @S4@
+1 SOUR @S13@
+0 @I152@ INDI
+1 NAME Peter /Wyche/
+1 SEX M
+1 FAMS @F081@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S11@
+0 @I153@ INDI
+1 NAME Alice /Wyche/
+1 SEX F
+1 FAMS @F081@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison.
+1 SOUR @S11@
+0 @I154@ INDI
+1 NAME William Raiford /Agee/
+1 SEX M
+1 BIRT
+2 DATE 13 AUG 1806
+2 PLAC Buckingham County, Virginia
+1 DEAT
+2 DATE 31 AUG 1870
+2 PLAC Alabama
+1 FAMC @F086@
+1 FAMS @F082@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I155@ INDI
+1 NAME Elvina /Hill/
+1 SEX F
+1 FAMC @F087@
+1 FAMS @F082@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I157@ INDI
+1 NAME William /Rives/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1636
+2 PLAC Oxfordshire, England
+1 DEAT
+2 DATE AFTER 1695
+2 PLAC Surry County, Virginia
+1 FAMS @F083@
+1 NOTE Confidence D (Traditional / disputed). Branch: Rives / Harrison. Traditionally said to have settled at Blandford, Virginia. Published researchers disagree about the earliest immigrant and the parent-child links.
+1 SOUR @S4@
+1 SOUR @S13@
+0 @I158@ INDI
+1 NAME Reuben /Harrison/
+1 SEX M
+1 DEAT
+2 DATE 1835
+1 FAMS @F084@
+1 NOTE Confidence B (Strong). Branch: Rives / Harrison. Equity records identify William Harrison as his son.
+1 SOUR @S20@
+0 @I159@ INDI
+1 NAME Nancy /Harrison/
+1 SEX F
+1 FAMS @F084@
+1 NOTE Confidence C (Provisional). Branch: Rives / Harrison. Nancy is named as Reuben’s widow; the maiden name Kirkland comes from compiled family material and is not proved here.
+1 SOUR @S20@
+0 @I160@ INDI
+1 NAME James /Perry/
+1 SEX M
+1 DEAT
+2 DATE AFTER 14 APR 1806 / BEFORE 1825
+2 PLAC Kershaw District, South Carolina
+1 FAMS @F085@
+1 NOTE Confidence A (Confirmed). Branch: Rives / Harrison. His will and later equity case identify Ann Perry as his daughter.
+1 SOUR @S20@
+0 @I161@ INDI
+1 NAME Noah /Agee/
+1 SEX M
+1 BIRT
+2 DATE 12 NOV 1750
+2 PLAC Virginia
+1 DEAT
+2 DATE 9 APR 1823
+2 PLAC Alabama
+1 FAMC @F088@
+1 FAMS @F086@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I162@ INDI
+1 NAME Martha /Mask/
+1 SEX F
+1 BIRT
+2 DATE 27 DEC 1768
+1 FAMS @F086@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant. Her parentage was not sufficiently proved in this research pass.
+1 SOUR @S8@
+0 @I163@ INDI
+1 NAME William /Hill/
+1 SEX M
+1 FAMS @F087@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant. Named as Elvina Hill’s father; her mother is unidentified.
+1 SOUR @S8@
+0 @I164@ INDI
+1 NAME James /Agee/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1725
+2 PLAC Virginia
+1 DEAT
+2 DATE 1821
+1 FAMC @F089@
+1 FAMS @F088@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I165@ INDI
+1 NAME Mary /Ford/
+1 SEX F
+1 FAMC @F090@
+1 FAMS @F088@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant. A will reportedly proves the surname Ford; the family history discusses uncertainty over whether her given name was Mary or Elizabeth.
+1 SOUR @S8@
+0 @I166@ INDI
+1 NAME Mathieu /Agee/
+1 SEX M
+1 BIRT
+2 DATE ABOUT 1670
+2 PLAC near Nantes, France
+1 DEAT
+2 PLAC Virginia
+1 FAMC @F092@
+1 FAMS @F089@
+1 NOTE Confidence C (Provisional). Branch: Agee / Ford / Bondurant. Huguenot immigrant traditionally said to have arrived in Virginia in 1690. Parentage is substantially less secure than his American family.
+1 SOUR @S8@
+0 @I167@ INDI
+1 NAME Ann /Godwin/
+1 SEX F
+1 FAMC @F091@
+1 FAMS @F089@
+1 NOTE Confidence C (Provisional). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I168@ INDI
+1 NAME James /Ford/
+1 SEX M
+1 FAMS @F090@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I169@ INDI
+1 NAME Ann /Bondurant/
+1 SEX F
+1 FAMC @F093@
+1 FAMS @F090@
+1 NOTE Confidence B (Strong). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I170@ INDI
+1 NAME Isaac /Godwin/
+1 SEX M
+1 FAMS @F091@
+1 NOTE Confidence C (Provisional). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I171@ INDI
+1 NAME Ann /Godwin/
+1 SEX F
+1 FAMS @F091@
+1 NOTE Confidence C (Provisional). Branch: Agee / Ford / Bondurant.
+1 SOUR @S8@
+0 @I172@ INDI
+1 NAME Anthony /Agee/
+1 SEX M
+1 FAMS @F092@
+1 NOTE Confidence D (Traditional / disputed). Branch: Agee / Ford / Bondurant. The claim that Anthony Agee and Judith Chastain were Mathieu’s parents appears in later addenda/tradition and needs independent French records.
+1 SOUR @S8@
+0 @I173@ INDI
+1 NAME Judith /Chastain/
+1 SEX F
+1 FAMS @F092@
+1 NOTE Confidence D (Traditional / disputed). Branch: Agee / Ford / Bondurant. Traditional mother of Mathieu Agee; not treated as proved.
+1 SOUR @S8@
+0 @I174@ INDI
+1 NAME Jean Pierre John Peter /Bondurant/
+1 SEX M
+1 BIRT
+2 PLAC near Lyon, France
+1 DEAT
+2 PLAC Virginia
+1 FAMS @F093@
+1 NOTE Confidence C (Provisional). Branch: Agee / Ford / Bondurant. The Agee family history identifies him as Ann Bondurant’s father and describes his Huguenot migration.
+1 SOUR @S8@
+0 @F001@ FAM
+1 WIFE @I002@
+1 CHIL @I001@
+0 @F002@ FAM
+1 HUSB @I003@
+1 WIFE @I004@
+1 CHIL @I002@
+0 @F003@ FAM
+1 HUSB @I005@
+1 WIFE @I006@
+1 CHIL @I003@
+0 @F004@ FAM
+1 HUSB @I007@
+1 WIFE @I008@
+1 CHIL @I004@
+0 @F005@ FAM
+1 HUSB @I009@
+1 WIFE @I010@
+1 CHIL @I005@
+0 @F006@ FAM
+1 HUSB @I013@
+1 WIFE @I014@
+1 CHIL @I006@
+0 @F007@ FAM
+1 HUSB @I017@
+1 WIFE @I018@
+1 CHIL @I009@
+0 @F008@ FAM
+1 HUSB @I019@
+1 WIFE @I020@
+1 CHIL @I010@
+1 MARR
+2 DATE 1860
+2 PLAC New York
+0 @F009@ FAM
+1 HUSB @I021@
+1 CHIL @I020@
+0 @F010@ FAM
+1 HUSB @I022@
+1 WIFE @I023@
+1 CHIL @I013@
+1 MARR
+2 DATE 20 APR 1849
+2 PLAC Birmingham, Oakland County, Michigan
+0 @F011@ FAM
+1 HUSB @I024@
+1 WIFE @I025@
+1 CHIL @I022@
+1 MARR
+2 DATE 19 MAY 1808
+0 @F012@ FAM
+1 HUSB @I026@
+1 WIFE @I027@
+1 CHIL @I024@
+1 MARR
+2 DATE 23 MAY 1770
+2 PLAC Guilford, Connecticut
+0 @F013@ FAM
+1 HUSB @I028@
+1 WIFE @I029@
+1 CHIL @I025@
+1 MARR
+2 DATE 3 OCT 1784
+2 PLAC Guilford, Connecticut
+0 @F014@ FAM
+1 HUSB @I030@
+1 WIFE @I031@
+1 CHIL @I026@
+1 MARR
+2 DATE 16 MAY 1721
+0 @F015@ FAM
+1 HUSB @I032@
+1 WIFE @I033@
+1 CHIL @I027@
+1 MARR
+2 DATE 8 JAN 1751
+0 @F016@ FAM
+1 HUSB @I034@
+1 WIFE @I035@
+1 CHIL @I028@
+1 MARR
+2 DATE 25 OCT 1759
+2 PLAC Guilford, Connecticut
+0 @F017@ FAM
+1 HUSB @I036@
+1 WIFE @I037@
+1 CHIL @I030@
+0 @F018@ FAM
+1 HUSB @I038@
+1 CHIL @I031@
+0 @F019@ FAM
+1 HUSB @I039@
+1 WIFE @I040@
+1 CHIL @I032@
+1 MARR
+2 DATE APR 1699
+0 @F020@ FAM
+1 HUSB @I041@
+1 WIFE @I042@
+1 CHIL @I034@
+1 MARR
+2 DATE 25 JAN 1737/38
+2 PLAC Guilford, Connecticut
+0 @F021@ FAM
+1 HUSB @I043@
+1 WIFE @I044@
+1 CHIL @I035@
+1 MARR
+2 DATE 1 JUN 1726
+0 @F022@ FAM
+1 HUSB @I045@
+1 CHIL @I037@
+0 @F023@ FAM
+1 HUSB @I046@
+1 WIFE @I047@
+1 CHIL @I039@
+1 MARR
+2 DATE 5 DEC 1672
+0 @F024@ FAM
+1 HUSB @I048@
+1 WIFE @I049@
+1 CHIL @I040@
+1 MARR
+2 DATE 20 SEP 1665
+0 @F025@ FAM
+1 HUSB @I050@
+1 WIFE @I051@
+1 CHIL @I041@
+1 MARR
+2 DATE 28 MAY 1713
+0 @F026@ FAM
+1 HUSB @I052@
+1 CHIL @I042@
+0 @F027@ FAM
+1 HUSB @I053@
+1 WIFE @I054@
+1 CHIL @I043@
+0 @F028@ FAM
+1 HUSB @I055@
+1 WIFE @I056@
+1 CHIL @I044@
+0 @F029@ FAM
+1 HUSB @I057@
+1 WIFE @I058@
+1 CHIL @I046@
+1 MARR
+2 DATE 7 SEP 1642
+0 @F030@ FAM
+1 HUSB @I059@
+1 WIFE @I060@
+1 CHIL @I048@
+1 MARR
+2 DATE ABOUT 1630
+0 @F031@ FAM
+1 HUSB @I061@
+1 WIFE @I062@
+1 CHIL @I049@
+0 @F032@ FAM
+1 HUSB @I063@
+1 WIFE @I064@
+1 CHIL @I050@
+1 MARR
+2 DATE 10 JUL 1673
+0 @F033@ FAM
+1 HUSB @I065@
+1 WIFE @I066@
+1 CHIL @I051@
+1 MARR
+2 DATE 7 MAR 1665
+2 PLAC Killingworth, Connecticut
+0 @F034@ FAM
+1 HUSB @I065@
+1 WIFE @I076@
+1 CHIL @I070@
+0 @F035@ FAM
+1 HUSB @I067@
+1 WIFE @I068@
+1 CHIL @I052@
+1 MARR
+2 DATE 4 MAR 1663/64
+0 @F036@ FAM
+1 HUSB @I069@
+1 WIFE @I070@
+1 CHIL @I053@
+1 MARR
+2 DATE ABOUT 1669
+0 @F037@ FAM
+1 HUSB @I071@
+1 WIFE @I072@
+1 CHIL @I054@
+1 MARR
+2 DATE DEC 1678
+2 PLAC Wallingford, Connecticut
+0 @F038@ FAM
+1 HUSB @I073@
+1 WIFE @I074@
+1 CHIL @I063@
+1 MARR
+2 DATE ABOUT 1642
+0 @F039@ FAM
+1 HUSB @I075@
+1 WIFE @I076@
+1 CHIL @I065@
+0 @F040@ FAM
+1 HUSB @I077@
+1 WIFE @I078@
+1 CHIL @I066@
+1 MARR
+2 DATE ABOUT 1633
+0 @F041@ FAM
+1 HUSB @I079@
+1 WIFE @I080@
+1 CHIL @I067@
+1 MARR
+2 DATE BEFORE 29 FEB 1639/40
+0 @F042@ FAM
+1 HUSB @I081@
+1 CHIL @I068@
+0 @F043@ FAM
+1 HUSB @I082@
+1 WIFE @I083@
+1 CHIL @I069@
+1 MARR
+2 DATE ABOUT 1628
+0 @F044@ FAM
+1 HUSB @I084@
+1 WIFE @I085@
+1 CHIL @I071@
+1 MARR
+2 DATE ABOUT 1653
+0 @F045@ FAM
+1 HUSB @I086@
+1 WIFE @I087@
+1 CHIL @I072@
+1 MARR
+2 DATE ABOUT 1656
+0 @F046@ FAM
+1 HUSB @I088@
+1 CHIL @I078@
+0 @F047@ FAM
+1 HUSB @I089@
+1 WIFE @I090@
+1 CHIL @I083@
+1 MARR
+2 DATE ABOUT 1598
+0 @F048@ FAM
+1 HUSB @I091@
+1 CHIL @I084@
+0 @F049@ FAM
+1 HUSB @I092@
+1 WIFE @I093@
+1 CHIL @I085@
+1 MARR
+2 DATE 26 JAN 1628/29
+2 PLAC Roydon, Essex, England
+0 @F050@ FAM
+1 HUSB @I094@
+1 WIFE @I095@
+1 CHIL @I086@
+0 @F051@ FAM
+1 HUSB @I096@
+1 CHIL @I087@
+0 @F052@ FAM
+1 HUSB @I097@
+1 WIFE @I098@
+1 CHIL @I089@
+1 MARR
+2 DATE 25 APR 1569
+2 PLAC Dedham, Essex, England
+0 @F053@ FAM
+1 HUSB @I099@
+1 WIFE @I100@
+1 CHIL @I090@
+1 MARR
+2 DATE BEFORE 1594
+0 @F054@ FAM
+1 HUSB @I101@
+1 WIFE @I102@
+1 CHIL @I092@
+1 MARR
+2 DATE ABOUT 1597
+0 @F055@ FAM
+1 HUSB @I103@
+1 WIFE @I104@
+1 CHIL @I093@
+0 @F056@ FAM
+1 HUSB @I105@
+1 WIFE @I106@
+1 CHIL @I097@
+1 MARR
+2 DATE ABOUT 1539
+0 @F057@ FAM
+1 HUSB @I107@
+1 CHIL @I098@
+0 @F058@ FAM
+1 HUSB @I108@
+1 WIFE @I109@
+1 CHIL @I099@
+0 @F059@ FAM
+1 HUSB @I110@
+1 WIFE @I111@
+1 CHIL @I100@
+1 MARR
+2 DATE ABOUT 1548
+0 @F060@ FAM
+1 HUSB @I112@
+1 WIFE @I113@
+1 CHIL @I101@
+1 MARR
+2 DATE ABOUT 1558
+0 @F061@ FAM
+1 HUSB @I114@
+1 WIFE @I115@
+1 CHIL @I007@
+1 MARR
+2 DATE 23 SEP 1895
+0 @F062@ FAM
+1 HUSB @I116@
+1 WIFE @I117@
+1 CHIL @I114@
+1 MARR
+2 DATE 30 APR 1861
+2 PLAC Bullitt County, Kentucky
+0 @F063@ FAM
+1 HUSB @I118@
+1 WIFE @I119@
+1 CHIL @I116@
+0 @F064@ FAM
+1 HUSB @I120@
+1 WIFE @I121@
+1 CHIL @I115@
+0 @F065@ FAM
+1 HUSB @I122@
+1 WIFE @I123@
+1 CHIL @I120@
+0 @F066@ FAM
+1 HUSB @I124@
+1 WIFE @I125@
+1 CHIL @I117@
+1 MARR
+2 DATE 13 DEC 1838
+2 PLAC Bullitt County, Kentucky
+0 @F067@ FAM
+1 HUSB @I126@
+1 CHIL @I122@
+0 @F068@ FAM
+1 HUSB @I127@
+1 WIFE @I132@
+1 CHIL @I126@
+0 @F069@ FAM
+1 HUSB @I128@
+1 WIFE @I129@
+1 CHIL @I123@
+0 @F070@ FAM
+1 HUSB @I130@
+1 WIFE @I131@
+1 CHIL @I008@
+1 MARR
+2 DATE 24 JUN 1895
+0 @F071@ FAM
+1 HUSB @I133@
+1 WIFE @I134@
+1 CHIL @I130@
+0 @F072@ FAM
+1 HUSB @I135@
+1 WIFE @I136@
+1 CHIL @I131@
+1 MARR
+2 DATE 14 NOV 1866
+2 PLAC Benton, Alabama
+0 @F073@ FAM
+1 HUSB @I137@
+1 WIFE @I138@
+1 CHIL @I135@
+1 MARR
+2 DATE 29 MAY 1823
+0 @F074@ FAM
+1 HUSB @I139@
+1 WIFE @I140@
+1 CHIL @I137@
+1 MARR
+2 DATE 29 FEB 1790
+0 @F075@ FAM
+1 HUSB @I141@
+1 WIFE @I142@
+1 CHIL @I139@
+1 MARR
+2 DATE ABOUT 1760
+0 @F076@ FAM
+1 HUSB @I143@
+1 WIFE @I144@
+1 CHIL @I141@
+0 @F077@ FAM
+1 HUSB @I145@
+1 WIFE @I146@
+1 CHIL @I140@
+0 @F078@ FAM
+1 HUSB @I147@
+1 WIFE @I148@
+1 CHIL @I138@
+0 @F079@ FAM
+1 HUSB @I149@
+1 WIFE @I150@
+1 CHIL @I143@
+0 @F080@ FAM
+1 HUSB @I151@
+1 CHIL @I149@
+0 @F081@ FAM
+1 HUSB @I152@
+1 WIFE @I153@
+1 CHIL @I142@
+0 @F082@ FAM
+1 HUSB @I154@
+1 WIFE @I155@
+1 CHIL @I136@
+1 MARR
+2 DATE 26 JAN 1826
+0 @F083@ FAM
+1 HUSB @I157@
+1 CHIL @I151@
+0 @F084@ FAM
+1 HUSB @I158@
+1 WIFE @I159@
+1 CHIL @I147@
+0 @F085@ FAM
+1 HUSB @I160@
+1 CHIL @I148@
+0 @F086@ FAM
+1 HUSB @I161@
+1 WIFE @I162@
+1 CHIL @I154@
+0 @F087@ FAM
+1 HUSB @I163@
+1 CHIL @I155@
+0 @F088@ FAM
+1 HUSB @I164@
+1 WIFE @I165@
+1 CHIL @I161@
+0 @F089@ FAM
+1 HUSB @I166@
+1 WIFE @I167@
+1 CHIL @I164@
+0 @F090@ FAM
+1 HUSB @I168@
+1 WIFE @I169@
+1 CHIL @I165@
+0 @F091@ FAM
+1 HUSB @I170@
+1 WIFE @I171@
+1 CHIL @I167@
+0 @F092@ FAM
+1 HUSB @I172@
+1 WIFE @I173@
+1 CHIL @I166@
+0 @F093@ FAM
+1 HUSB @I174@
+1 CHIL @I169@
+0 @S1@ SOUR
+1 TITL Statement supplied by Fredric Muller Vollmer
+1 NOTE Anchors Fredric, Jan Muller Vollmer, Anne Muller/McCormick, Eloise McCormick, and Charles Ellsworth McCormick II.
+0 @S2@ SOUR
+1 TITL 1998 Muller Family Tree by Arthur John "Art" Muller
+1 NOTE Primary roadmap for the Muller, Vollrath, Kleitz, Wüst, and Lee relationships. Jan described it as "pretty accurate" but noted omissions.
+0 @S3@ SOUR
+1 TITL Jan Muller Vollmer family correspondence about the Lee family
+1 NOTE Identifies Elma Lee Muller as Arthur John Muller’s mother, her brother Elmer, and family locations in Michigan.
+0 @S4@ SOUR
+1 TITL Irene Slaughter Cooke DAR lineage worksheet
+1 NOTE Documents the Rives descent from Lula Rives through Green Rives and records the traditional line to William Rives of Oxfordshire.
+0 @S5@ SOUR
+1 TITL Arthur John Muller Collection, Veterans History Project
+1 REPO https://www.loc.gov/item/afc2001001.95688/
+1 NOTE Confirms Arthur John Muller’s Army service dates, 1943-1945, and preserves his first-person materials.
+0 @S6@ SOUR
+1 TITL Hubbard Stone Lee family group
+1 REPO https://famouskin.com/family-group.php?ahnum=4&name=181960+harry+pearl+lee
+1 NOTE Names Hubbard’s parents, wife, and children, including Elmer Ellsworth Lee; cites Michigan vital records and NEHGR.
+0 @S7@ SOUR
+1 TITL Harry Pearl Lee Ahnentafel ancestor chart
+1 REPO https://famouskin.com/ahnentafel.php?name=181960+harry+pearl+lee
+1 NOTE Provides the colonial Connecticut and English-parish ancestry behind Hubbard Stone Lee. Individual family-group pages cite record sets and publications.
+0 @S8@ SOUR
+1 TITL A Record of the Agee Family, P. M. Agee
+1 REPO https://archive.org/stream/recordofageefami00agee_0/recordofageefami00agee_0_djvu.txt
+1 NOTE Connects Elvie A. Slaughter, Lula Rives, Florence Estelle Agee, and the Agee line to Mathieu Agee; the compiler expressly acknowledges possible errors.
+0 @S9@ SOUR
+1 TITL Robert Calhoun Rives profile
+1 REPO https://thereevesproject.org/data/tiki-index.php?page=Rives_Robert_Calhoun_RR128ID314
+1 NOTE Uses pension, census, and published Rives materials for Robert Calhoun Rives and his family.
+0 @S10@ SOUR
+1 TITL Green Rives profile
+1 REPO https://thereevesproject.org/data/tiki-index.php?page=Rives_Green_RR94ID24&page_ref_id=8919&structure=FamilyOf_Ryves_Robert_RR1ID1
+1 NOTE Documents Green Rives, Mary Ridley Jones, and Green’s parents William Rives and Lucy Wyche.
+0 @S11@ SOUR
+1 TITL William Rives profile
+1 REPO https://thereevesproject.org/data/tiki-index.php?page=Rives_William_RR88ID19
+1 NOTE Documents William Rives, Lucy Wyche, and the relationship to Timothy Rives.
+0 @S12@ SOUR
+1 TITL Timothy Rives profile
+1 REPO https://thereevesproject.org/data/tiki-index.php?page=Rives_Timothy_RR85ID12
+1 NOTE Documents Timothy Rives and discusses the uncertain identity of his wife Hester and earlier Rives generations.
+0 @S13@ SOUR
+1 TITL William Ryves immigrant profile and lineage discussion
+1 REPO https://www.werelate.org/wiki/Person:William_Ryves_(1)
+1 NOTE Explains disagreement over whether William or Timothy was the earliest immigrant and why the c.1636 English connection remains disputed.
+0 @S14@ SOUR
+1 TITL Christopher O’Brien lineage
+1 REPO https://bullittcountyhistory.org/bchistory/christopher_obrien.html
+1 NOTE Connects Martha Ann O’Brien McCormick to Christopher O’Brien and Sophronia Simmons.
+0 @S15@ SOUR
+1 TITL Annotated Bullitt County 1850 census
+1 REPO https://bullittcountyhistory.org/bchistory/bd/50-06-09.html
+1 NOTE Shows Charles and Elizabeth McCormick with son Edward in Bullitt County in 1850.
+0 @S16@ SOUR
+1 TITL Shepherdsville Pioneer Graveyard historical marker inventory
+1 REPO https://bullittcountyhistory.org/hmarkers/sheppioneergraveyard.html
+1 NOTE Supports the dates and marriage of Edward H. McCormick and Martha Ann O’Brien.
+0 @S17@ SOUR
+1 TITL David Franklin Brooks / Brooks family biography
+1 REPO https://bullittcountyhistory.org/bchistory/dfbrooks.html
+1 NOTE Documents Solomon Neal Brooks, Elizabeth Field, and their parentage; conflicts with other records about Solomon’s mother.
+0 @S18@ SOUR
+1 TITL Joseph A. Brooks 1845 will
+1 REPO https://bullittcountyhistory.org/bchistory/josephabrooks-will.html
+1 NOTE Names wife Rebecca and children including Solomon N. Brooks. The will also documents enslaved people held by the estate.
+0 @S19@ SOUR
+1 TITL Joseph Brooks 1818 will
+1 REPO https://bullittcountyhistory.org/bchistory/joseph-brooks-will.html
+1 NOTE Names wife Nancy and son Joseph Anderson Brooks. The will also documents enslaved people held by the estate.
+0 @S20@ SOUR
+1 TITL Fairfield County Harrison research and equity-court abstracts
+1 REPO https://fairfieldgenealogysociety.org/Members_Only/Families/Harrison/Documents/Harrison%20Finding%20Your%20Roots%20T.V.%20Show%20Research.pdf
+1 NOTE Equity records identify Amelia Harrison as daughter of William Harrison and Ann Perry, granddaughter of Reuben Harrison, and granddaughter of James Perry on her mother’s side.
+0 @S21@ SOUR
+1 TITL Kastler Families database: Lambert Kleitz and Elizabeth Wüst family
+1 REPO https://kastler.net/wp-content/plugins/genealone-wp/pdf.php?gnln_id=161&gnln_page=place
+1 NOTE Lists Lambert Kleitz, Elizabeth Wüst, their children including Henrietta, and Elizabeth’s father Jacob Wüst.
+0 @S22@ SOUR
+1 TITL Charles Ellsworth McCormick (1862-1911)
+1 REPO https://ancestors.familysearch.org/en/L2X2-7HQ/charles-ellsworth-mccormick-1862-1911
+1 NOTE Supports birth, death, and marriage details for Charles Ellsworth McCormick I.
+0 @S23@ SOUR
+1 TITL Isaac Bush Slaughter Sr. profile
+1 REPO https://ancestors.familysearch.org/en/LBPF-BPB/isaac-bush-slaughter-sr-1857-1937
+1 NOTE Supports dates and parents for Isaac Bush Slaughter Sr.; used with the DAR worksheet and Agee family history.
+0 @S24@ SOUR
+1 TITL Modern Muller/Lee vital-record indexes
+1 REPO https://www.ancestry.com/genealogy/records/results?firstName=elms&geo-lang=de-DE&lastName=lee
+1 NOTE Supports Elma Anna Lee’s dates and identifies Elmer Ellsworth Lee and Mary Wilhelmina Ohmer as her parents.
+0 @S25@ SOUR
+1 TITL Charles Ellsworth McCormick II public index
+1 REPO https://www.ancestry.com/genealogy/records/results?firstName=charles&lastName=mccormick&page=2
+1 NOTE Supports Charles Ellsworth McCormick II’s birth and death dates.
+
+0 @I175@ INDI
+1 NAME Arianna Lynn Annie /Vollmer/
+1 SEX F
+1 NOTE Relationship to Fredric: Sister.
+1 NOTE Confidence: A - Confirmed.
+0 @I176@ INDI
+1 NAME Henry Richard Dick /Vollmer/
+1 SEX M
+1 NOTE Relationship to Fredric: Father.
+1 NOTE Confidence: A - Confirmed.
+1 DEAT
+0 @I177@ INDI
+1 NAME Bruce /Muller/
+1 SEX M
+1 NOTE Relationship to Fredric: Maternal uncle.
+1 NOTE Confidence: A - Confirmed.
+1 DEAT
+0 @I178@ INDI
+1 NAME Mary Gene Muller /Chaffee/
+1 SEX F
+1 NOTE Relationship to Fredric: Maternal great-aunt.
+1 NOTE Confidence: A - Confirmed.
+0 @I179@ INDI
+1 NAME James /Chaffee/
+1 SEX F
+1 NOTE Relationship to Fredric: Maternal great-uncle by marriage.
+1 NOTE Confidence: A - Confirmed.
+0 @I180@ INDI
+1 NAME Linda /Chaffee/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I181@ INDI
+1 NAME Lori Chaffee /Mettler/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I182@ INDI
+1 NAME James /Chaffee/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I183@ INDI
+1 NAME Jane Muller /Swick/
+1 SEX F
+1 NOTE Relationship to Fredric: Maternal great-aunt.
+1 NOTE Confidence: A - Confirmed.
+0 @I184@ INDI
+1 NAME Howard /Swick/
+1 SEX M
+1 NOTE Relationship to Fredric: Maternal great-uncle by marriage.
+1 NOTE Confidence: A - Confirmed.
+0 @I185@ INDI
+1 NAME Kathy Swick /Werblo/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I186@ INDI
+1 NAME Dave /Werblo/
+1 SEX M
+1 NOTE Relationship to Fredric: Cousin-in-law (1C1R spouse).
+1 NOTE Confidence: A - Confirmed.
+0 @I187@ INDI
+1 NAME John /Swick/
+1 SEX M
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I188@ INDI
+1 NAME  /Celeste/
+1 SEX F
+1 NOTE Relationship to Fredric: Cousin-in-law (1C1R spouse).
+1 NOTE Confidence: C - Provisional.
+0 @I189@ INDI
+1 NAME Susan Sue Swick /Galbraith/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I190@ INDI
+1 NAME Gordon /Galbraith/
+1 SEX M
+1 NOTE Relationship to Fredric: Cousin-in-law (1C1R spouse).
+1 NOTE Confidence: A - Confirmed.
+0 @I191@ INDI
+1 NAME Patti /Swick/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I192@ INDI
+1 NAME Rick /Lilly/
+1 SEX M
+1 NOTE Relationship to Fredric: Cousin-in-law (historical).
+1 NOTE Confidence: B - Strong.
+0 @I193@ INDI
+1 NAME Philip Brooks /McCormick/
+1 SEX M
+1 NOTE Relationship to Fredric: Maternal great-uncle.
+1 NOTE Confidence: A - Confirmed.
+1 DEAT
+0 @I194@ INDI
+1 NAME Elizabeth Betsy Ross /McCormick/
+1 SEX F
+1 NOTE Relationship to Fredric: Maternal great-aunt by marriage.
+1 NOTE Confidence: B - Strong.
+0 @I195@ INDI
+1 NAME Sandy McCormick /Hill/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I196@ INDI
+1 NAME John /Hill/
+1 SEX M
+1 NOTE Relationship to Fredric: Cousin-in-law (1C1R spouse).
+1 NOTE Confidence: A - Confirmed.
+0 @I197@ INDI
+1 NAME Ross /McCormick/
+1 SEX M
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I198@ INDI
+1 NAME Carrie /McCormick/
+1 SEX F
+1 NOTE Relationship to Fredric: Cousin-in-law (1C1R spouse).
+1 NOTE Confidence: A - Confirmed.
+0 @I199@ INDI
+1 NAME Tina /McCormick/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I200@ INDI
+1 NAME Charles /McCormick/
+1 SEX M
+1 NOTE Relationship to Fredric: Maternal great-uncle.
+1 NOTE Confidence: A - Confirmed.
+1 DEAT
+0 @I201@ INDI
+1 NAME Judy /McCormick/
+1 SEX F
+1 NOTE Relationship to Fredric: Maternal great-aunt by marriage.
+1 NOTE Confidence: A - Confirmed.
+0 @I202@ INDI
+1 NAME Gwendolyn Gwen McCormick /Hull/
+1 SEX F
+1 NOTE Relationship to Fredric: Maternal great-aunt.
+1 NOTE Confidence: A - Confirmed.
+0 @I203@ INDI
+1 NAME Jim /Hull/
+1 SEX M
+1 NOTE Relationship to Fredric: Maternal great-uncle by marriage.
+1 NOTE Confidence: A - Confirmed.
+0 @I204@ INDI
+1 NAME Carey /Zaura/
+1 SEX F
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @I205@ INDI
+1 NAME Mark /Hull/
+1 SEX M
+1 NOTE Relationship to Fredric: First cousin once removed.
+1 NOTE Confidence: A - Confirmed.
+0 @F94@ FAM
+1 HUSB @I005@
+1 WIFE @I006@
+1 CHIL @I178@
+1 CHIL @I183@
+1 CHIL @I003@
+1 NOTE Children reconstructed from the 1998 Art Muller family chart.
+0 @F95@ FAM
+1 HUSB @I179@
+1 WIFE @I178@
+1 CHIL @I180@
+1 CHIL @I181@
+1 CHIL @I182@
+1 NOTE James is the corrected third child name; earlier draft said Janet.
+0 @F96@ FAM
+1 HUSB @I184@
+1 WIFE @I183@
+1 CHIL @I185@
+1 CHIL @I187@
+1 CHIL @I189@
+1 CHIL @I191@
+0 @F97@ FAM
+1 HUSB @I003@
+1 WIFE @I004@
+1 CHIL @I177@
+1 CHIL @I002@
+0 @F98@ FAM
+1 HUSB @I176@
+1 WIFE @I002@
+1 CHIL @I001@
+1 CHIL @I175@
+0 @F99@ FAM
+1 HUSB @I007@
+1 WIFE @I008@
+1 CHIL @I004@
+1 CHIL @I193@
+1 CHIL @I200@
+1 CHIL @I202@
+1 NOTE Four-child McCormick sibling set; Gwen is a core sibling.
+0 @F100@ FAM
+1 HUSB @I193@
+1 WIFE @I194@
+1 CHIL @I195@
+1 CHIL @I197@
+1 CHIL @I199@
+0 @F101@ FAM
+1 HUSB @I203@
+1 WIFE @I202@
+1 CHIL @I204@
+1 CHIL @I205@
+1 NOTE Carey is the one and only daughter; Mark is the other child.
+0 @F102@ FAM
+1 HUSB @I186@
+1 WIFE @I185@
+1 NOTE Dave and Kathy Werblo
+0 @F103@ FAM
+1 HUSB @I187@
+1 WIFE @I188@
+1 NOTE John and Celeste
+0 @F104@ FAM
+1 HUSB @I190@
+1 WIFE @I189@
+1 NOTE Gordon and Susan Galbraith
+0 @F105@ FAM
+1 HUSB @I192@
+1 WIFE @I191@
+1 NOTE Historical spouse shown in 1998 chart
+0 @F106@ FAM
+1 HUSB @I196@
+1 WIFE @I195@
+1 NOTE John and Sandy Hill
+0 @F107@ FAM
+1 HUSB @I197@
+1 WIFE @I198@
+1 NOTE Ross and Carrie McCormick
+0 @F108@ FAM
+1 HUSB @I200@
+1 WIFE @I201@
+1 NOTE Charles and Judy McCormick
+0 TRLR

@@ -1,0 +1,20 @@
+GEDCOM individuals: 308
+GEDCOM families: 144
+GEDCOM sources: 30
+GEDCOM trailers: 1
+broken individual references: 0
+superseded Janet transcription absent: True
+Jan biological-mother correction present: True
+Mary Alice present: True
+Chris Vollmer present: True
+Chris father intentionally absent: True
+Elmer James Chaffee corrected: True
+people CSV rows: 308
+families CSV rows: 144
+source inventory rows: 72
+workbook sheets: 12
+workbook formula errors: 0
+workbook consolidated individual count: 308
+workbook consolidated family count: 144
+workbook consolidated GEDCOM source count: 30
+workbook source and record inventory count: 72

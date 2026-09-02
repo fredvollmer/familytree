@@ -1,0 +1,145 @@
+family_id,husband_id,wife_id,children_ids,notes,source_refs
+F001,I003,I004,I002;I177,Collateral relationship merged from the extended-family research package.,S27
+F002,I005,I006,I003;I178;I183,Children reconstructed from the 1998 Art Muller family chart. | Collateral relationship merged from the extended-family research package.,S27
+F003,I007,I008,I004;I193;I200;I202,Collateral relationship merged from the extended-family research package. | Four-child McCormick sibling set; Gwen is a core sibling.,S27
+F004,I009,I010,I005;I310;I311,Collateral relationship merged from the extended-family research package.,S27
+F005,I013,I014,I006;I314;I315,Collateral relationship merged from the extended-family research package.,S27
+F006,I017,I018,I009,,
+F007,I019,I020,I010,,
+F008,I021,,I020,,
+F009,I022,I023,I013,,
+F010,I024,I025,I022,,
+F011,I026,I027,I024,,
+F012,I028,I029,I025,,
+F013,I030,I031,I026,,
+F014,I032,I033,I027,,
+F015,I034,I035,I028,,
+F016,I036,I037,I030,,
+F017,I038,,I031,,
+F018,I039,I040,I032,,
+F019,I041,I042,I034,,
+F020,I043,I044,I035,,
+F021,I045,,I037,,
+F022,I046,I047,I039,,
+F023,I048,I049,I040,,
+F024,I050,I051,I041,,
+F025,I052,,I042,,
+F026,I053,I054,I043,,
+F027,I055,I056,I044,,
+F028,I057,I058,I046,,
+F029,I059,I060,I048,,
+F030,I061,I062,I049,,
+F031,I063,I064,I050,,
+F032,I065,I066,I051,,
+F033,I065,I076,I070,,
+F034,I067,I068,I052,,
+F035,I069,I070,I053,,
+F036,I071,I072,I054,,
+F037,I073,I074,I063,,
+F038,I075,I076,I065,,
+F039,I077,I078,I066,,
+F040,I079,I080,I067,,
+F041,I081,,I068,,
+F042,I082,I083,I069,,
+F043,I084,I085,I071,,
+F044,I086,I087,I072,,
+F045,I088,,I078,,
+F046,I089,I090,I083,,
+F047,I091,,I084,,
+F048,I092,I093,I085,,
+F049,I094,I095,I086,,
+F050,I096,,I087,,
+F051,I097,I098,I089,,
+F052,I099,I100,I090,,
+F053,I101,I102,I092,,
+F054,I103,I104,I093,,
+F055,I105,I106,I097,,
+F056,I107,,I098,,
+F057,I108,I109,I099,,
+F058,I110,I111,I100,,
+F059,I112,I113,I101,,
+F060,I114,I115,I007;I320;I324,Collateral relationship merged from the extended-family research package.,S27
+F061,I116,I117,I114,,
+F062,I118,I119,I116,,
+F063,I120,I121,I115,,
+F064,I122,I123,I120,,
+F065,I124,I125,I117,,
+F066,I126,,I122,,
+F067,I127,I132,I126,,
+F068,I128,I129,I123,,
+F069,I130,I131,I008;I327;I328;I329;I332;I333,Collateral relationship merged from the extended-family research package.,S27
+F070,I133,I134,I130,,
+F071,I135,I136,I131,,
+F072,I137,I138,I135,,
+F073,I139,I140,I137,,
+F074,I141,I142,I139,,
+F075,I143,I144,I141,,
+F076,I145,I146,I140,,
+F077,I147,I148,I138,,
+F078,I149,I150,I143,,
+F079,I151,,I149,,
+F080,I152,I153,I142,,
+F081,I154,I155,I136,,
+F082,I157,,I151,,
+F083,I158,I159,I147,,
+F084,I160,,I148,,
+F085,I161,I162,I154,,
+F086,I163,,I155,,
+F087,I164,I165,I161,,
+F088,I166,I167,I164,,
+F089,I168,I169,I165,,
+F090,I170,I171,I167,,
+F091,I172,I173,I166,,
+F092,I174,,I169,,
+F093,I179,I178,I180;I181;I182,James is the corrected third child name; earlier draft said Janet.,
+F094,I184,I183,I185;I187;I189;I191,,
+F095,I176,I002,I001;I175,Jan is Fredric and Arianna's biological mother; Henry is recorded as their father in the recovered canonical package.,S28
+F096,I193,I194,I195;I197;I199,,
+F097,I203,I202,I204;I205,Carey is the one and only daughter; Mark is the other child.,
+F098,I186,I185,,Dave and Kathy Werblo,
+F099,I187,I188,,John and Celeste,
+F100,I190,I189,,Gordon and Susan Galbraith,
+F101,I192,I191,,Historical spouse shown in 1998 chart,
+F102,I196,I195,,John and Sandy Hill,
+F103,I197,I198,,Ross and Carrie McCormick,
+F104,I200,I201,,Charles and Judy McCormick,
+F105,I207,I218,I176;I269,Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.,S26;S27
+F106,I208,I211,I207;I270,Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.,S26;S27
+F107,I209,I210,I208;I282,Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.,S26;S27
+F108,I212,I213,I211,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F109,I214,I215,I212,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F110,I216,I217,I213,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F111,I219,I264,I218;I274;I277,Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.,S26;S27
+F112,I220,I235,I219;I283,Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.,S26;S27
+F113,I221,I222,I220,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F114,I223,I224,I222,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F115,I225,I226,I223,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F116,I227,I228,I225,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F117,I229,I230,I227,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F118,I231,I232,I228,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F119,I233,I234,I229,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F120,I236,I238,I235,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F121,I237,,I236,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F122,I239,I240,I238,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F123,I241,I242,I239,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F124,I243,I244,I240,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F125,I245,I246,I241,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F126,I247,I248,I245,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F127,I249,I250,I246,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F128,I252,I253,I247,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F129,I251,I254,I248,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F130,I258,I259,I249,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F131,I260,I261,I250,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F132,I255,I256,I251,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F133,I257,,I254,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F134,I262,I263,I261,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F135,I265,I268,I264;I284;I285;I294,Collateral relationship merged from the extended-family research package. | Relationship merged from the records-first Vollmer-Marsh research package.,S26;S27
+F136,I266,I267,I265,Relationship merged from the records-first Vollmer-Marsh research package.,S26
+F137,I271,I270,I272;I273,Collateral relationship merged from the extended-family research package.,S27
+F138,I275,I274,I276,Collateral relationship merged from the extended-family research package.,S27
+F139,I277,I278,I279;I280;I281,Collateral relationship merged from the extended-family research package.,S27
+F140,I286,I285,I287;I288;I289;I290;I291;I292;I293,Collateral relationship merged from the extended-family research package.,S27
+F141,I315,I316,I317,Collateral relationship merged from the extended-family research package.,S27
+F142,I321,I320,I322;I323,Collateral relationship merged from the extended-family research package.,S27
+F143,I329,I330,I331,Collateral relationship merged from the extended-family research package.,S27
+F144,,I334,I335,Chris's father was not confirmed and is intentionally omitted.,S28

@@ -1,0 +1,522 @@
+[
+  {
+    "place": "Alabama",
+    "query": "Alabama, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Alsace, France",
+    "query": "Alsace, France",
+    "precision": "region"
+  },
+  {
+    "place": "Asheville, North Carolina",
+    "query": "Asheville, North Carolina, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Baltimore County, Maryland",
+    "query": "Baltimore County, Maryland, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Basford, Nottinghamshire, England",
+    "query": "Basford, Nottinghamshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Bavaria",
+    "query": "Bavaria, Germany",
+    "precision": "region"
+  },
+  {
+    "place": "Bellingham, Washington",
+    "query": "Bellingham, Washington, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Benton, Lowndes County, Alabama",
+    "query": "Benton, Lowndes County, Alabama, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Birmingham, Oakland County, Michigan",
+    "query": "Birmingham, Oakland County, Michigan, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Bloomfield, Oakland County, Michigan",
+    "query": "Bloomfield, Oakland County, Michigan, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Bremen, Germany",
+    "query": "Bremen, Germany",
+    "precision": "locality"
+  },
+  {
+    "place": "Brunswick County, Virginia",
+    "query": "Brunswick County, Virginia, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Buckingham County, Virginia",
+    "query": "Buckingham County, Virginia, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Bullitt County, Kentucky",
+    "query": "Bullitt County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Caledonia, Livingston, New York",
+    "query": "Caledonia, Livingston, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Camas, Clark, Washington",
+    "query": "Camas, Clark, Washington, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Cambridge, Massachusetts",
+    "query": "Cambridge, Massachusetts, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Cambridge, Massachusetts (secondary)",
+    "query": "Cambridge, Massachusetts, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "Camden District, South Carolina",
+    "query": "Kershaw County, South Carolina, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Canada",
+    "query": "Canada",
+    "precision": "region"
+  },
+  {
+    "place": "Change Islands, Newfoundland",
+    "query": "Change Islands, Newfoundland and Labrador, Canada",
+    "precision": "locality"
+  },
+  {
+    "place": "Columbia, South Carolina",
+    "query": "Columbia, South Carolina, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Connecticut",
+    "query": "Connecticut, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Dedham, Essex, England",
+    "query": "Dedham, Essex, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Detroit, Michigan",
+    "query": "Detroit, Michigan, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Detroit, Wayne, Michigan",
+    "query": "Detroit, Wayne, Michigan, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Eastham, Barnstable, Massachusetts",
+    "query": "Eastham, Barnstable, Massachusetts, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Eastham, Massachusetts",
+    "query": "Eastham, Massachusetts, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Edinburg, Texas",
+    "query": "Edinburg, Texas, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "England",
+    "query": "England",
+    "precision": "region"
+  },
+  {
+    "place": "Fairfield District, South Carolina",
+    "query": "Fairfield County, South Carolina, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Freeport, Nassau, New York",
+    "query": "Freeport, Nassau, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Germany",
+    "query": "Germany",
+    "precision": "region"
+  },
+  {
+    "place": "Granville, Washington, New York (compiled genealogy)",
+    "query": "Granville, Washington, New York, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "Guilford, Connecticut",
+    "query": "Guilford, Connecticut, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Guilford, New Haven County, Connecticut",
+    "query": "Guilford, New Haven County, Connecticut, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Hampshire, England",
+    "query": "Hampshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Hampton, New Hampshire",
+    "query": "Hampton, New Hampshire, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Harsefeld, Province of Hanover, Germany",
+    "query": "Harsefeld, Germany",
+    "precision": "locality"
+  },
+  {
+    "place": "Hempstead, Nassau, New York",
+    "query": "Hempstead, Nassau, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Highland Falls, Orange, New York",
+    "query": "Highland Falls, Orange, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Highland Park, Wayne, Michigan",
+    "query": "Highland Park, Wayne, Michigan, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Hursley, Hampshire, England",
+    "query": "Hursley, Hampshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Jefferson County, Kentucky",
+    "query": "Jefferson County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Kentucky",
+    "query": "Kentucky, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Kershaw District, South Carolina",
+    "query": "Kershaw County, South Carolina, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Killingly, Windham, Connecticut (compiled genealogy)",
+    "query": "Killingly, Windham, Connecticut, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "Killingworth, Middlesex County, Connecticut",
+    "query": "Killingworth, Middlesex County, Connecticut, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Lintig, Lehe, Province of Hanover, Germany",
+    "query": "Lintig, Geestland, Germany",
+    "precision": "locality"
+  },
+  {
+    "place": "Los Angeles County, California",
+    "query": "Los Angeles County, California, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Madison Heights, Oakland, Michigan",
+    "query": "Madison Heights, Oakland, Michigan, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Manhattan, New York (strongly supported identification of an unnamed female birth)",
+    "query": "Manhattan, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Massachusetts",
+    "query": "Massachusetts, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Massachusetts (secondary)",
+    "query": "Massachusetts, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "McAllen, Hidalgo, Texas",
+    "query": "McAllen, Hidalgo, Texas, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Michigan",
+    "query": "Michigan, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Milford, New Haven County, Connecticut",
+    "query": "Milford, New Haven County, Connecticut, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Monroeville, Monroe, Alabama",
+    "query": "Monroeville, Monroe, Alabama, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Moscow (now Leicester), Livingston, New York (compiled genealogy)",
+    "query": "Leicester, Livingston County, New York, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "New Hampshire",
+    "query": "New Hampshire, United States",
+    "precision": "region"
+  },
+  {
+    "place": "New Hampshire (compiled genealogy)",
+    "query": "New Hampshire, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "New Haven, Connecticut",
+    "query": "New Haven, Connecticut, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "New Jersey",
+    "query": "New Jersey, United States",
+    "precision": "region"
+  },
+  {
+    "place": "New London, Connecticut",
+    "query": "New London, Connecticut, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "New Marlborough, Berkshire, Massachusetts",
+    "query": "New Marlborough, Berkshire, Massachusetts, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "New York",
+    "query": "New York, United States",
+    "precision": "region"
+  },
+  {
+    "place": "New York, New York",
+    "query": "New York, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "North Bend, Coos, Oregon",
+    "query": "North Bend, Coos, Oregon, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Oxfordshire, England",
+    "query": "Oxfordshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Pavilion, Genesee, New York",
+    "query": "Pavilion, Genesee, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Pavilion, Genesee, New York (derivative lineage record)",
+    "query": "Pavilion, Genesee, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Perdue Hill, Monroe County, Alabama",
+    "query": "Perdue Hill, Monroe County, Alabama, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Perry, Wyoming, New York",
+    "query": "Perry, Wyoming, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Plymouth Colony",
+    "query": "Plymouth, Massachusetts, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "Plymouth or Eastham, Massachusetts (scholarly reconstruction)",
+    "query": "Eastham, Massachusetts, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "Prince George County, Virginia",
+    "query": "Prince George County, Virginia, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Queens, New York",
+    "query": "Queens, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Rochester, Monroe, New York",
+    "query": "Rochester, Monroe, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Roosevelt, Nassau, New York",
+    "query": "Roosevelt, Nassau, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Roydon, Essex, England",
+    "query": "Roydon, Essex, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Seattle, King, Washington",
+    "query": "Seattle, King, Washington, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Shepherdsville, Bullitt County, Kentucky",
+    "query": "Shepherdsville, Bullitt County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Simsbury, Hartford, Connecticut",
+    "query": "Simsbury, Hartford, Connecticut, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "South Carolina",
+    "query": "South Carolina, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Sparks, Maryland",
+    "query": "Sparks, Maryland, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "St. Albans, Hertfordshire, England",
+    "query": "St. Albans, Hertfordshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Stewartstown, Coos, New Hampshire",
+    "query": "Stewartstown, Coos, New Hampshire, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Stratford, Fairfield County, Connecticut",
+    "query": "Stratford, Fairfield County, Connecticut, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Stratham, New Hampshire",
+    "query": "Stratham, New Hampshire, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Stratham, New Hampshire (compiled genealogy)",
+    "query": "Stratham, New Hampshire, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "Surry County, Virginia",
+    "query": "Surry County, Virginia, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Virginia",
+    "query": "Virginia, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Wallingford, Connecticut",
+    "query": "Wallingford, Connecticut, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Wallingford, New Haven County, Connecticut",
+    "query": "Wallingford, New Haven County, Connecticut, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Ware, Hertfordshire, England",
+    "query": "Ware, Hertfordshire, England",
+    "precision": "locality"
+  },
+  {
+    "place": "Wayne County, Michigan",
+    "query": "Wayne County, Michigan, United States",
+    "precision": "county"
+  },
+  {
+    "place": "York, Livingston, New York",
+    "query": "York, Livingston, New York, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "near Lyon, France",
+    "query": "Lyon, France",
+    "precision": "approximate"
+  },
+  {
+    "place": "near Nantes, France",
+    "query": "Nantes, France",
+    "precision": "approximate"
+  },
+  {
+    "place": "probably Dedham, Essex, England",
+    "query": "Dedham, Essex, England",
+    "precision": "approximate"
+  },
+  {
+    "place": "probably Fingringhoe, Essex, England",
+    "query": "Fingringhoe, Essex, England",
+    "precision": "approximate"
+  },
+  {
+    "place": "probably Guilford, Connecticut",
+    "query": "Guilford, Connecticut, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "probably New Haven, Connecticut",
+    "query": "New Haven, Connecticut, United States",
+    "precision": "approximate"
+  },
+  {
+    "place": "probably Steyning, Sussex, England",
+    "query": "Steyning, Sussex, England",
+    "precision": "approximate"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-01",
+  "canonical_tree": {
+    "gedcom": "research/final-family-tree/Fredric_Vollmer_Complete_Family_Tree.ged",
+    "json": "research/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json"
+  },
+  "assets": [
+    {
+      "asset_id": "family-migration-map",
+      "title": "Vollmer family migration map and data",
+      "status": "approved",
+      "directory": "research/family-migration-map",
+      "primary_data": "research/family-migration-map/migration-data.json",
+      "gis_data": "research/family-migration-map/migration-events.geojson",
+      "coordinate_audit": "research/family-migration-map/geocoded-locations.json",
+      "embeddable_visualization": "research/family-migration-map/family-migration-map.html",
+      "documentation": "research/family-migration-map/README.md",
+      "validation": "research/family-migration-map/validate_migration_data.py",
+      "generated": "2026-09-01",
+      "year_extent": [1549, 2010],
+      "counts": {
+        "locations": 106,
+        "resolved_locations": 104,
+        "events": 234,
+        "dated_events": 220,
+        "movements": 172,
+        "people_represented": 158
+      },
+      "privacy": {
+        "rule": "Exclude people explicitly marked living and people with no death record whose latest parsed birth year is within 100 years of generation.",
+        "excluded_people": 8
+      },
+      "interpretation": "Movement records connect birth/death or parent/child birth endpoints as analytical inferences. They are not documented travel routes and are not independent genealogical evidence.",
+      "update_policy": "Rebuild and validate after any canonical change affecting people, families, dates, places, privacy status, or source references.",
+      "sha256": {
+        "family-migration-map.html": "1859efc9ca1ff947403e88328d4ed463021a221131e369ed1e9bf12ea9f69f90",
+        "migration-data.json": "9fc701ab31c0edcd2bd574c57e0acf17720422126ffc1d8949c149c04190b9ee",
+        "migration-events.geojson": "14c72c6491ea5a11a8c40b140bb2ab9d9ec49cb8f660b9218890d5902ab2e9cf",
+        "geocoded-locations.json": "e944d117ab64072473f4506495b98068899ba03a23e201f148cd8499c0aff213",
+        "README.md": "4a04bb8bda1398938f332b8e805bb0b9ff8f010a120dd59c11f1d79bd39517d5",
+        "validate_migration_data.py": "82bfe100ddb9712489435516d40428175669cfa32abb6dd84c1b8980a9483566"
+      }
+    }
+  ]
+}
