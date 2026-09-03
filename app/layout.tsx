@@ -13,20 +13,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Lineage — The Vollmer Family Archive',
+  title: 'Vollmer Atlas — Follow a Family Thread',
   description:
-    'Explore the Vollmer family tree, its evidence, and generations of movement across the map.',
+    'Follow the Vollmer family tree one line at a time, with evidence and migration history close at hand.',
   openGraph: {
-    title: 'Lineage — The Vollmer Family Archive',
+    title: 'Vollmer Atlas — Follow a Family Thread',
     description:
-      'Explore 328 people, preserved records, and generations of family movement.',
-    images: [{ url: '/og.png', width: 1731, height: 909, alt: 'Lineage — The Vollmer Family Archive' }],
+      'Follow 328 people one family line at a time, with preserved records and migration history.',
+    images: [
+      {
+        url: '/og.png',
+        width: 1734,
+        height: 907,
+        alt: 'Vollmer Atlas — One Family Line at a Time',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Lineage — The Vollmer Family Archive',
+    title: 'Vollmer Atlas — Follow a Family Thread',
     description:
-      'Explore 328 people, preserved records, and generations of family movement.',
+      'Follow 328 people one family line at a time, with preserved records and migration history.',
     images: ['/og.png'],
   },
 };
