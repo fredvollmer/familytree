@@ -1,6 +1,6 @@
-GEDCOM individuals: 363
-GEDCOM families: 173
-GEDCOM sources: 68
+GEDCOM individuals: 391
+GEDCOM families: 188
+GEDCOM sources: 79
 GEDCOM trailers: 1
 broken individual references: 0
 superseded Janet transcription absent: True
@@ -23,39 +23,43 @@ Peter and Chris brother association present: True
 Peter father link to Henry present: True
 Peter mother intentionally absent: True
 Elmer James Chaffee corrected: True
-people CSV rows: 363
-families CSV rows: 173
-source inventory rows: 125
+people CSV rows: 391
+families CSV rows: 188
+source inventory rows: 157
 vital-date research rows: 20
 accepted vital-date research rows: 15
-vital-date coverage rows: 363
-people with recorded birth dates: 235
-people with recorded death dates: 199
-people with complete vital dates: 166
+vital-date coverage rows: 391
+people with recorded birth dates: 256
+people with recorded death dates: 218
+people with complete vital dates: 185
 occupation research rows: 24
 accepted occupation research rows: 23
-occupation coverage rows: 363
+occupation coverage rows: 391
 people with recorded occupations or roles: 17
 GEDCOM occupation events: 23
 rejected Marion teacher absent: True
 workbook sheets: 15
 workbook formula errors: 0
-workbook consolidated individual count: 363
-workbook consolidated family count: 173
-workbook consolidated GEDCOM source count: 68
-workbook source and record inventory count: 125
-workbook birth dates recorded: 235
-workbook death dates recorded: 199
-workbook both vital dates recorded: 166
-workbook no dated event unresolved or private: 95
+workbook consolidated individual count: 391
+workbook consolidated family count: 188
+workbook consolidated GEDCOM source count: 79
+workbook source and record inventory count: 157
+workbook birth dates recorded: 256
+workbook death dates recorded: 218
+workbook both vital dates recorded: 185
+workbook no dated event unresolved or private: 102
 workbook people with recorded occupations or roles: 17
 workbook accepted occupation or role events: 23
-workbook media audit rows: 423
-media audit people: 363
+workbook media audit rows: 472
+media audit people: 391
 external photo pages located: 2
 locally archived portraits: 0
-preserved evidence files: 57
-preserved evidence images: 48
+preserved evidence files: 78
+preserved evidence images: 69
 preserved evidence PDFs: 9
 PDF evidence preview images: 18
-GEDCOM multimedia attachments: 57
+GEDCOM multimedia attachments: 78
+Wallace Ray Fischer parent family present: True
+Wanda June Wallace identity resolved: True
+Fischer collateral relatives added: False
+Fischer grave-marker images preserved: 21

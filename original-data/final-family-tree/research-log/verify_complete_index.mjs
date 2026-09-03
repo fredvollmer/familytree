@@ -34,19 +34,19 @@ for (const sheet of workbook.worksheets.items) {
 const overview = workbook.worksheets.getItem('Consolidated Overview');
 const overviewValues = overview.getRange('A1:F28').values;
 const expected = {
-  individuals: 363,
-  families: 173,
-  sources: 68,
-  inventory: 125,
-  births: 235,
-  deaths: 199,
-  complete: 166,
-  noDateOutcomes: 95,
+  individuals: 391,
+  families: 188,
+  sources: 79,
+  inventory: 157,
+  births: 256,
+  deaths: 218,
+  complete: 185,
+  noDateOutcomes: 102,
   occupationPeople: 17,
   occupationEvents: 23,
-  photoAuditedPeople: 363,
+  photoAuditedPeople: 391,
   externalPhotoPages: 2,
-  evidenceFiles: 57,
+  evidenceFiles: 78,
 };
 const actual = {
   individuals: overviewValues[4][1],
@@ -112,6 +112,14 @@ const ariannaParentsRow = families.find(
     String(row[3]).split(';').includes('I356'),
 );
 const wallaceRow = people.find((row) => row[0] === 'I357');
+const raymondJrRow = people.find((row) => row[0] === 'I391');
+const wandaRow = people.find((row) => row[0] === 'I392');
+const wallaceParentsRow = families.find(
+  (row) =>
+    row[1] === 'I391' &&
+    row[2] === 'I392' &&
+    String(row[3]).split(';').includes('I357'),
+);
 if (!chrisRow || !String(chrisRow[8]).includes('paternal half-brother')) {
   errors.push(
     'Chris person row does not record the owner-confirmed paternal half-brother relationship',
@@ -161,9 +169,17 @@ if (
     'Arianna Fischer, spouse link, parent link, or owner-supplied birth year is missing',
   );
 }
-if (!wallaceRow || String(wallaceRow[9] ?? '')) {
+if (
+  !wallaceRow ||
+  wallaceRow[9] !== 'F174' ||
+  !raymondJrRow ||
+  raymondJrRow[1] !== 'Raymond Charles Fischer Jr' ||
+  !wandaRow ||
+  wandaRow[1] !== 'Wanda June Wallace Fischer' ||
+  !wallaceParentsRow
+) {
   errors.push(
-    'Wallace Ray Fischer has an imported parent family despite unresolved parentage',
+    'Wallace Ray Fischer parentage, Raymond Charles Fischer Jr, or Wanda June Wallace Fischer is missing',
   );
 }
 if (sheets.length !== 15)
@@ -173,11 +189,11 @@ const coverageSheet = sheets.find(
 );
 if (
   !coverageSheet ||
-  coverageSheet.rows !== 364 ||
+  coverageSheet.rows !== 392 ||
   coverageSheet.columns !== 8
 ) {
   errors.push(
-    `Vital Date Coverage dimensions: expected 364x8, got ${coverageSheet?.rows ?? 'missing'}x${coverageSheet?.columns ?? 'missing'}`,
+    `Vital Date Coverage dimensions: expected 392x8, got ${coverageSheet?.rows ?? 'missing'}x${coverageSheet?.columns ?? 'missing'}`,
   );
 }
 const occupationCoverageSheet = sheets.find(
@@ -185,11 +201,11 @@ const occupationCoverageSheet = sheets.find(
 );
 if (
   !occupationCoverageSheet ||
-  occupationCoverageSheet.rows !== 364 ||
+  occupationCoverageSheet.rows !== 392 ||
   occupationCoverageSheet.columns !== 9
 ) {
   errors.push(
-    `Occupation Coverage dimensions: expected 364x9, got ${occupationCoverageSheet?.rows ?? 'missing'}x${occupationCoverageSheet?.columns ?? 'missing'}`,
+    `Occupation Coverage dimensions: expected 392x9, got ${occupationCoverageSheet?.rows ?? 'missing'}x${occupationCoverageSheet?.columns ?? 'missing'}`,
   );
 }
 const peopleSheet = sheets.find(
@@ -203,11 +219,11 @@ if (!peopleSheet || peopleSheet.columns !== 11) {
 const mediaAuditSheet = sheets.find((sheet) => sheet.name === 'Media Audit');
 if (
   !mediaAuditSheet ||
-  mediaAuditSheet.rows !== 424 ||
+  mediaAuditSheet.rows !== 473 ||
   mediaAuditSheet.columns !== 12
 ) {
   errors.push(
-    `Media Audit dimensions: expected 424x12, got ${mediaAuditSheet?.rows ?? 'missing'}x${mediaAuditSheet?.columns ?? 'missing'}`,
+    `Media Audit dimensions: expected 473x12, got ${mediaAuditSheet?.rows ?? 'missing'}x${mediaAuditSheet?.columns ?? 'missing'}`,
   );
 }
 const mediaRows = workbook.worksheets
@@ -229,9 +245,16 @@ if (
     'Arthur Herman Muller external Ancestry photo-page audit row is missing',
   );
 }
-if (preservedEvidenceRows.length !== 57 || excludedControls.length !== 2) {
+const graveMarkerRows = preservedEvidenceRows.filter((row) =>
+  String(row[4]).includes('_grave-marker'),
+);
+if (
+  preservedEvidenceRows.length !== 78 ||
+  excludedControls.length !== 2 ||
+  graveMarkerRows.length !== 21
+) {
   errors.push(
-    `Media evidence rows: expected 57 with 2 excluded controls, got ${preservedEvidenceRows.length} with ${excludedControls.length} excluded controls`,
+    `Media evidence rows: expected 78 with 2 excluded controls and 21 grave markers, got ${preservedEvidenceRows.length}, ${excludedControls.length}, and ${graveMarkerRows.length}`,
   );
 }
 

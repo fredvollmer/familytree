@@ -2,15 +2,17 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const [inputPath, outputDir] = process.argv.slice(2);
+const [inputPath, outputDir, startAtArg = "0"] = process.argv.slice(2);
 if (!inputPath || !outputDir) {
-  throw new Error("usage: render_index_artifact_tool.mjs INPUT_XLSX OUTPUT_DIR");
+  throw new Error("usage: render_index_artifact_tool.mjs INPUT_XLSX OUTPUT_DIR [ZERO_BASED_START_INDEX]");
 }
+const startAt = Number.parseInt(startAtArg, 10);
+if (!Number.isInteger(startAt) || startAt < 0) throw new Error("start index must be a non-negative integer");
 
 await fs.mkdir(outputDir, { recursive: true });
 const workbook = await SpreadsheetFile.importXlsx(await FileBlob.load(inputPath));
 const names = [];
-for (let index = 0; ; index += 1) {
+for (let index = startAt; ; index += 1) {
   let sheet;
   try {
     sheet = workbook.worksheets.getItemAt(index);

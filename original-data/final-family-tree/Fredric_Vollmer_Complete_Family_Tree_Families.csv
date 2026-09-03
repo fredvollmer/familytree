@@ -172,3 +172,18 @@ F170,I383,I384,I364,,Alice's SSA application and the 1940 census identify Willia
 F171,I385,I386,I383,ABT 1879,The 1900 census records William as their son and reports the couple married for 21 years; Mary's birth surname remains unknown.,S57
 F172,I387,I388,I384,"4 JUL 1889; Pickaway County, Ohio",The 1900 census records Daisy as their daughter.,S58;S59
 F173,I389,I390,I388,"17 DEC 1861; Pickaway County, Ohio",The 1880 census records Annie as their daughter.,S60
+F174,I391,I392,I357,"11 JUN 1957; Taylor, Williamson County, Texas","Owner identification is corroborated by the Texas marriage record, the 1940 census, and Raymond's 2022 obituary/tribute cluster.",S69;S70
+F175,I393,I394,I391,,The 1940 census explicitly records Raymond Jr. as their son.,S70;S71
+F176,I395,I396,I393,"5 SEP 1888; Falls County, Texas",Texas birth/death certificates and the 1920 census name Daniel and Lena as Raymond Sr.'s parents.,S71;S73
+F177,I397,I398,I395,,The Grossaspach baptism and family-table records name both parents.,S73
+F178,I399,I400,I396,,Lena's Texas death certificate names Jacob Wirtz and Catherine Swan.,S73
+F179,I401,I402,I394,,The 1920 census explicitly records Ruby as their daughter.,S72
+F180,I403,I404,I392,"13 APR 1935; Webb City, Jasper County, Missouri",The 1940 census explicitly records Wanda as their daughter; the 1935 marriage record links Chalmers and Dorothy.,S74
+F181,I405,I406,I403,,The 1920 census explicitly records Chalmers as their son.,S74;S75
+F182,,I407,I405,,The memorial index explicitly links Mary J. McGaha Wallace as Walter's mother. No father is inferred.,S75
+F183,I408,I409,I406,,Alice Mae Williams's memorial index explicitly names Robert and Nancy as parents.,S75
+F184,I410,I411,I409,,Nancy Ellen Brannan Williams's memorial index explicitly names Elisha and Clarissa as parents.,S75
+F185,I412,,I411,,Clarissa McCoy's memorial index explicitly names Daniel Franklin McCoy as father. Her mother remains blank.,S75
+F186,I413,I414,I404,,Dorothy's SSA record names Ambrose Long Highley and Mary Elizabeth Herod as parents.,S74;S76
+F187,I415,I416,I413,,The 1880 census explicitly records Ambrose as their son.,S76
+F188,I417,I418,I415,,The parent names come from William's memorial and are treated as a lower-confidence stopping point; the 1850 household alone does not state relationships.,S76

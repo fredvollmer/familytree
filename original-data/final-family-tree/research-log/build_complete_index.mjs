@@ -2,8 +2,8 @@ import fs from 'node:fs/promises';
 import { FileBlob, SpreadsheetFile } from '@oai/artifact-tool';
 
 const packageDir = new URL('../', import.meta.url).pathname;
-const projectDir = new URL('../../../../', import.meta.url).pathname;
-const outputDir = `${projectDir}outputs/01a06308-afa6-7520-af69-eb57d94d77c3`;
+const outputDir =
+  '/Users/russell.jowell/.codex/.chatgpt-projects/g-p-6a9492c4e8d48191b5dca277888916b0/outputs/01a0640d-9e01-72e0-b4b9-ced4750b376e';
 const inputPath = `${packageDir}Fredric_Vollmer_Maternal_Family_Tree_Records_First_Index.xlsx`;
 const outputName = 'Fredric_Vollmer_Complete_Family_Tree_Index.xlsx';
 
@@ -63,49 +63,49 @@ overview.getRange('A5:A17').values = [
   ['Preserved evidence files'],
 ];
 overview.getRange('B5').formulas = [
-  ["=COUNTA('Consolidated People'!$A$2:$A$364)"],
+  ["=COUNTA('Consolidated People'!$A$2:$A$392)"],
 ];
 overview.getRange('B6').formulas = [
-  ["=COUNTA('Consolidated Families'!$A$2:$A$174)"],
+  ["=COUNTA('Consolidated Families'!$A$2:$A$189)"],
 ];
 overview.getRange('B7').formulas = [
   [
-    "=COUNTA('Consolidated Sources'!$A$2:$A$126)-COUNTIF('Consolidated Sources'!$F$2:$F$126,\"preserved original or derivative record\")",
+    "=COUNTA('Consolidated Sources'!$A$2:$A$158)-COUNTIF('Consolidated Sources'!$F$2:$F$158,\"preserved original or derivative record\")",
   ],
 ];
 overview.getRange('B8').formulas = [
-  ["=COUNTA('Consolidated Sources'!$A$2:$A$126)"],
+  ["=COUNTA('Consolidated Sources'!$A$2:$A$158)"],
 ];
 overview.getRange('B9').formulas = [
-  ['=COUNTIF(\'Vital Date Coverage\'!$D$2:$D$364,"recorded")'],
+  ['=COUNTIF(\'Vital Date Coverage\'!$D$2:$D$392,"recorded")'],
 ];
 overview.getRange('B10').formulas = [
-  ['=COUNTIF(\'Vital Date Coverage\'!$F$2:$F$364,"recorded")'],
+  ['=COUNTIF(\'Vital Date Coverage\'!$F$2:$F$392,"recorded")'],
 ];
 overview.getRange('B11').formulas = [
-  ['=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"complete")'],
+  ['=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$392,"complete")'],
 ];
 overview.getRange('B12').formulas = [
   [
-    '=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"unresolved")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"not researched—privacy limited")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$364,"withheld—living/private")',
+    '=COUNTIF(\'Vital Date Coverage\'!$G$2:$G$392,"unresolved")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$392,"not researched—privacy limited")+COUNTIF(\'Vital Date Coverage\'!$G$2:$G$392,"withheld—living/private")',
   ],
 ];
 overview.getRange('B13').formulas = [
-  ['=COUNTIF(\'Occupation Coverage\'!$E$2:$E$364,"recorded")'],
+  ['=COUNTIF(\'Occupation Coverage\'!$E$2:$E$392,"recorded")'],
 ];
 overview.getRange('B14').formulas = [
   [
-    '=COUNTIF(\'Occupation Coverage\'!$D$2:$D$364,"1")+2*COUNTIF(\'Occupation Coverage\'!$D$2:$D$364,"2")+3*COUNTIF(\'Occupation Coverage\'!$D$2:$D$364,"3")',
+    '=COUNTIF(\'Occupation Coverage\'!$D$2:$D$392,"1")+2*COUNTIF(\'Occupation Coverage\'!$D$2:$D$392,"2")+3*COUNTIF(\'Occupation Coverage\'!$D$2:$D$392,"3")',
   ],
 ];
 overview.getRange('B15').formulas = [
-  ['=COUNTIF(\'Media Audit\'!$A$2:$A$424,"person")'],
+  ['=COUNTIF(\'Media Audit\'!$A$2:$A$473,"person")'],
 ];
 overview.getRange('B16').formulas = [
-  ['=COUNTIF(\'Media Audit\'!$D$2:$D$424,"external_photo_page")'],
+  ['=COUNTIF(\'Media Audit\'!$D$2:$D$473,"external_photo_page")'],
 ];
 overview.getRange('B17').formulas = [
-  ['=COUNTIF(\'Media Audit\'!$A$2:$A$424,"evidence")'],
+  ['=COUNTIF(\'Media Audit\'!$A$2:$A$473,"evidence")'],
 ];
 
 overview.getRange('D4:F4').values = [
@@ -123,12 +123,12 @@ overview.getRange('D5:D12').values = [
 ];
 overview.getRange('E5').formulas = [
   [
-    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$364,"Jan Muller Vollmer")=1,"Confirmed","Review")',
+    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$392,"Jan Muller Vollmer")=1,"Confirmed","Review")',
   ],
 ];
 overview.getRange('E6').formulas = [
   [
-    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$364,"Mary Alice Thoren")=1,"Confirmed","Review")',
+    '=IF(COUNTIF(\'Consolidated People\'!$B$2:$B$392,"Mary Alice Thoren")=1,"Confirmed","Review")',
   ],
 ];
 overview.getRange('E7:E12').values = [
@@ -156,7 +156,7 @@ overview.getRange('F5:F12').values = [
     '29 Jun 1959–5 Aug 1975; Henry named as father; Christopher named as sibling; mother unresolved',
   ],
   [
-    "Wife and direct ancestors only; Wallace Ray Fischer's parents remain blank; source links and selected record images preserved",
+    'Wife and direct ancestors only; Wallace Ray Fischer parentage resolved; 21 grave-marker images and exact memorial links preserved',
   ],
 ];
 
@@ -174,7 +174,7 @@ overview.getRange('A20:F28').values = [
   [
     'GEDCOM',
     'Canonical tree structure',
-    363,
+    391,
     'Fredric_Vollmer_Complete_Family_Tree.ged',
     'Current',
     'Import this file into genealogy software',
@@ -182,7 +182,7 @@ overview.getRange('A20:F28').values = [
   [
     'Canonical JSON',
     'Structured mirror',
-    363,
+    391,
     'Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json',
     'Current',
     'Machine-readable people, families, and sources',
@@ -190,7 +190,7 @@ overview.getRange('A20:F28').values = [
   [
     'People ledger',
     'Person-level audit',
-    363,
+    391,
     'Fredric_Vollmer_Complete_Family_Tree_People.csv',
     'Current',
     'One row per GEDCOM individual',
@@ -198,7 +198,7 @@ overview.getRange('A20:F28').values = [
   [
     'Families ledger',
     'Family-level audit',
-    173,
+    188,
     'Fredric_Vollmer_Complete_Family_Tree_Families.csv',
     'Current',
     'Parent, spouse, child, and marriage links',
@@ -206,15 +206,15 @@ overview.getRange('A20:F28').values = [
   [
     'Sources ledger',
     'Citation and record index',
-    125,
+    157,
     'Fredric_Vollmer_Complete_Family_Tree_Source_Inventory.csv',
     'Current',
-    'Includes 68 GEDCOM sources and 57 preserved record files',
+    'Includes 79 GEDCOM sources and 78 preserved record files',
   ],
   [
     'Vital-date coverage',
     'Birth/death status for every person',
-    363,
+    391,
     'Fredric_Vollmer_Complete_Family_Tree_Vital_Date_Coverage.csv',
     'Current',
     'Recorded, unresolved, or privacy-limited outcome for every person',
@@ -222,7 +222,7 @@ overview.getRange('A20:F28').values = [
   [
     'Occupation coverage',
     'Occupation/role status for every person',
-    363,
+    391,
     'Fredric_Vollmer_Complete_Family_Tree_Occupation_Coverage.csv',
     'Current',
     '17 people with 23 cited events; every other person has an explicit coverage outcome',
@@ -230,10 +230,10 @@ overview.getRange('A20:F28').values = [
   [
     'Media audit',
     'Photo coverage and evidence attachments',
-    423,
+    472,
     'Fredric_Vollmer_Complete_Family_Tree_Media_Inventory.csv',
     'Current',
-    '363 people audited; 57 preserved evidence files; external and restricted photos remain linked rather than copied',
+    '391 people audited; 78 preserved evidence files, including 21 grave-marker images with exact memorial attribution',
   ],
   [
     'Recovered workbook tabs',
@@ -379,13 +379,13 @@ for (const config of configs) {
 
 const coverage = workbook.worksheets.getItem('Vital Date Coverage');
 coverage
-  .getRange('G2:G364')
+  .getRange('G2:G392')
   .conditionalFormats.addCustom('=$G2="complete"', { fill: green });
 coverage
-  .getRange('G2:G364')
+  .getRange('G2:G392')
   .conditionalFormats.addCustom('=$G2="partial"', { fill: '#FFF2CC' });
 coverage
-  .getRange('G2:G364')
+  .getRange('G2:G392')
   .conditionalFormats.addCustom(
     '=OR($G2="unresolved",$G2="not researched—privacy limited",$G2="withheld—living/private")',
     { fill: '#FCE4D6' },
@@ -393,10 +393,10 @@ coverage
 
 const occupationCoverage = workbook.worksheets.getItem('Occupation Coverage');
 occupationCoverage
-  .getRange('E2:E364')
+  .getRange('E2:E392')
   .conditionalFormats.addCustom('=$E2="recorded"', { fill: green });
 occupationCoverage
-  .getRange('E2:E364')
+  .getRange('E2:E392')
   .conditionalFormats.addCustom(
     '=OR($E2="unresolved—no supported occupation found",$E2="not researched—privacy limited",$E2="withheld—living/private",$E2="not established—minor")',
     { fill: '#FCE4D6' },
@@ -404,13 +404,13 @@ occupationCoverage
 
 const mediaAudit = workbook.worksheets.getItem('Media Audit');
 mediaAudit
-  .getRange('D2:D424')
+  .getRange('D2:D473')
   .conditionalFormats.addCustom('=$D2="external_photo_page"', { fill: green });
 mediaAudit
-  .getRange('D2:D424')
+  .getRange('D2:D473')
   .conditionalFormats.addCustom('=$D2="privacy_withheld"', { fill: '#FFF2CC' });
 mediaAudit
-  .getRange('D2:D424')
+  .getRange('D2:D473')
   .conditionalFormats.addCustom('=$D2="excluded_identity_control"', {
     fill: '#FCE4D6',
   });
