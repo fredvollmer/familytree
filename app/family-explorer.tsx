@@ -13,8 +13,10 @@ import {
   Images,
   Map as MapIcon,
   Maximize2,
+  Minus,
   Pause,
   Play,
+  Plus,
   RotateCcw,
   Route,
   Search,
@@ -24,10 +26,18 @@ import {
 } from 'lucide-react';
 import { feature } from 'topojson-client';
 import { geoGraticule10, geoNaturalEarth1, geoPath } from 'd3-geo';
-import { useEffect, useMemo, useState } from 'react';
+import {
+  type PointerEvent as ReactPointerEvent,
+  type WheelEvent as ReactWheelEvent,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import {
   NativeSelect,
@@ -184,6 +194,9 @@ type MigrationData = {
   movements: MovementRecord[];
 };
 
+type MapRegion = 'europe-americas' | 'europe' | 'americas';
+type MapTransform = { x: number; y: number; scale: number };
+
 type RelationIndex = {
   parents: Map<string, string[]>;
   children: Map<string, string[]>;
@@ -195,6 +208,89 @@ type RelationIndex = {
 const ROOT_ID = 'I001';
 const ASSET_BASE = import.meta.env.BASE_URL || '/';
 const assetUrl = (path: string) => `${ASSET_BASE}${path.replace(/^\//, '')}`;
+
+const REGION_BOUNDS: Record<
+  MapRegion,
+  { west: number; south: number; east: number; north: number }
+> = {
+  'europe-americas': { west: -170, south: -60, east: 45, north: 75 },
+  europe: { west: -25, south: 34, east: 45, north: 72 },
+  americas: { west: -170, south: -60, east: -30, north: 75 },
+};
+
+const LINE_COLORS = [
+  '#c65d49',
+  '#d19a4a',
+  '#9b668c',
+  '#a83f46',
+  '#c47b52',
+  '#737c5c',
+  '#746a7d',
+  '#b06757',
+];
+
+const lineLabel = (line: string) =>
+  line === 'Unspecified' ? 'Other documented lines' : line;
+
+const locationInRegion = (
+  location: MapLocation | undefined,
+  region: MapRegion,
+) => {
+  if (!location || location.latitude === null || location.longitude === null)
+    return false;
+  const inEurope =
+    location.longitude >= REGION_BOUNDS.europe.west &&
+    location.longitude <= REGION_BOUNDS.europe.east &&
+    location.latitude >= REGION_BOUNDS.europe.south &&
+    location.latitude <= REGION_BOUNDS.europe.north;
+  const inAmericas =
+    location.longitude >= REGION_BOUNDS.americas.west &&
+    location.longitude <= REGION_BOUNDS.americas.east &&
+    location.latitude >= REGION_BOUNDS.americas.south &&
+    location.latitude <= REGION_BOUNDS.americas.north;
+  return region === 'europe'
+    ? inEurope
+    : region === 'americas'
+      ? inAmericas
+      : inEurope || inAmericas;
+};
+
+function fitMapRegion(
+  projection: ReturnType<typeof geoNaturalEarth1>,
+  region: MapRegion,
+  width: number,
+  height: number,
+): MapTransform {
+  const bounds = REGION_BOUNDS[region];
+  const points: [number, number][] = [];
+  for (let x = 0; x <= 4; x += 1) {
+    for (let y = 0; y <= 4; y += 1) {
+      const projected = projection([
+        bounds.west + ((bounds.east - bounds.west) * x) / 4,
+        bounds.south + ((bounds.north - bounds.south) * y) / 4,
+      ]);
+      if (projected) points.push(projected);
+    }
+  }
+  const xs = points.map((point) => point[0]);
+  const ys = points.map((point) => point[1]);
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
+  const scale = Math.min(
+    5.5,
+    Math.max(
+      0.9,
+      Math.min((width - 72) / (maxX - minX), (height - 64) / (maxY - minY)),
+    ),
+  );
+  return {
+    x: width / 2 - ((minX + maxX) / 2) * scale,
+    y: height / 2 - ((minY + maxY) / 2) * scale,
+    scale,
+  };
+}
 
 const splitRefs = (value = '') =>
   value
@@ -547,22 +643,8 @@ function MigrationMap({
   world: unknown;
   onSelect: (id: string) => void;
 }) {
-  const [side, setSide] = useState<'All' | 'Maternal' | 'Paternal'>('All');
-  const [routeType, setRouteType] = useState<'intergenerational' | 'lifetime'>(
-    'intergenerational',
-  );
-  const [year, setYear] = useState(data.metadata.year_extent[1]);
-  const [playing, setPlaying] = useState(false);
-  const [selectedLocation, setSelectedLocation] = useState<string | null>(null);
   const width = 1000;
   const height = 520;
-  const locations = useMemo(
-    () =>
-      new Map(
-        data.locations.map((location) => [location.location_id, location]),
-      ),
-    [data.locations],
-  );
   const projection = useMemo(
     () =>
       geoNaturalEarth1().fitExtent(
@@ -575,6 +657,62 @@ function MigrationMap({
     [],
   );
   const path = useMemo(() => geoPath(projection), [projection]);
+  const mapRef = useRef<SVGSVGElement>(null);
+  const dragRef = useRef<{
+    clientX: number;
+    clientY: number;
+    transform: MapTransform;
+  } | null>(null);
+  const [side, setSide] = useState<'All' | 'Maternal' | 'Paternal'>('All');
+  const [region, setRegion] = useState<MapRegion>('europe-americas');
+  const [routeType, setRouteType] = useState<'intergenerational' | 'lifetime'>(
+    'intergenerational',
+  );
+  const [year, setYear] = useState(data.metadata.year_extent[1]);
+  const [playing, setPlaying] = useState(false);
+  const familyLines = useMemo(
+    () =>
+      [...new Set(data.events.map((event) => event.branch))].sort((a, b) => {
+        if (a === 'Unspecified') return 1;
+        if (b === 'Unspecified') return -1;
+        return a.localeCompare(b);
+      }),
+    [data.events],
+  );
+  const [selectedLines, setSelectedLines] = useState<Set<string>>(
+    () => new Set(familyLines),
+  );
+  const [selectedPoint, setSelectedPoint] = useState<string | null>(null);
+  const [mapTransform, setMapTransform] = useState<MapTransform>(() =>
+    fitMapRegion(projection, 'europe-americas', width, height),
+  );
+  const [dragging, setDragging] = useState(false);
+  const locations = useMemo(
+    () =>
+      new Map(
+        data.locations.map((location) => [location.location_id, location]),
+      ),
+    [data.locations],
+  );
+  const lineColors = useMemo(
+    () =>
+      new Map(
+        familyLines.map((line, index) => [
+          line,
+          LINE_COLORS[index % LINE_COLORS.length],
+        ]),
+      ),
+    [familyLines],
+  );
+  const lineByPerson = useMemo(() => {
+    const index = new Map<string, string>();
+    data.events.forEach((event) => {
+      const current = index.get(event.person_id);
+      if (!current || (current === 'Unspecified' && event.branch !== current))
+        index.set(event.person_id, event.branch);
+    });
+    return index;
+  }, [data.events]);
   const countries = useMemo(() => {
     if (!world || typeof world !== 'object' || !('objects' in world)) return [];
     const objects = (world as { objects: Record<string, unknown> }).objects;
@@ -601,43 +739,167 @@ function MigrationMap({
     return () => window.clearInterval(timer);
   }, [playing, data.metadata.year_extent]);
 
-  const events = data.events.filter(
-    (event) =>
-      event.year_min !== null &&
-      event.year_min <= year &&
-      (side === 'All' || event.side === side),
+  const events = useMemo(
+    () =>
+      data.events.filter(
+        (event) =>
+          event.year_min !== null &&
+          event.year_min <= year &&
+          selectedLines.has(event.branch) &&
+          (side === 'All' || event.side === side) &&
+          locationInRegion(locations.get(event.location_id), region),
+      ),
+    [data.events, locations, region, selectedLines, side, year],
   );
-  const movements = data.movements.filter(
-    (movement) =>
-      movement.movement_type === routeType &&
-      movement.year_min !== null &&
-      movement.year_min <= year &&
-      (side === 'All' || movement.side === side),
+  const movements = useMemo(
+    () =>
+      data.movements.filter((movement) => {
+        const line = lineByPerson.get(movement.person_id) ?? 'Unspecified';
+        return (
+          movement.movement_type === routeType &&
+          movement.year_min !== null &&
+          movement.year_min <= year &&
+          selectedLines.has(line) &&
+          (side === 'All' || movement.side === side) &&
+          locationInRegion(locations.get(movement.from_location_id), region) &&
+          locationInRegion(locations.get(movement.to_location_id), region)
+        );
+      }),
+    [
+      data.movements,
+      lineByPerson,
+      locations,
+      region,
+      routeType,
+      selectedLines,
+      side,
+      year,
+    ],
   );
   const pointGroups = useMemo(() => {
-    const groups = new Map<string, MapEvent[]>();
+    const groups = new Map<string, { line: string; events: MapEvent[] }>();
     events.forEach((event) =>
-      groups.set(event.location_id, [
-        ...(groups.get(event.location_id) ?? []),
-        event,
-      ]),
+      groups.set(`${event.location_id}::${event.branch}`, {
+        line: event.branch,
+        events: [
+          ...(groups.get(`${event.location_id}::${event.branch}`)?.events ??
+            []),
+          event,
+        ],
+      }),
     );
-    return [...groups.entries()]
-      .map(([locationId, locationEvents]) => ({
-        locationId,
-        events: locationEvents,
-        location: locations.get(locationId),
-      }))
+    const baseGroups = [...groups.entries()]
+      .map(([pointKey, group]) => {
+        const locationId = pointKey.split('::')[0];
+        return {
+          pointKey,
+          locationId,
+          line: group.line,
+          events: group.events,
+          location: locations.get(locationId),
+        };
+      })
       .filter(
         (group) =>
           group.location?.latitude !== null &&
           group.location?.longitude !== null,
       );
+    const totals = new Map<string, number>();
+    baseGroups.forEach((group) =>
+      totals.set(group.locationId, (totals.get(group.locationId) ?? 0) + 1),
+    );
+    const seen = new Map<string, number>();
+    return baseGroups.map((group) => {
+      const index = seen.get(group.locationId) ?? 0;
+      seen.set(group.locationId, index + 1);
+      return {
+        ...group,
+        siblingIndex: index,
+        siblingCount: totals.get(group.locationId) ?? 1,
+      };
+    });
   }, [events, locations]);
-  const selectedEvents = selectedLocation
-    ? (pointGroups.find((point) => point.locationId === selectedLocation)
-        ?.events ?? [])
-    : [];
+  const selectedGroup = selectedPoint
+    ? pointGroups.find((point) => point.pointKey === selectedPoint)
+    : undefined;
+  const visibleLocationCount = new Set(
+    pointGroups.map((point) => point.locationId),
+  ).size;
+
+  const chooseRegion = (nextRegion: MapRegion) => {
+    setRegion(nextRegion);
+    setMapTransform(fitMapRegion(projection, nextRegion, width, height));
+    setSelectedPoint(null);
+  };
+
+  const toggleLine = (line: string, checked: boolean) => {
+    setSelectedLines((current) => {
+      const next = new Set(current);
+      if (checked) next.add(line);
+      else next.delete(line);
+      return next;
+    });
+    setSelectedPoint(null);
+  };
+
+  const zoomAt = (factor: number, x = width / 2, y = height / 2) => {
+    setMapTransform((current) => {
+      const nextScale = Math.max(0.8, Math.min(8, current.scale * factor));
+      const worldX = (x - current.x) / current.scale;
+      const worldY = (y - current.y) / current.scale;
+      return {
+        x: x - worldX * nextScale,
+        y: y - worldY * nextScale,
+        scale: nextScale,
+      };
+    });
+  };
+
+  const mapWheel = (event: ReactWheelEvent<SVGSVGElement>) => {
+    event.preventDefault();
+    const rect = mapRef.current?.getBoundingClientRect();
+    if (!rect) return;
+    zoomAt(
+      event.deltaY < 0 ? 1.14 : 0.88,
+      ((event.clientX - rect.left) / rect.width) * width,
+      ((event.clientY - rect.top) / rect.height) * height,
+    );
+  };
+
+  const mapPointerDown = (event: ReactPointerEvent<SVGSVGElement>) => {
+    if (
+      event.button !== 0 ||
+      (event.target as Element).closest('[data-map-point]')
+    )
+      return;
+    dragRef.current = {
+      clientX: event.clientX,
+      clientY: event.clientY,
+      transform: mapTransform,
+    };
+    setDragging(true);
+    event.currentTarget.setPointerCapture(event.pointerId);
+  };
+
+  const mapPointerMove = (event: ReactPointerEvent<SVGSVGElement>) => {
+    const drag = dragRef.current;
+    const rect = mapRef.current?.getBoundingClientRect();
+    if (!drag || !rect) return;
+    setMapTransform({
+      ...drag.transform,
+      x:
+        drag.transform.x +
+        ((event.clientX - drag.clientX) / rect.width) * width,
+      y:
+        drag.transform.y +
+        ((event.clientY - drag.clientY) / rect.height) * height,
+    });
+  };
+
+  const stopDragging = () => {
+    dragRef.current = null;
+    setDragging(false);
+  };
 
   return (
     <div className="map-stage">
@@ -652,6 +914,22 @@ function MigrationMap({
             <NativeSelectOption value="All">Both sides</NativeSelectOption>
             <NativeSelectOption value="Maternal">Maternal</NativeSelectOption>
             <NativeSelectOption value="Paternal">Paternal</NativeSelectOption>
+          </NativeSelect>
+        </div>
+        <div className="map-select-control">
+          <span>Map area</span>
+          <NativeSelect
+            aria-label="Map area"
+            value={region}
+            onChange={(event) => chooseRegion(event.target.value as MapRegion)}
+          >
+            <NativeSelectOption value="europe-americas">
+              Europe + Americas
+            </NativeSelectOption>
+            <NativeSelectOption value="europe">Europe only</NativeSelectOption>
+            <NativeSelectOption value="americas">
+              Americas only
+            </NativeSelectOption>
           </NativeSelect>
         </div>
         <div className="map-select-control">
@@ -688,91 +966,263 @@ function MigrationMap({
           {playing ? 'Pause' : 'Play'}
         </Button>
       </div>
-      <div className="map-canvas">
-        <svg
-          viewBox={`0 0 ${width} ${height}`}
-          role="img"
-          aria-label="Family birth and death locations over time"
-        >
-          <path className="map-sphere" d={path({ type: 'Sphere' }) ?? ''} />
-          <path className="map-graticule" d={path(geoGraticule10()) ?? ''} />
-          {countries.map((country, index) => (
-            <path
-              className="map-country"
-              key={index}
-              d={path(country as never) ?? ''}
-            />
-          ))}
-          {movements.map((movement) => {
-            const from = locations.get(movement.from_location_id);
-            const to = locations.get(movement.to_location_id);
-            if (
-              !from ||
-              !to ||
-              from.latitude === null ||
-              from.longitude === null ||
-              to.latitude === null ||
-              to.longitude === null
-            )
-              return null;
-            return (
-              <path
-                key={movement.movement_id}
-                className={`map-route ${movement.side.toLowerCase()} ${movement.movement_type === 'lifetime' ? 'lifetime' : ''}`}
-                d={
-                  path({
-                    type: 'LineString',
-                    coordinates: [
-                      [from.longitude, from.latitude],
-                      [to.longitude, to.latitude],
-                    ],
-                  }) ?? ''
-                }
-              />
-            );
-          })}
-          {pointGroups.map((point) => {
-            const location = point.location!;
-            const projected = projection([
-              location.longitude!,
-              location.latitude!,
-            ]);
-            if (!projected) return null;
-            const dominant =
-              point.events.filter((event) => event.side === 'Maternal')
-                .length >=
-              point.events.length / 2
-                ? 'maternal'
-                : 'paternal';
-            return (
-              <g
-                key={point.locationId}
-                className={`map-point ${dominant} ${selectedLocation === point.locationId ? 'selected' : ''}`}
-                transform={`translate(${projected[0]} ${projected[1]})`}
-                tabIndex={0}
-                role="button"
-                aria-label={`${location.label}: ${point.events.length} recorded events`}
-                onClick={() => setSelectedLocation(point.locationId)}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter')
-                    setSelectedLocation(point.locationId);
-                }}
-              >
-                <circle
-                  r={Math.min(11, 3.5 + Math.sqrt(point.events.length) * 1.7)}
-                />
-                <title>
-                  {location.label} · {point.events.length} events
-                </title>
-              </g>
-            );
-          })}
-        </svg>
-        <div className="map-legend">
-          <span className="dot maternal" /> Maternal{' '}
-          <span className="dot paternal" /> Paternal <i /> Inferred endpoint
-          connection
+      <div className="map-line-filter">
+        <div className="map-line-filter-head">
+          <span>
+            Family lines <small>{selectedLines.size} selected</small>
+          </span>
+          <div>
+            <Button
+              variant="ghost"
+              size="xs"
+              onClick={() => {
+                setSelectedLines(new Set(familyLines));
+                setSelectedPoint(null);
+              }}
+            >
+              Select all
+            </Button>
+            <Button
+              variant="ghost"
+              size="xs"
+              onClick={() => {
+                setSelectedLines(new Set());
+                setSelectedPoint(null);
+              }}
+            >
+              Clear
+            </Button>
+          </div>
         </div>
+        <div className="map-line-options">
+          {familyLines.map((line) => (
+            <label key={line} className="map-line-option">
+              <Checkbox
+                checked={selectedLines.has(line)}
+                onCheckedChange={(checked) => toggleLine(line, checked)}
+                aria-label={`Show ${lineLabel(line)}`}
+              />
+              <i style={{ backgroundColor: lineColors.get(line) }} />
+              <span>{lineLabel(line)}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+      <div className="map-canvas">
+        {/* The SVG is an interactive map with an explicit label and keyboard controls. */}
+        {/* oxlint-disable jsx-a11y/no-noninteractive-element-interactions, jsx-a11y/no-noninteractive-tabindex */}
+        <svg
+          ref={mapRef}
+          className={dragging ? 'dragging' : ''}
+          viewBox={`0 0 ${width} ${height}`}
+          role="application"
+          tabIndex={0}
+          aria-label="Zoomable family birth and death locations over time"
+          onWheel={mapWheel}
+          onPointerDown={mapPointerDown}
+          onPointerMove={mapPointerMove}
+          onPointerUp={stopDragging}
+          onPointerCancel={stopDragging}
+          onKeyDown={(event) => {
+            if (event.key === '+' || event.key === '=') zoomAt(1.22);
+            else if (event.key === '-') zoomAt(0.82);
+            else if (event.key.startsWith('Arrow')) {
+              event.preventDefault();
+              setMapTransform((current) => ({
+                ...current,
+                x:
+                  current.x +
+                  (event.key === 'ArrowLeft'
+                    ? 28
+                    : event.key === 'ArrowRight'
+                      ? -28
+                      : 0),
+                y:
+                  current.y +
+                  (event.key === 'ArrowUp'
+                    ? 28
+                    : event.key === 'ArrowDown'
+                      ? -28
+                      : 0),
+              }));
+            } else return;
+            event.preventDefault();
+          }}
+          onDoubleClick={(event) => {
+            const rect = mapRef.current?.getBoundingClientRect();
+            if (!rect) return;
+            zoomAt(
+              1.4,
+              ((event.clientX - rect.left) / rect.width) * width,
+              ((event.clientY - rect.top) / rect.height) * height,
+            );
+          }}
+        >
+          <g
+            className="map-viewport"
+            transform={`translate(${mapTransform.x} ${mapTransform.y}) scale(${mapTransform.scale})`}
+          >
+            <path className="map-sphere" d={path({ type: 'Sphere' }) ?? ''} />
+            <path className="map-graticule" d={path(geoGraticule10()) ?? ''} />
+            {countries.map((country, index) => (
+              <path
+                className="map-country"
+                key={index}
+                d={path(country as never) ?? ''}
+              />
+            ))}
+            {movements.map((movement) => {
+              const from = locations.get(movement.from_location_id);
+              const to = locations.get(movement.to_location_id);
+              if (
+                !from ||
+                !to ||
+                from.latitude === null ||
+                from.longitude === null ||
+                to.latitude === null ||
+                to.longitude === null
+              )
+                return null;
+              const line =
+                lineByPerson.get(movement.person_id) ?? 'Unspecified';
+              return (
+                <path
+                  key={movement.movement_id}
+                  className={`map-route ${movement.movement_type === 'lifetime' ? 'lifetime' : ''}`}
+                  style={{ stroke: lineColors.get(line) }}
+                  d={
+                    path({
+                      type: 'LineString',
+                      coordinates: [
+                        [from.longitude, from.latitude],
+                        [to.longitude, to.latitude],
+                      ],
+                    }) ?? ''
+                  }
+                />
+              );
+            })}
+            {pointGroups.map((point) => {
+              const location = point.location!;
+              const projected = projection([
+                location.longitude!,
+                location.latitude!,
+              ]);
+              if (!projected) return null;
+              const angle =
+                (point.siblingIndex / point.siblingCount) * Math.PI * 2 -
+                Math.PI / 2;
+              const offset =
+                point.siblingCount > 1 ? 6 / mapTransform.scale : 0;
+              return (
+                <g
+                  key={point.pointKey}
+                  data-map-point
+                  className={`map-point ${selectedPoint === point.pointKey ? 'selected' : ''}`}
+                  transform={`translate(${projected[0] + Math.cos(angle) * offset} ${projected[1] + Math.sin(angle) * offset})`}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`${lineLabel(point.line)} at ${location.label}: ${point.events.length} recorded events`}
+                  onClick={() => setSelectedPoint(point.pointKey)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                      event.preventDefault();
+                      setSelectedPoint(point.pointKey);
+                    }
+                  }}
+                >
+                  <circle
+                    style={{ fill: lineColors.get(point.line) }}
+                    r={
+                      Math.min(11, 3.5 + Math.sqrt(point.events.length) * 1.7) /
+                      mapTransform.scale
+                    }
+                  />
+                  <title>
+                    {lineLabel(point.line)} · {location.label} ·{' '}
+                    {point.events.length} events
+                  </title>
+                </g>
+              );
+            })}
+          </g>
+        </svg>
+        {/* oxlint-enable jsx-a11y/no-noninteractive-element-interactions, jsx-a11y/no-noninteractive-tabindex */}
+        {events.length === 0 && (
+          <div className="map-empty">
+            Select at least one family line to place its records on the map.
+          </div>
+        )}
+        <div className="map-legend">
+          <i /> Lines connect recorded endpoints, not documented travel routes
+        </div>
+        <div className="map-zoom" aria-label="Map zoom controls">
+          <Button
+            variant="outline"
+            size="icon-sm"
+            onClick={() => zoomAt(0.82)}
+            aria-label="Zoom map out"
+          >
+            <Minus />
+          </Button>
+          <span>{Math.round(mapTransform.scale * 100)}%</span>
+          <Button
+            variant="outline"
+            size="icon-sm"
+            onClick={() => zoomAt(1.22)}
+            aria-label="Zoom map in"
+          >
+            <Plus />
+          </Button>
+          <Button
+            variant="outline"
+            size="icon-sm"
+            onClick={() =>
+              setMapTransform(fitMapRegion(projection, region, width, height))
+            }
+            aria-label="Reset map view"
+          >
+            <RotateCcw />
+          </Button>
+        </div>
+        {selectedGroup && (
+          <div className="map-location-detail">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="close-map-detail"
+              onClick={() => setSelectedPoint(null)}
+              aria-label="Close location details"
+            >
+              <X />
+            </Button>
+            <p className="eyebrow">
+              <i
+                style={{ backgroundColor: lineColors.get(selectedGroup.line) }}
+              />
+              {lineLabel(selectedGroup.line)}
+            </p>
+            <h3>{selectedGroup.location?.label}</h3>
+            <div className="map-event-list">
+              {selectedGroup.events
+                .slice()
+                .sort((a, b) => (a.year_min ?? 0) - (b.year_min ?? 0))
+                .map((event) => (
+                  <button
+                    key={event.event_id}
+                    onClick={() => onSelect(event.person_id)}
+                  >
+                    <span>{event.year_min ?? 'Undated'}</span>
+                    <strong>{event.person_name}</strong>
+                    <small>
+                      {event.event_type} · {event.branch}
+                    </small>
+                    <ChevronRight />
+                  </button>
+                ))}
+            </div>
+          </div>
+        )}
       </div>
       <div className="map-summary">
         <div>
@@ -780,7 +1230,7 @@ function MigrationMap({
           <span>visible events</span>
         </div>
         <div>
-          <strong>{pointGroups.length}</strong>
+          <strong>{visibleLocationCount}</strong>
           <span>locations</span>
         </div>
         <div>
@@ -792,39 +1242,6 @@ function MigrationMap({
           documented travel routes.
         </p>
       </div>
-      {selectedEvents.length > 0 && (
-        <div className="map-location-detail">
-          <Button
-            variant="ghost"
-            size="icon"
-            className="close-map-detail"
-            onClick={() => setSelectedLocation(null)}
-            aria-label="Close location details"
-          >
-            <X />
-          </Button>
-          <p className="eyebrow">Recorded at this location</p>
-          <h3>{locations.get(selectedLocation!)?.label}</h3>
-          <div className="map-event-list">
-            {selectedEvents
-              .slice()
-              .sort((a, b) => (a.year_min ?? 0) - (b.year_min ?? 0))
-              .map((event) => (
-                <button
-                  key={event.event_id}
-                  onClick={() => onSelect(event.person_id)}
-                >
-                  <span>{event.year_min ?? 'Undated'}</span>
-                  <strong>{event.person_name}</strong>
-                  <small>
-                    {event.event_type} · {event.branch}
-                  </small>
-                  <ChevronRight />
-                </button>
-              ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }

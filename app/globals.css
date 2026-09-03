@@ -1990,22 +1990,148 @@ button {
   background: #f8e5d9;
 }
 .map-controls {
+  grid-template-columns: auto auto auto minmax(190px, 1fr) auto;
   border-color: #d9c9bf;
   background: #f5eae2d9;
 }
 .map-controls [data-slot='native-select'] {
   background: #fffaf5;
 }
+.map-line-filter {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid #d9c9bf;
+  background: #fffaf5;
+}
+.map-line-filter-head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.map-line-filter-head > span {
+  color: #6c5557;
+  font-size: 9px;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.map-line-filter-head > span small {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted-foreground);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.map-line-filter-head > div {
+  display: flex;
+}
+.map-line-filter-head button {
+  color: #a74d39;
+}
+.map-line-options {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 2px 1px 4px;
+  scrollbar-color: #d8c9bf transparent;
+  scrollbar-width: thin;
+}
+.map-line-option {
+  flex: 0 0 auto;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  padding: 5px 8px 5px 6px;
+  border: 1px solid #dccbc1;
+  border-radius: 7px;
+  color: #5f4b4e;
+  background: #f8efe8;
+  cursor: pointer;
+  font-size: 9px;
+  white-space: nowrap;
+}
+.map-line-option:has([data-checked]) {
+  border-color: #c9957f;
+  color: #3f2c31;
+  background: #fff8f2;
+}
+.map-line-option [data-slot='checkbox'] {
+  width: 14px;
+  height: 14px;
+}
+.map-line-option > i,
+.map-location-detail .eyebrow > i {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px #ffffff80;
+}
+.map-canvas {
+  overflow: hidden;
+  touch-action: none;
+}
+.map-canvas svg {
+  cursor: grab;
+  user-select: none;
+}
+.map-canvas svg.dragging {
+  cursor: grabbing;
+}
 .map-sphere {
   fill: #eee1d8;
   stroke: #bea99d;
+  vector-effect: non-scaling-stroke;
 }
 .map-graticule {
   stroke: #ddcec5;
+  vector-effect: non-scaling-stroke;
 }
 .map-country {
   fill: #dbc9bf;
   stroke: #fff8f2;
+  vector-effect: non-scaling-stroke;
+}
+.map-empty {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: min(330px, calc(100% - 40px));
+  padding: 14px 16px;
+  border: 1px dashed #c8aa9b;
+  border-radius: 9px;
+  color: #715b5e;
+  text-align: center;
+  background: #fffaf5e8;
+  font-size: 11px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.map-zoom {
+  position: absolute;
+  right: 14px;
+  bottom: 9px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid #cfbcb1;
+  border-radius: 8px;
+  background: #fffaf5ee;
+  box-shadow: 0 6px 18px #3821291c;
+}
+.map-zoom span {
+  min-width: 42px;
+  color: #725d5f;
+  text-align: center;
+  font-size: 8px;
+}
+.map-zoom button {
+  background: #fffaf5;
 }
 .map-legend,
 .map-location-detail {
@@ -2013,8 +2139,14 @@ button {
   background: #fffaf5f2;
 }
 .map-location-detail {
+  top: 14px;
   border-radius: 10px;
   box-shadow: 0 18px 50px #38212935;
+}
+.map-location-detail .eyebrow {
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 .mobile-footer {
   border-color: #59414a;
@@ -2028,6 +2160,12 @@ button {
   }
   .thread-flow {
     width: min(680px, calc(100% - 36px));
+  }
+  .map-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+  .map-line-filter {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -2084,5 +2222,27 @@ button {
   }
   .thread-focus-label small {
     display: none;
+  }
+  .map-controls {
+    grid-template-columns: 1fr;
+  }
+  .map-line-filter-head {
+    justify-content: space-between;
+  }
+  .map-location-detail {
+    top: 10px;
+    right: 10px;
+    width: calc(100% - 20px);
+    max-height: calc(100% - 60px);
+  }
+  .map-zoom {
+    right: 10px;
+    bottom: 42px;
+  }
+  .map-legend {
+    justify-content: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
