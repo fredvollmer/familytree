@@ -1990,7 +1990,7 @@ button {
   background: #f8e5d9;
 }
 .map-controls {
-  grid-template-columns: auto auto auto minmax(190px, 1fr) auto;
+  grid-template-columns: auto auto minmax(190px, 1fr) auto;
   border-color: #d9c9bf;
   background: #f5eae2d9;
 }
@@ -2071,6 +2071,10 @@ button {
   flex: 0 0 auto;
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px #ffffff80;
+}
+.map-line-option > small {
+  color: #927e7b;
+  font-size: 8px;
 }
 .map-canvas {
   overflow: hidden;

@@ -171,10 +171,12 @@ type MovementRecord = {
   movement_id: string;
   movement_type: 'intergenerational' | 'lifetime';
   person_id: string;
+  person_name: string;
   from_location_id: string;
   to_location_id: string;
   year_min: number | null;
   side: 'Maternal' | 'Paternal';
+  branch: string;
 };
 
 type MigrationData = {
@@ -195,6 +197,7 @@ type MigrationData = {
 };
 
 type MapRegion = 'europe-americas' | 'europe' | 'americas';
+type MapFamilyLine = 'Muller' | 'Vollmer' | 'Fischer' | 'VanHoose';
 type MapTransform = { x: number; y: number; scale: number };
 
 type RelationIndex = {
@@ -218,19 +221,33 @@ const REGION_BOUNDS: Record<
   americas: { west: -170, south: -60, east: -30, north: 75 },
 };
 
-const LINE_COLORS = [
-  '#c65d49',
-  '#d19a4a',
-  '#9b668c',
-  '#a83f46',
-  '#c47b52',
-  '#737c5c',
-  '#746a7d',
-  '#b06757',
+const MAP_FAMILY_LINES: MapFamilyLine[] = [
+  'Muller',
+  'Vollmer',
+  'Fischer',
+  'VanHoose',
 ];
 
-const lineLabel = (line: string) =>
-  line === 'Unspecified' ? 'Other documented lines' : line;
+const LINE_COLORS: Record<MapFamilyLine, string> = {
+  Muller: '#c65d49',
+  Vollmer: '#9b668c',
+  Fischer: '#d19a4a',
+  VanHoose: '#737c5c',
+};
+
+const mapFamilyLine = (record: {
+  person_name: string;
+  branch: string;
+  side: 'Maternal' | 'Paternal';
+}): MapFamilyLine => {
+  const description = `${record.person_name} ${record.branch}`.toLowerCase();
+  if (description.includes('fischer')) return 'Fischer';
+  if (description.includes('vanhoose') || description.includes('van hoose'))
+    return 'VanHoose';
+  if (description.includes('muller')) return 'Muller';
+  if (description.includes('vollmer')) return 'Vollmer';
+  return record.side === 'Maternal' ? 'Muller' : 'Vollmer';
+};
 
 const locationInRegion = (
   location: MapLocation | undefined,
@@ -663,24 +680,14 @@ function MigrationMap({
     clientY: number;
     transform: MapTransform;
   } | null>(null);
-  const [side, setSide] = useState<'All' | 'Maternal' | 'Paternal'>('All');
   const [region, setRegion] = useState<MapRegion>('europe-americas');
   const [routeType, setRouteType] = useState<'intergenerational' | 'lifetime'>(
     'intergenerational',
   );
   const [year, setYear] = useState(data.metadata.year_extent[1]);
   const [playing, setPlaying] = useState(false);
-  const familyLines = useMemo(
-    () =>
-      [...new Set(data.events.map((event) => event.branch))].sort((a, b) => {
-        if (a === 'Unspecified') return 1;
-        if (b === 'Unspecified') return -1;
-        return a.localeCompare(b);
-      }),
-    [data.events],
-  );
-  const [selectedLines, setSelectedLines] = useState<Set<string>>(
-    () => new Set(familyLines),
+  const [selectedLines, setSelectedLines] = useState<Set<MapFamilyLine>>(
+    () => new Set(MAP_FAMILY_LINES),
   );
   const [selectedPoint, setSelectedPoint] = useState<string | null>(null);
   const [mapTransform, setMapTransform] = useState<MapTransform>(() =>
@@ -694,24 +701,15 @@ function MigrationMap({
       ),
     [data.locations],
   );
-  const lineColors = useMemo(
-    () =>
-      new Map(
-        familyLines.map((line, index) => [
-          line,
-          LINE_COLORS[index % LINE_COLORS.length],
-        ]),
-      ),
-    [familyLines],
-  );
-  const lineByPerson = useMemo(() => {
-    const index = new Map<string, string>();
+  const lineRecordCounts = useMemo(() => {
+    const counts = new Map<MapFamilyLine, number>(
+      MAP_FAMILY_LINES.map((line) => [line, 0]),
+    );
     data.events.forEach((event) => {
-      const current = index.get(event.person_id);
-      if (!current || (current === 'Unspecified' && event.branch !== current))
-        index.set(event.person_id, event.branch);
+      const line = mapFamilyLine(event);
+      counts.set(line, (counts.get(line) ?? 0) + 1);
     });
-    return index;
+    return counts;
   }, [data.events]);
   const countries = useMemo(() => {
     if (!world || typeof world !== 'object' || !('objects' in world)) return [];
@@ -745,49 +743,41 @@ function MigrationMap({
         (event) =>
           event.year_min !== null &&
           event.year_min <= year &&
-          selectedLines.has(event.branch) &&
-          (side === 'All' || event.side === side) &&
+          selectedLines.has(mapFamilyLine(event)) &&
           locationInRegion(locations.get(event.location_id), region),
       ),
-    [data.events, locations, region, selectedLines, side, year],
+    [data.events, locations, region, selectedLines, year],
   );
   const movements = useMemo(
     () =>
       data.movements.filter((movement) => {
-        const line = lineByPerson.get(movement.person_id) ?? 'Unspecified';
+        const line = mapFamilyLine(movement);
         return (
           movement.movement_type === routeType &&
           movement.year_min !== null &&
           movement.year_min <= year &&
           selectedLines.has(line) &&
-          (side === 'All' || movement.side === side) &&
           locationInRegion(locations.get(movement.from_location_id), region) &&
           locationInRegion(locations.get(movement.to_location_id), region)
         );
       }),
-    [
-      data.movements,
-      lineByPerson,
-      locations,
-      region,
-      routeType,
-      selectedLines,
-      side,
-      year,
-    ],
+    [data.movements, locations, region, routeType, selectedLines, year],
   );
   const pointGroups = useMemo(() => {
-    const groups = new Map<string, { line: string; events: MapEvent[] }>();
-    events.forEach((event) =>
-      groups.set(`${event.location_id}::${event.branch}`, {
-        line: event.branch,
+    const groups = new Map<
+      string,
+      { line: MapFamilyLine; events: MapEvent[] }
+    >();
+    events.forEach((event) => {
+      const line = mapFamilyLine(event);
+      groups.set(`${event.location_id}::${line}`, {
+        line,
         events: [
-          ...(groups.get(`${event.location_id}::${event.branch}`)?.events ??
-            []),
+          ...(groups.get(`${event.location_id}::${line}`)?.events ?? []),
           event,
         ],
-      }),
-    );
+      });
+    });
     const baseGroups = [...groups.entries()]
       .map(([pointKey, group]) => {
         const locationId = pointKey.split('::')[0];
@@ -832,7 +822,7 @@ function MigrationMap({
     setSelectedPoint(null);
   };
 
-  const toggleLine = (line: string, checked: boolean) => {
+  const toggleLine = (line: MapFamilyLine, checked: boolean) => {
     setSelectedLines((current) => {
       const next = new Set(current);
       if (checked) next.add(line);
@@ -905,18 +895,6 @@ function MigrationMap({
     <div className="map-stage">
       <div className="map-controls">
         <div className="map-select-control">
-          <span>Family side</span>
-          <NativeSelect
-            aria-label="Family side"
-            value={side}
-            onChange={(event) => setSide(event.target.value as typeof side)}
-          >
-            <NativeSelectOption value="All">Both sides</NativeSelectOption>
-            <NativeSelectOption value="Maternal">Maternal</NativeSelectOption>
-            <NativeSelectOption value="Paternal">Paternal</NativeSelectOption>
-          </NativeSelect>
-        </div>
-        <div className="map-select-control">
           <span>Map area</span>
           <NativeSelect
             aria-label="Map area"
@@ -976,7 +954,7 @@ function MigrationMap({
               variant="ghost"
               size="xs"
               onClick={() => {
-                setSelectedLines(new Set(familyLines));
+                setSelectedLines(new Set(MAP_FAMILY_LINES));
                 setSelectedPoint(null);
               }}
             >
@@ -995,15 +973,16 @@ function MigrationMap({
           </div>
         </div>
         <div className="map-line-options">
-          {familyLines.map((line) => (
+          {MAP_FAMILY_LINES.map((line) => (
             <label key={line} className="map-line-option">
               <Checkbox
                 checked={selectedLines.has(line)}
                 onCheckedChange={(checked) => toggleLine(line, checked)}
-                aria-label={`Show ${lineLabel(line)}`}
+                aria-label={`Show ${line} family line`}
               />
-              <i style={{ backgroundColor: lineColors.get(line) }} />
-              <span>{lineLabel(line)}</span>
+              <i style={{ backgroundColor: LINE_COLORS[line] }} />
+              <span>{line}</span>
+              <small>{lineRecordCounts.get(line)} records</small>
             </label>
           ))}
         </div>
@@ -1083,13 +1062,12 @@ function MigrationMap({
                 to.longitude === null
               )
                 return null;
-              const line =
-                lineByPerson.get(movement.person_id) ?? 'Unspecified';
+              const line = mapFamilyLine(movement);
               return (
                 <path
                   key={movement.movement_id}
                   className={`map-route ${movement.movement_type === 'lifetime' ? 'lifetime' : ''}`}
-                  style={{ stroke: lineColors.get(line) }}
+                  style={{ stroke: LINE_COLORS[line] }}
                   d={
                     path({
                       type: 'LineString',
@@ -1122,7 +1100,7 @@ function MigrationMap({
                   transform={`translate(${projected[0] + Math.cos(angle) * offset} ${projected[1] + Math.sin(angle) * offset})`}
                   tabIndex={0}
                   role="button"
-                  aria-label={`${lineLabel(point.line)} at ${location.label}: ${point.events.length} recorded events`}
+                  aria-label={`${point.line} family at ${location.label}: ${point.events.length} recorded events`}
                   onClick={() => setSelectedPoint(point.pointKey)}
                   onKeyDown={(event) => {
                     if (event.key === 'Enter' || event.key === ' ') {
@@ -1132,14 +1110,14 @@ function MigrationMap({
                   }}
                 >
                   <circle
-                    style={{ fill: lineColors.get(point.line) }}
+                    style={{ fill: LINE_COLORS[point.line] }}
                     r={
                       Math.min(11, 3.5 + Math.sqrt(point.events.length) * 1.7) /
                       mapTransform.scale
                     }
                   />
                   <title>
-                    {lineLabel(point.line)} · {location.label} ·{' '}
+                    {point.line} family · {location.label} ·{' '}
                     {point.events.length} events
                   </title>
                 </g>
@@ -1197,10 +1175,8 @@ function MigrationMap({
               <X />
             </Button>
             <p className="eyebrow">
-              <i
-                style={{ backgroundColor: lineColors.get(selectedGroup.line) }}
-              />
-              {lineLabel(selectedGroup.line)}
+              <i style={{ backgroundColor: LINE_COLORS[selectedGroup.line] }} />
+              {selectedGroup.line} family
             </p>
             <h3>{selectedGroup.location?.label}</h3>
             <div className="map-event-list">
