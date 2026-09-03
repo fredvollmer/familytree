@@ -162,7 +162,8 @@ type MapEvent = {
   year_min: number | null;
   year_max: number | null;
   location_id: string;
-  side: 'Maternal' | 'Paternal';
+  side: 'Maternal' | 'Paternal' | 'Other';
+  line?: MapFamilyLine;
   branch: string;
   confidence: string;
 };
@@ -175,7 +176,8 @@ type MovementRecord = {
   from_location_id: string;
   to_location_id: string;
   year_min: number | null;
-  side: 'Maternal' | 'Paternal';
+  side: 'Maternal' | 'Paternal' | 'Other';
+  line?: MapFamilyLine;
   branch: string;
 };
 
@@ -238,8 +240,10 @@ const LINE_COLORS: Record<MapFamilyLine, string> = {
 const mapFamilyLine = (record: {
   person_name: string;
   branch: string;
-  side: 'Maternal' | 'Paternal';
+  side: 'Maternal' | 'Paternal' | 'Other';
+  line?: MapFamilyLine;
 }): MapFamilyLine => {
+  if (record.line) return record.line;
   const description = `${record.person_name} ${record.branch}`.toLowerCase();
   if (description.includes('fischer')) return 'Fischer';
   if (description.includes('vanhoose') || description.includes('van hoose'))
@@ -343,6 +347,22 @@ const lifeYears = (person: Person) => {
       : 'Dates unknown';
   return `${birth ?? '?'}–${death ?? ''}`;
 };
+
+function linkedSourceNote(note: string) {
+  return note.split(/(https?:\/\/[^\s;]+)/g).map((part, index) => {
+    if (!part.startsWith('http')) return part;
+    const punctuation = part.match(/[.,)]+$/)?.[0] ?? '';
+    const href = punctuation ? part.slice(0, -punctuation.length) : part;
+    return (
+      <span key={`${href}-${index}`}>
+        <a href={href} target="_blank" rel="noreferrer">
+          Open indexed record <ExternalLink size={12} />
+        </a>
+        {punctuation}
+      </span>
+    );
+  });
+}
 const portraitLabel = (status: MediaPerson['portrait_status']) => {
   if (status === 'external_photo_page') return 'External photo page located';
   if (status === 'privacy_withheld') return 'Portrait withheld for privacy';
@@ -1436,7 +1456,7 @@ function DetailsPane({
                 <span>{ref}</span>
                 <div>
                   <strong>{source.title}</strong>
-                  {source.notes && <p>{source.notes}</p>}
+                  {source.notes && <p>{linkedSourceNote(source.notes)}</p>}
                   <small>
                     {[source.author, source.date, source.origin]
                       .filter(Boolean)

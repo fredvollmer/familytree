@@ -10,13 +10,33 @@
     "precision": "region"
   },
   {
+    "place": "Allen, Pontotoc County, Oklahoma",
+    "query": "Allen, Pontotoc County, Oklahoma",
+    "precision": "county"
+  },
+  {
     "place": "Alsace, France",
     "query": "Alsace, France",
     "precision": "region"
   },
   {
+    "place": "Arkansas",
+    "query": "Arkansas",
+    "precision": "locality"
+  },
+  {
     "place": "Asheville, North Carolina",
     "query": "Asheville, North Carolina, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Ashland, Boyd County, Kentucky",
+    "query": "Ashland, Boyd County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Ashland, Kentucky",
+    "query": "Ashland, Kentucky, United States",
     "precision": "locality"
   },
   {
@@ -40,8 +60,18 @@
     "precision": "locality"
   },
   {
+    "place": "Belpre, Washington County, Ohio",
+    "query": "Belpre, Washington County, Ohio, United States",
+    "precision": "county"
+  },
+  {
     "place": "Benton, Lowndes County, Alabama",
     "query": "Benton, Lowndes County, Alabama, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Bexley, Franklin County, Ohio",
+    "query": "Bexley, Franklin County, Ohio, United States",
     "precision": "county"
   },
   {
@@ -65,6 +95,11 @@
     "precision": "county"
   },
   {
+    "place": "Bryan County, Oklahoma",
+    "query": "Bryan County, Oklahoma",
+    "precision": "county"
+  },
+  {
     "place": "Buckingham County, Virginia",
     "query": "Buckingham County, Virginia, United States",
     "precision": "county"
@@ -78,6 +113,11 @@
     "place": "Caledonia, Livingston, New York",
     "query": "Caledonia, Livingston, New York, United States",
     "precision": "locality"
+  },
+  {
+    "place": "California",
+    "query": "California, United States",
+    "precision": "region"
   },
   {
     "place": "Camas, Clark, Washington",
@@ -110,6 +150,16 @@
     "precision": "locality"
   },
   {
+    "place": "Circleville, Pickaway County, Ohio",
+    "query": "Circleville, Pickaway County, Ohio, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Coffeyville, Montgomery County, Kansas",
+    "query": "Coffeyville, Montgomery County, Kansas",
+    "precision": "county"
+  },
+  {
     "place": "Columbia, South Carolina",
     "query": "Columbia, South Carolina, United States",
     "precision": "locality"
@@ -135,6 +185,11 @@
     "precision": "locality"
   },
   {
+    "place": "East St Louis, St Clair County, Illinois",
+    "query": "East St Louis, St Clair County, Illinois",
+    "precision": "county"
+  },
+  {
     "place": "Eastham, Barnstable, Massachusetts",
     "query": "Eastham, Barnstable, Massachusetts, United States",
     "precision": "locality"
@@ -155,8 +210,18 @@
     "precision": "region"
   },
   {
+    "place": "Esco, Pike County, Kentucky",
+    "query": "Esco, Pike County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
     "place": "Fairfield District, South Carolina",
     "query": "Fairfield County, South Carolina, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Franklin, Warren County, Ohio",
+    "query": "Franklin, Warren County, Ohio, United States",
     "precision": "county"
   },
   {
@@ -177,6 +242,11 @@
   {
     "place": "Great Falls, Cascade, Montana",
     "query": "Great Falls, Cascade, Montana, United States",
+    "precision": "locality"
+  },
+  {
+    "place": "Grossaspach, Wurttemberg, Germany",
+    "query": "Grossaspach, Wurttemberg, Germany",
     "precision": "locality"
   },
   {
@@ -235,6 +305,11 @@
     "precision": "locality"
   },
   {
+    "place": "Hindustan, Monroe County, Indiana",
+    "query": "Hindustan, Monroe County, Indiana",
+    "precision": "county"
+  },
+  {
     "place": "Hishult, Halland, Sweden",
     "query": "Hishult, Halland, Sweden",
     "precision": "locality"
@@ -255,8 +330,28 @@
     "precision": "locality"
   },
   {
+    "place": "Indiana",
+    "query": "Indiana",
+    "precision": "locality"
+  },
+  {
+    "place": "Iowa",
+    "query": "Iowa",
+    "precision": "locality"
+  },
+  {
+    "place": "Jasper County, Missouri",
+    "query": "Jasper County, Missouri",
+    "precision": "county"
+  },
+  {
     "place": "Jefferson County, Kentucky",
     "query": "Jefferson County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Johnson County, Kentucky",
+    "query": "Johnson County, Kentucky, United States",
     "precision": "county"
   },
   {
@@ -278,6 +373,21 @@
     "place": "Killingworth, Middlesex County, Connecticut",
     "query": "Killingworth, Middlesex County, Connecticut, United States",
     "precision": "county"
+  },
+  {
+    "place": "Kingston, Ross County, Ohio",
+    "query": "Kingston, Ross County, Ohio, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Lawrence County, Kentucky",
+    "query": "Lawrence County, Kentucky, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Lincoln Parish, Louisiana",
+    "query": "Lincoln Parish, Louisiana",
+    "precision": "locality"
   },
   {
     "place": "Lintig, Lehe, Province of Hanover, Germany",
@@ -315,6 +425,11 @@
     "precision": "locality"
   },
   {
+    "place": "Marlin, Falls County, Texas",
+    "query": "Marlin, Falls County, Texas, United States",
+    "precision": "county"
+  },
+  {
     "place": "Massachusetts",
     "query": "Massachusetts, United States",
     "precision": "region"
@@ -342,6 +457,16 @@
   {
     "place": "Milford, New Haven County, Connecticut",
     "query": "Milford, New Haven County, Connecticut, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Missouri",
+    "query": "Missouri",
+    "precision": "locality"
+  },
+  {
+    "place": "Monroe County, Indiana",
+    "query": "Monroe County, Indiana",
     "precision": "county"
   },
   {
@@ -410,9 +535,19 @@
     "precision": "locality"
   },
   {
+    "place": "North Carolina",
+    "query": "North Carolina, United States",
+    "precision": "region"
+  },
+  {
     "place": "Ocean Park, Pacific, Washington",
     "query": "Ocean Park, Pacific, Washington, United States",
     "precision": "locality"
+  },
+  {
+    "place": "Ohio",
+    "query": "Ohio, United States",
+    "precision": "region"
   },
   {
     "place": "Oxfordshire, England",
@@ -445,6 +580,11 @@
     "precision": "locality"
   },
   {
+    "place": "Pickaway County, Ohio",
+    "query": "Pickaway County, Ohio, United States",
+    "precision": "county"
+  },
+  {
     "place": "Plymouth Colony",
     "query": "Plymouth, Massachusetts, United States",
     "precision": "approximate"
@@ -457,6 +597,11 @@
   {
     "place": "Prince George County, Virginia",
     "query": "Prince George County, Virginia, United States",
+    "precision": "county"
+  },
+  {
+    "place": "Pulaski County, Kentucky",
+    "query": "Pulaski County, Kentucky, United States",
     "precision": "county"
   },
   {
@@ -475,6 +620,11 @@
     "precision": "locality"
   },
   {
+    "place": "Ross County, Ohio",
+    "query": "Ross County, Ohio, United States",
+    "precision": "county"
+  },
+  {
     "place": "Royal Oak, Oakland, Michigan",
     "query": "Royal Oak, Oakland, Michigan, United States",
     "precision": "locality"
@@ -483,6 +633,11 @@
     "place": "Roydon, Essex, England",
     "query": "Roydon, Essex, England",
     "precision": "locality"
+  },
+  {
+    "place": "Rush Springs, Grady County, Oklahoma",
+    "query": "Rush Springs, Grady County, Oklahoma",
+    "precision": "county"
   },
   {
     "place": "Ränneslöv, Halland, Sweden",
@@ -503,6 +658,11 @@
     "place": "Shepherdsville, Bullitt County, Kentucky",
     "query": "Shepherdsville, Bullitt County, Kentucky, United States",
     "precision": "county"
+  },
+  {
+    "place": "Shreveport, Caddo Parish, Louisiana",
+    "query": "Shreveport, Caddo Parish, Louisiana",
+    "precision": "locality"
   },
   {
     "place": "Simsbury, Hartford, Connecticut",
@@ -550,6 +710,21 @@
     "precision": "county"
   },
   {
+    "place": "Tennessee",
+    "query": "Tennessee",
+    "precision": "locality"
+  },
+  {
+    "place": "Texas",
+    "query": "Texas, United States",
+    "precision": "region"
+  },
+  {
+    "place": "Troy, Doniphan County, Kansas",
+    "query": "Troy, Doniphan County, Kansas",
+    "precision": "county"
+  },
+  {
     "place": "Vancouver, Clark, Washington",
     "query": "Vancouver, Clark, Washington, United States",
     "precision": "locality"
@@ -583,6 +758,16 @@
     "place": "Wayne County, Michigan",
     "query": "Wayne County, Michigan, United States",
     "precision": "county"
+  },
+  {
+    "place": "Webb City, Jasper County, Missouri",
+    "query": "Webb City, Jasper County, Missouri",
+    "precision": "county"
+  },
+  {
+    "place": "West Virginia",
+    "query": "West Virginia",
+    "precision": "locality"
   },
   {
     "place": "York, Livingston, New York",

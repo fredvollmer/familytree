@@ -1,13 +1,13 @@
 {
   "metadata": {
     "audited": "2026-09-02",
-    "people_audited": 328,
+    "people_audited": 391,
     "portraits_archived": 0,
     "external_photo_pages": 2,
-    "privacy_withheld": 2,
-    "no_verified_photo_archived": 324,
-    "evidence_files": 43,
-    "evidence_images": 34,
+    "privacy_withheld": 8,
+    "no_verified_photo_archived": 381,
+    "evidence_files": 78,
+    "evidence_images": 69,
     "evidence_pdfs": 9,
     "pdf_preview_images": 18,
     "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
@@ -3850,13 +3850,13 @@
     {
       "individual_id": "I334",
       "name": "Mary Alice Thoren",
-      "portrait_status": "no_verified_photo_archived",
+      "portrait_status": "privacy_withheld",
       "portrait_path": "",
       "portrait_source_name": "",
       "portrait_source_url": "",
       "portrait_source_refs": [],
-      "portrait_rights": "",
-      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
       "evidence_ids": [
         "E040"
       ]
@@ -4108,6 +4108,866 @@
     {
       "individual_id": "I355",
       "name": "Peter Vollmer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I356",
+      "name": "Arianna Lynn Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I357",
+      "name": "Wallace Ray Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I358",
+      "name": "Sally Lynn Vanhoose Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I359",
+      "name": "Keith Douglas Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I360",
+      "name": "Barbara Lynn Boltenhouse",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": [
+        "E056"
+      ]
+    },
+    {
+      "individual_id": "I361",
+      "name": "Douglas T Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E054"
+      ]
+    },
+    {
+      "individual_id": "I362",
+      "name": "Mildred I Tackett Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E053"
+      ]
+    },
+    {
+      "individual_id": "I363",
+      "name": "Charles Emerald Boltenhouse Jr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E056"
+      ]
+    },
+    {
+      "individual_id": "I364",
+      "name": "Alice Marie Hickey Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E055",
+        "E056"
+      ]
+    },
+    {
+      "individual_id": "I365",
+      "name": "John B Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E045",
+        "E052"
+      ]
+    },
+    {
+      "individual_id": "I366",
+      "name": "Talliehassie Tallie Estep Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E052",
+        "E054",
+        "E057"
+      ]
+    },
+    {
+      "individual_id": "I367",
+      "name": "Sidney Tackett",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E053"
+      ]
+    },
+    {
+      "individual_id": "I368",
+      "name": "Ida Missouri",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E053"
+      ]
+    },
+    {
+      "individual_id": "I369",
+      "name": "Moses Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E044",
+        "E045"
+      ]
+    },
+    {
+      "individual_id": "I370",
+      "name": "Mahala Dixon Vanhoose",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E044",
+        "E045"
+      ]
+    },
+    {
+      "individual_id": "I371",
+      "name": "Ira W Estep",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E057"
+      ]
+    },
+    {
+      "individual_id": "I372",
+      "name": "Isora Morton Estep",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E057"
+      ]
+    },
+    {
+      "individual_id": "I373",
+      "name": "Charles Emerald Boltenhouse Sr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E050"
+      ]
+    },
+    {
+      "individual_id": "I374",
+      "name": "Leona Florence Tomlinson Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E051"
+      ]
+    },
+    {
+      "individual_id": "I375",
+      "name": "Alonzo Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E047",
+        "E050"
+      ]
+    },
+    {
+      "individual_id": "I376",
+      "name": "Malinda E Speakman Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E050"
+      ]
+    },
+    {
+      "individual_id": "I377",
+      "name": "George P Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E051"
+      ]
+    },
+    {
+      "individual_id": "I378",
+      "name": "Malinda Linda Jackson Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E051"
+      ]
+    },
+    {
+      "individual_id": "I379",
+      "name": "Augustus Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E047"
+      ]
+    },
+    {
+      "individual_id": "I380",
+      "name": "Elizabeth Cotter Boltenhouse",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E047"
+      ]
+    },
+    {
+      "individual_id": "I381",
+      "name": "Alo Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I382",
+      "name": "Rebecca Tomlinson",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I383",
+      "name": "William Andrew Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E048",
+        "E055"
+      ]
+    },
+    {
+      "individual_id": "I384",
+      "name": "Daisy Marie Imler Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E049",
+        "E055"
+      ]
+    },
+    {
+      "individual_id": "I385",
+      "name": "John Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E048"
+      ]
+    },
+    {
+      "individual_id": "I386",
+      "name": "Mary Hickey",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E048"
+      ]
+    },
+    {
+      "individual_id": "I387",
+      "name": "William Imler",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E049"
+      ]
+    },
+    {
+      "individual_id": "I388",
+      "name": "Annie Westbury Imler",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E046",
+        "E049"
+      ]
+    },
+    {
+      "individual_id": "I389",
+      "name": "Robert Westbury",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E046"
+      ]
+    },
+    {
+      "individual_id": "I390",
+      "name": "Hester Stonerock Westbury",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E046"
+      ]
+    },
+    {
+      "individual_id": "I391",
+      "name": "Raymond Charles Fischer Jr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I392",
+      "name": "Wanda June Wallace Fischer",
+      "portrait_status": "privacy_withheld",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "Living-person privacy applies.",
+      "portrait_note": "No portrait is displayed because the person is living.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I393",
+      "name": "Raymond Charles Fischer Sr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E060",
+        "E061"
+      ]
+    },
+    {
+      "individual_id": "I394",
+      "name": "Ruby Louise Gilmore Fischer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E062",
+        "E063"
+      ]
+    },
+    {
+      "individual_id": "I395",
+      "name": "Johann Daniel Fischer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E058"
+      ]
+    },
+    {
+      "individual_id": "I396",
+      "name": "Lena Wirtz Fischer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E059"
+      ]
+    },
+    {
+      "individual_id": "I397",
+      "name": "Johann Daniel Fischer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I398",
+      "name": "Elisabethe Margarethe Fischer",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I399",
+      "name": "Jacob Wirtz",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I400",
+      "name": "Catherine Swan Wirtz",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I401",
+      "name": "George Samuel Gilmore",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I402",
+      "name": "Ida Susan Burt Gilmore",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I403",
+      "name": "Chalmers Carl Wallace",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E064",
+        "E065",
+        "E066"
+      ]
+    },
+    {
+      "individual_id": "I404",
+      "name": "Dorothy Bess Highley Wallace",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I405",
+      "name": "Walter Albert Wallace Sr",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E067"
+      ]
+    },
+    {
+      "individual_id": "I406",
+      "name": "Alice Mae Williams Wallace",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E068"
+      ]
+    },
+    {
+      "individual_id": "I407",
+      "name": "Mary J McGaha Wallace",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I408",
+      "name": "Robert B Williams",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E073"
+      ]
+    },
+    {
+      "individual_id": "I409",
+      "name": "Nancy Ellen Brannan Williams",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E074"
+      ]
+    },
+    {
+      "individual_id": "I410",
+      "name": "Elisha Branham",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E075",
+        "E076",
+        "E077"
+      ]
+    },
+    {
+      "individual_id": "I411",
+      "name": "Clarissa McCoy Branham Williams McBride",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E078"
+      ]
+    },
+    {
+      "individual_id": "I412",
+      "name": "Daniel Franklin McCoy",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I413",
+      "name": "Ambrose Long Highley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E069"
+      ]
+    },
+    {
+      "individual_id": "I414",
+      "name": "Mary Elizabeth Herod Highley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E070"
+      ]
+    },
+    {
+      "individual_id": "I415",
+      "name": "William T Highley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E071"
+      ]
+    },
+    {
+      "individual_id": "I416",
+      "name": "Hannah T Blair Highley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": [
+        "E072"
+      ]
+    },
+    {
+      "individual_id": "I417",
+      "name": "James Highley",
+      "portrait_status": "no_verified_photo_archived",
+      "portrait_path": "",
+      "portrait_source_name": "",
+      "portrait_source_url": "",
+      "portrait_source_refs": [],
+      "portrait_rights": "",
+      "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+      "evidence_ids": []
+    },
+    {
+      "individual_id": "I418",
+      "name": "Mary Highley",
       "portrait_status": "no_verified_photo_archived",
       "portrait_path": "",
       "portrait_source_name": "",
@@ -5324,6 +6184,955 @@
         "records/relief-mcnaughton_mother-pension-index.jpg"
       ],
       "sha256": "4c481d5447084325803d01ea3fb19e1485b4d96fd24cc06c3c83ed32580e90f7"
+    },
+    {
+      "evidence_id": "E044",
+      "media_type": "image",
+      "file_path": "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+      "filename": "1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+      "title": "Moses Vanhoose and Mahala Dixon marriage record",
+      "ledger_refs": [
+        "S63"
+      ],
+      "person_ids": [
+        "I369",
+        "I370"
+      ],
+      "canonical_source_refs": [
+        "S63"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "Johnson County records"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg"
+      ],
+      "sha256": "4b43d38830f05745935ff09efa16d73316ad9a564f13e1419d15dd0f53e39953"
+    },
+    {
+      "evidence_id": "E045",
+      "media_type": "image",
+      "file_path": "records/1880_moses-mahala-john-vanhoose_us-census.jpg",
+      "filename": "1880_moses-mahala-john-vanhoose_us-census.jpg",
+      "title": "1880 Moses, Mahala, and John Vanhoose household census",
+      "ledger_refs": [
+        "S63"
+      ],
+      "person_ids": [
+        "I369",
+        "I370",
+        "I365"
+      ],
+      "canonical_source_refs": [
+        "S63"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1880_moses-mahala-john-vanhoose_us-census.jpg"
+      ],
+      "sha256": "12e7a826f60af0250d06978216776c4d01d29bc0c85277365119b2a924c4b744"
+    },
+    {
+      "evidence_id": "E046",
+      "media_type": "image",
+      "file_path": "records/1880_robert-hester-annie-westbury_us-census.jpg",
+      "filename": "1880_robert-hester-annie-westbury_us-census.jpg",
+      "title": "1880 Robert, Hester, and Annie Westbury household census",
+      "ledger_refs": [
+        "S60"
+      ],
+      "person_ids": [
+        "I389",
+        "I390",
+        "I388"
+      ],
+      "canonical_source_refs": [
+        "S60"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1880_robert-hester-annie-westbury_us-census.jpg"
+      ],
+      "sha256": "55f4336bacc66bf90b09eda13d8d8e4ba8b97a23502eb9a2519212f7213b4fde"
+    },
+    {
+      "evidence_id": "E047",
+      "media_type": "image",
+      "file_path": "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+      "filename": "1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+      "title": "1900 Augustus, Elizabeth, and Alonzo Boltenhouse household census",
+      "ledger_refs": [
+        "S67"
+      ],
+      "person_ids": [
+        "I379",
+        "I380",
+        "I375"
+      ],
+      "canonical_source_refs": [
+        "S67"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg"
+      ],
+      "sha256": "f0f0d16ea0a2188d2a26af6deec71b183d567c824449c8a76578a7e0aab85635"
+    },
+    {
+      "evidence_id": "E048",
+      "media_type": "image",
+      "file_path": "records/1900_john-mary-william-hickey_us-census.jpg",
+      "filename": "1900_john-mary-william-hickey_us-census.jpg",
+      "title": "1900 John, Mary, and William Hickey household census",
+      "ledger_refs": [
+        "S57"
+      ],
+      "person_ids": [
+        "I385",
+        "I386",
+        "I383"
+      ],
+      "canonical_source_refs": [
+        "S57"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1900_john-mary-william-hickey_us-census.jpg"
+      ],
+      "sha256": "3f09977017d341c179f7296476cf3f05238edc18706741185f0889ab4a462a0e"
+    },
+    {
+      "evidence_id": "E049",
+      "media_type": "image",
+      "file_path": "records/1900_william-annie-daisy-imler_us-census.jpg",
+      "filename": "1900_william-annie-daisy-imler_us-census.jpg",
+      "title": "1900 William, Annie, and Daisy Imler household census",
+      "ledger_refs": [
+        "S58"
+      ],
+      "person_ids": [
+        "I387",
+        "I388",
+        "I384"
+      ],
+      "canonical_source_refs": [
+        "S58"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1900_william-annie-daisy-imler_us-census.jpg"
+      ],
+      "sha256": "f1efe3ffd6bd843ebdee892bdf6eb2cdbdca443f846d2440a66fb86d7f6b4f76"
+    },
+    {
+      "evidence_id": "E050",
+      "media_type": "image",
+      "file_path": "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+      "filename": "1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+      "title": "1910 Alonzo, Malinda, and Charles Boltenhouse household census",
+      "ledger_refs": [
+        "S67"
+      ],
+      "person_ids": [
+        "I375",
+        "I376",
+        "I373"
+      ],
+      "canonical_source_refs": [
+        "S67"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg"
+      ],
+      "sha256": "de55365447a9a7a1f1da71cbd0ea2334fad10c1c2a0d50d861fca0e8bfb2096c"
+    },
+    {
+      "evidence_id": "E051",
+      "media_type": "image",
+      "file_path": "records/1910_george-linda-leona-tomlinson_us-census.jpg",
+      "filename": "1910_george-linda-leona-tomlinson_us-census.jpg",
+      "title": "1910 George, Linda, and Leona Tomlinson household census",
+      "ledger_refs": [
+        "S68"
+      ],
+      "person_ids": [
+        "I377",
+        "I378",
+        "I374"
+      ],
+      "canonical_source_refs": [
+        "S68"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1910_george-linda-leona-tomlinson_us-census.jpg"
+      ],
+      "sha256": "136ffac97bbb990721d27662cd7b79f7c0512ecad9d79aec3f6bbb21897a5552"
+    },
+    {
+      "evidence_id": "E052",
+      "media_type": "image",
+      "file_path": "records/1920_john-tallie-vanhoose_us-census.jpg",
+      "filename": "1920_john-tallie-vanhoose_us-census.jpg",
+      "title": "1920 John and Tallie Vanhoose household census",
+      "ledger_refs": [
+        "S62"
+      ],
+      "person_ids": [
+        "I365",
+        "I366"
+      ],
+      "canonical_source_refs": [
+        "S62"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1920_john-tallie-vanhoose_us-census.jpg"
+      ],
+      "sha256": "fafc8e35d22d30a643b082d8a90e9e4bcf79755776e8e359865ef92037507ec7"
+    },
+    {
+      "evidence_id": "E053",
+      "media_type": "image",
+      "file_path": "records/1930_sidney-ida-mildred-tackett_us-census.jpg",
+      "filename": "1930_sidney-ida-mildred-tackett_us-census.jpg",
+      "title": "1930 Sidney, Ida, and Mildred Tackett household census",
+      "ledger_refs": [
+        "S65"
+      ],
+      "person_ids": [
+        "I367",
+        "I368",
+        "I362"
+      ],
+      "canonical_source_refs": [
+        "S65"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1930_sidney-ida-mildred-tackett_us-census.jpg"
+      ],
+      "sha256": "450820469775477ec1a3304d33ce88032ae0de4624e0431230af3e25cd2b4d22"
+    },
+    {
+      "evidence_id": "E054",
+      "media_type": "image",
+      "file_path": "records/1930_tallie-douglas-vanhoose_us-census.jpg",
+      "filename": "1930_tallie-douglas-vanhoose_us-census.jpg",
+      "title": "1930 Tallie and Douglas Vanhoose household census",
+      "ledger_refs": [
+        "S61"
+      ],
+      "person_ids": [
+        "I366",
+        "I361"
+      ],
+      "canonical_source_refs": [
+        "S61"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1930_tallie-douglas-vanhoose_us-census.jpg"
+      ],
+      "sha256": "b72825dcb67040ab1e58177e31b1a0dd71f8d6979b1cc1c5ff54ff86219c99b3"
+    },
+    {
+      "evidence_id": "E055",
+      "media_type": "image",
+      "file_path": "records/1940_william-daisy-alice-hickey_us-census.jpg",
+      "filename": "1940_william-daisy-alice-hickey_us-census.jpg",
+      "title": "1940 William, Daisy, and Alice Hickey household census",
+      "ledger_refs": [
+        "S56"
+      ],
+      "person_ids": [
+        "I383",
+        "I384",
+        "I364"
+      ],
+      "canonical_source_refs": [
+        "S56"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1940_william-daisy-alice-hickey_us-census.jpg"
+      ],
+      "sha256": "9be42fdd0e88e0a6814c131f58e6e0a64374eaf112a8946de26113ba261d2193"
+    },
+    {
+      "evidence_id": "E056",
+      "media_type": "image",
+      "file_path": "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+      "filename": "1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+      "title": "1950 Charles, Alice, and Barbara Boltenhouse household census",
+      "ledger_refs": [
+        "S54"
+      ],
+      "person_ids": [
+        "I363",
+        "I364",
+        "I360"
+      ],
+      "canonical_source_refs": [
+        "S54"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "NARA"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg"
+      ],
+      "sha256": "60ba9440c8fd580e15203d7599bca858a02153692e6be62ce197ff10d544a08c"
+    },
+    {
+      "evidence_id": "E057",
+      "media_type": "image",
+      "file_path": "records/1967-05-17_tallie-vanhoose_death-certificate.jpg",
+      "filename": "1967-05-17_tallie-vanhoose_death-certificate.jpg",
+      "title": "Tallie Vanhoose death certificate",
+      "ledger_refs": [
+        "S64"
+      ],
+      "person_ids": [
+        "I366",
+        "I371",
+        "I372"
+      ],
+      "canonical_source_refs": [
+        "S64"
+      ],
+      "status": "supporting",
+      "note": "",
+      "source_platforms": [
+        "Ancestry",
+        "Kentucky vital records"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1967-05-17_tallie-vanhoose_death-certificate.jpg"
+      ],
+      "sha256": "a5fdaad1e00eab617eb9b52fbbfacd3c565c8a8939d5fb536c45b296c2619e80"
+    },
+    {
+      "evidence_id": "E058",
+      "media_type": "image",
+      "file_path": "records/1925-03-31_johann-daniel-fischer_grave-marker.jpg",
+      "filename": "1925-03-31_johann-daniel-fischer_grave-marker.jpg",
+      "title": "Johann Daniel Fischer grave marker",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I395"
+      ],
+      "canonical_source_refs": [
+        "S77"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/19759283/johann-daniel-fischer. Contributor: couchpotato.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1925-03-31_johann-daniel-fischer_grave-marker.jpg"
+      ],
+      "sha256": "05d2b5a9975b455266d63b22e4a0a6ca55d5e77e52cc5c00a44f8248a40df256"
+    },
+    {
+      "evidence_id": "E059",
+      "media_type": "image",
+      "file_path": "records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg",
+      "filename": "1974-01-24_lena-wirtz-fischer_grave-marker.jpg",
+      "title": "Lena Wirtz Fischer grave marker",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I396"
+      ],
+      "canonical_source_refs": [
+        "S77"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/19759290/lena-fischer. Contributor: couchpotato.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg"
+      ],
+      "sha256": "cb3a2a9ce88dde14f9ac482b58f946dd0f7a391c6edaf0b8fe75f8edce446105"
+    },
+    {
+      "evidence_id": "E060",
+      "media_type": "image",
+      "file_path": "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg",
+      "filename": "1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg",
+      "title": "Raymond Charles Fischer Sr grave marker — inscription view",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I393"
+      ],
+      "canonical_source_refs": [
+        "S77"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481441/raymond-charles-fischer. Contributor: couchpotato.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg"
+      ],
+      "sha256": "6a8f47e1d1c0d58f2c891fe0aad25192b90370c9d82a4f63f874b433a4a12418"
+    },
+    {
+      "evidence_id": "E061",
+      "media_type": "image",
+      "file_path": "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg",
+      "filename": "1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg",
+      "title": "Raymond Charles Fischer Sr grave marker — full view",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I393"
+      ],
+      "canonical_source_refs": [
+        "S77"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481441/raymond-charles-fischer. Contributor: couchpotato.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg"
+      ],
+      "sha256": "e64220fe4a348686a7d568c222b202e43652da52283363751fd2158db2338c1f"
+    },
+    {
+      "evidence_id": "E062",
+      "media_type": "image",
+      "file_path": "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg",
+      "filename": "2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg",
+      "title": "Ruby Louise Gilmore Fischer grave marker — inscription view",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I394"
+      ],
+      "canonical_source_refs": [
+        "S77"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481460/ruby-fischer. Contributor: couchpotato.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg"
+      ],
+      "sha256": "372935f811687ccd391f41bf4a4c69117f991b133f493b3db26042615d5cac4f"
+    },
+    {
+      "evidence_id": "E063",
+      "media_type": "image",
+      "file_path": "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg",
+      "filename": "2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg",
+      "title": "Ruby Louise Gilmore Fischer grave marker — full view",
+      "ledger_refs": [
+        "S77"
+      ],
+      "person_ids": [
+        "I394"
+      ],
+      "canonical_source_refs": [
+        "S77"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481460/ruby-fischer. Contributor: couchpotato.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg"
+      ],
+      "sha256": "e64220fe4a348686a7d568c222b202e43652da52283363751fd2158db2338c1f"
+    },
+    {
+      "evidence_id": "E064",
+      "media_type": "image",
+      "file_path": "records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg",
+      "filename": "1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg",
+      "title": "Chalmers Carl Wallace grave marker — 2026 view",
+      "ledger_refs": [
+        "S78"
+      ],
+      "person_ids": [
+        "I403"
+      ],
+      "canonical_source_refs": [
+        "S78"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/186519723/chambers-carl-wallace. Contributor: evansd.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg"
+      ],
+      "sha256": "dd3ad9bd65e622710a694d6708e77973f518f741cbb6d45b224927621c1054b3"
+    },
+    {
+      "evidence_id": "E065",
+      "media_type": "image",
+      "file_path": "records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg",
+      "filename": "1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg",
+      "title": "Chalmers Carl Wallace grave marker — close view",
+      "ledger_refs": [
+        "S78"
+      ],
+      "person_ids": [
+        "I403"
+      ],
+      "canonical_source_refs": [
+        "S78"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/186519723/chambers-carl-wallace. Contributor: KD Burleson.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg"
+      ],
+      "sha256": "2bf9f7ad40b0356215108f475768ab6603d2e14b10b1479bc4413f6f6faa646c"
+    },
+    {
+      "evidence_id": "E066",
+      "media_type": "image",
+      "file_path": "records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg",
+      "filename": "1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg",
+      "title": "Chalmers Carl Wallace grave marker — reverse view",
+      "ledger_refs": [
+        "S78"
+      ],
+      "person_ids": [
+        "I403"
+      ],
+      "canonical_source_refs": [
+        "S78"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/186519723/chambers-carl-wallace. Contributor: KD Burleson.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg"
+      ],
+      "sha256": "02884e78b381a0a2ee681285eb0c9f709dc48798fd755a67806c004777f98c4e"
+    },
+    {
+      "evidence_id": "E067",
+      "media_type": "image",
+      "file_path": "records/1963-12-08_walter-albert-wallace_grave-marker.jpeg",
+      "filename": "1963-12-08_walter-albert-wallace_grave-marker.jpeg",
+      "title": "Walter Albert Wallace Sr grave marker",
+      "ledger_refs": [
+        "S78"
+      ],
+      "person_ids": [
+        "I405"
+      ],
+      "canonical_source_refs": [
+        "S78"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/262761264/walter-albert-wallace. Contributor: evansd.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1963-12-08_walter-albert-wallace_grave-marker.jpeg"
+      ],
+      "sha256": "02ac81b696453006c25009aa2e8dea4765665ec24a96fe1fc011931cd74f03bf"
+    },
+    {
+      "evidence_id": "E068",
+      "media_type": "image",
+      "file_path": "records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg",
+      "filename": "1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg",
+      "title": "Alice Mae Williams Wallace grave marker",
+      "ledger_refs": [
+        "S78"
+      ],
+      "person_ids": [
+        "I406"
+      ],
+      "canonical_source_refs": [
+        "S78"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/262761475/alice-mae-wallace. Contributor: evansd.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg"
+      ],
+      "sha256": "88fd3ba966b927ad262f93c0af18ff7eff862b51707294bbac65acc4780b80ec"
+    },
+    {
+      "evidence_id": "E069",
+      "media_type": "image",
+      "file_path": "records/1931-10-16_ambrose-long-highley_grave-marker.jpg",
+      "filename": "1931-10-16_ambrose-long-highley_grave-marker.jpg",
+      "title": "Ambrose Long Highley grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I413"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/13974942/ambrose-long-highley. Contributor: Judy K. Roberts.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1931-10-16_ambrose-long-highley_grave-marker.jpg"
+      ],
+      "sha256": "934551d1ccd0d9874d2e058e65d1df1a09da3dd61a58ed28c97feecaea5c8f5d"
+    },
+    {
+      "evidence_id": "E070",
+      "media_type": "image",
+      "file_path": "records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg",
+      "filename": "1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg",
+      "title": "Mary Elizabeth Herod Highley grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I414"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley. Contributor: Kelly.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg"
+      ],
+      "sha256": "bf0a642c6e3f80bb139431958f5ec45dcae2f6424b8122438c416490f9315079"
+    },
+    {
+      "evidence_id": "E071",
+      "media_type": "image",
+      "file_path": "records/1918-08-23_william-t-highley_grave-marker.jpg",
+      "filename": "1918-08-23_william-t-highley_grave-marker.jpg",
+      "title": "William T Highley grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I415"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/13888778/william-t.-highley. Contributor: Kelly.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1918-08-23_william-t-highley_grave-marker.jpg"
+      ],
+      "sha256": "7e9a01cee18e1f456345063620e205e8a50f149f6f246d280774548431bd0755"
+    },
+    {
+      "evidence_id": "E072",
+      "media_type": "image",
+      "file_path": "records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg",
+      "filename": "1921-02-09_hannah-t-blair-highley_grave-marker.jpg",
+      "title": "Hannah T Blair Highley grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I416"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/13888780/hannah-t-highley. Contributor: Kelly.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg"
+      ],
+      "sha256": "e9c6b5886a8f6c35ebe1fb4fb0bb4da2dee14e7653f6336c1106e7c2acf26c3c"
+    },
+    {
+      "evidence_id": "E073",
+      "media_type": "image",
+      "file_path": "records/1926_robert-b-williams_grave-marker.jpg",
+      "filename": "1926_robert-b-williams_grave-marker.jpg",
+      "title": "Robert B Williams grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I408"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/21540402/robert-b.-williams. Contributor: OkieBran.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1926_robert-b-williams_grave-marker.jpg"
+      ],
+      "sha256": "08d0412ab41359d64ed4047390a61ac40131d1afff6b74f20c33e8e9f3c91f6f"
+    },
+    {
+      "evidence_id": "E074",
+      "media_type": "image",
+      "file_path": "records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg",
+      "filename": "1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg",
+      "title": "Nancy Ellen Brannan Williams grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I409"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/21540426/nancy-ellen-williams. Contributor: OkieBran.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg"
+      ],
+      "sha256": "afc430f0b2ec351f690157a4374b69e2f457da63da0f9446d3b3e1e6500ccd14"
+    },
+    {
+      "evidence_id": "E075",
+      "media_type": "image",
+      "file_path": "records/1873-05-23_elisha-branham_grave-marker-1.jpg",
+      "filename": "1873-05-23_elisha-branham_grave-marker-1.jpg",
+      "title": "Elisha Branham grave marker — first view",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I410"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/33706860/elisha-branham. Contributor: Ellie Sparks.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1873-05-23_elisha-branham_grave-marker-1.jpg"
+      ],
+      "sha256": "3d4c9dc0fc42d0b317792b11ee9638fec5715e8055c98b03fb8766bb5533a14b"
+    },
+    {
+      "evidence_id": "E076",
+      "media_type": "image",
+      "file_path": "records/1873-05-23_elisha-branham_grave-marker-2.jpeg",
+      "filename": "1873-05-23_elisha-branham_grave-marker-2.jpeg",
+      "title": "Elisha Branham grave marker — second view",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I410"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/33706860/elisha-branham. Contributor: Colleen Sanders Broyles.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1873-05-23_elisha-branham_grave-marker-2.jpeg"
+      ],
+      "sha256": "33f4f8b95888726b435bb53c799c59e8aefe68e882b1b04b19ca4943ab18b062"
+    },
+    {
+      "evidence_id": "E077",
+      "media_type": "image",
+      "file_path": "records/1873-05-23_elisha-branham_grave-marker-3.jpg",
+      "filename": "1873-05-23_elisha-branham_grave-marker-3.jpg",
+      "title": "Elisha Branham grave marker — third view",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I410"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/33706860/elisha-branham. Contributor: Ben Fulton.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1873-05-23_elisha-branham_grave-marker-3.jpg"
+      ],
+      "sha256": "34e1a6dec74d239a48879fbfaadd0ddcd98f41bd0ab8dc714676830ffe4eeae0"
+    },
+    {
+      "evidence_id": "E078",
+      "media_type": "image",
+      "file_path": "records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg",
+      "filename": "1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg",
+      "title": "Clarissa McCoy Branham grave marker",
+      "ledger_refs": [
+        "S79"
+      ],
+      "person_ids": [
+        "I411"
+      ],
+      "canonical_source_refs": [
+        "S79"
+      ],
+      "status": "supporting",
+      "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/84921915/clarissa-branham_williams_mcbride. Contributor: N.Miller.",
+      "source_platforms": [
+        "Find a Grave"
+      ],
+      "page_count": 1,
+      "preview_paths": [
+        "records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg"
+      ],
+      "sha256": "5c5d865f3c4bfff7560eb5dc27e90fe2ce583a8a3c6998232184a19ca5372547"
     }
   ],
   "external_evidence_checks": [

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Vollmer Atlas — Follow a Family Thread',
     description:
-      'Follow 328 people one family line at a time, with preserved records and migration history.',
+      'Follow 391 people one family line at a time, with preserved records and migration history.',
     images: [
       {
         url: '/og.png',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Vollmer Atlas — Follow a Family Thread',
     description:
-      'Follow 328 people one family line at a time, with preserved records and migration history.',
+      'Follow 391 people one family line at a time, with preserved records and migration history.',
     images: ['/og.png'],
   },
 };

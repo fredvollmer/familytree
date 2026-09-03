@@ -22,6 +22,7 @@
         "date_is_approximate": true,
         "place_original": "probably Steyning, Sussex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -50,6 +51,7 @@
         "date_is_approximate": true,
         "place_original": "probably Dedham, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -78,6 +80,7 @@
         "date_is_approximate": false,
         "place_original": "Dedham, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -106,6 +109,7 @@
         "date_is_approximate": true,
         "place_original": "Hampshire, England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -134,6 +138,7 @@
         "date_is_approximate": false,
         "place_original": "Ware, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -162,6 +167,7 @@
         "date_is_approximate": false,
         "place_original": "Dedham, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -190,6 +196,7 @@
         "date_is_approximate": true,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -218,6 +225,7 @@
         "date_is_approximate": false,
         "place_original": "Ware, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -246,6 +254,7 @@
         "date_is_approximate": false,
         "place_original": "Ware, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -274,6 +283,7 @@
         "date_is_approximate": false,
         "place_original": "Dedham, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -302,6 +312,7 @@
         "date_is_approximate": true,
         "place_original": "St. Albans, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -330,6 +341,7 @@
         "date_is_approximate": true,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -358,6 +370,7 @@
         "date_is_approximate": false,
         "place_original": "Ware, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -386,6 +399,7 @@
         "date_is_approximate": false,
         "place_original": "Roydon, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -414,6 +428,7 @@
         "date_is_approximate": false,
         "place_original": "Dedham, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -442,6 +457,7 @@
         "date_is_approximate": false,
         "place_original": "Hursley, Hampshire, England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -470,6 +486,7 @@
         "date_is_approximate": false,
         "place_original": "Ware, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -498,6 +515,7 @@
         "date_is_approximate": true,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -526,6 +544,7 @@
         "date_is_approximate": false,
         "place_original": "probably Fingringhoe, Essex, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -554,6 +573,7 @@
         "date_is_approximate": true,
         "place_original": "Hursley, Hampshire, England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -583,6 +603,7 @@
         "date_is_approximate": true,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -611,6 +632,7 @@
         "date_is_approximate": false,
         "place_original": "Basford, Nottinghamshire, England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -639,6 +661,7 @@
         "date_is_approximate": false,
         "place_original": "Ware, Hertfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -667,6 +690,7 @@
         "date_is_approximate": true,
         "place_original": "Oxfordshire, England",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "unknown",
         "source_refs": [
@@ -696,6 +720,7 @@
         "date_is_approximate": false,
         "place_original": "New Haven, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -724,6 +749,7 @@
         "date_is_approximate": true,
         "place_original": "Plymouth Colony",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -752,6 +778,7 @@
         "date_is_approximate": false,
         "place_original": "Cambridge, Massachusetts (secondary)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -780,6 +807,7 @@
         "date_is_approximate": true,
         "place_original": "Plymouth Colony",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -808,6 +836,7 @@
         "date_is_approximate": false,
         "place_original": "Plymouth Colony",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -836,6 +865,7 @@
         "date_is_approximate": true,
         "place_original": "Plymouth or Eastham, Massachusetts (scholarly reconstruction)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -864,6 +894,7 @@
         "date_is_approximate": true,
         "place_original": "probably New Haven, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -892,6 +923,7 @@
         "date_is_approximate": false,
         "place_original": "New Haven, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -920,6 +952,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -949,6 +982,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -977,6 +1011,7 @@
         "date_is_approximate": false,
         "place_original": "Stratford, Fairfield County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1005,10 +1040,41 @@
         "date_is_approximate": false,
         "place_original": "Cambridge, Massachusetts",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
           "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i257-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.06616,
+          42.4251
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i257-death",
+        "person_id": "I257",
+        "person_name": "Gabriel Whelden",
+        "event_type": "death",
+        "date_text": "BET 11 FEB 1653/54 AND 4 APR 1654",
+        "year_min": 1653,
+        "year_max": 1654,
+        "date_is_approximate": false,
+        "place_original": "Malden, Middlesex, Massachusetts",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "B",
+        "source_refs": [
+          "S26",
+          "S46"
         ]
       }
     },
@@ -1033,6 +1099,7 @@
         "date_is_approximate": false,
         "place_original": "Milford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1061,6 +1128,7 @@
         "date_is_approximate": false,
         "place_original": "Massachusetts (secondary)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -1089,6 +1157,7 @@
         "date_is_approximate": false,
         "place_original": "Killingworth, Middlesex County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "C",
         "source_refs": [
@@ -1117,6 +1186,7 @@
         "date_is_approximate": true,
         "place_original": "Prince George County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "unknown",
         "source_refs": [
@@ -1146,6 +1216,7 @@
         "date_is_approximate": true,
         "place_original": "Milford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1174,6 +1245,7 @@
         "date_is_approximate": false,
         "place_original": "New Haven, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1202,6 +1274,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1230,6 +1303,7 @@
         "date_is_approximate": true,
         "place_original": "near Nantes, France",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "C",
         "source_refs": [
@@ -1258,6 +1332,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -1286,6 +1361,7 @@
         "date_is_approximate": false,
         "place_original": "Milford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1314,6 +1390,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1342,6 +1419,7 @@
         "date_is_approximate": false,
         "place_original": "Milford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1370,6 +1448,7 @@
         "date_is_approximate": true,
         "place_original": "New London, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1398,6 +1477,7 @@
         "date_is_approximate": false,
         "place_original": "Wallingford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1426,6 +1506,7 @@
         "date_is_approximate": false,
         "place_original": "Wallingford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1454,6 +1535,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1483,6 +1565,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1512,6 +1595,7 @@
         "date_is_approximate": true,
         "place_original": "Prince George County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "C",
         "source_refs": [
@@ -1541,6 +1625,7 @@
         "date_is_approximate": true,
         "place_original": "Milford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1569,6 +1654,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1597,6 +1683,7 @@
         "date_is_approximate": true,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -1625,6 +1712,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1653,6 +1741,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1681,6 +1770,7 @@
         "date_is_approximate": true,
         "place_original": "Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -1709,6 +1799,7 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1737,11 +1828,42 @@
         "date_is_approximate": true,
         "place_original": "Surry County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "unknown",
         "source_refs": [
           "S4",
           "S13"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i230-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.83894,
+          42.93759
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i230-birth",
+        "person_id": "I230",
+        "person_name": "Bathsheba Robie Lane",
+        "event_type": "birth",
+        "date_text": "2 AUG 1696",
+        "year_min": 1696,
+        "year_max": 1696,
+        "date_is_approximate": false,
+        "place_original": "Hampton, Rockingham, New Hampshire",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26",
+          "S46"
         ]
       }
     },
@@ -1766,6 +1888,7 @@
         "date_is_approximate": false,
         "place_original": "New Hampshire",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1794,6 +1917,7 @@
         "date_is_approximate": true,
         "place_original": "Wallingford, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1822,6 +1946,7 @@
         "date_is_approximate": true,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1850,6 +1975,7 @@
         "date_is_approximate": false,
         "place_original": "Wallingford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1878,6 +2004,7 @@
         "date_is_approximate": false,
         "place_original": "probably Guilford, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -1906,6 +2033,7 @@
         "date_is_approximate": false,
         "place_original": "Hampton, New Hampshire",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1934,6 +2062,7 @@
         "date_is_approximate": false,
         "place_original": "Hampton, New Hampshire",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -1962,10 +2091,41 @@
         "date_is_approximate": true,
         "place_original": "Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "B",
         "source_refs": [
           "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i248-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i248-death",
+        "person_id": "I248",
+        "person_name": "Deborah Hopkins Cooke",
+        "event_type": "death",
+        "date_text": "BEF 7 DEC 1727",
+        "year_min": 1727,
+        "year_max": 1727,
+        "date_is_approximate": true,
+        "place_original": "probably Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26",
+          "S46"
         ]
       }
     },
@@ -1990,6 +2150,7 @@
         "date_is_approximate": false,
         "place_original": "Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "B",
         "source_refs": [
@@ -2019,10 +2180,41 @@
         "date_is_approximate": false,
         "place_original": "Eastham, Barnstable, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i245-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.97391,
+          41.83011
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i245-death",
+        "person_id": "I245",
+        "person_name": "Joshua Cooke",
+        "event_type": "death",
+        "date_text": "BET 31 JUL 1737 AND 28 SEP 1746",
+        "year_min": 1737,
+        "year_max": 1746,
+        "date_is_approximate": false,
+        "place_original": "probably Eastham, Barnstable, Massachusetts",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26",
+          "S46"
         ]
       }
     },
@@ -2047,6 +2239,7 @@
         "date_is_approximate": true,
         "place_original": "Brunswick County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "B",
         "source_refs": [
@@ -2077,6 +2270,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2105,6 +2299,7 @@
         "date_is_approximate": false,
         "place_original": "Stratham, New Hampshire",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2133,6 +2328,7 @@
         "date_is_approximate": false,
         "place_original": "New Hampshire (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2161,6 +2357,7 @@
         "date_is_approximate": false,
         "place_original": "Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "B",
         "source_refs": [
@@ -2189,6 +2386,7 @@
         "date_is_approximate": true,
         "place_original": "Prince George County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "C",
         "source_refs": [
@@ -2218,6 +2416,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2246,11 +2445,42 @@
         "date_is_approximate": false,
         "place_original": "Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
           "S4",
           "S10"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i230-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.83894,
+          42.93759
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i230-death",
+        "person_id": "I230",
+        "person_name": "Bathsheba Robie Lane",
+        "event_type": "death",
+        "date_text": "13 APR 1765",
+        "year_min": 1765,
+        "year_max": 1765,
+        "date_is_approximate": false,
+        "place_original": "Hampton, Rockingham, New Hampshire",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S26",
+          "S46"
         ]
       }
     },
@@ -2275,6 +2505,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2303,6 +2534,7 @@
         "date_is_approximate": false,
         "place_original": "Wallingford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2331,6 +2563,7 @@
         "date_is_approximate": false,
         "place_original": "Stratham, New Hampshire (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2359,6 +2592,7 @@
         "date_is_approximate": false,
         "place_original": "South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "B",
         "source_refs": [
@@ -2388,6 +2622,7 @@
         "date_is_approximate": false,
         "place_original": "Stratham, New Hampshire",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2416,6 +2651,7 @@
         "date_is_approximate": false,
         "place_original": "New Marlborough, Berkshire, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2444,6 +2680,7 @@
         "date_is_approximate": false,
         "place_original": "New Marlborough, Berkshire, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2472,6 +2709,7 @@
         "date_is_approximate": false,
         "place_original": "Killingly, Windham, Connecticut (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -2500,6 +2738,7 @@
         "date_is_approximate": false,
         "place_original": "Camden District, South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "B",
         "source_refs": [
@@ -2530,6 +2769,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2558,6 +2798,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2586,10 +2827,40 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
           "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i412-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.75941,
+          38.25424
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i412-birth",
+        "person_id": "I412",
+        "person_name": "Daniel Franklin McCoy",
+        "event_type": "birth",
+        "date_text": "22 JAN 1792",
+        "year_min": 1792,
+        "year_max": 1792,
+        "date_is_approximate": false,
+        "place_original": "Jefferson County, Kentucky",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75"
         ]
       }
     },
@@ -2614,6 +2885,7 @@
         "date_is_approximate": false,
         "place_original": "New Marlborough, Berkshire, Massachusetts",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -2642,6 +2914,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -2670,6 +2943,7 @@
         "date_is_approximate": false,
         "place_original": "South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -2700,6 +2974,7 @@
         "date_is_approximate": false,
         "place_original": "Granville, Washington, New York (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2729,6 +3004,7 @@
         "date_is_approximate": false,
         "place_original": "Fairfield District, South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -2758,6 +3034,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2787,6 +3064,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2815,6 +3093,7 @@
         "date_is_approximate": true,
         "place_original": "Kershaw District, South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -2843,6 +3122,7 @@
         "date_is_approximate": false,
         "place_original": "Stratham, New Hampshire (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2871,6 +3151,7 @@
         "date_is_approximate": false,
         "place_original": "Buckingham County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "B",
         "source_refs": [
@@ -2899,6 +3180,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2928,6 +3210,7 @@
         "date_is_approximate": false,
         "place_original": "Stewartstown, Coos, New Hampshire",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -2956,6 +3239,7 @@
         "date_is_approximate": true,
         "place_original": "Kentucky",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "McCormick / O’Brien",
         "confidence": "B",
         "source_refs": [
@@ -2984,6 +3268,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3012,6 +3297,7 @@
         "date_is_approximate": false,
         "place_original": "Columbia, South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -3041,10 +3327,41 @@
         "date_is_approximate": false,
         "place_original": "Stratham, New Hampshire (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i410-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8393,
+          40.41199
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i410-birth",
+        "person_id": "I410",
+        "person_name": "Elisha Branham",
+        "event_type": "birth",
+        "date_text": "1814",
+        "year_min": 1814,
+        "year_max": 1814,
+        "date_is_approximate": false,
+        "place_original": "Tennessee",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75",
+          "S79"
         ]
       }
     },
@@ -3069,6 +3386,7 @@
         "date_is_approximate": false,
         "place_original": "Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -3098,10 +3416,41 @@
         "date_is_approximate": false,
         "place_original": "Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "B",
         "source_refs": [
           "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i411-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.15253,
+          40.62146
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i411-birth",
+        "person_id": "I411",
+        "person_name": "Clarissa McCoy Branham Williams McBride",
+        "event_type": "birth",
+        "date_text": "10 OCT 1826",
+        "year_min": 1826,
+        "year_max": 1826,
+        "date_is_approximate": false,
+        "place_original": "Indiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75",
+          "S79"
         ]
       }
     },
@@ -3126,6 +3475,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3155,11 +3505,41 @@
         "date_is_approximate": false,
         "place_original": "Birmingham, Oakland County, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
           "S6",
           "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i389-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.80426,
+          52.826384
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i389-birth",
+        "person_id": "I389",
+        "person_name": "Robert Westbury",
+        "event_type": "birth",
+        "date_text": "ABT 1832",
+        "year_min": 1832,
+        "year_max": 1832,
+        "date_is_approximate": true,
+        "place_original": "England",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S60"
         ]
       }
     },
@@ -3184,11 +3564,41 @@
         "date_is_approximate": false,
         "place_original": "Caledonia, Livingston, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i381-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i381-birth",
+        "person_id": "I381",
+        "person_name": "Alo Tomlinson",
+        "event_type": "birth",
+        "date_text": "ABT 1836",
+        "year_min": 1836,
+        "year_max": 1836,
+        "date_is_approximate": true,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S68"
         ]
       }
     },
@@ -3213,11 +3623,70 @@
         "date_is_approximate": false,
         "place_original": "Bavaria",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "B",
         "source_refs": [
           "S2",
           "S21"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i369-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i369-birth",
+        "person_id": "I369",
+        "person_name": "Moses Vanhoose",
+        "event_type": "birth",
+        "date_text": "ABT 1837",
+        "year_min": 1837,
+        "year_max": 1837,
+        "date_is_approximate": true,
+        "place_original": "Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S63"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i379-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i379-birth",
+        "person_id": "I379",
+        "person_name": "Augustus Boltenhouse",
+        "event_type": "birth",
+        "date_text": "JUL 1839",
+        "year_min": 1839,
+        "year_max": 1839,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S67"
         ]
       }
     },
@@ -3242,6 +3711,7 @@
         "date_is_approximate": false,
         "place_original": "Alsace, France",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "B",
         "source_refs": [
@@ -3272,6 +3742,7 @@
         "date_is_approximate": false,
         "place_original": "Moscow (now Leicester), Livingston, New York (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3300,6 +3771,7 @@
         "date_is_approximate": false,
         "place_original": "New Hampshire (compiled genealogy)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3328,10 +3800,99 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i380-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i380-birth",
+        "person_id": "I380",
+        "person_name": "Elizabeth Cotter Boltenhouse",
+        "event_type": "birth",
+        "date_text": "ABT 1842",
+        "year_min": 1842,
+        "year_max": 1842,
+        "date_is_approximate": true,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S67"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i416-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.01376,
+          30.23687
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i416-birth",
+        "person_id": "I416",
+        "person_name": "Hannah T Blair Highley",
+        "event_type": "birth",
+        "date_text": "22 MAR 1842",
+        "year_min": 1842,
+        "year_max": 1842,
+        "date_is_approximate": false,
+        "place_original": "Iowa",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S76",
+          "S79"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i390-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i390-birth",
+        "person_id": "I390",
+        "person_name": "Hester Stonerock Westbury",
+        "event_type": "birth",
+        "date_text": "ABT 1842",
+        "year_min": 1842,
+        "year_max": 1842,
+        "date_is_approximate": true,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S60"
         ]
       }
     },
@@ -3356,6 +3917,7 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -3385,6 +3947,7 @@
         "date_is_approximate": false,
         "place_original": "Pavilion, Genesee, New York (derivative lineage record)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3413,6 +3976,7 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "B",
         "source_refs": [
@@ -3442,6 +4006,7 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "A",
         "source_refs": [
@@ -3472,10 +4037,40 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i382-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i382-birth",
+        "person_id": "I382",
+        "person_name": "Rebecca Tomlinson",
+        "event_type": "birth",
+        "date_text": "ABT 1846",
+        "year_min": 1846,
+        "year_max": 1846,
+        "date_is_approximate": true,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S68"
         ]
       }
     },
@@ -3500,10 +4095,40 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
           "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i371-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i371-birth",
+        "person_id": "I371",
+        "person_name": "Ira W Estep",
+        "event_type": "birth",
+        "date_text": "ABT 1848",
+        "year_min": 1848,
+        "year_max": 1848,
+        "date_is_approximate": true,
+        "place_original": "Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S64"
         ]
       }
     },
@@ -3528,10 +4153,98 @@
         "date_is_approximate": false,
         "place_original": "Pavilion, Genesee, New York (derivative lineage record)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i370-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i370-birth",
+        "person_id": "I370",
+        "person_name": "Mahala Dixon Vanhoose",
+        "event_type": "birth",
+        "date_text": "ABT 1848",
+        "year_min": 1848,
+        "year_max": 1848,
+        "date_is_approximate": true,
+        "place_original": "Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S63"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i372-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i372-birth",
+        "person_id": "I372",
+        "person_name": "Isora Morton Estep",
+        "event_type": "birth",
+        "date_text": "ABT 1849",
+        "year_min": 1849,
+        "year_max": 1849,
+        "date_is_approximate": true,
+        "place_original": "Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S64"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i385-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i385-birth",
+        "person_id": "I385",
+        "person_name": "John Hickey",
+        "event_type": "birth",
+        "date_text": "JUN 1849",
+        "year_min": 1849,
+        "year_max": 1849,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S57"
         ]
       }
     },
@@ -3556,10 +4269,40 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
           "S7"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i407-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.73238,
+          37.58288
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i407-birth",
+        "person_id": "I407",
+        "person_name": "Mary J McGaha Wallace",
+        "event_type": "birth",
+        "date_text": "14 JUL 1855",
+        "year_min": 1855,
+        "year_max": 1855,
+        "date_is_approximate": false,
+        "place_original": "Arkansas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75"
         ]
       }
     },
@@ -3584,6 +4327,7 @@
         "date_is_approximate": false,
         "place_original": "Guilford, New Haven County, Connecticut",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -3612,6 +4356,7 @@
         "date_is_approximate": false,
         "place_original": "Perdue Hill, Monroe County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Slaughter / Bush",
         "confidence": "A",
         "source_refs": [
@@ -3619,6 +4364,35 @@
           "S8",
           "S23",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i386-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i386-birth",
+        "person_id": "I386",
+        "person_name": "Mary Hickey",
+        "event_type": "birth",
+        "date_text": "MAR 1859",
+        "year_min": 1859,
+        "year_max": 1859,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S57"
         ]
       }
     },
@@ -3643,11 +4417,42 @@
         "date_is_approximate": true,
         "place_original": "Harsefeld, Province of Hanover, Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i387-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i387-birth",
+        "person_id": "I387",
+        "person_name": "William Imler",
+        "event_type": "birth",
+        "date_text": "APR 1860",
+        "year_min": 1860,
+        "year_max": 1860,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S58",
+          "S59"
         ]
       }
     },
@@ -3672,6 +4477,7 @@
         "date_is_approximate": true,
         "place_original": "Lintig, Lehe, Province of Hanover, Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3700,6 +4506,7 @@
         "date_is_approximate": false,
         "place_original": "Shepherdsville, Bullitt County, Kentucky",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "McCormick / O’Brien",
         "confidence": "A",
         "source_refs": [
@@ -3731,6 +4538,7 @@
         "date_is_approximate": true,
         "place_original": "Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -3739,6 +4547,69 @@
           "S6",
           "S24",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i395-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.401,
+          48.96641
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i395-birth",
+        "person_id": "I395",
+        "person_name": "Johann Daniel Fischer",
+        "event_type": "birth",
+        "date_text": "13 DEC 1863",
+        "year_min": 1863,
+        "year_max": 1863,
+        "date_is_approximate": false,
+        "place_original": "Grossaspach, Wurttemberg, Germany",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S71",
+          "S73",
+          "S77"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i014-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0475,
+          30.87324
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i014-birth",
+        "person_id": "I014",
+        "person_name": "Mary Wilhelmina Ohmer",
+        "event_type": "birth",
+        "date_text": "BET 1864 AND 1865",
+        "year_min": 1864,
+        "year_max": 1865,
+        "date_is_approximate": false,
+        "place_original": "Pennsylvania",
+        "side": "Maternal",
+        "line": "Muller",
+        "branch": "Lee / New England",
+        "confidence": "B",
+        "source_refs": [
+          "S2",
+          "S24",
+          "S27",
+          "S46"
         ]
       }
     },
@@ -3763,6 +4634,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3792,6 +4664,7 @@
         "date_is_approximate": false,
         "place_original": "Caledonia, Livingston, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3820,6 +4693,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3848,10 +4722,41 @@
         "date_is_approximate": false,
         "place_original": "Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "B",
         "source_refs": [
           "S8"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i388-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i388-birth",
+        "person_id": "I388",
+        "person_name": "Annie Westbury Imler",
+        "event_type": "birth",
+        "date_text": "FEB 1871",
+        "year_min": 1871,
+        "year_max": 1871,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S59",
+          "S60"
         ]
       }
     },
@@ -3876,12 +4781,44 @@
         "date_is_approximate": false,
         "place_original": "New York, New York",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "B",
         "source_refs": [
           "S2",
           "S21",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i396-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00597,
+          40.71427
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i396-birth",
+        "person_id": "I396",
+        "person_name": "Lena Wirtz Fischer",
+        "event_type": "birth",
+        "date_text": "30 NOV 1871",
+        "year_min": 1871,
+        "year_max": 1871,
+        "date_is_approximate": false,
+        "place_original": "New York, New York",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S71",
+          "S73",
+          "S77"
         ]
       }
     },
@@ -3906,6 +4843,7 @@
         "date_is_approximate": false,
         "place_original": "Canada",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3935,6 +4873,7 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -3942,6 +4881,36 @@
           "S8",
           "S9",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i410-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1193,
+          32.50931
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i410-death",
+        "person_id": "I410",
+        "person_name": "Elisha Branham",
+        "event_type": "death",
+        "date_text": "23 MAY 1873",
+        "year_min": 1873,
+        "year_max": 1873,
+        "date_is_approximate": false,
+        "place_original": "Monroe County, Indiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75",
+          "S79"
         ]
       }
     },
@@ -3966,6 +4935,7 @@
         "date_is_approximate": false,
         "place_original": "Bremen, Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -3995,10 +4965,71 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i413-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6324,
+          32.84069
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i413-birth",
+        "person_id": "I413",
+        "person_name": "Ambrose Long Highley",
+        "event_type": "birth",
+        "date_text": "24 JUN 1874",
+        "year_min": 1874,
+        "year_max": 1874,
+        "date_is_approximate": false,
+        "place_original": "Troy, Doniphan County, Kansas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S76",
+          "S79"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i377-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i377-birth",
+        "person_id": "I377",
+        "person_name": "George P Tomlinson",
+        "event_type": "birth",
+        "date_text": "APR 1875",
+        "year_min": 1875,
+        "year_max": 1875,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S68"
         ]
       }
     },
@@ -4023,6 +5054,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4051,6 +5083,7 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -4081,6 +5114,7 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "A",
         "source_refs": [
@@ -4111,6 +5145,7 @@
         "date_is_approximate": false,
         "place_original": "Bremen, Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4140,10 +5175,69 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i378-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i378-birth",
+        "person_id": "I378",
+        "person_name": "Malinda Linda Jackson Tomlinson",
+        "event_type": "birth",
+        "date_text": "ABT 1878",
+        "year_min": 1878,
+        "year_max": 1878,
+        "date_is_approximate": true,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S68"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i412-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.48333,
+          39.3081
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i412-death",
+        "person_id": "I412",
+        "person_name": "Daniel Franklin McCoy",
+        "event_type": "death",
+        "date_text": "16 JUL 1882",
+        "year_min": 1882,
+        "year_max": 1882,
+        "date_is_approximate": false,
+        "place_original": "Hindustan, Monroe County, Indiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75"
         ]
       }
     },
@@ -4168,6 +5262,7 @@
         "date_is_approximate": false,
         "place_original": "Pavilion, Genesee, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4197,11 +5292,72 @@
         "date_is_approximate": false,
         "place_original": "South Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
           "S4",
           "S20"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i405-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.36996,
+          30.67436
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i405-birth",
+        "person_id": "I405",
+        "person_name": "Walter Albert Wallace Sr",
+        "event_type": "birth",
+        "date_text": "3 DEC 1883",
+        "year_min": 1883,
+        "year_max": 1883,
+        "date_is_approximate": false,
+        "place_original": "Bryan County, Oklahoma",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S75",
+          "S78"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i375-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i375-birth",
+        "person_id": "I375",
+        "person_name": "Alonzo Boltenhouse",
+        "event_type": "birth",
+        "date_text": "JUN 1884",
+        "year_min": 1884,
+        "year_max": 1884,
+        "date_is_approximate": false,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S67"
         ]
       }
     },
@@ -4226,10 +5382,40 @@
         "date_is_approximate": false,
         "place_original": "Manhattan, New York (strongly supported identification of an unnamed female birth)",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i376-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.785341,
+          40.38603
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i376-birth",
+        "person_id": "I376",
+        "person_name": "Malinda E Speakman Boltenhouse",
+        "event_type": "birth",
+        "date_text": "ABT 1885",
+        "year_min": 1885,
+        "year_max": 1885,
+        "date_is_approximate": true,
+        "place_original": "Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S67"
         ]
       }
     },
@@ -4254,11 +5440,70 @@
         "date_is_approximate": false,
         "place_original": "Benton, Lowndes County, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
           "S4",
           "S9"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i401-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.630719,
+          30.951176
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i401-birth",
+        "person_id": "I401",
+        "person_name": "George Samuel Gilmore",
+        "event_type": "birth",
+        "date_text": "22 JAN 1886",
+        "year_min": 1886,
+        "year_max": 1886,
+        "date_is_approximate": false,
+        "place_original": "Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S72"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i402-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.630719,
+          30.951176
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i402-birth",
+        "person_id": "I402",
+        "person_name": "Ida Susan Burt Gilmore",
+        "event_type": "birth",
+        "date_text": "ABT 1887",
+        "year_min": 1887,
+        "year_max": 1887,
+        "date_is_approximate": true,
+        "place_original": "Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S72"
         ]
       }
     },
@@ -4283,10 +5528,41 @@
         "date_is_approximate": false,
         "place_original": "Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i383-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i383-birth",
+        "person_id": "I383",
+        "person_name": "William Andrew Hickey",
+        "event_type": "birth",
+        "date_text": "13 JUN 1888",
+        "year_min": 1888,
+        "year_max": 1888,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S56",
+          "S57"
         ]
       }
     },
@@ -4311,6 +5587,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4340,6 +5617,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4368,10 +5646,42 @@
         "date_is_approximate": false,
         "place_original": "Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i406-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.03856,
+          45.67965
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i406-birth",
+        "person_id": "I406",
+        "person_name": "Alice Mae Williams Wallace",
+        "event_type": "birth",
+        "date_text": "2 MAR 1892",
+        "year_min": 1892,
+        "year_max": 1892,
+        "date_is_approximate": false,
+        "place_original": "Missouri",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S75",
+          "S78"
         ]
       }
     },
@@ -4396,6 +5706,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4424,10 +5735,40 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i367-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.309129,
+          37.838308
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i367-birth",
+        "person_id": "I367",
+        "person_name": "Sidney Tackett",
+        "event_type": "birth",
+        "date_text": "ABT 1894",
+        "year_min": 1894,
+        "year_max": 1894,
+        "date_is_approximate": true,
+        "place_original": "Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S65"
         ]
       }
     },
@@ -4452,6 +5793,7 @@
         "date_is_approximate": false,
         "place_original": "York, Livingston, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4481,6 +5823,7 @@
         "date_is_approximate": false,
         "place_original": "Highland Falls, Orange, New York",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "B",
         "source_refs": [
@@ -4511,6 +5854,7 @@
         "date_is_approximate": false,
         "place_original": "Kentucky",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "McCormick / O’Brien",
         "confidence": "A",
         "source_refs": [
@@ -4541,6 +5885,7 @@
         "date_is_approximate": true,
         "place_original": "Connecticut",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4569,6 +5914,7 @@
         "date_is_approximate": false,
         "place_original": "Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "A",
         "source_refs": [
@@ -4600,10 +5946,40 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i368-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.509339,
+          35.452497
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i368-birth",
+        "person_id": "I368",
+        "person_name": "Ida Missouri",
+        "event_type": "birth",
+        "date_text": "ABT 1898",
+        "year_min": 1898,
+        "year_max": 1898,
+        "date_is_approximate": true,
+        "place_original": "North Carolina",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S65"
         ]
       }
     },
@@ -4628,6 +6004,7 @@
         "date_is_approximate": false,
         "place_original": "Highland Falls, Orange, New York",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4656,6 +6033,7 @@
         "date_is_approximate": false,
         "place_original": "Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4684,6 +6062,7 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4713,6 +6092,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4741,6 +6121,7 @@
         "date_is_approximate": false,
         "place_original": "Kentucky",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4769,6 +6150,7 @@
         "date_is_approximate": false,
         "place_original": "Bloomfield, Oakland County, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -4798,10 +6180,43 @@
         "date_is_approximate": false,
         "place_original": "Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i336-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.30081,
+          47.50024
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i336-birth",
+        "person_id": "I336",
+        "person_name": "William John Thoren",
+        "event_type": "birth",
+        "date_text": "19 JUL 1901",
+        "year_min": 1901,
+        "year_max": 1901,
+        "date_is_approximate": false,
+        "place_original": "Great Falls, Cascade, Montana",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S28",
+          "S32",
+          "S33",
+          "S34"
         ]
       }
     },
@@ -4826,6 +6241,7 @@
         "date_is_approximate": false,
         "place_original": "Alaska",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
@@ -4856,6 +6272,7 @@
         "date_is_approximate": false,
         "place_original": "Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Slaughter / Bush",
         "confidence": "A",
         "source_refs": [
@@ -4886,6 +6303,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4914,6 +6332,7 @@
         "date_is_approximate": false,
         "place_original": "Freeport, Nassau, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4944,6 +6363,7 @@
         "date_is_approximate": false,
         "place_original": "Bullitt County, Kentucky",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -4972,11 +6392,73 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27",
           "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i373-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6505,
+          39.31228
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i373-birth",
+        "person_id": "I373",
+        "person_name": "Charles Emerald Boltenhouse Sr",
+        "event_type": "birth",
+        "date_text": "27 MAY 1907",
+        "year_min": 1907,
+        "year_max": 1907,
+        "date_is_approximate": false,
+        "place_original": "Ross County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S55",
+          "S66",
+          "S67"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i411-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1193,
+          32.50931
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i411-death",
+        "person_id": "I411",
+        "person_name": "Clarissa McCoy Branham Williams McBride",
+        "event_type": "death",
+        "date_text": "27 FEB 1907",
+        "year_min": 1907,
+        "year_max": 1907,
+        "date_is_approximate": false,
+        "place_original": "Monroe County, Indiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75",
+          "S79"
         ]
       }
     },
@@ -5001,10 +6483,41 @@
         "date_is_approximate": false,
         "place_original": "Monroeville, Monroe, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i374-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.99879,
+          39.96118
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i374-birth",
+        "person_id": "I374",
+        "person_name": "Leona Florence Tomlinson Boltenhouse",
+        "event_type": "birth",
+        "date_text": "29 JUL 1907",
+        "year_min": 1907,
+        "year_max": 1907,
+        "date_is_approximate": false,
+        "place_original": "Franklin, Warren County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S66",
+          "S68"
         ]
       }
     },
@@ -5029,6 +6542,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5057,6 +6571,7 @@
         "date_is_approximate": true,
         "place_original": "Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5085,6 +6600,7 @@
         "date_is_approximate": false,
         "place_original": "Change Islands, Newfoundland",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5114,6 +6630,7 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5142,10 +6659,102 @@
         "date_is_approximate": false,
         "place_original": "Monroeville, Monroe, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i394-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i394-birth",
+        "person_id": "I394",
+        "person_name": "Ruby Louise Gilmore Fischer",
+        "event_type": "birth",
+        "date_text": "10 DEC 1912",
+        "year_min": 1912,
+        "year_max": 1912,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S71",
+          "S72",
+          "S77"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i339-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.30081,
+          47.50024
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i339-death",
+        "person_id": "I339",
+        "person_name": "Augusta Nilsdotter",
+        "event_type": "death",
+        "date_text": "4 DEC 1913",
+        "year_min": 1913,
+        "year_max": 1913,
+        "date_is_approximate": false,
+        "place_original": "Great Falls, Cascade, Montana",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S34",
+          "S37"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i404-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.61637,
+          37.0373
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i404-birth",
+        "person_id": "I404",
+        "person_name": "Dorothy Bess Highley Wallace",
+        "event_type": "birth",
+        "date_text": "21 OCT 1914",
+        "year_min": 1914,
+        "year_max": 1914,
+        "date_is_approximate": false,
+        "place_original": "Coffeyville, Montgomery County, Kansas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S76"
         ]
       }
     },
@@ -5170,6 +6779,7 @@
         "date_is_approximate": false,
         "place_original": "Perry, Wyoming, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5198,10 +6808,42 @@
         "date_is_approximate": true,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i403-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.95698,
+          34.78257
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i403-birth",
+        "person_id": "I403",
+        "person_name": "Chalmers Carl Wallace",
+        "event_type": "birth",
+        "date_text": "16 MAR 1915",
+        "year_min": 1915,
+        "year_max": 1915,
+        "date_is_approximate": false,
+        "place_original": "Rush Springs, Grady County, Oklahoma",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S75",
+          "S78"
         ]
       }
     },
@@ -5226,11 +6868,43 @@
         "date_is_approximate": false,
         "place_original": "Roosevelt, Nassau, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i393-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i393-birth",
+        "person_id": "I393",
+        "person_name": "Raymond Charles Fischer Sr",
+        "event_type": "birth",
+        "date_text": "18 FEB 1915",
+        "year_min": 1915,
+        "year_max": 1915,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S70",
+          "S71",
+          "S77"
         ]
       }
     },
@@ -5255,6 +6929,7 @@
         "date_is_approximate": false,
         "place_original": "Perry, Wyoming, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5284,6 +6959,7 @@
         "date_is_approximate": false,
         "place_original": "Queens, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5313,6 +6989,7 @@
         "date_is_approximate": false,
         "place_original": "Perry, Wyoming, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5341,6 +7018,7 @@
         "date_is_approximate": false,
         "place_original": "Wayne County, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
@@ -5369,6 +7047,7 @@
         "date_is_approximate": false,
         "place_original": "Highland Park, Wayne, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5397,6 +7076,7 @@
         "date_is_approximate": false,
         "place_original": "Caledonia, Livingston, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5425,11 +7105,42 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Wayne, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
           "S27",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i338-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.30081,
+          47.50024
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i338-death",
+        "person_id": "I338",
+        "person_name": "Christian Andrew Thoren",
+        "event_type": "death",
+        "date_text": "9 MAY 1921",
+        "year_min": 1921,
+        "year_max": 1921,
+        "date_is_approximate": false,
+        "place_original": "Great Falls, Cascade, Montana",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S34",
+          "S36"
         ]
       }
     },
@@ -5454,10 +7165,71 @@
         "date_is_approximate": false,
         "place_original": "Perry, Wyoming, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i361-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.89662,
+          38.0373
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i361-birth",
+        "person_id": "I361",
+        "person_name": "Douglas T Vanhoose",
+        "event_type": "birth",
+        "date_text": "1 APR 1921",
+        "year_min": 1921,
+        "year_max": 1921,
+        "date_is_approximate": false,
+        "place_original": "Lawrence County, Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S53",
+          "S61"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i416-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.15094,
+          38.6245
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i416-death",
+        "person_id": "I416",
+        "person_name": "Hannah T Blair Highley",
+        "event_type": "death",
+        "date_text": "9 FEB 1921",
+        "year_min": 1921,
+        "year_max": 1921,
+        "date_is_approximate": false,
+        "place_original": "East St Louis, St Clair County, Illinois",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S76",
+          "S79"
         ]
       }
     },
@@ -5482,10 +7254,41 @@
         "date_is_approximate": false,
         "place_original": "Perry, Wyoming, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i362-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55071,
+          37.36705
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i362-birth",
+        "person_id": "I362",
+        "person_name": "Mildred I Tackett Vanhoose",
+        "event_type": "birth",
+        "date_text": "6 NOV 1924",
+        "year_min": 1924,
+        "year_max": 1924,
+        "date_is_approximate": false,
+        "place_original": "Esco, Pike County, Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S53",
+          "S65"
         ]
       }
     },
@@ -5510,6 +7313,7 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "A",
         "source_refs": [
@@ -5517,6 +7321,67 @@
           "S5",
           "S27",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i395-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i395-death",
+        "person_id": "I395",
+        "person_name": "Johann Daniel Fischer",
+        "event_type": "death",
+        "date_text": "31 MAR 1925",
+        "year_min": 1925,
+        "year_max": 1925,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S71",
+          "S73",
+          "S77"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i363-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i363-birth",
+        "person_id": "I363",
+        "person_name": "Charles Emerald Boltenhouse Jr",
+        "event_type": "birth",
+        "date_text": "19 DEC 1926",
+        "year_min": 1926,
+        "year_max": 1926,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S54",
+          "S55"
         ]
       }
     },
@@ -5541,6 +7406,7 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Wayne, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5569,10 +7435,102 @@
         "date_is_approximate": false,
         "place_original": "Simsbury, Hartford, Connecticut",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i364-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i364-birth",
+        "person_id": "I364",
+        "person_name": "Alice Marie Hickey Boltenhouse",
+        "event_type": "birth",
+        "date_text": "30 AUG 1929",
+        "year_min": 1929,
+        "year_max": 1929,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S54",
+          "S56"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i193-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.14465,
+          42.48948
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i193-birth",
+        "person_id": "I193",
+        "person_name": "Philip Brooks McCormick",
+        "event_type": "birth",
+        "date_text": "10 APR 1930",
+        "year_min": 1930,
+        "year_max": 1930,
+        "date_is_approximate": false,
+        "place_original": "Royal Oak, Oakland, Michigan",
+        "side": "Maternal",
+        "line": "Muller",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i413-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.463,
+          37.14645
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i413-death",
+        "person_id": "I413",
+        "person_name": "Ambrose Long Highley",
+        "event_type": "death",
+        "date_text": "16 OCT 1931",
+        "year_min": 1931,
+        "year_max": 1931,
+        "date_is_approximate": false,
+        "place_original": "Webb City, Jasper County, Missouri",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S76",
+          "S79"
         ]
       }
     },
@@ -5597,6 +7555,7 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Wayne, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
@@ -5625,11 +7584,104 @@
         "date_is_approximate": false,
         "place_original": "Hempstead, Nassau, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i176-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94875,
+          40.74482
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i176-birth",
+        "person_id": "I176",
+        "person_name": "Henry Richard Vollmer",
+        "event_type": "birth",
+        "date_text": "24 SEP 1934",
+        "year_min": 1934,
+        "year_max": 1934,
+        "date_is_approximate": false,
+        "place_original": "Long Island, New York",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S28",
+          "S46",
+          "S31",
+          "S47"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i286-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.77791,
+          42.14203
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i286-death",
+        "person_id": "I286",
+        "person_name": "John C Pullyblank",
+        "event_type": "death",
+        "date_text": "1934",
+        "year_min": 1934,
+        "year_max": 1934,
+        "date_is_approximate": false,
+        "place_original": "Livingston County, New York",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i391-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i391-birth",
+        "person_id": "I391",
+        "person_name": "Raymond Charles Fischer Jr",
+        "event_type": "birth",
+        "date_text": "22 NOV 1934",
+        "year_min": 1934,
+        "year_max": 1934,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S69",
+          "S70"
         ]
       }
     },
@@ -5654,6 +7706,7 @@
         "date_is_approximate": false,
         "place_original": "Edinburg, Texas",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Slaughter / Bush",
         "confidence": "A",
         "source_refs": [
@@ -5685,6 +7738,7 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "B",
         "source_refs": [
@@ -5693,6 +7747,95 @@
           "S6",
           "S24",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i384-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i384-death",
+        "person_id": "I384",
+        "person_name": "Daisy Marie Imler Hickey",
+        "event_type": "death",
+        "date_text": "20 APR 1942",
+        "year_min": 1942,
+        "year_max": 1942,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S56",
+          "S58"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i359-birth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.63794,
+          38.47841
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i359-birth",
+        "person_id": "I359",
+        "person_name": "Keith Douglas Vanhoose",
+        "event_type": "birth",
+        "date_text": "5 DEC 1944",
+        "year_min": 1944,
+        "year_max": 1944,
+        "date_is_approximate": false,
+        "place_original": "Ashland, Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S52",
+          "S53"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i407-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.67055,
+          33.10317
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i407-death",
+        "person_id": "I407",
+        "person_name": "Mary J McGaha Wallace",
+        "event_type": "death",
+        "date_text": "13 JUL 1945",
+        "year_min": 1945,
+        "year_max": 1945,
+        "date_is_approximate": false,
+        "place_original": "Allen, Pontotoc County, Oklahoma",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S75"
         ]
       }
     },
@@ -5717,6 +7860,7 @@
         "date_is_approximate": true,
         "place_original": "Rochester, Monroe, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5746,6 +7890,7 @@
         "date_is_approximate": false,
         "place_original": "Sparks, Maryland",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "A",
         "source_refs": [
@@ -5777,12 +7922,44 @@
         "date_is_approximate": false,
         "place_original": "Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
           "S27",
           "S46",
           "S47"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i414-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.93111,
+          38.39144
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i414-death",
+        "person_id": "I414",
+        "person_name": "Mary Elizabeth Herod Highley",
+        "event_type": "death",
+        "date_text": "22 APR 1958",
+        "year_min": 1958,
+        "year_max": 1958,
+        "date_is_approximate": false,
+        "place_original": "Jasper County, Missouri",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S76",
+          "S79"
         ]
       }
     },
@@ -5807,6 +7984,7 @@
         "date_is_approximate": false,
         "place_original": "Seattle, King, Washington",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
@@ -5836,10 +8014,73 @@
         "date_is_approximate": false,
         "place_original": "New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i403-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64783,
+          41.9217
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i403-death",
+        "person_id": "I403",
+        "person_name": "Chalmers Carl Wallace",
+        "event_type": "death",
+        "date_text": "25 NOV 1962",
+        "year_min": 1962,
+        "year_max": 1962,
+        "date_is_approximate": false,
+        "place_original": "Lincoln Parish, Louisiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S75",
+          "S78"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i405-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.75018,
+          32.52515
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i405-death",
+        "person_id": "I405",
+        "person_name": "Walter Albert Wallace Sr",
+        "event_type": "death",
+        "date_text": "8 DEC 1963",
+        "year_min": 1963,
+        "year_max": 1963,
+        "date_is_approximate": false,
+        "place_original": "Shreveport, Caddo Parish, Louisiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S75",
+          "S78"
         ]
       }
     },
@@ -5864,6 +8105,7 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Wayne, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "B",
         "source_refs": [
@@ -5894,10 +8136,103 @@
         "date_is_approximate": false,
         "place_original": "Simsbury, Hartford, Connecticut",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i366-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.63794,
+          38.47841
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i366-death",
+        "person_id": "I366",
+        "person_name": "Talliehassie Tallie Estep Vanhoose",
+        "event_type": "death",
+        "date_text": "17 MAY 1967",
+        "year_min": 1967,
+        "year_max": 1967,
+        "date_is_approximate": false,
+        "place_original": "Ashland, Boyd County, Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S61",
+          "S62",
+          "S64"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i383-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i383-death",
+        "person_id": "I383",
+        "person_name": "William Andrew Hickey",
+        "event_type": "death",
+        "date_text": "6 APR 1971",
+        "year_min": 1971,
+        "year_max": 1971,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S56",
+          "S57"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i177-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66149,
+          45.63873
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i177-death",
+        "person_id": "I177",
+        "person_name": "Bruce Eric Muller",
+        "event_type": "death",
+        "date_text": "4 JUN 1972",
+        "year_min": 1972,
+        "year_max": 1972,
+        "date_is_approximate": false,
+        "place_original": "Vancouver, Clark, Washington",
+        "side": "Maternal",
+        "line": "Muller",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27",
+          "S46",
+          "S47"
         ]
       }
     },
@@ -5922,6 +8257,7 @@
         "date_is_approximate": false,
         "place_original": "Seattle, King, Washington",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -5952,6 +8288,7 @@
         "date_is_approximate": false,
         "place_original": "Detroit, Wayne, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Lee / New England",
         "confidence": "A",
         "source_refs": [
@@ -5983,6 +8320,7 @@
         "date_is_approximate": false,
         "place_original": "McAllen, Hidalgo, Texas",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6011,10 +8349,72 @@
         "date_is_approximate": false,
         "place_original": "McAllen, Hidalgo, Texas",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i396-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i396-death",
+        "person_id": "I396",
+        "person_name": "Lena Wirtz Fischer",
+        "event_type": "death",
+        "date_text": "24 JAN 1974",
+        "year_min": 1974,
+        "year_max": 1974,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S71",
+          "S73",
+          "S77"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i355-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66149,
+          45.63873
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i355-death",
+        "person_id": "I355",
+        "person_name": "Peter Vollmer",
+        "event_type": "death",
+        "date_text": "5 AUG 1975",
+        "year_min": 1975,
+        "year_max": 1975,
+        "date_is_approximate": false,
+        "place_original": "Vancouver, Clark, Washington",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S47",
+          "S46"
         ]
       }
     },
@@ -6039,10 +8439,42 @@
         "date_is_approximate": false,
         "place_original": "Jefferson County, Kentucky",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i337-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.05208,
+          46.49177
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i337-death",
+        "person_id": "I337",
+        "person_name": "Alice Gallaher",
+        "event_type": "death",
+        "date_text": "23 AUG 1978",
+        "year_min": 1978,
+        "year_max": 1978,
+        "date_is_approximate": false,
+        "place_original": "Ocean Park, Pacific, Washington",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S32",
+          "S33",
+          "S35"
         ]
       }
     },
@@ -6067,12 +8499,75 @@
         "date_is_approximate": false,
         "place_original": "Asheville, North Carolina",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "McCormick / O’Brien",
         "confidence": "A",
         "source_refs": [
           "S1",
           "S25",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i373-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i373-death",
+        "person_id": "I373",
+        "person_name": "Charles Emerald Boltenhouse Sr",
+        "event_type": "death",
+        "date_text": "29 MAR 1979",
+        "year_min": 1979,
+        "year_max": 1979,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S55",
+          "S66",
+          "S67"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i393-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i393-death",
+        "person_id": "I393",
+        "person_name": "Raymond Charles Fischer Sr",
+        "event_type": "death",
+        "date_text": "20 MAY 1979",
+        "year_min": 1979,
+        "year_max": 1979,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S70",
+          "S71",
+          "S77"
         ]
       }
     },
@@ -6097,6 +8592,7 @@
         "date_is_approximate": false,
         "place_original": "Monroeville, Monroe, Alabama",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6125,11 +8621,42 @@
         "date_is_approximate": false,
         "place_original": "Camas, Clark, Washington",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S26",
           "S48"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i361-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.63883,
+          37.20897
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i361-death",
+        "person_id": "I361",
+        "person_name": "Douglas T Vanhoose",
+        "event_type": "death",
+        "date_text": "5 FEB 1983",
+        "year_min": 1983,
+        "year_max": 1983,
+        "date_is_approximate": false,
+        "place_original": "Pulaski County, Kentucky",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S53",
+          "S61"
         ]
       }
     },
@@ -6154,6 +8681,7 @@
         "date_is_approximate": false,
         "place_original": "Freeport, Nassau, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6183,6 +8711,7 @@
         "date_is_approximate": false,
         "place_original": "Baltimore County, Maryland",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6211,10 +8740,104 @@
         "date_is_approximate": false,
         "place_original": "Madison Heights, Oakland, Michigan",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i290-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16472,
+          32.71571
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i290-death",
+        "person_id": "I290",
+        "person_name": "Willard R Pullyblank",
+        "event_type": "death",
+        "date_text": "13 DEC 1986",
+        "year_min": 1986,
+        "year_max": 1986,
+        "date_is_approximate": false,
+        "place_original": "San Diego County, California",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "A",
+        "source_refs": [
+          "S27",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i406-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.75018,
+          32.52515
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i406-death",
+        "person_id": "I406",
+        "person_name": "Alice Mae Williams Wallace",
+        "event_type": "death",
+        "date_text": "8 FEB 1987",
+        "year_min": 1987,
+        "year_max": 1987,
+        "date_is_approximate": false,
+        "place_original": "Shreveport, Caddo Parish, Louisiana",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S75",
+          "S78"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i336-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.536335,
+          47.308891
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i336-death",
+        "person_id": "I336",
+        "person_name": "William John Thoren",
+        "event_type": "death",
+        "date_text": "26 OCT 1991",
+        "year_min": 1991,
+        "year_max": 1991,
+        "date_is_approximate": false,
+        "place_original": "Washington",
+        "side": "Paternal",
+        "line": "Vollmer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S28",
+          "S32",
+          "S33",
+          "S34"
         ]
       }
     },
@@ -6239,6 +8862,7 @@
         "date_is_approximate": false,
         "place_original": "New Jersey",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6267,12 +8891,104 @@
         "date_is_approximate": false,
         "place_original": "Los Angeles County, California",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Slaughter / Bush",
         "confidence": "A",
         "source_refs": [
           "S1",
           "S8",
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i374-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.91073,
+          39.47395
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i374-death",
+        "person_id": "I374",
+        "person_name": "Leona Florence Tomlinson Boltenhouse",
+        "event_type": "death",
+        "date_text": "16 FEB 1994",
+        "year_min": 1994,
+        "year_max": 1994,
+        "date_is_approximate": false,
+        "place_original": "Kingston, Ross County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S66",
+          "S68"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i404-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.969075,
+          36.395182
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i404-death",
+        "person_id": "I404",
+        "person_name": "Dorothy Bess Highley Wallace",
+        "event_type": "death",
+        "date_text": "SEP 1995",
+        "year_min": 1995,
+        "year_max": 1995,
+        "date_is_approximate": false,
+        "place_original": "California",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S74",
+          "S76"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i394-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89804,
+          31.30629
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i394-death",
+        "person_id": "I394",
+        "person_name": "Ruby Louise Gilmore Fischer",
+        "event_type": "death",
+        "date_text": "16 MAR 2000",
+        "year_min": 2000,
+        "year_max": 2000,
+        "date_is_approximate": false,
+        "place_original": "Marlin, Falls County, Texas",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S71",
+          "S72",
+          "S77"
         ]
       }
     },
@@ -6297,6 +9013,7 @@
         "date_is_approximate": false,
         "place_original": "Bellingham, Washington",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "A",
         "source_refs": [
@@ -6328,6 +9045,7 @@
         "date_is_approximate": false,
         "place_original": "Freeport, Nassau, New York",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6357,10 +9075,131 @@
         "date_is_approximate": false,
         "place_original": "North Bend, Coos, Oregon",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Unspecified",
         "confidence": "unknown",
         "source_refs": [
           "S27"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i362-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.93768,
+          39.96895
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i362-death",
+        "person_id": "I362",
+        "person_name": "Mildred I Tackett Vanhoose",
+        "event_type": "death",
+        "date_text": "22 AUG 2015",
+        "year_min": 2015,
+        "year_max": 2015,
+        "date_is_approximate": false,
+        "place_original": "Bexley, Franklin County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S53",
+          "S65"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i193-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.92895,
+          33.61891
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i193-death",
+        "person_id": "I193",
+        "person_name": "Philip Brooks McCormick",
+        "event_type": "death",
+        "date_text": "20 FEB 2021",
+        "year_min": 2021,
+        "year_max": 2021,
+        "date_is_approximate": false,
+        "place_original": "Newport Beach, Orange, California",
+        "side": "Maternal",
+        "line": "Muller",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S27",
+          "S46"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i391-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5729,
+          39.27396
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i391-death",
+        "person_id": "I391",
+        "person_name": "Raymond Charles Fischer Jr",
+        "event_type": "death",
+        "date_text": "22 SEP 2022",
+        "year_min": 2022,
+        "year_max": 2022,
+        "date_is_approximate": false,
+        "place_original": "Belpre, Washington County, Ohio",
+        "side": "Other",
+        "line": "Fischer",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S69",
+          "S70"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "evt-i363-death",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94601,
+          39.60062
+        ]
+      },
+      "properties": {
+        "event_id": "evt-i363-death",
+        "person_id": "I363",
+        "person_name": "Charles Emerald Boltenhouse Jr",
+        "event_type": "death",
+        "date_text": "1 MAR 2026",
+        "year_min": 2026,
+        "year_max": 2026,
+        "date_is_approximate": false,
+        "place_original": "Circleville, Pickaway County, Ohio",
+        "side": "Other",
+        "line": "VanHoose",
+        "branch": "Unspecified",
+        "confidence": "unknown",
+        "source_refs": [
+          "S54",
+          "S55"
         ]
       }
     },
@@ -6385,6 +9224,7 @@
         "date_is_approximate": false,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -6413,6 +9253,7 @@
         "date_is_approximate": false,
         "place_original": "Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6441,6 +9282,7 @@
         "date_is_approximate": false,
         "place_original": "Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6469,6 +9311,7 @@
         "date_is_approximate": false,
         "place_original": "Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6497,6 +9340,7 @@
         "date_is_approximate": false,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [
@@ -6525,6 +9369,7 @@
         "date_is_approximate": false,
         "place_original": "Bavaria",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Muller / Kleitz",
         "confidence": "C",
         "source_refs": [
@@ -6553,6 +9398,7 @@
         "date_is_approximate": false,
         "place_original": "near Lyon, France",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "C",
         "source_refs": [
@@ -6581,6 +9427,7 @@
         "date_is_approximate": false,
         "place_original": "Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "C",
         "source_refs": [
@@ -6609,6 +9456,7 @@
         "date_is_approximate": false,
         "place_original": "Brunswick County, Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Rives / Harrison",
         "confidence": "B",
         "source_refs": [
@@ -6639,6 +9487,7 @@
         "date_is_approximate": false,
         "place_original": "Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6667,6 +9516,7 @@
         "date_is_approximate": false,
         "place_original": "Virginia",
         "side": "Maternal",
+        "line": "Muller",
         "branch": "Agee / Ford / Bondurant",
         "confidence": "C",
         "source_refs": [
@@ -6695,6 +9545,7 @@
         "date_is_approximate": false,
         "place_original": "Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6723,6 +9574,7 @@
         "date_is_approximate": false,
         "place_original": "Germany",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "A",
         "source_refs": [
@@ -6751,6 +9603,7 @@
         "date_is_approximate": false,
         "place_original": "England",
         "side": "Paternal",
+        "line": "Vollmer",
         "branch": "Unspecified",
         "confidence": "B",
         "source_refs": [

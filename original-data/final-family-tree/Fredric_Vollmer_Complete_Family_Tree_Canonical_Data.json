@@ -4,36 +4,36 @@
     "format": "consolidated canonical genealogy dataset",
     "gedcom_version": "5.5.1",
     "updated": "2026-09-02",
-    "scope": "Recovered maternal direct tree plus later paternal direct and bounded collateral research, including Mary Alice Thoren's documented Thoren ancestry through eighteenth-century Sweden.",
-    "privacy": "Living dates, addresses, contact information, and speculative modern links are omitted.",
+    "scope": "Canonical Vollmer tree plus Arianna Lynn Fischer and her documented direct paternal and maternal ancestry; no Fischer collateral relatives were added.",
+    "privacy": "Living addresses and contact information are omitted. Living exact dates are withheld except Arianna's owner-supplied birth year.",
     "vital_date_coverage": {
-      "people": 328,
-      "birth_dates_recorded": 203,
-      "death_dates_recorded": 189,
-      "complete": 156,
-      "partial": 80,
-      "unresolved": 63,
+      "people": 391,
+      "birth_dates_recorded": 256,
+      "death_dates_recorded": 218,
+      "complete": 185,
+      "partial": 104,
+      "unresolved": 69,
       "privacy_limited": 25,
-      "living_private": 4
+      "living_private": 8
     },
     "occupation_coverage": {
-      "people": 328,
+      "people": 391,
       "people_with_recorded_occupations_or_roles": 17,
       "accepted_occupation_events": 23,
-      "unresolved": 274,
+      "unresolved": 332,
       "privacy_limited": 31,
-      "living_private": 4,
+      "living_private": 9,
       "minor_without_occupation": 2
     },
     "media_audit": {
       "audited": "2026-09-02",
-      "people_audited": 328,
+      "people_audited": 391,
       "portraits_archived": 0,
       "external_photo_pages": 2,
-      "privacy_withheld": 2,
-      "no_verified_photo_archived": 324,
-      "evidence_files": 43,
-      "evidence_images": 34,
+      "privacy_withheld": 8,
+      "no_verified_photo_archived": 381,
+      "evidence_files": 78,
+      "evidence_images": 69,
       "evidence_pdfs": 9,
       "pdf_preview_images": 18,
       "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
@@ -48,10 +48,10 @@
       "death": "",
       "occupations_and_roles": "",
       "local_ids": "EXISTING-FREDRIC-MULLER-VOLLMER",
-      "source_refs": "S1",
-      "notes": "Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted.",
+      "source_refs": "S1;S49",
+      "notes": "Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted. | Owner-confirmed spouse: Arianna Lynn Fischer.",
       "family_as_child": "F095",
-      "families_as_spouse": ""
+      "families_as_spouse": "F156"
     },
     {
       "individual_id": "I002",
@@ -4303,6 +4303,825 @@
       "notes": "Owner-confirmed brother of Chris Vollmer. The indexed obituary names Henry R Vollmer as Peter's father and Christopher as a sibling. | Mary Alice appears only as a potential mother on one duplicate Ancestry profile, so Peter's mother is intentionally left blank. | Vital-date research VD-015 (high confidence): The indexed obituary supplies exact birth and death details, names Henry R Vollmer as father, and names Christopher as a sibling. The owner independently identifies Peter as Chris Vollmer's brother. | Vital-date conflict: The current Ancestry tree contains duplicate Peter/Pete profiles. The sourced Pete profile controls the dates; Mary Alice appears only as a potential mother on that profile and is therefore not assigned as Peter's mother.",
       "family_as_child": "F155",
       "families_as_spouse": ""
+    },
+    {
+      "individual_id": "I356",
+      "name": "Arianna Lynn Fischer",
+      "sex": "F",
+      "birth": "1990",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I356",
+      "source_refs": "S49;S50",
+      "notes": "Owner-confirmed wife of Fredric Muller Vollmer. Living person; only the owner-supplied birth year is retained.",
+      "family_as_child": "F157",
+      "families_as_spouse": "F156"
+    },
+    {
+      "individual_id": "I357",
+      "name": "Wallace Ray Fischer",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I357",
+      "source_refs": "S49;S50;S51;S69;S70",
+      "notes": "Owner supplied the form Ray W. Fischer; Ohio records repeatedly use Wallace Ray Fischer. Living dates and addresses are withheld. | Owner-confirmed parents: Raymond Charles Fischer Jr. and Wanda June Wallace Fischer.",
+      "family_as_child": "F174",
+      "families_as_spouse": "F157"
+    },
+    {
+      "individual_id": "I358",
+      "name": "Sally Lynn Vanhoose Fischer",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I358",
+      "source_refs": "S49;S50;S52",
+      "notes": "Ohio records supply maiden surname Vanhoose and married surname Fischer. Living dates and addresses are withheld.",
+      "family_as_child": "F158",
+      "families_as_spouse": "F157"
+    },
+    {
+      "individual_id": "I359",
+      "name": "Keith Douglas Vanhoose",
+      "sex": "M",
+      "birth": "5 DEC 1944; Ashland, Kentucky",
+      "death": "8 APR 2004",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I359",
+      "source_refs": "S52;S53",
+      "notes": "SSA and burial indexes name Douglas T. Vanhoose and Mildred Tackett as parents.",
+      "family_as_child": "F159",
+      "families_as_spouse": "F158"
+    },
+    {
+      "individual_id": "I360",
+      "name": "Barbara Lynn Boltenhouse",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I360",
+      "source_refs": "S52;S54",
+      "notes": "The 1950 census identifies Barbara as daughter of Charles and Alice. Potentially living; dates are withheld.",
+      "family_as_child": "F164",
+      "families_as_spouse": "F158"
+    },
+    {
+      "individual_id": "I361",
+      "name": "Douglas T Vanhoose",
+      "sex": "M",
+      "birth": "1 APR 1921; Lawrence County, Kentucky",
+      "death": "5 FEB 1983; Pulaski County, Kentucky",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I361",
+      "source_refs": "S53;S61",
+      "notes": "Kentucky birth index, 1930 census, military index, and death index form a consistent record cluster.",
+      "family_as_child": "F160",
+      "families_as_spouse": "F159"
+    },
+    {
+      "individual_id": "I362",
+      "name": "Mildred I Tackett Vanhoose",
+      "sex": "F",
+      "birth": "6 NOV 1924; Esco, Pike County, Kentucky",
+      "death": "22 AUG 2015; Bexley, Franklin County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I362",
+      "source_refs": "S53;S65",
+      "notes": "Obituary and 1930 census identify Sidney Tackett and Ida Missouri as parents.",
+      "family_as_child": "F163",
+      "families_as_spouse": "F159"
+    },
+    {
+      "individual_id": "I363",
+      "name": "Charles Emerald Boltenhouse Jr",
+      "sex": "M",
+      "birth": "19 DEC 1926; Circleville, Pickaway County, Ohio",
+      "death": "1 MAR 2026; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I363",
+      "source_refs": "S54;S55",
+      "notes": "The 1950 census and 2026 obituary identify wife Alice Hickey and daughter Barbara.",
+      "family_as_child": "F165",
+      "families_as_spouse": "F164"
+    },
+    {
+      "individual_id": "I364",
+      "name": "Alice Marie Hickey Boltenhouse",
+      "sex": "F",
+      "birth": "30 AUG 1929; Circleville, Pickaway County, Ohio",
+      "death": "25 JUL 2003",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I364",
+      "source_refs": "S54;S56",
+      "notes": "SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain.",
+      "family_as_child": "F170",
+      "families_as_spouse": "F164"
+    },
+    {
+      "individual_id": "I365",
+      "name": "John B Vanhoose",
+      "sex": "M",
+      "birth": "ABT 1877; West Virginia",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I365",
+      "source_refs": "S62",
+      "notes": "The 1880 census records John as son of Moses and Mahala; the 1920 census records him with wife Tallie.",
+      "family_as_child": "F161",
+      "families_as_spouse": "F160"
+    },
+    {
+      "individual_id": "I366",
+      "name": "Talliehassie Tallie Estep Vanhoose",
+      "sex": "F",
+      "birth": "22 NOV 1881; Johnson County, Kentucky",
+      "death": "17 MAY 1967; Ashland, Boyd County, Kentucky",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I366",
+      "source_refs": "S61;S62;S64",
+      "notes": "The death certificate names father Ira Estep and mother Isora Morton. Tallie and Talliehassie are retained name forms.",
+      "family_as_child": "F162",
+      "families_as_spouse": "F160"
+    },
+    {
+      "individual_id": "I367",
+      "name": "Sidney Tackett",
+      "sex": "M",
+      "birth": "ABT 1894; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I367",
+      "source_refs": "S65",
+      "notes": "Recorded as Sid Tackett in the 1930 household and Sidney Tackett in Mildred's obituary.",
+      "family_as_child": "",
+      "families_as_spouse": "F163"
+    },
+    {
+      "individual_id": "I368",
+      "name": "Ida Missouri",
+      "sex": "F",
+      "birth": "ABT 1898; North Carolina",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I368",
+      "source_refs": "S65",
+      "notes": "Mildred's mother is named Ida Missouri Tackett; her birth surname remains unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F163"
+    },
+    {
+      "individual_id": "I369",
+      "name": "Moses Vanhoose",
+      "sex": "M",
+      "birth": "ABT 1837; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I369",
+      "source_refs": "S63",
+      "notes": "The 1880 census and 1868 marriage record support the household with Mahala Dixon.",
+      "family_as_child": "",
+      "families_as_spouse": "F161"
+    },
+    {
+      "individual_id": "I370",
+      "name": "Mahala Dixon Vanhoose",
+      "sex": "F",
+      "birth": "ABT 1848; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I370",
+      "source_refs": "S63",
+      "notes": "The 1868 marriage record supplies Dixon. A tempting 1860 household inference was not used to add parents.",
+      "family_as_child": "",
+      "families_as_spouse": "F161"
+    },
+    {
+      "individual_id": "I371",
+      "name": "Ira W Estep",
+      "sex": "M",
+      "birth": "ABT 1848; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I371",
+      "source_refs": "S64",
+      "notes": "Tallie's death certificate names Ira Estep; the 1880 census and 1868 marriage record identify the matching Ira and Isora household.",
+      "family_as_child": "",
+      "families_as_spouse": "F162"
+    },
+    {
+      "individual_id": "I372",
+      "name": "Isora Morton Estep",
+      "sex": "F",
+      "birth": "ABT 1849; Kentucky",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I372",
+      "source_refs": "S64",
+      "notes": "Name forms include Isora and a difficult marriage-index transcription; Morton is retained from the marriage record.",
+      "family_as_child": "",
+      "families_as_spouse": "F162"
+    },
+    {
+      "individual_id": "I373",
+      "name": "Charles Emerald Boltenhouse Sr",
+      "sex": "M",
+      "birth": "27 MAY 1907; Ross County, Ohio",
+      "death": "29 MAR 1979; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I373",
+      "source_refs": "S55;S66;S67",
+      "notes": "World War II draft, census, marriage, and death indexes identify this Charles Emerald Boltenhouse.",
+      "family_as_child": "F166",
+      "families_as_spouse": "F165"
+    },
+    {
+      "individual_id": "I374",
+      "name": "Leona Florence Tomlinson Boltenhouse",
+      "sex": "F",
+      "birth": "29 JUL 1907; Franklin, Warren County, Ohio",
+      "death": "16 FEB 1994; Kingston, Ross County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I374",
+      "source_refs": "S66;S68",
+      "notes": "The 1910 census identifies George P. and Linda Tomlinson as parents.",
+      "family_as_child": "F168",
+      "families_as_spouse": "F165"
+    },
+    {
+      "individual_id": "I375",
+      "name": "Alonzo Boltenhouse",
+      "sex": "M",
+      "birth": "JUN 1884; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I375",
+      "source_refs": "S67",
+      "notes": "The 1900 census names Augustus and Elizabeth as parents; 1910 census and 1902 marriage record identify wife Malinda E. Speakman.",
+      "family_as_child": "F167",
+      "families_as_spouse": "F166"
+    },
+    {
+      "individual_id": "I376",
+      "name": "Malinda E Speakman Boltenhouse",
+      "sex": "F",
+      "birth": "ABT 1885; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I376",
+      "source_refs": "S67",
+      "notes": "The 24 Apr 1902 Ross County marriage record supplies the birth surname Speakman.",
+      "family_as_child": "",
+      "families_as_spouse": "F166"
+    },
+    {
+      "individual_id": "I377",
+      "name": "George P Tomlinson",
+      "sex": "M",
+      "birth": "APR 1875; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I377",
+      "source_refs": "S68",
+      "notes": "The 1900 and 1910 censuses link George, wife Malinda/Linda, son William, and daughter Leona.",
+      "family_as_child": "F169",
+      "families_as_spouse": "F168"
+    },
+    {
+      "individual_id": "I378",
+      "name": "Malinda Linda Jackson Tomlinson",
+      "sex": "F",
+      "birth": "ABT 1878; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I378",
+      "source_refs": "S68",
+      "notes": "1900 records Malinda; 1910 records Linda. A later child marriage index names the parents George P. Tomlinson and Linda Jackson.",
+      "family_as_child": "",
+      "families_as_spouse": "F168"
+    },
+    {
+      "individual_id": "I379",
+      "name": "Augustus Boltenhouse",
+      "sex": "M",
+      "birth": "JUL 1839; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I379",
+      "source_refs": "S67",
+      "notes": "1900 census and 1869 Ross County marriage record support the relationship and spouse.",
+      "family_as_child": "",
+      "families_as_spouse": "F167"
+    },
+    {
+      "individual_id": "I380",
+      "name": "Elizabeth Cotter Boltenhouse",
+      "sex": "F",
+      "birth": "ABT 1842; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I380",
+      "source_refs": "S67",
+      "notes": "The 19 Jul 1869 Ross County marriage record supplies Cotter; later index variants include Cottrell and Cotterill.",
+      "family_as_child": "",
+      "families_as_spouse": "F167"
+    },
+    {
+      "individual_id": "I381",
+      "name": "Alo Tomlinson",
+      "sex": "M",
+      "birth": "ABT 1836; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I381",
+      "source_refs": "S68",
+      "notes": "The 1900 census explicitly records George as son of Alo and Rebecca.",
+      "family_as_child": "",
+      "families_as_spouse": "F169"
+    },
+    {
+      "individual_id": "I382",
+      "name": "Rebecca Tomlinson",
+      "sex": "F",
+      "birth": "ABT 1846; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I382",
+      "source_refs": "S68",
+      "notes": "The 1900 census explicitly records George as son of Rebecca; her birth surname remains unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F169"
+    },
+    {
+      "individual_id": "I383",
+      "name": "William Andrew Hickey",
+      "sex": "M",
+      "birth": "13 JUN 1888; Circleville, Pickaway County, Ohio",
+      "death": "6 APR 1971; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I383",
+      "source_refs": "S56;S57",
+      "notes": "The 1900 census names John and Mary as parents; draft, death, burial, and SSA indexes corroborate identity.",
+      "family_as_child": "F171",
+      "families_as_spouse": "F170"
+    },
+    {
+      "individual_id": "I384",
+      "name": "Daisy Marie Imler Hickey",
+      "sex": "F",
+      "birth": "3 APR 1890; Pickaway County, Ohio",
+      "death": "20 APR 1942; Circleville, Pickaway County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I384",
+      "source_refs": "S56;S58",
+      "notes": "Census and SSA records link Daisy to William Imler, Annie Westbury, husband William Hickey, and daughter Alice. A secondary 22 Apr death date is retained as a rejected conflict in the research log.",
+      "family_as_child": "F172",
+      "families_as_spouse": "F170"
+    },
+    {
+      "individual_id": "I385",
+      "name": "John Hickey",
+      "sex": "M",
+      "birth": "JUN 1849; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I385",
+      "source_refs": "S57",
+      "notes": "The 1900 census records John and Mary with son William; John's parents were born in Ireland but are unnamed.",
+      "family_as_child": "",
+      "families_as_spouse": "F171"
+    },
+    {
+      "individual_id": "I386",
+      "name": "Mary Hickey",
+      "sex": "F",
+      "birth": "MAR 1859; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I386",
+      "source_refs": "S57",
+      "notes": "The 1900 census records Mary with husband John and son William; her birth surname and parents remain unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F171"
+    },
+    {
+      "individual_id": "I387",
+      "name": "William Imler",
+      "sex": "M",
+      "birth": "APR 1860; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I387",
+      "source_refs": "S58;S59",
+      "notes": "The 1900 census and 1889 marriage record identify wife Annie Westbury and daughter Daisy.",
+      "family_as_child": "",
+      "families_as_spouse": "F172"
+    },
+    {
+      "individual_id": "I388",
+      "name": "Annie Westbury Imler",
+      "sex": "F",
+      "birth": "FEB 1871; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I388",
+      "source_refs": "S59;S60",
+      "notes": "The 1880 census identifies Annie as daughter of Robert and Hester; the 1889 marriage record supplies the Imler link.",
+      "family_as_child": "F173",
+      "families_as_spouse": "F172"
+    },
+    {
+      "individual_id": "I389",
+      "name": "Robert Westbury",
+      "sex": "M",
+      "birth": "ABT 1832; England",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I389",
+      "source_refs": "S60",
+      "notes": "The 1880 census records Robert and Hester with daughter Annie; the 1861 marriage record corroborates the couple.",
+      "family_as_child": "",
+      "families_as_spouse": "F173"
+    },
+    {
+      "individual_id": "I390",
+      "name": "Hester Stonerock Westbury",
+      "sex": "F",
+      "birth": "ABT 1842; Ohio",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-DIRECT-I390",
+      "source_refs": "S60",
+      "notes": "The 1880 census and 1861 Pickaway County marriage record support the name and relationship.",
+      "family_as_child": "",
+      "families_as_spouse": "F173"
+    },
+    {
+      "individual_id": "I391",
+      "name": "Raymond Charles Fischer Jr",
+      "sex": "M",
+      "birth": "22 NOV 1934; Marlin, Falls County, Texas",
+      "death": "22 SEP 2022; Belpre, Washington County, Ohio",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I391",
+      "source_refs": "S69;S70",
+      "notes": "Owner-identified father of Wallace Ray Fischer. Ohio death, obituary, burial, census, and Texas marriage records form a consistent identity cluster.",
+      "family_as_child": "F175",
+      "families_as_spouse": "F174"
+    },
+    {
+      "individual_id": "I392",
+      "name": "Wanda June Wallace Fischer",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I392",
+      "source_refs": "S69;S70;S74",
+      "notes": "Owner supplied Wanda and then June as possible names. Texas marriage records identify one person as Wanda J. Wallace and Wanda June Wallace; the 2022 tribute addresses her as June. Living dates and addresses are withheld.",
+      "family_as_child": "F180",
+      "families_as_spouse": "F174"
+    },
+    {
+      "individual_id": "I393",
+      "name": "Raymond Charles Fischer Sr",
+      "sex": "M",
+      "birth": "18 FEB 1915; Marlin, Falls County, Texas",
+      "death": "20 MAY 1979; Marlin, Falls County, Texas",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I393",
+      "source_refs": "S70;S71;S77",
+      "notes": "The 1940 census identifies him as Raymond Jr.'s father. Texas birth and death certificates name Daniel Fischer and Lena Wirtz/Wirtz variants as his parents.",
+      "family_as_child": "F176",
+      "families_as_spouse": "F175"
+    },
+    {
+      "individual_id": "I394",
+      "name": "Ruby Louise Gilmore Fischer",
+      "sex": "F",
+      "birth": "10 DEC 1912; Marlin, Falls County, Texas",
+      "death": "16 MAR 2000; Marlin, Falls County, Texas",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I394",
+      "source_refs": "S71;S72;S77",
+      "notes": "The 1940 census identifies her as Raymond Jr.'s mother. The burial index supplies Gilmore; the 1920 census records Ruby as daughter of G. S. Gilmore and Ida.",
+      "family_as_child": "F179",
+      "families_as_spouse": "F175"
+    },
+    {
+      "individual_id": "I395",
+      "name": "Johann Daniel Fischer",
+      "sex": "M",
+      "birth": "13 DEC 1863; Grossaspach, Wurttemberg, Germany",
+      "death": "31 MAR 1925; Marlin, Falls County, Texas",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I395",
+      "source_refs": "S71;S73;S77",
+      "notes": "German baptism and family-table records, U.S. censuses, and the memorial record identify the immigrant also recorded as Daniel P. or Dan Fischer.",
+      "family_as_child": "F177",
+      "families_as_spouse": "F176"
+    },
+    {
+      "individual_id": "I396",
+      "name": "Lena Wirtz Fischer",
+      "sex": "F",
+      "birth": "30 NOV 1871; New York, New York",
+      "death": "24 JAN 1974; Marlin, Falls County, Texas",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I396",
+      "source_refs": "S71;S73;S77",
+      "notes": "Her Texas death certificate names Jacob Wirtz and Catherine Swan as parents. Record spellings include Wirtz, Wirz, and Wietz.",
+      "family_as_child": "F178",
+      "families_as_spouse": "F176"
+    },
+    {
+      "individual_id": "I397",
+      "name": "Johann Daniel Fischer",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I397",
+      "source_refs": "S73",
+      "notes": "Named as Johann Daniel Fischer's father in the Grossaspach baptism and family-table records; no further supported direct ancestry was located.",
+      "family_as_child": "",
+      "families_as_spouse": "F177"
+    },
+    {
+      "individual_id": "I398",
+      "name": "Elisabethe Margarethe Fischer",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I398",
+      "source_refs": "S73",
+      "notes": "Named as Johann Daniel Fischer's mother in German church records. Her birth surname is not established and is intentionally blank.",
+      "family_as_child": "",
+      "families_as_spouse": "F177"
+    },
+    {
+      "individual_id": "I399",
+      "name": "Jacob Wirtz",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I399",
+      "source_refs": "S73",
+      "notes": "Named as Lena Wirtz Fischer's father on her Texas death certificate; no reliable matching parent household was found.",
+      "family_as_child": "",
+      "families_as_spouse": "F178"
+    },
+    {
+      "individual_id": "I400",
+      "name": "Catherine Swan Wirtz",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I400",
+      "source_refs": "S73",
+      "notes": "Named as Lena Wirtz Fischer's mother on her Texas death certificate; no reliable matching parent household was found.",
+      "family_as_child": "",
+      "families_as_spouse": "F178"
+    },
+    {
+      "individual_id": "I401",
+      "name": "George Samuel Gilmore",
+      "sex": "M",
+      "birth": "22 JAN 1886; Texas",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I401",
+      "source_refs": "S72",
+      "notes": "The 1920 census records G. S. Gilmore as Ruby's father; the World War I draft record supplies the name George Sam Gilmore and exact birth date.",
+      "family_as_child": "",
+      "families_as_spouse": "F179"
+    },
+    {
+      "individual_id": "I402",
+      "name": "Ida Susan Burt Gilmore",
+      "sex": "F",
+      "birth": "ABT 1887; Texas",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I402",
+      "source_refs": "S72",
+      "notes": "The 1920 census records Ida as Ruby's mother. SSA and Texas index records supply the fuller form Ida Susan Burt; no supported parents were located.",
+      "family_as_child": "",
+      "families_as_spouse": "F179"
+    },
+    {
+      "individual_id": "I403",
+      "name": "Chalmers Carl Wallace",
+      "sex": "M",
+      "birth": "16 MAR 1915; Rush Springs, Grady County, Oklahoma",
+      "death": "25 NOV 1962; Lincoln Parish, Louisiana",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I403",
+      "source_refs": "S74;S75;S78",
+      "notes": "The 1940 census records him as Wanda's father; records and memorials also render his name Chambers Carl and Wally.",
+      "family_as_child": "F181",
+      "families_as_spouse": "F180"
+    },
+    {
+      "individual_id": "I404",
+      "name": "Dorothy Bess Highley Wallace",
+      "sex": "F",
+      "birth": "21 OCT 1914; Coffeyville, Montgomery County, Kansas",
+      "death": "SEP 1995; California",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I404",
+      "source_refs": "S74;S76",
+      "notes": "The 1940 census records Dorothy as Wanda's mother. SSA gives 15 Sep 1995 while the California death index gives 30 Sep 1995; only the month is asserted pending resolution.",
+      "family_as_child": "F186",
+      "families_as_spouse": "F180"
+    },
+    {
+      "individual_id": "I405",
+      "name": "Walter Albert Wallace Sr",
+      "sex": "M",
+      "birth": "3 DEC 1883; Bryan County, Oklahoma",
+      "death": "8 DEC 1963; Shreveport, Caddo Parish, Louisiana",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I405",
+      "source_refs": "S74;S75;S78",
+      "notes": "The 1920 census records Chalmers as his son. The memorial names Mary J. McGaha Wallace as his mother but no father.",
+      "family_as_child": "F182",
+      "families_as_spouse": "F181"
+    },
+    {
+      "individual_id": "I406",
+      "name": "Alice Mae Williams Wallace",
+      "sex": "F",
+      "birth": "2 MAR 1892; Missouri",
+      "death": "8 FEB 1987; Shreveport, Caddo Parish, Louisiana",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I406",
+      "source_refs": "S74;S75;S78",
+      "notes": "The 1920 census records Chalmers as her son; the memorial index supplies Williams and names Robert B. Williams and Nancy Ellen Brannan as parents.",
+      "family_as_child": "F183",
+      "families_as_spouse": "F181"
+    },
+    {
+      "individual_id": "I407",
+      "name": "Mary J McGaha Wallace",
+      "sex": "F",
+      "birth": "14 JUL 1855; Arkansas",
+      "death": "13 JUL 1945; Allen, Pontotoc County, Oklahoma",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I407",
+      "source_refs": "S75",
+      "notes": "The memorial index explicitly links Walter Albert Wallace as her child and supplies McGaha. Walter's father remains blank.",
+      "family_as_child": "",
+      "families_as_spouse": "F182"
+    },
+    {
+      "individual_id": "I408",
+      "name": "Robert B Williams",
+      "sex": "M",
+      "birth": "1850",
+      "death": "1926",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I408",
+      "source_refs": "S75;S79",
+      "notes": "The memorial index explicitly names him as Alice Mae Williams's father; no supported parents were located.",
+      "family_as_child": "",
+      "families_as_spouse": "F183"
+    },
+    {
+      "individual_id": "I409",
+      "name": "Nancy Ellen Brannan Williams",
+      "sex": "F",
+      "birth": "19 JUN 1858",
+      "death": "9 JUL 1912",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I409",
+      "source_refs": "S75;S79",
+      "notes": "The memorial index explicitly names her as Alice Mae Williams's mother and names Elisha Branham and Clarissa McCoy as parents. Brannan and Branham are retained as recorded variants.",
+      "family_as_child": "F184",
+      "families_as_spouse": "F183"
+    },
+    {
+      "individual_id": "I410",
+      "name": "Elisha Branham",
+      "sex": "M",
+      "birth": "1814; Tennessee",
+      "death": "23 MAY 1873; Monroe County, Indiana",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I410",
+      "source_refs": "S75;S79",
+      "notes": "The memorial index explicitly names him as Nancy Ellen Brannan Williams's father; no further supported direct ancestry was located.",
+      "family_as_child": "",
+      "families_as_spouse": "F184"
+    },
+    {
+      "individual_id": "I411",
+      "name": "Clarissa McCoy Branham Williams McBride",
+      "sex": "F",
+      "birth": "10 OCT 1826; Indiana",
+      "death": "27 FEB 1907; Monroe County, Indiana",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I411",
+      "source_refs": "S75;S79",
+      "notes": "The memorial index explicitly names her as Nancy Ellen Brannan Williams's mother and Daniel Franklin McCoy as her father. Later married-name forms are retained for identity control.",
+      "family_as_child": "F185",
+      "families_as_spouse": "F184"
+    },
+    {
+      "individual_id": "I412",
+      "name": "Daniel Franklin McCoy",
+      "sex": "M",
+      "birth": "22 JAN 1792; Jefferson County, Kentucky",
+      "death": "16 JUL 1882; Hindustan, Monroe County, Indiana",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I412",
+      "source_refs": "S75",
+      "notes": "The memorial index explicitly names him as Clarissa McCoy's father. Clarissa's mother is not named in that link and remains blank.",
+      "family_as_child": "",
+      "families_as_spouse": "F185"
+    },
+    {
+      "individual_id": "I413",
+      "name": "Ambrose Long Highley",
+      "sex": "M",
+      "birth": "24 JUN 1874; Troy, Doniphan County, Kansas",
+      "death": "16 OCT 1931; Webb City, Jasper County, Missouri",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I413",
+      "source_refs": "S74;S76;S79",
+      "notes": "Dorothy's SSA record names him; the 1880 census records Ambrose as son of William and Hannah Highley.",
+      "family_as_child": "F187",
+      "families_as_spouse": "F186"
+    },
+    {
+      "individual_id": "I414",
+      "name": "Mary Elizabeth Herod Highley",
+      "sex": "F",
+      "birth": "1878",
+      "death": "22 APR 1958; Jasper County, Missouri",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I414",
+      "source_refs": "S74;S76;S79",
+      "notes": "Dorothy's SSA record names her; Missouri death and memorial records corroborate the identity. Her parents remain unproved.",
+      "family_as_child": "",
+      "families_as_spouse": "F186"
+    },
+    {
+      "individual_id": "I415",
+      "name": "William T Highley",
+      "sex": "M",
+      "birth": "28 JUL 1834",
+      "death": "23 AUG 1918",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I415",
+      "source_refs": "S76;S79",
+      "notes": "The 1880 census records him as Ambrose's father. The memorial names James and Mary Highley as parents; that earlier link is retained as lower-confidence memorial evidence.",
+      "family_as_child": "F188",
+      "families_as_spouse": "F187"
+    },
+    {
+      "individual_id": "I416",
+      "name": "Hannah T Blair Highley",
+      "sex": "F",
+      "birth": "22 MAR 1842; Iowa",
+      "death": "9 FEB 1921; East St Louis, St Clair County, Illinois",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I416",
+      "source_refs": "S76;S79",
+      "notes": "The 1880 census records her as Ambrose's mother; the memorial supplies Blair. No supported parents were located.",
+      "family_as_child": "",
+      "families_as_spouse": "F187"
+    },
+    {
+      "individual_id": "I417",
+      "name": "James Highley",
+      "sex": "M",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I417",
+      "source_refs": "S76",
+      "notes": "Named as William T. Highley's father on the memorial; an 1850 household is consistent but does not state relationships. This is a lower-confidence stopping point.",
+      "family_as_child": "",
+      "families_as_spouse": "F188"
+    },
+    {
+      "individual_id": "I418",
+      "name": "Mary Highley",
+      "sex": "F",
+      "birth": "",
+      "death": "",
+      "occupations_and_roles": "",
+      "local_ids": "FISCHER-PATERNAL-I418",
+      "source_refs": "S76",
+      "notes": "Named as William T. Highley's mother on the memorial; her birth surname is not established. This is a lower-confidence stopping point.",
+      "family_as_child": "",
+      "families_as_spouse": "F188"
     }
   ],
   "families": [
@@ -5700,6 +6519,303 @@
       "marriage": "",
       "notes": "Peter's indexed obituary names Henry R Vollmer as his father. Peter is owner-confirmed as Chris Vollmer's brother; Peter's mother is not inferred.",
       "source_refs": "S47"
+    },
+    {
+      "family_id": "F156",
+      "husband_id": "I001",
+      "wife_id": "I356",
+      "children_ids": "",
+      "marriage": "",
+      "notes": "Owner-confirmed spouse relationship; no children or marriage details were added.",
+      "source_refs": "S49"
+    },
+    {
+      "family_id": "F157",
+      "husband_id": "I357",
+      "wife_id": "I358",
+      "children_ids": "I356",
+      "marriage": "3 MAR 1990; Franklin County, Ohio",
+      "notes": "Ohio birth and marriage indexes corroborate the owner-supplied parents.",
+      "source_refs": "S49;S50"
+    },
+    {
+      "family_id": "F158",
+      "husband_id": "I359",
+      "wife_id": "I360",
+      "children_ids": "I358",
+      "marriage": "",
+      "notes": "Sally's Ohio birth index names Keith Douglas Vanhoose and Barbara Lynn Boltenhouse.",
+      "source_refs": "S52;S53"
+    },
+    {
+      "family_id": "F159",
+      "husband_id": "I361",
+      "wife_id": "I362",
+      "children_ids": "I359",
+      "marriage": "",
+      "notes": "Keith's SSA application and Mildred's obituary identify the couple as his parents.",
+      "source_refs": "S53;S61;S65"
+    },
+    {
+      "family_id": "F160",
+      "husband_id": "I365",
+      "wife_id": "I366",
+      "children_ids": "I361",
+      "marriage": "",
+      "notes": "Douglas's birth index and the 1920/1930 census chain support this parent link.",
+      "source_refs": "S61;S62"
+    },
+    {
+      "family_id": "F161",
+      "husband_id": "I369",
+      "wife_id": "I370",
+      "children_ids": "I365",
+      "marriage": "22 APR 1868; Johnson County, Kentucky",
+      "notes": "John is recorded as their son in the 1880 census.",
+      "source_refs": "S63"
+    },
+    {
+      "family_id": "F162",
+      "husband_id": "I371",
+      "wife_id": "I372",
+      "children_ids": "I366",
+      "marriage": "28 AUG 1868; Johnson County, Kentucky",
+      "notes": "Tallie's death certificate names both parents; census and marriage records identify the couple.",
+      "source_refs": "S64"
+    },
+    {
+      "family_id": "F163",
+      "husband_id": "I367",
+      "wife_id": "I368",
+      "children_ids": "I362",
+      "marriage": "",
+      "notes": "Mildred's obituary names both parents and the 1930 census corroborates the household.",
+      "source_refs": "S65"
+    },
+    {
+      "family_id": "F164",
+      "husband_id": "I363",
+      "wife_id": "I364",
+      "children_ids": "I360",
+      "marriage": "",
+      "notes": "The 1950 census and Charles's obituary identify Barbara as their daughter.",
+      "source_refs": "S54;S55;S56"
+    },
+    {
+      "family_id": "F165",
+      "husband_id": "I373",
+      "wife_id": "I374",
+      "children_ids": "I363",
+      "marriage": "",
+      "notes": "Charles Jr's obituary and the 1930 census identify Charles Sr and Leona.",
+      "source_refs": "S55;S66"
+    },
+    {
+      "family_id": "F166",
+      "husband_id": "I375",
+      "wife_id": "I376",
+      "children_ids": "I373",
+      "marriage": "24 APR 1902; Ross County, Ohio",
+      "notes": "The 1910 census records Charles as their son; the marriage record supplies Malinda's surname.",
+      "source_refs": "S67"
+    },
+    {
+      "family_id": "F167",
+      "husband_id": "I379",
+      "wife_id": "I380",
+      "children_ids": "I375",
+      "marriage": "19 JUL 1869; Ross County, Ohio",
+      "notes": "The 1900 census records Alonzo as their son; the marriage record supplies Elizabeth's surname.",
+      "source_refs": "S67"
+    },
+    {
+      "family_id": "F168",
+      "husband_id": "I377",
+      "wife_id": "I378",
+      "children_ids": "I374",
+      "marriage": "",
+      "notes": "The 1910 census records Leona as their daughter; the 1900 household links the couple and son William.",
+      "source_refs": "S66;S68"
+    },
+    {
+      "family_id": "F169",
+      "husband_id": "I381",
+      "wife_id": "I382",
+      "children_ids": "I377",
+      "marriage": "",
+      "notes": "The 1900 census explicitly records George as son of Alo and Rebecca.",
+      "source_refs": "S68"
+    },
+    {
+      "family_id": "F170",
+      "husband_id": "I383",
+      "wife_id": "I384",
+      "children_ids": "I364",
+      "marriage": "",
+      "notes": "Alice's SSA application and the 1940 census identify William and Daisy as her parents.",
+      "source_refs": "S56;S57;S58"
+    },
+    {
+      "family_id": "F171",
+      "husband_id": "I385",
+      "wife_id": "I386",
+      "children_ids": "I383",
+      "marriage": "ABT 1879",
+      "notes": "The 1900 census records William as their son and reports the couple married for 21 years; Mary's birth surname remains unknown.",
+      "source_refs": "S57"
+    },
+    {
+      "family_id": "F172",
+      "husband_id": "I387",
+      "wife_id": "I388",
+      "children_ids": "I384",
+      "marriage": "4 JUL 1889; Pickaway County, Ohio",
+      "notes": "The 1900 census records Daisy as their daughter.",
+      "source_refs": "S58;S59"
+    },
+    {
+      "family_id": "F173",
+      "husband_id": "I389",
+      "wife_id": "I390",
+      "children_ids": "I388",
+      "marriage": "17 DEC 1861; Pickaway County, Ohio",
+      "notes": "The 1880 census records Annie as their daughter.",
+      "source_refs": "S60"
+    },
+    {
+      "family_id": "F174",
+      "husband_id": "I391",
+      "wife_id": "I392",
+      "children_ids": "I357",
+      "marriage": "11 JUN 1957; Taylor, Williamson County, Texas",
+      "notes": "Owner identification is corroborated by the Texas marriage record, the 1940 census, and Raymond's 2022 obituary/tribute cluster.",
+      "source_refs": "S69;S70"
+    },
+    {
+      "family_id": "F175",
+      "husband_id": "I393",
+      "wife_id": "I394",
+      "children_ids": "I391",
+      "marriage": "",
+      "notes": "The 1940 census explicitly records Raymond Jr. as their son.",
+      "source_refs": "S70;S71"
+    },
+    {
+      "family_id": "F176",
+      "husband_id": "I395",
+      "wife_id": "I396",
+      "children_ids": "I393",
+      "marriage": "5 SEP 1888; Falls County, Texas",
+      "notes": "Texas birth/death certificates and the 1920 census name Daniel and Lena as Raymond Sr.'s parents.",
+      "source_refs": "S71;S73"
+    },
+    {
+      "family_id": "F177",
+      "husband_id": "I397",
+      "wife_id": "I398",
+      "children_ids": "I395",
+      "marriage": "",
+      "notes": "The Grossaspach baptism and family-table records name both parents.",
+      "source_refs": "S73"
+    },
+    {
+      "family_id": "F178",
+      "husband_id": "I399",
+      "wife_id": "I400",
+      "children_ids": "I396",
+      "marriage": "",
+      "notes": "Lena's Texas death certificate names Jacob Wirtz and Catherine Swan.",
+      "source_refs": "S73"
+    },
+    {
+      "family_id": "F179",
+      "husband_id": "I401",
+      "wife_id": "I402",
+      "children_ids": "I394",
+      "marriage": "",
+      "notes": "The 1920 census explicitly records Ruby as their daughter.",
+      "source_refs": "S72"
+    },
+    {
+      "family_id": "F180",
+      "husband_id": "I403",
+      "wife_id": "I404",
+      "children_ids": "I392",
+      "marriage": "13 APR 1935; Webb City, Jasper County, Missouri",
+      "notes": "The 1940 census explicitly records Wanda as their daughter; the 1935 marriage record links Chalmers and Dorothy.",
+      "source_refs": "S74"
+    },
+    {
+      "family_id": "F181",
+      "husband_id": "I405",
+      "wife_id": "I406",
+      "children_ids": "I403",
+      "marriage": "",
+      "notes": "The 1920 census explicitly records Chalmers as their son.",
+      "source_refs": "S74;S75"
+    },
+    {
+      "family_id": "F182",
+      "husband_id": "",
+      "wife_id": "I407",
+      "children_ids": "I405",
+      "marriage": "",
+      "notes": "The memorial index explicitly links Mary J. McGaha Wallace as Walter's mother. No father is inferred.",
+      "source_refs": "S75"
+    },
+    {
+      "family_id": "F183",
+      "husband_id": "I408",
+      "wife_id": "I409",
+      "children_ids": "I406",
+      "marriage": "",
+      "notes": "Alice Mae Williams's memorial index explicitly names Robert and Nancy as parents.",
+      "source_refs": "S75"
+    },
+    {
+      "family_id": "F184",
+      "husband_id": "I410",
+      "wife_id": "I411",
+      "children_ids": "I409",
+      "marriage": "",
+      "notes": "Nancy Ellen Brannan Williams's memorial index explicitly names Elisha and Clarissa as parents.",
+      "source_refs": "S75"
+    },
+    {
+      "family_id": "F185",
+      "husband_id": "I412",
+      "wife_id": "",
+      "children_ids": "I411",
+      "marriage": "",
+      "notes": "Clarissa McCoy's memorial index explicitly names Daniel Franklin McCoy as father. Her mother remains blank.",
+      "source_refs": "S75"
+    },
+    {
+      "family_id": "F186",
+      "husband_id": "I413",
+      "wife_id": "I414",
+      "children_ids": "I404",
+      "marriage": "",
+      "notes": "Dorothy's SSA record names Ambrose Long Highley and Mary Elizabeth Herod as parents.",
+      "source_refs": "S74;S76"
+    },
+    {
+      "family_id": "F187",
+      "husband_id": "I415",
+      "wife_id": "I416",
+      "children_ids": "I413",
+      "marriage": "",
+      "notes": "The 1880 census explicitly records Ambrose as their son.",
+      "source_refs": "S76"
+    },
+    {
+      "family_id": "F188",
+      "husband_id": "I417",
+      "wife_id": "I418",
+      "children_ids": "I415",
+      "marriage": "",
+      "notes": "The parent names come from William's memorial and are treated as a lower-confidence stopping point; the 1850 household alone does not state relationships.",
+      "source_refs": "S76"
     }
   ],
   "sources": [
@@ -6086,6 +7202,254 @@
       "date": "2 SEP 2026",
       "notes": "Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.",
       "origin": "cross-chat consolidation"
+    },
+    {
+      "source_id": "S49",
+      "title": "Owner statement identifying Arianna Lynn Fischer and her parents",
+      "author": "Fredric Muller Vollmer",
+      "date": "2 SEP 2026",
+      "notes": "The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S50",
+      "title": "Arianna Lynn Fischer Ohio birth and parent index cluster",
+      "author": "Ohio Department of Health; Ancestry.com",
+      "date": "1990",
+      "notes": "Ohio birth index entries name Arianna and identify Wallace Ray Fischer and Sally Lynn Vanhoose Fischer as parents; a Franklin County marriage index records Wallace R. Fischer and Sally L. on 3 Mar 1990. Records: https://www.ancestry.com/search/collections/3146/records/11206028 ; https://www.ancestry.com/search/collections/3146/records/26206028 ; https://www.ancestry.com/search/collections/3146/records/41206028 ; https://www.ancestry.com/search/collections/2025/records/1910252",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S51",
+      "title": "Wallace Ray Fischer identity record cluster",
+      "author": "Ohio voter and public-record indexes; North Caroline High School yearbook; Ancestry.com",
+      "date": "",
+      "notes": "Records consistently identify Wallace Ray Fischer, including North Caroline High School yearbook entries. Living birth details and addresses are intentionally omitted. Records: https://www.ancestry.com/search/collections/62740/records/4543428 ; https://www.ancestry.com/search/collections/62209/records/299213236 ; https://www.ancestry.com/search/collections/1265/records/621855255",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S52",
+      "title": "Sally Lynn Vanhoose Fischer Ohio birth and parent index cluster",
+      "author": "Ohio Department of Health; Ancestry.com",
+      "date": "",
+      "notes": "Ohio birth-index entries identify Sally Lynn Vanhoose/Fischer and name Keith Douglas Vanhoose and Barbara Lynn Boltenhouse as parents. Living exact dates and addresses are omitted. Records: https://www.ancestry.com/search/collections/3146/records/7991760 ; https://www.ancestry.com/search/collections/3146/records/11694596 ; https://www.ancestry.com/search/collections/3146/records/26694596 ; https://www.ancestry.com/search/collections/3146/records/41694596",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S53",
+      "title": "Keith Douglas Vanhoose SSA and burial index cluster",
+      "author": "Social Security Administration; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "SSA application and burial indexes establish Keith's dates and name Douglas T. Vanhoose and Mildred Tackett as parents. Records: https://www.ancestry.com/search/collections/60901/records/39551452 ; https://www.ancestry.com/search/collections/60525/records/95267098",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S54",
+      "title": "1950 United States census household of Charles, Alice, and Barbara Boltenhouse",
+      "author": "U.S. Census Bureau; National Archives and Records Administration; Ancestry.com",
+      "date": "1950",
+      "notes": "Circleville, Pickaway County, Ohio household records Charles E. Boltenhouse, wife Alice M., and daughter Barbara. Records: https://www.ancestry.com/search/collections/62308/records/204443745 ; https://www.ancestry.com/search/collections/62308/records/204443746 ; https://www.ancestry.com/search/collections/62308/records/204443747 Preserved image: records/1950_charles-alice-barbara-boltenhouse_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S55",
+      "title": "Charles Emerald Boltenhouse Jr burial and obituary records",
+      "author": "Find a Grave; Wellman Funeral Home; Ancestry.com",
+      "date": "1 MAR 2026",
+      "notes": "The obituary identifies parents Charles and Leona Tomlinson Boltenhouse, wife Alice Hickey, and daughter Barbara. Records: https://www.ancestry.com/search/collections/60525/records/297099223 ; https://www.ancestry.com/search/collections/2190/records/21600019 ; https://www.wellmanfuneralhomes.com/obituaries/charles-boltenhouse-jr",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S56",
+      "title": "Alice Marie Hickey Boltenhouse SSA and census record cluster",
+      "author": "Social Security Administration; U.S. Census Bureau; Ancestry.com",
+      "date": "",
+      "notes": "SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain. Records: https://www.ancestry.com/search/collections/60901/records/41344689 ; https://www.ancestry.com/search/collections/2442/records/31756365 ; https://www.ancestry.com/search/collections/62308/records/204443746 Preserved image: records/1940_william-daisy-alice-hickey_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S57",
+      "title": "William Andrew Hickey vital, draft, and census record cluster",
+      "author": "U.S. Census Bureau; Selective Service System; Ohio vital records; Ancestry.com",
+      "date": "",
+      "notes": "The 1900 census identifies William as son of John and Mary; draft, death, burial, and SSA indexes corroborate identity. Records: https://www.ancestry.com/search/collections/7602/records/41345114 ; https://www.ancestry.com/search/collections/5763/records/408395 ; https://www.ancestry.com/search/collections/60525/records/103465820 ; https://www.ancestry.com/search/collections/6482/records/19464076 ; https://www.ancestry.com/search/collections/1002/records/6996448 ; https://www.ancestry.com/search/collections/60901/records/641344689 Preserved image: records/1900_john-mary-william-hickey_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S58",
+      "title": "Daisy Marie Imler Hickey census, SSA, and marriage record cluster",
+      "author": "U.S. Census Bureau; Social Security Administration; Ohio county records; Ancestry.com",
+      "date": "",
+      "notes": "The 1900 census identifies William Imler and Annie as Daisy's parents; SSA and later census records link husband William Hickey and daughter Alice. Records: https://www.ancestry.com/search/collections/7602/records/41347856 ; https://www.ancestry.com/search/collections/2442/records/31756357 ; https://www.ancestry.com/search/collections/6061/records/27418446 ; https://www.ancestry.com/search/collections/60901/records/791344689 ; https://www.ancestry.com/search/collections/61378/records/1204214340 Preserved image: records/1900_william-annie-daisy-imler_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S59",
+      "title": "William Imler and Annie Westbury census and marriage records",
+      "author": "U.S. Census Bureau; Pickaway County records; Ancestry.com",
+      "date": "",
+      "notes": "The 4 Jul 1889 marriage record names Annie Westbury; the 1900 census records the couple with daughter Daisy. Records: https://www.ancestry.com/search/collections/61378/records/893547 ; https://www.ancestry.com/search/collections/7602/records/41347854 ; https://www.ancestry.com/search/collections/7602/records/41347855",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S60",
+      "title": "Westbury-Stonerock 1880 census and 1861 marriage records",
+      "author": "U.S. Census Bureau; Pickaway County records; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census identifies Annie as daughter of Robert Westbury and Hester; the 17 Dec 1861 marriage record supplies Hester Stonerock. Records: https://www.ancestry.com/search/collections/6742/records/18379300 ; https://www.ancestry.com/search/collections/6742/records/24757281 ; https://www.ancestry.com/search/collections/6742/records/18379404 ; https://www.ancestry.com/search/collections/61378/records/416305 Preserved image: records/1880_robert-hester-annie-westbury_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S61",
+      "title": "Douglas T. Vanhoose birth, census, military, and death record cluster",
+      "author": "Kentucky vital records; U.S. Census Bureau; U.S. Department of Veterans Affairs; Ancestry.com",
+      "date": "",
+      "notes": "The Kentucky birth index, 1930 census, military index, and death index establish Douglas's identity and link him to Tallie. Records: https://www.ancestry.com/search/collections/8788/records/3688158 ; https://www.ancestry.com/search/collections/6224/records/81187869 ; https://www.ancestry.com/search/collections/2441/records/10171281 ; https://www.ancestry.com/search/collections/3077/records/2504865 ; https://www.ancestry.com/search/collections/60901/records/639551452 Preserved image: records/1930_tallie-douglas-vanhoose_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S62",
+      "title": "John B. and Tallie Vanhoose 1880 and 1920 census chain",
+      "author": "U.S. Census Bureau; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census records John as son of Moses and Mahala; the 1920 census records John with wife Tallie. Records: https://www.ancestry.com/search/collections/6742/records/41518791 ; https://www.ancestry.com/search/collections/6061/records/59825157 Preserved image: records/1920_john-tallie-vanhoose_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S63",
+      "title": "Moses Vanhoose and Mahala Dixon census and marriage records",
+      "author": "U.S. Census Bureau; Johnson County records; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census records John as their son; the 22 Apr 1868 marriage record names Mahala Dixon. Records: https://www.ancestry.com/search/collections/6742/records/9277240 ; https://www.ancestry.com/search/collections/6742/records/10191909 ; https://www.ancestry.com/search/collections/61372/records/1506164 Preserved image: records/1880_moses-mahala-john-vanhoose_us-census.jpg. Preserved image: records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S64",
+      "title": "Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster",
+      "author": "Kentucky vital records; U.S. Census Bureau; Johnson County records; Ancestry.com",
+      "date": "",
+      "notes": "Tallie's death certificate names Ira Estep and Isora Morton. The 1880 census and 28 Aug 1868 marriage record identify the matching couple. Records: https://www.ancestry.com/search/collections/1222/records/2144978 ; https://www.ancestry.com/search/collections/7602/records/5598207 ; https://www.ancestry.com/search/collections/6742/records/17600141 ; https://www.ancestry.com/search/collections/6742/records/17600401 ; https://www.ancestry.com/search/collections/61372/records/1551052 Preserved image: records/1967-05-17_tallie-vanhoose_death-certificate.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S65",
+      "title": "Mildred I. Tackett Vanhoose obituary and 1930 census",
+      "author": "Circleville Herald; U.S. Census Bureau; Ancestry.com",
+      "date": "22 AUG 2015",
+      "notes": "The obituary names parents Sidney Tackett and Ida Missouri and husband Douglas VanHoose; the 1930 census corroborates Sid, Ida, and Mildred. Records: https://www.ancestry.com/search/collections/7545/records/500515930 ; https://www.ancestry.com/search/collections/6224/records/81187850 ; http://www.circlevilleherald.com/obituaries/mildred-i-vanhoose/article_9d73b9f0-f575-5f2a-b23d-b65a593e7879.html Preserved image: records/1930_sidney-ida-mildred-tackett_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S66",
+      "title": "Charles Emerald Boltenhouse Sr and Leona Tomlinson vital, census, draft, and marriage cluster",
+      "author": "U.S. Census Bureau; Selective Service System; Ohio vital and county records; Ancestry.com",
+      "date": "",
+      "notes": "Draft, marriage, census, and death records establish the couple and their son Charles. Records: https://www.ancestry.com/search/collections/2238/records/199550522 ; https://www.ancestry.com/search/collections/61378/records/1050733026 ; https://www.ancestry.com/search/collections/6224/records/69946949 ; https://www.ancestry.com/search/collections/6224/records/69946957 ; https://www.ancestry.com/search/collections/5763/records/1910198",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S67",
+      "title": "Boltenhouse direct-line census and marriage record chain",
+      "author": "U.S. Census Bureau; Ross County records; Ancestry.com",
+      "date": "",
+      "notes": "The 1910 census names Alonzo and Malinda as Charles's parents; their 1902 marriage supplies Speakman. The 1900 census names Augustus and Elizabeth as Alonzo's parents; their 1869 marriage supplies Cotter. Records: https://www.ancestry.com/search/collections/7884/records/142595859 ; https://www.ancestry.com/search/collections/7884/records/22453970 ; https://www.ancestry.com/search/collections/61378/records/266107 ; https://www.ancestry.com/search/collections/7602/records/51092013 ; https://www.ancestry.com/search/collections/7602/records/51092011 ; https://www.ancestry.com/search/collections/61378/records/1411597 Preserved image: records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg. Preserved image: records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S68",
+      "title": "Tomlinson-Jackson direct-line census and parent-name record chain",
+      "author": "U.S. Census Bureau; Ohio county records; Ancestry.com",
+      "date": "",
+      "notes": "The 1910 census records Leona as daughter of George P. and Linda. The 1900 census records George with wife Malinda and explicitly names his parents Alo and Rebecca; a later child marriage index supplies Linda Jackson. Records: https://www.ancestry.com/search/collections/7884/records/142595257 ; https://www.ancestry.com/search/collections/7602/records/51098669 ; https://www.ancestry.com/search/collections/61378/records/1350876129 Preserved image: records/1910_george-linda-leona-tomlinson_us-census.jpg.",
+      "origin": "Arianna Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S69",
+      "title": "Owner correction identifying Wallace Ray Fischer's parents",
+      "author": "Fredric Muller Vollmer",
+      "date": "2 SEP 2026",
+      "notes": "The owner identifies Wallace Ray Fischer's parents as Raymond Fischer and Wanda Fischer, both associated with Texas; identifies the father as Raymond Charles Fischer Jr., who died 22 Sep 2022 at Belpre; and notes Wanda may also be called June. Record research resolves Wanda and June as Wanda June Wallace Fischer.",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S70",
+      "title": "Raymond Charles Fischer Jr and Wanda June Wallace record cluster",
+      "author": "Ohio and Texas vital/county records; U.S. Census Bureau; Find a Grave; Leavitt Funeral Home; Ancestry.com",
+      "date": "",
+      "notes": "Raymond's 1934 birth, 22 Sep 2022 Belpre death, and 1940 parent household align. The official Texas marriage index records Raymond C. Fischer Jr. and Wanda J. Wallace on 11 Jun 1957; a newspaper marriage index expands her name to Wanda June Wallace. Records: https://www.ancestry.com/search/collections/60541/records/218066535 ; https://www.findagrave.com/memorial/243870577/raymond-charles-fischer ; https://www.ancestry.com/search/collections/5763/records/10265056 ; https://www.ancestry.com/search/collections/2190/records/317879477 ; https://www.leavittfuneralhome.com/obituaries/Raymond--Charles-Fischer-Jr?obId=25942554 ; https://www.ancestry.com/search/collections/2442/records/155875370 ; https://www.ancestry.com/search/collections/9168/records/25830055 ; https://www.ancestry.com/search/collections/62116/records/152414706 ; https://www.newspapers.com/image/761699744/?article=866f00a6-99e2-45c3-9ea5-fd632644db6c&xid=3398",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S71",
+      "title": "Raymond Charles Fischer Sr and Ruby Louise Gilmore record cluster",
+      "author": "Texas vital records; U.S. Census Bureau; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "The 1940 census records Raymond Jr. as son of Raymond and Ruby. Raymond Sr.'s Texas birth/death certificates name Daniel Fischer and Lena Wirtz; the memorial records Raymond's dates and Ruby Gilmore as spouse. Records: https://www.ancestry.com/search/collections/2442/records/155875370 ; https://www.ancestry.com/search/collections/2272/records/566313 ; https://www.ancestry.com/search/collections/2275/records/3848821 ; https://www.ancestry.com/search/collections/60525/records/42346703 ; https://www.findagrave.com/memorial/69481441/raymond-charles-fischer ; https://www.ancestry.com/search/collections/60525/records/42346721 ; https://www.findagrave.com/memorial/69481460/ruby-fischer",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S72",
+      "title": "Ruby Gilmore parent household and George Gilmore identity cluster",
+      "author": "U.S. Census Bureau; Selective Service System; Social Security Administration; Ancestry.com",
+      "date": "",
+      "notes": "The 1920 census explicitly records Ruby as daughter of G. S. and Ida Gilmore. George's World War I draft record supplies George Sam Gilmore and 22 Jan 1886; SSA and Texas index links supply Ida Susan Burt. Records: https://www.ancestry.com/search/collections/6061/records/100221065 ; https://www.ancestry.com/search/collections/6061/records/100221063 ; https://www.ancestry.com/search/collections/6482/records/14839842 ; https://www.ancestry.com/search/collections/60901/records/626088911 ; https://www.ancestry.com/search/collections/4876/records/108265726",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S73",
+      "title": "Johann Daniel Fischer and Lena Wirtz direct-line record cluster",
+      "author": "Wurttemberg Evangelical Church; Texas vital records; U.S. Census Bureau; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "German baptism and family-table records name Johann Daniel Fischer and Elisabethe Margarethe as the immigrant Daniel's parents. U.S. censuses and Texas records link Daniel, Lena, and Raymond; Lena's death certificate names Jacob Wirtz and Catherine Swan. Records: https://www.ancestry.com/search/collections/61389/records/4210684 ; https://www.ancestry.com/search/collections/61023/records/7909461 ; https://www.ancestry.com/search/collections/7602/records/70597040 ; https://www.ancestry.com/search/collections/6061/records/100223419 ; https://www.ancestry.com/search/collections/60525/records/100697046 ; https://www.findagrave.com/memorial/19759283/johann-daniel-fischer ; https://www.ancestry.com/search/collections/2272/records/133381 ; https://www.findagrave.com/memorial/19759290/lena-fischer",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S74",
+      "title": "Wanda June Wallace parent and Highley identity cluster",
+      "author": "U.S. Census Bureau; Missouri county records; Social Security Administration; California vital records; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "The 1940 census records Wanda J. Wallace as daughter of Chalmers and Dorothy; the 1935 Missouri marriage record links Chalmers and Dorothy Bess Highley. Dorothy's SSA record names Ambrose Long Highley and Mary E. Herod. Her death-date sources conflict: SSA gives 15 Sep 1995 and California gives 30 Sep 1995. Records: https://www.ancestry.com/search/collections/2442/records/89045738 ; https://www.ancestry.com/search/collections/62308/records/76403615 ; https://www.ancestry.com/search/collections/1171/records/9664937 ; https://www.ancestry.com/search/collections/60525/records/150531434 ; https://www.findagrave.com/memorial/186519723/chambers-carl-wallace ; https://www.ancestry.com/search/collections/60901/records/24418580 ; https://www.ancestry.com/search/collections/5180/records/1076373",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S75",
+      "title": "Wallace, Williams, Branham, and McCoy direct-line memorial cluster",
+      "author": "U.S. Census Bureau; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "The 1920 census identifies Walter and Alice as Chalmers's parents. Find a Grave index links supply Mary McGaha as Walter's mother; Williams as Alice's maiden name; Robert Williams and Nancy Brannan as Alice's parents; Elisha Branham and Clarissa McCoy as Nancy's parents; and Daniel Franklin McCoy as Clarissa's father. These memorial-based extensions are retained with lower confidence where no civil parent record was located. Records: https://www.ancestry.com/search/collections/6061/records/62031695 ; https://www.ancestry.com/search/collections/60525/records/233666764 ; https://www.ancestry.com/search/collections/60525/records/233666929 ; https://www.ancestry.com/search/collections/60525/records/233646146 ; https://www.ancestry.com/search/collections/60525/records/87506166 ; https://www.ancestry.com/search/collections/60525/records/87506189 ; https://www.ancestry.com/search/collections/60525/records/98293838 ; https://www.ancestry.com/search/collections/60525/records/53527274 ; https://www.ancestry.com/search/collections/60525/records/53527788",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S76",
+      "title": "Highley direct-line census, vital, and memorial cluster",
+      "author": "U.S. Census Bureau; Missouri vital records; Find a Grave; Ancestry.com",
+      "date": "",
+      "notes": "The 1880 census explicitly records Ambrose as son of William and Hannah Highley. Memorial and Missouri records identify Mary Elizabeth Herod and the Highley dates. William's memorial names James and Mary Highley; the compatible 1850 household does not state relationships, so the earlier parent link remains lower confidence. Records: https://www.ancestry.com/search/collections/6742/records/24830397 ; https://www.ancestry.com/search/collections/60382/records/723670 ; https://www.ancestry.com/search/collections/60525/records/86597625 ; https://www.findagrave.com/memorial/13974942/ambrose-long-highley ; https://www.ancestry.com/search/collections/60382/records/1700594 ; https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley ; https://www.ancestry.com/search/collections/60525/records/85153660 ; https://www.findagrave.com/memorial/13888778/william-t.-highley ; https://www.ancestry.com/search/collections/60525/records/85153662 ; https://www.findagrave.com/memorial/13888780/hannah-t-highley ; https://www.ancestry.com/search/collections/8054/records/3654061",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S77",
+      "title": "Fischer direct-line grave-marker photographs",
+      "author": "Find a Grave contributors couchpotato",
+      "date": "",
+      "notes": "Full-resolution grave-marker photographs were saved from the exact Find a Grave memorials for Johann Daniel Fischer, Lena Wirtz Fischer, Raymond Charles Fischer Sr., and Ruby Louise Gilmore Fischer. The site labels every preserved image as Photo type: Grave. Memorials: https://www.findagrave.com/memorial/19759283/johann-daniel-fischer ; https://www.findagrave.com/memorial/19759290/lena-fischer ; https://www.findagrave.com/memorial/69481441/raymond-charles-fischer ; https://www.findagrave.com/memorial/69481460/ruby-fischer Preserved image: records/1925-03-31_johann-daniel-fischer_grave-marker.jpg. Preserved image: records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg. Preserved image: records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg. Preserved image: records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg. Preserved image: records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg. Preserved image: records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg.",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S78",
+      "title": "Wallace direct-line grave-marker photographs",
+      "author": "Find a Grave contributors evansd and KD Burleson",
+      "date": "",
+      "notes": "Full-resolution grave photographs were saved from the exact memorials for Chalmers Carl Wallace, Walter Albert Wallace Sr., and Alice Mae Williams Wallace. Find a Grave labels every preserved image as Photo type: Grave; obituary-clipping images were excluded from this grave set. Memorials: https://www.findagrave.com/memorial/186519723/chambers-carl-wallace ; https://www.findagrave.com/memorial/262761264/walter-albert-wallace ; https://www.findagrave.com/memorial/262761475/alice-mae-wallace Preserved image: records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg. Preserved image: records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg. Preserved image: records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg. Preserved image: records/1963-12-08_walter-albert-wallace_grave-marker.jpeg. Preserved image: records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg.",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
+    },
+    {
+      "source_id": "S79",
+      "title": "Highley, Williams, and Branham direct-line grave-marker photographs",
+      "author": "Find a Grave contributors Judy K. Roberts, Kelly, OkieBran, Ellie Sparks, Colleen Sanders Broyles, Ben Fulton, and N.Miller",
+      "date": "",
+      "notes": "Full-resolution grave photographs were saved from the exact memorials for Ambrose and Mary Highley, William and Hannah Highley, Robert and Nancy Williams, Elisha Branham, and Clarissa McCoy Branham. Find a Grave labels every preserved image as Photo type: Grave. Memorials: https://www.findagrave.com/memorial/13974942/ambrose-long-highley ; https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley ; https://www.findagrave.com/memorial/13888778/william-t.-highley ; https://www.findagrave.com/memorial/13888780/hannah-t-highley ; https://www.findagrave.com/memorial/21540402/robert-b.-williams ; https://www.findagrave.com/memorial/21540426/nancy-ellen-williams ; https://www.findagrave.com/memorial/33706860/elisha-branham ; https://www.findagrave.com/memorial/84921915/clarissa-branham_williams_mcbride Preserved image: records/1931-10-16_ambrose-long-highley_grave-marker.jpg. Preserved image: records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg. Preserved image: records/1918-08-23_william-t-highley_grave-marker.jpg. Preserved image: records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg. Preserved image: records/1926_robert-b-williams_grave-marker.jpg. Preserved image: records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg. Preserved image: records/1873-05-23_elisha-branham_grave-marker-1.jpg. Preserved image: records/1873-05-23_elisha-branham_grave-marker-2.jpeg. Preserved image: records/1873-05-23_elisha-branham_grave-marker-3.jpg. Preserved image: records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg.",
+      "origin": "Wallace Ray Fischer direct-ancestry research"
     }
   ],
   "corrections": [
@@ -6190,6 +7554,18 @@
     {
       "topic": "Peter Vollmer identity and dates",
       "corrected": "Duplicate Peter/Pete profiles were consolidated as Peter Vollmer, 29 Jun 1959-5 Aug 1975. The obituary index names Henry R Vollmer as father and Christopher as sibling; Peter's mother remains unconfirmed."
+    },
+    {
+      "topic": "Wallace Ray Fischer name",
+      "corrected": "Owner supplied Ray W. Fischer; Ohio records repeatedly identify him as Wallace Ray Fischer. The record form is used with the owner's form retained as an alias note."
+    },
+    {
+      "topic": "Fischer paternal stopping point",
+      "corrected": "The owner identified Wallace Ray Fischer's parents. Texas marriage, census, and 2022 death records support Raymond Charles Fischer Jr. and Wanda June Wallace Fischer; the prior blank-parent stopping point is superseded."
+    },
+    {
+      "topic": "Wanda and June Fischer identity",
+      "corrected": "Wanda and June are one person: official Texas marriage records use Wanda J. Wallace and the newspaper marriage index expands her name to Wanda June Wallace. A 2022 tribute addresses her as June."
     }
   ],
   "provenance": [
@@ -6228,18 +7604,26 @@
     {
       "thread_title": "Photo and evidence media audit",
       "role": "repository-wide person-photo availability audit, exact person-to-record mappings, preserved evidence attachment catalog, PDF page previews, and Ancestry/Newspapers.com access controls"
+    },
+    {
+      "thread_title": "Add Arianna Fischer direct ancestry",
+      "role": "owner-supplied spouse/parent anchors plus Ancestry-indexed direct-line research with preserved source images; no collateral expansion"
+    },
+    {
+      "thread_title": "Extend Wallace Ray Fischer direct ancestry",
+      "role": "owner correction plus signed-in Ancestry research, exact direct-line links, conflict handling, and full-resolution Find a Grave marker preservation; no collateral expansion"
     }
   ],
   "media": {
     "metadata": {
       "audited": "2026-09-02",
-      "people_audited": 328,
+      "people_audited": 391,
       "portraits_archived": 0,
       "external_photo_pages": 2,
-      "privacy_withheld": 2,
-      "no_verified_photo_archived": 324,
-      "evidence_files": 43,
-      "evidence_images": 34,
+      "privacy_withheld": 8,
+      "no_verified_photo_archived": 381,
+      "evidence_files": 78,
+      "evidence_images": 69,
       "evidence_pdfs": 9,
       "pdf_preview_images": 18,
       "policy": "Use only verified person images; preserve living-person privacy; retain external or rights-restricted photos as links rather than copied files; attach evidence through explicit person mappings and retain exclusions as controls."
@@ -10082,13 +11466,13 @@
       {
         "individual_id": "I334",
         "name": "Mary Alice Thoren",
-        "portrait_status": "no_verified_photo_archived",
+        "portrait_status": "privacy_withheld",
         "portrait_path": "",
         "portrait_source_name": "",
         "portrait_source_url": "",
         "portrait_source_refs": [],
-        "portrait_rights": "",
-        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
         "evidence_ids": [
           "E040"
         ]
@@ -10340,6 +11724,866 @@
       {
         "individual_id": "I355",
         "name": "Peter Vollmer",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I356",
+        "name": "Arianna Lynn Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I357",
+        "name": "Wallace Ray Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I358",
+        "name": "Sally Lynn Vanhoose Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I359",
+        "name": "Keith Douglas Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I360",
+        "name": "Barbara Lynn Boltenhouse",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": [
+          "E056"
+        ]
+      },
+      {
+        "individual_id": "I361",
+        "name": "Douglas T Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E054"
+        ]
+      },
+      {
+        "individual_id": "I362",
+        "name": "Mildred I Tackett Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E053"
+        ]
+      },
+      {
+        "individual_id": "I363",
+        "name": "Charles Emerald Boltenhouse Jr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E056"
+        ]
+      },
+      {
+        "individual_id": "I364",
+        "name": "Alice Marie Hickey Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E055",
+          "E056"
+        ]
+      },
+      {
+        "individual_id": "I365",
+        "name": "John B Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E045",
+          "E052"
+        ]
+      },
+      {
+        "individual_id": "I366",
+        "name": "Talliehassie Tallie Estep Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E052",
+          "E054",
+          "E057"
+        ]
+      },
+      {
+        "individual_id": "I367",
+        "name": "Sidney Tackett",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E053"
+        ]
+      },
+      {
+        "individual_id": "I368",
+        "name": "Ida Missouri",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E053"
+        ]
+      },
+      {
+        "individual_id": "I369",
+        "name": "Moses Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E044",
+          "E045"
+        ]
+      },
+      {
+        "individual_id": "I370",
+        "name": "Mahala Dixon Vanhoose",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E044",
+          "E045"
+        ]
+      },
+      {
+        "individual_id": "I371",
+        "name": "Ira W Estep",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E057"
+        ]
+      },
+      {
+        "individual_id": "I372",
+        "name": "Isora Morton Estep",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E057"
+        ]
+      },
+      {
+        "individual_id": "I373",
+        "name": "Charles Emerald Boltenhouse Sr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E050"
+        ]
+      },
+      {
+        "individual_id": "I374",
+        "name": "Leona Florence Tomlinson Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E051"
+        ]
+      },
+      {
+        "individual_id": "I375",
+        "name": "Alonzo Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E047",
+          "E050"
+        ]
+      },
+      {
+        "individual_id": "I376",
+        "name": "Malinda E Speakman Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E050"
+        ]
+      },
+      {
+        "individual_id": "I377",
+        "name": "George P Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E051"
+        ]
+      },
+      {
+        "individual_id": "I378",
+        "name": "Malinda Linda Jackson Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E051"
+        ]
+      },
+      {
+        "individual_id": "I379",
+        "name": "Augustus Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E047"
+        ]
+      },
+      {
+        "individual_id": "I380",
+        "name": "Elizabeth Cotter Boltenhouse",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E047"
+        ]
+      },
+      {
+        "individual_id": "I381",
+        "name": "Alo Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I382",
+        "name": "Rebecca Tomlinson",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I383",
+        "name": "William Andrew Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E048",
+          "E055"
+        ]
+      },
+      {
+        "individual_id": "I384",
+        "name": "Daisy Marie Imler Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E049",
+          "E055"
+        ]
+      },
+      {
+        "individual_id": "I385",
+        "name": "John Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E048"
+        ]
+      },
+      {
+        "individual_id": "I386",
+        "name": "Mary Hickey",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E048"
+        ]
+      },
+      {
+        "individual_id": "I387",
+        "name": "William Imler",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E049"
+        ]
+      },
+      {
+        "individual_id": "I388",
+        "name": "Annie Westbury Imler",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E046",
+          "E049"
+        ]
+      },
+      {
+        "individual_id": "I389",
+        "name": "Robert Westbury",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E046"
+        ]
+      },
+      {
+        "individual_id": "I390",
+        "name": "Hester Stonerock Westbury",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E046"
+        ]
+      },
+      {
+        "individual_id": "I391",
+        "name": "Raymond Charles Fischer Jr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I392",
+        "name": "Wanda June Wallace Fischer",
+        "portrait_status": "privacy_withheld",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "Living-person privacy applies.",
+        "portrait_note": "No portrait is displayed because the person is living.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I393",
+        "name": "Raymond Charles Fischer Sr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E060",
+          "E061"
+        ]
+      },
+      {
+        "individual_id": "I394",
+        "name": "Ruby Louise Gilmore Fischer",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E062",
+          "E063"
+        ]
+      },
+      {
+        "individual_id": "I395",
+        "name": "Johann Daniel Fischer",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E058"
+        ]
+      },
+      {
+        "individual_id": "I396",
+        "name": "Lena Wirtz Fischer",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E059"
+        ]
+      },
+      {
+        "individual_id": "I397",
+        "name": "Johann Daniel Fischer",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I398",
+        "name": "Elisabethe Margarethe Fischer",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I399",
+        "name": "Jacob Wirtz",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I400",
+        "name": "Catherine Swan Wirtz",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I401",
+        "name": "George Samuel Gilmore",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I402",
+        "name": "Ida Susan Burt Gilmore",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I403",
+        "name": "Chalmers Carl Wallace",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E064",
+          "E065",
+          "E066"
+        ]
+      },
+      {
+        "individual_id": "I404",
+        "name": "Dorothy Bess Highley Wallace",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I405",
+        "name": "Walter Albert Wallace Sr",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E067"
+        ]
+      },
+      {
+        "individual_id": "I406",
+        "name": "Alice Mae Williams Wallace",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E068"
+        ]
+      },
+      {
+        "individual_id": "I407",
+        "name": "Mary J McGaha Wallace",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I408",
+        "name": "Robert B Williams",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E073"
+        ]
+      },
+      {
+        "individual_id": "I409",
+        "name": "Nancy Ellen Brannan Williams",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E074"
+        ]
+      },
+      {
+        "individual_id": "I410",
+        "name": "Elisha Branham",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E075",
+          "E076",
+          "E077"
+        ]
+      },
+      {
+        "individual_id": "I411",
+        "name": "Clarissa McCoy Branham Williams McBride",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E078"
+        ]
+      },
+      {
+        "individual_id": "I412",
+        "name": "Daniel Franklin McCoy",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I413",
+        "name": "Ambrose Long Highley",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E069"
+        ]
+      },
+      {
+        "individual_id": "I414",
+        "name": "Mary Elizabeth Herod Highley",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E070"
+        ]
+      },
+      {
+        "individual_id": "I415",
+        "name": "William T Highley",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E071"
+        ]
+      },
+      {
+        "individual_id": "I416",
+        "name": "Hannah T Blair Highley",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": [
+          "E072"
+        ]
+      },
+      {
+        "individual_id": "I417",
+        "name": "James Highley",
+        "portrait_status": "no_verified_photo_archived",
+        "portrait_path": "",
+        "portrait_source_name": "",
+        "portrait_source_url": "",
+        "portrait_source_refs": [],
+        "portrait_rights": "",
+        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
+        "evidence_ids": []
+      },
+      {
+        "individual_id": "I418",
+        "name": "Mary Highley",
         "portrait_status": "no_verified_photo_archived",
         "portrait_path": "",
         "portrait_source_name": "",
@@ -11556,6 +13800,955 @@
           "records/relief-mcnaughton_mother-pension-index.jpg"
         ],
         "sha256": "4c481d5447084325803d01ea3fb19e1485b4d96fd24cc06c3c83ed32580e90f7"
+      },
+      {
+        "evidence_id": "E044",
+        "media_type": "image",
+        "file_path": "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+        "filename": "1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg",
+        "title": "Moses Vanhoose and Mahala Dixon marriage record",
+        "ledger_refs": [
+          "S63"
+        ],
+        "person_ids": [
+          "I369",
+          "I370"
+        ],
+        "canonical_source_refs": [
+          "S63"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "Johnson County records"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg"
+        ],
+        "sha256": "4b43d38830f05745935ff09efa16d73316ad9a564f13e1419d15dd0f53e39953"
+      },
+      {
+        "evidence_id": "E045",
+        "media_type": "image",
+        "file_path": "records/1880_moses-mahala-john-vanhoose_us-census.jpg",
+        "filename": "1880_moses-mahala-john-vanhoose_us-census.jpg",
+        "title": "1880 Moses, Mahala, and John Vanhoose household census",
+        "ledger_refs": [
+          "S63"
+        ],
+        "person_ids": [
+          "I369",
+          "I370",
+          "I365"
+        ],
+        "canonical_source_refs": [
+          "S63"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1880_moses-mahala-john-vanhoose_us-census.jpg"
+        ],
+        "sha256": "12e7a826f60af0250d06978216776c4d01d29bc0c85277365119b2a924c4b744"
+      },
+      {
+        "evidence_id": "E046",
+        "media_type": "image",
+        "file_path": "records/1880_robert-hester-annie-westbury_us-census.jpg",
+        "filename": "1880_robert-hester-annie-westbury_us-census.jpg",
+        "title": "1880 Robert, Hester, and Annie Westbury household census",
+        "ledger_refs": [
+          "S60"
+        ],
+        "person_ids": [
+          "I389",
+          "I390",
+          "I388"
+        ],
+        "canonical_source_refs": [
+          "S60"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1880_robert-hester-annie-westbury_us-census.jpg"
+        ],
+        "sha256": "55f4336bacc66bf90b09eda13d8d8e4ba8b97a23502eb9a2519212f7213b4fde"
+      },
+      {
+        "evidence_id": "E047",
+        "media_type": "image",
+        "file_path": "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+        "filename": "1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg",
+        "title": "1900 Augustus, Elizabeth, and Alonzo Boltenhouse household census",
+        "ledger_refs": [
+          "S67"
+        ],
+        "person_ids": [
+          "I379",
+          "I380",
+          "I375"
+        ],
+        "canonical_source_refs": [
+          "S67"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg"
+        ],
+        "sha256": "f0f0d16ea0a2188d2a26af6deec71b183d567c824449c8a76578a7e0aab85635"
+      },
+      {
+        "evidence_id": "E048",
+        "media_type": "image",
+        "file_path": "records/1900_john-mary-william-hickey_us-census.jpg",
+        "filename": "1900_john-mary-william-hickey_us-census.jpg",
+        "title": "1900 John, Mary, and William Hickey household census",
+        "ledger_refs": [
+          "S57"
+        ],
+        "person_ids": [
+          "I385",
+          "I386",
+          "I383"
+        ],
+        "canonical_source_refs": [
+          "S57"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1900_john-mary-william-hickey_us-census.jpg"
+        ],
+        "sha256": "3f09977017d341c179f7296476cf3f05238edc18706741185f0889ab4a462a0e"
+      },
+      {
+        "evidence_id": "E049",
+        "media_type": "image",
+        "file_path": "records/1900_william-annie-daisy-imler_us-census.jpg",
+        "filename": "1900_william-annie-daisy-imler_us-census.jpg",
+        "title": "1900 William, Annie, and Daisy Imler household census",
+        "ledger_refs": [
+          "S58"
+        ],
+        "person_ids": [
+          "I387",
+          "I388",
+          "I384"
+        ],
+        "canonical_source_refs": [
+          "S58"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1900_william-annie-daisy-imler_us-census.jpg"
+        ],
+        "sha256": "f1efe3ffd6bd843ebdee892bdf6eb2cdbdca443f846d2440a66fb86d7f6b4f76"
+      },
+      {
+        "evidence_id": "E050",
+        "media_type": "image",
+        "file_path": "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+        "filename": "1910_alonzo-malinda-charles-boltenhouse_us-census.jpg",
+        "title": "1910 Alonzo, Malinda, and Charles Boltenhouse household census",
+        "ledger_refs": [
+          "S67"
+        ],
+        "person_ids": [
+          "I375",
+          "I376",
+          "I373"
+        ],
+        "canonical_source_refs": [
+          "S67"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg"
+        ],
+        "sha256": "de55365447a9a7a1f1da71cbd0ea2334fad10c1c2a0d50d861fca0e8bfb2096c"
+      },
+      {
+        "evidence_id": "E051",
+        "media_type": "image",
+        "file_path": "records/1910_george-linda-leona-tomlinson_us-census.jpg",
+        "filename": "1910_george-linda-leona-tomlinson_us-census.jpg",
+        "title": "1910 George, Linda, and Leona Tomlinson household census",
+        "ledger_refs": [
+          "S68"
+        ],
+        "person_ids": [
+          "I377",
+          "I378",
+          "I374"
+        ],
+        "canonical_source_refs": [
+          "S68"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1910_george-linda-leona-tomlinson_us-census.jpg"
+        ],
+        "sha256": "136ffac97bbb990721d27662cd7b79f7c0512ecad9d79aec3f6bbb21897a5552"
+      },
+      {
+        "evidence_id": "E052",
+        "media_type": "image",
+        "file_path": "records/1920_john-tallie-vanhoose_us-census.jpg",
+        "filename": "1920_john-tallie-vanhoose_us-census.jpg",
+        "title": "1920 John and Tallie Vanhoose household census",
+        "ledger_refs": [
+          "S62"
+        ],
+        "person_ids": [
+          "I365",
+          "I366"
+        ],
+        "canonical_source_refs": [
+          "S62"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1920_john-tallie-vanhoose_us-census.jpg"
+        ],
+        "sha256": "fafc8e35d22d30a643b082d8a90e9e4bcf79755776e8e359865ef92037507ec7"
+      },
+      {
+        "evidence_id": "E053",
+        "media_type": "image",
+        "file_path": "records/1930_sidney-ida-mildred-tackett_us-census.jpg",
+        "filename": "1930_sidney-ida-mildred-tackett_us-census.jpg",
+        "title": "1930 Sidney, Ida, and Mildred Tackett household census",
+        "ledger_refs": [
+          "S65"
+        ],
+        "person_ids": [
+          "I367",
+          "I368",
+          "I362"
+        ],
+        "canonical_source_refs": [
+          "S65"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1930_sidney-ida-mildred-tackett_us-census.jpg"
+        ],
+        "sha256": "450820469775477ec1a3304d33ce88032ae0de4624e0431230af3e25cd2b4d22"
+      },
+      {
+        "evidence_id": "E054",
+        "media_type": "image",
+        "file_path": "records/1930_tallie-douglas-vanhoose_us-census.jpg",
+        "filename": "1930_tallie-douglas-vanhoose_us-census.jpg",
+        "title": "1930 Tallie and Douglas Vanhoose household census",
+        "ledger_refs": [
+          "S61"
+        ],
+        "person_ids": [
+          "I366",
+          "I361"
+        ],
+        "canonical_source_refs": [
+          "S61"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1930_tallie-douglas-vanhoose_us-census.jpg"
+        ],
+        "sha256": "b72825dcb67040ab1e58177e31b1a0dd71f8d6979b1cc1c5ff54ff86219c99b3"
+      },
+      {
+        "evidence_id": "E055",
+        "media_type": "image",
+        "file_path": "records/1940_william-daisy-alice-hickey_us-census.jpg",
+        "filename": "1940_william-daisy-alice-hickey_us-census.jpg",
+        "title": "1940 William, Daisy, and Alice Hickey household census",
+        "ledger_refs": [
+          "S56"
+        ],
+        "person_ids": [
+          "I383",
+          "I384",
+          "I364"
+        ],
+        "canonical_source_refs": [
+          "S56"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1940_william-daisy-alice-hickey_us-census.jpg"
+        ],
+        "sha256": "9be42fdd0e88e0a6814c131f58e6e0a64374eaf112a8946de26113ba261d2193"
+      },
+      {
+        "evidence_id": "E056",
+        "media_type": "image",
+        "file_path": "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+        "filename": "1950_charles-alice-barbara-boltenhouse_us-census.jpg",
+        "title": "1950 Charles, Alice, and Barbara Boltenhouse household census",
+        "ledger_refs": [
+          "S54"
+        ],
+        "person_ids": [
+          "I363",
+          "I364",
+          "I360"
+        ],
+        "canonical_source_refs": [
+          "S54"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "NARA"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1950_charles-alice-barbara-boltenhouse_us-census.jpg"
+        ],
+        "sha256": "60ba9440c8fd580e15203d7599bca858a02153692e6be62ce197ff10d544a08c"
+      },
+      {
+        "evidence_id": "E057",
+        "media_type": "image",
+        "file_path": "records/1967-05-17_tallie-vanhoose_death-certificate.jpg",
+        "filename": "1967-05-17_tallie-vanhoose_death-certificate.jpg",
+        "title": "Tallie Vanhoose death certificate",
+        "ledger_refs": [
+          "S64"
+        ],
+        "person_ids": [
+          "I366",
+          "I371",
+          "I372"
+        ],
+        "canonical_source_refs": [
+          "S64"
+        ],
+        "status": "supporting",
+        "note": "",
+        "source_platforms": [
+          "Ancestry",
+          "Kentucky vital records"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1967-05-17_tallie-vanhoose_death-certificate.jpg"
+        ],
+        "sha256": "a5fdaad1e00eab617eb9b52fbbfacd3c565c8a8939d5fb536c45b296c2619e80"
+      },
+      {
+        "evidence_id": "E058",
+        "media_type": "image",
+        "file_path": "records/1925-03-31_johann-daniel-fischer_grave-marker.jpg",
+        "filename": "1925-03-31_johann-daniel-fischer_grave-marker.jpg",
+        "title": "Johann Daniel Fischer grave marker",
+        "ledger_refs": [
+          "S77"
+        ],
+        "person_ids": [
+          "I395"
+        ],
+        "canonical_source_refs": [
+          "S77"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/19759283/johann-daniel-fischer. Contributor: couchpotato.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1925-03-31_johann-daniel-fischer_grave-marker.jpg"
+        ],
+        "sha256": "05d2b5a9975b455266d63b22e4a0a6ca55d5e77e52cc5c00a44f8248a40df256"
+      },
+      {
+        "evidence_id": "E059",
+        "media_type": "image",
+        "file_path": "records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg",
+        "filename": "1974-01-24_lena-wirtz-fischer_grave-marker.jpg",
+        "title": "Lena Wirtz Fischer grave marker",
+        "ledger_refs": [
+          "S77"
+        ],
+        "person_ids": [
+          "I396"
+        ],
+        "canonical_source_refs": [
+          "S77"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/19759290/lena-fischer. Contributor: couchpotato.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg"
+        ],
+        "sha256": "cb3a2a9ce88dde14f9ac482b58f946dd0f7a391c6edaf0b8fe75f8edce446105"
+      },
+      {
+        "evidence_id": "E060",
+        "media_type": "image",
+        "file_path": "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg",
+        "filename": "1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg",
+        "title": "Raymond Charles Fischer Sr grave marker — inscription view",
+        "ledger_refs": [
+          "S77"
+        ],
+        "person_ids": [
+          "I393"
+        ],
+        "canonical_source_refs": [
+          "S77"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481441/raymond-charles-fischer. Contributor: couchpotato.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg"
+        ],
+        "sha256": "6a8f47e1d1c0d58f2c891fe0aad25192b90370c9d82a4f63f874b433a4a12418"
+      },
+      {
+        "evidence_id": "E061",
+        "media_type": "image",
+        "file_path": "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg",
+        "filename": "1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg",
+        "title": "Raymond Charles Fischer Sr grave marker — full view",
+        "ledger_refs": [
+          "S77"
+        ],
+        "person_ids": [
+          "I393"
+        ],
+        "canonical_source_refs": [
+          "S77"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481441/raymond-charles-fischer. Contributor: couchpotato.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg"
+        ],
+        "sha256": "e64220fe4a348686a7d568c222b202e43652da52283363751fd2158db2338c1f"
+      },
+      {
+        "evidence_id": "E062",
+        "media_type": "image",
+        "file_path": "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg",
+        "filename": "2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg",
+        "title": "Ruby Louise Gilmore Fischer grave marker — inscription view",
+        "ledger_refs": [
+          "S77"
+        ],
+        "person_ids": [
+          "I394"
+        ],
+        "canonical_source_refs": [
+          "S77"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481460/ruby-fischer. Contributor: couchpotato.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg"
+        ],
+        "sha256": "372935f811687ccd391f41bf4a4c69117f991b133f493b3db26042615d5cac4f"
+      },
+      {
+        "evidence_id": "E063",
+        "media_type": "image",
+        "file_path": "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg",
+        "filename": "2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg",
+        "title": "Ruby Louise Gilmore Fischer grave marker — full view",
+        "ledger_refs": [
+          "S77"
+        ],
+        "person_ids": [
+          "I394"
+        ],
+        "canonical_source_refs": [
+          "S77"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/69481460/ruby-fischer. Contributor: couchpotato.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg"
+        ],
+        "sha256": "e64220fe4a348686a7d568c222b202e43652da52283363751fd2158db2338c1f"
+      },
+      {
+        "evidence_id": "E064",
+        "media_type": "image",
+        "file_path": "records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg",
+        "filename": "1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg",
+        "title": "Chalmers Carl Wallace grave marker — 2026 view",
+        "ledger_refs": [
+          "S78"
+        ],
+        "person_ids": [
+          "I403"
+        ],
+        "canonical_source_refs": [
+          "S78"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/186519723/chambers-carl-wallace. Contributor: evansd.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg"
+        ],
+        "sha256": "dd3ad9bd65e622710a694d6708e77973f518f741cbb6d45b224927621c1054b3"
+      },
+      {
+        "evidence_id": "E065",
+        "media_type": "image",
+        "file_path": "records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg",
+        "filename": "1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg",
+        "title": "Chalmers Carl Wallace grave marker — close view",
+        "ledger_refs": [
+          "S78"
+        ],
+        "person_ids": [
+          "I403"
+        ],
+        "canonical_source_refs": [
+          "S78"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/186519723/chambers-carl-wallace. Contributor: KD Burleson.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg"
+        ],
+        "sha256": "2bf9f7ad40b0356215108f475768ab6603d2e14b10b1479bc4413f6f6faa646c"
+      },
+      {
+        "evidence_id": "E066",
+        "media_type": "image",
+        "file_path": "records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg",
+        "filename": "1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg",
+        "title": "Chalmers Carl Wallace grave marker — reverse view",
+        "ledger_refs": [
+          "S78"
+        ],
+        "person_ids": [
+          "I403"
+        ],
+        "canonical_source_refs": [
+          "S78"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/186519723/chambers-carl-wallace. Contributor: KD Burleson.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg"
+        ],
+        "sha256": "02884e78b381a0a2ee681285eb0c9f709dc48798fd755a67806c004777f98c4e"
+      },
+      {
+        "evidence_id": "E067",
+        "media_type": "image",
+        "file_path": "records/1963-12-08_walter-albert-wallace_grave-marker.jpeg",
+        "filename": "1963-12-08_walter-albert-wallace_grave-marker.jpeg",
+        "title": "Walter Albert Wallace Sr grave marker",
+        "ledger_refs": [
+          "S78"
+        ],
+        "person_ids": [
+          "I405"
+        ],
+        "canonical_source_refs": [
+          "S78"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/262761264/walter-albert-wallace. Contributor: evansd.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1963-12-08_walter-albert-wallace_grave-marker.jpeg"
+        ],
+        "sha256": "02ac81b696453006c25009aa2e8dea4765665ec24a96fe1fc011931cd74f03bf"
+      },
+      {
+        "evidence_id": "E068",
+        "media_type": "image",
+        "file_path": "records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg",
+        "filename": "1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg",
+        "title": "Alice Mae Williams Wallace grave marker",
+        "ledger_refs": [
+          "S78"
+        ],
+        "person_ids": [
+          "I406"
+        ],
+        "canonical_source_refs": [
+          "S78"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/262761475/alice-mae-wallace. Contributor: evansd.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg"
+        ],
+        "sha256": "88fd3ba966b927ad262f93c0af18ff7eff862b51707294bbac65acc4780b80ec"
+      },
+      {
+        "evidence_id": "E069",
+        "media_type": "image",
+        "file_path": "records/1931-10-16_ambrose-long-highley_grave-marker.jpg",
+        "filename": "1931-10-16_ambrose-long-highley_grave-marker.jpg",
+        "title": "Ambrose Long Highley grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I413"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/13974942/ambrose-long-highley. Contributor: Judy K. Roberts.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1931-10-16_ambrose-long-highley_grave-marker.jpg"
+        ],
+        "sha256": "934551d1ccd0d9874d2e058e65d1df1a09da3dd61a58ed28c97feecaea5c8f5d"
+      },
+      {
+        "evidence_id": "E070",
+        "media_type": "image",
+        "file_path": "records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg",
+        "filename": "1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg",
+        "title": "Mary Elizabeth Herod Highley grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I414"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley. Contributor: Kelly.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg"
+        ],
+        "sha256": "bf0a642c6e3f80bb139431958f5ec45dcae2f6424b8122438c416490f9315079"
+      },
+      {
+        "evidence_id": "E071",
+        "media_type": "image",
+        "file_path": "records/1918-08-23_william-t-highley_grave-marker.jpg",
+        "filename": "1918-08-23_william-t-highley_grave-marker.jpg",
+        "title": "William T Highley grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I415"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/13888778/william-t.-highley. Contributor: Kelly.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1918-08-23_william-t-highley_grave-marker.jpg"
+        ],
+        "sha256": "7e9a01cee18e1f456345063620e205e8a50f149f6f246d280774548431bd0755"
+      },
+      {
+        "evidence_id": "E072",
+        "media_type": "image",
+        "file_path": "records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg",
+        "filename": "1921-02-09_hannah-t-blair-highley_grave-marker.jpg",
+        "title": "Hannah T Blair Highley grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I416"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/13888780/hannah-t-highley. Contributor: Kelly.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg"
+        ],
+        "sha256": "e9c6b5886a8f6c35ebe1fb4fb0bb4da2dee14e7653f6336c1106e7c2acf26c3c"
+      },
+      {
+        "evidence_id": "E073",
+        "media_type": "image",
+        "file_path": "records/1926_robert-b-williams_grave-marker.jpg",
+        "filename": "1926_robert-b-williams_grave-marker.jpg",
+        "title": "Robert B Williams grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I408"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/21540402/robert-b.-williams. Contributor: OkieBran.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1926_robert-b-williams_grave-marker.jpg"
+        ],
+        "sha256": "08d0412ab41359d64ed4047390a61ac40131d1afff6b74f20c33e8e9f3c91f6f"
+      },
+      {
+        "evidence_id": "E074",
+        "media_type": "image",
+        "file_path": "records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg",
+        "filename": "1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg",
+        "title": "Nancy Ellen Brannan Williams grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I409"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/21540426/nancy-ellen-williams. Contributor: OkieBran.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg"
+        ],
+        "sha256": "afc430f0b2ec351f690157a4374b69e2f457da63da0f9446d3b3e1e6500ccd14"
+      },
+      {
+        "evidence_id": "E075",
+        "media_type": "image",
+        "file_path": "records/1873-05-23_elisha-branham_grave-marker-1.jpg",
+        "filename": "1873-05-23_elisha-branham_grave-marker-1.jpg",
+        "title": "Elisha Branham grave marker — first view",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I410"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/33706860/elisha-branham. Contributor: Ellie Sparks.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1873-05-23_elisha-branham_grave-marker-1.jpg"
+        ],
+        "sha256": "3d4c9dc0fc42d0b317792b11ee9638fec5715e8055c98b03fb8766bb5533a14b"
+      },
+      {
+        "evidence_id": "E076",
+        "media_type": "image",
+        "file_path": "records/1873-05-23_elisha-branham_grave-marker-2.jpeg",
+        "filename": "1873-05-23_elisha-branham_grave-marker-2.jpeg",
+        "title": "Elisha Branham grave marker — second view",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I410"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/33706860/elisha-branham. Contributor: Colleen Sanders Broyles.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1873-05-23_elisha-branham_grave-marker-2.jpeg"
+        ],
+        "sha256": "33f4f8b95888726b435bb53c799c59e8aefe68e882b1b04b19ca4943ab18b062"
+      },
+      {
+        "evidence_id": "E077",
+        "media_type": "image",
+        "file_path": "records/1873-05-23_elisha-branham_grave-marker-3.jpg",
+        "filename": "1873-05-23_elisha-branham_grave-marker-3.jpg",
+        "title": "Elisha Branham grave marker — third view",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I410"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/33706860/elisha-branham. Contributor: Ben Fulton.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1873-05-23_elisha-branham_grave-marker-3.jpg"
+        ],
+        "sha256": "34e1a6dec74d239a48879fbfaadd0ddcd98f41bd0ab8dc714676830ffe4eeae0"
+      },
+      {
+        "evidence_id": "E078",
+        "media_type": "image",
+        "file_path": "records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg",
+        "filename": "1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg",
+        "title": "Clarissa McCoy Branham grave marker",
+        "ledger_refs": [
+          "S79"
+        ],
+        "person_ids": [
+          "I411"
+        ],
+        "canonical_source_refs": [
+          "S79"
+        ],
+        "status": "supporting",
+        "note": "Full-resolution image explicitly labeled “Photo type: Grave” on https://www.findagrave.com/memorial/84921915/clarissa-branham_williams_mcbride. Contributor: N.Miller.",
+        "source_platforms": [
+          "Find a Grave"
+        ],
+        "page_count": 1,
+        "preview_paths": [
+          "records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg"
+        ],
+        "sha256": "5c5d865f3c4bfff7560eb5dc27e90fe2ce583a8a3c6998232184a19ca5372547"
       }
     ],
     "external_evidence_checks": [

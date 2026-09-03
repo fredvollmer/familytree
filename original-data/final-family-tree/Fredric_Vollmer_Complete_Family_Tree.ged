@@ -14,6 +14,13 @@
 1 NOTE Confidence A (Confirmed). Branch: Root. Living person; dates intentionally omitted.
 1 SOUR @S1@
 1 FAMC @F095@
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 NOTE Owner-confirmed spouse: Arianna Lynn Fischer.
+1 SOUR @S49@
+1 FAMS @F156@
 0 @I002@ INDI
 1 SEX F
 1 NAME Jan Muller /Vollmer/
@@ -5032,4 +5039,1278 @@
 1 AUTH Codex research task in the Family Tree project
 1 DATE 2 SEP 2026
 1 NOTE Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.
+0 @I356@ INDI
+1 NAME Arianna Lynn /Fischer/
+1 SEX F
+1 BIRT
+2 DATE 1990
+1 NOTE Owner-confirmed wife of Fredric Muller Vollmer. Living person; only the owner-supplied birth year is retained.
+1 REFN FISCHER-DIRECT-I356
+1 SOUR @S49@
+1 SOUR @S50@
+1 FAMC @F157@
+1 FAMS @F156@
+0 @I357@ INDI
+1 NAME Wallace Ray /Fischer/
+1 SEX M
+1 NOTE Owner supplied the form Ray W. Fischer; Ohio records repeatedly use Wallace Ray Fischer. Living dates and addresses are withheld.
+1 REFN FISCHER-DIRECT-I357
+1 SOUR @S49@
+1 SOUR @S50@
+1 SOUR @S51@
+1 FAMS @F157@
+1 NOTE Owner-confirmed parents Raymond Charles Fischer Jr. and Wanda June Wallace Fischer; identity corroborated by Texas marriage, census, and 2022 death records.
+1 SOUR @S69@
+1 SOUR @S70@
+1 FAMC @F174@
+0 @I358@ INDI
+1 NAME Sally Lynn /Vanhoose/
+1 SEX F
+1 NOTE Ohio records supply maiden surname Vanhoose and married surname Fischer. Living dates and addresses are withheld.
+1 REFN FISCHER-DIRECT-I358
+1 SOUR @S49@
+1 SOUR @S50@
+1 SOUR @S52@
+1 FAMC @F158@
+1 FAMS @F157@
+0 @I359@ INDI
+1 NAME Keith Douglas /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE 5 DEC 1944
+2 PLAC Ashland, Kentucky
+1 DEAT
+2 DATE 8 APR 2004
+1 NOTE SSA and burial indexes name Douglas T. Vanhoose and Mildred Tackett as parents.
+1 REFN FISCHER-DIRECT-I359
+1 SOUR @S52@
+1 SOUR @S53@
+1 FAMC @F159@
+1 FAMS @F158@
+0 @I360@ INDI
+1 NAME Barbara Lynn /Boltenhouse/
+1 SEX F
+1 NOTE The 1950 census identifies Barbara as daughter of Charles and Alice. Potentially living; dates are withheld.
+1 REFN FISCHER-DIRECT-I360
+1 SOUR @S52@
+1 SOUR @S54@
+1 FAMC @F164@
+1 FAMS @F158@
+0 @I361@ INDI
+1 NAME Douglas T /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE 1 APR 1921
+2 PLAC Lawrence County, Kentucky
+1 DEAT
+2 DATE 5 FEB 1983
+2 PLAC Pulaski County, Kentucky
+1 NOTE Kentucky birth index, 1930 census, military index, and death index form a consistent record cluster.
+1 REFN FISCHER-DIRECT-I361
+1 SOUR @S53@
+1 SOUR @S61@
+1 FAMC @F160@
+1 FAMS @F159@
+0 @I362@ INDI
+1 NAME Mildred I /Tackett/
+1 SEX F
+1 BIRT
+2 DATE 6 NOV 1924
+2 PLAC Esco, Pike County, Kentucky
+1 DEAT
+2 DATE 22 AUG 2015
+2 PLAC Bexley, Franklin County, Ohio
+1 NOTE Obituary and 1930 census identify Sidney Tackett and Ida Missouri as parents.
+1 REFN FISCHER-DIRECT-I362
+1 SOUR @S53@
+1 SOUR @S65@
+1 FAMC @F163@
+1 FAMS @F159@
+0 @I363@ INDI
+1 NAME Charles Emerald /Boltenhouse/ Jr.
+1 SEX M
+1 BIRT
+2 DATE 19 DEC 1926
+2 PLAC Circleville, Pickaway County, Ohio
+1 DEAT
+2 DATE 1 MAR 2026
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE The 1950 census and 2026 obituary identify wife Alice Hickey and daughter Barbara.
+1 REFN FISCHER-DIRECT-I363
+1 SOUR @S54@
+1 SOUR @S55@
+1 FAMC @F165@
+1 FAMS @F164@
+0 @I364@ INDI
+1 NAME Alice Marie /Hickey/
+1 SEX F
+1 BIRT
+2 DATE 30 AUG 1929
+2 PLAC Circleville, Pickaway County, Ohio
+1 DEAT
+2 DATE 25 JUL 2003
+1 NOTE SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain.
+1 REFN FISCHER-DIRECT-I364
+1 SOUR @S54@
+1 SOUR @S56@
+1 FAMC @F170@
+1 FAMS @F164@
+0 @I365@ INDI
+1 NAME John B /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE ABT 1877
+2 PLAC West Virginia
+1 NOTE The 1880 census records John as son of Moses and Mahala; the 1920 census records him with wife Tallie.
+1 REFN FISCHER-DIRECT-I365
+1 SOUR @S62@
+1 FAMC @F161@
+1 FAMS @F160@
+0 @I366@ INDI
+1 NAME Talliehassie Tallie /Estep/
+1 SEX F
+1 BIRT
+2 DATE 22 NOV 1881
+2 PLAC Johnson County, Kentucky
+1 DEAT
+2 DATE 17 MAY 1967
+2 PLAC Ashland, Boyd County, Kentucky
+1 NOTE The death certificate names father Ira Estep and mother Isora Morton. Tallie and Talliehassie are retained name forms.
+1 REFN FISCHER-DIRECT-I366
+1 SOUR @S61@
+1 SOUR @S62@
+1 SOUR @S64@
+1 FAMC @F162@
+1 FAMS @F160@
+0 @I367@ INDI
+1 NAME Sidney /Tackett/
+1 SEX M
+1 BIRT
+2 DATE ABT 1894
+2 PLAC Kentucky
+1 NOTE Recorded as Sid Tackett in the 1930 household and Sidney Tackett in Mildred's obituary.
+1 REFN FISCHER-DIRECT-I367
+1 SOUR @S65@
+1 FAMS @F163@
+0 @I368@ INDI
+1 NAME Ida Missouri /Unknown/
+1 SEX F
+1 BIRT
+2 DATE ABT 1898
+2 PLAC North Carolina
+1 NOTE Mildred's mother is named Ida Missouri Tackett; her birth surname remains unproved.
+1 REFN FISCHER-DIRECT-I368
+1 SOUR @S65@
+1 FAMS @F163@
+0 @I369@ INDI
+1 NAME Moses /Vanhoose/
+1 SEX M
+1 BIRT
+2 DATE ABT 1837
+2 PLAC Kentucky
+1 NOTE The 1880 census and 1868 marriage record support the household with Mahala Dixon.
+1 REFN FISCHER-DIRECT-I369
+1 SOUR @S63@
+1 FAMS @F161@
+0 @I370@ INDI
+1 NAME Mahala /Dixon/
+1 SEX F
+1 BIRT
+2 DATE ABT 1848
+2 PLAC Kentucky
+1 NOTE The 1868 marriage record supplies Dixon. A tempting 1860 household inference was not used to add parents.
+1 REFN FISCHER-DIRECT-I370
+1 SOUR @S63@
+1 FAMS @F161@
+0 @I371@ INDI
+1 NAME Ira W /Estep/
+1 SEX M
+1 BIRT
+2 DATE ABT 1848
+2 PLAC Kentucky
+1 NOTE Tallie's death certificate names Ira Estep; the 1880 census and 1868 marriage record identify the matching Ira and Isora household.
+1 REFN FISCHER-DIRECT-I371
+1 SOUR @S64@
+1 FAMS @F162@
+0 @I372@ INDI
+1 NAME Isora /Morton/
+1 SEX F
+1 BIRT
+2 DATE ABT 1849
+2 PLAC Kentucky
+1 NOTE Name forms include Isora and a difficult marriage-index transcription; Morton is retained from the marriage record.
+1 REFN FISCHER-DIRECT-I372
+1 SOUR @S64@
+1 FAMS @F162@
+0 @I373@ INDI
+1 NAME Charles Emerald /Boltenhouse/ Sr.
+1 SEX M
+1 BIRT
+2 DATE 27 MAY 1907
+2 PLAC Ross County, Ohio
+1 DEAT
+2 DATE 29 MAR 1979
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE World War II draft, census, marriage, and death indexes identify this Charles Emerald Boltenhouse.
+1 REFN FISCHER-DIRECT-I373
+1 SOUR @S55@
+1 SOUR @S66@
+1 SOUR @S67@
+1 FAMC @F166@
+1 FAMS @F165@
+0 @I374@ INDI
+1 NAME Leona Florence /Tomlinson/
+1 SEX F
+1 BIRT
+2 DATE 29 JUL 1907
+2 PLAC Franklin, Warren County, Ohio
+1 DEAT
+2 DATE 16 FEB 1994
+2 PLAC Kingston, Ross County, Ohio
+1 NOTE The 1910 census identifies George P. and Linda Tomlinson as parents.
+1 REFN FISCHER-DIRECT-I374
+1 SOUR @S66@
+1 SOUR @S68@
+1 FAMC @F168@
+1 FAMS @F165@
+0 @I375@ INDI
+1 NAME Alonzo /Boltenhouse/
+1 SEX M
+1 BIRT
+2 DATE JUN 1884
+2 PLAC Ohio
+1 NOTE The 1900 census names Augustus and Elizabeth as parents; 1910 census and 1902 marriage record identify wife Malinda E. Speakman.
+1 REFN FISCHER-DIRECT-I375
+1 SOUR @S67@
+1 FAMC @F167@
+1 FAMS @F166@
+0 @I376@ INDI
+1 NAME Malinda E /Speakman/
+1 SEX F
+1 BIRT
+2 DATE ABT 1885
+2 PLAC Ohio
+1 NOTE The 24 Apr 1902 Ross County marriage record supplies the birth surname Speakman.
+1 REFN FISCHER-DIRECT-I376
+1 SOUR @S67@
+1 FAMS @F166@
+0 @I377@ INDI
+1 NAME George P /Tomlinson/
+1 SEX M
+1 BIRT
+2 DATE APR 1875
+2 PLAC Ohio
+1 NOTE The 1900 and 1910 censuses link George, wife Malinda/Linda, son William, and daughter Leona.
+1 REFN FISCHER-DIRECT-I377
+1 SOUR @S68@
+1 FAMC @F169@
+1 FAMS @F168@
+0 @I378@ INDI
+1 NAME Malinda Linda /Jackson/
+1 SEX F
+1 BIRT
+2 DATE ABT 1878
+2 PLAC Ohio
+1 NOTE 1900 records Malinda; 1910 records Linda. A later child marriage index names the parents George P. Tomlinson and Linda Jackson.
+1 REFN FISCHER-DIRECT-I378
+1 SOUR @S68@
+1 FAMS @F168@
+0 @I379@ INDI
+1 NAME Augustus /Boltenhouse/
+1 SEX M
+1 BIRT
+2 DATE JUL 1839
+2 PLAC Ohio
+1 NOTE 1900 census and 1869 Ross County marriage record support the relationship and spouse.
+1 REFN FISCHER-DIRECT-I379
+1 SOUR @S67@
+1 FAMS @F167@
+0 @I380@ INDI
+1 NAME Elizabeth /Cotter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1842
+2 PLAC Ohio
+1 NOTE The 19 Jul 1869 Ross County marriage record supplies Cotter; later index variants include Cottrell and Cotterill.
+1 REFN FISCHER-DIRECT-I380
+1 SOUR @S67@
+1 FAMS @F167@
+0 @I381@ INDI
+1 NAME Alo /Tomlinson/
+1 SEX M
+1 BIRT
+2 DATE ABT 1836
+2 PLAC Ohio
+1 NOTE The 1900 census explicitly records George as son of Alo and Rebecca.
+1 REFN FISCHER-DIRECT-I381
+1 SOUR @S68@
+1 FAMS @F169@
+0 @I382@ INDI
+1 NAME Rebecca /Unknown/
+1 SEX F
+1 BIRT
+2 DATE ABT 1846
+2 PLAC Ohio
+1 NOTE The 1900 census explicitly records George as son of Rebecca; her birth surname remains unproved.
+1 REFN FISCHER-DIRECT-I382
+1 SOUR @S68@
+1 FAMS @F169@
+0 @I383@ INDI
+1 NAME William Andrew /Hickey/
+1 SEX M
+1 BIRT
+2 DATE 13 JUN 1888
+2 PLAC Circleville, Pickaway County, Ohio
+1 DEAT
+2 DATE 6 APR 1971
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE The 1900 census names John and Mary as parents; draft, death, burial, and SSA indexes corroborate identity.
+1 REFN FISCHER-DIRECT-I383
+1 SOUR @S56@
+1 SOUR @S57@
+1 FAMC @F171@
+1 FAMS @F170@
+0 @I384@ INDI
+1 NAME Daisy Marie /Imler/
+1 SEX F
+1 BIRT
+2 DATE 3 APR 1890
+2 PLAC Pickaway County, Ohio
+1 DEAT
+2 DATE 20 APR 1942
+2 PLAC Circleville, Pickaway County, Ohio
+1 NOTE Census and SSA records link Daisy to William Imler, Annie Westbury, husband William Hickey, and daughter Alice. A secondary 22 Apr death date is retained as a rejected conflict in the research log.
+1 REFN FISCHER-DIRECT-I384
+1 SOUR @S56@
+1 SOUR @S58@
+1 FAMC @F172@
+1 FAMS @F170@
+0 @I385@ INDI
+1 NAME John /Hickey/
+1 SEX M
+1 BIRT
+2 DATE JUN 1849
+2 PLAC Ohio
+1 NOTE The 1900 census records John and Mary with son William; John's parents were born in Ireland but are unnamed.
+1 REFN FISCHER-DIRECT-I385
+1 SOUR @S57@
+1 FAMS @F171@
+0 @I386@ INDI
+1 NAME Mary /Unknown/
+1 SEX F
+1 BIRT
+2 DATE MAR 1859
+2 PLAC Ohio
+1 NOTE The 1900 census records Mary with husband John and son William; her birth surname and parents remain unproved.
+1 REFN FISCHER-DIRECT-I386
+1 SOUR @S57@
+1 FAMS @F171@
+0 @I387@ INDI
+1 NAME William /Imler/
+1 SEX M
+1 BIRT
+2 DATE APR 1860
+2 PLAC Ohio
+1 NOTE The 1900 census and 1889 marriage record identify wife Annie Westbury and daughter Daisy.
+1 REFN FISCHER-DIRECT-I387
+1 SOUR @S58@
+1 SOUR @S59@
+1 FAMS @F172@
+0 @I388@ INDI
+1 NAME Annie /Westbury/
+1 SEX F
+1 BIRT
+2 DATE FEB 1871
+2 PLAC Ohio
+1 NOTE The 1880 census identifies Annie as daughter of Robert and Hester; the 1889 marriage record supplies the Imler link.
+1 REFN FISCHER-DIRECT-I388
+1 SOUR @S59@
+1 SOUR @S60@
+1 FAMC @F173@
+1 FAMS @F172@
+0 @I389@ INDI
+1 NAME Robert /Westbury/
+1 SEX M
+1 BIRT
+2 DATE ABT 1832
+2 PLAC England
+1 NOTE The 1880 census records Robert and Hester with daughter Annie; the 1861 marriage record corroborates the couple.
+1 REFN FISCHER-DIRECT-I389
+1 SOUR @S60@
+1 FAMS @F173@
+0 @I390@ INDI
+1 NAME Hester /Stonerock/
+1 SEX F
+1 BIRT
+2 DATE ABT 1842
+2 PLAC Ohio
+1 NOTE The 1880 census and 1861 Pickaway County marriage record support the name and relationship.
+1 REFN FISCHER-DIRECT-I390
+1 SOUR @S60@
+1 FAMS @F173@
+0 @F156@ FAM
+1 HUSB @I001@
+1 WIFE @I356@
+1 NOTE Owner-confirmed spouse relationship; no children or marriage details were added.
+1 SOUR @S49@
+0 @F157@ FAM
+1 HUSB @I357@
+1 WIFE @I358@
+1 CHIL @I356@
+1 MARR
+2 DATE 3 MAR 1990
+2 PLAC Franklin County, Ohio
+1 NOTE Ohio birth and marriage indexes corroborate the owner-supplied parents.
+1 SOUR @S49@
+1 SOUR @S50@
+0 @F158@ FAM
+1 HUSB @I359@
+1 WIFE @I360@
+1 CHIL @I358@
+1 NOTE Sally's Ohio birth index names Keith Douglas Vanhoose and Barbara Lynn Boltenhouse.
+1 SOUR @S52@
+1 SOUR @S53@
+0 @F159@ FAM
+1 HUSB @I361@
+1 WIFE @I362@
+1 CHIL @I359@
+1 NOTE Keith's SSA application and Mildred's obituary identify the couple as his parents.
+1 SOUR @S53@
+1 SOUR @S61@
+1 SOUR @S65@
+0 @F160@ FAM
+1 HUSB @I365@
+1 WIFE @I366@
+1 CHIL @I361@
+1 NOTE Douglas's birth index and the 1920/1930 census chain support this parent link.
+1 SOUR @S61@
+1 SOUR @S62@
+0 @F161@ FAM
+1 HUSB @I369@
+1 WIFE @I370@
+1 CHIL @I365@
+1 MARR
+2 DATE 22 APR 1868
+2 PLAC Johnson County, Kentucky
+1 NOTE John is recorded as their son in the 1880 census.
+1 SOUR @S63@
+0 @F162@ FAM
+1 HUSB @I371@
+1 WIFE @I372@
+1 CHIL @I366@
+1 MARR
+2 DATE 28 AUG 1868
+2 PLAC Johnson County, Kentucky
+1 NOTE Tallie's death certificate names both parents; census and marriage records identify the couple.
+1 SOUR @S64@
+0 @F163@ FAM
+1 HUSB @I367@
+1 WIFE @I368@
+1 CHIL @I362@
+1 NOTE Mildred's obituary names both parents and the 1930 census corroborates the household.
+1 SOUR @S65@
+0 @F164@ FAM
+1 HUSB @I363@
+1 WIFE @I364@
+1 CHIL @I360@
+1 NOTE The 1950 census and Charles's obituary identify Barbara as their daughter.
+1 SOUR @S54@
+1 SOUR @S55@
+1 SOUR @S56@
+0 @F165@ FAM
+1 HUSB @I373@
+1 WIFE @I374@
+1 CHIL @I363@
+1 NOTE Charles Jr's obituary and the 1930 census identify Charles Sr and Leona.
+1 SOUR @S55@
+1 SOUR @S66@
+0 @F166@ FAM
+1 HUSB @I375@
+1 WIFE @I376@
+1 CHIL @I373@
+1 MARR
+2 DATE 24 APR 1902
+2 PLAC Ross County, Ohio
+1 NOTE The 1910 census records Charles as their son; the marriage record supplies Malinda's surname.
+1 SOUR @S67@
+0 @F167@ FAM
+1 HUSB @I379@
+1 WIFE @I380@
+1 CHIL @I375@
+1 MARR
+2 DATE 19 JUL 1869
+2 PLAC Ross County, Ohio
+1 NOTE The 1900 census records Alonzo as their son; the marriage record supplies Elizabeth's surname.
+1 SOUR @S67@
+0 @F168@ FAM
+1 HUSB @I377@
+1 WIFE @I378@
+1 CHIL @I374@
+1 NOTE The 1910 census records Leona as their daughter; the 1900 household links the couple and son William.
+1 SOUR @S66@
+1 SOUR @S68@
+0 @F169@ FAM
+1 HUSB @I381@
+1 WIFE @I382@
+1 CHIL @I377@
+1 NOTE The 1900 census explicitly records George as son of Alo and Rebecca.
+1 SOUR @S68@
+0 @F170@ FAM
+1 HUSB @I383@
+1 WIFE @I384@
+1 CHIL @I364@
+1 NOTE Alice's SSA application and the 1940 census identify William and Daisy as her parents.
+1 SOUR @S56@
+1 SOUR @S57@
+1 SOUR @S58@
+0 @F171@ FAM
+1 HUSB @I385@
+1 WIFE @I386@
+1 CHIL @I383@
+1 MARR
+2 DATE ABT 1879
+1 NOTE The 1900 census records William as their son and reports the couple married for 21 years; Mary's birth surname remains unknown.
+1 SOUR @S57@
+0 @F172@ FAM
+1 HUSB @I387@
+1 WIFE @I388@
+1 CHIL @I384@
+1 MARR
+2 DATE 4 JUL 1889
+2 PLAC Pickaway County, Ohio
+1 NOTE The 1900 census records Daisy as their daughter.
+1 SOUR @S58@
+1 SOUR @S59@
+0 @F173@ FAM
+1 HUSB @I389@
+1 WIFE @I390@
+1 CHIL @I388@
+1 MARR
+2 DATE 17 DEC 1861
+2 PLAC Pickaway County, Ohio
+1 NOTE The 1880 census records Annie as their daughter.
+1 SOUR @S60@
+0 @S49@ SOUR
+1 TITL Owner statement identifying Arianna Lynn Fischer and her parents
+1 AUTH Fredric Muller Vollmer
+1 DATE 2 SEP 2026
+1 NOTE The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.
+0 @S50@ SOUR
+1 TITL Arianna Lynn Fischer Ohio birth and parent index cluster
+1 AUTH Ohio Department of Health; Ancestry.com
+1 DATE 1990
+1 NOTE Ohio birth index entries name Arianna and identify Wallace Ray Fischer and Sally Lynn Vanhoose Fischer as parents; a Franklin County marriage index records Wallace R. Fischer and Sally L. on 3 Mar 1990. Records: https://www.ancestry.com/search/collections/3146/records/11206028 ; https://www.ancestry.com/search/collections/3146/records/26206028 ; https://www.ancestry.com/search/collections/3146/records/41206028 ; https://www.ancestry.com/search/collections/2025/records/1910252
+0 @S51@ SOUR
+1 TITL Wallace Ray Fischer identity record cluster
+1 AUTH Ohio voter and public-record indexes; North Caroline High School yearbook; Ancestry.com
+1 NOTE Records consistently identify Wallace Ray Fischer, including North Caroline High School yearbook entries. Living birth details and addresses are intentionally omitted. Records: https://www.ancestry.com/search/collections/62740/records/4543428 ; https://www.ancestry.com/search/collections/62209/records/299213236 ; https://www.ancestry.com/search/collections/1265/records/621855255
+0 @S52@ SOUR
+1 TITL Sally Lynn Vanhoose Fischer Ohio birth and parent index cluster
+1 AUTH Ohio Department of Health; Ancestry.com
+1 NOTE Ohio birth-index entries identify Sally Lynn Vanhoose/Fischer and name Keith Douglas Vanhoose and Barbara Lynn Boltenhouse as parents. Living exact dates and addresses are omitted. Records: https://www.ancestry.com/search/collections/3146/records/7991760 ; https://www.ancestry.com/search/collections/3146/records/11694596 ; https://www.ancestry.com/search/collections/3146/records/26694596 ; https://www.ancestry.com/search/collections/3146/records/41694596
+0 @S53@ SOUR
+1 TITL Keith Douglas Vanhoose SSA and burial index cluster
+1 AUTH Social Security Administration; Find a Grave; Ancestry.com
+1 NOTE SSA application and burial indexes establish Keith's dates and name Douglas T. Vanhoose and Mildred Tackett as parents. Records: https://www.ancestry.com/search/collections/60901/records/39551452 ; https://www.ancestry.com/search/collections/60525/records/95267098
+0 @S54@ SOUR
+1 TITL 1950 United States census household of Charles, Alice, and Barbara Boltenhouse
+1 AUTH U.S. Census Bureau; National Archives and Records Administration; Ancestry.com
+1 DATE 1950
+1 NOTE Circleville, Pickaway County, Ohio household records Charles E. Boltenhouse, wife Alice M., and daughter Barbara. Records: https://www.ancestry.com/search/collections/62308/records/204443745 ; https://www.ancestry.com/search/collections/62308/records/204443746 ; https://www.ancestry.com/search/collections/62308/records/204443747
+1 OBJE
+2 FILE records/1950_charles-alice-barbara-boltenhouse_us-census.jpg
+3 FORM jpg
+3 TITL 1950 United States census household of Charles, Alice, and Barbara Boltenhouse
+0 @S55@ SOUR
+1 TITL Charles Emerald Boltenhouse Jr burial and obituary records
+1 AUTH Find a Grave; Wellman Funeral Home; Ancestry.com
+1 DATE 1 MAR 2026
+1 NOTE The obituary identifies parents Charles and Leona Tomlinson Boltenhouse, wife Alice Hickey, and daughter Barbara. Records: https://www.ancestry.com/search/collections/60525/records/297099223 ; https://www.ancestry.com/search/collections/2190/records/21600019 ; https://www.wellmanfuneralhomes.com/obituaries/charles-boltenhouse-jr
+0 @S56@ SOUR
+1 TITL Alice Marie Hickey Boltenhouse SSA and census record cluster
+1 AUTH Social Security Administration; U.S. Census Bureau; Ancestry.com
+1 NOTE SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain. Records: https://www.ancestry.com/search/collections/60901/records/41344689 ; https://www.ancestry.com/search/collections/2442/records/31756365 ; https://www.ancestry.com/search/collections/62308/records/204443746
+1 OBJE
+2 FILE records/1940_william-daisy-alice-hickey_us-census.jpg
+3 FORM jpg
+3 TITL Alice Marie Hickey Boltenhouse SSA and census record cluster
+0 @S57@ SOUR
+1 TITL William Andrew Hickey vital, draft, and census record cluster
+1 AUTH U.S. Census Bureau; Selective Service System; Ohio vital records; Ancestry.com
+1 NOTE The 1900 census identifies William as son of John and Mary; draft, death, burial, and SSA indexes corroborate identity. Records: https://www.ancestry.com/search/collections/7602/records/41345114 ; https://www.ancestry.com/search/collections/5763/records/408395 ; https://www.ancestry.com/search/collections/60525/records/103465820 ; https://www.ancestry.com/search/collections/6482/records/19464076 ; https://www.ancestry.com/search/collections/1002/records/6996448 ; https://www.ancestry.com/search/collections/60901/records/641344689
+1 OBJE
+2 FILE records/1900_john-mary-william-hickey_us-census.jpg
+3 FORM jpg
+3 TITL William Andrew Hickey vital, draft, and census record cluster
+0 @S58@ SOUR
+1 TITL Daisy Marie Imler Hickey census, SSA, and marriage record cluster
+1 AUTH U.S. Census Bureau; Social Security Administration; Ohio county records; Ancestry.com
+1 NOTE The 1900 census identifies William Imler and Annie as Daisy's parents; SSA and later census records link husband William Hickey and daughter Alice. Records: https://www.ancestry.com/search/collections/7602/records/41347856 ; https://www.ancestry.com/search/collections/2442/records/31756357 ; https://www.ancestry.com/search/collections/6061/records/27418446 ; https://www.ancestry.com/search/collections/60901/records/791344689 ; https://www.ancestry.com/search/collections/61378/records/1204214340
+1 OBJE
+2 FILE records/1900_william-annie-daisy-imler_us-census.jpg
+3 FORM jpg
+3 TITL Daisy Marie Imler Hickey census, SSA, and marriage record cluster
+0 @S59@ SOUR
+1 TITL William Imler and Annie Westbury census and marriage records
+1 AUTH U.S. Census Bureau; Pickaway County records; Ancestry.com
+1 NOTE The 4 Jul 1889 marriage record names Annie Westbury; the 1900 census records the couple with daughter Daisy. Records: https://www.ancestry.com/search/collections/61378/records/893547 ; https://www.ancestry.com/search/collections/7602/records/41347854 ; https://www.ancestry.com/search/collections/7602/records/41347855
+0 @S60@ SOUR
+1 TITL Westbury-Stonerock 1880 census and 1861 marriage records
+1 AUTH U.S. Census Bureau; Pickaway County records; Ancestry.com
+1 NOTE The 1880 census identifies Annie as daughter of Robert Westbury and Hester; the 17 Dec 1861 marriage record supplies Hester Stonerock. Records: https://www.ancestry.com/search/collections/6742/records/18379300 ; https://www.ancestry.com/search/collections/6742/records/24757281 ; https://www.ancestry.com/search/collections/6742/records/18379404 ; https://www.ancestry.com/search/collections/61378/records/416305
+1 OBJE
+2 FILE records/1880_robert-hester-annie-westbury_us-census.jpg
+3 FORM jpg
+3 TITL Westbury-Stonerock 1880 census and 1861 marriage records
+0 @S61@ SOUR
+1 TITL Douglas T. Vanhoose birth, census, military, and death record cluster
+1 AUTH Kentucky vital records; U.S. Census Bureau; U.S. Department of Veterans Affairs; Ancestry.com
+1 NOTE The Kentucky birth index, 1930 census, military index, and death index establish Douglas's identity and link him to Tallie. Records: https://www.ancestry.com/search/collections/8788/records/3688158 ; https://www.ancestry.com/search/collections/6224/records/81187869 ; https://www.ancestry.com/search/collections/2441/records/10171281 ; https://www.ancestry.com/search/collections/3077/records/2504865 ; https://www.ancestry.com/search/collections/60901/records/639551452
+1 OBJE
+2 FILE records/1930_tallie-douglas-vanhoose_us-census.jpg
+3 FORM jpg
+3 TITL Douglas T. Vanhoose birth, census, military, and death record cluster
+0 @S62@ SOUR
+1 TITL John B. and Tallie Vanhoose 1880 and 1920 census chain
+1 AUTH U.S. Census Bureau; Ancestry.com
+1 NOTE The 1880 census records John as son of Moses and Mahala; the 1920 census records John with wife Tallie. Records: https://www.ancestry.com/search/collections/6742/records/41518791 ; https://www.ancestry.com/search/collections/6061/records/59825157
+1 OBJE
+2 FILE records/1920_john-tallie-vanhoose_us-census.jpg
+3 FORM jpg
+3 TITL John B. and Tallie Vanhoose 1880 and 1920 census chain
+0 @S63@ SOUR
+1 TITL Moses Vanhoose and Mahala Dixon census and marriage records
+1 AUTH U.S. Census Bureau; Johnson County records; Ancestry.com
+1 NOTE The 1880 census records John as their son; the 22 Apr 1868 marriage record names Mahala Dixon. Records: https://www.ancestry.com/search/collections/6742/records/9277240 ; https://www.ancestry.com/search/collections/6742/records/10191909 ; https://www.ancestry.com/search/collections/61372/records/1506164
+1 OBJE
+2 FILE records/1880_moses-mahala-john-vanhoose_us-census.jpg
+3 FORM jpg
+3 TITL Moses Vanhoose and Mahala Dixon census and marriage records
+1 OBJE
+2 FILE records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg
+3 FORM jpg
+3 TITL Moses Vanhoose and Mahala Dixon census and marriage records
+0 @S64@ SOUR
+1 TITL Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster
+1 AUTH Kentucky vital records; U.S. Census Bureau; Johnson County records; Ancestry.com
+1 NOTE Tallie's death certificate names Ira Estep and Isora Morton. The 1880 census and 28 Aug 1868 marriage record identify the matching couple. Records: https://www.ancestry.com/search/collections/1222/records/2144978 ; https://www.ancestry.com/search/collections/7602/records/5598207 ; https://www.ancestry.com/search/collections/6742/records/17600141 ; https://www.ancestry.com/search/collections/6742/records/17600401 ; https://www.ancestry.com/search/collections/61372/records/1551052
+1 OBJE
+2 FILE records/1967-05-17_tallie-vanhoose_death-certificate.jpg
+3 FORM jpg
+3 TITL Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster
+0 @S65@ SOUR
+1 TITL Mildred I. Tackett Vanhoose obituary and 1930 census
+1 AUTH Circleville Herald; U.S. Census Bureau; Ancestry.com
+1 DATE 22 AUG 2015
+1 NOTE The obituary names parents Sidney Tackett and Ida Missouri and husband Douglas VanHoose; the 1930 census corroborates Sid, Ida, and Mildred. Records: https://www.ancestry.com/search/collections/7545/records/500515930 ; https://www.ancestry.com/search/collections/6224/records/81187850 ; http://www.circlevilleherald.com/obituaries/mildred-i-vanhoose/article_9d73b9f0-f575-5f2a-b23d-b65a593e7879.html
+1 OBJE
+2 FILE records/1930_sidney-ida-mildred-tackett_us-census.jpg
+3 FORM jpg
+3 TITL Mildred I. Tackett Vanhoose obituary and 1930 census
+0 @S66@ SOUR
+1 TITL Charles Emerald Boltenhouse Sr and Leona Tomlinson vital, census, draft, and marriage cluster
+1 AUTH U.S. Census Bureau; Selective Service System; Ohio vital and county records; Ancestry.com
+1 NOTE Draft, marriage, census, and death records establish the couple and their son Charles. Records: https://www.ancestry.com/search/collections/2238/records/199550522 ; https://www.ancestry.com/search/collections/61378/records/1050733026 ; https://www.ancestry.com/search/collections/6224/records/69946949 ; https://www.ancestry.com/search/collections/6224/records/69946957 ; https://www.ancestry.com/search/collections/5763/records/1910198
+0 @S67@ SOUR
+1 TITL Boltenhouse direct-line census and marriage record chain
+1 AUTH U.S. Census Bureau; Ross County records; Ancestry.com
+1 NOTE The 1910 census names Alonzo and Malinda as Charles's parents; their 1902 marriage supplies Speakman. The 1900 census names Augustus and Elizabeth as Alonzo's parents; their 1869 marriage supplies Cotter. Records: https://www.ancestry.com/search/collections/7884/records/142595859 ; https://www.ancestry.com/search/collections/7884/records/22453970 ; https://www.ancestry.com/search/collections/61378/records/266107 ; https://www.ancestry.com/search/collections/7602/records/51092013 ; https://www.ancestry.com/search/collections/7602/records/51092011 ; https://www.ancestry.com/search/collections/61378/records/1411597
+1 OBJE
+2 FILE records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg
+3 FORM jpg
+3 TITL Boltenhouse direct-line census and marriage record chain
+1 OBJE
+2 FILE records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg
+3 FORM jpg
+3 TITL Boltenhouse direct-line census and marriage record chain
+0 @S68@ SOUR
+1 TITL Tomlinson-Jackson direct-line census and parent-name record chain
+1 AUTH U.S. Census Bureau; Ohio county records; Ancestry.com
+1 NOTE The 1910 census records Leona as daughter of George P. and Linda. The 1900 census records George with wife Malinda and explicitly names his parents Alo and Rebecca; a later child marriage index supplies Linda Jackson. Records: https://www.ancestry.com/search/collections/7884/records/142595257 ; https://www.ancestry.com/search/collections/7602/records/51098669 ; https://www.ancestry.com/search/collections/61378/records/1350876129
+1 OBJE
+2 FILE records/1910_george-linda-leona-tomlinson_us-census.jpg
+3 FORM jpg
+3 TITL Tomlinson-Jackson direct-line census and parent-name record chain
+0 @I391@ INDI
+1 NAME Raymond Charles /Fischer/ Jr.
+1 SEX M
+1 BIRT
+2 DATE 22 NOV 1934
+2 PLAC Marlin, Falls County, Texas
+1 DEAT
+2 DATE 22 SEP 2022
+2 PLAC Belpre, Washington County, Ohio
+1 NOTE Owner-identified father of Wallace Ray Fischer. Ohio death, obituary, burial, census, and Texas marriage records form a consistent identity cluster.
+1 REFN FISCHER-PATERNAL-I391
+1 SOUR @S69@
+1 SOUR @S70@
+1 FAMC @F175@
+1 FAMS @F174@
+0 @I392@ INDI
+1 NAME Wanda June /Wallace/
+1 SEX F
+1 NOTE Owner supplied Wanda and then June as possible names. Texas marriage records identify one person as Wanda J. Wallace and Wanda June Wallace; the 2022 tribute addresses her as June. Living dates and addresses are withheld.
+1 REFN FISCHER-PATERNAL-I392
+1 SOUR @S69@
+1 SOUR @S70@
+1 SOUR @S74@
+1 FAMC @F180@
+1 FAMS @F174@
+0 @I393@ INDI
+1 NAME Raymond Charles /Fischer/ Sr.
+1 SEX M
+1 BIRT
+2 DATE 18 FEB 1915
+2 PLAC Marlin, Falls County, Texas
+1 DEAT
+2 DATE 20 MAY 1979
+2 PLAC Marlin, Falls County, Texas
+1 NOTE The 1940 census identifies him as Raymond Jr.'s father. Texas birth and death certificates name Daniel Fischer and Lena Wirtz/Wirtz variants as his parents.
+1 REFN FISCHER-PATERNAL-I393
+1 SOUR @S70@
+1 SOUR @S71@
+1 SOUR @S77@
+1 FAMC @F176@
+1 FAMS @F175@
+0 @I394@ INDI
+1 NAME Ruby Louise /Gilmore/
+1 SEX F
+1 BIRT
+2 DATE 10 DEC 1912
+2 PLAC Marlin, Falls County, Texas
+1 DEAT
+2 DATE 16 MAR 2000
+2 PLAC Marlin, Falls County, Texas
+1 NOTE The 1940 census identifies her as Raymond Jr.'s mother. The burial index supplies Gilmore; the 1920 census records Ruby as daughter of G. S. Gilmore and Ida.
+1 REFN FISCHER-PATERNAL-I394
+1 SOUR @S71@
+1 SOUR @S72@
+1 SOUR @S77@
+1 FAMC @F179@
+1 FAMS @F175@
+0 @I395@ INDI
+1 NAME Johann Daniel /Fischer/
+1 SEX M
+1 BIRT
+2 DATE 13 DEC 1863
+2 PLAC Grossaspach, Wurttemberg, Germany
+1 DEAT
+2 DATE 31 MAR 1925
+2 PLAC Marlin, Falls County, Texas
+1 NOTE German baptism and family-table records, U.S. censuses, and the memorial record identify the immigrant also recorded as Daniel P. or Dan Fischer.
+1 REFN FISCHER-PATERNAL-I395
+1 SOUR @S71@
+1 SOUR @S73@
+1 SOUR @S77@
+1 FAMC @F177@
+1 FAMS @F176@
+0 @I396@ INDI
+1 NAME Lena /Wirtz/
+1 SEX F
+1 BIRT
+2 DATE 30 NOV 1871
+2 PLAC New York, New York
+1 DEAT
+2 DATE 24 JAN 1974
+2 PLAC Marlin, Falls County, Texas
+1 NOTE Her Texas death certificate names Jacob Wirtz and Catherine Swan as parents. Record spellings include Wirtz, Wirz, and Wietz.
+1 REFN FISCHER-PATERNAL-I396
+1 SOUR @S71@
+1 SOUR @S73@
+1 SOUR @S77@
+1 FAMC @F178@
+1 FAMS @F176@
+0 @I397@ INDI
+1 NAME Johann Daniel /Fischer/
+1 SEX M
+1 NOTE Named as Johann Daniel Fischer's father in the Grossaspach baptism and family-table records; no further supported direct ancestry was located.
+1 REFN FISCHER-PATERNAL-I397
+1 SOUR @S73@
+1 FAMS @F177@
+0 @I398@ INDI
+1 NAME Elisabethe Margarethe /Unknown/
+1 SEX F
+1 NOTE Named as Johann Daniel Fischer's mother in German church records. Her birth surname is not established and is intentionally blank.
+1 REFN FISCHER-PATERNAL-I398
+1 SOUR @S73@
+1 FAMS @F177@
+0 @I399@ INDI
+1 NAME Jacob /Wirtz/
+1 SEX M
+1 NOTE Named as Lena Wirtz Fischer's father on her Texas death certificate; no reliable matching parent household was found.
+1 REFN FISCHER-PATERNAL-I399
+1 SOUR @S73@
+1 FAMS @F178@
+0 @I400@ INDI
+1 NAME Catherine /Swan/
+1 SEX F
+1 NOTE Named as Lena Wirtz Fischer's mother on her Texas death certificate; no reliable matching parent household was found.
+1 REFN FISCHER-PATERNAL-I400
+1 SOUR @S73@
+1 FAMS @F178@
+0 @I401@ INDI
+1 NAME George Samuel /Gilmore/
+1 SEX M
+1 BIRT
+2 DATE 22 JAN 1886
+2 PLAC Texas
+1 NOTE The 1920 census records G. S. Gilmore as Ruby's father; the World War I draft record supplies the name George Sam Gilmore and exact birth date.
+1 REFN FISCHER-PATERNAL-I401
+1 SOUR @S72@
+1 FAMS @F179@
+0 @I402@ INDI
+1 NAME Ida Susan /Burt/
+1 SEX F
+1 BIRT
+2 DATE ABT 1887
+2 PLAC Texas
+1 NOTE The 1920 census records Ida as Ruby's mother. SSA and Texas index records supply the fuller form Ida Susan Burt; no supported parents were located.
+1 REFN FISCHER-PATERNAL-I402
+1 SOUR @S72@
+1 FAMS @F179@
+0 @I403@ INDI
+1 NAME Chalmers Carl /Wallace/
+1 SEX M
+1 BIRT
+2 DATE 16 MAR 1915
+2 PLAC Rush Springs, Grady County, Oklahoma
+1 DEAT
+2 DATE 25 NOV 1962
+2 PLAC Lincoln Parish, Louisiana
+1 NOTE The 1940 census records him as Wanda's father; records and memorials also render his name Chambers Carl and Wally.
+1 REFN FISCHER-PATERNAL-I403
+1 SOUR @S74@
+1 SOUR @S75@
+1 SOUR @S78@
+1 FAMC @F181@
+1 FAMS @F180@
+0 @I404@ INDI
+1 NAME Dorothy Bess /Highley/
+1 SEX F
+1 BIRT
+2 DATE 21 OCT 1914
+2 PLAC Coffeyville, Montgomery County, Kansas
+1 DEAT
+2 DATE SEP 1995
+2 PLAC California
+1 NOTE The 1940 census records Dorothy as Wanda's mother. SSA gives 15 Sep 1995 while the California death index gives 30 Sep 1995; only the month is asserted pending resolution.
+1 REFN FISCHER-PATERNAL-I404
+1 SOUR @S74@
+1 SOUR @S76@
+1 FAMC @F186@
+1 FAMS @F180@
+0 @I405@ INDI
+1 NAME Walter Albert /Wallace/ Sr.
+1 SEX M
+1 BIRT
+2 DATE 3 DEC 1883
+2 PLAC Bryan County, Oklahoma
+1 DEAT
+2 DATE 8 DEC 1963
+2 PLAC Shreveport, Caddo Parish, Louisiana
+1 NOTE The 1920 census records Chalmers as his son. The memorial names Mary J. McGaha Wallace as his mother but no father.
+1 REFN FISCHER-PATERNAL-I405
+1 SOUR @S74@
+1 SOUR @S75@
+1 SOUR @S78@
+1 FAMC @F182@
+1 FAMS @F181@
+0 @I406@ INDI
+1 NAME Alice Mae /Williams/
+1 SEX F
+1 BIRT
+2 DATE 2 MAR 1892
+2 PLAC Missouri
+1 DEAT
+2 DATE 8 FEB 1987
+2 PLAC Shreveport, Caddo Parish, Louisiana
+1 NOTE The 1920 census records Chalmers as her son; the memorial index supplies Williams and names Robert B. Williams and Nancy Ellen Brannan as parents.
+1 REFN FISCHER-PATERNAL-I406
+1 SOUR @S74@
+1 SOUR @S75@
+1 SOUR @S78@
+1 FAMC @F183@
+1 FAMS @F181@
+0 @I407@ INDI
+1 NAME Mary J /McGaha/
+1 SEX F
+1 BIRT
+2 DATE 14 JUL 1855
+2 PLAC Arkansas
+1 DEAT
+2 DATE 13 JUL 1945
+2 PLAC Allen, Pontotoc County, Oklahoma
+1 NOTE The memorial index explicitly links Walter Albert Wallace as her child and supplies McGaha. Walter's father remains blank.
+1 REFN FISCHER-PATERNAL-I407
+1 SOUR @S75@
+1 FAMS @F182@
+0 @I408@ INDI
+1 NAME Robert B /Williams/
+1 SEX M
+1 BIRT
+2 DATE 1850
+1 DEAT
+2 DATE 1926
+1 NOTE The memorial index explicitly names him as Alice Mae Williams's father; no supported parents were located.
+1 REFN FISCHER-PATERNAL-I408
+1 SOUR @S75@
+1 SOUR @S79@
+1 FAMS @F183@
+0 @I409@ INDI
+1 NAME Nancy Ellen /Brannan/
+1 SEX F
+1 BIRT
+2 DATE 19 JUN 1858
+1 DEAT
+2 DATE 9 JUL 1912
+1 NOTE The memorial index explicitly names her as Alice Mae Williams's mother and names Elisha Branham and Clarissa McCoy as parents. Brannan and Branham are retained as recorded variants.
+1 REFN FISCHER-PATERNAL-I409
+1 SOUR @S75@
+1 SOUR @S79@
+1 FAMC @F184@
+1 FAMS @F183@
+0 @I410@ INDI
+1 NAME Elisha /Branham/
+1 SEX M
+1 BIRT
+2 DATE 1814
+2 PLAC Tennessee
+1 DEAT
+2 DATE 23 MAY 1873
+2 PLAC Monroe County, Indiana
+1 NOTE The memorial index explicitly names him as Nancy Ellen Brannan Williams's father; no further supported direct ancestry was located.
+1 REFN FISCHER-PATERNAL-I410
+1 SOUR @S75@
+1 SOUR @S79@
+1 FAMS @F184@
+0 @I411@ INDI
+1 NAME Clarissa /McCoy/
+1 SEX F
+1 BIRT
+2 DATE 10 OCT 1826
+2 PLAC Indiana
+1 DEAT
+2 DATE 27 FEB 1907
+2 PLAC Monroe County, Indiana
+1 NOTE The memorial index explicitly names her as Nancy Ellen Brannan Williams's mother and Daniel Franklin McCoy as her father. Later married-name forms are retained for identity control.
+1 REFN FISCHER-PATERNAL-I411
+1 SOUR @S75@
+1 SOUR @S79@
+1 FAMC @F185@
+1 FAMS @F184@
+0 @I412@ INDI
+1 NAME Daniel Franklin /McCoy/
+1 SEX M
+1 BIRT
+2 DATE 22 JAN 1792
+2 PLAC Jefferson County, Kentucky
+1 DEAT
+2 DATE 16 JUL 1882
+2 PLAC Hindustan, Monroe County, Indiana
+1 NOTE The memorial index explicitly names him as Clarissa McCoy's father. Clarissa's mother is not named in that link and remains blank.
+1 REFN FISCHER-PATERNAL-I412
+1 SOUR @S75@
+1 FAMS @F185@
+0 @I413@ INDI
+1 NAME Ambrose Long /Highley/
+1 SEX M
+1 BIRT
+2 DATE 24 JUN 1874
+2 PLAC Troy, Doniphan County, Kansas
+1 DEAT
+2 DATE 16 OCT 1931
+2 PLAC Webb City, Jasper County, Missouri
+1 NOTE Dorothy's SSA record names him; the 1880 census records Ambrose as son of William and Hannah Highley.
+1 REFN FISCHER-PATERNAL-I413
+1 SOUR @S74@
+1 SOUR @S76@
+1 SOUR @S79@
+1 FAMC @F187@
+1 FAMS @F186@
+0 @I414@ INDI
+1 NAME Mary Elizabeth /Herod/
+1 SEX F
+1 BIRT
+2 DATE 1878
+1 DEAT
+2 DATE 22 APR 1958
+2 PLAC Jasper County, Missouri
+1 NOTE Dorothy's SSA record names her; Missouri death and memorial records corroborate the identity. Her parents remain unproved.
+1 REFN FISCHER-PATERNAL-I414
+1 SOUR @S74@
+1 SOUR @S76@
+1 SOUR @S79@
+1 FAMS @F186@
+0 @I415@ INDI
+1 NAME William T /Highley/
+1 SEX M
+1 BIRT
+2 DATE 28 JUL 1834
+1 DEAT
+2 DATE 23 AUG 1918
+1 NOTE The 1880 census records him as Ambrose's father. The memorial names James and Mary Highley as parents; that earlier link is retained as lower-confidence memorial evidence.
+1 REFN FISCHER-PATERNAL-I415
+1 SOUR @S76@
+1 SOUR @S79@
+1 FAMC @F188@
+1 FAMS @F187@
+0 @I416@ INDI
+1 NAME Hannah T /Blair/
+1 SEX F
+1 BIRT
+2 DATE 22 MAR 1842
+2 PLAC Iowa
+1 DEAT
+2 DATE 9 FEB 1921
+2 PLAC East St Louis, St Clair County, Illinois
+1 NOTE The 1880 census records her as Ambrose's mother; the memorial supplies Blair. No supported parents were located.
+1 REFN FISCHER-PATERNAL-I416
+1 SOUR @S76@
+1 SOUR @S79@
+1 FAMS @F187@
+0 @I417@ INDI
+1 NAME James /Highley/
+1 SEX M
+1 NOTE Named as William T. Highley's father on the memorial; an 1850 household is consistent but does not state relationships. This is a lower-confidence stopping point.
+1 REFN FISCHER-PATERNAL-I417
+1 SOUR @S76@
+1 FAMS @F188@
+0 @I418@ INDI
+1 NAME Mary /Unknown/
+1 SEX F
+1 NOTE Named as William T. Highley's mother on the memorial; her birth surname is not established. This is a lower-confidence stopping point.
+1 REFN FISCHER-PATERNAL-I418
+1 SOUR @S76@
+1 FAMS @F188@
+0 @F174@ FAM
+1 HUSB @I391@
+1 WIFE @I392@
+1 CHIL @I357@
+1 MARR
+2 DATE 11 JUN 1957
+2 PLAC Taylor, Williamson County, Texas
+1 NOTE Owner identification is corroborated by the Texas marriage record, the 1940 census, and Raymond's 2022 obituary/tribute cluster.
+1 SOUR @S69@
+1 SOUR @S70@
+0 @F175@ FAM
+1 HUSB @I393@
+1 WIFE @I394@
+1 CHIL @I391@
+1 NOTE The 1940 census explicitly records Raymond Jr. as their son.
+1 SOUR @S70@
+1 SOUR @S71@
+0 @F176@ FAM
+1 HUSB @I395@
+1 WIFE @I396@
+1 CHIL @I393@
+1 MARR
+2 DATE 5 SEP 1888
+2 PLAC Falls County, Texas
+1 NOTE Texas birth/death certificates and the 1920 census name Daniel and Lena as Raymond Sr.'s parents.
+1 SOUR @S71@
+1 SOUR @S73@
+0 @F177@ FAM
+1 HUSB @I397@
+1 WIFE @I398@
+1 CHIL @I395@
+1 NOTE The Grossaspach baptism and family-table records name both parents.
+1 SOUR @S73@
+0 @F178@ FAM
+1 HUSB @I399@
+1 WIFE @I400@
+1 CHIL @I396@
+1 NOTE Lena's Texas death certificate names Jacob Wirtz and Catherine Swan.
+1 SOUR @S73@
+0 @F179@ FAM
+1 HUSB @I401@
+1 WIFE @I402@
+1 CHIL @I394@
+1 NOTE The 1920 census explicitly records Ruby as their daughter.
+1 SOUR @S72@
+0 @F180@ FAM
+1 HUSB @I403@
+1 WIFE @I404@
+1 CHIL @I392@
+1 MARR
+2 DATE 13 APR 1935
+2 PLAC Webb City, Jasper County, Missouri
+1 NOTE The 1940 census explicitly records Wanda as their daughter; the 1935 marriage record links Chalmers and Dorothy.
+1 SOUR @S74@
+0 @F181@ FAM
+1 HUSB @I405@
+1 WIFE @I406@
+1 CHIL @I403@
+1 NOTE The 1920 census explicitly records Chalmers as their son.
+1 SOUR @S74@
+1 SOUR @S75@
+0 @F182@ FAM
+1 WIFE @I407@
+1 CHIL @I405@
+1 NOTE The memorial index explicitly links Mary J. McGaha Wallace as Walter's mother. No father is inferred.
+1 SOUR @S75@
+0 @F183@ FAM
+1 HUSB @I408@
+1 WIFE @I409@
+1 CHIL @I406@
+1 NOTE Alice Mae Williams's memorial index explicitly names Robert and Nancy as parents.
+1 SOUR @S75@
+0 @F184@ FAM
+1 HUSB @I410@
+1 WIFE @I411@
+1 CHIL @I409@
+1 NOTE Nancy Ellen Brannan Williams's memorial index explicitly names Elisha and Clarissa as parents.
+1 SOUR @S75@
+0 @F185@ FAM
+1 HUSB @I412@
+1 CHIL @I411@
+1 NOTE Clarissa McCoy's memorial index explicitly names Daniel Franklin McCoy as father. Her mother remains blank.
+1 SOUR @S75@
+0 @F186@ FAM
+1 HUSB @I413@
+1 WIFE @I414@
+1 CHIL @I404@
+1 NOTE Dorothy's SSA record names Ambrose Long Highley and Mary Elizabeth Herod as parents.
+1 SOUR @S74@
+1 SOUR @S76@
+0 @F187@ FAM
+1 HUSB @I415@
+1 WIFE @I416@
+1 CHIL @I413@
+1 NOTE The 1880 census explicitly records Ambrose as their son.
+1 SOUR @S76@
+0 @F188@ FAM
+1 HUSB @I417@
+1 WIFE @I418@
+1 CHIL @I415@
+1 NOTE The parent names come from William's memorial and are treated as a lower-confidence stopping point; the 1850 household alone does not state relationships.
+1 SOUR @S76@
+0 @S69@ SOUR
+1 TITL Owner correction identifying Wallace Ray Fischer's parents
+1 AUTH Fredric Muller Vollmer
+1 DATE 2 SEP 2026
+1 NOTE The owner identifies Wallace Ray Fischer's parents as Raymond Fischer and Wanda Fischer, both associated with Texas; identifies the father as Raymond Charles Fischer Jr., who died 22 Sep 2022 at Belpre; and notes Wanda may also be called June. Record research resolves Wanda and June as Wanda June Wallace Fischer.
+0 @S70@ SOUR
+1 TITL Raymond Charles Fischer Jr and Wanda June Wallace record cluster
+1 AUTH Ohio and Texas vital/county records; U.S. Census Bureau; Find a Grave; Leavitt Funeral Home; Ancestry.com
+1 NOTE Raymond's 1934 birth, 22 Sep 2022 Belpre death, and 1940 parent household align. The official Texas marriage index records Raymond C. Fischer Jr. and Wanda J. Wallace on 11 Jun 1957; a newspaper marriage index expands her name to Wanda June Wallace. Records: https://www.ancestry.com/search/collections/60541/records/218066535 ; https://www.findagrave.com/memorial/243870577/raymond-charles-fischer ; https://www.ancestry.com/search/collections/5763/records/10265056 ; https://www.ancestry.com/search/collections/2190/records/317879477 ; https://www.leavittfuneralhome.com/obituaries/Raymond--Charles-Fischer-Jr?obId=25942554 ; https://www.ancestry.com/search/collections/2442/records/155875370 ; https://www.ancestry.com/search/collections/9168/records/25830055 ; https://www.ancestry.com/search/collections/62116/records/152414706 ; https://www.newspapers.com/image/761699744/?article=866f00a6-99e2-45c3-9ea5-fd632644db6c&xid=3398
+0 @S71@ SOUR
+1 TITL Raymond Charles Fischer Sr and Ruby Louise Gilmore record cluster
+1 AUTH Texas vital records; U.S. Census Bureau; Find a Grave; Ancestry.com
+1 NOTE The 1940 census records Raymond Jr. as son of Raymond and Ruby. Raymond Sr.'s Texas birth/death certificates name Daniel Fischer and Lena Wirtz; the memorial records Raymond's dates and Ruby Gilmore as spouse. Records: https://www.ancestry.com/search/collections/2442/records/155875370 ; https://www.ancestry.com/search/collections/2272/records/566313 ; https://www.ancestry.com/search/collections/2275/records/3848821 ; https://www.ancestry.com/search/collections/60525/records/42346703 ; https://www.findagrave.com/memorial/69481441/raymond-charles-fischer ; https://www.ancestry.com/search/collections/60525/records/42346721 ; https://www.findagrave.com/memorial/69481460/ruby-fischer
+0 @S72@ SOUR
+1 TITL Ruby Gilmore parent household and George Gilmore identity cluster
+1 AUTH U.S. Census Bureau; Selective Service System; Social Security Administration; Ancestry.com
+1 NOTE The 1920 census explicitly records Ruby as daughter of G. S. and Ida Gilmore. George's World War I draft record supplies George Sam Gilmore and 22 Jan 1886; SSA and Texas index links supply Ida Susan Burt. Records: https://www.ancestry.com/search/collections/6061/records/100221065 ; https://www.ancestry.com/search/collections/6061/records/100221063 ; https://www.ancestry.com/search/collections/6482/records/14839842 ; https://www.ancestry.com/search/collections/60901/records/626088911 ; https://www.ancestry.com/search/collections/4876/records/108265726
+0 @S73@ SOUR
+1 TITL Johann Daniel Fischer and Lena Wirtz direct-line record cluster
+1 AUTH Wurttemberg Evangelical Church; Texas vital records; U.S. Census Bureau; Find a Grave; Ancestry.com
+1 NOTE German baptism and family-table records name Johann Daniel Fischer and Elisabethe Margarethe as the immigrant Daniel's parents. U.S. censuses and Texas records link Daniel, Lena, and Raymond; Lena's death certificate names Jacob Wirtz and Catherine Swan. Records: https://www.ancestry.com/search/collections/61389/records/4210684 ; https://www.ancestry.com/search/collections/61023/records/7909461 ; https://www.ancestry.com/search/collections/7602/records/70597040 ; https://www.ancestry.com/search/collections/6061/records/100223419 ; https://www.ancestry.com/search/collections/60525/records/100697046 ; https://www.findagrave.com/memorial/19759283/johann-daniel-fischer ; https://www.ancestry.com/search/collections/2272/records/133381 ; https://www.findagrave.com/memorial/19759290/lena-fischer
+0 @S74@ SOUR
+1 TITL Wanda June Wallace parent and Highley identity cluster
+1 AUTH U.S. Census Bureau; Missouri county records; Social Security Administration; California vital records; Find a Grave; Ancestry.com
+1 NOTE The 1940 census records Wanda J. Wallace as daughter of Chalmers and Dorothy; the 1935 Missouri marriage record links Chalmers and Dorothy Bess Highley. Dorothy's SSA record names Ambrose Long Highley and Mary E. Herod. Her death-date sources conflict: SSA gives 15 Sep 1995 and California gives 30 Sep 1995. Records: https://www.ancestry.com/search/collections/2442/records/89045738 ; https://www.ancestry.com/search/collections/62308/records/76403615 ; https://www.ancestry.com/search/collections/1171/records/9664937 ; https://www.ancestry.com/search/collections/60525/records/150531434 ; https://www.findagrave.com/memorial/186519723/chambers-carl-wallace ; https://www.ancestry.com/search/collections/60901/records/24418580 ; https://www.ancestry.com/search/collections/5180/records/1076373
+0 @S75@ SOUR
+1 TITL Wallace, Williams, Branham, and McCoy direct-line memorial cluster
+1 AUTH U.S. Census Bureau; Find a Grave; Ancestry.com
+1 NOTE The 1920 census identifies Walter and Alice as Chalmers's parents. Find a Grave index links supply Mary McGaha as Walter's mother; Williams as Alice's maiden name; Robert Williams and Nancy Brannan as Alice's parents; Elisha Branham and Clarissa McCoy as Nancy's parents; and Daniel Franklin McCoy as Clarissa's father. These memorial-based extensions are retained with lower confidence where no civil parent record was located. Records: https://www.ancestry.com/search/collections/6061/records/62031695 ; https://www.ancestry.com/search/collections/60525/records/233666764 ; https://www.ancestry.com/search/collections/60525/records/233666929 ; https://www.ancestry.com/search/collections/60525/records/233646146 ; https://www.ancestry.com/search/collections/60525/records/87506166 ; https://www.ancestry.com/search/collections/60525/records/87506189 ; https://www.ancestry.com/search/collections/60525/records/98293838 ; https://www.ancestry.com/search/collections/60525/records/53527274 ; https://www.ancestry.com/search/collections/60525/records/53527788
+0 @S76@ SOUR
+1 TITL Highley direct-line census, vital, and memorial cluster
+1 AUTH U.S. Census Bureau; Missouri vital records; Find a Grave; Ancestry.com
+1 NOTE The 1880 census explicitly records Ambrose as son of William and Hannah Highley. Memorial and Missouri records identify Mary Elizabeth Herod and the Highley dates. William's memorial names James and Mary Highley; the compatible 1850 household does not state relationships, so the earlier parent link remains lower confidence. Records: https://www.ancestry.com/search/collections/6742/records/24830397 ; https://www.ancestry.com/search/collections/60382/records/723670 ; https://www.ancestry.com/search/collections/60525/records/86597625 ; https://www.findagrave.com/memorial/13974942/ambrose-long-highley ; https://www.ancestry.com/search/collections/60382/records/1700594 ; https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley ; https://www.ancestry.com/search/collections/60525/records/85153660 ; https://www.findagrave.com/memorial/13888778/william-t.-highley ; https://www.ancestry.com/search/collections/60525/records/85153662 ; https://www.findagrave.com/memorial/13888780/hannah-t-highley ; https://www.ancestry.com/search/collections/8054/records/3654061
+0 @S77@ SOUR
+1 TITL Fischer direct-line grave-marker photographs
+1 AUTH Find a Grave contributors couchpotato
+1 NOTE Full-resolution grave-marker photographs were saved from the exact Find a Grave memorials for Johann Daniel Fischer, Lena Wirtz Fischer, Raymond Charles Fischer Sr., and Ruby Louise Gilmore Fischer. The site labels every preserved image as Photo type: Grave. Memorials: https://www.findagrave.com/memorial/19759283/johann-daniel-fischer ; https://www.findagrave.com/memorial/19759290/lena-fischer ; https://www.findagrave.com/memorial/69481441/raymond-charles-fischer ; https://www.findagrave.com/memorial/69481460/ruby-fischer
+1 OBJE
+2 FILE records/1925-03-31_johann-daniel-fischer_grave-marker.jpg
+3 FORM jpg
+3 TITL Fischer direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg
+3 FORM jpg
+3 TITL Fischer direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg
+3 FORM jpg
+3 TITL Fischer direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg
+3 FORM jpg
+3 TITL Fischer direct-line grave-marker photographs
+1 OBJE
+2 FILE records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg
+3 FORM jpg
+3 TITL Fischer direct-line grave-marker photographs
+1 OBJE
+2 FILE records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg
+3 FORM jpg
+3 TITL Fischer direct-line grave-marker photographs
+0 @S78@ SOUR
+1 TITL Wallace direct-line grave-marker photographs
+1 AUTH Find a Grave contributors evansd and KD Burleson
+1 NOTE Full-resolution grave photographs were saved from the exact memorials for Chalmers Carl Wallace, Walter Albert Wallace Sr., and Alice Mae Williams Wallace. Find a Grave labels every preserved image as Photo type: Grave; obituary-clipping images were excluded from this grave set. Memorials: https://www.findagrave.com/memorial/186519723/chambers-carl-wallace ; https://www.findagrave.com/memorial/262761264/walter-albert-wallace ; https://www.findagrave.com/memorial/262761475/alice-mae-wallace
+1 OBJE
+2 FILE records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg
+3 FORM jpg
+3 TITL Wallace direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg
+3 FORM jpg
+3 TITL Wallace direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg
+3 FORM jpg
+3 TITL Wallace direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1963-12-08_walter-albert-wallace_grave-marker.jpeg
+3 FORM jpg
+3 TITL Wallace direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg
+3 FORM jpg
+3 TITL Wallace direct-line grave-marker photographs
+0 @S79@ SOUR
+1 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 AUTH Find a Grave contributors Judy K. Roberts, Kelly, OkieBran, Ellie Sparks, Colleen Sanders Broyles, Ben Fulton, and N.Miller
+1 NOTE Full-resolution grave photographs were saved from the exact memorials for Ambrose and Mary Highley, William and Hannah Highley, Robert and Nancy Williams, Elisha Branham, and Clarissa McCoy Branham. Find a Grave labels every preserved image as Photo type: Grave. Memorials: https://www.findagrave.com/memorial/13974942/ambrose-long-highley ; https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley ; https://www.findagrave.com/memorial/13888778/william-t.-highley ; https://www.findagrave.com/memorial/13888780/hannah-t-highley ; https://www.findagrave.com/memorial/21540402/robert-b.-williams ; https://www.findagrave.com/memorial/21540426/nancy-ellen-williams ; https://www.findagrave.com/memorial/33706860/elisha-branham ; https://www.findagrave.com/memorial/84921915/clarissa-branham_williams_mcbride
+1 OBJE
+2 FILE records/1931-10-16_ambrose-long-highley_grave-marker.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1918-08-23_william-t-highley_grave-marker.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1926_robert-b-williams_grave-marker.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1873-05-23_elisha-branham_grave-marker-1.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1873-05-23_elisha-branham_grave-marker-2.jpeg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1873-05-23_elisha-branham_grave-marker-3.jpg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
+1 OBJE
+2 FILE records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg
+3 FORM jpg
+3 TITL Highley, Williams, and Branham direct-line grave-marker photographs
 0 TRLR

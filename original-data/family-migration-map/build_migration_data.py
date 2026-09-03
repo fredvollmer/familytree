@@ -130,13 +130,18 @@ def main() -> None:
     canonical = json.loads(CANONICAL.read_text(encoding="utf-8"))
     geocodes = json.loads(GEOCODE_CACHE.read_text(encoding="utf-8")) if GEOCODE_CACHE.exists() else {}
 
-    # Removing Fredric's parent family cleanly separates the maternal and
-    # paternal kinship components while preserving spouses and collateral kin.
+    # Remove the two parent families and the Fredric/Arianna couple family so
+    # each named family line can be mapped without crossing through a spouse.
     graph: dict[str, set[str]] = defaultdict(set)
     for family in canonical["families"]:
         members = [value for value in [family.get("husband_id"), family.get("wife_id")] if value]
         members += [value for value in family.get("children_ids", "").split(";") if value]
-        if "I001" in members and "I002" in members and "I176" in members:
+        member_set = set(members)
+        if (
+            {"I001", "I002", "I176"}.issubset(member_set)
+            or {"I001", "I356"}.issubset(member_set)
+            or {"I356", "I357", "I358"}.issubset(member_set)
+        ):
             continue
         for left in members:
             for right in members:
@@ -154,22 +159,34 @@ def main() -> None:
                     queue.append(neighbor)
         return seen
 
-    maternal_people = component("I002")
-    paternal_people = component("I176")
+    line_components = {
+        "Muller": component("I002"),
+        "Vollmer": component("I176"),
+        "Fischer": component("I357"),
+        "VanHoose": component("I358"),
+    }
 
-    def side_for_person(person_id: str) -> str:
-        if person_id in maternal_people and person_id not in paternal_people:
-            return "Maternal"
-        if person_id in paternal_people and person_id not in maternal_people:
-            return "Paternal"
-        return "Other"
+    def line_for_person(person_id: str) -> str:
+        matches = [name for name, people in line_components.items() if person_id in people]
+        return matches[0] if len(matches) == 1 else "Other"
 
     places: dict[str, dict] = {}
     events: list[dict] = []
     person_events: dict[str, dict[str, dict]] = {}
     privacy_excluded_people = 0
+    scope_excluded_people = 0
 
     for person in canonical["people"]:
+        person_line = line_for_person(person["individual_id"])
+        if person_line == "Other":
+            # Root couples and unrelated supporting people remain in the tree,
+            # but are not assigned to a family line without a unique component.
+            scope_excluded_people += 1
+            continue
+        person_side = {
+            "Muller": "Maternal",
+            "Vollmer": "Paternal",
+        }.get(person_line, "Other")
         birth_year_min, birth_year_max, _ = parse_years(person.get("birth", ""))
         possibly_living = (
             not person.get("death")
@@ -212,7 +229,8 @@ def main() -> None:
                 "date_is_approximate": approximate_date,
                 "place_original": place,
                 "location_id": place_id,
-                "side": side_for_person(person["individual_id"]),
+                "side": person_side,
+                "line": person_line,
                 "branch": branch_from_notes(person.get("notes", "")),
                 "confidence": confidence_from_notes(person.get("notes", "")),
                 "source_refs": [s for s in person.get("source_refs", "").split(";") if s],
@@ -242,6 +260,7 @@ def main() -> None:
             "year_max": to_event["year_max"],
             "branch": to_event["branch"],
             "side": to_event["side"],
+            "line": to_event["line"],
             "confidence": to_event["confidence"],
             "interpretation": "inferred endpoint displacement; not a documented travel route",
         })
@@ -269,13 +288,14 @@ def main() -> None:
     dated_years = [event["year_min"] for event in events if event["year_min"] is not None]
     payload = {
         "metadata": {
-            "title": "Vollmer family migration data",
+            "title": "Four-family migration data",
             "generated": date.today().isoformat(),
             "canonical_source": str(CANONICAL.relative_to(HERE.parent.parent)),
             "canonical_updated": canonical.get("metadata", {}).get("updated"),
             "privacy": canonical.get("metadata", {}).get("privacy"),
-            "scope_note": "Derived from recorded birth and death places. People explicitly marked living or potentially living under a 100-year rule are excluded.",
+            "scope_note": "Derived from recorded birth and death places in the Muller, Vollmer, Fischer, and VanHoose family components. Root couples and unrelated supporting people remain in the canonical tree but are not assigned to a map line. People explicitly marked living or potentially living under a 100-year rule are also excluded.",
             "privacy_excluded_people": privacy_excluded_people,
+            "scope_excluded_people": scope_excluded_people,
             "movement_note": "Routes connect recorded endpoints and are analytical inferences, not documented travel paths.",
             "year_extent": [min(dated_years), max(dated_years)] if dated_years else [None, None],
             "counts": {
@@ -316,8 +336,8 @@ def main() -> None:
     (HERE / "migration-events.geojson").write_text(json.dumps(geojson, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     branch_counts = Counter(event["branch"] for event in events if event["year_min"] is not None)
-    side_counts = Counter(event["side"] for event in events if event["year_min"] is not None)
-    print(json.dumps({"counts": payload["metadata"]["counts"], "sides": side_counts, "branches": branch_counts}, indent=2))
+    line_counts = Counter(event["line"] for event in events if event["year_min"] is not None)
+    print(json.dumps({"counts": payload["metadata"]["counts"], "lines": line_counts, "branches": branch_counts}, indent=2))
 
 
 if __name__ == "__main__":

@@ -19,7 +19,7 @@ This directory contains a derived, privacy-aware migration view of the canonical
 
 - `metadata`: source, privacy rule, date extent, interpretation warnings, and counts.
 - `locations`: stable location ID, original canonical wording, normalized geocode query, coordinates, precision, status, and gazetteer provenance.
-- `events`: stable event ID, canonical person ID and name, birth/death type, original date/place text, parsed year range, maternal/paternal side, branch, confidence, and canonical source references.
+- `events`: stable event ID, canonical person ID and name, birth/death type, original date/place text, parsed year range, Muller/Vollmer/Fischer/VanHoose line, legacy side, branch, confidence, and canonical source references.
 - `movements`: endpoint connections for either `intergenerational` birth-place shifts or `lifetime` birth-to-death displacement. These are analytical inferences, not documented travel routes.
 
 The GeoJSON contains the same resolved event points and their event properties. Ambiguous/unresolved labels remain in `migration-data.json` rather than being assigned guessed coordinates.
@@ -28,7 +28,7 @@ The GeoJSON contains the same resolved event points and their event properties. 
 
 - People explicitly marked living, or potentially living because they have no death record and a birth within the last 100 years, are excluded. The current build excludes nine people.
 - Living dates omitted by the canonical tree are not reconstructed.
-- The current data contains 236 place-bearing events, including 222 dated events. Fourteen undated events remain available in the JSON but are not placed on the timeline.
+- Root couples and unrelated supporting people are excluded when they cannot be assigned uniquely to one of the four named family-line components.
 - `Kentucky or Virginia` and `exact death unproved` remain unresolved and unplotted.
 - Route lines connect recorded endpoints; they do not assert a path, travel date, residence sequence, or causation.
 
@@ -36,7 +36,7 @@ The GeoJSON contains the same resolved event points and their event properties. 
 
 The map file is an HTML fragment rather than a full document. It can be inserted into an existing application surface. It currently loads pinned D3 and TopoJSON client builds from jsDelivr and includes the family data and boundary geometry inline, so it does not fetch family information at runtime.
 
-For a production web app, use `migration-data.json` as the source of truth for the feature and keep `family-migration-map.html` as the reference implementation. The UI supports timeline playback, maternal/paternal filtering, intergenerational versus lifetime endpoint views, pointer details, and keyboard-focusable location links.
+For a production web app, use `migration-data.json` as the source of truth for the feature and keep `family-migration-map.html` as the reference implementation. The primary app supports Muller, Vollmer, Fischer, and VanHoose multi-selection, timeline playback, regional filtering, intergenerational versus lifetime endpoint views, pointer details, and keyboard-focusable location links.
 
 ## Coordinate provenance
 

@@ -1,5 +1,5 @@
 individual_id,name,occupations_and_roles,event_count,status,categories,source_refs,research_ids,coverage_note
-I001,Fredric Muller Vollmer,,0,withheld—living/private,,S1,,No living person's occupation was researched or exposed.
+I001,Fredric Muller Vollmer,,0,withheld—living/private,,S1;S49,,No living person's occupation was researched or exposed.
 I002,Jan Muller Vollmer,,0,withheld—living/private,,S1;S2;S27;S28,,No living person's occupation was researched or exposed.
 I003,Arthur John Muller,"U.S. Army soldier (FROM 1943 TO 1945; Company B, 134th Infantry, 35th Division)",1,recorded,military role,S2;S5;S27;S48,OCC-011,One or more cited occupations or roles are present in the GEDCOM.
 I004,Anne Rives McCormick Muller,,0,unresolved—no supported occupation found,,S1;S8;S27,,"No occupation is inferred from name, sex, residence, spouse, or family role."
@@ -327,3 +327,66 @@ I352,Bengta Pehrsdotter,,0,unresolved—no supported occupation found,,S44,,"No 
 I353,Hans Månsson,,0,unresolved—no supported occupation found,,S45,,"No occupation is inferred from name, sex, residence, spouse, or family role."
 I354,Maria Hansdotter,,0,unresolved—no supported occupation found,,S45,,"No occupation is inferred from name, sex, residence, spouse, or family role."
 I355,Peter Vollmer,,0,not established—minor,,S47;S46,,No occupation is assigned; this person died before adulthood.
+I356,Arianna Lynn Fischer,,0,withheld—living/private,,S49;S50,,No living person's occupation was researched or exposed.
+I357,Wallace Ray Fischer,,0,withheld—living/private,,S49;S50;S51;S69;S70,,No living person's occupation was researched or exposed.
+I358,Sally Lynn Vanhoose Fischer,,0,withheld—living/private,,S49;S50;S52,,No living person's occupation was researched or exposed.
+I359,Keith Douglas Vanhoose,,0,unresolved—no supported occupation found,,S52;S53,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I360,Barbara Lynn Boltenhouse,,0,withheld—living/private,,S52;S54,,No living person's occupation was researched or exposed.
+I361,Douglas T Vanhoose,,0,unresolved—no supported occupation found,,S53;S61,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I362,Mildred I Tackett Vanhoose,,0,unresolved—no supported occupation found,,S53;S65,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I363,Charles Emerald Boltenhouse Jr,,0,unresolved—no supported occupation found,,S54;S55,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I364,Alice Marie Hickey Boltenhouse,,0,unresolved—no supported occupation found,,S54;S56,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I365,John B Vanhoose,,0,unresolved—no supported occupation found,,S62,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I366,Talliehassie Tallie Estep Vanhoose,,0,unresolved—no supported occupation found,,S61;S62;S64,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I367,Sidney Tackett,,0,unresolved—no supported occupation found,,S65,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I368,Ida Missouri,,0,unresolved—no supported occupation found,,S65,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I369,Moses Vanhoose,,0,unresolved—no supported occupation found,,S63,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I370,Mahala Dixon Vanhoose,,0,unresolved—no supported occupation found,,S63,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I371,Ira W Estep,,0,unresolved—no supported occupation found,,S64,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I372,Isora Morton Estep,,0,unresolved—no supported occupation found,,S64,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I373,Charles Emerald Boltenhouse Sr,,0,unresolved—no supported occupation found,,S55;S66;S67,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I374,Leona Florence Tomlinson Boltenhouse,,0,unresolved—no supported occupation found,,S66;S68,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I375,Alonzo Boltenhouse,,0,unresolved—no supported occupation found,,S67,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I376,Malinda E Speakman Boltenhouse,,0,unresolved—no supported occupation found,,S67,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I377,George P Tomlinson,,0,unresolved—no supported occupation found,,S68,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I378,Malinda Linda Jackson Tomlinson,,0,unresolved—no supported occupation found,,S68,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I379,Augustus Boltenhouse,,0,unresolved—no supported occupation found,,S67,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I380,Elizabeth Cotter Boltenhouse,,0,unresolved—no supported occupation found,,S67,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I381,Alo Tomlinson,,0,unresolved—no supported occupation found,,S68,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I382,Rebecca Tomlinson,,0,unresolved—no supported occupation found,,S68,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I383,William Andrew Hickey,,0,unresolved—no supported occupation found,,S56;S57,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I384,Daisy Marie Imler Hickey,,0,unresolved—no supported occupation found,,S56;S58,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I385,John Hickey,,0,unresolved—no supported occupation found,,S57,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I386,Mary Hickey,,0,unresolved—no supported occupation found,,S57,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I387,William Imler,,0,unresolved—no supported occupation found,,S58;S59,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I388,Annie Westbury Imler,,0,unresolved—no supported occupation found,,S59;S60,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I389,Robert Westbury,,0,unresolved—no supported occupation found,,S60,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I390,Hester Stonerock Westbury,,0,unresolved—no supported occupation found,,S60,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I391,Raymond Charles Fischer Jr,,0,unresolved—no supported occupation found,,S69;S70,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I392,Wanda June Wallace Fischer,,0,withheld—living/private,,S69;S70;S74,,No living person's occupation was researched or exposed.
+I393,Raymond Charles Fischer Sr,,0,unresolved—no supported occupation found,,S70;S71;S77,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I394,Ruby Louise Gilmore Fischer,,0,unresolved—no supported occupation found,,S71;S72;S77,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I395,Johann Daniel Fischer,,0,unresolved—no supported occupation found,,S71;S73;S77,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I396,Lena Wirtz Fischer,,0,unresolved—no supported occupation found,,S71;S73;S77,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I397,Johann Daniel Fischer,,0,unresolved—no supported occupation found,,S73,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I398,Elisabethe Margarethe Fischer,,0,unresolved—no supported occupation found,,S73,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I399,Jacob Wirtz,,0,unresolved—no supported occupation found,,S73,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I400,Catherine Swan Wirtz,,0,unresolved—no supported occupation found,,S73,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I401,George Samuel Gilmore,,0,unresolved—no supported occupation found,,S72,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I402,Ida Susan Burt Gilmore,,0,unresolved—no supported occupation found,,S72,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I403,Chalmers Carl Wallace,,0,unresolved—no supported occupation found,,S74;S75;S78,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I404,Dorothy Bess Highley Wallace,,0,unresolved—no supported occupation found,,S74;S76,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I405,Walter Albert Wallace Sr,,0,unresolved—no supported occupation found,,S74;S75;S78,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I406,Alice Mae Williams Wallace,,0,unresolved—no supported occupation found,,S74;S75;S78,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I407,Mary J McGaha Wallace,,0,unresolved—no supported occupation found,,S75,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I408,Robert B Williams,,0,unresolved—no supported occupation found,,S75;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I409,Nancy Ellen Brannan Williams,,0,unresolved—no supported occupation found,,S75;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I410,Elisha Branham,,0,unresolved—no supported occupation found,,S75;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I411,Clarissa McCoy Branham Williams McBride,,0,unresolved—no supported occupation found,,S75;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I412,Daniel Franklin McCoy,,0,unresolved—no supported occupation found,,S75,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I413,Ambrose Long Highley,,0,unresolved—no supported occupation found,,S74;S76;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I414,Mary Elizabeth Herod Highley,,0,unresolved—no supported occupation found,,S74;S76;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I415,William T Highley,,0,unresolved—no supported occupation found,,S76;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I416,Hannah T Blair Highley,,0,unresolved—no supported occupation found,,S76;S79,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I417,James Highley,,0,unresolved—no supported occupation found,,S76,,No supported occupation or role was found in the records reviewed for this direct-line expansion.
+I418,Mary Highley,,0,unresolved—no supported occupation found,,S76,,No supported occupation or role was found in the records reviewed for this direct-line expansion.

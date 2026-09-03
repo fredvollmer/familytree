@@ -25,12 +25,14 @@ def main() -> None:
 
     for event in events.values():
         assert event["location_id"] in locations
-        assert event["side"] in {"Maternal", "Paternal"}
+        assert event["side"] in {"Maternal", "Paternal", "Other"}
+        assert event["line"] in {"Muller", "Vollmer", "Fischer", "VanHoose"}
     for movement in data["movements"]:
         assert movement["from_event_id"] in events
         assert movement["to_event_id"] in events
         assert locations[movement["from_location_id"]]["latitude"] is not None
         assert locations[movement["to_location_id"]]["latitude"] is not None
+        assert movement["line"] in {"Muller", "Vollmer", "Fischer", "VanHoose"}
 
     resolved_event_count = sum(locations[event["location_id"]]["latitude"] is not None for event in events.values())
     assert len(geojson["features"]) == resolved_event_count

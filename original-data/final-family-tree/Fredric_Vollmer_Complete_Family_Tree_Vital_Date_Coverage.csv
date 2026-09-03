@@ -1,5 +1,5 @@
 individual_id,name,birth,birth_status,death,death_status,overall_status,source_refs
-I001,Fredric Muller Vollmer,,withheld—living/private,,withheld—living/private,withheld—living/private,S1
+I001,Fredric Muller Vollmer,,withheld—living/private,,withheld—living/private,withheld—living/private,S1;S49
 I002,Jan Muller Vollmer,,withheld—living/private,,withheld—living/private,withheld—living/private,S1;S2;S27;S28
 I003,Arthur John Muller,"12 MAY 1925; Detroit, Michigan",recorded,"9 JAN 2005; Bellingham, Washington",recorded,complete,S2;S5;S27;S48
 I004,Anne Rives McCormick Muller,30 MAY 1927,recorded,2016,recorded,complete,S1;S8;S27
@@ -327,3 +327,66 @@ I352,Bengta Pehrsdotter,,unresolved—no supported date found,,unresolved—no s
 I353,Hans Månsson,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S45
 I354,Maria Hansdotter,,unresolved—no supported date found,,unresolved—no supported date found,unresolved,S45
 I355,Peter Vollmer,"29 JUN 1959; Seattle, King, Washington",recorded,"5 AUG 1975; Vancouver, Clark, Washington",recorded,complete,S47;S46
+I356,Arianna Lynn Fischer,1990,recorded,,unresolved,partial,S49;S50
+I357,Wallace Ray Fischer,,withheld—living/private,,withheld—living/private,withheld—living/private,S49;S50;S51;S69;S70
+I358,Sally Lynn Vanhoose Fischer,,withheld—living/private,,withheld—living/private,withheld—living/private,S49;S50;S52
+I359,Keith Douglas Vanhoose,"5 DEC 1944; Ashland, Kentucky",recorded,8 APR 2004,recorded,complete,S52;S53
+I360,Barbara Lynn Boltenhouse,,withheld—living/private,,withheld—living/private,withheld—living/private,S52;S54
+I361,Douglas T Vanhoose,"1 APR 1921; Lawrence County, Kentucky",recorded,"5 FEB 1983; Pulaski County, Kentucky",recorded,complete,S53;S61
+I362,Mildred I Tackett Vanhoose,"6 NOV 1924; Esco, Pike County, Kentucky",recorded,"22 AUG 2015; Bexley, Franklin County, Ohio",recorded,complete,S53;S65
+I363,Charles Emerald Boltenhouse Jr,"19 DEC 1926; Circleville, Pickaway County, Ohio",recorded,"1 MAR 2026; Circleville, Pickaway County, Ohio",recorded,complete,S54;S55
+I364,Alice Marie Hickey Boltenhouse,"30 AUG 1929; Circleville, Pickaway County, Ohio",recorded,25 JUL 2003,recorded,complete,S54;S56
+I365,John B Vanhoose,ABT 1877; West Virginia,recorded,,unresolved,partial,S62
+I366,Talliehassie Tallie Estep Vanhoose,"22 NOV 1881; Johnson County, Kentucky",recorded,"17 MAY 1967; Ashland, Boyd County, Kentucky",recorded,complete,S61;S62;S64
+I367,Sidney Tackett,ABT 1894; Kentucky,recorded,,unresolved,partial,S65
+I368,Ida Missouri,ABT 1898; North Carolina,recorded,,unresolved,partial,S65
+I369,Moses Vanhoose,ABT 1837; Kentucky,recorded,,unresolved,partial,S63
+I370,Mahala Dixon Vanhoose,ABT 1848; Kentucky,recorded,,unresolved,partial,S63
+I371,Ira W Estep,ABT 1848; Kentucky,recorded,,unresolved,partial,S64
+I372,Isora Morton Estep,ABT 1849; Kentucky,recorded,,unresolved,partial,S64
+I373,Charles Emerald Boltenhouse Sr,"27 MAY 1907; Ross County, Ohio",recorded,"29 MAR 1979; Circleville, Pickaway County, Ohio",recorded,complete,S55;S66;S67
+I374,Leona Florence Tomlinson Boltenhouse,"29 JUL 1907; Franklin, Warren County, Ohio",recorded,"16 FEB 1994; Kingston, Ross County, Ohio",recorded,complete,S66;S68
+I375,Alonzo Boltenhouse,JUN 1884; Ohio,recorded,,unresolved,partial,S67
+I376,Malinda E Speakman Boltenhouse,ABT 1885; Ohio,recorded,,unresolved,partial,S67
+I377,George P Tomlinson,APR 1875; Ohio,recorded,,unresolved,partial,S68
+I378,Malinda Linda Jackson Tomlinson,ABT 1878; Ohio,recorded,,unresolved,partial,S68
+I379,Augustus Boltenhouse,JUL 1839; Ohio,recorded,,unresolved,partial,S67
+I380,Elizabeth Cotter Boltenhouse,ABT 1842; Ohio,recorded,,unresolved,partial,S67
+I381,Alo Tomlinson,ABT 1836; Ohio,recorded,,unresolved,partial,S68
+I382,Rebecca Tomlinson,ABT 1846; Ohio,recorded,,unresolved,partial,S68
+I383,William Andrew Hickey,"13 JUN 1888; Circleville, Pickaway County, Ohio",recorded,"6 APR 1971; Circleville, Pickaway County, Ohio",recorded,complete,S56;S57
+I384,Daisy Marie Imler Hickey,"3 APR 1890; Pickaway County, Ohio",recorded,"20 APR 1942; Circleville, Pickaway County, Ohio",recorded,complete,S56;S58
+I385,John Hickey,JUN 1849; Ohio,recorded,,unresolved,partial,S57
+I386,Mary Hickey,MAR 1859; Ohio,recorded,,unresolved,partial,S57
+I387,William Imler,APR 1860; Ohio,recorded,,unresolved,partial,S58;S59
+I388,Annie Westbury Imler,FEB 1871; Ohio,recorded,,unresolved,partial,S59;S60
+I389,Robert Westbury,ABT 1832; England,recorded,,unresolved,partial,S60
+I390,Hester Stonerock Westbury,ABT 1842; Ohio,recorded,,unresolved,partial,S60
+I391,Raymond Charles Fischer Jr,"22 NOV 1934; Marlin, Falls County, Texas",recorded,"22 SEP 2022; Belpre, Washington County, Ohio",recorded,complete,S69;S70
+I392,Wanda June Wallace Fischer,,withheld—living/private,,withheld—living/private,withheld—living/private,S69;S70;S74
+I393,Raymond Charles Fischer Sr,"18 FEB 1915; Marlin, Falls County, Texas",recorded,"20 MAY 1979; Marlin, Falls County, Texas",recorded,complete,S70;S71;S77
+I394,Ruby Louise Gilmore Fischer,"10 DEC 1912; Marlin, Falls County, Texas",recorded,"16 MAR 2000; Marlin, Falls County, Texas",recorded,complete,S71;S72;S77
+I395,Johann Daniel Fischer,"13 DEC 1863; Grossaspach, Wurttemberg, Germany",recorded,"31 MAR 1925; Marlin, Falls County, Texas",recorded,complete,S71;S73;S77
+I396,Lena Wirtz Fischer,"30 NOV 1871; New York, New York",recorded,"24 JAN 1974; Marlin, Falls County, Texas",recorded,complete,S71;S73;S77
+I397,Johann Daniel Fischer,,unresolved,,unresolved,unresolved,S73
+I398,Elisabethe Margarethe Fischer,,unresolved,,unresolved,unresolved,S73
+I399,Jacob Wirtz,,unresolved,,unresolved,unresolved,S73
+I400,Catherine Swan Wirtz,,unresolved,,unresolved,unresolved,S73
+I401,George Samuel Gilmore,22 JAN 1886; Texas,recorded,,unresolved,partial,S72
+I402,Ida Susan Burt Gilmore,ABT 1887; Texas,recorded,,unresolved,partial,S72
+I403,Chalmers Carl Wallace,"16 MAR 1915; Rush Springs, Grady County, Oklahoma",recorded,"25 NOV 1962; Lincoln Parish, Louisiana",recorded,complete,S74;S75;S78
+I404,Dorothy Bess Highley Wallace,"21 OCT 1914; Coffeyville, Montgomery County, Kansas",recorded,SEP 1995; California,recorded,complete,S74;S76
+I405,Walter Albert Wallace Sr,"3 DEC 1883; Bryan County, Oklahoma",recorded,"8 DEC 1963; Shreveport, Caddo Parish, Louisiana",recorded,complete,S74;S75;S78
+I406,Alice Mae Williams Wallace,2 MAR 1892; Missouri,recorded,"8 FEB 1987; Shreveport, Caddo Parish, Louisiana",recorded,complete,S74;S75;S78
+I407,Mary J McGaha Wallace,14 JUL 1855; Arkansas,recorded,"13 JUL 1945; Allen, Pontotoc County, Oklahoma",recorded,complete,S75
+I408,Robert B Williams,1850,recorded,1926,recorded,complete,S75;S79
+I409,Nancy Ellen Brannan Williams,19 JUN 1858,recorded,9 JUL 1912,recorded,complete,S75;S79
+I410,Elisha Branham,1814; Tennessee,recorded,"23 MAY 1873; Monroe County, Indiana",recorded,complete,S75;S79
+I411,Clarissa McCoy Branham Williams McBride,10 OCT 1826; Indiana,recorded,"27 FEB 1907; Monroe County, Indiana",recorded,complete,S75;S79
+I412,Daniel Franklin McCoy,"22 JAN 1792; Jefferson County, Kentucky",recorded,"16 JUL 1882; Hindustan, Monroe County, Indiana",recorded,complete,S75
+I413,Ambrose Long Highley,"24 JUN 1874; Troy, Doniphan County, Kansas",recorded,"16 OCT 1931; Webb City, Jasper County, Missouri",recorded,complete,S74;S76;S79
+I414,Mary Elizabeth Herod Highley,1878,recorded,"22 APR 1958; Jasper County, Missouri",recorded,complete,S74;S76;S79
+I415,William T Highley,28 JUL 1834,recorded,23 AUG 1918,recorded,complete,S76;S79
+I416,Hannah T Blair Highley,22 MAR 1842; Iowa,recorded,"9 FEB 1921; East St Louis, St Clair County, Illinois",recorded,complete,S76;S79
+I417,James Highley,,unresolved,,unresolved,unresolved,S76
+I418,Mary Highley,,unresolved,,unresolved,unresolved,S76

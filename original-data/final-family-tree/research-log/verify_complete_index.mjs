@@ -34,19 +34,19 @@ for (const sheet of workbook.worksheets.items) {
 const overview = workbook.worksheets.getItem('Consolidated Overview');
 const overviewValues = overview.getRange('A1:F28').values;
 const expected = {
-  individuals: 328,
-  families: 155,
-  sources: 48,
-  inventory: 91,
-  births: 203,
-  deaths: 189,
-  complete: 156,
-  noDateOutcomes: 92,
+  individuals: 391,
+  families: 188,
+  sources: 79,
+  inventory: 157,
+  births: 256,
+  deaths: 218,
+  complete: 185,
+  noDateOutcomes: 102,
   occupationPeople: 17,
   occupationEvents: 23,
-  photoAuditedPeople: 328,
+  photoAuditedPeople: 391,
   externalPhotoPages: 2,
-  evidenceFiles: 43,
+  evidenceFiles: 78,
 };
 const actual = {
   individuals: overviewValues[4][1],
@@ -101,6 +101,25 @@ const peterFamilyRow = families.find(
   (row) =>
     row[1] === 'I176' && !row[2] && String(row[3]).split(';').includes('I355'),
 );
+const ariannaRow = people.find((row) => row[0] === 'I356');
+const spouseRow = families.find(
+  (row) => row[1] === 'I001' && row[2] === 'I356',
+);
+const ariannaParentsRow = families.find(
+  (row) =>
+    row[1] === 'I357' &&
+    row[2] === 'I358' &&
+    String(row[3]).split(';').includes('I356'),
+);
+const wallaceRow = people.find((row) => row[0] === 'I357');
+const raymondJrRow = people.find((row) => row[0] === 'I391');
+const wandaRow = people.find((row) => row[0] === 'I392');
+const wallaceParentsRow = families.find(
+  (row) =>
+    row[1] === 'I391' &&
+    row[2] === 'I392' &&
+    String(row[3]).split(';').includes('I357'),
+);
 if (!chrisRow || !String(chrisRow[8]).includes('paternal half-brother')) {
   errors.push(
     'Chris person row does not record the owner-confirmed paternal half-brother relationship',
@@ -139,6 +158,30 @@ if (!peterRow || peterRow[1] !== 'Peter Vollmer' || !peterFamilyRow) {
     'Peter Vollmer or the obituary-supported Henry father link is missing',
   );
 }
+if (
+  !ariannaRow ||
+  ariannaRow[1] !== 'Arianna Lynn Fischer' ||
+  ariannaRow[3] !== '1990' ||
+  !spouseRow ||
+  !ariannaParentsRow
+) {
+  errors.push(
+    'Arianna Fischer, spouse link, parent link, or owner-supplied birth year is missing',
+  );
+}
+if (
+  !wallaceRow ||
+  wallaceRow[9] !== 'F174' ||
+  !raymondJrRow ||
+  raymondJrRow[1] !== 'Raymond Charles Fischer Jr' ||
+  !wandaRow ||
+  wandaRow[1] !== 'Wanda June Wallace Fischer' ||
+  !wallaceParentsRow
+) {
+  errors.push(
+    'Wallace Ray Fischer parentage, Raymond Charles Fischer Jr, or Wanda June Wallace Fischer is missing',
+  );
+}
 if (sheets.length !== 15)
   errors.push(`Workbook sheets: expected 15, got ${sheets.length}`);
 const coverageSheet = sheets.find(
@@ -146,11 +189,11 @@ const coverageSheet = sheets.find(
 );
 if (
   !coverageSheet ||
-  coverageSheet.rows !== 329 ||
+  coverageSheet.rows !== 392 ||
   coverageSheet.columns !== 8
 ) {
   errors.push(
-    `Vital Date Coverage dimensions: expected 329x8, got ${coverageSheet?.rows ?? 'missing'}x${coverageSheet?.columns ?? 'missing'}`,
+    `Vital Date Coverage dimensions: expected 392x8, got ${coverageSheet?.rows ?? 'missing'}x${coverageSheet?.columns ?? 'missing'}`,
   );
 }
 const occupationCoverageSheet = sheets.find(
@@ -158,11 +201,11 @@ const occupationCoverageSheet = sheets.find(
 );
 if (
   !occupationCoverageSheet ||
-  occupationCoverageSheet.rows !== 329 ||
+  occupationCoverageSheet.rows !== 392 ||
   occupationCoverageSheet.columns !== 9
 ) {
   errors.push(
-    `Occupation Coverage dimensions: expected 329x9, got ${occupationCoverageSheet?.rows ?? 'missing'}x${occupationCoverageSheet?.columns ?? 'missing'}`,
+    `Occupation Coverage dimensions: expected 392x9, got ${occupationCoverageSheet?.rows ?? 'missing'}x${occupationCoverageSheet?.columns ?? 'missing'}`,
   );
 }
 const peopleSheet = sheets.find(
@@ -176,11 +219,11 @@ if (!peopleSheet || peopleSheet.columns !== 11) {
 const mediaAuditSheet = sheets.find((sheet) => sheet.name === 'Media Audit');
 if (
   !mediaAuditSheet ||
-  mediaAuditSheet.rows !== 375 ||
+  mediaAuditSheet.rows !== 473 ||
   mediaAuditSheet.columns !== 12
 ) {
   errors.push(
-    `Media Audit dimensions: expected 375x12, got ${mediaAuditSheet?.rows ?? 'missing'}x${mediaAuditSheet?.columns ?? 'missing'}`,
+    `Media Audit dimensions: expected 473x12, got ${mediaAuditSheet?.rows ?? 'missing'}x${mediaAuditSheet?.columns ?? 'missing'}`,
   );
 }
 const mediaRows = workbook.worksheets
@@ -202,9 +245,16 @@ if (
     'Arthur Herman Muller external Ancestry photo-page audit row is missing',
   );
 }
-if (preservedEvidenceRows.length !== 43 || excludedControls.length !== 2) {
+const graveMarkerRows = preservedEvidenceRows.filter((row) =>
+  String(row[4]).includes('_grave-marker'),
+);
+if (
+  preservedEvidenceRows.length !== 78 ||
+  excludedControls.length !== 2 ||
+  graveMarkerRows.length !== 21
+) {
   errors.push(
-    `Media evidence rows: expected 43 with 2 excluded controls, got ${preservedEvidenceRows.length} with ${excludedControls.length} excluded controls`,
+    `Media evidence rows: expected 78 with 2 excluded controls and 21 grave markers, got ${preservedEvidenceRows.length}, ${excludedControls.length}, and ${graveMarkerRows.length}`,
   );
 }
 
@@ -231,6 +281,12 @@ console.log(
         person: peterRow?.[1] ?? null,
         fatherId: peterFamilyRow?.[1] ?? null,
         motherId: peterFamilyRow?.[2] ?? null,
+      },
+      ariannaBranch: {
+        person: ariannaRow?.[1] ?? null,
+        spouseFamilyId: spouseRow?.[0] ?? null,
+        parentFamilyId: ariannaParentsRow?.[0] ?? null,
+        wallaceParentFamilyId: wallaceRow?.[9] ?? null,
       },
       formulaErrors: errors,
     },

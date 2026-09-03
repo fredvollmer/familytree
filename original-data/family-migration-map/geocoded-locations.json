@@ -19,6 +19,19 @@
     "query": "Alaska, United States",
     "status": "resolved"
   },
+  "Allen, Pontotoc County, Oklahoma": {
+    "display_name": "Allen (US-TX)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4670300,
+    "latitude": 33.10317,
+    "longitude": -96.67055,
+    "match_method": "locality-name",
+    "matched_admin1": "TX",
+    "matched_country": "US",
+    "matched_name": "Allen",
+    "query": "Allen, Pontotoc County, Oklahoma",
+    "status": "resolved"
+  },
   "Alsace, France": {
     "display_name": "Strasbourg (FR-44)",
     "geocoder": "GeoNames offline gazetteer",
@@ -32,6 +45,19 @@
     "query": "Alsace, France",
     "status": "resolved"
   },
+  "Arkansas": {
+    "display_name": "Arkansas (US-KY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4282652,
+    "latitude": 37.58288,
+    "longitude": -82.73238,
+    "match_method": "locality-name",
+    "matched_admin1": "KY",
+    "matched_country": "US",
+    "matched_name": "Arkansas",
+    "query": "Arkansas",
+    "status": "resolved"
+  },
   "Asheville, North Carolina": {
     "display_name": "Asheville (US-NC)",
     "geocoder": "GeoNames offline gazetteer",
@@ -43,6 +69,32 @@
     "matched_country": "US",
     "matched_name": "Asheville",
     "query": "Asheville, North Carolina, United States",
+    "status": "resolved"
+  },
+  "Ashland, Boyd County, Kentucky": {
+    "display_name": "Ashland (US-KY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4282757,
+    "latitude": 38.47841,
+    "longitude": -82.63794,
+    "match_method": "locality-name",
+    "matched_admin1": "KY",
+    "matched_country": "US",
+    "matched_name": "Ashland",
+    "query": "Ashland, Boyd County, Kentucky, United States",
+    "status": "resolved"
+  },
+  "Ashland, Kentucky": {
+    "display_name": "Ashland (US-KY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4282757,
+    "latitude": 38.47841,
+    "longitude": -82.63794,
+    "match_method": "locality-name",
+    "matched_admin1": "KY",
+    "matched_country": "US",
+    "matched_name": "Ashland",
+    "query": "Ashland, Kentucky, United States",
     "status": "resolved"
   },
   "Baltimore County, Maryland": {
@@ -97,6 +149,19 @@
     "query": "Bellingham, Washington, United States",
     "status": "resolved"
   },
+  "Belpre, Washington County, Ohio": {
+    "display_name": "Belpre (US-OH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4506187,
+    "latitude": 39.27396,
+    "longitude": -81.5729,
+    "match_method": "locality-name",
+    "matched_admin1": "OH",
+    "matched_country": "US",
+    "matched_name": "Belpre",
+    "query": "Belpre, Washington County, Ohio, United States",
+    "status": "resolved"
+  },
   "Benton, Lowndes County, Alabama": {
     "display_name": "Benton (US-AL)",
     "geocoder": "GeoNames offline gazetteer",
@@ -108,6 +173,19 @@
     "matched_country": "US",
     "matched_name": "Benton",
     "query": "Benton, Lowndes County, Alabama, United States",
+    "status": "resolved"
+  },
+  "Bexley, Franklin County, Ohio": {
+    "display_name": "Bexley (US-OH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4506487,
+    "latitude": 39.96895,
+    "longitude": -82.93768,
+    "match_method": "locality-name",
+    "matched_admin1": "OH",
+    "matched_country": "US",
+    "matched_name": "Bexley",
+    "query": "Bexley, Franklin County, Ohio, United States",
     "status": "resolved"
   },
   "Birmingham, Oakland County, Michigan": {
@@ -162,6 +240,19 @@
     "query": "Brunswick County, Virginia, United States",
     "status": "resolved"
   },
+  "Bryan County, Oklahoma": {
+    "display_name": "Bryan (US-TX)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4677008,
+    "latitude": 30.67436,
+    "longitude": -96.36996,
+    "match_method": "locality-name",
+    "matched_admin1": "TX",
+    "matched_country": "US",
+    "matched_name": "Bryan",
+    "query": "Bryan County, Oklahoma",
+    "status": "resolved"
+  },
   "Buckingham County, Virginia": {
     "display_name": "Buckingham (US-VA)",
     "geocoder": "GeoNames offline gazetteer",
@@ -199,6 +290,16 @@
     "matched_country": "US",
     "matched_name": "Caledonia",
     "query": "Caledonia, Livingston, New York, United States",
+    "status": "resolved"
+  },
+  "California": {
+    "centroid_locality_count": 1242,
+    "display_name": "GeoNames locality centroid for California, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 36.395182,
+    "longitude": -119.969075,
+    "match_method": "derived-region-centroid",
+    "query": "California, United States",
     "status": "resolved"
   },
   "Camas, Clark, Washington": {
@@ -276,6 +377,32 @@
     "query": "Change Islands, Newfoundland and Labrador, Canada",
     "status": "resolved"
   },
+  "Circleville, Pickaway County, Ohio": {
+    "display_name": "Circleville (US-OH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4508778,
+    "latitude": 39.60062,
+    "longitude": -82.94601,
+    "match_method": "locality-name",
+    "matched_admin1": "OH",
+    "matched_country": "US",
+    "matched_name": "Circleville",
+    "query": "Circleville, Pickaway County, Ohio, United States",
+    "status": "resolved"
+  },
+  "Coffeyville, Montgomery County, Kansas": {
+    "display_name": "Coffeyville (US-KS)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4269789,
+    "latitude": 37.0373,
+    "longitude": -95.61637,
+    "match_method": "locality-name",
+    "matched_admin1": "KS",
+    "matched_country": "US",
+    "matched_name": "Coffeyville",
+    "query": "Coffeyville, Montgomery County, Kansas",
+    "status": "resolved"
+  },
   "Columbia, South Carolina": {
     "display_name": "Columbia (US-SC)",
     "geocoder": "GeoNames offline gazetteer",
@@ -338,6 +465,19 @@
     "query": "Detroit, Wayne, Michigan, United States",
     "status": "resolved"
   },
+  "East St Louis, St Clair County, Illinois": {
+    "display_name": "East Saint Louis (US-IL)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4237579,
+    "latitude": 38.6245,
+    "longitude": -90.15094,
+    "match_method": "locality-name",
+    "matched_admin1": "IL",
+    "matched_country": "US",
+    "matched_name": "East Saint Louis",
+    "query": "East St Louis, St Clair County, Illinois",
+    "status": "resolved"
+  },
   "Eastham, Barnstable, Massachusetts": {
     "display_name": "Eastham (US-MA)",
     "geocoder": "GeoNames offline gazetteer",
@@ -387,6 +527,19 @@
     "query": "England",
     "status": "resolved"
   },
+  "Esco, Pike County, Kentucky": {
+    "display_name": "Esco (US-KY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4291262,
+    "latitude": 37.36705,
+    "longitude": -82.55071,
+    "match_method": "locality-name",
+    "matched_admin1": "KY",
+    "matched_country": "US",
+    "matched_name": "Esco",
+    "query": "Esco, Pike County, Kentucky, United States",
+    "status": "resolved"
+  },
   "Fairfield District, South Carolina": {
     "display_name": "Winnsboro (US-SC)",
     "geocoder": "GeoNames offline gazetteer",
@@ -398,6 +551,19 @@
     "matched_country": "US",
     "matched_name": "Winnsboro",
     "query": "Fairfield County, South Carolina, United States",
+    "status": "resolved"
+  },
+  "Franklin, Warren County, Ohio": {
+    "display_name": "Columbus (US-OH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4509177,
+    "latitude": 39.96118,
+    "longitude": -82.99879,
+    "match_method": "locality-name",
+    "matched_admin1": "OH",
+    "matched_country": "US",
+    "matched_name": "Columbus",
+    "query": "Franklin, Warren County, Ohio, United States",
     "status": "resolved"
   },
   "Freeport, Nassau, New York": {
@@ -436,6 +602,32 @@
     "query": "Granville, Washington, New York, United States",
     "status": "resolved"
   },
+  "Great Falls, Cascade, Montana": {
+    "display_name": "Great Falls (US-MT)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5655240,
+    "latitude": 47.50024,
+    "longitude": -111.30081,
+    "match_method": "locality-name",
+    "matched_admin1": "MT",
+    "matched_country": "US",
+    "matched_name": "Great Falls",
+    "query": "Great Falls, Cascade, Montana, United States",
+    "status": "resolved"
+  },
+  "Grossaspach, Wurttemberg, Germany": {
+    "display_name": "Großaspach (DE-01)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 2917036,
+    "latitude": 48.96641,
+    "longitude": 9.401,
+    "match_method": "locality-name",
+    "matched_admin1": "01",
+    "matched_country": "DE",
+    "matched_name": "Großaspach",
+    "query": "Grossaspach, Wurttemberg, Germany",
+    "status": "resolved"
+  },
   "Guilford, Connecticut": {
     "display_name": "Guilford (US-CT)",
     "geocoder": "GeoNames offline gazetteer",
@@ -461,6 +653,15 @@
     "matched_name": "Guilford",
     "query": "Guilford, New Haven County, Connecticut, United States",
     "status": "resolved"
+  },
+  "Gumlösa, Kristianstad, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Gumlösa, Kristianstad, Sweden",
+    "status": "unresolved"
   },
   "Hampshire, England": {
     "display_name": "Winchester (GB-ENG)",
@@ -488,6 +689,19 @@
     "query": "Hampton, New Hampshire, United States",
     "status": "resolved"
   },
+  "Hampton, Rockingham, New Hampshire": {
+    "display_name": "Hampton (US-NH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5087110,
+    "latitude": 42.93759,
+    "longitude": -70.83894,
+    "match_method": "locality-name",
+    "matched_admin1": "NH",
+    "matched_country": "US",
+    "matched_name": "Hampton",
+    "query": "Hampton, Rockingham, New Hampshire, United States",
+    "status": "resolved"
+  },
   "Harsefeld, Province of Hanover, Germany": {
     "display_name": "Harsefeld (DE-06)",
     "geocoder": "GeoNames offline gazetteer",
@@ -500,6 +714,15 @@
     "matched_name": "Harsefeld",
     "query": "Harsefeld, Germany",
     "status": "resolved"
+  },
+  "Hasslöv, Halland, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Hasslöv, Halland, Sweden",
+    "status": "unresolved"
   },
   "Hempstead, Nassau, New York": {
     "display_name": "Hempstead (US-NY)",
@@ -540,6 +763,37 @@
     "query": "Highland Park, Wayne, Michigan, United States",
     "status": "resolved"
   },
+  "Hindustan, Monroe County, Indiana": {
+    "display_name": "Hindustan (US-IN)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4258973,
+    "latitude": 39.3081,
+    "longitude": -86.48333,
+    "match_method": "locality-name",
+    "matched_admin1": "IN",
+    "matched_country": "US",
+    "matched_name": "Hindustan",
+    "query": "Hindustan, Monroe County, Indiana",
+    "status": "resolved"
+  },
+  "Hishult, Halland, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Hishult, Halland, Sweden",
+    "status": "unresolved"
+  },
+  "Hjärnarp, Kristianstad, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Hjärnarp, Kristianstad, Sweden",
+    "status": "unresolved"
+  },
   "Hursley, Hampshire, England": {
     "display_name": "Hursley (GB-ENG)",
     "geocoder": "GeoNames offline gazetteer",
@@ -551,6 +805,54 @@
     "matched_country": "GB",
     "matched_name": "Hursley",
     "query": "Hursley, Hampshire, England",
+    "status": "resolved"
+  },
+  "Ignaberga, Kristianstad, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Ignaberga, Kristianstad, Sweden",
+    "status": "unresolved"
+  },
+  "Indiana": {
+    "display_name": "Indiana (US-PA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5194868,
+    "latitude": 40.62146,
+    "longitude": -79.15253,
+    "match_method": "locality-name",
+    "matched_admin1": "PA",
+    "matched_country": "US",
+    "matched_name": "Indiana",
+    "query": "Indiana",
+    "status": "resolved"
+  },
+  "Iowa": {
+    "display_name": "Iowa (US-LA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4328676,
+    "latitude": 30.23687,
+    "longitude": -93.01376,
+    "match_method": "locality-name",
+    "matched_admin1": "LA",
+    "matched_country": "US",
+    "matched_name": "Iowa",
+    "query": "Iowa",
+    "status": "resolved"
+  },
+  "Jasper County, Missouri": {
+    "display_name": "Jasper (US-IN)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4259640,
+    "latitude": 38.39144,
+    "longitude": -86.93111,
+    "match_method": "locality-name",
+    "matched_admin1": "IN",
+    "matched_country": "US",
+    "matched_name": "Jasper",
+    "query": "Jasper County, Missouri",
     "status": "resolved"
   },
   "Jefferson County, Kentucky": {
@@ -565,6 +867,15 @@
     "matched_name": "Louisville",
     "query": "Jefferson County, Kentucky, United States",
     "status": "resolved"
+  },
+  "Johnson County, Kentucky": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Johnson County, Kentucky, United States",
+    "status": "unresolved"
   },
   "Kentucky": {
     "centroid_locality_count": 375,
@@ -615,6 +926,45 @@
     "query": "Killingworth, Middlesex County, Connecticut, United States",
     "status": "resolved"
   },
+  "Kingston, Ross County, Ohio": {
+    "display_name": "Kingston (US-OH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4515947,
+    "latitude": 39.47395,
+    "longitude": -82.91073,
+    "match_method": "locality-name",
+    "matched_admin1": "OH",
+    "matched_country": "US",
+    "matched_name": "Kingston",
+    "query": "Kingston, Ross County, Ohio, United States",
+    "status": "resolved"
+  },
+  "Lawrence County, Kentucky": {
+    "display_name": "Lawrenceburg (US-KY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4297581,
+    "latitude": 38.0373,
+    "longitude": -84.89662,
+    "match_method": "locality-name",
+    "matched_admin1": "KY",
+    "matched_country": "US",
+    "matched_name": "Lawrenceburg",
+    "query": "Lawrence County, Kentucky, United States",
+    "status": "resolved"
+  },
+  "Lincoln Parish, Louisiana": {
+    "display_name": "Lincoln Park (US-IL)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4899911,
+    "latitude": 41.9217,
+    "longitude": -87.64783,
+    "match_method": "locality-name",
+    "matched_admin1": "IL",
+    "matched_country": "US",
+    "matched_name": "Lincoln Park",
+    "query": "Lincoln Parish, Louisiana",
+    "status": "resolved"
+  },
   "Lintig, Lehe, Province of Hanover, Germany": {
     "display_name": "Lintig (DE-06)",
     "geocoder": "GeoNames offline gazetteer",
@@ -626,6 +976,32 @@
     "matched_country": "DE",
     "matched_name": "Lintig",
     "query": "Lintig, Geestland, Germany",
+    "status": "resolved"
+  },
+  "Livingston County, New York": {
+    "display_name": "Livingston (US-NY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5124923,
+    "latitude": 42.14203,
+    "longitude": -73.77791,
+    "match_method": "locality-name",
+    "matched_admin1": "NY",
+    "matched_country": "US",
+    "matched_name": "Livingston",
+    "query": "Livingston County, New York, United States",
+    "status": "resolved"
+  },
+  "Long Island, New York": {
+    "display_name": "Long Island City (US-NY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5125125,
+    "latitude": 40.74482,
+    "longitude": -73.94875,
+    "match_method": "locality-name",
+    "matched_admin1": "NY",
+    "matched_country": "US",
+    "matched_name": "Long Island City",
+    "query": "Long Island, New York, United States",
     "status": "resolved"
   },
   "Los Angeles County, California": {
@@ -654,6 +1030,19 @@
     "query": "Madison Heights, Oakland, Michigan, United States",
     "status": "resolved"
   },
+  "Malden, Middlesex, Massachusetts": {
+    "display_name": "Malden (US-MA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4942939,
+    "latitude": 42.4251,
+    "longitude": -71.06616,
+    "match_method": "locality-name",
+    "matched_admin1": "MA",
+    "matched_country": "US",
+    "matched_name": "Malden",
+    "query": "Malden, Middlesex, Massachusetts, United States",
+    "status": "resolved"
+  },
   "Manhattan, New York (strongly supported identification of an unnamed female birth)": {
     "display_name": "New York City (US-NY)",
     "geocoder": "GeoNames offline gazetteer",
@@ -665,6 +1054,19 @@
     "matched_country": "US",
     "matched_name": "New York City",
     "query": "Manhattan, New York, United States",
+    "status": "resolved"
+  },
+  "Marlin, Falls County, Texas": {
+    "display_name": "Marlin (US-TX)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4709215,
+    "latitude": 31.30629,
+    "longitude": -96.89804,
+    "match_method": "locality-name",
+    "matched_admin1": "TX",
+    "matched_country": "US",
+    "matched_name": "Marlin",
+    "query": "Marlin, Falls County, Texas, United States",
     "status": "resolved"
   },
   "Massachusetts": {
@@ -700,6 +1102,15 @@
     "query": "McAllen, Hidalgo, Texas, United States",
     "status": "resolved"
   },
+  "Mellby, Kristianstad, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Mellby, Kristianstad, Sweden",
+    "status": "unresolved"
+  },
   "Michigan": {
     "centroid_locality_count": 549,
     "display_name": "GeoNames locality centroid for Michigan, US",
@@ -723,6 +1134,32 @@
     "query": "Milford, New Haven County, Connecticut, United States",
     "status": "resolved"
   },
+  "Missouri": {
+    "display_name": "Bozeman (US-MT)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5641727,
+    "latitude": 45.67965,
+    "longitude": -111.03856,
+    "match_method": "locality-name",
+    "matched_admin1": "MT",
+    "matched_country": "US",
+    "matched_name": "Bozeman",
+    "query": "Missouri",
+    "status": "resolved"
+  },
+  "Monroe County, Indiana": {
+    "display_name": "Monroe (US-LA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4333669,
+    "latitude": 32.50931,
+    "longitude": -92.1193,
+    "match_method": "locality-name",
+    "matched_admin1": "LA",
+    "matched_country": "US",
+    "matched_name": "Monroe",
+    "query": "Monroe County, Indiana",
+    "status": "resolved"
+  },
   "Monroeville, Monroe, Alabama": {
     "display_name": "Monroeville (US-AL)",
     "geocoder": "GeoNames offline gazetteer",
@@ -734,16 +1171,6 @@
     "matched_country": "US",
     "matched_name": "Monroeville",
     "query": "Monroeville, Monroe, Alabama, United States",
-    "status": "resolved"
-  },
-  "Montana": {
-    "centroid_locality_count": 156,
-    "display_name": "GeoNames locality centroid for Montana, US",
-    "geocoder": "GeoNames offline gazetteer",
-    "latitude": 46.929956,
-    "longitude": -110.981796,
-    "match_method": "derived-region-centroid",
-    "query": "Montana, United States",
     "status": "resolved"
   },
   "Moscow (now Leicester), Livingston, New York (compiled genealogy)": {
@@ -851,6 +1278,28 @@
     "query": "New York, New York, United States",
     "status": "resolved"
   },
+  "Newport Beach, Orange, California": {
+    "display_name": "Newport Beach (US-CA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5376890,
+    "latitude": 33.61891,
+    "longitude": -117.92895,
+    "match_method": "locality-name",
+    "matched_admin1": "CA",
+    "matched_country": "US",
+    "matched_name": "Newport Beach",
+    "query": "Newport Beach, Orange, California, United States",
+    "status": "resolved"
+  },
+  "Norra Sandby, Kristianstad, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Norra Sandby, Kristianstad, Sweden",
+    "status": "unresolved"
+  },
   "North Bend, Coos, Oregon": {
     "display_name": "North Bend (US-OR)",
     "geocoder": "GeoNames offline gazetteer",
@@ -862,6 +1311,39 @@
     "matched_country": "US",
     "matched_name": "North Bend",
     "query": "North Bend, Coos, Oregon, United States",
+    "status": "resolved"
+  },
+  "North Carolina": {
+    "centroid_locality_count": 593,
+    "display_name": "GeoNames locality centroid for North Carolina, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 35.452497,
+    "longitude": -79.509339,
+    "match_method": "derived-region-centroid",
+    "query": "North Carolina, United States",
+    "status": "resolved"
+  },
+  "Ocean Park, Pacific, Washington": {
+    "display_name": "Ocean Park (US-WA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5805503,
+    "latitude": 46.49177,
+    "longitude": -124.05208,
+    "match_method": "locality-name",
+    "matched_admin1": "WA",
+    "matched_country": "US",
+    "matched_name": "Ocean Park",
+    "query": "Ocean Park, Pacific, Washington, United States",
+    "status": "resolved"
+  },
+  "Ohio": {
+    "centroid_locality_count": 866,
+    "display_name": "GeoNames locality centroid for Ohio, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 40.38603,
+    "longitude": -82.785341,
+    "match_method": "derived-region-centroid",
+    "query": "Ohio, United States",
     "status": "resolved"
   },
   "Oxfordshire, England": {
@@ -903,6 +1385,19 @@
     "query": "Pavilion, Genesee, New York, United States",
     "status": "resolved"
   },
+  "Pennsylvania": {
+    "display_name": "Pennsylvania (US-AL)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4082637,
+    "latitude": 30.87324,
+    "longitude": -88.0475,
+    "match_method": "locality-name",
+    "matched_admin1": "AL",
+    "matched_country": "US",
+    "matched_name": "Pennsylvania",
+    "query": "Pennsylvania",
+    "status": "resolved"
+  },
   "Perdue Hill, Monroe County, Alabama": {
     "display_name": "Perdue Hill (US-AL)",
     "geocoder": "GeoNames offline gazetteer",
@@ -928,6 +1423,15 @@
     "matched_name": "Perry",
     "query": "Perry, Wyoming, New York, United States",
     "status": "resolved"
+  },
+  "Pickaway County, Ohio": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Pickaway County, Ohio, United States",
+    "status": "unresolved"
   },
   "Plymouth Colony": {
     "display_name": "Plymouth (US-MA)",
@@ -966,6 +1470,19 @@
     "matched_country": "US",
     "matched_name": "Prince George",
     "query": "Prince George County, Virginia, United States",
+    "status": "resolved"
+  },
+  "Pulaski County, Kentucky": {
+    "display_name": "Pulaski (US-KY)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4305367,
+    "latitude": 37.20897,
+    "longitude": -84.63883,
+    "match_method": "locality-name",
+    "matched_admin1": "KY",
+    "matched_country": "US",
+    "matched_name": "Pulaski",
+    "query": "Pulaski County, Kentucky, United States",
     "status": "resolved"
   },
   "Queens, New York": {
@@ -1007,6 +1524,32 @@
     "query": "Roosevelt, Nassau, New York, United States",
     "status": "resolved"
   },
+  "Ross County, Ohio": {
+    "display_name": "Ross (US-OH)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4522884,
+    "latitude": 39.31228,
+    "longitude": -84.6505,
+    "match_method": "locality-name",
+    "matched_admin1": "OH",
+    "matched_country": "US",
+    "matched_name": "Ross",
+    "query": "Ross County, Ohio, United States",
+    "status": "resolved"
+  },
+  "Royal Oak, Oakland, Michigan": {
+    "display_name": "Royal Oak (US-MI)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5007804,
+    "latitude": 42.48948,
+    "longitude": -83.14465,
+    "match_method": "locality-name",
+    "matched_admin1": "MI",
+    "matched_country": "US",
+    "matched_name": "Royal Oak",
+    "query": "Royal Oak, Oakland, Michigan, United States",
+    "status": "resolved"
+  },
   "Roydon, Essex, England": {
     "display_name": "Roydon (GB-ENG)",
     "geocoder": "GeoNames offline gazetteer",
@@ -1018,6 +1561,41 @@
     "matched_country": "GB",
     "matched_name": "Roydon",
     "query": "Roydon, Essex, England",
+    "status": "resolved"
+  },
+  "Rush Springs, Grady County, Oklahoma": {
+    "display_name": "Rush Springs (US-OK)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4549984,
+    "latitude": 34.78257,
+    "longitude": -97.95698,
+    "match_method": "locality-name",
+    "matched_admin1": "OK",
+    "matched_country": "US",
+    "matched_name": "Rush Springs",
+    "query": "Rush Springs, Grady County, Oklahoma",
+    "status": "resolved"
+  },
+  "Ränneslöv, Halland, Sweden": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Ränneslöv, Halland, Sweden",
+    "status": "unresolved"
+  },
+  "San Diego County, California": {
+    "display_name": "San Diego (US-CA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5391811,
+    "latitude": 32.71571,
+    "longitude": -117.16472,
+    "match_method": "locality-name",
+    "matched_admin1": "CA",
+    "matched_country": "US",
+    "matched_name": "San Diego",
+    "query": "San Diego County, California, United States",
     "status": "resolved"
   },
   "Seattle, King, Washington": {
@@ -1044,6 +1622,19 @@
     "matched_country": "US",
     "matched_name": "Shepherdsville",
     "query": "Shepherdsville, Bullitt County, Kentucky, United States",
+    "status": "resolved"
+  },
+  "Shreveport, Caddo Parish, Louisiana": {
+    "display_name": "Shreveport (US-LA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4341513,
+    "latitude": 32.52515,
+    "longitude": -93.75018,
+    "match_method": "locality-name",
+    "matched_admin1": "LA",
+    "matched_country": "US",
+    "matched_name": "Shreveport",
+    "query": "Shreveport, Caddo Parish, Louisiana",
     "status": "resolved"
   },
   "Simsbury, Hartford, Connecticut": {
@@ -1160,6 +1751,55 @@
     "query": "Surry County, Virginia, United States",
     "status": "resolved"
   },
+  "Tennessee": {
+    "display_name": "Tennessee (US-IL)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4913373,
+    "latitude": 40.41199,
+    "longitude": -90.8393,
+    "match_method": "locality-name",
+    "matched_admin1": "IL",
+    "matched_country": "US",
+    "matched_name": "Tennessee",
+    "query": "Tennessee",
+    "status": "resolved"
+  },
+  "Texas": {
+    "centroid_locality_count": 1282,
+    "display_name": "GeoNames locality centroid for Texas, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 30.951176,
+    "longitude": -97.630719,
+    "match_method": "derived-region-centroid",
+    "query": "Texas, United States",
+    "status": "resolved"
+  },
+  "Troy, Doniphan County, Kansas": {
+    "display_name": "Macon (US-GA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4207400,
+    "latitude": 32.84069,
+    "longitude": -83.6324,
+    "match_method": "locality-name",
+    "matched_admin1": "GA",
+    "matched_country": "US",
+    "matched_name": "Macon",
+    "query": "Troy, Doniphan County, Kansas",
+    "status": "resolved"
+  },
+  "Vancouver, Clark, Washington": {
+    "display_name": "Vancouver (US-WA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 5814616,
+    "latitude": 45.63873,
+    "longitude": -122.66149,
+    "match_method": "locality-name",
+    "matched_admin1": "WA",
+    "matched_country": "US",
+    "matched_name": "Vancouver",
+    "query": "Vancouver, Clark, Washington, United States",
+    "status": "resolved"
+  },
   "Virginia": {
     "centroid_locality_count": 459,
     "display_name": "GeoNames locality centroid for Virginia, US",
@@ -1209,6 +1849,16 @@
     "query": "Ware, Hertfordshire, England",
     "status": "resolved"
   },
+  "Washington": {
+    "centroid_locality_count": 483,
+    "display_name": "GeoNames locality centroid for Washington, US",
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": 47.308891,
+    "longitude": -121.536335,
+    "match_method": "derived-region-centroid",
+    "query": "Washington, United States",
+    "status": "resolved"
+  },
   "Wayne County, Michigan": {
     "display_name": "Detroit (US-MI)",
     "geocoder": "GeoNames offline gazetteer",
@@ -1221,6 +1871,28 @@
     "matched_name": "Detroit",
     "query": "Wayne County, Michigan, United States",
     "status": "resolved"
+  },
+  "Webb City, Jasper County, Missouri": {
+    "display_name": "Webb City (US-MO)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4413842,
+    "latitude": 37.14645,
+    "longitude": -94.463,
+    "match_method": "locality-name",
+    "matched_admin1": "MO",
+    "matched_country": "US",
+    "matched_name": "Webb City",
+    "query": "Webb City, Jasper County, Missouri",
+    "status": "resolved"
+  },
+  "West Virginia": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "West Virginia",
+    "status": "unresolved"
   },
   "York, Livingston, New York": {
     "display_name": "York Hamlet (US-NY)",
@@ -1274,6 +1946,19 @@
     "query": "Dedham, Essex, England",
     "status": "resolved"
   },
+  "probably Eastham, Barnstable, Massachusetts": {
+    "display_name": "Eastham (US-MA)",
+    "geocoder": "GeoNames offline gazetteer",
+    "geonameid": 4935578,
+    "latitude": 41.83011,
+    "longitude": -69.97391,
+    "match_method": "locality-name",
+    "matched_admin1": "MA",
+    "matched_country": "US",
+    "matched_name": "Eastham",
+    "query": "Eastham, Barnstable, Massachusetts, United States",
+    "status": "resolved"
+  },
   "probably Fingringhoe, Essex, England": {
     "display_name": "Fingringhoe (GB-ENG)",
     "geocoder": "GeoNames offline gazetteer",
@@ -1299,6 +1984,15 @@
     "matched_name": "Guilford",
     "query": "Guilford, Connecticut, United States",
     "status": "resolved"
+  },
+  "probably Middlesex County, Connecticut": {
+    "display_name": null,
+    "geocoder": "GeoNames offline gazetteer",
+    "latitude": null,
+    "longitude": null,
+    "match_method": "no-local-match",
+    "query": "Middlesex County, Connecticut, United States",
+    "status": "unresolved"
   },
   "probably New Haven, Connecticut": {
     "display_name": "New Haven (US-CT)",

@@ -13,7 +13,7 @@ This ledger aggregates the recovered maternal canonical package, the later Vollm
 
 - **Vital-date enrichment** — audited every canonical person, restored dropped project facts, added supported dates or conservative ranges, and classified every remaining gap as unresolved or privacy-limited.
 - **Occupation and role enrichment** — reviewed Ancestry records in the signed-in browser, reconciled results to canonical people, preserved dated occupational changes, and classified every person without a supported fact.
-- **Photo and evidence media audit** — audited all 328 canonical people for verified portrait availability, linked external photo pages without copying restricted files, explicitly mapped all preserved record media to people, rendered relevant PDF pages, and retained identity exclusions.
+- **Photo and evidence media audit** — audited all 391 canonical people for verified portrait availability, linked external photo pages without copying restricted files, explicitly mapped all preserved record media to people, rendered relevant PDF pages, and retained identity exclusions.
 
 ## GEDCOM source catalog
 
@@ -1118,7 +1118,7 @@ The complete, row-level research ledger is `Fredric_Vollmer_Complete_Family_Tree
 
 ## Photo and evidence media audit — 2 September 2026
 
-The machine-readable audit is `Fredric_Vollmer_Complete_Family_Tree_Media_Audit.json`; its flat review table is `Fredric_Vollmer_Complete_Family_Tree_Media_Inventory.csv` and the synchronized workbook tab is **Media Audit**. Every one of the 328 canonical people has a portrait outcome. No portrait file was already archived in the repository. Two external photo pages were located and retained as links, two explicitly living people are privacy-withheld, and 324 people have no verified portrait archived. This is an availability finding, not evidence that no photograph exists.
+The machine-readable audit is `Fredric_Vollmer_Complete_Family_Tree_Media_Audit.json`; its flat review table is `Fredric_Vollmer_Complete_Family_Tree_Media_Inventory.csv` and the synchronized workbook tab is **Media Audit**. Every one of the 391 canonical people has a portrait outcome. No portrait file was already archived in the repository. Two external photo pages were located and retained as links, eight living people are privacy-withheld, and 381 people have no verified portrait archived. This is an availability finding, not evidence that no photograph exists.
 
 ### Verified external photo pages
 
@@ -1134,3 +1134,218 @@ The machine-readable audit is `Fredric_Vollmer_Complete_Family_Tree_Media_Audit.
 ### Preserved evidence attachments
 
 All 43 preserved source files are now attached to GEDCOM source records and cataloged with exact canonical person IDs: 34 images and nine PDFs. The PDFs retain their originals and add 18 relevant page-image previews in `record-previews/`. Two files remain visibly marked as identity controls rather than supporting evidence: the excluded 1892 Henry Vollmer household and the 1919 Madie Vollmer death certificate that does not belong to Metha Peper Vollmer. The passenger manifest’s unresolved adjacency and the unnamed Pepper child’s identification uncertainty also remain explicit.
+## Arianna Lynn Fischer direct-ancestry expansion (2 September 2026)
+
+Owner anchor: Arianna Lynn Fischer (born 1990), wife of Fredric Muller Vollmer; parents Sally Fischer and Ray W. Fischer. The public tree withholds living exact dates, addresses, and contact information. No collateral relatives were added.
+
+### S49 — Owner statement identifying Arianna Lynn Fischer and her parents
+
+The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.
+
+### S50 — Arianna Lynn Fischer Ohio birth and parent index cluster
+
+Ohio birth index entries name Arianna and identify Wallace Ray Fischer and Sally Lynn Vanhoose Fischer as parents; a Franklin County marriage index records Wallace R. Fischer and Sally L. on 3 Mar 1990. Records: https://www.ancestry.com/search/collections/3146/records/11206028 ; https://www.ancestry.com/search/collections/3146/records/26206028 ; https://www.ancestry.com/search/collections/3146/records/41206028 ; https://www.ancestry.com/search/collections/2025/records/1910252
+
+### S51 — Wallace Ray Fischer identity record cluster
+
+Records consistently identify Wallace Ray Fischer, including North Caroline High School yearbook entries. Living birth details and addresses are intentionally omitted. Records: https://www.ancestry.com/search/collections/62740/records/4543428 ; https://www.ancestry.com/search/collections/62209/records/299213236 ; https://www.ancestry.com/search/collections/1265/records/621855255
+
+### S52 — Sally Lynn Vanhoose Fischer Ohio birth and parent index cluster
+
+Ohio birth-index entries identify Sally Lynn Vanhoose/Fischer and name Keith Douglas Vanhoose and Barbara Lynn Boltenhouse as parents. Living exact dates and addresses are omitted. Records: https://www.ancestry.com/search/collections/3146/records/7991760 ; https://www.ancestry.com/search/collections/3146/records/11694596 ; https://www.ancestry.com/search/collections/3146/records/26694596 ; https://www.ancestry.com/search/collections/3146/records/41694596
+
+### S53 — Keith Douglas Vanhoose SSA and burial index cluster
+
+SSA application and burial indexes establish Keith's dates and name Douglas T. Vanhoose and Mildred Tackett as parents. Records: https://www.ancestry.com/search/collections/60901/records/39551452 ; https://www.ancestry.com/search/collections/60525/records/95267098
+
+### S54 — 1950 United States census household of Charles, Alice, and Barbara Boltenhouse
+
+Circleville, Pickaway County, Ohio household records Charles E. Boltenhouse, wife Alice M., and daughter Barbara. Records: https://www.ancestry.com/search/collections/62308/records/204443745 ; https://www.ancestry.com/search/collections/62308/records/204443746 ; https://www.ancestry.com/search/collections/62308/records/204443747
+
+Preserved image: `records/1950_charles-alice-barbara-boltenhouse_us-census.jpg`.
+
+### S55 — Charles Emerald Boltenhouse Jr burial and obituary records
+
+The obituary identifies parents Charles and Leona Tomlinson Boltenhouse, wife Alice Hickey, and daughter Barbara. Records: https://www.ancestry.com/search/collections/60525/records/297099223 ; https://www.ancestry.com/search/collections/2190/records/21600019 ; https://www.wellmanfuneralhomes.com/obituaries/charles-boltenhouse-jr
+
+### S56 — Alice Marie Hickey Boltenhouse SSA and census record cluster
+
+SSA application names William Hickey and Daisy M. Imler as parents; 1940 and 1950 censuses corroborate the household chain. Records: https://www.ancestry.com/search/collections/60901/records/41344689 ; https://www.ancestry.com/search/collections/2442/records/31756365 ; https://www.ancestry.com/search/collections/62308/records/204443746
+
+Preserved image: `records/1940_william-daisy-alice-hickey_us-census.jpg`.
+
+### S57 — William Andrew Hickey vital, draft, and census record cluster
+
+The 1900 census identifies William as son of John and Mary; draft, death, burial, and SSA indexes corroborate identity. Records: https://www.ancestry.com/search/collections/7602/records/41345114 ; https://www.ancestry.com/search/collections/5763/records/408395 ; https://www.ancestry.com/search/collections/60525/records/103465820 ; https://www.ancestry.com/search/collections/6482/records/19464076 ; https://www.ancestry.com/search/collections/1002/records/6996448 ; https://www.ancestry.com/search/collections/60901/records/641344689
+
+Preserved image: `records/1900_john-mary-william-hickey_us-census.jpg`.
+
+### S58 — Daisy Marie Imler Hickey census, SSA, and marriage record cluster
+
+The 1900 census identifies William Imler and Annie as Daisy's parents; SSA and later census records link husband William Hickey and daughter Alice. Records: https://www.ancestry.com/search/collections/7602/records/41347856 ; https://www.ancestry.com/search/collections/2442/records/31756357 ; https://www.ancestry.com/search/collections/6061/records/27418446 ; https://www.ancestry.com/search/collections/60901/records/791344689 ; https://www.ancestry.com/search/collections/61378/records/1204214340
+
+Preserved image: `records/1900_william-annie-daisy-imler_us-census.jpg`.
+
+### S59 — William Imler and Annie Westbury census and marriage records
+
+The 4 Jul 1889 marriage record names Annie Westbury; the 1900 census records the couple with daughter Daisy. Records: https://www.ancestry.com/search/collections/61378/records/893547 ; https://www.ancestry.com/search/collections/7602/records/41347854 ; https://www.ancestry.com/search/collections/7602/records/41347855
+
+### S60 — Westbury-Stonerock 1880 census and 1861 marriage records
+
+The 1880 census identifies Annie as daughter of Robert Westbury and Hester; the 17 Dec 1861 marriage record supplies Hester Stonerock. Records: https://www.ancestry.com/search/collections/6742/records/18379300 ; https://www.ancestry.com/search/collections/6742/records/24757281 ; https://www.ancestry.com/search/collections/6742/records/18379404 ; https://www.ancestry.com/search/collections/61378/records/416305
+
+Preserved image: `records/1880_robert-hester-annie-westbury_us-census.jpg`.
+
+### S61 — Douglas T. Vanhoose birth, census, military, and death record cluster
+
+The Kentucky birth index, 1930 census, military index, and death index establish Douglas's identity and link him to Tallie. Records: https://www.ancestry.com/search/collections/8788/records/3688158 ; https://www.ancestry.com/search/collections/6224/records/81187869 ; https://www.ancestry.com/search/collections/2441/records/10171281 ; https://www.ancestry.com/search/collections/3077/records/2504865 ; https://www.ancestry.com/search/collections/60901/records/639551452
+
+Preserved image: `records/1930_tallie-douglas-vanhoose_us-census.jpg`.
+
+### S62 — John B. and Tallie Vanhoose 1880 and 1920 census chain
+
+The 1880 census records John as son of Moses and Mahala; the 1920 census records John with wife Tallie. Records: https://www.ancestry.com/search/collections/6742/records/41518791 ; https://www.ancestry.com/search/collections/6061/records/59825157
+
+Preserved image: `records/1920_john-tallie-vanhoose_us-census.jpg`.
+
+### S63 — Moses Vanhoose and Mahala Dixon census and marriage records
+
+The 1880 census records John as their son; the 22 Apr 1868 marriage record names Mahala Dixon. Records: https://www.ancestry.com/search/collections/6742/records/9277240 ; https://www.ancestry.com/search/collections/6742/records/10191909 ; https://www.ancestry.com/search/collections/61372/records/1506164
+
+Preserved image: `records/1880_moses-mahala-john-vanhoose_us-census.jpg`.
+
+Preserved image: `records/1868-04-22_moses-vanhoose_mahala-dixon_marriage.jpg`.
+
+### S64 — Tallie Vanhoose death certificate and Estep-Morton census-marriage cluster
+
+Tallie's death certificate names Ira Estep and Isora Morton. The 1880 census and 28 Aug 1868 marriage record identify the matching couple. Records: https://www.ancestry.com/search/collections/1222/records/2144978 ; https://www.ancestry.com/search/collections/7602/records/5598207 ; https://www.ancestry.com/search/collections/6742/records/17600141 ; https://www.ancestry.com/search/collections/6742/records/17600401 ; https://www.ancestry.com/search/collections/61372/records/1551052
+
+Preserved image: `records/1967-05-17_tallie-vanhoose_death-certificate.jpg`.
+
+### S65 — Mildred I. Tackett Vanhoose obituary and 1930 census
+
+The obituary names parents Sidney Tackett and Ida Missouri and husband Douglas VanHoose; the 1930 census corroborates Sid, Ida, and Mildred. Records: https://www.ancestry.com/search/collections/7545/records/500515930 ; https://www.ancestry.com/search/collections/6224/records/81187850 ; http://www.circlevilleherald.com/obituaries/mildred-i-vanhoose/article_9d73b9f0-f575-5f2a-b23d-b65a593e7879.html
+
+Preserved image: `records/1930_sidney-ida-mildred-tackett_us-census.jpg`.
+
+### S66 — Charles Emerald Boltenhouse Sr and Leona Tomlinson vital, census, draft, and marriage cluster
+
+Draft, marriage, census, and death records establish the couple and their son Charles. Records: https://www.ancestry.com/search/collections/2238/records/199550522 ; https://www.ancestry.com/search/collections/61378/records/1050733026 ; https://www.ancestry.com/search/collections/6224/records/69946949 ; https://www.ancestry.com/search/collections/6224/records/69946957 ; https://www.ancestry.com/search/collections/5763/records/1910198
+
+### S67 — Boltenhouse direct-line census and marriage record chain
+
+The 1910 census names Alonzo and Malinda as Charles's parents; their 1902 marriage supplies Speakman. The 1900 census names Augustus and Elizabeth as Alonzo's parents; their 1869 marriage supplies Cotter. Records: https://www.ancestry.com/search/collections/7884/records/142595859 ; https://www.ancestry.com/search/collections/7884/records/22453970 ; https://www.ancestry.com/search/collections/61378/records/266107 ; https://www.ancestry.com/search/collections/7602/records/51092013 ; https://www.ancestry.com/search/collections/7602/records/51092011 ; https://www.ancestry.com/search/collections/61378/records/1411597
+
+Preserved image: `records/1910_alonzo-malinda-charles-boltenhouse_us-census.jpg`.
+
+Preserved image: `records/1900_augustus-elizabeth-alonzo-boltenhouse_us-census.jpg`.
+
+### S68 — Tomlinson-Jackson direct-line census and parent-name record chain
+
+The 1910 census records Leona as daughter of George P. and Linda. The 1900 census records George with wife Malinda and explicitly names his parents Alo and Rebecca; a later child marriage index supplies Linda Jackson. Records: https://www.ancestry.com/search/collections/7884/records/142595257 ; https://www.ancestry.com/search/collections/7602/records/51098669 ; https://www.ancestry.com/search/collections/61378/records/1350876129
+
+Preserved image: `records/1910_george-linda-leona-tomlinson_us-census.jpg`.
+
+### Research controls
+
+- The earlier blank-parent stopping point for Wallace Ray Fischer was superseded by the owner's correction and the supporting record cluster documented below.
+- Mahala Dixon's possible 1860 household was not used to add parents because that census does not state relationships.
+- Private Ancestry member trees and suggested same-name records were treated only as search clues.
+- Daisy Imler's 20 Apr 1942 death date is retained; a secondary 22 Apr form remains a documented conflict rather than a second event.
+## Wallace Ray Fischer direct-ancestry correction (2 September 2026)
+
+Owner correction: Wallace Ray Fischer's parents are Raymond Charles Fischer Jr. and Wanda June Wallace Fischer. Wanda and June are the same person. Scope remains direct ancestors only, with living details withheld.
+
+### S69 — Owner correction identifying Wallace Ray Fischer's parents
+
+The owner identifies Wallace Ray Fischer's parents as Raymond Fischer and Wanda Fischer, both associated with Texas; identifies the father as Raymond Charles Fischer Jr., who died 22 Sep 2022 at Belpre; and notes Wanda may also be called June. Record research resolves Wanda and June as Wanda June Wallace Fischer.
+
+### S70 — Raymond Charles Fischer Jr and Wanda June Wallace record cluster
+
+Raymond's 1934 birth, 22 Sep 2022 Belpre death, and 1940 parent household align. The official Texas marriage index records Raymond C. Fischer Jr. and Wanda J. Wallace on 11 Jun 1957; a newspaper marriage index expands her name to Wanda June Wallace. Records: https://www.ancestry.com/search/collections/60541/records/218066535 ; https://www.findagrave.com/memorial/243870577/raymond-charles-fischer ; https://www.ancestry.com/search/collections/5763/records/10265056 ; https://www.ancestry.com/search/collections/2190/records/317879477 ; https://www.leavittfuneralhome.com/obituaries/Raymond--Charles-Fischer-Jr?obId=25942554 ; https://www.ancestry.com/search/collections/2442/records/155875370 ; https://www.ancestry.com/search/collections/9168/records/25830055 ; https://www.ancestry.com/search/collections/62116/records/152414706 ; https://www.newspapers.com/image/761699744/?article=866f00a6-99e2-45c3-9ea5-fd632644db6c&xid=3398
+
+### S71 — Raymond Charles Fischer Sr and Ruby Louise Gilmore record cluster
+
+The 1940 census records Raymond Jr. as son of Raymond and Ruby. Raymond Sr.'s Texas birth/death certificates name Daniel Fischer and Lena Wirtz; the memorial records Raymond's dates and Ruby Gilmore as spouse. Records: https://www.ancestry.com/search/collections/2442/records/155875370 ; https://www.ancestry.com/search/collections/2272/records/566313 ; https://www.ancestry.com/search/collections/2275/records/3848821 ; https://www.ancestry.com/search/collections/60525/records/42346703 ; https://www.findagrave.com/memorial/69481441/raymond-charles-fischer ; https://www.ancestry.com/search/collections/60525/records/42346721 ; https://www.findagrave.com/memorial/69481460/ruby-fischer
+
+### S72 — Ruby Gilmore parent household and George Gilmore identity cluster
+
+The 1920 census explicitly records Ruby as daughter of G. S. and Ida Gilmore. George's World War I draft record supplies George Sam Gilmore and 22 Jan 1886; SSA and Texas index links supply Ida Susan Burt. Records: https://www.ancestry.com/search/collections/6061/records/100221065 ; https://www.ancestry.com/search/collections/6061/records/100221063 ; https://www.ancestry.com/search/collections/6482/records/14839842 ; https://www.ancestry.com/search/collections/60901/records/626088911 ; https://www.ancestry.com/search/collections/4876/records/108265726
+
+### S73 — Johann Daniel Fischer and Lena Wirtz direct-line record cluster
+
+German baptism and family-table records name Johann Daniel Fischer and Elisabethe Margarethe as the immigrant Daniel's parents. U.S. censuses and Texas records link Daniel, Lena, and Raymond; Lena's death certificate names Jacob Wirtz and Catherine Swan. Records: https://www.ancestry.com/search/collections/61389/records/4210684 ; https://www.ancestry.com/search/collections/61023/records/7909461 ; https://www.ancestry.com/search/collections/7602/records/70597040 ; https://www.ancestry.com/search/collections/6061/records/100223419 ; https://www.ancestry.com/search/collections/60525/records/100697046 ; https://www.findagrave.com/memorial/19759283/johann-daniel-fischer ; https://www.ancestry.com/search/collections/2272/records/133381 ; https://www.findagrave.com/memorial/19759290/lena-fischer
+
+### S74 — Wanda June Wallace parent and Highley identity cluster
+
+The 1940 census records Wanda J. Wallace as daughter of Chalmers and Dorothy; the 1935 Missouri marriage record links Chalmers and Dorothy Bess Highley. Dorothy's SSA record names Ambrose Long Highley and Mary E. Herod. Her death-date sources conflict: SSA gives 15 Sep 1995 and California gives 30 Sep 1995. Records: https://www.ancestry.com/search/collections/2442/records/89045738 ; https://www.ancestry.com/search/collections/62308/records/76403615 ; https://www.ancestry.com/search/collections/1171/records/9664937 ; https://www.ancestry.com/search/collections/60525/records/150531434 ; https://www.findagrave.com/memorial/186519723/chambers-carl-wallace ; https://www.ancestry.com/search/collections/60901/records/24418580 ; https://www.ancestry.com/search/collections/5180/records/1076373
+
+### S75 — Wallace, Williams, Branham, and McCoy direct-line memorial cluster
+
+The 1920 census identifies Walter and Alice as Chalmers's parents. Find a Grave index links supply Mary McGaha as Walter's mother; Williams as Alice's maiden name; Robert Williams and Nancy Brannan as Alice's parents; Elisha Branham and Clarissa McCoy as Nancy's parents; and Daniel Franklin McCoy as Clarissa's father. These memorial-based extensions are retained with lower confidence where no civil parent record was located. Records: https://www.ancestry.com/search/collections/6061/records/62031695 ; https://www.ancestry.com/search/collections/60525/records/233666764 ; https://www.ancestry.com/search/collections/60525/records/233666929 ; https://www.ancestry.com/search/collections/60525/records/233646146 ; https://www.ancestry.com/search/collections/60525/records/87506166 ; https://www.ancestry.com/search/collections/60525/records/87506189 ; https://www.ancestry.com/search/collections/60525/records/98293838 ; https://www.ancestry.com/search/collections/60525/records/53527274 ; https://www.ancestry.com/search/collections/60525/records/53527788
+
+### S76 — Highley direct-line census, vital, and memorial cluster
+
+The 1880 census explicitly records Ambrose as son of William and Hannah Highley. Memorial and Missouri records identify Mary Elizabeth Herod and the Highley dates. William's memorial names James and Mary Highley; the compatible 1850 household does not state relationships, so the earlier parent link remains lower confidence. Records: https://www.ancestry.com/search/collections/6742/records/24830397 ; https://www.ancestry.com/search/collections/60382/records/723670 ; https://www.ancestry.com/search/collections/60525/records/86597625 ; https://www.findagrave.com/memorial/13974942/ambrose-long-highley ; https://www.ancestry.com/search/collections/60382/records/1700594 ; https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley ; https://www.ancestry.com/search/collections/60525/records/85153660 ; https://www.findagrave.com/memorial/13888778/william-t.-highley ; https://www.ancestry.com/search/collections/60525/records/85153662 ; https://www.findagrave.com/memorial/13888780/hannah-t-highley ; https://www.ancestry.com/search/collections/8054/records/3654061
+
+### S77 — Fischer direct-line grave-marker photographs
+
+Full-resolution grave-marker photographs were saved from the exact Find a Grave memorials for Johann Daniel Fischer, Lena Wirtz Fischer, Raymond Charles Fischer Sr., and Ruby Louise Gilmore Fischer. The site labels every preserved image as Photo type: Grave. Memorials: https://www.findagrave.com/memorial/19759283/johann-daniel-fischer ; https://www.findagrave.com/memorial/19759290/lena-fischer ; https://www.findagrave.com/memorial/69481441/raymond-charles-fischer ; https://www.findagrave.com/memorial/69481460/ruby-fischer
+
+Preserved image: `records/1925-03-31_johann-daniel-fischer_grave-marker.jpg`.
+
+Preserved image: `records/1974-01-24_lena-wirtz-fischer_grave-marker.jpg`.
+
+Preserved image: `records/1979-05-20_raymond-charles-fischer-sr_grave-marker-1.jpg`.
+
+Preserved image: `records/1979-05-20_raymond-charles-fischer-sr_grave-marker-2.jpg`.
+
+Preserved image: `records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-1.jpg`.
+
+Preserved image: `records/2000-03-16_ruby-louise-gilmore-fischer_grave-marker-2.jpg`.
+
+### S78 — Wallace direct-line grave-marker photographs
+
+Full-resolution grave photographs were saved from the exact memorials for Chalmers Carl Wallace, Walter Albert Wallace Sr., and Alice Mae Williams Wallace. Find a Grave labels every preserved image as Photo type: Grave; obituary-clipping images were excluded from this grave set. Memorials: https://www.findagrave.com/memorial/186519723/chambers-carl-wallace ; https://www.findagrave.com/memorial/262761264/walter-albert-wallace ; https://www.findagrave.com/memorial/262761475/alice-mae-wallace
+
+Preserved image: `records/1962-11-25_chalmers-carl-wallace_grave-marker-1.jpeg`.
+
+Preserved image: `records/1962-11-25_chalmers-carl-wallace_grave-marker-2.jpeg`.
+
+Preserved image: `records/1962-11-25_chalmers-carl-wallace_grave-marker-3.jpeg`.
+
+Preserved image: `records/1963-12-08_walter-albert-wallace_grave-marker.jpeg`.
+
+Preserved image: `records/1987-02-08_alice-mae-williams-wallace_grave-marker.jpeg`.
+
+### S79 — Highley, Williams, and Branham direct-line grave-marker photographs
+
+Full-resolution grave photographs were saved from the exact memorials for Ambrose and Mary Highley, William and Hannah Highley, Robert and Nancy Williams, Elisha Branham, and Clarissa McCoy Branham. Find a Grave labels every preserved image as Photo type: Grave. Memorials: https://www.findagrave.com/memorial/13974942/ambrose-long-highley ; https://www.findagrave.com/memorial/58864757/mary-elizabeth-highley ; https://www.findagrave.com/memorial/13888778/william-t.-highley ; https://www.findagrave.com/memorial/13888780/hannah-t-highley ; https://www.findagrave.com/memorial/21540402/robert-b.-williams ; https://www.findagrave.com/memorial/21540426/nancy-ellen-williams ; https://www.findagrave.com/memorial/33706860/elisha-branham ; https://www.findagrave.com/memorial/84921915/clarissa-branham_williams_mcbride
+
+Preserved image: `records/1931-10-16_ambrose-long-highley_grave-marker.jpg`.
+
+Preserved image: `records/1958-04-22_mary-elizabeth-herod-highley_grave-marker.jpg`.
+
+Preserved image: `records/1918-08-23_william-t-highley_grave-marker.jpg`.
+
+Preserved image: `records/1921-02-09_hannah-t-blair-highley_grave-marker.jpg`.
+
+Preserved image: `records/1926_robert-b-williams_grave-marker.jpg`.
+
+Preserved image: `records/1912-07-09_nancy-ellen-brannan-williams_grave-marker.jpg`.
+
+Preserved image: `records/1873-05-23_elisha-branham_grave-marker-1.jpg`.
+
+Preserved image: `records/1873-05-23_elisha-branham_grave-marker-2.jpeg`.
+
+Preserved image: `records/1873-05-23_elisha-branham_grave-marker-3.jpg`.
+
+Preserved image: `records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg`.
+
+### Research controls
+
+- No collateral children, siblings, aunts/uncles, cousins, or later spouses were added.
+- Raymond Jr.'s Find a Grave image is labeled Person rather than Grave and was not placed in the grave-marker archive.
+- Walter Wallace's father, Lena Wirtz's parents beyond the death-certificate names, Ruby Gilmore's grandparents, and multiple maiden surnames remain blank where records do not support them.
+- Dorothy Highley's September 1995 death-day conflict is preserved rather than silently resolved.
+- Find a Grave-only parent extensions are labeled lower confidence.
