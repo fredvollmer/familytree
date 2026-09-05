@@ -590,6 +590,20 @@ function buildAncestorTree(
     width,
     height,
     generations: maximumDepth - minimumDepth + 1,
+    yearMarkers: Array.from(rows.keys()).map((depth) => {
+      const generation = nodes.filter((node) => node.depth === depth);
+      const years = generation.flatMap((node) =>
+        (node.person.birth.split(';')[0].match(/\b(?:1\d{3}|20\d{2})\b/g) ?? []).map(Number),
+      );
+      const first = Math.min(...years);
+      const last = Math.max(...years);
+      const approximate = generation.some((node) => /\b(?:ABT|BEF|AFT|EST|CAL|BET)\b/i.test(node.person.birth));
+      return {
+        depth,
+        y: generation[0]?.y ?? 0,
+        label: years.length ? `${approximate ? 'c. ' : ''}${first}${first === last ? '' : `–${last}`}` : 'Unknown',
+      };
+    }),
   };
 }
 
@@ -864,6 +878,19 @@ function FamilyTree({
               </button>
             );
           })}
+        </div>
+        <div className="tree-year-axis" role="list" aria-label="Recorded birth years by generation">
+          <strong>Birth years</strong>
+          {layout.yearMarkers.map((marker) => (
+            <span
+              key={marker.depth}
+              role="listitem"
+              className="tree-year-marker"
+              style={{ top: transform.y + (marker.y + TREE_NODE_HEIGHT / 2) * transform.scale }}
+            >
+              {marker.label}
+            </span>
+          ))}
         </div>
         <div className="tree-zoom" aria-label="Tree zoom controls">
           <button

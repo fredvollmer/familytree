@@ -374,6 +374,36 @@ button {
 .tree-stage.dragging {
   cursor: grabbing;
 }
+.tree-year-axis {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 116px;
+  z-index: 2;
+  pointer-events: none;
+  background: #f8eee8f2;
+  border-right: 1px solid #d5bfb3;
+  color: #634b43;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.tree-year-axis > strong {
+  position: absolute;
+  inset: 0 0 auto;
+  padding: 12px 10px;
+  z-index: 1;
+  background: #f8eee8;
+  border-bottom: 1px solid #d5bfb3;
+}
+.tree-year-marker {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  padding: 4px 10px 4px 4px;
+  text-align: right;
+  transform: translateY(-50%);
+  border-right: 5px solid #b58977;
+  line-height: 1.25;
+}
 .tree-stage svg {
   display: block;
 }
