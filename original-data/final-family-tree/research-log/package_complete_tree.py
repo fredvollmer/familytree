@@ -54,6 +54,7 @@ no_date_outcomes = sum(
 occupation_people = sum(row["status"] == "recorded" for row in occupation_rows)
 occupation_events = sum(int(row["event_count"]) for row in occupation_rows)
 media = json.loads(MEDIA_AUDIT.read_text(encoding="utf-8"))
+canonical = json.loads((PACKAGE / f"{PREFIX}_Canonical_Data.json").read_text(encoding="utf-8"))
 media_counts = media["metadata"]
 gedcom_multimedia = (PACKAGE / f"{PREFIX}.ged").read_text(encoding="utf-8").count("\n1 OBJE\n")
 
@@ -62,7 +63,7 @@ validation_text = validation_text.split("workbook sheets:", 1)[0].rstrip() + "\n
 validation_text += (
     "workbook sheets: 15\n"
     "workbook formula errors: 0\n"
-    "workbook consolidated individual count: 391\n"
+    f"workbook consolidated individual count: {len(canonical['people'])}\n"
     "workbook consolidated family count: 188\n"
     "workbook consolidated GEDCOM source count: 79\n"
     "workbook source and record inventory count: 157\n"

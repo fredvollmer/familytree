@@ -123,7 +123,7 @@ const media = {
   external_evidence_checks: externalEvidenceChecks,
 };
 
-data.metadata.updated = auditDate;
+data.metadata.updated = [data.metadata.updated, auditDate].sort().at(-1);
 data.metadata.media_audit = media.metadata;
 data.media = media;
 if (

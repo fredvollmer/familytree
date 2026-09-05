@@ -1,13 +1,13 @@
 {
   "metadata": {
     "title": "Four-family migration data",
-    "generated": "2026-09-03",
+    "generated": "2026-09-05",
     "canonical_source": "original-data/final-family-tree/Fredric_Vollmer_Complete_Family_Tree_Canonical_Data.json",
-    "canonical_updated": "2026-09-02",
+    "canonical_updated": "2026-09-05",
     "privacy": "Living addresses and contact information are omitted. Living exact dates are withheld except Arianna's owner-supplied birth year.",
     "scope_note": "Derived from recorded birth and death places in the Muller, Vollmer, Fischer, and VanHoose family components. Root couples and unrelated supporting people remain in the canonical tree but are not assigned to a map line. People explicitly marked living or potentially living under a 100-year rule are also excluded.",
     "privacy_excluded_people": 9,
-    "scope_excluded_people": 3,
+    "scope_excluded_people": 2,
     "movement_note": "Routes connect recorded endpoints and are analytical inferences, not documented travel paths.",
     "year_extent": [
       1549,

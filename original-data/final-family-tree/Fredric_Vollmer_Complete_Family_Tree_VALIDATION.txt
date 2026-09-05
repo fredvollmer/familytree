@@ -1,4 +1,4 @@
-GEDCOM individuals: 391
+GEDCOM individuals: 390
 GEDCOM families: 188
 GEDCOM sources: 79
 GEDCOM trailers: 1
@@ -23,35 +23,39 @@ Peter and Chris brother association present: True
 Peter father link to Henry present: True
 Peter mother intentionally absent: True
 Elmer James Chaffee corrected: True
-people CSV rows: 391
+people CSV rows: 390
 families CSV rows: 188
 source inventory rows: 157
 vital-date research rows: 20
 accepted vital-date research rows: 15
-vital-date coverage rows: 391
+vital-date coverage rows: 390
 people with recorded birth dates: 256
 people with recorded death dates: 218
 people with complete vital dates: 185
 occupation research rows: 24
 accepted occupation research rows: 23
-occupation coverage rows: 391
+occupation coverage rows: 390
 people with recorded occupations or roles: 17
 GEDCOM occupation events: 23
 rejected Marion teacher absent: True
+Annie identity regression checks: passed (5 September 2026)
+Retired duplicate I175 absent from active people and relationships: True
+Annie Fischer I356 is Fredric I001 spouse in F156: True
+Annie Fischer parents retained in F157: True
 workbook sheets: 15
 workbook formula errors: 0
-workbook consolidated individual count: 391
+workbook consolidated individual count: 390
 workbook consolidated family count: 188
 workbook consolidated GEDCOM source count: 79
 workbook source and record inventory count: 157
 workbook birth dates recorded: 256
 workbook death dates recorded: 218
 workbook both vital dates recorded: 185
-workbook no dated event unresolved or private: 102
+workbook no dated event unresolved or private: 101
 workbook people with recorded occupations or roles: 17
 workbook accepted occupation or role events: 23
-workbook media audit rows: 472
-media audit people: 391
+workbook media audit rows: 471
+media audit people: 390
 external photo pages located: 2
 locally archived portraits: 0
 preserved evidence files: 78

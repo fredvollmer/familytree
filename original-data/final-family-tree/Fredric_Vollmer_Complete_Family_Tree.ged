@@ -1763,12 +1763,6 @@
 1 NOTE Confidence C (Provisional). Branch: Agee / Ford / Bondurant. The Agee family history identifies him as Ann Bondurant’s father and describes his Huguenot migration.
 1 SOUR @S8@
 1 FAMS @F092@
-0 @I175@ INDI
-1 NAME Arianna Lynn Annie /Vollmer/
-1 SEX F
-1 NOTE Relationship to Fredric: Sister.
-1 NOTE Confidence: A - Confirmed.
-1 FAMC @F095@
 0 @I176@ INDI
 1 SEX M
 1 NAME Henry Richard /Vollmer/
@@ -4233,8 +4227,7 @@
 1 HUSB @I176@
 1 WIFE @I002@
 1 CHIL @I001@
-1 CHIL @I175@
-1 NOTE Jan is Fredric and Arianna's biological mother; Henry is recorded as their father in the recovered canonical package.
+1 NOTE Jan is Fredric’s biological mother; Henry is his father. Annie Fischer is Fredric’s wife, not a child of this family.
 1 SOUR @S28@
 0 @F096@ FAM
 1 HUSB @I193@
@@ -5041,6 +5034,7 @@
 1 NOTE Accepted occupational facts, household roles, military roles, transcription normalizations, rejected candidates, and row-level citations are itemized in Fredric_Vollmer_Complete_Family_Tree_Occupation_Research.csv.
 0 @I356@ INDI
 1 NAME Arianna Lynn /Fischer/
+2 NICK Annie
 1 SEX F
 1 BIRT
 2 DATE 1990
@@ -5591,6 +5585,7 @@
 1 NOTE The 1880 census records Annie as their daughter.
 1 SOUR @S60@
 0 @S49@ SOUR
+1 NOTE Owner correction, 5 September 2026: Annie is Arianna Lynn Fischer, Fredric Muller Vollmer’s wife. I175 was an erroneous duplicate with an incorrect Vollmer surname and sister/child relationship; it is retired. Retain I356, her documented Fischer parents, and spouse family F156.
 1 TITL Owner statement identifying Arianna Lynn Fischer and her parents
 1 AUTH Fredric Muller Vollmer
 1 DATE 2 SEP 2026

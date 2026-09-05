@@ -3,35 +3,35 @@
     "title": "Complete Family Tree of Fredric Muller Vollmer",
     "format": "consolidated canonical genealogy dataset",
     "gedcom_version": "5.5.1",
-    "updated": "2026-09-02",
+    "updated": "2026-09-05",
     "scope": "Canonical Vollmer tree plus Arianna Lynn Fischer and her documented direct paternal and maternal ancestry; no Fischer collateral relatives were added.",
     "privacy": "Living addresses and contact information are omitted. Living exact dates are withheld except Arianna's owner-supplied birth year.",
     "vital_date_coverage": {
-      "people": 391,
+      "people": 390,
       "birth_dates_recorded": 256,
       "death_dates_recorded": 218,
       "complete": 185,
       "partial": 104,
       "unresolved": 69,
-      "privacy_limited": 25,
+      "privacy_limited": 24,
       "living_private": 8
     },
     "occupation_coverage": {
-      "people": 391,
+      "people": 390,
       "people_with_recorded_occupations_or_roles": 17,
       "accepted_occupation_events": 23,
       "unresolved": 332,
-      "privacy_limited": 31,
+      "privacy_limited": 30,
       "living_private": 9,
       "minor_without_occupation": 2
     },
     "media_audit": {
       "audited": "2026-09-02",
-      "people_audited": 391,
+      "people_audited": 390,
       "portraits_archived": 0,
       "external_photo_pages": 2,
       "privacy_withheld": 8,
-      "no_verified_photo_archived": 381,
+      "no_verified_photo_archived": 380,
       "evidence_files": 78,
       "evidence_images": 69,
       "evidence_pdfs": 9,
@@ -2238,19 +2238,6 @@
       "families_as_spouse": "F092"
     },
     {
-      "individual_id": "I175",
-      "name": "Arianna Lynn Annie Vollmer",
-      "sex": "F",
-      "birth": "",
-      "death": "",
-      "occupations_and_roles": "",
-      "local_ids": "",
-      "source_refs": "",
-      "notes": "Relationship to Fredric: Sister. | Confidence: A - Confirmed.",
-      "family_as_child": "F095",
-      "families_as_spouse": ""
-    },
-    {
       "individual_id": "I176",
       "name": "Henry Richard Vollmer",
       "sex": "M",
@@ -4306,14 +4293,14 @@
     },
     {
       "individual_id": "I356",
-      "name": "Arianna Lynn Fischer",
+      "name": "Arianna Lynn “Annie” Fischer",
       "sex": "F",
       "birth": "1990",
       "death": "",
       "occupations_and_roles": "",
       "local_ids": "FISCHER-DIRECT-I356",
       "source_refs": "S49;S50",
-      "notes": "Owner-confirmed wife of Fredric Muller Vollmer. Living person; only the owner-supplied birth year is retained.",
+      "notes": "Owner-confirmed wife of Fredric Muller Vollmer. Living person; only the owner-supplied birth year is retained. | Owner correction, 5 September 2026: Annie is Arianna Lynn Fischer, Fredric Muller Vollmer’s wife. I175 was an erroneous duplicate with an incorrect Vollmer surname and sister/child relationship; it is retired. Retain I356, her documented Fischer parents, and spouse family F156.",
       "family_as_child": "F157",
       "families_as_spouse": "F156"
     },
@@ -5975,9 +5962,9 @@
       "family_id": "F095",
       "husband_id": "I176",
       "wife_id": "I002",
-      "children_ids": "I001;I175",
+      "children_ids": "I001",
       "marriage": "",
-      "notes": "Jan is Fredric and Arianna's biological mother; Henry is recorded as their father in the recovered canonical package.",
+      "notes": "Jan is Fredric’s biological mother; Henry is his father. Annie Fischer is Fredric’s wife, not a child of this family.",
       "source_refs": "S28"
     },
     {
@@ -7208,7 +7195,7 @@
       "title": "Owner statement identifying Arianna Lynn Fischer and her parents",
       "author": "Fredric Muller Vollmer",
       "date": "2 SEP 2026",
-      "notes": "The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published.",
+      "notes": "The owner identifies Arianna Lynn Fischer, born 1990, as his wife and names her parents as Sally Fischer and Ray W. Fischer. The exact living date is not published. Owner correction, 5 September 2026: Annie is Arianna Lynn Fischer, Fredric Muller Vollmer’s wife. I175 was an erroneous duplicate with an incorrect Vollmer surname and sister/child relationship; it is retired. Retain I356, her documented Fischer parents, and spouse family F156.",
       "origin": "Arianna Fischer direct-ancestry research"
     },
     {
@@ -7566,6 +7553,10 @@
     {
       "topic": "Wanda and June Fischer identity",
       "corrected": "Wanda and June are one person: official Texas marriage records use Wanda J. Wallace and the newspaper marriage index expands her name to Wanda June Wallace. A 2022 tribute addresses her as June."
+    },
+    {
+      "topic": "Annie Fischer identity",
+      "corrected": "Owner correction, 5 September 2026: Annie is Arianna Lynn Fischer, Fredric Muller Vollmer’s wife. I175 was an erroneous duplicate with an incorrect Vollmer surname and sister/child relationship; it is retired. Retain I356, her documented Fischer parents, and spouse family F156."
     }
   ],
   "provenance": [
@@ -7617,11 +7608,11 @@
   "media": {
     "metadata": {
       "audited": "2026-09-02",
-      "people_audited": 391,
+      "people_audited": 390,
       "portraits_archived": 0,
       "external_photo_pages": 2,
       "privacy_withheld": 8,
-      "no_verified_photo_archived": 381,
+      "no_verified_photo_archived": 380,
       "evidence_files": 78,
       "evidence_images": 69,
       "evidence_pdfs": 9,
@@ -9650,18 +9641,6 @@
       {
         "individual_id": "I174",
         "name": "Jean Pierre John Peter Bondurant",
-        "portrait_status": "no_verified_photo_archived",
-        "portrait_path": "",
-        "portrait_source_name": "",
-        "portrait_source_url": "",
-        "portrait_source_refs": [],
-        "portrait_rights": "",
-        "portrait_note": "No verified portrait was present in the repository or canonical evidence ledger at audit time.",
-        "evidence_ids": []
-      },
-      {
-        "individual_id": "I175",
-        "name": "Arianna Lynn Annie Vollmer",
         "portrait_status": "no_verified_photo_archived",
         "portrait_path": "",
         "portrait_source_name": "",
@@ -11735,7 +11714,7 @@
       },
       {
         "individual_id": "I356",
-        "name": "Arianna Lynn Fischer",
+        "name": "Arianna Lynn “Annie” Fischer",
         "portrait_status": "privacy_withheld",
         "portrait_path": "",
         "portrait_source_name": "",

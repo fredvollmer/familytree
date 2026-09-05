@@ -1349,3 +1349,9 @@ Preserved image: `records/1907-02-27_clarissa-mccoy-branham_grave-marker.jpeg`.
 - Walter Wallace's father, Lena Wirtz's parents beyond the death-certificate names, Ruby Gilmore's grandparents, and multiple maiden surnames remain blank where records do not support them.
 - Dorothy Highley's September 1995 death-day conflict is preserved rather than silently resolved.
 - Find a Grave-only parent extensions are labeled lower confidence.
+
+## Annie Fischer identity correction — 5 September 2026
+
+Owner correction, 5 September 2026: Annie is Arianna Lynn Fischer, Fredric Muller Vollmer’s wife. I175 was an erroneous duplicate with an incorrect Vollmer surname and sister/child relationship; it is retired. Retain I356, her documented Fischer parents, and spouse family F156.
+
+Source: direct owner statement in the Family Tree project; supplements S49. Earlier maternal-tree inputs are preserved as superseded evidence, not current relationships. No marriage date or new parentage was inferred.
