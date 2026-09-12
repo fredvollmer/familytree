@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: 'Vollmer Atlas — Follow a Family Thread',
   description:
     'Follow the Vollmer family tree one line at a time, with evidence and migration history close at hand.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Vollmer Atlas — Follow a Family Thread',
     description:
