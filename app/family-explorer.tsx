@@ -37,6 +37,12 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+} from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import {
   NativeSelect,
@@ -206,6 +212,16 @@ type MigrationData = {
 type MapFamilyLine = 'Muller' | 'Vollmer' | 'Fischer' | 'VanHoose';
 type MapTransform = { x: number; y: number; scale: number };
 type TreeFocusRequest = { id: string; sequence: number };
+type EvidenceLensPosition = {
+  left: number;
+  top: number;
+  width: number;
+  height: number;
+  sourceX: number;
+  sourceY: number;
+  imageWidth: number;
+  imageHeight: number;
+};
 type TimelineLine = MapFamilyLine | 'All';
 type TimelineKind = 'all' | 'birth' | 'death';
 type TimelineEvent = {
@@ -1978,16 +1994,242 @@ function EvidencePreview({ record }: { record: EvidenceRecord }) {
   );
 }
 
+function EvidenceViewer({
+  record,
+  onClose,
+}: {
+  record: EvidenceRecord | null;
+  onClose: () => void;
+}) {
+  const [lensEnabled, setLensEnabled] = useState(true);
+  const [lensVisible, setLensVisible] = useState(false);
+  const [magnification, setMagnification] = useState(2.5);
+  const [lensPosition, setLensPosition] = useState<EvidenceLensPosition | null>(
+    null,
+  );
+  const canvasRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const zoomLensWithWheel = (event: WheelEvent) => {
+      if (!lensEnabled || !lensVisible) return;
+      event.preventDefault();
+      setMagnification((value) =>
+        Math.max(1.5, Math.min(5, value + (event.deltaY < 0 ? 0.25 : -0.25))),
+      );
+    };
+
+    canvas.addEventListener('wheel', zoomLensWithWheel, { passive: false });
+    return () => canvas.removeEventListener('wheel', zoomLensWithWheel);
+  }, [lensEnabled, lensVisible]);
+
+  if (!record) return null;
+
+  const imageUrl = assetUrl(record.file_path);
+  const updateLens = (event: ReactPointerEvent<HTMLImageElement>) => {
+    if (!lensEnabled || !canvasRef.current) return;
+    const imageRect = event.currentTarget.getBoundingClientRect();
+    const canvasRect = canvasRef.current.getBoundingClientRect();
+    const sourceX = Math.max(
+      0,
+      Math.min(imageRect.width, event.clientX - imageRect.left),
+    );
+    const sourceY = Math.max(
+      0,
+      Math.min(imageRect.height, event.clientY - imageRect.top),
+    );
+    const width = Math.min(
+      360,
+      Math.max(260, imageRect.width * 1.2),
+      canvasRect.width - 24,
+    );
+    const height = Math.min(
+      240,
+      Math.max(170, width * 0.65),
+      canvasRect.height - 24,
+    );
+    const radiusX = width / 2;
+    const radiusY = height / 2;
+    const pointerX = event.clientX - canvasRect.left;
+    const pointerY = event.clientY - canvasRect.top;
+    const centerX = Math.max(
+      radiusX + 8,
+      Math.min(canvasRect.width - radiusX - 8, pointerX),
+    );
+    const centerY = Math.max(
+      radiusY + 8,
+      Math.min(canvasRect.height - radiusY - 8, pointerY),
+    );
+
+    setLensPosition({
+      left: centerX - radiusX,
+      top: centerY - radiusY,
+      width,
+      height,
+      sourceX,
+      sourceY,
+      imageWidth: imageRect.width,
+      imageHeight: imageRect.height,
+    });
+    setLensVisible(true);
+  };
+
+  return (
+    <Dialog
+      open
+      onOpenChange={(open) => {
+        if (!open) onClose();
+      }}
+    >
+      <DialogContent className="evidence-viewer-dialog" showCloseButton={false}>
+        <header className="evidence-viewer-header">
+          <div>
+            <p className="eyebrow">Evidence viewer · {record.evidence_id}</p>
+            <DialogTitle>{record.title}</DialogTitle>
+            <DialogDescription>
+              Move over the image to inspect fine details with the zoom lens.
+            </DialogDescription>
+          </div>
+          <div className="evidence-viewer-actions">
+            <div className="lens-controls" aria-label="Zoom lens controls">
+              <button
+                type="button"
+                className={lensEnabled ? 'active' : ''}
+                aria-pressed={lensEnabled}
+                onClick={() => {
+                  setLensEnabled((enabled) => !enabled);
+                  setLensVisible(false);
+                }}
+              >
+                <Search /> Lens
+              </button>
+              <button
+                type="button"
+                aria-label="Decrease lens magnification"
+                disabled={magnification <= 1.5}
+                onClick={() =>
+                  setMagnification((value) => Math.max(1.5, value - 0.5))
+                }
+              >
+                <Minus />
+              </button>
+              <output aria-live="polite">
+                {magnification.toFixed(1).replace('.0', '')}×
+              </output>
+              <button
+                type="button"
+                aria-label="Increase lens magnification"
+                disabled={magnification >= 5}
+                onClick={() =>
+                  setMagnification((value) => Math.min(5, value + 0.5))
+                }
+              >
+                <Plus />
+              </button>
+            </div>
+            <button
+              type="button"
+              className="evidence-viewer-close"
+              onClick={onClose}
+              aria-label="Close evidence viewer"
+            >
+              <X />
+            </button>
+          </div>
+        </header>
+
+        <div className="evidence-viewer-body">
+          <div
+            ref={canvasRef}
+            className={`evidence-viewer-canvas ${lensEnabled ? 'lens-active' : ''}`}
+          >
+            <img
+              src={imageUrl}
+              alt={record.title}
+              draggable={false}
+              onPointerEnter={updateLens}
+              onPointerMove={updateLens}
+              onPointerDown={updateLens}
+              onPointerLeave={(event) => {
+                if (event.pointerType === 'mouse') setLensVisible(false);
+              }}
+              onPointerCancel={() => setLensVisible(false)}
+            />
+            {lensEnabled && lensVisible && lensPosition && (
+              <span
+                className="evidence-zoom-lens"
+                aria-hidden="true"
+                style={{
+                  left: lensPosition.left,
+                  top: lensPosition.top,
+                  width: lensPosition.width,
+                  height: lensPosition.height,
+                  backgroundImage: `url(${JSON.stringify(imageUrl)})`,
+                  backgroundSize: `${lensPosition.imageWidth * magnification}px ${lensPosition.imageHeight * magnification}px`,
+                  backgroundPosition: `${lensPosition.width / 2 - lensPosition.sourceX * magnification}px ${lensPosition.height / 2 - lensPosition.sourceY * magnification}px`,
+                }}
+              />
+            )}
+            <div className="evidence-viewer-hint" aria-hidden="true">
+              <Search />
+              {lensEnabled ? 'Move or drag to magnify' : 'Zoom lens paused'}
+            </div>
+          </div>
+
+          <aside className="evidence-viewer-details">
+            <div>
+              <p className="eyebrow">Record details</p>
+              <dl>
+                <div>
+                  <dt>File</dt>
+                  <dd>{record.filename}</dd>
+                </div>
+                <div>
+                  <dt>Source</dt>
+                  <dd>
+                    {record.source_platforms.join(' · ') || 'Local archive'}
+                  </dd>
+                </div>
+                <div>
+                  <dt>References</dt>
+                  <dd>{record.ledger_refs.join(', ') || 'Not assigned'}</dd>
+                </div>
+              </dl>
+            </div>
+            {record.note && (
+              <p className="evidence-viewer-note">{record.note}</p>
+            )}
+            {record.status !== 'supporting' && (
+              <Badge variant="outline">
+                {record.status === 'excluded_identity_control'
+                  ? 'Excluded identity control'
+                  : 'Uncertainty retained'}
+              </Badge>
+            )}
+            <a href={imageUrl} target="_blank" rel="noreferrer">
+              Open original image <ExternalLink />
+            </a>
+          </aside>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
+
 function DetailsPane({
   person,
   data,
   relations,
   onSelect,
+  onOpenEvidence,
 }: {
   person: Person;
   data: TreeData;
   relations: RelationIndex;
   onSelect: (id: string) => void;
+  onOpenEvidence: (record: EvidenceRecord) => void;
 }) {
   const people = useMemo(
     () => new Map(data.people.map((item) => [item.individual_id, item])),
@@ -2178,29 +2420,53 @@ function DetailsPane({
             <FileText size={15} />
           </div>
           <div className="record-gallery">
-            {records.map((record) => (
-              <a
-                href={assetUrl(record.file_path)}
-                target="_blank"
-                rel="noreferrer"
-                className={`record-card ${record.status === 'excluded_identity_control' ? 'record-excluded' : ''}`}
-                key={record.evidence_id}
-              >
-                <div className="record-preview">
-                  <EvidencePreview record={record} />
-                </div>
-                <div>
-                  <strong>{record.title}</strong>
-                  {record.status === 'excluded_identity_control' && (
-                    <em>Identity control · excluded</em>
-                  )}
-                  <span>
-                    Open {record.media_type === 'pdf' ? 'PDF' : 'image'}{' '}
-                    <ExternalLink />
-                  </span>
-                </div>
-              </a>
-            ))}
+            {records.map((record) => {
+              const content = (
+                <>
+                  <div className="record-preview">
+                    <EvidencePreview record={record} />
+                  </div>
+                  <div>
+                    <strong>{record.title}</strong>
+                    {record.status === 'excluded_identity_control' && (
+                      <em>Identity control · excluded</em>
+                    )}
+                    <span>
+                      {record.media_type === 'image' ? (
+                        <>
+                          View image <Search />
+                        </>
+                      ) : (
+                        <>
+                          Open PDF <ExternalLink />
+                        </>
+                      )}
+                    </span>
+                  </div>
+                </>
+              );
+              const className = `record-card ${record.status === 'excluded_identity_control' ? 'record-excluded' : ''}`;
+              return record.media_type === 'image' ? (
+                <button
+                  type="button"
+                  className={className}
+                  key={record.evidence_id}
+                  onClick={() => onOpenEvidence(record)}
+                >
+                  {content}
+                </button>
+              ) : (
+                <a
+                  href={assetUrl(record.file_path)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={className}
+                  key={record.evidence_id}
+                >
+                  {content}
+                </a>
+              );
+            })}
           </div>
         </section>
       )}
@@ -2211,9 +2477,11 @@ function DetailsPane({
 function EvidenceArchive({
   data,
   onSelect,
+  onOpenEvidence,
 }: {
   data: TreeData;
   onSelect: (id: string) => void;
+  onOpenEvidence: (record: EvidenceRecord) => void;
 }) {
   const [filter, setFilter] = useState('');
   const people = useMemo(
@@ -2277,20 +2545,30 @@ function EvidenceArchive({
             className={`archive-card ${record.status === 'excluded_identity_control' ? 'record-excluded' : ''}`}
             key={record.evidence_id}
           >
-            <a
-              className="archive-image"
-              href={assetUrl(record.file_path)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <EvidencePreview record={record} />
-              <span>
-                {record.media_type === 'pdf'
-                  ? `${record.page_count} page PDF`
-                  : 'Source image'}{' '}
-                <ExternalLink />
-              </span>
-            </a>
+            {record.media_type === 'image' ? (
+              <button
+                type="button"
+                className="archive-image"
+                onClick={() => onOpenEvidence(record)}
+              >
+                <EvidencePreview record={record} />
+                <span>
+                  View source image <Search />
+                </span>
+              </button>
+            ) : (
+              <a
+                className="archive-image"
+                href={assetUrl(record.file_path)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <EvidencePreview record={record} />
+                <span>
+                  {record.page_count} page PDF <ExternalLink />
+                </span>
+              </a>
+            )}
             <div className="archive-card-copy">
               <p className="eyebrow">
                 {record.evidence_id} · {record.ledger_refs.join(', ')}
@@ -2362,6 +2640,7 @@ export default function FamilyExplorer() {
   const [query, setQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
   const [activeSearchIndex, setActiveSearchIndex] = useState(0);
+  const [openEvidence, setOpenEvidence] = useState<EvidenceRecord | null>(null);
   const [treeFocusRequest, setTreeFocusRequest] =
     useState<TreeFocusRequest | null>(null);
   const searchSequenceRef = useRef(0);
@@ -2635,7 +2914,11 @@ export default function FamilyExplorer() {
               onSelect={selectPerson}
             />
           ) : (
-            <EvidenceArchive data={data} onSelect={selectPerson} />
+            <EvidenceArchive
+              data={data}
+              onSelect={selectPerson}
+              onOpenEvidence={setOpenEvidence}
+            />
           )}
         </div>
         <DetailsPane
@@ -2643,8 +2926,14 @@ export default function FamilyExplorer() {
           data={data}
           relations={relations}
           onSelect={selectPerson}
+          onOpenEvidence={setOpenEvidence}
         />
       </section>
+      <EvidenceViewer
+        key={openEvidence?.evidence_id ?? 'closed'}
+        record={openEvidence}
+        onClose={() => setOpenEvidence(null)}
+      />
       <footer className="mobile-footer">
         <Users /> {selected.name}
         <span>{lifeYears(selected)}</span>
