@@ -819,6 +819,7 @@ button {
   display: grid;
   grid-template-columns: 48px 1fr;
   gap: 9px;
+  align-items: baseline;
   margin-top: 11px;
 }
 .life-event span,
