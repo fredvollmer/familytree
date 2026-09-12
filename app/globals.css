@@ -2492,6 +2492,32 @@ button {
 .detail-heading {
   border-color: #e3d7cf;
 }
+.detail-panel-closable {
+  position: sticky;
+}
+.detail-panel-closable .detail-heading {
+  padding-right: 34px;
+}
+.close-detail {
+  position: absolute;
+  z-index: 2;
+  top: 17px;
+  right: 16px;
+  width: 34px;
+  height: 34px;
+  color: #765f63;
+  border: 1px solid #dfd0c8;
+  background: #fffaf5d9;
+}
+.close-detail:hover {
+  color: #8f3e30;
+  border-color: #c98e7a;
+  background: #f8e5da;
+}
+.close-detail svg {
+  width: 17px;
+  height: 17px;
+}
 .monogram,
 .portrait-image {
   width: 58px;
@@ -2870,7 +2896,10 @@ button {
 
 /* Timeline — a chronological ledger with an at-a-glance era index */
 .timeline-stage {
-  min-height: calc(100vh - 159px);
+  height: calc(100vh - 159px);
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid #d5c4ba;
   border-radius: 12px;
@@ -2878,25 +2907,27 @@ button {
   box-shadow: 0 18px 38px #3b252b17;
 }
 .timeline-overview {
-  display: grid;
-  grid-template-columns: minmax(230px, 0.85fr) minmax(250px, 0.7fr) minmax(
-      340px,
-      1.45fr
-    );
-  gap: 24px;
-  align-items: end;
-  min-height: 166px;
-  padding: 22px 24px 19px;
+  position: sticky;
+  top: 72px;
+  height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 30px 23px 38px;
+  overflow-y: auto;
+  border-left: 1px solid #513842;
   color: #fff8f0;
   background:
     radial-gradient(circle at 14% 0%, #6b3b40 0, transparent 42%),
     linear-gradient(135deg, #38242e, #251820 78%);
+  scrollbar-color: #815b62 transparent;
+  scrollbar-width: thin;
 }
 .timeline-overview .eyebrow {
   color: #e8a37d;
 }
 .timeline-overview-copy h2 {
-  margin: 7px 0 5px;
+  margin: 12px 0 8px;
   color: #fffaf5;
   font: 700 32px/1 var(--font-geist-sans);
   letter-spacing: -0.045em;
@@ -2909,8 +2940,8 @@ button {
   letter-spacing: 0;
 }
 .timeline-overview-copy > p:last-child {
-  max-width: 460px;
-  margin: 10px 0 0;
+  max-width: 330px;
+  margin: 14px 0 0;
   color: #cbb7b7;
   font-size: 13px;
   line-height: 1.45;
@@ -2924,7 +2955,7 @@ button {
   background: #2e1d25b8;
 }
 .timeline-overview-stats div {
-  padding: 12px 10px;
+  padding: 14px 10px;
   border-right: 1px solid #60424b;
 }
 .timeline-overview-stats div:last-child {
@@ -2948,7 +2979,7 @@ button {
   text-transform: uppercase;
 }
 .timeline-era-chart {
-  height: 102px;
+  height: 164px;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: minmax(34px, 1fr);
@@ -2960,7 +2991,7 @@ button {
   scrollbar-width: thin;
 }
 .timeline-era-chart button {
-  height: 94px;
+  height: 154px;
   min-width: 34px;
   display: grid;
   grid-template-rows: 1fr 19px;
@@ -3003,6 +3034,14 @@ button {
   font: 9.5px/1 var(--font-geist-mono);
   transform: rotate(-32deg) translate(2px, 2px);
   transform-origin: center;
+}
+.timeline-chart-label {
+  margin: 0 0 10px;
+  color: #b89fa2;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
 }
 .timeline-controls {
   display: grid;
@@ -3068,8 +3107,8 @@ button {
   font-size: 14px;
 }
 .timeline-ledger {
-  max-height: calc(100vh - 485px);
-  min-height: 400px;
+  min-height: 0;
+  flex: 1;
   overflow-y: auto;
   padding: 17px 20px 28px;
   background:
@@ -3277,19 +3316,11 @@ button {
 }
 
 @media (max-width: 1180px) {
-  .timeline-overview {
-    grid-template-columns: minmax(220px, 0.8fr) minmax(320px, 1.2fr);
-  }
-  .timeline-overview-stats {
-    grid-column: 1;
-  }
   .timeline-era-chart {
-    grid-column: 2;
-    grid-row: 1 / 3;
-    height: 126px;
+    height: 142px;
   }
   .timeline-era-chart button {
-    height: 118px;
+    height: 132px;
   }
   .timeline-controls {
     grid-template-columns: 1fr minmax(190px, 230px);
@@ -3303,7 +3334,7 @@ button {
     grid-row: 1 / 3;
   }
   .timeline-ledger {
-    max-height: calc(100vh - 550px);
+    max-height: none;
   }
   .timeline-event-grid {
     grid-template-columns: 1fr;
@@ -3312,12 +3343,12 @@ button {
 
 @media (max-width: 820px) {
   .timeline-overview {
-    grid-template-columns: 1fr;
-  }
-  .timeline-overview-stats,
-  .timeline-era-chart {
-    grid-column: 1;
-    grid-row: auto;
+    position: relative;
+    top: auto;
+    height: auto;
+    min-height: 390px;
+    border-top: 1px solid #513842;
+    border-left: 0;
   }
   .timeline-era-chart {
     height: 108px;
@@ -3331,6 +3362,12 @@ button {
   .timeline-ledger {
     max-height: none;
     min-height: 520px;
+  }
+  .timeline-stage {
+    height: auto;
+  }
+  .detail-panel-closable {
+    position: relative;
   }
 }
 

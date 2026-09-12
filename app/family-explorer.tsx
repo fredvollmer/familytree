@@ -408,6 +408,44 @@ const timelineEventParts = (value: string) => {
   return { date, place: placeParts.join(', ') };
 };
 
+function buildTimelineEvents(
+  data: TreeData,
+  lineMemberships: Map<string, MapFamilyLine[]>,
+) {
+  const timelineEvents: TimelineEvent[] = [];
+  data.people.forEach((person) => {
+    (
+      [
+        ['birth', person.birth],
+        ['death', person.death],
+      ] as const
+    ).forEach(([eventKind, value]) => {
+      const year = timelineYear(value);
+      if (!year) return;
+      const parts = timelineEventParts(value);
+      timelineEvents.push({
+        id: `${person.individual_id}-${eventKind}`,
+        person,
+        kind: eventKind,
+        year,
+        date: parts.date,
+        place: parts.place,
+        approximate: /\b(?:ABT|ABOUT|BEF|AFT|EST|CAL|BET)\b/i.test(value),
+        lines: lineMemberships.get(person.individual_id) ?? [],
+      });
+    });
+  });
+  return timelineEvents.sort(
+    (a, b) =>
+      a.year - b.year ||
+      (a.kind === b.kind
+        ? a.person.name.localeCompare(b.person.name)
+        : a.kind === 'birth'
+          ? -1
+          : 1),
+  );
+}
+
 function linkedSourceNote(note: string) {
   return note.split(/(https?:\/\/[^\s;]+)/g).map((part, index) => {
     if (!part.startsWith('http')) return part;
@@ -1692,151 +1730,30 @@ function MigrationMap({
 }
 
 function FamilyTimeline({
-  data,
-  lineMemberships,
+  eras,
+  yearGroups,
+  line,
+  kind,
+  era,
   selectedId,
   onSelect,
+  onLineChange,
+  onKindChange,
+  onEraChange,
 }: {
-  data: TreeData;
-  lineMemberships: Map<string, MapFamilyLine[]>;
-  selectedId: string;
+  eras: { start: number; end: number; count: number }[];
+  yearGroups: { year: number; items: TimelineEvent[] }[];
+  line: TimelineLine;
+  kind: TimelineKind;
+  era: string;
+  selectedId: string | null;
   onSelect: (id: string) => void;
+  onLineChange: (line: TimelineLine) => void;
+  onKindChange: (kind: TimelineKind) => void;
+  onEraChange: (era: string) => void;
 }) {
-  const [line, setLine] = useState<TimelineLine>('All');
-  const [kind, setKind] = useState<TimelineKind>('all');
-  const [era, setEra] = useState('all');
-
-  const events = useMemo(() => {
-    const timelineEvents: TimelineEvent[] = [];
-    data.people.forEach((person) => {
-      (
-        [
-          ['birth', person.birth],
-          ['death', person.death],
-        ] as const
-      ).forEach(([eventKind, value]) => {
-        const year = timelineYear(value);
-        if (!year) return;
-        const parts = timelineEventParts(value);
-        timelineEvents.push({
-          id: `${person.individual_id}-${eventKind}`,
-          person,
-          kind: eventKind,
-          year,
-          date: parts.date,
-          place: parts.place,
-          approximate: /\b(?:ABT|ABOUT|BEF|AFT|EST|CAL|BET)\b/i.test(value),
-          lines: lineMemberships.get(person.individual_id) ?? [],
-        });
-      });
-    });
-    return timelineEvents.sort(
-      (a, b) =>
-        a.year - b.year ||
-        (a.kind === b.kind
-          ? a.person.name.localeCompare(b.person.name)
-          : a.kind === 'birth'
-            ? -1
-            : 1),
-    );
-  }, [data.people, lineMemberships]);
-
-  const firstYear = events[0]?.year ?? 1500;
-  const lastYear = events.at(-1)?.year ?? new Date().getFullYear();
-  const eras = useMemo(() => {
-    const start = Math.floor(firstYear / 50) * 50;
-    const end = Math.floor(lastYear / 50) * 50;
-    const ranges = [];
-    for (let year = start; year <= end; year += 50) {
-      ranges.push({
-        start: year,
-        end: year + 49,
-        count: events.filter(
-          (event) => event.year >= year && event.year <= year + 49,
-        ).length,
-      });
-    }
-    return ranges;
-  }, [events, firstYear, lastYear]);
-  const largestEra = Math.max(1, ...eras.map((item) => item.count));
-
-  const filteredEvents = useMemo(() => {
-    const selectedEra = era === 'all' ? null : Number(era);
-    return events.filter(
-      (event) =>
-        (line === 'All' || event.lines.includes(line)) &&
-        (kind === 'all' || event.kind === kind) &&
-        (selectedEra === null ||
-          (event.year >= selectedEra && event.year <= selectedEra + 49)),
-    );
-  }, [era, events, kind, line]);
-
-  const yearGroups = useMemo(() => {
-    const groups = new Map<number, TimelineEvent[]>();
-    filteredEvents.forEach((event) => {
-      const group = groups.get(event.year) ?? [];
-      group.push(event);
-      groups.set(event.year, group);
-    });
-    return Array.from(groups, ([year, items]) => ({ year, items }));
-  }, [filteredEvents]);
-  const peopleShown = new Set(
-    filteredEvents.map((event) => event.person.individual_id),
-  ).size;
-  const selectedEra = era === 'all' ? null : Number(era);
-
   return (
     <div className="timeline-stage">
-      <section className="timeline-overview" aria-label="Timeline overview">
-        <div className="timeline-overview-copy">
-          <p className="eyebrow">Recorded family history</p>
-          <h2>
-            {firstYear} <span>to</span> {lastYear}
-          </h2>
-          <p>
-            Births and deaths placed in time from the canonical family tree.
-            Approximate dates remain marked as estimates.
-          </p>
-        </div>
-        <div className="timeline-overview-stats">
-          <div>
-            <strong>{filteredEvents.length}</strong>
-            <span>events shown</span>
-          </div>
-          <div>
-            <strong>{peopleShown}</strong>
-            <span>people</span>
-          </div>
-          <div>
-            <strong>{yearGroups.length}</strong>
-            <span>recorded years</span>
-          </div>
-        </div>
-        <div className="timeline-era-chart" aria-label="Events by 50-year era">
-          {eras.map((item) => (
-            <button
-              key={item.start}
-              type="button"
-              className={selectedEra === item.start ? 'active' : ''}
-              aria-pressed={selectedEra === item.start}
-              title={`${item.start}–${item.end}: ${item.count} recorded events`}
-              onClick={() =>
-                setEra((current) =>
-                  current === String(item.start) ? 'all' : String(item.start),
-                )
-              }
-            >
-              <i
-                style={{
-                  height: `${Math.max(8, (item.count / largestEra) * 100)}%`,
-                }}
-              />
-              <span>{item.start}</span>
-            </button>
-          ))}
-        </div>
-      </section>
-
       <div className="timeline-controls">
         <div className="timeline-control-group timeline-line-control">
           <span>Family line</span>
@@ -1855,7 +1772,7 @@ function FamilyTimeline({
                           '--line-color': LINE_COLORS[familyLine],
                         } as CSSProperties)
                   }
-                  onClick={() => setLine(familyLine)}
+                  onClick={() => onLineChange(familyLine)}
                 >
                   {familyLine !== 'All' && <i />}
                   {familyLine}
@@ -1879,7 +1796,7 @@ function FamilyTimeline({
                 type="button"
                 className={kind === value ? 'active' : ''}
                 aria-pressed={kind === value}
-                onClick={() => setKind(value)}
+                onClick={() => onKindChange(value)}
               >
                 {label}
               </button>
@@ -1890,7 +1807,7 @@ function FamilyTimeline({
           <span>Period</span>
           <NativeSelect
             value={era}
-            onChange={(event) => setEra(event.target.value)}
+            onChange={(event) => onEraChange(event.target.value)}
           >
             <NativeSelectOption value="all">
               All recorded years
@@ -1975,6 +1892,85 @@ function FamilyTimeline({
         )}
       </div>
     </div>
+  );
+}
+
+function TimelineOverview({
+  events,
+  filteredEvents,
+  eras,
+  yearGroups,
+  era,
+  onEraChange,
+}: {
+  events: TimelineEvent[];
+  filteredEvents: TimelineEvent[];
+  eras: { start: number; end: number; count: number }[];
+  yearGroups: { year: number; items: TimelineEvent[] }[];
+  era: string;
+  onEraChange: (era: string) => void;
+}) {
+  const firstYear = events[0]?.year ?? 1500;
+  const lastYear = events.at(-1)?.year ?? new Date().getFullYear();
+  const largestEra = Math.max(1, ...eras.map((item) => item.count));
+  const selectedEra = era === 'all' ? null : Number(era);
+  const peopleShown = new Set(
+    filteredEvents.map((event) => event.person.individual_id),
+  ).size;
+
+  return (
+    <aside className="timeline-overview" aria-label="Timeline overview">
+      <div className="timeline-overview-copy">
+        <p className="eyebrow">Recorded family history</p>
+        <h2>
+          {firstYear} <span>to</span> {lastYear}
+        </h2>
+        <p>
+          Births and deaths placed in time from the canonical family tree.
+          Approximate dates remain marked as estimates.
+        </p>
+      </div>
+      <div className="timeline-overview-stats">
+        <div>
+          <strong>{filteredEvents.length}</strong>
+          <span>events shown</span>
+        </div>
+        <div>
+          <strong>{peopleShown}</strong>
+          <span>people</span>
+        </div>
+        <div>
+          <strong>{yearGroups.length}</strong>
+          <span>recorded years</span>
+        </div>
+      </div>
+      <div>
+        <p className="timeline-chart-label">Events by 50-year period</p>
+        <div className="timeline-era-chart" aria-label="Events by 50-year era">
+          {eras.map((item) => (
+            <button
+              key={item.start}
+              type="button"
+              className={selectedEra === item.start ? 'active' : ''}
+              aria-pressed={selectedEra === item.start}
+              title={`${item.start}–${item.end}: ${item.count} recorded events`}
+              onClick={() =>
+                onEraChange(
+                  selectedEra === item.start ? 'all' : String(item.start),
+                )
+              }
+            >
+              <i
+                style={{
+                  height: `${Math.max(8, (item.count / largestEra) * 100)}%`,
+                }}
+              />
+              <span>{item.start}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    </aside>
   );
 }
 
@@ -2224,12 +2220,14 @@ function DetailsPane({
   relations,
   onSelect,
   onOpenEvidence,
+  onClose,
 }: {
   person: Person;
   data: TreeData;
   relations: RelationIndex;
   onSelect: (id: string) => void;
   onOpenEvidence: (record: EvidenceRecord) => void;
+  onClose?: () => void;
 }) {
   const people = useMemo(
     () => new Map(data.people.map((item) => [item.individual_id, item])),
@@ -2276,7 +2274,21 @@ function DetailsPane({
   const researchNotes = publicResearchNotes(person);
 
   return (
-    <aside className="detail-panel" aria-label={`${person.name} details`}>
+    <aside
+      className={`detail-panel${onClose ? ' detail-panel-closable' : ''}`}
+      aria-label={`${person.name} details`}
+    >
+      {onClose && (
+        <Button
+          variant="ghost"
+          size="icon"
+          className="close-detail"
+          onClick={onClose}
+          aria-label="Close event details and show timeline statistics"
+        >
+          <X />
+        </Button>
+      )}
       <div className="detail-heading">
         {personMedia?.portrait_path ? (
           <img
@@ -2637,6 +2649,10 @@ export default function FamilyExplorer() {
   const [view, setView] = useState<'tree' | 'map' | 'timeline' | 'archive'>(
     'tree',
   );
+  const [timelineLine, setTimelineLine] = useState<TimelineLine>('All');
+  const [timelineKind, setTimelineKind] = useState<TimelineKind>('all');
+  const [timelineEra, setTimelineEra] = useState('all');
+  const [timelineDetailsOpen, setTimelineDetailsOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
   const [activeSearchIndex, setActiveSearchIndex] = useState(0);
@@ -2707,6 +2723,48 @@ export default function FamilyExplorer() {
     });
     return memberships;
   }, [data, relations]);
+  const timelineEvents = useMemo(
+    () => (data ? buildTimelineEvents(data, treeLinesByPerson) : []),
+    [data, treeLinesByPerson],
+  );
+  const timelineEras = useMemo(() => {
+    const firstYear = timelineEvents[0]?.year ?? 1500;
+    const lastYear = timelineEvents.at(-1)?.year ?? new Date().getFullYear();
+    const ranges = [];
+    for (
+      let year = Math.floor(firstYear / 50) * 50;
+      year <= Math.floor(lastYear / 50) * 50;
+      year += 50
+    ) {
+      ranges.push({
+        start: year,
+        end: year + 49,
+        count: timelineEvents.filter(
+          (event) => event.year >= year && event.year <= year + 49,
+        ).length,
+      });
+    }
+    return ranges;
+  }, [timelineEvents]);
+  const filteredTimelineEvents = useMemo(() => {
+    const selectedEra = timelineEra === 'all' ? null : Number(timelineEra);
+    return timelineEvents.filter(
+      (event) =>
+        (timelineLine === 'All' || event.lines.includes(timelineLine)) &&
+        (timelineKind === 'all' || event.kind === timelineKind) &&
+        (selectedEra === null ||
+          (event.year >= selectedEra && event.year <= selectedEra + 49)),
+    );
+  }, [timelineEra, timelineEvents, timelineKind, timelineLine]);
+  const timelineYearGroups = useMemo(() => {
+    const groups = new Map<number, TimelineEvent[]>();
+    filteredTimelineEvents.forEach((event) => {
+      const group = groups.get(event.year) ?? [];
+      group.push(event);
+      groups.set(event.year, group);
+    });
+    return Array.from(groups, ([year, items]) => ({ year, items }));
+  }, [filteredTimelineEvents]);
 
   if (!data || !migration || !relations || !selected) return <LoadingView />;
 
@@ -2715,6 +2773,16 @@ export default function FamilyExplorer() {
     setTreeFocusRequest(null);
     setQuery('');
     setSearchOpen(false);
+  };
+
+  const selectTimelinePerson = (id: string) => {
+    selectPerson(id);
+    setTimelineDetailsOpen(true);
+  };
+
+  const showTimeline = () => {
+    setView('timeline');
+    setTimelineDetailsOpen(false);
   };
 
   const startLineAt = (id: string) => {
@@ -2761,7 +2829,7 @@ export default function FamilyExplorer() {
           </Button>
           <Button
             variant={view === 'timeline' ? 'default' : 'ghost'}
-            onClick={() => setView('timeline')}
+            onClick={showTimeline}
           >
             <CalendarRange /> Timeline
           </Button>
@@ -2908,10 +2976,16 @@ export default function FamilyExplorer() {
             />
           ) : view === 'timeline' ? (
             <FamilyTimeline
-              data={data}
-              lineMemberships={treeLinesByPerson}
-              selectedId={selectedId}
-              onSelect={selectPerson}
+              eras={timelineEras}
+              yearGroups={timelineYearGroups}
+              line={timelineLine}
+              kind={timelineKind}
+              era={timelineEra}
+              selectedId={timelineDetailsOpen ? selectedId : null}
+              onSelect={selectTimelinePerson}
+              onLineChange={setTimelineLine}
+              onKindChange={setTimelineKind}
+              onEraChange={setTimelineEra}
             />
           ) : (
             <EvidenceArchive
@@ -2921,34 +2995,52 @@ export default function FamilyExplorer() {
             />
           )}
         </div>
-        <DetailsPane
-          person={selected}
-          data={data}
-          relations={relations}
-          onSelect={selectPerson}
-          onOpenEvidence={setOpenEvidence}
-        />
+        {view === 'timeline' && !timelineDetailsOpen ? (
+          <TimelineOverview
+            events={timelineEvents}
+            filteredEvents={filteredTimelineEvents}
+            eras={timelineEras}
+            yearGroups={timelineYearGroups}
+            era={timelineEra}
+            onEraChange={setTimelineEra}
+          />
+        ) : (
+          <DetailsPane
+            person={selected}
+            data={data}
+            relations={relations}
+            onSelect={selectPerson}
+            onOpenEvidence={setOpenEvidence}
+            onClose={
+              view === 'timeline'
+                ? () => setTimelineDetailsOpen(false)
+                : undefined
+            }
+          />
+        )}
       </section>
       <EvidenceViewer
         key={openEvidence?.evidence_id ?? 'closed'}
         record={openEvidence}
         onClose={() => setOpenEvidence(null)}
       />
-      <footer className="mobile-footer">
-        <Users /> {selected.name}
-        <span>{lifeYears(selected)}</span>
-        <Button
-          size="sm"
-          variant="outline"
-          onClick={() =>
-            document
-              .querySelector('.detail-panel')
-              ?.scrollIntoView({ behavior: 'smooth' })
-          }
-        >
-          View details <Maximize2 />
-        </Button>
-      </footer>
+      {(view !== 'timeline' || timelineDetailsOpen) && (
+        <footer className="mobile-footer">
+          <Users /> {selected.name}
+          <span>{lifeYears(selected)}</span>
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={() =>
+              document
+                .querySelector('.detail-panel')
+                ?.scrollIntoView({ behavior: 'smooth' })
+            }
+          >
+            View details <Maximize2 />
+          </Button>
+        </footer>
+      )}
     </main>
   );
 }
