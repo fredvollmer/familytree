@@ -225,7 +225,8 @@ button {
 .search-results button:last-child {
   border-bottom: 0;
 }
-.search-results button:hover {
+.search-results button:hover,
+.search-results button.active {
   background: #f3eddf;
 }
 .search-results strong,
@@ -1844,7 +1845,8 @@ button {
 .search-results button {
   border-color: #e6dad2;
 }
-.search-results button:hover {
+.search-results button:hover,
+.search-results button.active {
   background: #faeee5;
 }
 .result-monogram {

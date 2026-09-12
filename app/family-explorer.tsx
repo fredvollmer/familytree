@@ -204,6 +204,7 @@ type MigrationData = {
 
 type MapFamilyLine = 'Muller' | 'Vollmer' | 'Fischer' | 'VanHoose';
 type MapTransform = { x: number; y: number; scale: number };
+type TreeFocusRequest = { id: string; sequence: number };
 type MapBounds = {
   west: number;
   south: number;
@@ -613,6 +614,7 @@ function FamilyTree({
   mediaByPerson,
   selectedId,
   line,
+  focusRequest,
   onLineChange,
   onSelect,
 }: {
@@ -621,6 +623,7 @@ function FamilyTree({
   mediaByPerson: Map<string, MediaPerson>;
   selectedId: string;
   line: MapFamilyLine;
+  focusRequest: TreeFocusRequest | null;
   onLineChange: (line: MapFamilyLine) => void;
   onSelect: (id: string) => void;
 }) {
@@ -683,6 +686,24 @@ function FamilyTree({
     });
     return () => window.cancelAnimationFrame(frame);
   }, [anchorId, layout.width, layout.height, nodesById]);
+
+  useEffect(() => {
+    if (!focusRequest) return;
+    const frame = window.requestAnimationFrame(() => {
+      const stage = stageRef.current;
+      const node = nodesById.get(focusRequest.id);
+      if (!stage || !node) return;
+      setTransform((current) => {
+        const scale = Math.min(1.35, Math.max(0.68, current.scale));
+        return {
+          scale,
+          x: stage.clientWidth / 2 - (node.x + TREE_NODE_WIDTH / 2) * scale,
+          y: stage.clientHeight / 2 - (node.y + TREE_NODE_HEIGHT / 2) * scale,
+        };
+      });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [focusRequest, nodesById]);
 
   const zoomAt = (nextScale: number, clientX?: number, clientY?: number) => {
     const stage = stageRef.current;
@@ -1997,6 +2018,10 @@ export default function FamilyExplorer() {
   const [view, setView] = useState<'tree' | 'map' | 'archive'>('tree');
   const [query, setQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
+  const [activeSearchIndex, setActiveSearchIndex] = useState(0);
+  const [treeFocusRequest, setTreeFocusRequest] =
+    useState<TreeFocusRequest | null>(null);
+  const searchSequenceRef = useRef(0);
 
   useEffect(() => {
     void Promise.all([
@@ -2037,19 +2062,49 @@ export default function FamilyExplorer() {
     const needle = normalize(query);
     return data.people
       .filter((person) => normalize(person.name).includes(needle))
+      .sort((a, b) => {
+        const aName = normalize(a.name);
+        const bName = normalize(b.name);
+        const aRank = aName === needle ? 0 : aName.startsWith(needle) ? 1 : 2;
+        const bRank = bName === needle ? 0 : bName.startsWith(needle) ? 1 : 2;
+        return aRank - bRank || aName.localeCompare(bName);
+      })
       .slice(0, 8);
   }, [data, query]);
+  const treeLinesByPerson = useMemo(() => {
+    const memberships = new Map<string, MapFamilyLine[]>();
+    if (!data || !relations) return memberships;
+    MAP_FAMILY_LINES.forEach((line) => {
+      buildAncestorTree(TREE_LINE_ANCHORS[line], data, relations).nodes.forEach(
+        (node) => {
+          const lines = memberships.get(node.id) ?? [];
+          lines.push(line);
+          memberships.set(node.id, lines);
+        },
+      );
+    });
+    return memberships;
+  }, [data, relations]);
 
   if (!data || !migration || !relations || !selected) return <LoadingView />;
 
   const selectPerson = (id: string) => {
     setSelectedId(id);
+    setTreeFocusRequest(null);
     setQuery('');
     setSearchOpen(false);
   };
 
   const startLineAt = (id: string) => {
+    const matchingLines = treeLinesByPerson.get(id) ?? [];
+    const targetLine = matchingLines.includes(treeLine)
+      ? treeLine
+      : matchingLines[0];
+    if (targetLine) setTreeLine(targetLine);
+    setView('tree');
     setSelectedId(id);
+    searchSequenceRef.current += 1;
+    setTreeFocusRequest({ id, sequence: searchSequenceRef.current });
     setQuery('');
     setSearchOpen(false);
   };
@@ -2089,17 +2144,51 @@ export default function FamilyExplorer() {
             <Images /> Evidence
           </Button>
         </div>
-        <div className="search-wrap">
+        <div
+          className="search-wrap"
+          onBlurCapture={(event) => {
+            if (
+              !event.currentTarget.contains(event.relatedTarget as Node | null)
+            )
+              setSearchOpen(false);
+          }}
+        >
           <Search size={16} />
           <Input
             value={query}
             onChange={(event) => {
               setQuery(event.target.value);
               setSearchOpen(true);
+              setActiveSearchIndex(0);
             }}
             onFocus={() => setSearchOpen(true)}
-            aria-label="Search family members"
-            placeholder={`Find one of ${data.people.length} people…`}
+            onKeyDown={(event) => {
+              if (event.key === 'ArrowDown' && results.length) {
+                event.preventDefault();
+                setSearchOpen(true);
+                setActiveSearchIndex((index) =>
+                  Math.min(index + 1, results.length - 1),
+                );
+              } else if (event.key === 'ArrowUp' && results.length) {
+                event.preventDefault();
+                setActiveSearchIndex((index) => Math.max(index - 1, 0));
+              } else if (
+                event.key === 'Enter' &&
+                searchOpen &&
+                results.length
+              ) {
+                event.preventDefault();
+                startLineAt(results[activeSearchIndex].individual_id);
+              } else if (event.key === 'Escape') {
+                setSearchOpen(false);
+              }
+            }}
+            role="combobox"
+            aria-label="Search family members by name"
+            aria-autocomplete="list"
+            aria-expanded={searchOpen && normalize(query).length >= 2}
+            aria-controls="family-name-search-results"
+            placeholder={`Search ${data.people.length} people by name…`}
           />
           {query && (
             <Button
@@ -2112,12 +2201,14 @@ export default function FamilyExplorer() {
               <X />
             </Button>
           )}
-          {searchOpen && query.length >= 2 && (
-            <div className="search-results">
+          {searchOpen && normalize(query).length >= 2 && (
+            <div className="search-results" id="family-name-search-results">
               {results.length ? (
-                results.map((person) => (
+                results.map((person, index) => (
                   <button
                     key={person.individual_id}
+                    className={index === activeSearchIndex ? 'active' : ''}
+                    onMouseEnter={() => setActiveSearchIndex(index)}
                     onClick={() => startLineAt(person.individual_id)}
                   >
                     <span className="result-monogram">
@@ -2125,7 +2216,12 @@ export default function FamilyExplorer() {
                     </span>
                     <span>
                       <strong>{person.name}</strong>
-                      <small>{lifeYears(person)}</small>
+                      <small>
+                        {lifeYears(person)}
+                        {(treeLinesByPerson.get(person.individual_id) ?? [])
+                          .length > 0 &&
+                          ` · ${(treeLinesByPerson.get(person.individual_id) ?? []).join(' / ')} line`}
+                      </small>
                     </span>
                     <ChevronRight />
                   </button>
@@ -2168,6 +2264,7 @@ export default function FamilyExplorer() {
               mediaByPerson={mediaByPerson}
               selectedId={selectedId}
               line={treeLine}
+              focusRequest={treeFocusRequest}
               onLineChange={changeTreeLine}
               onSelect={selectPerson}
             />
