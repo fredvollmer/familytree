@@ -470,11 +470,15 @@ button {
   text-align: left;
   background: #fffaf6;
   box-shadow: 0 6px 16px #5530391c;
+  cursor: grab;
   transform: translateZ(0);
   transition:
     border-color 150ms ease,
     box-shadow 150ms ease,
     transform 150ms ease;
+}
+.tree-stage.dragging .tree-node-card {
+  cursor: grabbing;
 }
 .tree-node-card::before {
   content: '';

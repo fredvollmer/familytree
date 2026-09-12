@@ -629,7 +629,10 @@ function FamilyTree({
     clientX: number;
     clientY: number;
     transform: MapTransform;
+    moved: boolean;
+    captureTarget: Element;
   } | null>(null);
+  const suppressNodeClickRef = useRef(false);
   const anchorId = TREE_LINE_ANCHORS[line];
   const layout = useMemo(
     () => buildAncestorTree(anchorId, data, relations),
@@ -733,31 +736,43 @@ function FamilyTree({
   }, []);
 
   const pointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
-    if ((event.target as Element).closest('.tree-node-card, .tree-zoom'))
-      return;
+    if ((event.target as Element).closest('.tree-zoom')) return;
+    const captureTarget =
+      (event.target as Element).closest('.tree-node-card') ?? event.currentTarget;
     dragRef.current = {
       clientX: event.clientX,
       clientY: event.clientY,
       transform,
+      moved: false,
+      captureTarget,
     };
-    event.currentTarget.setPointerCapture(event.pointerId);
+    captureTarget.setPointerCapture(event.pointerId);
     setDragging(true);
   };
 
   const pointerMove = (event: ReactPointerEvent<HTMLDivElement>) => {
-    if (!dragRef.current) return;
+    const drag = dragRef.current;
+    if (!drag) return;
+    const deltaX = event.clientX - drag.clientX;
+    const deltaY = event.clientY - drag.clientY;
+    if (Math.hypot(deltaX, deltaY) >= 4) drag.moved = true;
     setTransform({
-      ...dragRef.current.transform,
-      x: dragRef.current.transform.x + event.clientX - dragRef.current.clientX,
-      y: dragRef.current.transform.y + event.clientY - dragRef.current.clientY,
+      ...drag.transform,
+      x: drag.transform.x + deltaX,
+      y: drag.transform.y + deltaY,
     });
   };
 
   const pointerUp = (event: ReactPointerEvent<HTMLDivElement>) => {
+    const drag = dragRef.current;
+    suppressNodeClickRef.current = drag?.moved ?? false;
     dragRef.current = null;
-    if (event.currentTarget.hasPointerCapture(event.pointerId))
-      event.currentTarget.releasePointerCapture(event.pointerId);
+    if (drag?.captureTarget.hasPointerCapture(event.pointerId))
+      drag.captureTarget.releasePointerCapture(event.pointerId);
     setDragging(false);
+    window.requestAnimationFrame(() => {
+      suppressNodeClickRef.current = false;
+    });
   };
 
   return (
@@ -860,7 +875,9 @@ function FamilyTree({
                 aria-current={selectedId === node.id ? 'true' : undefined}
                 className={`tree-node-card ${selectedId === node.id ? 'selected' : ''} ${selectionIsVisible && !highlightedIds.has(node.id) ? 'dimmed' : ''}`}
                 style={{ left: node.x, top: node.y }}
-                onClick={() => onSelect(node.id)}
+                onClick={() => {
+                  if (!suppressNodeClickRef.current) onSelect(node.id);
+                }}
               >
                 {media?.portrait_path ? (
                   <img src={assetUrl(media.portrait_path)} alt="" />
